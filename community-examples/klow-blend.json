@@ -1,0 +1,795 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "klow-blend",
+      "name": "KLOW Blend",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": "Proposed recovery, skin-remodeling and anti-inflammatory rationale: KLOW combines BPC-157, TB-500, GHK-Cu and KPV. Individual-component experiments report BPC-157 wound repair in rats, GHK-Cu connective-tissue effects in rat wounds, and KPV reduction of experimental intestinal inflammation in mice and cultured cells. These component findings do not demonstrate benefits of the four-part blend, its ratio, or synergy. No direct combination-efficacy study was found."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "8621ca60-0df4-43fc-b478-10ba66639aac",
+      "productID": "klow-blend",
+      "title": "KLOW 5:1:1:1 premix — representative 84-day titration",
+      "purpose": "Community tissue-repair, skin-remodeling and inflammation planning",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Secondary editorial/community protocol, not independently clinically validated. All source-described cautions, preparation, storage and timing require review.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "tissue_repair_skin_remodeling_and_inflammation",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "ghk-cu",
+              "name": "GHK-Cu",
+              "ratio_part": "5"
+            },
+            {
+              "library_item_id": "kpv",
+              "name": "KPV",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "bpc-157",
+              "name": "BPC-157",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "tb-500",
+              "name": "TB-500",
+              "ratio_part": "1",
+              "exact_sequence": null
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "80",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "ghk-cu",
+                "value": "50",
+                "unit": "mg"
+              },
+              {
+                "component_id": "kpv",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "80",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "ghk-cu",
+                "value": "50",
+                "unit": "mg"
+              },
+              {
+                "component_id": "kpv",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "80",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "4",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "ghk-cu",
+                "value": "50",
+                "unit": "mg"
+              },
+              {
+                "component_id": "kpv",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "Weeks 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "ghk-cu",
+                "dose": {
+                  "value": "1.25",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "kpv",
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "bpc-157",
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.075",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "7.5",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "Weeks 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "ghk-cu",
+                "dose": {
+                  "value": "2.5",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "kpv",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "bpc-157",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.15",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "15",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "Weeks 5–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "6",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "ghk-cu",
+                "dose": {
+                  "value": "3.75",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "kpv",
+                "dose": {
+                  "value": "750",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "bpc-157",
+                "dose": {
+                  "value": "750",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "dose": {
+                  "value": "750",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.225",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "22.5",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "Weeks 9–12 taper",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "ghk-cu",
+                "dose": {
+                  "value": "2.5",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "kpv",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "bpc-157",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.15",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "15",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing": null,
+          "basis": "not_reported",
+          "provenance": {
+            "source_id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+            "locator": "Dosing Protocol & Schedule; FAQ"
+          }
+        },
+        "cycle_guidance": {
+          "options": [
+            {
+              "label": "standard",
+              "on": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 42,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 14,
+                "maximum": 28,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "extended",
+              "on": {
+                "kind": "range",
+                "minimum": 56,
+                "maximum": 84,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "fixed",
+                "value": 28,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "anecdotal_maximum_extension",
+              "on": {
+                "kind": "maximum",
+                "value": 112,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "minimum",
+                "value": 28,
+                "unit": "day"
+              }
+            }
+          ],
+          "repeat_rule": null,
+          "notes": "The typical shorter cycle differs from the representative 84-day titration. Maximum extension is an anecdotal source claim.",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+            "locator": "Quick Start; Cycle Guidelines"
+          },
+          "references": [
+            {
+              "source_id": "fd6a5cf9-7a30-4f19-8365-13e6bc4cb6d3",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/klow-peptide-cycle-length",
+              "source_tables": [
+                {
+                  "section": "KLOW cycle length chart",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Community approach",
+                      "Reported duration",
+                      "Reported break",
+                      "Evidence level"
+                    ],
+                    [
+                      "Shorter cycle",
+                      "4-6 weeks",
+                      "2-4 weeks",
+                      "Common research-community pattern; no KLOW trial"
+                    ],
+                    [
+                      "Extended cycle",
+                      "8-12 weeks",
+                      "About 4 weeks",
+                      "Reported in community protocols; no KLOW trial"
+                    ],
+                    [
+                      "Long extension",
+                      "Up to 16 weeks",
+                      "4+ weeks",
+                      "Anecdotal; very limited evidence for prolonged blend exposure"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Community KLOW cycles vs. research study durations",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Source",
+                      "Example duration",
+                      "What was studied",
+                      "What it tells us about KLOW"
+                    ],
+                    [
+                      "KLOW research community",
+                      "4-6 weeks",
+                      "Four-peptide KLOW blend",
+                      "Commonly reported cycle structure, not a controlled study"
+                    ],
+                    [
+                      "Extended KLOW community protocols",
+                      "8-12 weeks",
+                      "Four-peptide KLOW blend",
+                      "Shows how longer cycles are discussed, not that they are proven"
+                    ],
+                    [
+                      "Longer anecdotal KLOW protocols",
+                      "Up to 16 weeks",
+                      "Four-peptide KLOW blend",
+                      "Anecdotal only; long-term blend data are lacking"
+                    ],
+                    [
+                      "GHK-Cu research",
+                      "Up to about 12 weeks in human topical studies",
+                      "GHK-Cu used on the skin",
+                      "Supports GHK-Cu research, not an injectable KLOW cycle"
+                    ],
+                    [
+                      "KPV research",
+                      "Days to weeks depending on the model",
+                      "Mostly cell and animal inflammation models",
+                      "Does not establish a KLOW cycle length"
+                    ],
+                    [
+                      "BPC-157 research",
+                      "Varies widely by study",
+                      "Mostly animal studies",
+                      "No standard human cycle can be taken from this research"
+                    ],
+                    [
+                      "Thymosin beta-4 research",
+                      "Days to weeks depending on the model",
+                      "Full-length thymosin beta-4 in many studies",
+                      "Does not establish a TB-500 or KLOW cycle"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "dry": {
+            "temperature_c": "-20",
+            "short_term_refrigeration": true,
+            "protect_from_light": true,
+            "expiry": null
+          },
+          "reconstituted": {
+            "temperature_c": {
+              "minimum": "2",
+              "maximum": "8"
+            },
+            "use_within": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 28,
+              "unit": "day"
+            },
+            "freeze": false,
+            "protect_from_light": true
+          },
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+            "locator": "Storage & Handling"
+          }
+        },
+        "cautions": {
+          "exclusions": [
+            "active_or_recent_malignancy",
+            "copper_metabolism_disorder",
+            "pregnancy_or_breastfeeding",
+            "drug_tested_sport"
+          ],
+          "interaction_cautions": [
+            "anticoagulants"
+          ],
+          "reported_effects": [
+            "local_redness_swelling_sensitivity",
+            "fatigue",
+            "digestive_changes",
+            "headache",
+            "lightheadedness"
+          ],
+          "interaction_studies_reported": false,
+          "monitoring_basis": "component-pathway extrapolation; no established blend-specific clinical standard",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+            "locator": "Side Effects & Safety; Blood Tests & Monitoring"
+          }
+        },
+        "evidence_context": {
+          "regimen_basis": "community_derived",
+          "direct_combination_trial_reported": false,
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "exact_clock_time",
+          "best_time_of_day",
+          "food_timing",
+          "exact_TB_500_sequence",
+          "typical_cycle_vs_titration_duration",
+          "product_specific_stability_validation"
+        ],
+        "notes": "Keep the four titration phases as one protocol. Alternative water amounts are preparation options. No separate-product KLOW schedule is established by this page."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+      "url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+      "title": "KLOW Peptide Dosing Guide: GHK-Cu, KPV, BPC-157 & TB-500 Blend Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8227353/",
+      "title": "In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds",
+      "publisher": "Journal of Clinical Investigation / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/",
+      "title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation",
+      "publisher": "Gastroenterology / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9403790/",
+      "title": "BPC 157's effect on healing",
+      "publisher": "Journal of Physiology, Paris / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "fd6a5cf9-7a30-4f19-8365-13e6bc4cb6d3",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/klow-peptide-cycle-length",
+      "title": "KLOW Peptide Cycle Length: How Long Is a KLOW Cycle? (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "8621ca60-0df4-43fc-b478-10ba66639aac",
+      "sourceID": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+      "locator": "Common Research-Context Titration; Cycle Guidelines; Reconstitution Guide; Side Effects & Safety; Storage & Handling",
+      "evidenceNote": "Supports the listed community-described fields; no direct combination trial validation.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "8621ca60-0df4-43fc-b478-10ba66639aac",
+      "sourceID": "fd6a5cf9-7a30-4f19-8365-13e6bc4cb6d3",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Background duration/break evidence; not a replacement for dose, product label, route, or population-specific instructions.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "klow-blend",
+      "sourceID": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Original library reference read for named composition and intended purpose. This is a community guide, not a study proving combination benefits. Category rationale: Provisional classification by the source's tissue-repair and inflammation research purpose, without efficacy inference.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "klow-blend",
+      "sourceID": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Original rat-study abstract read. Component rationale only; no KLOW blend tested. Category rationale: Provisional classification by the source's tissue-repair and inflammation research purpose, without efficacy inference.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "klow-blend",
+      "sourceID": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Original indexed abstract read. KPV cell and mouse experiments explain an anti-inflammatory research aim; no KLOW blend tested. Category rationale: Provisional classification by the source's tissue-repair and inflammation research purpose, without efficacy inference.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "klow-blend",
+      "sourceID": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Original rat-study abstract read. Component rationale only; no KLOW blend tested. Category rationale: Provisional classification by the source's tissue-repair and inflammation research purpose, without efficacy inference.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Healing & Recovery"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

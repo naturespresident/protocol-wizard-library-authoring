@@ -1,0 +1,2948 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Protocol Wizard product library — schema version 1",
+  "description": "One product and its protocols. The app validates the selection, installed component dependencies, and the merged library before installation.",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "description": "Optional editor hint pointing to this schema."
+    },
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "catalogVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item"
+      },
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "protocols": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/protocol"
+      },
+      "minItems": 1
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/source"
+      }
+    },
+    "citations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/citation"
+      }
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/category"
+      }
+    },
+    "methods": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/method"
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "catalogVersion",
+    "items",
+    "protocols",
+    "sources",
+    "citations",
+    "categories",
+    "methods"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "nonblank": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "methodID": {
+      "type": "string",
+      "enum": [
+        "unspecified",
+        "subcutaneous",
+        "intramuscular",
+        "oral",
+        "intranasal",
+        "topical",
+        "other"
+      ]
+    },
+    "item": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/nonblank"
+        },
+        "name": {
+          "$ref": "#/$defs/nonblank"
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "product",
+            "blend",
+            "other",
+            "unresolved"
+          ]
+        },
+        "identityStatus": {
+          "type": "string",
+          "enum": [
+            "resolved",
+            "needs_confirmation"
+          ]
+        },
+        "categoryID": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "benefits": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "aliases",
+        "kind",
+        "identityStatus"
+      ],
+      "additionalProperties": false
+    },
+    "protocol": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/nonblank"
+        },
+        "productID": {
+          "$ref": "#/$defs/nonblank"
+        },
+        "title": {
+          "$ref": "#/$defs/nonblank"
+        },
+        "purpose": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "methodID": {
+          "$ref": "#/$defs/methodID"
+        },
+        "population": {
+          "type": "string"
+        },
+        "evidenceNotes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "regimen": {
+          "$ref": "#/$defs/regimen"
+        }
+      },
+      "required": [
+        "id",
+        "productID",
+        "title",
+        "methodID",
+        "population",
+        "regimen"
+      ],
+      "additionalProperties": false
+    },
+    "source": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/nonblank"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^https?://[^\\s/@]+(?:[/:?#][^\\s]*)?$",
+          "description": "HTTP or HTTPS source URL without embedded credentials. The app also validates the parsed URL."
+        },
+        "title": {
+          "type": "string"
+        },
+        "publisher": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "type": {
+          "type": "string",
+          "description": "Free-form source category; common values are shown as examples.",
+          "examples": [
+            "human_study",
+            "animal_study",
+            "lab_study",
+            "regulatory_label",
+            "manufacturer",
+            "clinical_guidance",
+            "other"
+          ]
+        },
+        "publishedAt": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "url",
+        "title",
+        "type"
+      ],
+      "additionalProperties": false
+    },
+    "citation": {
+      "type": "object",
+      "properties": {
+        "protocolID": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "productID": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sourceID": {
+          "$ref": "#/$defs/nonblank"
+        },
+        "locator": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "evidenceNote": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "supports": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "sourceID",
+        "supports"
+      ],
+      "additionalProperties": false,
+      "oneOf": [
+        {
+          "required": [
+            "protocolID"
+          ],
+          "properties": {
+            "protocolID": {
+              "$ref": "#/$defs/nonblank"
+            },
+            "productID": {
+              "type": "null"
+            }
+          }
+        },
+        {
+          "required": [
+            "productID"
+          ],
+          "properties": {
+            "productID": {
+              "$ref": "#/$defs/nonblank"
+            },
+            "protocolID": {
+              "type": "null"
+            }
+          }
+        }
+      ]
+    },
+    "category": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "name": {
+          "$ref": "#/$defs/nonblank"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "method": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/methodID"
+        },
+        "name": {
+          "$ref": "#/$defs/nonblank"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "additionalProperties": false
+    },
+    "regimen": {
+      "type": "object",
+      "properties": {
+        "cautions": {
+          "type": "object",
+          "properties": {
+            "basis": {
+              "type": "string"
+            },
+            "clinical_standard_established": {
+              "type": "boolean"
+            },
+            "exclusions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "independent_verification": {
+              "type": "boolean"
+            },
+            "interaction_cautions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "interaction_studies_reported": {
+              "type": "boolean"
+            },
+            "monitoring": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "after_cycle_days": {
+                    "type": "number"
+                  },
+                  "after_start_days": {
+                    "type": "object",
+                    "properties": {
+                      "maximum": {
+                        "type": "number"
+                      },
+                      "minimum": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "condition": {
+                    "type": "string"
+                  },
+                  "markers": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "time": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "monitoring_basis": {
+              "type": "string"
+            },
+            "provenance": {
+              "type": "object",
+              "properties": {
+                "locator": {
+                  "type": "string"
+                },
+                "source_id": {
+                  "type": "string"
+                },
+                "source_url": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "reported_effects": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "source_id": {
+              "type": "string"
+            },
+            "source_statements": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "excerpt": {
+                    "type": "string"
+                  },
+                  "section": {
+                    "type": "string"
+                  },
+                  "subsection": {
+                    "type": "string"
+                  },
+                  "truncated": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": true
+              }
+            }
+          },
+          "additionalProperties": true
+        },
+        "clinical_context": {
+          "type": "object",
+          "properties": {
+            "indication_context": {
+              "type": "string"
+            },
+            "population": {
+              "type": "string"
+            },
+            "population_eligibility": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "renal_impairment": {
+              "type": "string"
+            },
+            "setting": {
+              "type": "string"
+            },
+            "study": {
+              "type": "string"
+            },
+            "study_id": {
+              "type": "string"
+            },
+            "study_phase": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "component_regimens": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "component_id": {
+                "type": "string"
+              },
+              "maintenance_maximum": {
+                "type": "object",
+                "properties": {
+                  "unit": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              },
+              "phases": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "condition": {
+                      "type": "string"
+                    },
+                    "dose": {
+                      "type": [
+                        "null",
+                        "object"
+                      ],
+                      "properties": {
+                        "basis": {
+                          "type": "string"
+                        },
+                        "maximum": {
+                          "type": "string"
+                        },
+                        "minimum": {
+                          "type": "string"
+                        },
+                        "options": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "unit": {
+                          "type": "string",
+                          "enum": [
+                            "mg",
+                            "mcg",
+                            "IU",
+                            "mL",
+                            "tablet",
+                            "capsule",
+                            "spray",
+                            "drop",
+                            "application"
+                          ]
+                        },
+                        "value": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": true,
+                      "required": [
+                        "unit"
+                      ]
+                    },
+                    "duration": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "type": "string"
+                        },
+                        "unit": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 1,
+                          "maximum": 365000
+                        }
+                      },
+                      "additionalProperties": true
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "schedule": {
+                      "type": "object",
+                      "properties": {
+                        "description": {
+                          "type": "string"
+                        },
+                        "doses_per_day": {
+                          "type": [
+                            "null",
+                            "number"
+                          ]
+                        },
+                        "example_iso_weekdays": {
+                          "type": "array",
+                          "items": {
+                            "type": "number"
+                          }
+                        },
+                        "frequency_range": {
+                          "type": "object",
+                          "properties": {
+                            "maximum": {
+                              "type": "number"
+                            },
+                            "minimum": {
+                              "type": "number"
+                            },
+                            "period": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": true
+                        },
+                        "interval_days": {
+                          "type": "number"
+                        },
+                        "pattern": {
+                          "type": "string"
+                        },
+                        "suggested_times": {
+                          "type": "array",
+                          "items": {}
+                        },
+                        "times_per_week": {
+                          "type": "number"
+                        }
+                      },
+                      "additionalProperties": true
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "preparation_applies_to_routes": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "unspecified",
+                    "subcutaneous",
+                    "intramuscular",
+                    "oral",
+                    "intranasal",
+                    "topical",
+                    "other"
+                  ]
+                }
+              },
+              "preparation_options": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "component_id": {
+                      "type": "string"
+                    },
+                    "diluent": {
+                      "type": "string"
+                    },
+                    "diluent_volume": {
+                      "type": "object",
+                      "properties": {
+                        "unit": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": true
+                    },
+                    "dry_amount": {
+                      "type": "object",
+                      "properties": {
+                        "unit": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": true
+                    },
+                    "form": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "route": {
+                "type": "string",
+                "enum": [
+                  "unspecified",
+                  "subcutaneous",
+                  "intramuscular",
+                  "oral",
+                  "intranasal",
+                  "topical",
+                  "other"
+                ]
+              },
+              "route_options": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": [
+                    "unspecified",
+                    "subcutaneous",
+                    "intramuscular",
+                    "oral",
+                    "intranasal",
+                    "topical",
+                    "other"
+                  ]
+                }
+              },
+              "start_offset_days": {
+                "type": "number"
+              },
+              "timing_guidance": {
+                "type": "object",
+                "properties": {
+                  "basis": {
+                    "type": "string"
+                  },
+                  "certainty": {
+                    "type": "string"
+                  },
+                  "example_time_of_day": {
+                    "type": "string"
+                  },
+                  "food_guidance": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "state": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "preferred_time_of_day": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "provenance": {
+                    "type": "object",
+                    "properties": {
+                      "locator": {
+                        "type": "string"
+                      },
+                      "source_id": {
+                        "type": "string"
+                      },
+                      "source_url": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "relative_events": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "anchor": {
+                          "type": "string"
+                        },
+                        "basis": {
+                          "type": "string"
+                        },
+                        "offset": {
+                          "type": [
+                            "null",
+                            "object"
+                          ],
+                          "properties": {
+                            "maximum": {
+                              "type": "number"
+                            },
+                            "minimum": {
+                              "type": "number"
+                            },
+                            "unit": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": true
+                        },
+                        "relationship": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  },
+                  "spacing": {
+                    "type": "null"
+                  },
+                  "spacing_between_components": {
+                    "type": "null"
+                  },
+                  "suggested_clock_times": {
+                    "type": "array",
+                    "items": {}
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "conditional_escalation": {
+          "type": "object",
+          "properties": {
+            "increment": {
+              "type": "object",
+              "properties": {
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "maintenance_options": {
+              "type": "object",
+              "properties": {
+                "obstructive_sleep_apnea": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "weight_management": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "additionalProperties": true
+            },
+            "maximum": {
+              "type": "object",
+              "properties": {
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "minimum_days_at_each_dose": {
+              "type": "number"
+            },
+            "post_initiation_start": {
+              "type": "object",
+              "properties": {
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        },
+        "cycle_guidance": {
+          "type": "object",
+          "properties": {
+            "basis": {
+              "type": "string"
+            },
+            "conflicting_guidance": {
+              "type": "object",
+              "properties": {
+                "off": {
+                  "type": "string"
+                },
+                "on": {
+                  "type": "object",
+                  "properties": {
+                    "kind": {
+                      "type": "string"
+                    },
+                    "maximum": {
+                      "type": "number"
+                    },
+                    "minimum": {
+                      "type": "number"
+                    },
+                    "unit": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "additionalProperties": true
+            },
+            "notes": {
+              "type": "string"
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "label": {
+                    "type": "string"
+                  },
+                  "off": {
+                    "type": "object",
+                    "properties": {
+                      "kind": {
+                        "type": "string"
+                      },
+                      "maximum": {
+                        "type": "number"
+                      },
+                      "minimum": {
+                        "type": "number"
+                      },
+                      "unit": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "on": {
+                    "type": "object",
+                    "properties": {
+                      "kind": {
+                        "type": "string"
+                      },
+                      "maximum": {
+                        "type": "number"
+                      },
+                      "minimum": {
+                        "type": "number"
+                      },
+                      "unit": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "provenance": {
+              "type": "object",
+              "properties": {
+                "locator": {
+                  "type": "string"
+                },
+                "source_id": {
+                  "type": "string"
+                },
+                "source_url": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "references": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "scope": {
+                    "type": "string"
+                  },
+                  "source_id": {
+                    "type": "string"
+                  },
+                  "source_tables": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "rows": {
+                          "type": "array",
+                          "items": {
+                            "type": "array",
+                            "items": {
+                              "type": "string"
+                            }
+                          }
+                        },
+                        "section": {
+                          "type": "string"
+                        },
+                        "subsection": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  },
+                  "source_url": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "repeat_rule": {
+              "type": "null"
+            },
+            "source_id": {
+              "type": "string"
+            },
+            "source_tables": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "rows": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "section": {
+                    "type": "string"
+                  },
+                  "subsection": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              }
+            }
+          },
+          "additionalProperties": true
+        },
+        "dose_arm_context": {
+          "type": "object",
+          "properties": {
+            "1": {
+              "type": "string"
+            },
+            "0.25": {
+              "type": "string"
+            },
+            "0.5": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "evidence_context": {
+          "type": "object",
+          "properties": {
+            "citation_variant_warning": {
+              "type": "string"
+            },
+            "direct_combination_trial_reported": {
+              "type": "boolean"
+            },
+            "independent_primary_source_verification": {
+              "type": "boolean"
+            },
+            "regimen_basis": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "formulation": {
+          "type": "object",
+          "properties": {
+            "components": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "exact_sequence": {
+                    "type": "null"
+                  },
+                  "library_item_id": {
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  },
+                  "ratio_part": {
+                    "type": "string"
+                  },
+                  "variant": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "concentration": {
+              "type": "object",
+              "properties": {
+                "maximum": {
+                  "type": "string"
+                },
+                "minimum": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "concentration_options": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "trial_scope": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "fixed_component_ratio": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "format": {
+              "type": "string"
+            },
+            "product": {
+              "type": "string"
+            },
+            "sequence_as_reported": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "handling_guidance": {
+          "type": "object",
+          "properties": {
+            "basis": {
+              "type": "string"
+            },
+            "independent_product_compatibility_verified": {
+              "type": "boolean"
+            },
+            "mix_in_one_syringe": {
+              "type": "boolean"
+            },
+            "provenance": {
+              "type": "object",
+              "properties": {
+                "locator": {
+                  "type": "string"
+                },
+                "source_id": {
+                  "type": "string"
+                },
+                "source_url": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "same_session_allowed": {
+              "type": "boolean"
+            },
+            "separate_syringes": {
+              "type": "boolean"
+            },
+            "source_allows_same_syringe": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": true
+        },
+        "maintenance_alternatives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dose": {
+                "type": "object",
+                "properties": {
+                  "basis": {
+                    "type": "string"
+                  },
+                  "maximum": {
+                    "type": "string"
+                  },
+                  "minimum": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string",
+                    "enum": [
+                      "mg",
+                      "mcg",
+                      "IU",
+                      "mL",
+                      "tablet",
+                      "capsule",
+                      "spray",
+                      "drop",
+                      "application"
+                    ]
+                  }
+                },
+                "additionalProperties": true,
+                "required": [
+                  "unit"
+                ]
+              },
+              "schedule": {
+                "type": "object",
+                "properties": {
+                  "description": {
+                    "type": "string"
+                  },
+                  "doses_per_day": {
+                    "type": "null"
+                  },
+                  "frequency_maximum": {
+                    "type": "object",
+                    "properties": {
+                      "period": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "frequency_range": {
+                    "type": "object",
+                    "properties": {
+                      "maximum": {
+                        "type": "number"
+                      },
+                      "minimum": {
+                        "type": "number"
+                      },
+                      "period": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "pattern": {
+                    "type": "string"
+                  },
+                  "suggested_times": {
+                    "type": "array",
+                    "items": {}
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "maintenance_option": {
+          "type": "object",
+          "properties": {
+            "condition": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "value": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "notes": {
+          "type": "string"
+        },
+        "off_period": {
+          "type": "object",
+          "properties": {
+            "maximum": {
+              "type": "number"
+            },
+            "minimum": {
+              "type": "number"
+            },
+            "unit": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "optional_extension": {
+          "type": "object",
+          "properties": {
+            "dose": {
+              "type": "object",
+              "properties": {
+                "basis": {
+                  "type": "string"
+                },
+                "maximum": {
+                  "type": "string"
+                },
+                "minimum": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": [
+                    "mg",
+                    "mcg",
+                    "IU",
+                    "mL",
+                    "tablet",
+                    "capsule",
+                    "spray",
+                    "drop",
+                    "application"
+                  ]
+                }
+              },
+              "additionalProperties": true,
+              "required": [
+                "unit"
+              ]
+            },
+            "duration": {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": [
+                    "integer",
+                    "null"
+                  ],
+                  "minimum": 1,
+                  "maximum": 365000
+                }
+              },
+              "additionalProperties": true
+            },
+            "optional_increase": {
+              "type": "object",
+              "properties": {
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "starting_dose": {
+              "type": "object",
+              "properties": {
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        },
+        "phase_alternatives": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "phases": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "dose": {
+                      "type": "object",
+                      "properties": {
+                        "basis": {
+                          "type": "string"
+                        },
+                        "maximum": {
+                          "type": "string"
+                        },
+                        "minimum": {
+                          "type": "string"
+                        },
+                        "unit": {
+                          "type": "string",
+                          "enum": [
+                            "mg",
+                            "mcg",
+                            "IU",
+                            "mL",
+                            "tablet",
+                            "capsule",
+                            "spray",
+                            "drop",
+                            "application"
+                          ]
+                        },
+                        "value": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": true,
+                      "required": [
+                        "unit"
+                      ]
+                    },
+                    "duration": {
+                      "type": "object",
+                      "properties": {
+                        "kind": {
+                          "type": "string"
+                        },
+                        "unit": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": [
+                            "integer",
+                            "null"
+                          ],
+                          "minimum": 1,
+                          "maximum": 365000
+                        }
+                      },
+                      "additionalProperties": true
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "schedule": {
+                      "type": "object",
+                      "properties": {
+                        "description": {
+                          "type": "string"
+                        },
+                        "doses_per_day": {
+                          "type": [
+                            "null",
+                            "number"
+                          ]
+                        },
+                        "frequency_range": {
+                          "type": "object",
+                          "properties": {
+                            "maximum": {
+                              "type": "number"
+                            },
+                            "minimum": {
+                              "type": "number"
+                            },
+                            "period": {
+                              "type": "string"
+                            }
+                          },
+                          "additionalProperties": true
+                        },
+                        "interval_days": {
+                          "type": "number"
+                        },
+                        "pattern": {
+                          "type": "string"
+                        },
+                        "suggested_times": {
+                          "type": "array",
+                          "items": {}
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "split_option": {
+                "type": "object",
+                "properties": {
+                  "dose": {
+                    "type": "object",
+                    "properties": {
+                      "basis": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string",
+                        "enum": [
+                          "mg",
+                          "mcg",
+                          "IU",
+                          "mL",
+                          "tablet",
+                          "capsule",
+                          "spray",
+                          "drop",
+                          "application"
+                        ]
+                      },
+                      "value": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": true,
+                    "required": [
+                      "unit"
+                    ]
+                  },
+                  "schedule": {
+                    "type": "object",
+                    "properties": {
+                      "doses_per_day": {
+                        "type": "number"
+                      },
+                      "pattern": {
+                        "type": "string"
+                      },
+                      "suggested_times": {
+                        "type": "array",
+                        "items": {}
+                      },
+                      "times_per_week": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "additionalProperties": true
+              },
+              "start_week": {
+                "type": "number"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "phases": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "administration_volume": {
+                "type": "object",
+                "properties": {
+                  "unit": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              },
+              "component_doses": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "component_id": {
+                      "type": "string"
+                    },
+                    "dose": {
+                      "type": "object",
+                      "properties": {
+                        "approximate": {
+                          "type": "boolean"
+                        },
+                        "basis": {
+                          "type": "string"
+                        },
+                        "maximum": {
+                          "type": "string"
+                        },
+                        "minimum": {
+                          "type": "string"
+                        },
+                        "unit": {
+                          "type": "string",
+                          "enum": [
+                            "mg",
+                            "mcg",
+                            "IU",
+                            "mL",
+                            "tablet",
+                            "capsule",
+                            "spray",
+                            "drop",
+                            "application"
+                          ]
+                        },
+                        "value": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": true,
+                      "required": [
+                        "unit"
+                      ]
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "condition": {
+                "type": "string"
+              },
+              "dose": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "approximate": {
+                    "type": "boolean"
+                  },
+                  "basis": {
+                    "type": "string",
+                    "enum": [
+                      "total_product",
+                      "per_administration",
+                      "biological_activity",
+                      "component",
+                      "body_weight",
+                      "daily_total",
+                      "weekly_total",
+                      "per_session",
+                      "not_reported"
+                    ]
+                  },
+                  "conditions": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "condition": {
+                          "type": "string"
+                        },
+                        "value": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  },
+                  "kind": {
+                    "type": "string"
+                  },
+                  "maximum": {
+                    "type": "string"
+                  },
+                  "minimum": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  },
+                  "options": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "range_options": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "maximum": {
+                          "type": "string"
+                        },
+                        "minimum": {
+                          "type": "string"
+                        }
+                      },
+                      "additionalProperties": true
+                    }
+                  },
+                  "unit": {
+                    "type": "string",
+                    "enum": [
+                      "mg",
+                      "mcg",
+                      "IU",
+                      "mL",
+                      "tablet",
+                      "capsule",
+                      "spray",
+                      "drop",
+                      "application"
+                    ]
+                  },
+                  "value": {
+                    "type": [
+                      "null",
+                      "string"
+                    ]
+                  }
+                },
+                "additionalProperties": true,
+                "description": "A single decimal string value, a minimum/maximum range, options, or null when unknown. These are reference quantities; ranges and component/body-weight doses are not automatically chosen.",
+                "required": [
+                  "unit"
+                ]
+              },
+              "duration": {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "fixed",
+                      "range",
+                      "minimum",
+                      "maximum",
+                      "ongoing",
+                      "unreported",
+                      "target_dose",
+                      "target_dose_choices"
+                    ]
+                  },
+                  "maximum": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 1,
+                    "maximum": 365000
+                  },
+                  "minimum": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 1,
+                    "maximum": 365000
+                  },
+                  "unit": {
+                    "type": "string",
+                    "enum": [
+                      "day",
+                      "week",
+                      "calendar_month"
+                    ]
+                  },
+                  "value": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 1,
+                    "maximum": 365000
+                  }
+                },
+                "additionalProperties": true,
+                "required": [
+                  "kind"
+                ]
+              },
+              "name": {
+                "type": "string",
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "schedule": {
+                "type": "object",
+                "properties": {
+                  "block_pattern": {
+                    "type": "object",
+                    "properties": {
+                      "off_days": {
+                        "type": "number"
+                      },
+                      "on_days": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "description": {
+                    "type": "string"
+                  },
+                  "doses_per_day": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 1,
+                    "maximum": 1440
+                  },
+                  "frequency_range": {
+                    "type": "object",
+                    "properties": {
+                      "maximum": {
+                        "type": "number"
+                      },
+                      "minimum": {
+                        "type": "number"
+                      },
+                      "period": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "interval_days": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 1,
+                    "maximum": 365000
+                  },
+                  "interval_days_range": {
+                    "type": "object",
+                    "properties": {
+                      "maximum": {
+                        "type": "number"
+                      },
+                      "minimum": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "maximum_doses_per_24_hours": {
+                    "type": "number"
+                  },
+                  "maximum_doses_per_month": {
+                    "type": "number"
+                  },
+                  "minimum_minutes_before_event": {
+                    "type": "number"
+                  },
+                  "pattern": {
+                    "type": "string",
+                    "enum": [
+                      "daily",
+                      "every_n_days",
+                      "weekdays",
+                      "times_per_week",
+                      "as_needed",
+                      "source_described"
+                    ]
+                  },
+                  "suggested_times": {
+                    "type": "array",
+                    "items": {
+                      "type": "string",
+                      "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$"
+                    },
+                    "description": "Local 24-hour times (HH:mm). An empty array leaves times for the user to choose."
+                  },
+                  "times_per_week": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ],
+                    "minimum": 1,
+                    "maximum": 7
+                  },
+                  "times_per_week_options": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    }
+                  },
+                  "timing_instruction": {
+                    "type": "string"
+                  },
+                  "weekdays": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer",
+                      "minimum": 1,
+                      "maximum": 7
+                    },
+                    "description": "ISO weekday numbers: Monday=1 through Sunday=7."
+                  }
+                },
+                "additionalProperties": true,
+                "required": [
+                  "pattern"
+                ]
+              },
+              "source_dose_basis": {
+                "type": "string"
+              },
+              "source_measurement": {
+                "type": "object",
+                "properties": {
+                  "preparation_option_index": {
+                    "type": "number"
+                  },
+                  "syringe": {
+                    "type": "object",
+                    "properties": {
+                      "calibration_units_per_mL": {
+                        "type": "string"
+                      },
+                      "maximum": {
+                        "type": "string"
+                      },
+                      "minimum": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "volume": {
+                    "type": "object",
+                    "properties": {
+                      "maximum": {
+                        "type": "string"
+                      },
+                      "minimum": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string"
+                      },
+                      "value": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "additionalProperties": true
+              },
+              "status": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true,
+            "required": [
+              "name",
+              "duration",
+              "dose",
+              "schedule"
+            ]
+          },
+          "minItems": 1
+        },
+        "preparation_options": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "calculation_basis": {
+                "type": "string"
+              },
+              "component_amounts": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "component_id": {
+                      "type": "string"
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "component_id": {
+                "type": "null"
+              },
+              "container_amount": {
+                "type": "object",
+                "properties": {
+                  "unit": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              },
+              "container_volume": {
+                "type": "object",
+                "properties": {
+                  "unit": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              },
+              "diluent": {
+                "type": "string"
+              },
+              "diluent_volume": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "unit": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              },
+              "discard_after_first_open_days": {
+                "type": "number"
+              },
+              "dry_amount": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "unit": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              },
+              "final_solution_volume": {
+                "type": "null"
+              },
+              "form": {
+                "type": "string"
+              },
+              "labeled_concentration": {
+                "type": "object",
+                "properties": {
+                  "unit": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              },
+              "provenance": {
+                "type": "object",
+                "properties": {
+                  "locator": {
+                    "type": "string"
+                  },
+                  "source_id": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              },
+              "reconstitution_required": {
+                "type": "boolean"
+              },
+              "source_reported_concentration": {
+                "type": [
+                  "null",
+                  "object"
+                ],
+                "properties": {
+                  "approximate": {
+                    "type": "boolean"
+                  },
+                  "unit": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              },
+              "storage": {
+                "type": "object",
+                "properties": {
+                  "after_mixing_temperature_c": {
+                    "type": "object",
+                    "properties": {
+                      "maximum": {
+                        "type": "number"
+                      },
+                      "minimum": {
+                        "type": "number"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "discard_after_days": {
+                    "type": "number"
+                  },
+                  "discard_remainder": {
+                    "type": "boolean"
+                  },
+                  "use_immediately": {
+                    "type": "boolean"
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "reference_urls": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "regimen_type": {
+          "type": "string",
+          "enum": [
+            "single_compound",
+            "premixed_blend",
+            "stack"
+          ],
+          "description": "Stacks are viewable reference content; they cannot be activated as a single personal protocol."
+        },
+        "repeat_guidance": {
+          "type": "object",
+          "properties": {
+            "conflict_requires_review": {
+              "type": "boolean"
+            },
+            "cycles_per_year": {
+              "type": "object",
+              "properties": {
+                "maximum": {
+                  "type": "number"
+                },
+                "minimum": {
+                  "type": "number"
+                }
+              },
+              "additionalProperties": true
+            },
+            "quick_start_times_per_year": {
+              "type": "object",
+              "properties": {
+                "maximum": {
+                  "type": "number"
+                },
+                "minimum": {
+                  "type": "number"
+                }
+              },
+              "additionalProperties": true
+            },
+            "source_table_times_per_year": {
+              "type": "object",
+              "properties": {
+                "maximum": {
+                  "type": "number"
+                },
+                "minimum": {
+                  "type": "number"
+                }
+              },
+              "additionalProperties": true
+            },
+            "spacing": {
+              "type": "object",
+              "properties": {
+                "maximum": {
+                  "type": "number"
+                },
+                "minimum": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        },
+        "schedule_alternative": {
+          "type": "object",
+          "properties": {
+            "doses_per_day": {
+              "type": "number"
+            },
+            "iso_weekdays": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "pattern": {
+              "type": "string"
+            },
+            "source_description": {
+              "type": "string"
+            },
+            "suggested_times": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "additionalProperties": true
+        },
+        "source_calendar_duration": {
+          "type": "object",
+          "properties": {
+            "maximum": {
+              "type": "number"
+            },
+            "minimum": {
+              "type": "number"
+            },
+            "qualifier": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "value": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": true
+        },
+        "source_upper_community_limits": {
+          "type": "object",
+          "properties": {
+            "dose": {
+              "type": "object",
+              "properties": {
+                "basis": {
+                  "type": "string"
+                },
+                "kind": {
+                  "type": "string"
+                },
+                "maximum": {
+                  "type": "string"
+                },
+                "minimum": {
+                  "type": "null"
+                },
+                "unit": {
+                  "type": "string",
+                  "enum": [
+                    "mg",
+                    "mcg",
+                    "IU",
+                    "mL",
+                    "tablet",
+                    "capsule",
+                    "spray",
+                    "drop",
+                    "application"
+                  ]
+                }
+              },
+              "additionalProperties": true,
+              "required": [
+                "unit"
+              ]
+            },
+            "maximum_doses_per_day": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": true
+        },
+        "source_upper_limit": {
+          "type": "object",
+          "properties": {
+            "basis": {
+              "type": "string"
+            },
+            "kind": {
+              "type": "string"
+            },
+            "maximum": {
+              "type": "string"
+            },
+            "minimum": {
+              "type": "null"
+            },
+            "unit": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "storage": {
+          "type": "object",
+          "properties": {
+            "basis": {
+              "type": "string"
+            },
+            "discard_if": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "dry": {
+              "type": "object",
+              "properties": {
+                "expiry": {
+                  "type": "null"
+                },
+                "protect_from_light": {
+                  "type": "boolean"
+                },
+                "short_term_refrigeration": {
+                  "type": "boolean"
+                },
+                "supplier_label_controls_expiry": {
+                  "type": "boolean"
+                },
+                "temperature_c": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "notes": {
+              "type": "string"
+            },
+            "provenance": {
+              "type": "object",
+              "properties": {
+                "locator": {
+                  "type": "string"
+                },
+                "source_id": {
+                  "type": "string"
+                },
+                "source_url": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "reconstituted": {
+              "type": "object",
+              "properties": {
+                "avoid_repeated_freeze_thaw": {
+                  "type": "boolean"
+                },
+                "component_use_within": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "component_id": {
+                        "type": "string"
+                      },
+                      "duration": {
+                        "type": "object",
+                        "properties": {
+                          "kind": {
+                            "type": "string"
+                          },
+                          "maximum": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ],
+                            "minimum": 1,
+                            "maximum": 365000
+                          },
+                          "minimum": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ],
+                            "minimum": 1,
+                            "maximum": 365000
+                          },
+                          "unit": {
+                            "type": "string"
+                          },
+                          "value": {
+                            "type": [
+                              "integer",
+                              "null"
+                            ],
+                            "minimum": 1,
+                            "maximum": 365000
+                          }
+                        },
+                        "additionalProperties": true
+                      }
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "freeze": {
+                  "type": "boolean"
+                },
+                "premix_use_within": {
+                  "type": "object",
+                  "properties": {
+                    "kind": {
+                      "type": "string"
+                    },
+                    "maximum": {
+                      "type": "number"
+                    },
+                    "minimum": {
+                      "type": "number"
+                    },
+                    "unit": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                },
+                "protect_from_light": {
+                  "type": "boolean"
+                },
+                "temperature_c": {
+                  "type": "object",
+                  "properties": {
+                    "maximum": {
+                      "type": "string"
+                    },
+                    "minimum": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                },
+                "use_within": {
+                  "type": "object",
+                  "properties": {
+                    "kind": {
+                      "type": "string"
+                    },
+                    "maximum": {
+                      "type": "number"
+                    },
+                    "minimum": {
+                      "type": "number"
+                    },
+                    "unit": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "additionalProperties": true
+            },
+            "source_id": {
+              "type": "string"
+            },
+            "source_tables": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "rows": {
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "section": {
+                    "type": "string"
+                  },
+                  "subsection": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              }
+            }
+          },
+          "additionalProperties": true
+        },
+        "study_exposure_context": {
+          "type": "object",
+          "properties": {
+            "kind": {
+              "type": "string"
+            },
+            "unit": {
+              "type": "string"
+            },
+            "value": {
+              "type": "number"
+            }
+          },
+          "additionalProperties": true
+        },
+        "target_rule": {
+          "type": "string"
+        },
+        "timing_guidance": {
+          "type": "object",
+          "properties": {
+            "applies_to": {
+              "type": "string"
+            },
+            "basis": {
+              "type": "string"
+            },
+            "certainty": {
+              "type": "string"
+            },
+            "example_iso_weekdays": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            },
+            "food_guidance": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "basis": {
+                  "type": "string"
+                },
+                "source_exclusions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "state": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "optional_split_windows": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "preferred_time_of_day": {
+              "type": [
+                "null",
+                "string"
+              ]
+            },
+            "provenance": {
+              "type": "object",
+              "properties": {
+                "locator": {
+                  "type": "string"
+                },
+                "source_id": {
+                  "type": "string"
+                },
+                "source_url": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "relative_events": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "anchor": {
+                    "type": "string"
+                  },
+                  "offset": {
+                    "type": [
+                      "null",
+                      "object"
+                    ],
+                    "properties": {
+                      "maximum": {
+                        "type": [
+                          "null",
+                          "number"
+                        ]
+                      },
+                      "minimum": {
+                        "type": "number"
+                      },
+                      "unit": {
+                        "type": "string"
+                      }
+                    },
+                    "additionalProperties": true
+                  },
+                  "relationship": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true
+              }
+            },
+            "site_as_reported": {
+              "type": "string"
+            },
+            "spacing": {
+              "type": "null"
+            },
+            "spacing_between_components": {
+              "type": [
+                "null",
+                "object"
+              ],
+              "properties": {
+                "optional_stagger": {
+                  "type": "string"
+                },
+                "same_weekday": {
+                  "type": "boolean"
+                },
+                "separate_syringes": {
+                  "type": "boolean"
+                }
+              },
+              "additionalProperties": true
+            },
+            "spacing_between_doses": {
+              "type": "object",
+              "properties": {
+                "maximum": {
+                  "type": "number"
+                },
+                "minimum": {
+                  "type": [
+                    "number",
+                    "string"
+                  ]
+                },
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": true
+            },
+            "suggested_clock_times": {
+              "type": "array",
+              "items": {}
+            }
+          },
+          "additionalProperties": true
+        },
+        "trial_arms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "initial_dose": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "target_dose": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        },
+        "trial_context": {
+          "type": "object",
+          "properties": {
+            "crossover_washout": {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "additionalProperties": true
+            },
+            "open_label_extension": {
+              "type": "object",
+              "properties": {
+                "dose": {
+                  "type": "object",
+                  "properties": {
+                    "basis": {
+                      "type": "string"
+                    },
+                    "unit": {
+                      "type": "string",
+                      "enum": [
+                        "mg",
+                        "mcg",
+                        "IU",
+                        "mL",
+                        "tablet",
+                        "capsule",
+                        "spray",
+                        "drop",
+                        "application"
+                      ]
+                    },
+                    "value": {
+                      "type": "string"
+                    }
+                  },
+                  "additionalProperties": true,
+                  "required": [
+                    "unit"
+                  ]
+                },
+                "duration": {
+                  "type": "object",
+                  "properties": {
+                    "kind": {
+                      "type": "string"
+                    },
+                    "unit": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": [
+                        "integer",
+                        "null"
+                      ],
+                      "minimum": 1,
+                      "maximum": 365000
+                    }
+                  },
+                  "additionalProperties": true
+                },
+                "schedule": {
+                  "type": "object",
+                  "properties": {
+                    "doses_per_day": {
+                      "type": "number"
+                    },
+                    "pattern": {
+                      "type": "string"
+                    },
+                    "suggested_times": {
+                      "type": "array",
+                      "items": {}
+                    }
+                  },
+                  "additionalProperties": true
+                }
+              },
+              "additionalProperties": true
+            },
+            "placebo_period": {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "type": "string"
+                },
+                "unit": {
+                  "type": "string"
+                },
+                "value": {
+                  "type": "number"
+                }
+              },
+              "additionalProperties": true
+            },
+            "subject_sequence_not_assumed": {
+              "type": "boolean"
+            }
+          },
+          "additionalProperties": true
+        },
+        "trial_target_options": {
+          "type": "object",
+          "properties": {
+            "basis": {
+              "type": "string"
+            },
+            "options": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "unit": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        },
+        "unresolved_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "version": {
+          "type": "integer",
+          "const": 1
+        },
+        "weight_examples": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "dose": {
+                "type": "object",
+                "properties": {
+                  "approximate": {
+                    "type": "boolean"
+                  },
+                  "basis": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "string",
+                    "enum": [
+                      "mg",
+                      "mcg",
+                      "IU",
+                      "mL",
+                      "tablet",
+                      "capsule",
+                      "spray",
+                      "drop",
+                      "application"
+                    ]
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "additionalProperties": true,
+                "required": [
+                  "unit"
+                ]
+              },
+              "minimum_weight_kg": {
+                "type": "string"
+              },
+              "weight_kg": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true,
+      "description": "Structured reference content. Required core fields are version and phases. Optional metadata fields shown here are retained for display; additional metadata is allowed and does not automatically create a personal schedule.",
+      "required": [
+        "version",
+        "phases"
+      ]
+    }
+  }
+}

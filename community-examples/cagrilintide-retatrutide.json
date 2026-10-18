@@ -1,0 +1,1304 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cagrilintide-retatrutide",
+      "name": "Cagrilintide + Retatrutide Stack",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 2,
+      "benefits": "Direct combination evidence is preclinical: cagrilintide plus retatrutide reduced body weight and food intake and improved circulating cholesterol, triglyceride, and insulin measures in diet-induced obese male rats. The combination exceeded the compared monotherapies in that experiment. No demonstrated human combination benefit was found; these animal findings do not validate a human stack or establish clinical synergy."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "0dac56c3-afb1-46fe-9a86-0dfedeb0e747",
+      "productID": "cagrilintide-retatrutide",
+      "title": "Cagrilintide / Retatrutide 1:5 premix — source weekly progression",
+      "purpose": "Source-described reference planning",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Secondary editorial source; no automatic clinical validation or app-default promotion.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "glp-3",
+              "ratio_part": "5"
+            },
+            {
+              "library_item_id": "cagrilintide",
+              "ratio_part": "1"
+            }
+          ],
+          "fixed_component_ratio": "5:1"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "15",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.5",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "glp-3",
+                "value": "12.5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "cagrilintide",
+                "value": "2.5",
+                "unit": "mg"
+              }
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "Start",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "2.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "0.4",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.40",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "40",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "Step 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3.6",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "3.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "0.6",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.60",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "60",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "Step 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 56,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4.8",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "4.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "0.8",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.80",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "80",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "Step 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "7.2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "6.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "1.2",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "1.20",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "120",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "Step 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "9.6",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "8.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "1.6",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "1.60",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "160",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "Maintenance",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "14.4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "12.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "2.40",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "240",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+            "locator": "Dosing Protocol & Schedule; source timing statements"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_tables": [
+            {
+              "section": "Cagrilintide + Retatrutide Dosing Protocol & Schedule",
+              "subsection": "Cycle Guidelines",
+              "rows": [
+                [
+                  "Approach",
+                  "Duration",
+                  "Off Period",
+                  "Best For"
+                ],
+                [
+                  "Full staggered titration",
+                  "24-week ramp + open-ended maintenance",
+                  "Community: 16-24 weeks on, 4-8 weeks off",
+                  "Primary weight-loss strategy with full pathway coverage"
+                ],
+                [
+                  "Reta-first, cag add-on",
+                  "Stabilize reta at 8-12 mg, then add cag for 12+ weeks",
+                  "Cag can be cycled on its own",
+                  "Users already on retatrutide who want more satiety"
+                ],
+                [
+                  "Short-cycle test",
+                  "8-12 weeks at sub-maximal doses",
+                  "4 weeks off",
+                  "Initial tolerability check"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_tables": [
+            {
+              "section": "Cagrilintide + Retatrutide Reconstitution Guide",
+              "subsection": "Reconstituted Stability",
+              "rows": [
+                [
+                  "Compound",
+                  "Lyophilized",
+                  "Reconstituted (2-8 °C)",
+                  "Notes"
+                ],
+                [
+                  "Retatrutide",
+                  "12+ months at -20 °C",
+                  "28-30 days",
+                  "Standard for GLP-class peptides."
+                ],
+                [
+                  "Cagrilintide",
+                  "12+ months at -20 °C",
+                  "28-30 days",
+                  "Do not shake (amyloid fibril risk). Discard cloudy solution."
+                ],
+                [
+                  "Pre-blend",
+                  "12+ months at -20 °C",
+                  "28-30 days",
+                  "Same window for both compounds in the blend."
+                ]
+              ]
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Storage & Handling",
+              "subsection": "",
+              "rows": [
+                [
+                  "State",
+                  "Cagrilintide",
+                  "Retatrutide"
+                ],
+                [
+                  "Lyophilized (long-term)",
+                  "-4 °F (-20 °C), 12+ months",
+                  "-4 °F (-20 °C), 12+ months"
+                ],
+                [
+                  "Lyophilized (short-term)",
+                  "35.6-46.4 °F (2-8 °C), several months",
+                  "35.6-46.4 °F (2-8 °C), several months"
+                ],
+                [
+                  "Reconstituted (liquid)",
+                  "35.6-46.4 °F (2-8 °C), 28-30 days",
+                  "35.6-46.4 °F (2-8 °C), 28-30 days"
+                ],
+                [
+                  "Color when reconstituted",
+                  "Clear, colorless",
+                  "Clear, colorless"
+                ],
+                [
+                  "Shake?",
+                  "No - amyloid fibril risk",
+                  "No - standard peptide handling"
+                ],
+                [
+                  "Light protection",
+                  "Yes",
+                  "Yes"
+                ],
+                [
+                  "Oral viable",
+                  "No",
+                  "No"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_statements": [
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "",
+              "excerpt": "This combination has not been tested in any trial. The safety picture is built from each compound's own data plus what we know from CagriSema. The main concern is stacked GI side effects - both compounds slow digestion through different pathways, so combining them can amplify nausea, vomiting, and constipation.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "Combined and Amplified Concerns",
+              "excerpt": "Dysesthesia - unusual skin sensations (retatrutide-specific). Tingling, numbness, or prickling have been reported in retatrutide trials and appear to increase at higher doses. This is a retatrutide signal, not a cagrilintide one. Note the timing if you notice it.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "Combined and Amplified Concerns",
+              "excerpt": "Unknown glucagon-amylin interaction. Retatrutide hits the glucagon receptor directly. Cagrilintide acts on calcitonin-related receptors with some glucagon-adjacent effects. The combined effect on blood sugar has not been studied. Anyone with blood-sugar concerns should discuss glucose monitoring with a clinician early in a protocol.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "Common Community-Reported Side Effects",
+              "excerpt": "Strong appetite suppression - usually a feature, sometimes uncomfortable.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "Contraindication Signals",
+              "excerpt": "Standard conservative practice excludes anyone with active gastrointestinal disease, type 1 diabetes, prior pancreatitis, medullary thyroid carcinoma history, or active cancer from any retatrutide protocol. Adding cagrilintide raises the GI tolerance bar further.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "When to reassess",
+              "excerpt": "If",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+            "url": "https://doi.org/10.1056/NEJMoa2301972"
+          },
+          {
+            "label": "Lilly's triple agonist, retatrutide, delivered weight loss of up to an average of 71.2 lbs along with substantial relief from osteoarthritis pain in first successful Phase 3 trial.",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average"
+          },
+          {
+            "label": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+            "url": "https://doi.org/10.1056/NEJMoa2502081"
+          },
+          {
+            "label": "Once-weekly cagrilintide for weight management in people with overweight and obesity.",
+            "url": "https://doi.org/10.1016/S0140-6736(21)01751-7"
+          },
+          {
+            "label": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2.4 mg.",
+            "url": "https://doi.org/10.1016/S0140-6736(21)00845-X"
+          },
+          {
+            "label": "Development of Cagrilintide, a Long-Acting Amylin Analogue.",
+            "url": "https://doi.org/10.1021/acs.jmedchem.1c00565"
+          },
+          {
+            "label": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+            "url": "https://doi.org/10.1111/dom.70209"
+          },
+          {
+            "label": "Structural and dynamic features of cagrilintide binding to calcitonin and amylin receptors.",
+            "url": "https://doi.org/10.1038/s41467-025-58680-y"
+          },
+          {
+            "label": "Efficacy and Safety of Cagrilintide Alone and in Combination with Semaglutide (Cagrisema) as Anti-Obesity Medications: A Systematic Review and Meta-Analysis.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11750092/"
+          },
+          {
+            "label": "Retatrutide Achieves Up to 28.7% Weight Loss and Marked Knee Pain Reduction in Phase 3 TRIUMPH-4 Trial.",
+            "url": "https://www.patientcareonline.com/view/retatrutide-achieves-up-to-28-7-weight-loss-and-marked-knee-pain-reduction-in-phase-3-triumph-4-trial"
+          },
+          {
+            "label": "A Study of Retatrutide (LY3437943) Once Weekly in Adults With Obesity and Knee Osteoarthritis (TRIUMPH-4). NCT05931367.",
+            "url": "https://clinicaltrials.gov/study/NCT05931367"
+          },
+          {
+            "label": "REDEFINE 1 - Cagrilintide and Semaglutide in Adults with Overweight or Obesity. NCT05567796.",
+            "url": "https://clinicaltrials.gov/study/NCT05567796"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "same_product_pharmacokinetic_compatibility",
+          "draws_exceed_1_mL_and_U100_100_scale"
+        ],
+        "notes": "Source reference only; unreviewed. Tables and independent references remain available in the source record."
+      }
+    },
+    {
+      "id": "7244b010-2ac5-4011-8e13-290e11f645a4",
+      "productID": "cagrilintide-retatrutide",
+      "title": "Cagrilintide + Retatrutide — staggered 24-week escalation and maintenance",
+      "purpose": "Source-described reference planning",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Secondary editorial source; no automatic clinical validation or app-default promotion.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "glp-3"
+            },
+            {
+              "library_item_id": "cagrilintide"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Component-specific regimen",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Component-specific schedules"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+            "locator": "Dosing Protocol & Schedule; source timing statements"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_tables": [
+            {
+              "section": "Cagrilintide + Retatrutide Dosing Protocol & Schedule",
+              "subsection": "Cycle Guidelines",
+              "rows": [
+                [
+                  "Approach",
+                  "Duration",
+                  "Off Period",
+                  "Best For"
+                ],
+                [
+                  "Full staggered titration",
+                  "24-week ramp + open-ended maintenance",
+                  "Community: 16-24 weeks on, 4-8 weeks off",
+                  "Primary weight-loss strategy with full pathway coverage"
+                ],
+                [
+                  "Reta-first, cag add-on",
+                  "Stabilize reta at 8-12 mg, then add cag for 12+ weeks",
+                  "Cag can be cycled on its own",
+                  "Users already on retatrutide who want more satiety"
+                ],
+                [
+                  "Short-cycle test",
+                  "8-12 weeks at sub-maximal doses",
+                  "4 weeks off",
+                  "Initial tolerability check"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_tables": [
+            {
+              "section": "Cagrilintide + Retatrutide Reconstitution Guide",
+              "subsection": "Reconstituted Stability",
+              "rows": [
+                [
+                  "Compound",
+                  "Lyophilized",
+                  "Reconstituted (2-8 °C)",
+                  "Notes"
+                ],
+                [
+                  "Retatrutide",
+                  "12+ months at -20 °C",
+                  "28-30 days",
+                  "Standard for GLP-class peptides."
+                ],
+                [
+                  "Cagrilintide",
+                  "12+ months at -20 °C",
+                  "28-30 days",
+                  "Do not shake (amyloid fibril risk). Discard cloudy solution."
+                ],
+                [
+                  "Pre-blend",
+                  "12+ months at -20 °C",
+                  "28-30 days",
+                  "Same window for both compounds in the blend."
+                ]
+              ]
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Storage & Handling",
+              "subsection": "",
+              "rows": [
+                [
+                  "State",
+                  "Cagrilintide",
+                  "Retatrutide"
+                ],
+                [
+                  "Lyophilized (long-term)",
+                  "-4 °F (-20 °C), 12+ months",
+                  "-4 °F (-20 °C), 12+ months"
+                ],
+                [
+                  "Lyophilized (short-term)",
+                  "35.6-46.4 °F (2-8 °C), several months",
+                  "35.6-46.4 °F (2-8 °C), several months"
+                ],
+                [
+                  "Reconstituted (liquid)",
+                  "35.6-46.4 °F (2-8 °C), 28-30 days",
+                  "35.6-46.4 °F (2-8 °C), 28-30 days"
+                ],
+                [
+                  "Color when reconstituted",
+                  "Clear, colorless",
+                  "Clear, colorless"
+                ],
+                [
+                  "Shake?",
+                  "No - amyloid fibril risk",
+                  "No - standard peptide handling"
+                ],
+                [
+                  "Light protection",
+                  "Yes",
+                  "Yes"
+                ],
+                [
+                  "Oral viable",
+                  "No",
+                  "No"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_statements": [
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "",
+              "excerpt": "This combination has not been tested in any trial. The safety picture is built from each compound's own data plus what we know from CagriSema. The main concern is stacked GI side effects - both compounds slow digestion through different pathways, so combining them can amplify nausea, vomiting, and constipation.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "Combined and Amplified Concerns",
+              "excerpt": "Dysesthesia - unusual skin sensations (retatrutide-specific). Tingling, numbness, or prickling have been reported in retatrutide trials and appear to increase at higher doses. This is a retatrutide signal, not a cagrilintide one. Note the timing if you notice it.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "Combined and Amplified Concerns",
+              "excerpt": "Unknown glucagon-amylin interaction. Retatrutide hits the glucagon receptor directly. Cagrilintide acts on calcitonin-related receptors with some glucagon-adjacent effects. The combined effect on blood sugar has not been studied. Anyone with blood-sugar concerns should discuss glucose monitoring with a clinician early in a protocol.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "Common Community-Reported Side Effects",
+              "excerpt": "Strong appetite suppression - usually a feature, sometimes uncomfortable.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "Contraindication Signals",
+              "excerpt": "Standard conservative practice excludes anyone with active gastrointestinal disease, type 1 diabetes, prior pancreatitis, medullary thyroid carcinoma history, or active cancer from any retatrutide protocol. Adding cagrilintide raises the GI tolerance bar further.",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutide Side Effects & Safety",
+              "subsection": "When to reassess",
+              "excerpt": "If",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Triple-Hormone-Receptor Agonist Retatrutide for Obesity - A Phase 2 Trial.",
+            "url": "https://doi.org/10.1056/NEJMoa2301972"
+          },
+          {
+            "label": "Lilly's triple agonist, retatrutide, delivered weight loss of up to an average of 71.2 lbs along with substantial relief from osteoarthritis pain in first successful Phase 3 trial.",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average"
+          },
+          {
+            "label": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity.",
+            "url": "https://doi.org/10.1056/NEJMoa2502081"
+          },
+          {
+            "label": "Once-weekly cagrilintide for weight management in people with overweight and obesity.",
+            "url": "https://doi.org/10.1016/S0140-6736(21)01751-7"
+          },
+          {
+            "label": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of concomitant administration of multiple doses of cagrilintide with semaglutide 2.4 mg.",
+            "url": "https://doi.org/10.1016/S0140-6736(21)00845-X"
+          },
+          {
+            "label": "Development of Cagrilintide, a Long-Acting Amylin Analogue.",
+            "url": "https://doi.org/10.1021/acs.jmedchem.1c00565"
+          },
+          {
+            "label": "Retatrutide for the treatment of obesity, obstructive sleep apnea and knee osteoarthritis: Rationale and design of the TRIUMPH registrational clinical trials.",
+            "url": "https://doi.org/10.1111/dom.70209"
+          },
+          {
+            "label": "Structural and dynamic features of cagrilintide binding to calcitonin and amylin receptors.",
+            "url": "https://doi.org/10.1038/s41467-025-58680-y"
+          },
+          {
+            "label": "Efficacy and Safety of Cagrilintide Alone and in Combination with Semaglutide (Cagrisema) as Anti-Obesity Medications: A Systematic Review and Meta-Analysis.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11750092/"
+          },
+          {
+            "label": "Retatrutide Achieves Up to 28.7% Weight Loss and Marked Knee Pain Reduction in Phase 3 TRIUMPH-4 Trial.",
+            "url": "https://www.patientcareonline.com/view/retatrutide-achieves-up-to-28-7-weight-loss-and-marked-knee-pain-reduction-in-phase-3-triumph-4-trial"
+          },
+          {
+            "label": "A Study of Retatrutide (LY3437943) Once Weekly in Adults With Obesity and Knee Osteoarthritis (TRIUMPH-4). NCT05931367.",
+            "url": "https://clinicaltrials.gov/study/NCT05931367"
+          },
+          {
+            "label": "REDEFINE 1 - Cagrilintide and Semaglutide in Adults with Overweight or Obesity. NCT05567796.",
+            "url": "https://clinicaltrials.gov/study/NCT05567796"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "stated_loading_summary_vs_full_titration_table",
+          "eligible_population",
+          "maximum_draw_volume_exceeds_U100_100_scale"
+        ],
+        "notes": "Source reference only; unreviewed. Tables and independent references remain available in the source record. Definition-list loading summary differs from full titration table. Preserve the table and flag the discrepancy.",
+        "component_regimens": [
+          {
+            "component_id": "glp-3",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "Reta initiation",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Confirm retatrutide GI tolerance first."
+              },
+              {
+                "name": "Reta escalation 1",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Continue retatrutide alone."
+              },
+              {
+                "name": "Cag introduction",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Add cagrilintide at the lowest dose. Hold reta steady."
+              },
+              {
+                "name": "Dual escalation 1",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "8",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "GI effects often peak here."
+              },
+              {
+                "name": "Dual escalation 2",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "8",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Hold reta, raise cag."
+              },
+              {
+                "name": "Dual escalation 3",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "12",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Approach maintenance."
+              },
+              {
+                "name": "Maintenance",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "12",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Full four-receptor coverage if tolerated."
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+                "locator": "Dosing Protocol & Schedule; source timing statements"
+              }
+            },
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "glp-3",
+                "dry_amount": {
+                  "value": "10",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "1",
+                  "unit": "mL"
+                }
+              }
+            ]
+          },
+          {
+            "component_id": "cagrilintide",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "Reta initiation",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": null,
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "status": "not_started",
+                "condition": "Confirm retatrutide GI tolerance first."
+              },
+              {
+                "name": "Reta escalation 1",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": null,
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "status": "not_started",
+                "condition": "Continue retatrutide alone."
+              },
+              {
+                "name": "Cag introduction",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.25",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Add cagrilintide at the lowest dose. Hold reta steady."
+              },
+              {
+                "name": "Dual escalation 1",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "GI effects often peak here."
+              },
+              {
+                "name": "Dual escalation 2",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.0",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Hold reta, raise cag."
+              },
+              {
+                "name": "Dual escalation 3",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.7",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Approach maintenance."
+              },
+              {
+                "name": "Maintenance",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "Full four-receptor coverage if tolerated."
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+                "locator": "Dosing Protocol & Schedule; source timing statements"
+              }
+            },
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "cagrilintide",
+                "dry_amount": {
+                  "value": "5",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "2",
+                  "unit": "mL"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+      "url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+      "title": "Cagrilintide + Retatrutide Peptide Stack: Dosing Guide Reta + Amylin Pair (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "936a4439-e399-4cff-abe5-20cf6f965022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42744908/",
+      "title": "Cagrilintide and retatrutide combination therapy enhances weight loss and metabolic outcomes in obese male rats",
+      "publisher": "Nature Metabolism / authors, abstract in PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "0dac56c3-afb1-46fe-9a86-0dfedeb0e747",
+      "sourceID": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "Source describes the fields; independent verification pending.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "7244b010-2ac5-4011-8e13-290e11f645a4",
+      "sourceID": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "Source describes the fields; independent verification pending.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cagrilintide-retatrutide",
+      "sourceID": "936a4439-e399-4cff-abe5-20cf6f965022",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Published September 15, 2026, DOI 10.1038/s42255-026-01603-y; original abstract directly describes the tested combination and rat outcomes. Category rationale: Weight & Metabolism: the direct animal study evaluated weight loss and metabolic measures.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Weight & Metabolism"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

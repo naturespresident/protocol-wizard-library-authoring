@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "epitalon",
+      "name": "Epitalon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 3,
+      "benefits": "Laboratory aging research: Epitalon/Epithalon induced telomerase activity and telomere elongation in cultured human fibroblasts. This is a cellular observation, not proof that it extends human life, reverses aging, improves sleep, or prevents disease. Findings about pineal extracts should not be treated as evidence for this synthetic peptide."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "73e1eff9-e8fd-450f-ae58-ae4301cb1ac3",
+      "productID": "epitalon",
+      "title": "Epitalon — 5 mg / 20-day source cycle",
+      "purpose": "Source-described reference planning",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Secondary editorial/community description. Independent source validation and app-default promotion are pending.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "epitalon"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon Reconstitution Guide / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "50",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon Reconstitution Guide / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Short cycle",
+            "duration": {
+              "kind": "fixed",
+              "value": 20,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+            "locator": "Dosing Protocol & Schedule; source timing statements"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": [
+            {
+              "section": "Epitalon Storage & Handling",
+              "subsection": "",
+              "rows": [
+                [
+                  "State",
+                  "Temperature",
+                  "Notes"
+                ],
+                [
+                  "Lyophilized (powder)",
+                  "-4 F (-20 C) long-term",
+                  "Keep dry and away from light."
+                ],
+                [
+                  "Reconstituted (liquid)",
+                  "35.6-46.4 F (2-8 C)",
+                  "Use within about 1-2 weeks."
+                ],
+                [
+                  "Appearance",
+                  "Clear after mixing",
+                  "Discard if cloudy or with particles."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_statements": [
+            {
+              "section": "Epitalon Side Effects & Safety",
+              "subsection": "",
+              "excerpt": "Mild drowsiness, especially with evening dosing, since the peptide is tied to melatonin signaling.",
+              "truncated": false
+            },
+            {
+              "section": "Epitalon Side Effects & Safety",
+              "subsection": "",
+              "excerpt": "The bigger safety gaps are about the unknowns, not the known side effects. Long-term human safety data are limited, and the telomerase question matters here too. In theory, switching telomerase on could affect cells you would not want dividing more, which is why people with cancer history are flagged as cautious cases.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14668908/"
+          },
+          {
+            "label": "Geroprotective effect of epithalamine (pineal gland peptide preparation) in elderly subjects with accelerated aging.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17426848/"
+          },
+          {
+            "label": "Effects of long-term peptide bioregulator administration on mortality in elderly subjects (clinical program).",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14523363/"
+          },
+          {
+            "label": "Effect of peptide preparation epithalamin on circadian rhythm of pineal melatonin function in elderly people.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15514717/"
+          },
+          {
+            "label": "Effect of Epitalon on biomarkers of aging, life span and spontaneous tumor incidence in female SHR mice.",
+            "url": "https://link.springer.com/article/10.1023/A:1025114230714"
+          },
+          {
+            "label": "Synthetic tetrapeptide epitalon restores disturbed neuroendocrine regulation in senescent monkeys.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11524632/"
+          },
+          {
+            "label": "Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity.",
+            "url": "https://link.springer.com/article/10.1007/s10522-025-10315-x"
+          },
+          {
+            "label": "Epithalamin and Epithalon: research assessment of evidence and safety.",
+            "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Epithalamin-and-Epithalon-Cognitive-Vitality-For-Researchers.pdf"
+          },
+          {
+            "label": "Epitalon regulatory status: not an FDA-approved drug; research-use context.",
+            "url": "https://www.fda.gov/drugs"
+          }
+        ],
+        "unresolved_fields": [
+          "annual_repeat_conflict",
+          "human_validation",
+          "product_preparation"
+        ],
+        "notes": "Source reference only; unreviewed. Tables and independent references remain available in the source record.",
+        "repeat_guidance": {
+          "source_table_times_per_year": {
+            "minimum": 2,
+            "maximum": 3
+          },
+          "quick_start_times_per_year": {
+            "minimum": 1,
+            "maximum": 2
+          },
+          "conflict_requires_review": true
+        }
+      }
+    },
+    {
+      "id": "cd0f21cb-d747-45da-a3fa-6dd15fd4d19e",
+      "productID": "epitalon",
+      "title": "Epitalon — 10 mg / 10-day source cycle",
+      "purpose": "Source-described reference planning",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Secondary editorial/community description. Independent source validation and app-default promotion are pending.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "epitalon"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon Reconstitution Guide / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "50",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon Reconstitution Guide / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Short cycle",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+            "locator": "Dosing Protocol & Schedule; source timing statements"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": [
+            {
+              "section": "Epitalon Storage & Handling",
+              "subsection": "",
+              "rows": [
+                [
+                  "State",
+                  "Temperature",
+                  "Notes"
+                ],
+                [
+                  "Lyophilized (powder)",
+                  "-4 F (-20 C) long-term",
+                  "Keep dry and away from light."
+                ],
+                [
+                  "Reconstituted (liquid)",
+                  "35.6-46.4 F (2-8 C)",
+                  "Use within about 1-2 weeks."
+                ],
+                [
+                  "Appearance",
+                  "Clear after mixing",
+                  "Discard if cloudy or with particles."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_statements": [
+            {
+              "section": "Epitalon Side Effects & Safety",
+              "subsection": "",
+              "excerpt": "Mild drowsiness, especially with evening dosing, since the peptide is tied to melatonin signaling.",
+              "truncated": false
+            },
+            {
+              "section": "Epitalon Side Effects & Safety",
+              "subsection": "",
+              "excerpt": "The bigger safety gaps are about the unknowns, not the known side effects. Long-term human safety data are limited, and the telomerase question matters here too. In theory, switching telomerase on could affect cells you would not want dividing more, which is why people with cancer history are flagged as cautious cases.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14668908/"
+          },
+          {
+            "label": "Geroprotective effect of epithalamine (pineal gland peptide preparation) in elderly subjects with accelerated aging.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17426848/"
+          },
+          {
+            "label": "Effects of long-term peptide bioregulator administration on mortality in elderly subjects (clinical program).",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14523363/"
+          },
+          {
+            "label": "Effect of peptide preparation epithalamin on circadian rhythm of pineal melatonin function in elderly people.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15514717/"
+          },
+          {
+            "label": "Effect of Epitalon on biomarkers of aging, life span and spontaneous tumor incidence in female SHR mice.",
+            "url": "https://link.springer.com/article/10.1023/A:1025114230714"
+          },
+          {
+            "label": "Synthetic tetrapeptide epitalon restores disturbed neuroendocrine regulation in senescent monkeys.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11524632/"
+          },
+          {
+            "label": "Epitalon increases telomere length in human cell lines through telomerase upregulation or ALT activity.",
+            "url": "https://link.springer.com/article/10.1007/s10522-025-10315-x"
+          },
+          {
+            "label": "Epithalamin and Epithalon: research assessment of evidence and safety.",
+            "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Epithalamin-and-Epithalon-Cognitive-Vitality-For-Researchers.pdf"
+          },
+          {
+            "label": "Epitalon regulatory status: not an FDA-approved drug; research-use context.",
+            "url": "https://www.fda.gov/drugs"
+          }
+        ],
+        "unresolved_fields": [
+          "annual_repeat_conflict",
+          "human_validation",
+          "product_preparation"
+        ],
+        "notes": "Source reference only; unreviewed. Tables and independent references remain available in the source record.",
+        "repeat_guidance": {
+          "source_table_times_per_year": {
+            "minimum": 2,
+            "maximum": 3
+          },
+          "quick_start_times_per_year": {
+            "minimum": 1,
+            "maximum": 2
+          },
+          "conflict_requires_review": true
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "44a06a93-4122-443a-84bd-8e80c0467cd5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12937682/",
+      "title": "Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells",
+      "publisher": "Bulletin of Experimental Biology and Medicine / PubMed",
+      "type": "lab_study",
+      "publishedAt": null
+    },
+    {
+      "id": "86808e60-d081-46e4-aea4-66915c604548",
+      "url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+      "title": "Epitalon Peptide Protocol Guide: Dosing, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "73e1eff9-e8fd-450f-ae58-ae4301cb1ac3",
+      "sourceID": "86808e60-d081-46e4-aea4-66915c604548",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Source describes these fields; primary-source verification remains pending.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/repeat_guidance"
+      ]
+    },
+    {
+      "protocolID": "cd0f21cb-d747-45da-a3fa-6dd15fd4d19e",
+      "sourceID": "86808e60-d081-46e4-aea4-66915c604548",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Source describes these fields; primary-source verification remains pending.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/repeat_guidance"
+      ]
+    },
+    {
+      "productID": "epitalon",
+      "sourceID": "44a06a93-4122-443a-84bd-8e80c0467cd5",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Original indexed abstract read. Human fetal fibroblast cultures, not a human treatment trial; surrogate cellular outcomes only. Category rationale: Cellular-aging mechanisms are the direct research topic, without demonstrated human longevity benefit.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Skin"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

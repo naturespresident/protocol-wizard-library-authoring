@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ipamorelin",
+      "name": "Ipamorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "Demonstrated biological effect: transient growth hormone release during a small human volunteer pharmacology study. This is a biomarker response, without demonstrated gains in muscle, recovery, sleep, fat loss, or longevity. A randomized postoperative-ileus trial did not show a statistically significant improvement in its principal meal-tolerance endpoint. Those IV studies also do not establish clinical benefits of the subcutaneous wellness regimens or ipamorelin-containing stacks in this library."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "productID": "ipamorelin",
+      "title": "Ipamorelin — source daily-total titration with dose-basis conflict",
+      "purpose": "Source-described reference planning",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Secondary editorial/community description. Independent source validation and app-default promotion are pending.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "ipamorelin"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin Reconstitution Guide / Ipamorelin Dosage in mL and U-100 Syringe Units"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin Reconstitution Guide / Ipamorelin Dosage in mL and U-100 Syringe Units"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin Reconstitution Guide / Ipamorelin Dosage in mL and U-100 Syringe Units"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Assessment week 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Titration weeks 2–3",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "1-2x daily"
+            }
+          },
+          {
+            "name": "Standard weeks 4–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 35,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "1-2x daily"
+            }
+          },
+          {
+            "name": "Extended weeks 9–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "1-2x daily"
+            }
+          },
+          {
+            "name": "Off-cycle",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "off cycle"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "bedtime",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted"
+          },
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ipamorelin",
+            "locator": "Dosing Protocol & Schedule; source timing statements"
+          },
+          "optional_split_windows": [
+            "morning",
+            "bedtime"
+          ]
+        },
+        "cycle_guidance": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/ipamorelin",
+              "source_tables": [
+                {
+                  "section": "Ipamorelin Cycle Chart: 8 vs 12 vs 16 Weeks",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Cycle length",
+                      "How it is commonly described",
+                      "Published Ipamorelin evidence",
+                      "Evidence level"
+                    ],
+                    [
+                      "8 weeks",
+                      "Shorter community cycle",
+                      "No human trial established an 8-week SC cycle",
+                      "Community convention"
+                    ],
+                    [
+                      "12 weeks",
+                      "Common community cycle endpoint",
+                      "No human trial established a 12-week SC cycle",
+                      "Community convention"
+                    ],
+                    [
+                      "16 weeks",
+                      "Longer or extended community cycle",
+                      "No human trial established a 16-week SC cycle",
+                      "Community convention"
+                    ],
+                    [
+                      "Up to 7 days",
+                      "Published postoperative trial exposure",
+                      "IV Ipamorelin from postoperative day 1 to day 7 or hospital discharge",
+                      "Human clinical study"
+                    ],
+                    [
+                      "Up to 10 days",
+                      "Phase II outcome window",
+                      "Repeated IV dosing arms with outcomes measured up to 10 days",
+                      "Human clinical study"
+                    ]
+                  ]
+                },
+                {
+                  "section": "What Human Ipamorelin Studies Actually Tested",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Study",
+                      "Population",
+                      "Route",
+                      "Time frame",
+                      "What it tells us"
+                    ],
+                    [
+                      "Gobburu et al. 1999",
+                      "Healthy male volunteers",
+                      "IV infusion",
+                      "Single 15-minute infusion",
+                      "Characterized PK/PD and found a terminal half-life of about 2 hours; it did not test a multi-week cycle."
+                    ],
+                    [
+                      "Beck et al. 2014 / NCT00672074",
+                      "Bowel-resection patients",
+                      "IV infusion",
+                      "Postoperative day 1-7 or hospital discharge",
+                      "Tested short repeated exposure for postoperative ileus; it did not validate a long SC cycle."
+                    ],
+                    [
+                      "NCT01280344",
+                      "Bowel-resection patients",
+                      "IV infusion",
+                      "Outcomes measured up to 10 days",
+                      "Compared repeated IV dosing arms; it did not establish an 8-, 12-, or 16-week cycle."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Ipamorelin Half-Life vs Cycle Length",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Term",
+                      "What it means",
+                      "What the evidence says"
+                    ],
+                    [
+                      "Half-life",
+                      "Time related to drug clearance",
+                      "About 2 hours after IV infusion in the 1999 human PK/PD study"
+                    ],
+                    [
+                      "GH response window",
+                      "Short hormone response after exposure",
+                      "GH peaked near 0.67 hours in the 1999 IV study"
+                    ],
+                    [
+                      "Cycle length",
+                      "Total weeks in a repeated schedule",
+                      "No validated 8-, 12-, or 16-week SC duration"
+                    ],
+                    [
+                      "Off cycle",
+                      "Planned period without exposure",
+                      "No validated 4-week washout rule in human Ipamorelin trials"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Published Evidence vs Community Cycle Schedules",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Claim",
+                      "Evidence status",
+                      "How to present it"
+                    ],
+                    [
+                      "Ipamorelin has human PK/PD data",
+                      "Supported",
+                      "Published human IV research"
+                    ],
+                    [
+                      "Ipamorelin was studied with repeated dosing after bowel surgery",
+                      "Supported",
+                      "Published Phase II IV research"
+                    ],
+                    [
+                      "8 weeks is the best cycle length",
+                      "Not established",
+                      "Community convention only"
+                    ],
+                    [
+                      "12 weeks is the standard clinical cycle",
+                      "Not established",
+                      "Community convention only"
+                    ],
+                    [
+                      "16 weeks is proven safe or more effective",
+                      "Not established",
+                      "Do not present as a proven claim"
+                    ],
+                    [
+                      "4 weeks off is required to restore sensitivity",
+                      "Not established",
+                      "Community rationale, not a validated human rule"
+                    ],
+                    [
+                      "A 2-hour half-life proves a multi-week cycle length",
+                      "Incorrect inference",
+                      "Half-life and cycle duration are separate concepts"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_tables": [
+            {
+              "section": "Ipamorelin Storage & Handling",
+              "subsection": "",
+              "rows": [
+                [
+                  "State",
+                  "Temperature",
+                  "Duration"
+                ],
+                [
+                  "Lyophilized powder",
+                  "-4F (-20C)",
+                  "Long-term (months to years)"
+                ],
+                [
+                  "Lyophilized powder",
+                  "36-46F (2-8C)",
+                  "Months"
+                ],
+                [
+                  "Lyophilized powder",
+                  "Room temperature",
+                  "Weeks (shipping window)"
+                ],
+                [
+                  "Reconstituted (liquid)",
+                  "36-46F (2-8C)",
+                  "Up to 28 days"
+                ],
+                [
+                  "Reconstituted, frozen aliquots",
+                  "-4F (-20C)",
+                  "3-4 months"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_statements": [
+            {
+              "section": "Who Ipamorelin Is For and Who Should Avoid It",
+              "subsection": "Avoid use in",
+              "excerpt": "Active or recent cancer. GH and IGF-1 can support cell growth. Anyone with current or recent cancer should avoid GH-raising compounds.",
+              "truncated": false
+            },
+            {
+              "section": "Who Ipamorelin Is For and Who Should Avoid It",
+              "subsection": "Avoid use in",
+              "excerpt": "Pregnancy or breastfeeding. There is no safety data for ipamorelin in either group.",
+              "truncated": false
+            },
+            {
+              "section": "Who Ipamorelin Is For and Who Should Avoid It",
+              "subsection": "Use extra caution if",
+              "excerpt": "A strong family history of cancer.",
+              "truncated": false
+            },
+            {
+              "section": "Who Ipamorelin Is For and Who Should Avoid It",
+              "subsection": "Use extra caution if",
+              "excerpt": "Pre-diabetes or fasting glucose near the high end of normal.",
+              "truncated": false
+            },
+            {
+              "section": "Who Ipamorelin Is For and Who Should Avoid It",
+              "subsection": "Monitoring boundaries",
+              "excerpt": "Some practitioners review fasting glucose and HbA1c before and during extended ipamorelin protocols. This page is not medical advice. Any decision to start, continue, or stop a research compound is between an individual and their licensed clinician.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Ipamorelin, the first selective growth hormone secretagogue.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9849822/"
+          },
+          {
+            "label": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin, a growth hormone releasing peptide, in human volunteers.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/"
+          },
+          {
+            "label": "Prospective, randomized, controlled, proof-of-concept study of the Ghrelin mimetic ipamorelin for the management of postoperative ileus in bowel resection patients.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/"
+          },
+          {
+            "label": "Growth hormone secretagogues: history, mechanism of action, and clinical development.",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/rco2.9"
+          },
+          {
+            "label": "Pharmacological characterisation of a new oral GH secretagogue, NN703.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10427163/"
+          },
+          {
+            "label": "Safety and Efficacy of Ipamorelin Compared to Placebo for the Recovery of Gastrointestinal Function (NCT01280344).",
+            "url": "https://clinicaltrials.gov/study/NCT01280344"
+          },
+          {
+            "label": "Ipamorelin in Postoperative Ileus (NCT00672074).",
+            "url": "https://clinicaltrials.gov/study/NCT00672074"
+          },
+          {
+            "label": "Interim Policy on Compounding Using Bulk Drug Substances Under Section 503A — Category 2 list and PCAC review updates.",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA Summary Report: Ipamorelin Acetate (PCAC review materials).",
+            "url": "https://downloads.regulations.gov/FDA-2015-N-3469-0293/attachment_1.pdf"
+          },
+          {
+            "label": "Postoperative ileus: A pharmacological perspective.",
+            "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.15800"
+          },
+          {
+            "label": "A review of the effects of growth hormone secretagogues on body composition and bone health.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28526632/"
+          },
+          {
+            "label": "Prohibited List — S2 Peptide Hormones, Growth Factors, Related Substances and Mimetics (covers ghrelin mimetics).",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "daily_total_table_vs_per_shot_FAQ_conflict",
+          "daily_count_choice",
+          "optional_extension_to_week_16",
+          "exact_clock_times"
+        ],
+        "notes": "Source reference only; unreviewed. Tables and independent references remain available in the source record. Primary table says daily total; FAQ calls later amounts per shot. Do not silently treat the total as each injection."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "45812810-3288-4d83-aa7e-c22dfa354046",
+      "url": "https://www.peptidedosingprotocols.com/protocol/ipamorelin",
+      "title": "Ipamorelin Peptide Dosing Guide: Timing, Protocol & Side Effects (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/ipamorelin",
+      "title": "Ipamorelin Cycle Length: 8, 12 & 16 Week Research Context",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (1999)",
+      "publisher": "Pharmaceutical Research, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cd1441f4-06da-49da-8b9f-f2c7fc4b61ec",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/",
+      "title": "Randomized proof-of-concept study of ipamorelin for postoperative ileus (2014)",
+      "publisher": "International Journal of Colorectal Disease, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "sourceID": "45812810-3288-4d83-aa7e-c22dfa354046",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Source describes these fields; primary-source verification remains pending.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "sourceID": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Background duration/break evidence; not a replacement for dose, product label, route, or population-specific instructions.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "ipamorelin",
+      "sourceID": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "GH biomarker response after IV administration; not a clinical benefit trial. Category rationale: Growth Hormone: direct human GH-release evidence, with clinical benefits unestablished.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "ipamorelin",
+      "sourceID": "cd1441f4-06da-49da-8b9f-f2c7fc4b61ec",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "117 enrolled; principal efficacy comparison p=0.15, not statistically significant. Category rationale: Growth Hormone: direct human GH-release evidence, with clinical benefits unestablished.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Growth Hormone"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glow-stack",
+      "name": "GLOW Stack",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": "Proposed recovery and skin-remodeling rationale: this separate-product stack contains BPC-157, TB-500 and GHK-Cu. BPC-157 has animal wound-repair findings, while GHK-Cu has animal connective-tissue findings and limited topical cosmetic evidence. These component results explain the proposed aims; they do not establish benefits of using all three together or of the stack's injection schedule. No direct combined-efficacy study was found."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ff09b94f-2209-4f62-b7ce-cb8b52db98ac",
+      "productID": "glow-stack",
+      "title": "GLOW separate-product stack — loading and maintenance",
+      "purpose": "Community tissue-repair and skin-remodeling planning",
+      "methodID": "other",
+      "population": "human",
+      "evidenceNotes": "Secondary editorial/community protocol, not independently clinically validated. All source-described cautions, preparation, storage and timing require review.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "tissue_repair_and_skin_remodeling",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "ghk-cu",
+              "name": "GHK-Cu"
+            },
+            {
+              "library_item_id": "tb-500",
+              "name": "TB-500",
+              "exact_sequence": null
+            },
+            {
+              "library_item_id": "bpc-157",
+              "name": "BPC-157"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Loading",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Component-specific daily and twice-weekly schedules",
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Maintenance",
+            "duration": {
+              "kind": "minimum",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Component-specific daily and twice-weekly schedules",
+              "suggested_times": []
+            }
+          }
+        ],
+        "component_regimens": [
+          {
+            "component_id": "bpc-157",
+            "route": "unspecified",
+            "route_options": [
+              "subcutaneous",
+              "oral"
+            ],
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "bpc-157",
+                "dry_amount": {
+                  "value": "5",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "2",
+                  "unit": "mL"
+                }
+              },
+              {
+                "form": "dry",
+                "component_id": "bpc-157",
+                "dry_amount": {
+                  "value": "10",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "2",
+                  "unit": "mL"
+                }
+              }
+            ],
+            "preparation_applies_to_routes": [
+              "subcutaneous"
+            ],
+            "phases": [
+              {
+                "name": "Weeks 1–4",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "250",
+                  "maximum": "500",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "Weeks 5–8+",
+                "duration": {
+                  "kind": "minimum",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing": null,
+              "basis": "not_reported",
+              "provenance": {
+                "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+                "locator": "Dosing Protocol & Schedule; FAQ"
+              }
+            }
+          },
+          {
+            "component_id": "tb-500",
+            "route": "subcutaneous",
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "tb-500",
+                "dry_amount": {
+                  "value": "5",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "1",
+                  "unit": "mL"
+                }
+              },
+              {
+                "form": "dry",
+                "component_id": "tb-500",
+                "dry_amount": {
+                  "value": "10",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "2",
+                  "unit": "mL"
+                }
+              }
+            ],
+            "phases": [
+              {
+                "name": "Weeks 1–4",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "2.5",
+                  "maximum": "5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "times_per_week",
+                  "times_per_week": 2,
+                  "doses_per_day": 1,
+                  "suggested_times": [],
+                  "example_iso_weekdays": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              {
+                "name": "Weeks 5–8+",
+                "duration": {
+                  "kind": "minimum",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "times_per_week",
+                  "times_per_week": 2,
+                  "doses_per_day": 1,
+                  "suggested_times": [],
+                  "example_iso_weekdays": [
+                    1,
+                    4
+                  ]
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing": null,
+              "basis": "not_reported",
+              "provenance": {
+                "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+                "locator": "Dosing Protocol & Schedule; FAQ"
+              }
+            }
+          },
+          {
+            "component_id": "ghk-cu",
+            "route": "subcutaneous",
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "ghk-cu",
+                "dry_amount": {
+                  "value": "50",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "5",
+                  "unit": "mL"
+                }
+              },
+              {
+                "form": "dry",
+                "component_id": "ghk-cu",
+                "dry_amount": {
+                  "value": "100",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "10",
+                  "unit": "mL"
+                }
+              }
+            ],
+            "phases": [
+              {
+                "name": "Weeks 1–4",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "1",
+                  "maximum": "2",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "Weeks 5–8+",
+                "duration": {
+                  "kind": "minimum",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing": null,
+              "basis": "not_reported",
+              "provenance": {
+                "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+                "locator": "Dosing Protocol & Schedule; FAQ"
+              }
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing": null,
+          "basis": "not_reported",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "Dosing Protocol & Schedule; FAQ"
+          }
+        },
+        "cycle_guidance": {
+          "options": [
+            {
+              "label": "standard",
+              "on": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 42,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 14,
+                "maximum": 28,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "extended",
+              "on": {
+                "kind": "range",
+                "minimum": 56,
+                "maximum": 84,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 56,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "skin_focused",
+              "on": {
+                "kind": "fixed",
+                "value": 28,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 14,
+                "maximum": 28,
+                "unit": "day"
+              }
+            }
+          ],
+          "conflicting_guidance": {
+            "on": {
+              "kind": "range",
+              "minimum": 30,
+              "maximum": 60,
+              "unit": "day"
+            },
+            "off": "equal_time_off"
+          },
+          "repeat_rule": null,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "Cycle Guidelines; Protocol Notes"
+          }
+        },
+        "storage": {
+          "dry": {
+            "temperature_c": "-20",
+            "protect_from_light": true,
+            "expiry": null
+          },
+          "reconstituted": {
+            "temperature_c": {
+              "minimum": "2",
+              "maximum": "8"
+            },
+            "premix_use_within": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 14,
+              "unit": "day"
+            },
+            "component_use_within": [
+              {
+                "component_id": "bpc-157",
+                "duration": {
+                  "kind": "maximum",
+                  "value": 30,
+                  "unit": "day"
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "duration": {
+                  "kind": "range",
+                  "minimum": 7,
+                  "maximum": 14,
+                  "unit": "day"
+                }
+              },
+              {
+                "component_id": "ghk-cu",
+                "duration": {
+                  "kind": "maximum",
+                  "value": 30,
+                  "unit": "day"
+                }
+              }
+            ]
+          },
+          "notes": "Source stability claims have not been independently validated for these exact products.",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "Reconstitution Guide; Storage & Handling"
+          }
+        },
+        "cautions": {
+          "exclusions": [
+            "active_or_prior_malignancy",
+            "pregnancy_or_breastfeeding",
+            "copper_metabolism_disorder",
+            "retinal_vascular_disease",
+            "drug_tested_sport"
+          ],
+          "reported_effects": [
+            "local_irritation",
+            "fatigue",
+            "headache"
+          ],
+          "monitoring": [
+            {
+              "markers": [
+                "CBC",
+                "CMP"
+              ],
+              "time": "baseline"
+            },
+            {
+              "markers": [
+                "CRP",
+                "copper",
+                "ceruloplasmin"
+              ],
+              "time": "optional"
+            },
+            {
+              "markers": [
+                "broad_markers"
+              ],
+              "after_start_days": {
+                "minimum": 42,
+                "maximum": 84
+              },
+              "condition": "continued systemic use or changing symptoms"
+            }
+          ],
+          "clinical_standard_established": false,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "Who Should Avoid It; Side Effects & Safety; Blood Tests & Monitoring"
+          }
+        },
+        "handling_guidance": {
+          "separate_syringes": true,
+          "same_session_allowed": true,
+          "mix_in_one_syringe": false,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "Protocol Notes; FAQ Q9"
+          }
+        },
+        "evidence_context": {
+          "regimen_basis": "community_derived",
+          "direct_combination_trial_reported": false,
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "BPC_route_and_formulation_choice",
+          "maintenance_end_date",
+          "exact_clock_time",
+          "best_time_of_day",
+          "food_timing",
+          "exact_TB_500_sequence",
+          "cycle_break_conflict",
+          "component_cycle_coordination"
+        ],
+        "notes": "The first four weeks and open-ended maintenance are retained. The shorter general cycle guidance conflicts with this phase structure and requires review."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "16c875f6-9c6f-4e79-b429-be73327791c6",
+      "url": "https://so09.tci-thaijo.org/index.php/PMR/article/view/9318",
+      "title": "The efficacy of 2% copper peptide (GHK-Cu) serum for eyebrow hypotrichosis: a randomized, double-blind, vehicle-controlled, split-face comparative study",
+      "publisher": "Procedia of Multidisciplinary Research, 2026",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8227353/",
+      "title": "In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds",
+      "publisher": "Journal of Clinical Investigation / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "5957a962-1c02-42f4-949e-880179d4c994",
+      "url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+      "title": "GLOW Peptide Guide: BPC-157 + TB-500 + GHK-Cu Stack Dosing Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9403790/",
+      "title": "BPC 157's effect on healing",
+      "publisher": "Journal of Physiology, Paris / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ff09b94f-2209-4f62-b7ce-cb8b52db98ac",
+      "sourceID": "5957a962-1c02-42f4-949e-880179d4c994",
+      "locator": "Separate-vial workflow; Weekly Schedule Example; Protocol Notes; BPC-157/TB-500/GHK-Cu Reconstitution",
+      "evidenceNote": "Supports the listed community-described fields; no direct combination trial validation.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/handling_guidance"
+      ]
+    },
+    {
+      "productID": "glow-stack",
+      "sourceID": "16c875f6-9c6f-4e79-b429-be73327791c6",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Original abstract read. Small topical GHK-Cu cosmetic study; does not support injectable GHK-Cu or GLOW stack efficacy. Category rationale: Provisional skin-remodeling purpose, as described for the named stack; efficacy is unverified.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glow-stack",
+      "sourceID": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Original rat-study abstract read. Component rationale only; no three-product stack tested. Category rationale: Provisional skin-remodeling purpose, as described for the named stack; efficacy is unverified.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glow-stack",
+      "sourceID": "5957a962-1c02-42f4-949e-880179d4c994",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Read for separate-product identity and declared purpose only, not efficacy; component research does not establish a stack benefit. Category rationale: Provisional skin-remodeling purpose, as described for the named stack; efficacy is unverified.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glow-stack",
+      "sourceID": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Original rat-study abstract read. Component rationale only; no three-product stack tested. Category rationale: Provisional skin-remodeling purpose, as described for the named stack; efficacy is unverified.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Skin"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "Other"
+    }
+  ]
+}
