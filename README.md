@@ -5,6 +5,7 @@ Create optional JSON reference libraries for Protocol Wizard, a personal protoco
 ## Files
 
 - `template/library.schema.json` — the complete JSON Schema for library format 1, including required fields, types, choices, and optional reference metadata.
+- [Generated schema reference](docs/schema/library.md) — field types, required attributes, supported values, and constraints, generated with Adobe's `jsonschema2md`.
 - `community-examples/<product-id>.json` — 52 individual product libraries containing 107 supported approved protocols in total. Each file contains exactly one product and all of its supported protocols, with the sources, citations, category, and delivery methods they use. Unsupported structured delivery methods or dose units are omitted without converting quantities or changing the authoring database.
 
 Create your own product files with the [schema](template/library.schema.json), or start with the [community examples](community-examples/README.md). Download the individual JSON files you want to import into Protocol Wizard.
@@ -159,6 +160,19 @@ uv run --no-project --with jsonschema python -c 'import json; from jsonschema im
 To check your own file, use `Draft202012Validator(s).validate(json.load(open("your-product.json")))`. The app additionally checks the file size, unique IDs, cross-references, parsed source URLs, and structured app choices. These relationship checks are not expressible by this schema alone. Both file import and URL import use the bundled authoring schema before a catalog reaches installation review. Validation errors identify the failing JSON path when a structural rule fails.
 
 Keep `template/library.schema.json` synchronized with the schema distributed by the app. Editing this repository's schema does not change the installed app's accepted format.
+
+## Regenerate the schema reference
+
+The Markdown reference uses [Adobe jsonschema2md](https://github.com/adobe/jsonschema2md), pinned to version `8.0.11`. The schema remains Draft 2020-12. Its `$id` identifies the canonical public schema and lets the generator resolve internal references.
+
+With Node.js and npm installed, run these commands from this repository's root. `docs/schema/` contains generated output; rebuilding from an empty directory removes obsolete pages when fields change.
+
+```sh
+rm -r docs/schema
+npm exec --yes --package=@adobe/jsonschema2md@8.0.11 -- jsonschema2md -d template -o docs/schema -x -
+```
+
+The `-x -` option disables schema-file output. Review and commit the generated Markdown with schema changes. Use this README for the import workflow and relationship checks that the app performs beyond JSON Schema validation.
 
 ## Optional URL distribution
 
