@@ -26,7 +26,7 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 | [provenance](#provenance)                                 | `object`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-provenance.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/component_regimens/items/properties/timing_guidance/properties/provenance")                                 |
 | [relative_events](#relative_events)                       | `array`       | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-relative_events.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/component_regimens/items/properties/timing_guidance/properties/relative_events")                       |
 | [spacing](#spacing)                                       | Not specified | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-spacing.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/component_regimens/items/properties/timing_guidance/properties/spacing")                                       |
-| [spacing_between_components](#spacing_between_components) | Not specified | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-spacing_between_components.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/component_regimens/items/properties/timing_guidance/properties/spacing_between_components") |
+| [spacing_between_components](#spacing_between_components) | Not specified | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-spacing-between-components.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/component_regimens/items/properties/timing_guidance/properties/spacing_between_components") |
 | [suggested_clock_times](#suggested_clock_times)           | `array`       | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-suggested_clock_times.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/component_regimens/items/properties/timing_guidance/properties/suggested_clock_times")           |
 | Additional Properties                                     | Any           | Optional | can be null    |                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
@@ -158,13 +158,13 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## spacing
 
-
+Reserved in the version 1 format; if provided, this field must be null.
 
 `spacing`
 
 * is optional
 
-* Type: `null`, the value must be null
+* Type: `null`, the value must be null ([Spacing](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-spacing.md))
 
 * can be null
 
@@ -172,25 +172,25 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ### spacing Type
 
-`null`, the value must be null
+`null`, the value must be null ([Spacing](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-spacing.md))
 
 ## spacing_between_components
 
-
+Reserved in the version 1 format; if provided, this field must be null.
 
 `spacing_between_components`
 
 * is optional
 
-* Type: `null`, the value must be null
+* Type: `null`, the value must be null ([Spacing between components](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-spacing-between-components.md))
 
 * can be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-spacing_between_components.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/component_regimens/items/properties/timing_guidance/properties/spacing_between_components")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-spacing-between-components.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/component_regimens/items/properties/timing_guidance/properties/spacing_between_components")
 
 ### spacing_between_components Type
 
-`null`, the value must be null
+`null`, the value must be null ([Spacing between components](library-defs-regimen-properties-component_regimens-items-properties-timing_guidance-properties-spacing-between-components.md))
 
 ## suggested_clock_times
 

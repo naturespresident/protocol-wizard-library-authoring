@@ -1,10 +1,10 @@
-# Untitled object in Protocol Wizard product library — schema version 1 Schema
+# Storage Schema
 
 ```txt
 https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/storage
 ```
 
-
+Optional source-reported storage, handling, and discard guidance. This reference metadata does not set personal expiry dates or reminders.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## storage Type
 
-`object` ([Details](library-defs-regimen-properties-storage.md))
+`object` ([Storage](library-defs-regimen-properties-storage.md))
 
 # storage Properties
 

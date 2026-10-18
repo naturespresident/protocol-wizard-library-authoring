@@ -1,10 +1,10 @@
-# Untitled array in Protocol Wizard product library — schema version 1 Schema
+# Categories Schema
 
 ```txt
 https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/properties/categories
 ```
 
-
+Grouping labels referenced by the product's categoryID. Use an empty array when the product has no category.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
@@ -12,4 +12,4 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## categories Type
 
-`object[]` ([Details](library-defs-category.md))
+`object[]` ([Category](library-defs-category.md))

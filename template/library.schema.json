@@ -7,15 +7,20 @@
   "properties": {
     "$schema": {
       "type": "string",
-      "description": "Optional editor hint pointing to this schema."
+      "description": "Optional editor hint for JSON validation and completion. The app uses its bundled schema and does not download this URL.",
+      "title": "Editor schema URL"
     },
     "schemaVersion": {
       "type": "integer",
-      "const": 1
+      "const": 1,
+      "title": "File format version",
+      "description": "Library file format version. Use the integer 1 during development."
     },
     "catalogVersion": {
       "type": "integer",
-      "const": 1
+      "const": 1,
+      "title": "Catalog version",
+      "description": "Content version marker. Use the integer 1 during development; the app detects content updates by SHA-256 digest."
     },
     "items": {
       "type": "array",
@@ -23,38 +28,50 @@
         "$ref": "#/$defs/item"
       },
       "minItems": 1,
-      "maxItems": 1
+      "maxItems": 1,
+      "title": "Product",
+      "description": "Exactly one product identity. Include its reusable protocols in the protocols array; importing does not create a personal product or start a schedule."
     },
     "protocols": {
       "type": "array",
       "items": {
         "$ref": "#/$defs/protocol"
       },
-      "minItems": 1
+      "minItems": 1,
+      "title": "Protocols",
+      "description": "One or more reusable protocols for the included product. Each productID must equal items[0].id. Users choose which protocols to import."
     },
     "sources": {
       "type": "array",
       "items": {
         "$ref": "#/$defs/source"
-      }
+      },
+      "title": "Sources",
+      "description": "Source records referenced by citations. Use an empty array when there are none; citation sourceIDs must resolve within this file."
     },
     "citations": {
       "type": "array",
       "items": {
         "$ref": "#/$defs/citation"
-      }
+      },
+      "title": "Citations",
+      "description": "Links from a product or protocol to a source, with optional location and evidence context. Use an empty array when there are none."
     },
     "categories": {
       "type": "array",
       "items": {
         "$ref": "#/$defs/category"
-      }
+      },
+      "title": "Categories",
+      "description": "Grouping labels referenced by the product's categoryID. Use an empty array when the product has no category."
     },
     "methods": {
       "type": "array",
       "items": {
         "$ref": "#/$defs/method"
-      }
+      },
+      "title": "Delivery methods",
+      "description": "Labels for supported delivery IDs used by the protocols. Each protocol's methodID must resolve within this file."
     }
   },
   "required": [
@@ -72,7 +89,9 @@
     "nonblank": {
       "type": "string",
       "minLength": 1,
-      "pattern": "\\S"
+      "pattern": "\\S",
+      "title": "Nonblank text",
+      "description": "A string containing at least one non-whitespace character. Use stable IDs and meaningful names where a field refers to this definition."
     },
     "methodID": {
       "type": "string",
@@ -84,22 +103,30 @@
         "intranasal",
         "topical",
         "other"
-      ]
+      ],
+      "title": "Delivery method ID",
+      "description": "An exact, lowercase delivery choice supported by the app. Use unspecified when the user should choose the method; a custom display label does not allow a new ID."
     },
     "item": {
       "type": "object",
       "properties": {
         "id": {
-          "$ref": "#/$defs/nonblank"
+          "$ref": "#/$defs/nonblank",
+          "title": "Product ID",
+          "description": "Stable product identifier. Matching IDs update the same installed reference product; use a namespace to avoid collisions with other authors."
         },
         "name": {
-          "$ref": "#/$defs/nonblank"
+          "$ref": "#/$defs/nonblank",
+          "title": "Product name",
+          "description": "Display name for the product. Must contain at least one non-whitespace character."
         },
         "aliases": {
           "type": "array",
           "items": {
             "type": "string"
-          }
+          },
+          "title": "Alternative names",
+          "description": "Other names readers may use for this product. Use an empty array when there are none."
         },
         "kind": {
           "type": "string",
@@ -108,26 +135,34 @@
             "blend",
             "other",
             "unresolved"
-          ]
+          ],
+          "title": "Product kind",
+          "description": "Classifies the identity as a product, blend, other item, or unresolved item. Use one of the exact listed values."
         },
         "identityStatus": {
           "type": "string",
           "enum": [
             "resolved",
             "needs_confirmation"
-          ]
+          ],
+          "title": "Identity status",
+          "description": "Use resolved for a confirmed identity or needs_confirmation when the identity still needs clarification."
         },
         "categoryID": {
           "type": [
             "integer",
             "null"
-          ]
+          ],
+          "title": "Category ID",
+          "description": "Integer ID of a category in this file. Omit or set to null when the product has no category."
         },
         "benefits": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "title": "Benefits and context",
+          "description": "Optional text describing intended benefits and their supporting context or limitations. Omit or set to null when unavailable."
         }
       },
       "required": [
@@ -137,40 +172,58 @@
         "kind",
         "identityStatus"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "title": "Product",
+      "description": "The single product described by this library file. Keep its ID stable so future imports can update the same reference entry."
     },
     "protocol": {
       "type": "object",
       "properties": {
         "id": {
-          "$ref": "#/$defs/nonblank"
+          "$ref": "#/$defs/nonblank",
+          "title": "Protocol ID",
+          "description": "Stable identifier for this reusable protocol. A matching installed ID can update the same protocol but cannot move it to a different product."
         },
         "productID": {
-          "$ref": "#/$defs/nonblank"
+          "$ref": "#/$defs/nonblank",
+          "title": "Product ID",
+          "description": "ID of the one product included in items. All protocols in this file must belong to that product."
         },
         "title": {
-          "$ref": "#/$defs/nonblank"
+          "$ref": "#/$defs/nonblank",
+          "title": "Protocol title",
+          "description": "Display name that distinguishes this routine from other protocols for the product. Must be nonblank."
         },
         "purpose": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "title": "Purpose",
+          "description": "Optional explanation of the routine's intended goal. Omit or set to null when unavailable."
         },
         "methodID": {
-          "$ref": "#/$defs/methodID"
+          "$ref": "#/$defs/methodID",
+          "title": "Delivery method ID",
+          "description": "Supported delivery ID for this routine. Include a matching entry in the file's methods array."
         },
         "population": {
-          "type": "string"
+          "type": "string",
+          "title": "Intended audience",
+          "description": "Text describing who the source routine applies to. Use an empty string when no audience is specified."
         },
         "evidenceNotes": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "title": "Evidence notes",
+          "description": "Optional qualifications, uncertainties, or source context for this routine. Omit or set to null when unavailable."
         },
         "regimen": {
-          "$ref": "#/$defs/regimen"
+          "$ref": "#/$defs/regimen",
+          "title": "Regimen",
+          "description": "Required version 1 regimen with at least one phase. It supplies reusable reference settings, not an active personal schedule."
         }
       },
       "required": [
@@ -181,31 +234,40 @@
         "population",
         "regimen"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "title": "Protocol",
+      "description": "A reusable routine for the included product. Importing adds reference content; the user creates and confirms a personal schedule separately."
     },
     "source": {
       "type": "object",
       "properties": {
         "id": {
-          "$ref": "#/$defs/nonblank"
+          "$ref": "#/$defs/nonblank",
+          "title": "Source ID",
+          "description": "Stable identifier used by citation sourceIDs in this file. Namespace it to avoid collisions with other authors."
         },
         "url": {
           "type": "string",
           "pattern": "^https?://[^\\s/@]+(?:[/:?#][^\\s]*)?$",
-          "description": "HTTP or HTTPS source URL without embedded credentials. The app also validates the parsed URL."
+          "description": "HTTP or HTTPS source URL without embedded credentials. The app also checks the parsed URL; it does not fetch the source during import.",
+          "title": "Source URL"
         },
         "title": {
-          "type": "string"
+          "type": "string",
+          "title": "Source title",
+          "description": "Display title of the source material."
         },
         "publisher": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "title": "Publisher",
+          "description": "Optional authoring organization or publisher name. Omit or set to null when unavailable."
         },
         "type": {
           "type": "string",
-          "description": "Free-form source category; common values are shown as examples.",
+          "description": "Free-form source category. The listed examples are suggestions, not a fixed set of choices.",
           "examples": [
             "human_study",
             "animal_study",
@@ -214,13 +276,16 @@
             "manufacturer",
             "clinical_guidance",
             "other"
-          ]
+          ],
+          "title": "Source type"
         },
         "publishedAt": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "title": "Publication date",
+          "description": "Optional publication date retained as text, without date parsing or a required date format. Omit or set to null when unavailable."
         }
       },
       "required": [
@@ -229,7 +294,9 @@
         "title",
         "type"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "title": "Source",
+      "description": "A bibliographic record with a stable ID and an HTTP or HTTPS URL. Citations use this ID to link supporting material to a product or protocol."
     },
     "citation": {
       "type": "object",
@@ -238,34 +305,46 @@
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "title": "Protocol target ID",
+          "description": "ID of a protocol in this file. Provide a nonblank value when citing a protocol; otherwise omit this field or set it to null."
         },
         "productID": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "title": "Product target ID",
+          "description": "ID of the product in this file. Provide a nonblank value when citing the product; otherwise omit this field or set it to null."
         },
         "sourceID": {
-          "$ref": "#/$defs/nonblank"
+          "$ref": "#/$defs/nonblank",
+          "title": "Source ID",
+          "description": "ID of the supporting source record in this file."
         },
         "locator": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "title": "Source location",
+          "description": "Optional page, section, table, or other locator within the source. Omit or set to null when unavailable."
         },
         "evidenceNote": {
           "type": [
             "string",
             "null"
-          ]
+          ],
+          "title": "Evidence note",
+          "description": "Optional explanation of what the source supports and any relevant limits. Omit or set to null when unavailable."
         },
         "supports": {
           "type": "array",
           "items": {
             "type": "string"
-          }
+          },
+          "title": "Supported fields",
+          "description": "Field names or reference paths supported by this citation, such as /phases or /benefits. The app retains these strings as descriptions and does not resolve them as JSON Pointers."
         }
       },
       "required": [
@@ -280,12 +359,18 @@
           ],
           "properties": {
             "protocolID": {
-              "$ref": "#/$defs/nonblank"
+              "$ref": "#/$defs/nonblank",
+              "title": "Protocol target ID",
+              "description": "Nonblank ID of the protocol this citation supports."
             },
             "productID": {
-              "type": "null"
+              "type": "null",
+              "title": "Unused product target",
+              "description": "For a protocol citation, omit productID or set it to null. A citation cannot target both a product and a protocol."
             }
-          }
+          },
+          "title": "Protocol citation",
+          "description": "Requires a nonblank protocolID. Omit productID or set it to null so the citation has only one target."
         },
         {
           "required": [
@@ -293,46 +378,66 @@
           ],
           "properties": {
             "productID": {
-              "$ref": "#/$defs/nonblank"
+              "$ref": "#/$defs/nonblank",
+              "title": "Product target ID",
+              "description": "Nonblank ID of the product this citation supports."
             },
             "protocolID": {
-              "type": "null"
+              "type": "null",
+              "title": "Unused protocol target",
+              "description": "For a product citation, omit protocolID or set it to null. A citation cannot target both a product and a protocol."
             }
-          }
+          },
+          "title": "Product citation",
+          "description": "Requires a nonblank productID. Omit protocolID or set it to null so the citation has only one target."
         }
-      ]
+      ],
+      "title": "Citation",
+      "description": "Connects one source to exactly one target: provide a nonblank protocolID or productID, never both. The unused target may be omitted or null. The source and target must exist in this file; the app checks these relationships."
     },
     "category": {
       "type": "object",
       "properties": {
         "id": {
-          "type": "integer"
+          "type": "integer",
+          "title": "Category ID",
+          "description": "Integer identifier unique within the categories array. Reuse an installed ID only for the same category."
         },
         "name": {
-          "$ref": "#/$defs/nonblank"
+          "$ref": "#/$defs/nonblank",
+          "title": "Category name",
+          "description": "Nonblank display label for the grouping."
         }
       },
       "required": [
         "id",
         "name"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "title": "Category",
+      "description": "A product grouping label with an integer ID. Reuse an installed ID only for the same category; changes to shared labels require replacement confirmation."
     },
     "method": {
       "type": "object",
       "properties": {
         "id": {
-          "$ref": "#/$defs/methodID"
+          "$ref": "#/$defs/methodID",
+          "title": "Delivery method ID",
+          "description": "Supported delivery choice unique within the methods array. Protocol methodIDs refer to this value."
         },
         "name": {
-          "$ref": "#/$defs/nonblank"
+          "$ref": "#/$defs/nonblank",
+          "title": "Delivery method label",
+          "description": "Nonblank display label for the delivery method. Changing the label does not expand the supported ID choices."
         }
       },
       "required": [
         "id",
         "name"
       ],
-      "additionalProperties": false
+      "additionalProperties": false,
+      "title": "Delivery method",
+      "description": "A display label for a supported delivery method ID. The ID must use an app choice even when the label is customized."
     },
     "regimen": {
       "type": "object",
@@ -449,7 +554,9 @@
               }
             }
           },
-          "additionalProperties": true
+          "additionalProperties": true,
+          "title": "Cautions",
+          "description": "Optional source context for exclusions, interactions, monitoring, and reported effects. This reference metadata does not create alerts or monitoring tasks."
         },
         "clinical_context": {
           "type": "object",
@@ -804,10 +911,14 @@
                     }
                   },
                   "spacing": {
-                    "type": "null"
+                    "type": "null",
+                    "title": "Spacing",
+                    "description": "Reserved in the version 1 format; if provided, this field must be null."
                   },
                   "spacing_between_components": {
-                    "type": "null"
+                    "type": "null",
+                    "title": "Spacing between components",
+                    "description": "Reserved in the version 1 format; if provided, this field must be null."
                   },
                   "suggested_clock_times": {
                     "type": "array",
@@ -1031,7 +1142,9 @@
               }
             },
             "repeat_rule": {
-              "type": "null"
+              "type": "null",
+              "title": "Repeat rule",
+              "description": "Reserved in the version 1 format; if provided, this field must be null."
             },
             "source_id": {
               "type": "string"
@@ -1105,7 +1218,9 @@
                 "type": "object",
                 "properties": {
                   "exact_sequence": {
-                    "type": "null"
+                    "type": "null",
+                    "title": "Exact sequence",
+                    "description": "Reserved in the version 1 format; if provided, this field must be null."
                   },
                   "library_item_id": {
                     "type": "string"
@@ -1257,7 +1372,9 @@
                     "type": "string"
                   },
                   "doses_per_day": {
-                    "type": "null"
+                    "type": "null",
+                    "title": "Doses per day",
+                    "description": "Reserved in the version 1 format; if provided, this field must be null."
                   },
                   "frequency_maximum": {
                     "type": "object",
@@ -1668,7 +1785,9 @@
                 ],
                 "properties": {
                   "approximate": {
-                    "type": "boolean"
+                    "type": "boolean",
+                    "title": "Approximate dose",
+                    "description": "Whether the source describes the amount as approximate."
                   },
                   "basis": {
                     "type": "string",
@@ -1682,7 +1801,9 @@
                       "weekly_total",
                       "per_session",
                       "not_reported"
-                    ]
+                    ],
+                    "title": "Dose basis",
+                    "description": "How to interpret the quantity, such as per administration, a daily total, a component amount, or a body-weight amount. This label does not convert quantities or choose a personal dose."
                   },
                   "conditions": {
                     "type": "array",
@@ -1703,19 +1824,25 @@
                     "type": "string"
                   },
                   "maximum": {
-                    "type": "string"
+                    "type": "string",
+                    "title": "Maximum dose",
+                    "description": "Upper end of a source-reported dose range as a plain decimal string. The user chooses a concrete personal dose."
                   },
                   "minimum": {
                     "type": [
                       "null",
                       "string"
-                    ]
+                    ],
+                    "title": "Minimum dose",
+                    "description": "Lower end of a source-reported dose range as a plain decimal string, or null when unknown. The user chooses a concrete personal dose."
                   },
                   "options": {
                     "type": "array",
                     "items": {
                       "type": "string"
-                    }
+                    },
+                    "title": "Dose choices",
+                    "description": "Alternative source-reported quantities as plain decimal strings in the stated unit. Listing choices does not select a personal dose."
                   },
                   "range_options": {
                     "type": "array",
@@ -1744,20 +1871,25 @@
                       "spray",
                       "drop",
                       "application"
-                    ]
+                    ],
+                    "title": "Dose unit",
+                    "description": "Exact app-supported unit for all quantities in this dose object. IU represents biological activity and does not imply a mass conversion."
                   },
                   "value": {
                     "type": [
                       "null",
                       "string"
-                    ]
+                    ],
+                    "title": "Dose amount",
+                    "description": "Single dose quantity as a plain decimal string, such as 0.25 or 500, or null when unknown. Use a dot for the decimal separator and no grouping commas or unit suffix."
                   }
                 },
                 "additionalProperties": true,
-                "description": "A single decimal string value, a minimum/maximum range, options, or null when unknown. These are reference quantities; ranges and component/body-weight doses are not automatically chosen.",
+                "description": "Required dose content: a decimal string value, a minimum/maximum range, options, or null when unknown. Dose objects need a supported unit. The app checks plain decimal strings; ranges and component or body-weight amounts are not automatically chosen.",
                 "required": [
                   "unit"
-                ]
+                ],
+                "title": "Phase dose"
               },
               "duration": {
                 "type": "object",
@@ -1773,7 +1905,9 @@
                       "unreported",
                       "target_dose",
                       "target_dose_choices"
-                    ]
+                    ],
+                    "title": "Duration kind",
+                    "description": "Describes a fixed length, a range, a minimum or maximum, an ongoing or unreported duration, or a source-defined target. Only fixed day or week lengths can seed a concrete editor duration."
                   },
                   "maximum": {
                     "type": [
@@ -1781,7 +1915,9 @@
                       "null"
                     ],
                     "minimum": 1,
-                    "maximum": 365000
+                    "maximum": 365000,
+                    "title": "Maximum duration",
+                    "description": "Upper duration bound in the stated unit, or null when unreported. A source range does not choose a personal duration."
                   },
                   "minimum": {
                     "type": [
@@ -1789,7 +1925,9 @@
                       "null"
                     ],
                     "minimum": 1,
-                    "maximum": 365000
+                    "maximum": 365000,
+                    "title": "Minimum duration",
+                    "description": "Lower duration bound in the stated unit, or null when unreported. A source range does not choose a personal duration."
                   },
                   "unit": {
                     "type": "string",
@@ -1797,7 +1935,9 @@
                       "day",
                       "week",
                       "calendar_month"
-                    ]
+                    ],
+                    "title": "Duration unit",
+                    "description": "Unit for the duration amount and bounds: day, week, or calendar_month. Calendar months are retained as reference context."
                   },
                   "value": {
                     "type": [
@@ -1805,18 +1945,24 @@
                       "null"
                     ],
                     "minimum": 1,
-                    "maximum": 365000
+                    "maximum": 365000,
+                    "title": "Duration amount",
+                    "description": "Single duration amount in the stated unit. Use an integer from 1 through 365000, or null when unreported."
                   }
                 },
                 "additionalProperties": true,
                 "required": [
                   "kind"
-                ]
+                ],
+                "title": "Phase duration",
+                "description": "Required description of how long this stage lasts. Choose kind and include the applicable value or bounds with their unit. Ongoing or unreported durations can omit a numeric amount."
               },
               "name": {
                 "type": "string",
                 "minLength": 1,
-                "pattern": "\\S"
+                "pattern": "\\S",
+                "title": "Phase name",
+                "description": "Nonblank display label for this stage, such as Initial phase or Maintenance."
               },
               "schedule": {
                 "type": "object",
@@ -1834,7 +1980,9 @@
                     "additionalProperties": true
                   },
                   "description": {
-                    "type": "string"
+                    "type": "string",
+                    "title": "Schedule description",
+                    "description": "Optional source wording or explanation that a structured pattern alone cannot express."
                   },
                   "doses_per_day": {
                     "type": [
@@ -1842,7 +1990,9 @@
                       "null"
                     ],
                     "minimum": 1,
-                    "maximum": 1440
+                    "maximum": 1440,
+                    "title": "Doses per day",
+                    "description": "Number of administrations on each dosing day, from 1 through 1440, or null when unreported."
                   },
                   "frequency_range": {
                     "type": "object",
@@ -1865,7 +2015,9 @@
                       "null"
                     ],
                     "minimum": 1,
-                    "maximum": 365000
+                    "maximum": 365000,
+                    "title": "Days between doses",
+                    "description": "Interval in days for every_n_days, from 1 through 365000, or null when unreported."
                   },
                   "interval_days_range": {
                     "type": "object",
@@ -1897,15 +2049,20 @@
                       "times_per_week",
                       "as_needed",
                       "source_described"
-                    ]
+                    ],
+                    "title": "Schedule pattern",
+                    "description": "Describes daily, interval, selected weekdays, weekly frequency, as-needed, or source-described use. Users must choose a valid personal schedule before saving."
                   },
                   "suggested_times": {
                     "type": "array",
                     "items": {
                       "type": "string",
-                      "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$"
+                      "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$",
+                      "title": "Local dose time",
+                      "description": "One local time in 24-hour HH:mm format, such as 09:00."
                     },
-                    "description": "Local 24-hour times (HH:mm). An empty array leaves times for the user to choose."
+                    "description": "Local 24-hour times in HH:mm format. An empty array leaves times for the user to choose; importing does not schedule reminders.",
+                    "title": "Suggested dose times"
                   },
                   "times_per_week": {
                     "type": [
@@ -1913,7 +2070,9 @@
                       "null"
                     ],
                     "minimum": 1,
-                    "maximum": 7
+                    "maximum": 7,
+                    "title": "Doses per week",
+                    "description": "Source-reported weekly frequency from 1 through 7, or null when unreported. A weekly count alone does not select dosing weekdays."
                   },
                   "times_per_week_options": {
                     "type": "array",
@@ -1929,15 +2088,20 @@
                     "items": {
                       "type": "integer",
                       "minimum": 1,
-                      "maximum": 7
+                      "maximum": 7,
+                      "title": "ISO weekday",
+                      "description": "One integer from 1 for Monday through 7 for Sunday."
                     },
-                    "description": "ISO weekday numbers: Monday=1 through Sunday=7."
+                    "description": "ISO weekday numbers for the routine: Monday is 1 and Sunday is 7.",
+                    "title": "Dosing weekdays"
                   }
                 },
                 "additionalProperties": true,
                 "required": [
                   "pattern"
-                ]
+                ],
+                "title": "Phase schedule",
+                "description": "Required description of when doses occur. Choose a pattern and the relevant count, interval, weekdays, or suggested times. Reference alternatives do not become an active schedule on import."
               },
               "source_dose_basis": {
                 "type": "string"
@@ -2000,9 +2164,13 @@
               "duration",
               "dose",
               "schedule"
-            ]
+            ],
+            "title": "Phase",
+            "description": "One stage of the reusable routine. Reference ranges, alternatives, and source descriptions still require the user to choose valid personal settings."
           },
-          "minItems": 1
+          "minItems": 1,
+          "title": "Phases",
+          "description": "Required, nonempty list of routine stages in source order. Each stage needs a name, duration, dose, and schedule."
         },
         "preparation_options": {
           "type": "array",
@@ -2031,7 +2199,9 @@
                 }
               },
               "component_id": {
-                "type": "null"
+                "type": "null",
+                "title": "Component ID",
+                "description": "Reserved in the version 1 format; if provided, this field must be null."
               },
               "container_amount": {
                 "type": "object",
@@ -2058,7 +2228,9 @@
                 "additionalProperties": true
               },
               "diluent": {
-                "type": "string"
+                "type": "string",
+                "title": "Diluent",
+                "description": "Source-reported diluent name for this preparation option."
               },
               "diluent_volume": {
                 "type": [
@@ -2073,7 +2245,9 @@
                     "type": "string"
                   }
                 },
-                "additionalProperties": true
+                "additionalProperties": true,
+                "title": "Diluent volume",
+                "description": "Source-reported diluent quantity with its unit, or null when unknown. Do not infer a final solution volume from this field."
               },
               "discard_after_first_open_days": {
                 "type": "number"
@@ -2091,13 +2265,19 @@
                     "type": "string"
                   }
                 },
-                "additionalProperties": true
+                "additionalProperties": true,
+                "title": "Dry product amount",
+                "description": "Source-reported dry quantity with its unit, or null when unknown."
               },
               "final_solution_volume": {
-                "type": "null"
+                "type": "null",
+                "title": "Final solution volume",
+                "description": "Reserved in the version 1 format; if provided, this field must be null."
               },
               "form": {
-                "type": "string"
+                "type": "string",
+                "title": "Product form",
+                "description": "Source description of the product's physical form for this option."
               },
               "labeled_concentration": {
                 "type": "object",
@@ -2124,7 +2304,9 @@
                 "additionalProperties": true
               },
               "reconstitution_required": {
-                "type": "boolean"
+                "type": "boolean",
+                "title": "Reconstitution required",
+                "description": "Whether the source preparation requires mixing before use."
               },
               "source_reported_concentration": {
                 "type": [
@@ -2142,7 +2324,9 @@
                     "type": "string"
                   }
                 },
-                "additionalProperties": true
+                "additionalProperties": true,
+                "title": "Source concentration",
+                "description": "Source-reported concentration with its unit, or null when unknown. Retain the source quantity rather than inferring a personal calculation."
               },
               "storage": {
                 "type": "object",
@@ -2172,8 +2356,12 @@
                 "additionalProperties": true
               }
             },
-            "additionalProperties": true
-          }
+            "additionalProperties": true,
+            "title": "Preparation option",
+            "description": "One source-reported preparation alternative. Amounts, volumes, and concentrations describe reference content; users enter their own personal product details."
+          },
+          "title": "Preparation options",
+          "description": "Optional alternatives for product form, amounts, diluent, and concentration. Keep quantities and units explicit; the app retains this reference metadata without preparing a personal product."
         },
         "reference_urls": {
           "type": "array",
@@ -2197,7 +2385,8 @@
             "premixed_blend",
             "stack"
           ],
-          "description": "Stacks are viewable reference content; they cannot be activated as a single personal protocol."
+          "description": "Use single_compound for one product, premixed_blend for a prepared blend, or stack for separate components. Stacks are viewable reference content and cannot be activated as a single personal protocol.",
+          "title": "Regimen type"
         },
         "repeat_guidance": {
           "type": "object",
@@ -2321,7 +2510,9 @@
                   "type": "string"
                 },
                 "minimum": {
-                  "type": "null"
+                  "type": "null",
+                  "title": "Minimum",
+                  "description": "Reserved in the version 1 format; if provided, this field must be null."
                 },
                 "unit": {
                   "type": "string",
@@ -2362,7 +2553,9 @@
               "type": "string"
             },
             "minimum": {
-              "type": "null"
+              "type": "null",
+              "title": "Minimum",
+              "description": "Reserved in the version 1 format; if provided, this field must be null."
             },
             "unit": {
               "type": "string"
@@ -2386,7 +2579,9 @@
               "type": "object",
               "properties": {
                 "expiry": {
-                  "type": "null"
+                  "type": "null",
+                  "title": "Expiry",
+                  "description": "Reserved in the version 1 format; if provided, this field must be null."
                 },
                 "protect_from_light": {
                   "type": "boolean"
@@ -2560,7 +2755,9 @@
               }
             }
           },
-          "additionalProperties": true
+          "additionalProperties": true,
+          "title": "Storage",
+          "description": "Optional source-reported storage, handling, and discard guidance. This reference metadata does not set personal expiry dates or reminders."
         },
         "study_exposure_context": {
           "type": "object",
@@ -2686,7 +2883,9 @@
               "type": "string"
             },
             "spacing": {
-              "type": "null"
+              "type": "null",
+              "title": "Spacing",
+              "description": "Reserved in the version 1 format; if provided, this field must be null."
             },
             "spacing_between_components": {
               "type": [
@@ -2888,7 +3087,9 @@
         },
         "version": {
           "type": "integer",
-          "const": 1
+          "const": 1,
+          "title": "Regimen version",
+          "description": "Regimen format version. Use the integer 1 during development, including for content updates."
         },
         "weight_examples": {
           "type": "array",
@@ -2939,11 +3140,12 @@
         }
       },
       "additionalProperties": true,
-      "description": "Structured reference content. Required core fields are version and phases. Optional metadata fields shown here are retained for display; additional metadata is allowed and does not automatically create a personal schedule.",
+      "description": "The reusable dose, duration, and schedule content of a protocol. Version and phases are required. Optional source metadata supplies context; the editor only copies settings it understands.",
       "required": [
         "version",
         "phases"
-      ]
+      ],
+      "title": "Regimen"
     }
   }
 }

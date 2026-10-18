@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 | Property                            | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                        |
 | :---------------------------------- | :------------ | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [exact_sequence](#exact_sequence)   | Not specified | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-formulation-properties-components-items-properties-exact_sequence.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/formulation/properties/components/items/properties/exact_sequence")   |
+| [exact_sequence](#exact_sequence)   | Not specified | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-formulation-properties-components-items-properties-exact-sequence.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/formulation/properties/components/items/properties/exact_sequence")   |
 | [library_item_id](#library_item_id) | `string`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-formulation-properties-components-items-properties-library_item_id.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/formulation/properties/components/items/properties/library_item_id") |
 | [name](#name)                       | `string`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-formulation-properties-components-items-properties-name.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/formulation/properties/components/items/properties/name")                       |
 | [ratio_part](#ratio_part)           | `string`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-formulation-properties-components-items-properties-ratio_part.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/formulation/properties/components/items/properties/ratio_part")           |
@@ -27,21 +27,21 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## exact_sequence
 
-
+Reserved in the version 1 format; if provided, this field must be null.
 
 `exact_sequence`
 
 * is optional
 
-* Type: `null`, the value must be null
+* Type: `null`, the value must be null ([Exact sequence](library-defs-regimen-properties-formulation-properties-components-items-properties-exact-sequence.md))
 
 * can be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-formulation-properties-components-items-properties-exact_sequence.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/formulation/properties/components/items/properties/exact_sequence")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-formulation-properties-components-items-properties-exact-sequence.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/formulation/properties/components/items/properties/exact_sequence")
 
 ### exact_sequence Type
 
-`null`, the value must be null
+`null`, the value must be null ([Exact sequence](library-defs-regimen-properties-formulation-properties-components-items-properties-exact-sequence.md))
 
 ## library_item_id
 

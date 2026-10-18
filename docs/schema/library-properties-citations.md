@@ -1,10 +1,10 @@
-# Untitled array in Protocol Wizard product library — schema version 1 Schema
+# Citations Schema
 
 ```txt
 https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/properties/citations
 ```
 
-
+Links from a product or protocol to a source, with optional location and evidence context. Use an empty array when there are none.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
@@ -12,4 +12,4 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## citations Type
 
-`object[]` ([Details](library-defs-citation.md))
+`object[]` ([Citation](library-defs-citation.md))

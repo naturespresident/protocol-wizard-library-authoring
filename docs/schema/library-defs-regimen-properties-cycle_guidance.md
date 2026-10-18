@@ -24,7 +24,7 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 | [options](#options)                           | `array`       | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-cycle_guidance-properties-options.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cycle_guidance/properties/options")                           |
 | [provenance](#provenance)                     | `object`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-cycle_guidance-properties-provenance.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cycle_guidance/properties/provenance")                     |
 | [references](#references)                     | `array`       | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-cycle_guidance-properties-references.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cycle_guidance/properties/references")                     |
-| [repeat_rule](#repeat_rule)                   | Not specified | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-cycle_guidance-properties-repeat_rule.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cycle_guidance/properties/repeat_rule")                   |
+| [repeat_rule](#repeat_rule)                   | Not specified | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-cycle_guidance-properties-repeat-rule.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cycle_guidance/properties/repeat_rule")                   |
 | [source_id](#source_id)                       | `string`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-cycle_guidance-properties-source_id.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cycle_guidance/properties/source_id")                       |
 | [source_tables](#source_tables)               | `array`       | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-cycle_guidance-properties-source_tables.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cycle_guidance/properties/source_tables")               |
 | Additional Properties                         | Any           | Optional | can be null    |                                                                                                                                                                                                                                                                                                                                           |
@@ -139,21 +139,21 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## repeat_rule
 
-
+Reserved in the version 1 format; if provided, this field must be null.
 
 `repeat_rule`
 
 * is optional
 
-* Type: `null`, the value must be null
+* Type: `null`, the value must be null ([Repeat rule](library-defs-regimen-properties-cycle_guidance-properties-repeat-rule.md))
 
 * can be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-cycle_guidance-properties-repeat_rule.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cycle_guidance/properties/repeat_rule")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-cycle_guidance-properties-repeat-rule.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cycle_guidance/properties/repeat_rule")
 
 ### repeat_rule Type
 
-`null`, the value must be null
+`null`, the value must be null ([Repeat rule](library-defs-regimen-properties-cycle_guidance-properties-repeat-rule.md))
 
 ## source_id
 

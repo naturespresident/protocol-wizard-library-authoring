@@ -1,10 +1,10 @@
-# Untitled object in Protocol Wizard product library — schema version 1 Schema
+# Cautions Schema
 
 ```txt
 https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cautions
 ```
 
-
+Optional source context for exclusions, interactions, monitoring, and reported effects. This reference metadata does not create alerts or monitoring tasks.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## cautions Type
 
-`object` ([Details](library-defs-regimen-properties-cautions.md))
+`object` ([Cautions](library-defs-regimen-properties-cautions.md))
 
 # cautions Properties
 

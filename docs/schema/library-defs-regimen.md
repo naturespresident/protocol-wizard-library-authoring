@@ -1,10 +1,10 @@
-# Untitled object in Protocol Wizard product library — schema version 1 Schema
+# Regimen Schema
 
 ```txt
 https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen
 ```
 
-Structured reference content. Required core fields are version and phases. Optional metadata fields shown here are retained for display; additional metadata is allowed and does not automatically create a personal schedule.
+The reusable dose, duration, and schedule content of a protocol. Version and phases are required. Optional source metadata supplies context; the editor only copies settings it understands.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
@@ -12,7 +12,7 @@ Structured reference content. Required core fields are version and phases. Optio
 
 ## regimen Type
 
-`object` ([Details](library-defs-regimen.md))
+`object` ([Regimen](library-defs-regimen.md))
 
 # regimen Properties
 
@@ -34,9 +34,9 @@ Structured reference content. Required core fields are version and phases. Optio
 | [optional_extension](#optional_extension)                       | `object`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-optional_extension.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/optional_extension")                       |
 | [phase_alternatives](#phase_alternatives)                       | `array`   | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phase_alternatives.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phase_alternatives")                       |
 | [phases](#phases)                                               | `array`   | Required | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases")                                               |
-| [preparation_options](#preparation_options)                     | `array`   | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-preparation_options.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/preparation_options")                     |
+| [preparation_options](#preparation_options)                     | `array`   | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-preparation-options.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/preparation_options")                     |
 | [reference_urls](#reference_urls)                               | `array`   | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-reference_urls.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/reference_urls")                               |
-| [regimen_type](#regimen_type)                                   | `string`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-regimen_type.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/regimen_type")                                   |
+| [regimen_type](#regimen_type)                                   | `string`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-regimen-type.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/regimen_type")                                   |
 | [repeat_guidance](#repeat_guidance)                             | `object`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-repeat_guidance.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/repeat_guidance")                             |
 | [schedule_alternative](#schedule_alternative)                   | `object`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-schedule_alternative.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/schedule_alternative")                   |
 | [source_calendar_duration](#source_calendar_duration)           | `object`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-source_calendar_duration.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/source_calendar_duration")           |
@@ -50,19 +50,19 @@ Structured reference content. Required core fields are version and phases. Optio
 | [trial_context](#trial_context)                                 | `object`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-trial_context.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/trial_context")                                 |
 | [trial_target_options](#trial_target_options)                   | `object`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-trial_target_options.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/trial_target_options")                   |
 | [unresolved_fields](#unresolved_fields)                         | `array`   | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-unresolved_fields.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/unresolved_fields")                         |
-| [version](#version)                                             | `integer` | Required | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-version.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/version")                                             |
+| [version](#version)                                             | `integer` | Required | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-regimen-version.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/version")                                     |
 | [weight_examples](#weight_examples)                             | `array`   | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-weight_examples.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/weight_examples")                             |
 | Additional Properties                                           | Any       | Optional | can be null    |                                                                                                                                                                                                                                                                                                         |
 
 ## cautions
 
-
+Optional source context for exclusions, interactions, monitoring, and reported effects. This reference metadata does not create alerts or monitoring tasks.
 
 `cautions`
 
 * is optional
 
-* Type: `object` ([Details](library-defs-regimen-properties-cautions.md))
+* Type: `object` ([Cautions](library-defs-regimen-properties-cautions.md))
 
 * cannot be null
 
@@ -70,7 +70,7 @@ Structured reference content. Required core fields are version and phases. Optio
 
 ### cautions Type
 
-`object` ([Details](library-defs-regimen-properties-cautions.md))
+`object` ([Cautions](library-defs-regimen-properties-cautions.md))
 
 ## clinical_context
 
@@ -326,13 +326,13 @@ Structured reference content. Required core fields are version and phases. Optio
 
 ## phases
 
-
+Required, nonempty list of routine stages in source order. Each stage needs a name, duration, dose, and schedule.
 
 `phases`
 
 * is required
 
-* Type: `object[]` ([Details](library-defs-regimen-properties-phases-items.md))
+* Type: `object[]` ([Phase](library-defs-regimen-properties-phases-phase.md))
 
 * cannot be null
 
@@ -340,7 +340,7 @@ Structured reference content. Required core fields are version and phases. Optio
 
 ### phases Type
 
-`object[]` ([Details](library-defs-regimen-properties-phases-items.md))
+`object[]` ([Phase](library-defs-regimen-properties-phases-phase.md))
 
 ### phases Constraints
 
@@ -348,21 +348,21 @@ Structured reference content. Required core fields are version and phases. Optio
 
 ## preparation_options
 
-
+Optional alternatives for product form, amounts, diluent, and concentration. Keep quantities and units explicit; the app retains this reference metadata without preparing a personal product.
 
 `preparation_options`
 
 * is optional
 
-* Type: `object[]` ([Details](library-defs-regimen-properties-preparation_options-items.md))
+* Type: `object[]` ([Preparation option](library-defs-regimen-properties-preparation-options-preparation-option.md))
 
 * cannot be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-preparation_options.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/preparation_options")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-preparation-options.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/preparation_options")
 
 ### preparation_options Type
 
-`object[]` ([Details](library-defs-regimen-properties-preparation_options-items.md))
+`object[]` ([Preparation option](library-defs-regimen-properties-preparation-options-preparation-option.md))
 
 ## reference_urls
 
@@ -384,21 +384,21 @@ Structured reference content. Required core fields are version and phases. Optio
 
 ## regimen_type
 
-Stacks are viewable reference content; they cannot be activated as a single personal protocol.
+Use single_compound for one product, premixed_blend for a prepared blend, or stack for separate components. Stacks are viewable reference content and cannot be activated as a single personal protocol.
 
 `regimen_type`
 
 * is optional
 
-* Type: `string`
+* Type: `string` ([Regimen type](library-defs-regimen-properties-regimen-type.md))
 
 * cannot be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-regimen_type.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/regimen_type")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-regimen-type.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/regimen_type")
 
 ### regimen_type Type
 
-`string`
+`string` ([Regimen type](library-defs-regimen-properties-regimen-type.md))
 
 ### regimen_type Constraints
 
@@ -502,13 +502,13 @@ Stacks are viewable reference content; they cannot be activated as a single pers
 
 ## storage
 
-
+Optional source-reported storage, handling, and discard guidance. This reference metadata does not set personal expiry dates or reminders.
 
 `storage`
 
 * is optional
 
-* Type: `object` ([Details](library-defs-regimen-properties-storage.md))
+* Type: `object` ([Storage](library-defs-regimen-properties-storage.md))
 
 * cannot be null
 
@@ -516,7 +516,7 @@ Stacks are viewable reference content; they cannot be activated as a single pers
 
 ### storage Type
 
-`object` ([Details](library-defs-regimen-properties-storage.md))
+`object` ([Storage](library-defs-regimen-properties-storage.md))
 
 ## study_exposure_context
 
@@ -646,21 +646,21 @@ Stacks are viewable reference content; they cannot be activated as a single pers
 
 ## version
 
-
+Regimen format version. Use the integer 1 during development, including for content updates.
 
 `version`
 
 * is required
 
-* Type: `integer`
+* Type: `integer` ([Regimen version](library-defs-regimen-properties-regimen-version.md))
 
 * cannot be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-version.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/version")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-regimen-version.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/version")
 
 ### version Type
 
-`integer`
+`integer` ([Regimen version](library-defs-regimen-properties-regimen-version.md))
 
 ### version Constraints
 

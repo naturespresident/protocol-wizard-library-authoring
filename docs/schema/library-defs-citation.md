@@ -1,10 +1,10 @@
-# Untitled object in Protocol Wizard product library — schema version 1 Schema
+# Citation Schema
 
 ```txt
 https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation
 ```
 
-
+Connects one source to exactly one target: provide a nonblank protocolID or productID, never both. The unused target may be omitted or null. The source and target must exist in this file; the app checks these relationships.
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
@@ -12,78 +12,78 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## citation Type
 
-`object` ([Details](library-defs-citation.md))
+`object` ([Citation](library-defs-citation.md))
 
 one (and only one) of
 
-* [Untitled undefined type in Protocol Wizard product library — schema version 1](library-defs-citation-oneof-0.md "check type definition")
+* [Protocol citation](library-defs-citation-oneof-protocol-citation.md "check type definition")
 
-* [Untitled undefined type in Protocol Wizard product library — schema version 1](library-defs-citation-oneof-1.md "check type definition")
+* [Product citation](library-defs-citation-oneof-product-citation.md "check type definition")
 
 # citation Properties
 
-| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                              |
-| :---------------------------- | :------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [protocolID](#protocolid)     | `string` | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-protocolid.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/protocolID")     |
-| [productID](#productid)       | `string` | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-productid.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/productID")       |
-| [sourceID](#sourceid)         | `string` | Required | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-nonblank.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/sourceID")                             |
-| [locator](#locator)           | `string` | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-locator.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/locator")           |
-| [evidenceNote](#evidencenote) | `string` | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-evidencenote.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/evidenceNote") |
-| [supports](#supports)         | `array`  | Required | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-supports.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/supports")         |
+| Property                      | Type     | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                  |
+| :---------------------------- | :------- | :------- | :------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [protocolID](#protocolid)     | `string` | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-protocol-target-id.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/protocolID") |
+| [productID](#productid)       | `string` | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-product-target-id.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/productID")   |
+| [sourceID](#sourceid)         | `string` | Required | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-nonblank-text.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/sourceID")                            |
+| [locator](#locator)           | `string` | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-source-location.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/locator")       |
+| [evidenceNote](#evidencenote) | `string` | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-evidence-note.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/evidenceNote")    |
+| [supports](#supports)         | `array`  | Required | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-citation-properties-supported-fields.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/supports")     |
 
 ## protocolID
 
-
+ID of a protocol in this file. Provide a nonblank value when citing a protocol; otherwise omit this field or set it to null.
 
 `protocolID`
 
 * is optional
 
-* Type: `string`
+* Type: `string` ([Protocol target ID](library-defs-citation-properties-protocol-target-id.md))
 
 * can be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-protocolid.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/protocolID")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-protocol-target-id.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/protocolID")
 
 ### protocolID Type
 
-`string`
+`string` ([Protocol target ID](library-defs-citation-properties-protocol-target-id.md))
 
 ## productID
 
-
+ID of the product in this file. Provide a nonblank value when citing the product; otherwise omit this field or set it to null.
 
 `productID`
 
 * is optional
 
-* Type: `string`
+* Type: `string` ([Product target ID](library-defs-citation-properties-product-target-id.md))
 
 * can be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-productid.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/productID")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-product-target-id.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/productID")
 
 ### productID Type
 
-`string`
+`string` ([Product target ID](library-defs-citation-properties-product-target-id.md))
 
 ## sourceID
 
-
+A string containing at least one non-whitespace character. Use stable IDs and meaningful names where a field refers to this definition.
 
 `sourceID`
 
 * is required
 
-* Type: `string`
+* Type: `string` ([Nonblank text](library-defs-nonblank-text.md))
 
 * cannot be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-nonblank.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/sourceID")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-nonblank-text.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/sourceID")
 
 ### sourceID Type
 
-`string`
+`string` ([Nonblank text](library-defs-nonblank-text.md))
 
 ### sourceID Constraints
 
@@ -99,43 +99,43 @@ one (and only one) of
 
 ## locator
 
-
+Optional page, section, table, or other locator within the source. Omit or set to null when unavailable.
 
 `locator`
 
 * is optional
 
-* Type: `string`
+* Type: `string` ([Source location](library-defs-citation-properties-source-location.md))
 
 * can be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-locator.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/locator")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-source-location.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/locator")
 
 ### locator Type
 
-`string`
+`string` ([Source location](library-defs-citation-properties-source-location.md))
 
 ## evidenceNote
 
-
+Optional explanation of what the source supports and any relevant limits. Omit or set to null when unavailable.
 
 `evidenceNote`
 
 * is optional
 
-* Type: `string`
+* Type: `string` ([Evidence note](library-defs-citation-properties-evidence-note.md))
 
 * can be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-evidencenote.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/evidenceNote")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-evidence-note.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/evidenceNote")
 
 ### evidenceNote Type
 
-`string`
+`string` ([Evidence note](library-defs-citation-properties-evidence-note.md))
 
 ## supports
 
-
+Field names or reference paths supported by this citation, such as /phases or /benefits. The app retains these strings as descriptions and does not resolve them as JSON Pointers.
 
 `supports`
 
@@ -145,7 +145,7 @@ one (and only one) of
 
 * cannot be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-supports.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/supports")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-citation-properties-supported-fields.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/supports")
 
 ### supports Type
 

@@ -216,13 +216,13 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## spacing
 
-
+Reserved in the version 1 format; if provided, this field must be null.
 
 `spacing`
 
 * is optional
 
-* Type: `null`, the value must be null
+* Type: `null`, the value must be null ([Spacing](library-defs-regimen-properties-timing_guidance-properties-spacing.md))
 
 * can be null
 
@@ -230,7 +230,7 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ### spacing Type
 
-`null`, the value must be null
+`null`, the value must be null ([Spacing](library-defs-regimen-properties-timing_guidance-properties-spacing.md))
 
 ## spacing_between_components
 

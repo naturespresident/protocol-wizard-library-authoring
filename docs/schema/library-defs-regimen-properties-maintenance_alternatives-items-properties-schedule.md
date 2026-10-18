@@ -19,7 +19,7 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 | Property                                | Type          | Required | Nullable       | Defined by                                                                                                                                                                                                                                                                                                                                                                                                  |
 | :-------------------------------------- | :------------ | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [description](#description)             | `string`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-description.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/maintenance_alternatives/items/properties/schedule/properties/description")             |
-| [doses_per_day](#doses_per_day)         | Not specified | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-doses_per_day.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/maintenance_alternatives/items/properties/schedule/properties/doses_per_day")         |
+| [doses_per_day](#doses_per_day)         | Not specified | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-doses-per-day.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/maintenance_alternatives/items/properties/schedule/properties/doses_per_day")         |
 | [frequency_maximum](#frequency_maximum) | `object`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-frequency_maximum.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/maintenance_alternatives/items/properties/schedule/properties/frequency_maximum") |
 | [frequency_range](#frequency_range)     | `object`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-frequency_range.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/maintenance_alternatives/items/properties/schedule/properties/frequency_range")     |
 | [pattern](#pattern)                     | `string`      | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-pattern.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/maintenance_alternatives/items/properties/schedule/properties/pattern")                     |
@@ -46,21 +46,21 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## doses_per_day
 
-
+Reserved in the version 1 format; if provided, this field must be null.
 
 `doses_per_day`
 
 * is optional
 
-* Type: `null`, the value must be null
+* Type: `null`, the value must be null ([Doses per day](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-doses-per-day.md))
 
 * can be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-doses_per_day.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/maintenance_alternatives/items/properties/schedule/properties/doses_per_day")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-doses-per-day.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/maintenance_alternatives/items/properties/schedule/properties/doses_per_day")
 
 ### doses_per_day Type
 
-`null`, the value must be null
+`null`, the value must be null ([Doses per day](library-defs-regimen-properties-maintenance_alternatives-items-properties-schedule-properties-doses-per-day.md))
 
 ## frequency_maximum
 

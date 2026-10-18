@@ -1,10 +1,10 @@
-# Untitled null in Protocol Wizard product library — schema version 1 Schema
+# Minimum Schema
 
 ```txt
 https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/source_upper_community_limits/properties/dose/properties/minimum
 ```
 
-
+Reserved in the version 1 format; if provided, this field must be null.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
@@ -12,4 +12,4 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## minimum Type
 
-`null`, the value must be null
+`null`, the value must be null ([Minimum](library-defs-regimen-properties-source_upper_community_limits-properties-dose-properties-minimum.md))

@@ -1,10 +1,10 @@
-# Untitled undefined type in Protocol Wizard product library — schema version 1 Schema
+# Purpose Schema
 
 ```txt
 https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/protocol/properties/purpose
 ```
 
-
+Optional explanation of the routine's intended goal. Omit or set to null when unavailable.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
@@ -12,4 +12,4 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## purpose Type
 
-`string`
+`string` ([Purpose](library-defs-protocol-properties-purpose.md))

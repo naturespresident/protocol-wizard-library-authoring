@@ -159,7 +159,13 @@ uv run --no-project --with jsonschema python -c 'import json; from jsonschema im
 
 To check your own file, use `Draft202012Validator(s).validate(json.load(open("your-product.json")))`. The app additionally checks the file size, unique IDs, cross-references, parsed source URLs, and structured app choices. These relationship checks are not expressible by this schema alone. Both file import and URL import use the bundled authoring schema before a catalog reaches installation review. Validation errors identify the failing JSON path when a structural rule fails.
 
-Keep `template/library.schema.json` synchronized with the schema distributed by the app. Editing this repository's schema does not change the installed app's accepted format.
+The app repository embeds the same schema at `ios/ProtocolWizard/Resources/library-schema.json` (with a hyphen in the filename). `LibrarySchema` loads that resource from the app bundle so file and URL imports can validate offline against the installed app's supported format. The payload's optional `$schema` URL is only an editor hint.
+
+Keep `template/library.schema.json` and the bundled copy identical, including `title` and `description` annotations. These annotations explain the format without changing validation rules. Editing this repository's schema does not change an installed app; bundled changes ship with an app update. From the app repository root, check that the copies match:
+
+```sh
+cmp library-authoring/template/library.schema.json ios/ProtocolWizard/Resources/library-schema.json
+```
 
 ## Regenerate the schema reference
 
@@ -170,9 +176,10 @@ With Node.js and npm installed, run these commands from this repository's root. 
 ```sh
 rm -r docs/schema
 npm exec --yes --package=@adobe/jsonschema2md@8.0.11 -- jsonschema2md -d template -o docs/schema -x -
+find docs/schema -type f \( -name 'library-defs.md' -o -name '*-properties.md' \) -delete
 ```
 
-The `-x -` option disables schema-file output. Review and commit the generated Markdown with schema changes. Use this README for the import workflow and relationship checks that the app performs beyond JSON Schema validation.
+The `-x -` option disables schema-file output. The cleanup command removes empty definition/property-container pages that the generator labels as an unknown type; it keeps the documentation for their actual fields. Keep field explanations in the schema and regenerate rather than editing generated pages. Review and commit the generated Markdown with schema changes. Use this README for the import workflow and relationship checks that the app performs beyond JSON Schema validation.
 
 ## Optional URL distribution
 

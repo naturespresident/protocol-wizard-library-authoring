@@ -81,13 +81,13 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## minimum
 
-
+Reserved in the version 1 format; if provided, this field must be null.
 
 `minimum`
 
 * is optional
 
-* Type: `null`, the value must be null
+* Type: `null`, the value must be null ([Minimum](library-defs-regimen-properties-source_upper_limit-properties-minimum.md))
 
 * can be null
 
@@ -95,7 +95,7 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ### minimum Type
 
-`null`, the value must be null
+`null`, the value must be null ([Minimum](library-defs-regimen-properties-source_upper_limit-properties-minimum.md))
 
 ## unit
 

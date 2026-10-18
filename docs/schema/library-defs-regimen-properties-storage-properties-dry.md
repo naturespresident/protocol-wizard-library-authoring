@@ -27,13 +27,13 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## expiry
 
-
+Reserved in the version 1 format; if provided, this field must be null.
 
 `expiry`
 
 * is optional
 
-* Type: `null`, the value must be null
+* Type: `null`, the value must be null ([Expiry](library-defs-regimen-properties-storage-properties-dry-properties-expiry.md))
 
 * can be null
 
@@ -41,7 +41,7 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ### expiry Type
 
-`null`, the value must be null
+`null`, the value must be null ([Expiry](library-defs-regimen-properties-storage-properties-dry-properties-expiry.md))
 
 ## protect_from_light
 
