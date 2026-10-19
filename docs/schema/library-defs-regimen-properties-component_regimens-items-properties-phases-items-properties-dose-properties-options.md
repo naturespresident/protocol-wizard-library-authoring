@@ -12,4 +12,4 @@ https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-autho
 
 ## options Type
 
-`string[]`
+`string[]` ([Decimal amount](library-defs-regimen-properties-component_regimens-items-properties-phases-items-properties-dose-properties-options-decimal-amount.md))

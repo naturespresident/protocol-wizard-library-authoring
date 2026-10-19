@@ -12,4 +12,4 @@ Alternative source-reported quantities as plain decimal strings in the stated un
 
 ## options Type
 
-`string[]`
+`string[]` ([Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-choices-decimal-amount.md))

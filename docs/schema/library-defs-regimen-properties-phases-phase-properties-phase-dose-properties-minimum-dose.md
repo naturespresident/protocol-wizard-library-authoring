@@ -13,3 +13,9 @@ Lower end of a source-reported dose range as a plain decimal string, or null whe
 ## minimum Type
 
 `string` ([Minimum dose](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-minimum-dose.md))
+
+one (and only one) of
+
+* [Untitled null in Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-minimum-dose-oneof-0.md "check type definition")
+
+* [Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-minimum-dose-oneof-decimal-amount.md "check type definition")

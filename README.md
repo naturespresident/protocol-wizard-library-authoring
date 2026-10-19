@@ -130,7 +130,7 @@ Schedule patterns are `daily`, `every_n_days`, `weekdays`, `times_per_week`, `as
 
 The schema lists every optional metadata attribute present in the community example, including nested formulation/components, preparation amounts, timing, alternative phases, cycle guidance, storage, cautions, and source context. Optional metadata objects remain extensible: additional attributes are retained for display but do not gain scheduling behavior. Recognized structured delivery and dose fields still require supported choices. Source-reported concentrations, time intervals, and syringe scale annotations are reference metadata, not additional personal dose unit choices.
 
-When a user creates a personal protocol, the editor only copies settings it understands and requires valid personal choices before saving. Stack content can be viewed but cannot be activated as a single personal protocol. A file passing validation does not mean every reference field can be turned into an automatic schedule.
+When a user creates a personal protocol, the editor only copies settings it understands and requires valid personal choices before saving. A nonblank phase `condition` requires separate confirmation before that phase can start, even when its dose and schedule are fully specified. Population descriptions remain visible in the template, editor, final review, and retained source snapshot. Stack content can be viewed but cannot be activated as a single personal protocol. A file passing validation does not mean every reference field can be turned into an automatic schedule.
 
 ## Sources, citations, categories, and methods
 
@@ -157,7 +157,7 @@ Use a validator supporting [JSON Schema Draft 2020-12](https://json-schema.org/d
 uv run --no-project --with jsonschema python -c 'import json; from jsonschema import Draft202012Validator; s=json.load(open("template/library.schema.json")); Draft202012Validator.check_schema(s); v=Draft202012Validator(s); from pathlib import Path; files=list(Path("community-examples").glob("*.json")); [v.validate(json.loads(p.read_text())) for p in files]; print(f"{len(files)} product libraries have valid structure")'
 ```
 
-To check your own file, use `Draft202012Validator(s).validate(json.load(open("your-product.json")))`. The app additionally checks the file size, unique IDs, cross-references, parsed source URLs, and structured app choices. These relationship checks are not expressible by this schema alone. Both file import and URL import use the bundled authoring schema before a catalog reaches installation review. Validation errors identify the failing JSON path when a structural rule fails.
+To check your own file, use `Draft202012Validator(s).validate(json.load(open("your-product.json")))`. The schema checks plain decimal syntax on documented dose amounts, including ranges, options, and conditional values. Signs, exponents, grouping separators, and whitespace are invalid. The app additionally checks the file size, unique IDs, cross-references, parsed source URLs, and structured app choices in extensible metadata. Relationship and parsed-URL checks go beyond JSON Schema validation. Both file import and URL import use the bundled authoring schema before a catalog reaches installation review. Validation errors identify the failing JSON path when a structural rule fails.
 
 The app repository embeds the same schema at `ios/ProtocolWizard/Resources/library-schema.json` (with a hyphen in the filename). `LibrarySchema` loads that resource from the app bundle so file and URL imports can validate offline against the installed app's supported format. The payload's optional `$schema` URL is only an editor hint.
 
@@ -183,7 +183,9 @@ The `-x -` option disables schema-file output. The cleanup command removes empty
 
 ## Optional URL distribution
 
-Users can still import from an HTTPS manifest URL instead of selecting a file. Publish the catalog JSON and a separate manifest:
+Users can paste a direct HTTPS library JSON URL, including an individual community example's GitHub Raw URL, into **Library → Import library → Import from URL**. Choose **Download for review**, select protocols, and confirm any replacements. The same 10,000,000-byte limit and validation apply as for local files. The app retains the source URL and checks it for updates by downloading the JSON again and comparing its digest.
+
+Alternatively, publish the catalog JSON and a separate HTTPS manifest:
 
 ```json
 {
@@ -195,13 +197,13 @@ Users can still import from an HTTPS manifest URL instead of selecting a file. P
 }
 ```
 
-The `size` and `sha256` above are placeholders. `size` must be the exact byte count, at most 10,000,000. The SHA-256 digest must match the exact bytes downloaded, including whitespace and any final newline. Both versions must be `1` and match the product file. Manifest files are limited to 64,000 bytes. Use HTTPS URLs without credentials or fragments. Publish the payload before updating the manifest; a new immutable payload URL per content edit helps avoid stale caches. Users paste the manifest URL into **Import from URL**, choose protocols, and confirm any replacements.
+The `size` and `sha256` above are placeholders. `size` must be the exact byte count, at most 10,000,000. The SHA-256 digest must match the exact bytes downloaded, including whitespace and any final newline. Both versions must be `1` and match the product file. Downloads are capped at 10,000,000 bytes; responses identified as manifests must also fit within 64,000 bytes. Use HTTPS URLs without credentials or fragments. Publish the payload before updating the manifest; a new immutable payload URL per content edit helps avoid stale caches. Users paste the manifest URL into **Import from URL**, choose protocols, and confirm any replacements. A direct JSON URL has no separately published checksum; the app computes a digest of the validated download. Both paths recheck the cached bytes before installation.
 
-Each product remembers its own manifest URL and last imported digest. Connected products are checked at most weekly when the app opens, or manually with **Check for updates**. A changed digest offers another review even while versions remain `1`. Updates require selection and confirmation; they never silently replace content or upload personal records. Changing a product's connected URL also requires confirmation. An update URL must continue to describe the same product ID.
+Each product remembers its own source URL and last imported digest. Connected products are checked at most weekly when the app opens, or manually with **Check for updates**. Manifest checks download only the manifest until review; direct JSON checks download and validate the complete product file. A changed digest offers another review even while versions remain `1`. Updates require selection and confirmation; they never silently replace content or upload personal records. Changing a product's connected URL also requires confirmation. An update URL must continue to describe the same product ID.
 
 ## Maintaining the supplied examples
 
-Maintainers with access to the Protocol Wizard app repository can regenerate these examples with `make catalog`. Run the commands in this section from that app repository, which contains the exporter and authoring database. The exporter reads the database without modifying it and writes one file per product into `library-authoring/community-examples/`.
+Maintainers with access to the Protocol Wizard app repository can regenerate these examples with `make catalog`. Run the commands in this section from that app repository, which contains the exporter and authoring database. The exporter reads the database without modifying it and writes one file per product into `library-authoring/community-examples/`. It excludes protocols with unsupported structured delivery methods, dose units, or dose amount syntax instead of rewriting source quantities.
 
 To export one product and its optional hosted manifest:
 

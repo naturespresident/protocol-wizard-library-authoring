@@ -629,15 +629,18 @@
                           "type": "string"
                         },
                         "maximum": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         },
                         "minimum": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         },
                         "options": {
                           "type": "array",
                           "items": {
-                            "type": "string"
+                            "type": "string",
+                            "$ref": "#/$defs/decimal_amount"
                           }
                         },
                         "unit": {
@@ -655,7 +658,8 @@
                           ]
                         },
                         "value": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         }
                       },
                       "additionalProperties": true,
@@ -1340,10 +1344,12 @@
                     "type": "string"
                   },
                   "maximum": {
-                    "type": "string"
+                    "type": "string",
+                    "$ref": "#/$defs/decimal_amount"
                   },
                   "minimum": {
-                    "type": "string"
+                    "type": "string",
+                    "$ref": "#/$defs/decimal_amount"
                   },
                   "unit": {
                     "type": "string",
@@ -1460,10 +1466,12 @@
                   "type": "string"
                 },
                 "maximum": {
-                  "type": "string"
+                  "type": "string",
+                  "$ref": "#/$defs/decimal_amount"
                 },
                 "minimum": {
-                  "type": "string"
+                  "type": "string",
+                  "$ref": "#/$defs/decimal_amount"
                 },
                 "unit": {
                   "type": "string",
@@ -1552,10 +1560,12 @@
                           "type": "string"
                         },
                         "maximum": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         },
                         "minimum": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         },
                         "unit": {
                           "type": "string",
@@ -1572,7 +1582,8 @@
                           ]
                         },
                         "value": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         }
                       },
                       "additionalProperties": true,
@@ -1671,7 +1682,8 @@
                         ]
                       },
                       "value": {
-                        "type": "string"
+                        "type": "string",
+                        "$ref": "#/$defs/decimal_amount"
                       }
                     },
                     "additionalProperties": true,
@@ -1743,10 +1755,12 @@
                           "type": "string"
                         },
                         "maximum": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         },
                         "minimum": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         },
                         "unit": {
                           "type": "string",
@@ -1763,7 +1777,8 @@
                           ]
                         },
                         "value": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         }
                       },
                       "additionalProperties": true,
@@ -1814,7 +1829,8 @@
                           "type": "string"
                         },
                         "value": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         }
                       },
                       "additionalProperties": true
@@ -1826,7 +1842,8 @@
                   "maximum": {
                     "type": "string",
                     "title": "Maximum dose",
-                    "description": "Upper end of a source-reported dose range as a plain decimal string. The user chooses a concrete personal dose."
+                    "description": "Upper end of a source-reported dose range as a plain decimal string. The user chooses a concrete personal dose.",
+                    "$ref": "#/$defs/decimal_amount"
                   },
                   "minimum": {
                     "type": [
@@ -1834,12 +1851,21 @@
                       "string"
                     ],
                     "title": "Minimum dose",
-                    "description": "Lower end of a source-reported dose range as a plain decimal string, or null when unknown. The user chooses a concrete personal dose."
+                    "description": "Lower end of a source-reported dose range as a plain decimal string, or null when unknown. The user chooses a concrete personal dose.",
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "$ref": "#/$defs/decimal_amount"
+                      }
+                    ]
                   },
                   "options": {
                     "type": "array",
                     "items": {
-                      "type": "string"
+                      "type": "string",
+                      "$ref": "#/$defs/decimal_amount"
                     },
                     "title": "Dose choices",
                     "description": "Alternative source-reported quantities as plain decimal strings in the stated unit. Listing choices does not select a personal dose."
@@ -1850,10 +1876,12 @@
                       "type": "object",
                       "properties": {
                         "maximum": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         },
                         "minimum": {
-                          "type": "string"
+                          "type": "string",
+                          "$ref": "#/$defs/decimal_amount"
                         }
                       },
                       "additionalProperties": true
@@ -1881,7 +1909,15 @@
                       "string"
                     ],
                     "title": "Dose amount",
-                    "description": "Single dose quantity as a plain decimal string, such as 0.25 or 500, or null when unknown. Use a dot for the decimal separator and no grouping commas or unit suffix."
+                    "description": "Single dose quantity as a plain decimal string, such as 0.25 or 500, or null when unknown. Use a dot for the decimal separator and no grouping commas or unit suffix.",
+                    "oneOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "$ref": "#/$defs/decimal_amount"
+                      }
+                    ]
                   }
                 },
                 "additionalProperties": true,
@@ -2507,7 +2543,8 @@
                   "type": "string"
                 },
                 "maximum": {
-                  "type": "string"
+                  "type": "string",
+                  "$ref": "#/$defs/decimal_amount"
                 },
                 "minimum": {
                   "type": "null",
@@ -2993,7 +3030,8 @@
                       ]
                     },
                     "value": {
-                      "type": "string"
+                      "type": "string",
+                      "$ref": "#/$defs/decimal_amount"
                     }
                   },
                   "additionalProperties": true,
@@ -3120,7 +3158,8 @@
                     ]
                   },
                   "value": {
-                    "type": "string"
+                    "type": "string",
+                    "$ref": "#/$defs/decimal_amount"
                   }
                 },
                 "additionalProperties": true,
@@ -3146,6 +3185,12 @@
         "phases"
       ],
       "title": "Regimen"
+    },
+    "decimal_amount": {
+      "type": "string",
+      "title": "Decimal amount",
+      "description": "A plain period-separated decimal string, such as 0.25 or 500. Signs, exponents, grouping separators, and whitespace are invalid.",
+      "pattern": "^[0-9]+(\\.[0-9]+)?(?![\\s\\S])"
     }
   }
 }

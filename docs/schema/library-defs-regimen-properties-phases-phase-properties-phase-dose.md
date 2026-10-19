@@ -22,12 +22,12 @@ Required dose content: a decimal string value, a minimum/maximum range, options,
 | [basis](#basis)                 | `string`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-basis.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/basis")             |
 | [conditions](#conditions)       | `array`   | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-conditions.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/conditions")        |
 | [kind](#kind)                   | `string`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-kind.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/kind")                    |
-| [maximum](#maximum)             | `string`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-maximum-dose.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/maximum")         |
-| [minimum](#minimum)             | `string`  | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-minimum-dose.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/minimum")         |
+| [maximum](#maximum)             | `string`  | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-decimal-amount.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/maximum")       |
+| [minimum](#minimum)             | Merged    | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-minimum-dose.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/minimum")         |
 | [options](#options)             | `array`   | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-choices.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/options")         |
 | [range_options](#range_options) | `array`   | Optional | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-range_options.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/range_options")  |
 | [unit](#unit)                   | `string`  | Required | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-unit.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/unit")               |
-| [value](#value)                 | `string`  | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-amount.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/value")            |
+| [value](#value)                 | Merged    | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-amount.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/value")            |
 | Additional Properties           | Any       | Optional | can be null    |                                                                                                                                                                                                                                                                                                                                                                |
 
 ## approximate
@@ -120,21 +120,31 @@ How to interpret the quantity, such as per administration, a daily total, a comp
 
 ## maximum
 
-Upper end of a source-reported dose range as a plain decimal string. The user chooses a concrete personal dose.
+A plain period-separated decimal string, such as 0.25 or 500. Signs, exponents, grouping separators, and whitespace are invalid.
 
 `maximum`
 
 * is optional
 
-* Type: `string` ([Maximum dose](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-maximum-dose.md))
+* Type: `string` ([Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-decimal-amount.md))
 
 * cannot be null
 
-* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-maximum-dose.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/maximum")
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-decimal-amount.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/maximum")
 
 ### maximum Type
 
-`string` ([Maximum dose](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-maximum-dose.md))
+`string` ([Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-decimal-amount.md))
+
+### maximum Constraints
+
+**pattern**: the string must match the following regular expression:&#x20;
+
+```regexp
+^[0-9]+(\.[0-9]+)?(?![\s\S])
+```
+
+[try pattern](https://regexr.com/?expression=%5E%5B0-9%5D%2B\(%5C.%5B0-9%5D%2B\)%3F\(%3F!%5B%5Cs%5CS%5D\) "try regular expression with regexr.com")
 
 ## minimum
 
@@ -154,6 +164,12 @@ Lower end of a source-reported dose range as a plain decimal string, or null whe
 
 `string` ([Minimum dose](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-minimum-dose.md))
 
+one (and only one) of
+
+* [Untitled null in Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-minimum-dose-oneof-0.md "check type definition")
+
+* [Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-minimum-dose-oneof-decimal-amount.md "check type definition")
+
 ## options
 
 Alternative source-reported quantities as plain decimal strings in the stated unit. Listing choices does not select a personal dose.
@@ -162,7 +178,7 @@ Alternative source-reported quantities as plain decimal strings in the stated un
 
 * is optional
 
-* Type: `string[]`
+* Type: `string[]` ([Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-choices-decimal-amount.md))
 
 * cannot be null
 
@@ -170,7 +186,7 @@ Alternative source-reported quantities as plain decimal strings in the stated un
 
 ### options Type
 
-`string[]`
+`string[]` ([Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-choices-decimal-amount.md))
 
 ## range_options
 
@@ -241,6 +257,12 @@ Single dose quantity as a plain decimal string, such as 0.25 or 500, or null whe
 ### value Type
 
 `string` ([Dose amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-amount.md))
+
+one (and only one) of
+
+* [Untitled null in Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-amount-oneof-0.md "check type definition")
+
+* [Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-amount-oneof-decimal-amount.md "check type definition")
 
 ## Additional Properties
 

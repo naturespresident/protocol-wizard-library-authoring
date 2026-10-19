@@ -1774,3 +1774,14 @@ Regimen format version. Use the integer 1 during development, including for cont
 ### Additional Properties
 
 Additional properties are allowed and do not have to follow a specific schema
+
+## Definitions group decimal_amount
+
+Reference this group by using
+
+```json
+{"$ref":"https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/decimal_amount"}
+```
+
+| Property | Type | Required | Nullable | Defined by |
+| :------- | :--- | :------- | :------- | :--------- |

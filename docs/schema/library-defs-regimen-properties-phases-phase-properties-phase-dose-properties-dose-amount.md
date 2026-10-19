@@ -13,3 +13,9 @@ Single dose quantity as a plain decimal string, such as 0.25 or 500, or null whe
 ## value Type
 
 `string` ([Dose amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-amount.md))
+
+one (and only one) of
+
+* [Untitled null in Protocol Wizard product library — schema version 1](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-amount-oneof-0.md "check type definition")
+
+* [Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-dose-amount-oneof-decimal-amount.md "check type definition")

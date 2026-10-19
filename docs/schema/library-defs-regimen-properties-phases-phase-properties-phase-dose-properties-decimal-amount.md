@@ -1,10 +1,10 @@
-# Maximum dose Schema
+# Decimal amount Schema
 
 ```txt
 https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/dose/properties/maximum
 ```
 
-Upper end of a source-reported dose range as a plain decimal string. The user chooses a concrete personal dose.
+A plain period-separated decimal string, such as 0.25 or 500. Signs, exponents, grouping separators, and whitespace are invalid.
 
 | Abstract            | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                                         |
 | :------------------ | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :--------------------------------------------------------------------------------- |
@@ -12,4 +12,14 @@ Upper end of a source-reported dose range as a plain decimal string. The user ch
 
 ## maximum Type
 
-`string` ([Maximum dose](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-maximum-dose.md))
+`string` ([Decimal amount](library-defs-regimen-properties-phases-phase-properties-phase-dose-properties-decimal-amount.md))
+
+## maximum Constraints
+
+**pattern**: the string must match the following regular expression:&#x20;
+
+```regexp
+^[0-9]+(\.[0-9]+)?(?![\s\S])
+```
+
+[try pattern](https://regexr.com/?expression=%5E%5B0-9%5D%2B\(%5C.%5B0-9%5D%2B\)%3F\(%3F!%5B%5Cs%5CS%5D\) "try regular expression with regexr.com")
