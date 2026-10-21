@@ -95,6 +95,30 @@ Keep `schemaVersion`, `catalogVersion`, and every regimen `version` at `1` durin
 | `identityStatus` | Yes | `resolved` or `needs_confirmation`. |
 | `categoryID` | No | Integer referring to `categories[].id`, or `null`. |
 | `benefits` | No | String or `null`. |
+| `timing` | No | Timing guidance object or `null`; see below. |
+
+### Optional timing guidance
+
+All timing fields are optional. Unknown keys are rejected, and a note must be nonblank when present. The app enforces its 500-character limit.
+
+| Property | Title | Description |
+| --- | --- | --- |
+| `timing` | Timing guidance | Optional dose-timing guidance for this product. The app shows it as a recommendation on the Schedule step and never applies it automatically. |
+| `timing.tags` | Timing tags | Any of: morning, midday, evening, bedtime, empty_stomach, with_food, before_exercise, after_exercise. Unknown tags are ignored. |
+| `timing.window` | Suggested window | 24-hour HH:mm start and end. The end may be earlier than the start, meaning the window crosses midnight. |
+| `timing.window.start` | Window start | Required when a window is present. |
+| `timing.window.end` | Window end | Required when a window is present. |
+| `timing.note` | Timing note | Shown under the recommendation. Up to 500 characters. |
+
+```json
+"timing": {
+  "tags": ["bedtime", "empty_stomach"],
+  "window": { "start": "21:00", "end": "23:00" },
+  "note": "At least 2 hours after your last meal."
+}
+```
+
+Matching template `suggested_times` take precedence over the window. Otherwise, the Schedule step offers times spread across the window and rounded to 15 minutes; one daily dose uses its midpoint. Tags alone provide text guidance. Recommendations require the user's explicit choice.
 
 ## Protocol attributes (`protocols[]`)
 

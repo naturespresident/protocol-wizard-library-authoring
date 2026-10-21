@@ -34,6 +34,8 @@
 
 * [Storage](./library-defs-regimen-properties-storage.md "Optional source-reported storage, handling, and discard guidance") – `https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/storage`
 
+* [Suggested window](./library-defs-product-properties-timing-guidance-properties-suggested-window.md "24-hour HH:mm start and end") – `https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/item/properties/timing/properties/window`
+
 * [Untitled object in Protocol Wizard product library — schema version 1](./library-defs-regimen-properties-cautions-properties-monitoring-items.md) – `https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cautions/properties/monitoring/items`
 
 * [Untitled object in Protocol Wizard product library — schema version 1](./library-defs-regimen-properties-cautions-properties-monitoring-items-properties-after_start_days.md) – `https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cautions/properties/monitoring/items/properties/after_start_days`
@@ -291,6 +293,8 @@
 * [Suggested dose times](./library-defs-regimen-properties-phases-phase-properties-phase-schedule-properties-suggested-dose-times.md "Local 24-hour times in HH:mm format") – `https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/phases/items/properties/schedule/properties/suggested_times`
 
 * [Supported fields](./library-defs-citation-properties-supported-fields.md "Field names or reference paths supported by this citation, such as /phases or /benefits") – `https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/citation/properties/supports`
+
+* [Timing tags](./library-defs-product-properties-timing-guidance-properties-timing-tags.md "Any of: morning, midday, evening, bedtime, empty_stomach, with_food, before_exercise, after_exercise") – `https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/item/properties/timing/properties/tags`
 
 * [Untitled array in Protocol Wizard product library — schema version 1](./library-defs-regimen-properties-cautions-properties-exclusions.md) – `https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/regimen/properties/cautions/properties/exclusions`
 

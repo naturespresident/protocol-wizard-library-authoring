@@ -257,6 +257,7 @@ Reference this group by using
 | [identityStatus](#identitystatus) | `string`  | Required | cannot be null | [Protocol Wizard product library — schema version 1](library-defs-product-properties-identity-status.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/item/properties/identityStatus") |
 | [categoryID](#categoryid)         | `integer` | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-product-properties-category-id.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/item/properties/categoryID")         |
 | [benefits](#benefits)             | `string`  | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-product-properties-benefits-and-context.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/item/properties/benefits")  |
+| [timing](#timing)                 | `object`  | Optional | can be null    | [Protocol Wizard product library — schema version 1](library-defs-product-properties-timing-guidance.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/item/properties/timing")         |
 
 ### id
 
@@ -427,6 +428,24 @@ Optional text describing intended benefits and their supporting context or limit
 #### benefits Type
 
 `string` ([Benefits and context](library-defs-product-properties-benefits-and-context.md))
+
+### timing
+
+Optional dose-timing guidance for this product. The app shows it as a recommendation on the Schedule step and never applies it automatically.
+
+`timing`
+
+* is optional
+
+* Type: `object` ([Timing guidance](library-defs-product-properties-timing-guidance.md))
+
+* can be null
+
+* defined in: [Protocol Wizard product library — schema version 1](library-defs-product-properties-timing-guidance.md "https://raw.githubusercontent.com/naturespresident/protocol-wizard-library-authoring/main/template/library.schema.json#/$defs/item/properties/timing")
+
+#### timing Type
+
+`object` ([Timing guidance](library-defs-product-properties-timing-guidance.md))
 
 ## Definitions group protocol
 

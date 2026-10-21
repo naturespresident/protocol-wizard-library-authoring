@@ -163,6 +163,46 @@
           ],
           "title": "Benefits and context",
           "description": "Optional text describing intended benefits and their supporting context or limitations. Omit or set to null when unavailable."
+        },
+        "timing": {
+          "type": ["object", "null"],
+          "title": "Timing guidance",
+          "description": "Optional dose-timing guidance for this product. The app shows it as a recommendation on the Schedule step and never applies it automatically.",
+          "properties": {
+            "tags": {
+              "type": "array",
+              "items": {"type": "string"},
+              "title": "Timing tags",
+              "description": "Any of: morning, midday, evening, bedtime, empty_stomach, with_food, before_exercise, after_exercise. Unknown tags are ignored."
+            },
+            "window": {
+              "type": "object",
+              "title": "Suggested window",
+              "description": "24-hour HH:mm start and end. The end may be earlier than the start, meaning the window crosses midnight.",
+              "properties": {
+                "start": {
+                  "type": "string",
+                  "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$",
+                  "title": "Window start"
+                },
+                "end": {
+                  "type": "string",
+                  "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$",
+                  "title": "Window end"
+                }
+              },
+              "required": ["start", "end"],
+              "additionalProperties": false
+            },
+            "note": {
+              "type": ["string", "null"],
+              "minLength": 1,
+              "pattern": "\\S",
+              "title": "Timing note",
+              "description": "Shown under the recommendation. Up to 500 characters."
+            }
+          },
+          "additionalProperties": false
         }
       },
       "required": [
