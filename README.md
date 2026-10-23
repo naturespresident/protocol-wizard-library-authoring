@@ -120,6 +120,15 @@ All timing fields are optional. Unknown keys are rejected, and a note must be no
 
 Matching template `suggested_times` take precedence over the window. Otherwise, the Schedule step offers times spread across the window and rounded to 15 minutes; one daily dose uses its midpoint. Tags alone provide text guidance. Recommendations require the user's explicit choice.
 
+### Numbers in prose
+
+Write library text in English. Any quantity inside prose uses the same format as dose amounts: a **dot decimal** with no grouping separators. For example, write `0.25 mg`, `0.250 mg` or `1500 mcg`. Never write `0,25 mg` or `1,500 mcg`. This applies to:
+
+- `timing.note`
+- phase `condition` and `conditions` text, and regimen `conditional_escalation` text, which the app shows as a check-in's source condition
+
+The app shows this text as written. It reads the numbers aloud for VoiceOver in this format on every device, whatever the user's region. That means a dot is always a decimal point, so `0.250 mg` is read as "zero point two five zero milligrams" in every region, and not as 250 on a device that groups thousands with a dot. A comma in a quantity is therefore ambiguous and must not be used. JSON Schema can't check numbers inside free text, so this rule is up to authors.
+
 ## Protocol attributes (`protocols[]`)
 
 | Attribute | Required | Type and choices |
