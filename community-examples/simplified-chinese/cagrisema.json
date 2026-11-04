@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cagrisema",
+      "name": "CagriSema 联用组合",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 2,
+      "benefits": "人体试验已证实的获益：在接受生活方式干预、无糖尿病的超重或肥胖成人中，皮下注射 cagrilintide 与 semaglutide 联合给药所产生的体重降幅大于安慰剂。在为期 68 周的 REDEFINE 1 随机 3 期试验中，更多参与者达到了大幅减重的阈值。这些发现适用于所研究的组合和人群，并不适用于任意混合制剂或未经试验的给药途径。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "4f579164-5cf5-4c69-a529-ec085103cd74",
+      "productID": "cagrisema",
+      "title": "Cagrilintide + Semaglutide——来源所述的 16 周同步剂量滴定方案",
+      "purpose": "来源所述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性来源；不自动视为已获临床验证，也不自动将其设为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "cagrilintide"
+            },
+            {
+              "library_item_id": "glp-1"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "各组分专属给药方案",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "各组分专属给药时间安排"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": {
+            "same_weekday": true,
+            "optional_stagger": "a few hours; no exact interval specified",
+            "separate_syringes": true
+          },
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+          "source_tables": [
+            {
+              "section": "CagriSema 给药方案与时间安排",
+              "subsection": "周期指导",
+              "rows": [
+                [
+                  "方式",
+                  "持续时间",
+                  "停药期",
+                  "最适用情况"
+                ],
+                [
+                  "仿照试验的周期",
+                  "68 周",
+                  "遵循临床医生指导",
+                  "与 REDEFINE 1 / REDEFINE 2 临床试验保持一致。"
+                ],
+                [
+                  "标准研究周期",
+                  "12–24 周",
+                  "4–8 周",
+                  "大多数规划时段；与肥胖症 2 期试验公布的结果相符。"
+                ],
+                [
+                  "短期探索周期",
+                  "8–12 周",
+                  "4 周",
+                  "仅用于耐受性和剂量滴定评估。"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+          "source_tables": [
+            {
+              "section": "CagriSema 储存与处理",
+              "subsection": "复溶后的稳定性期限",
+              "rows": [
+                [
+                  "",
+                  "Cagrilintide",
+                  "Semaglutide",
+                  "预混 CagriSema"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "-4°F（-20°C）长期储存",
+                  "-4°F（-20°C）长期储存",
+                  "-4°F（-20°C）长期储存"
+                ],
+                [
+                  "复溶后（液体）",
+                  "35.6–46.4°F（2–8°C）",
+                  "35.6–46.4°F（2–8°C）",
+                  "35.6–46.4°F（2–8°C）"
+                ],
+                [
+                  "外观",
+                  "复溶后澄清",
+                  "复溶后澄清",
+                  "复溶后澄清"
+                ],
+                [
+                  "复溶后的稳定性期限",
+                  "冷藏最多 ~28 天",
+                  "冷藏最多 ~28 天",
+                  "以供应商的分析证书（COA）为准"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+          "source_statements": [
+            {
+              "section": "CagriSema 副作用与安全性",
+              "subsection": "两项试验中的共同规律",
+              "excerpt": "恶心、呕吐和腹泻在剂量递增期间达到高峰，并在维持阶段逐渐减轻；便秘在整个试验期间相对稳定。申办方称，其安全性特征与 GLP-1 受体激动剂这一更广泛药物类别的安全性特征相当。PepPal 面向 GLP-1 使用者的配套补充剂指南涵盖蛋白质、膳食纤维、电解质以及基于实验室检查结果的营养支持。",
+              "truncated": false
+            },
+            {
+              "section": "CagriSema 副作用与安全性",
+              "subsection": "联用组合特有的未知因素与质量风险",
+              "excerpt": "尚无已发表的试验将 CagriSema 与研究用途的同等配制制剂进行直接比较。由于 CagriSema 仍处于研究阶段，任何未经 FDA 批准或经配制的产品在使用前都必须评估其身份、纯度和污染风险。FDA 于 2026 年初重点提及了针对配制药物中未经批准的 GLP-1 活性成分的执法行动，这凸显了质量控制方面的担忧。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "超重或肥胖成人中 Cagrilintide 与 Semaglutide 的联合给药（REDEFINE 1）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502081"
+          },
+          {
+            "label": "超重或肥胖且患有 2 型糖尿病成人中的 Cagrilintide–Semaglutide（REDEFINE 2）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502082"
+          },
+          {
+            "label": "Novo Nordisk 向 FDA 提交 CagriSema 批准申请；该产品是首个用于体重管理、每周给药一次的 GLP-1 与胰淀素类似物组合。",
+            "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645868.html"
+          },
+          {
+            "label": "多次给予 cagrilintide 并同时给予 semaglutide 2·4 mg 用于体重管理的安全性、耐受性、药代动力学和药效学：一项随机、对照、1b 期试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33894838/"
+          },
+          {
+            "label": "在 2 型糖尿病患者中，每周一次 cagrilintide 2·4 mg 与每周一次 semaglutide 2·4 mg 联合给药的疗效和安全性：一项多中心、随机、双盲、活性对照、2 期试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37364590/"
+          },
+          {
+            "label": "每周一次 cagrilintide 用于超重和肥胖人群的体重管理：一项多中心、随机、双盲、安慰剂对照和活性对照的 2 期剂量探索试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34288673/"
+          },
+          {
+            "label": "REDEFINE 3：一项观察 CagriSema 对心脏及血管疾病患者影响的研究。",
+            "url": "https://clinicaltrials.gov/study/NCT05669755"
+          },
+          {
+            "label": "在 REIMAGINE 2 试验中，CagriSema 在 2 型糖尿病成人中显示出更优的 HbA1c 降幅，降低了 1.91 个百分点，并使体重减轻了 14.2%。",
+            "url": "https://www.biospace.com/press-releases/novo-nordisk-a-s-cagrisema-demonstrated-superior-hba1c-reduction-of-1-91-points-and-weight-loss-of-14-2-in-adults-with-type-2-diabetes-in-the-reimagine-2-trial"
+          },
+          {
+            "label": "Novo Nordisk 的 CagriSema 试验结果使其在与 Eli Lilly 的肥胖症药物竞争中遭受打击。",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/novo-nordisks-obesity-drug-falls-short-against-eli-lillys-copenhagen-trial-2026-02-23/"
+          },
+          {
+            "label": "FDA 拟对未经 FDA 批准的 GLP-1 药物采取行动。",
+            "url": "https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs"
+          },
+          {
+            "label": "FDA 批准用于长期体重管理的新药（tirzepatide / Zepbound）。",
+            "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management"
+          },
+          {
+            "label": "Amylin：药理学、生理学及临床潜力。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4861438/"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "exact_optional_stagger_interval",
+          "product_specific_preparation",
+          "trial_eligibility_not_transferred"
+        ],
+        "notes": "仅作为来源参考；未经审核。表格和独立参考文献仍可在来源记录中查阅。",
+        "component_regimens": [
+          {
+            "component_id": "cagrilintide",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "第 1–4 周",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.25",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "起始阶段：胃肠道耐受性是首要考虑因素。"
+              },
+              {
+                "name": "第 5–8 周",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "剂量递增早期；恶心通常在此期间达到高峰。"
+              },
+              {
+                "name": "第 9–12 周",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.0",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "剂量递增中期。"
+              },
+              {
+                "name": "第 13–16 周",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.7",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "剂量递增后期。"
+              },
+              {
+                "name": "第 17+ 周",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "维持阶段的研究目标剂量。"
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+                "locator": "给药方案与时间安排；来源中的给药时间说明"
+              }
+            }
+          },
+          {
+            "component_id": "glp-1",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "第 1–4 周",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.25",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "起始阶段：胃肠道耐受性是首要考虑因素。"
+              },
+              {
+                "name": "第 5–8 周",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "剂量递增早期；恶心通常在此期间达到高峰。"
+              },
+              {
+                "name": "第 9–12 周",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.0",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "剂量递增中期。"
+              },
+              {
+                "name": "第 13–16 周",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.7",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "剂量递增后期。"
+              },
+              {
+                "name": "第 17+ 周",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "维持阶段的研究目标剂量。"
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+                "locator": "给药方案与时间安排；来源中的给药时间说明"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "394943ee-9b3d-48ab-9605-e18e96f72140",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40544433/",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity",
+      "publisher": "New England Journal of Medicine / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+      "url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+      "title": "CagriSema Dosing Protocol: Cagrilintide 2.4 mg + Semaglutide 2.4 mg (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "4f579164-5cf5-4c69-a529-ec085103cd74",
+      "sourceID": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "来源描述了这些字段；尚待独立核实。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cagrisema",
+      "sourceID": "394943ee-9b3d-48ab-9605-e18e96f72140",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "REDEFINE 1 将 3,417 名成人随机分组；原始摘要报告，在 68 周时，经安慰剂校正后的获益显著。分类依据：体重与代谢：3 期联合用药的直接证据涉及体重减轻。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

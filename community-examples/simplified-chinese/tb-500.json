@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tb-500",
+      "name": "TB-500（Thymosin Beta-4）",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "拟议的组织修复益处：细胞迁移和新生血管形成是促进肌腱、韧带、肌肉和皮肤恢复、减轻炎症与瘢痕形成以及改善关节灵活性的理论依据。这些属于实验性或报告中的目标，并非已证实的人体获益。称为 TB-500 的产品可能指 thymosin beta-4 的短片段，也可能指全长合成 thymosin beta-4；需要确认其确切序列和制剂。全长蛋白的研究结果不能证明该片段或某一特定商业产品具有相同的作用。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "33d0a933-f4e4-45d8-845d-494b0073c4f6",
+      "productID": "tb-500",
+      "title": "TB-500——来源中的每周总量负荷与维持方案",
+      "purpose": "来源所述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及设为应用默认方案的审核尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "tb-500"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 复溶指南／ "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "负荷阶段，第 1–6 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "4",
+              "maximum": "5",
+              "unit": "mg",
+              "basis": "weekly_total"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 2,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "维持阶段，第 7–12 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2",
+              "maximum": "2.5",
+              "unit": "mg",
+              "basis": "weekly_total"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "停药期",
+            "duration": {
+              "kind": "range",
+              "minimum": 28,
+              "maximum": 56,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "休息"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500 剂量与给药方案",
+              "subsection": "周期指南",
+              "rows": [
+                [
+                  "方案",
+                  "持续时间",
+                  "停药期",
+                  "最适用情境"
+                ],
+                [
+                  "短周期",
+                  "4-6 周",
+                  "4 周",
+                  "聚焦单个研究问题"
+                ],
+                [
+                  "标准周期",
+                  "8-12 周",
+                  "4-8 周",
+                  "多数社区引用的方案"
+                ],
+                [
+                  "负荷后维持",
+                  "每周一次，持续 6-12 周",
+                  "不固定",
+                  "在 4-6 周负荷阶段后继续使用"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/tb-500-cycle-length",
+              "source_tables": [
+                {
+                  "section": "TB-500 周期长度表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "周期长度",
+                      "常见描述",
+                      "证据状态",
+                      "主要证据局限"
+                    ],
+                    [
+                      "4 周",
+                      "短期使用阶段或仅采用前期负荷的框架",
+                      "社区惯例",
+                      "没有 TB-500 人体试验确立过 4 周注射周期"
+                    ],
+                    [
+                      "6 周",
+                      "社区研究参考资料中的较短完整周期",
+                      "社区惯例",
+                      "没有对照试验表明 6 周是理想的停用时间点"
+                    ],
+                    [
+                      "8 周",
+                      "包含早期和后期阶段的常见完整周期框架",
+                      "社区惯例",
+                      "没有 TB-500 人体研究将 8 周周期与更短或更长的周期进行比较"
+                    ],
+                    [
+                      "12 周",
+                      "延长的社区周期或较长的维持框架",
+                      "社区惯例",
+                      "更长时间的暴露并无更强的 TB-500 人体证据支持"
+                    ],
+                    [
+                      "最长 84 天",
+                      "已发表的全长 thymosin beta-4 局部用药研究的持续时间",
+                      "不同分子／制剂背景下的人体研究",
+                      "不能确立 12 周 TB-500 注射周期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "主要证据界限：TB-500 并非全长 Thymosin Beta-4",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "来源或背景",
+                      "持续时间",
+                      "研究内容",
+                      "对 TB-500 周期的意义"
+                    ],
+                    [
+                      "TB-500 社区参考资料",
+                      "4–6 周",
+                      "社区 TB-500 注射时间安排",
+                      "常见研究惯例；并非人体对照试验"
+                    ],
+                    [
+                      "TB-500 社区参考资料",
+                      "8–12 周",
+                      "较长的社区 TB-500 注射时间安排",
+                      "常见研究惯例；未经临床验证"
+                    ],
+                    [
+                      "RGN-259 干眼症 II 期研究",
+                      "28 天",
+                      "全长 thymosin beta-4 滴眼液",
+                      "不同制剂和给药途径的人体用药持续时间证据"
+                    ],
+                    [
+                      "ARISE 干眼症研究",
+                      "28 天",
+                      "全长 thymosin beta-4 滴眼液",
+                      "不能验证 TB-500 注射用药的持续时间"
+                    ],
+                    [
+                      "RGN-137 静脉淤滞性溃疡研究",
+                      "最长 84 天",
+                      "全长 thymosin beta-4 局部用凝胶",
+                      "显示研究中全长 Tβ4 的暴露时间较长，不能确立 12 周 TB-500 周期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500 的停药期有多长？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "用药期",
+                      "常配套的停用时间",
+                      "证据说明"
+                    ],
+                    [
+                      "4–6 周",
+                      "约 4 周",
+                      "社区惯例；没有 TB-500 人体洗脱期试验"
+                    ],
+                    [
+                      "8–12 周",
+                      "约 4–8 周",
+                      "社区惯例；尚无经过验证的最佳停用时间"
+                    ],
+                    [
+                      "重复周期",
+                      "不固定",
+                      "没有循证确定的年度周期次数或必需的恢复期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500 周期长度与 Thymosin Beta-4 研究持续时间的比较",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "研究",
+                      "制剂／给药途径",
+                      "治疗持续时间",
+                      "关于周期的结论"
+                    ],
+                    [
+                      "Sosne 与 Ousler 的 II 期干眼症试验",
+                      "RGN-259 滴眼液",
+                      "28 天",
+                      "不能确立 TB-500 注射用药的持续时间"
+                    ],
+                    [
+                      "重度干眼症 II 期研究",
+                      "RGN-259 滴眼液",
+                      "治疗 28 天，之后进行随访",
+                      "仅支持人体全长 Tβ4 暴露的证据"
+                    ],
+                    [
+                      "ARISE-1",
+                      "RGN-259 滴眼液",
+                      "28 天",
+                      "不能确立 4 周 TB-500 周期"
+                    ],
+                    [
+                      "ARISE-2",
+                      "RGN-259 滴眼液",
+                      "28 天",
+                      "不能确立 4 周 TB-500 周期"
+                    ],
+                    [
+                      "静脉淤滞性溃疡研究",
+                      "RGN-137 局部用凝胶",
+                      "最长 84 天",
+                      "不能确立 12 周 TB-500 周期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "关于 TB-500 周期长度，能得出和不能得出哪些结论？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "主张",
+                      "证据状态",
+                      "PDP 应如何呈现"
+                    ],
+                    [
+                      "4–6 周的 TB-500 周期经常被讨论",
+                      "作为社区惯例有据可循",
+                      "社区报告的研究框架"
+                    ],
+                    [
+                      "8–12 周的 TB-500 周期经常被讨论",
+                      "作为社区惯例有据可循",
+                      "社区报告的研究框架"
+                    ],
+                    [
+                      "8 周是最佳 TB-500 周期",
+                      "尚未确立",
+                      "不得作为已证实的说法呈现"
+                    ],
+                    [
+                      "12 周是经临床证实的 TB-500 周期",
+                      "尚未确立",
+                      "不得从全长 Tβ4 研究中推导出这一结论"
+                    ],
+                    [
+                      "必须停药 4 周",
+                      "尚未确立",
+                      "仅为社区惯例"
+                    ],
+                    [
+                      "FDA 已找到 TB-500 药品的人体暴露数据",
+                      "无证据支持",
+                      "FDA 表示尚未找到此类数据"
+                    ],
+                    [
+                      "全长 thymosin beta-4 已有持续数周的人体研究",
+                      "有证据支持",
+                      "不同分子／制剂背景下已发表的人体证据"
+                    ],
+                    [
+                      "一项 84 天的 Tβ4 局部用药研究证明了 12 周 TB-500 注射周期",
+                      "错误推论",
+                      "始终附带说明给药途径、制剂和分子的区别"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500 储存与操作",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干品（粉末）",
+                  "长期储存：-4 F（-20 C）",
+                  "短期储存可采用冷藏（35.6-46.4 F／2-8 C）；较长期储存优先采用冷冻。"
+                ],
+                [
+                  "复溶后（液体）",
+                  "35.6-46.4 F（2-8 C）",
+                  "在 2-4 周内使用。部分参考资料在适当冷藏条件下将期限延长至 30 天。"
+                ],
+                [
+                  "运输中",
+                  "阴凉避光",
+                  "冻干肽通常可耐受短暂的环境温度暴露；请查阅供应商针对该具体产品的指导。"
+                ],
+                [
+                  "光照",
+                  "避免",
+                  "将冻干及复溶后的小瓶均存放在原包装盒内，或冰箱的避光抽屉中。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_statements": [
+            {
+              "section": "TB-500 研究适用人群及应避免使用的人群",
+              "subsection": "接受药物检测的运动员",
+              "excerpt": "WADA 在 S0 类（未获批准的物质）中明确规定，TB-500 及所有 thymosin beta-4 衍生物在任何时候均被禁用。据报告，检测窗口为 30-45 天。参加 WADA 检测项目的运动员、NCAA 运动员以及接受遵循 WADA 标准检测的军人应避免使用。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500 研究适用人群及应避免使用的人群",
+              "subsection": "现患癌症或有癌症病史的人群",
+              "excerpt": "文献中，Tbeta-4 与某些肿瘤模型中转移潜能增加有关。对现患癌症或有癌症病史者而言，这属于理论上的担忧，并在研究用途的安全性讨论中被持续提示，并非已确定的临床风险。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500 研究适用人群及应避免使用的人群",
+              "subsection": "妊娠与哺乳期",
+              "excerpt": "没有人体数据确立其在妊娠或哺乳期的安全性。在这些情况下应避免使用。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500 副作用与安全性",
+              "subsection": "",
+              "excerpt": "由 7 个氨基酸组成的 TB-500 片段基本没有直接的人体安全性数据。最接近的参考是一项全长 thymosin beta-4 的 1 期研究。在该研究中，40 名健康志愿者连续 14 天每天接受最高 1260 mg 的静脉给药，未发生严重不良事件",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "健康志愿者静脉给予 thymosin beta4 的随机、安慰剂对照、单次及多次给药研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536472/"
+          },
+          {
+            "label": "thymosin 治疗静脉性溃疡的效果。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536470/"
+          },
+          {
+            "label": "Thymosin beta4 加速伤口愈合。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10469332/"
+          },
+          {
+            "label": "Thymosin beta4 激活整合素连接激酶，并促进心脏细胞迁移、存活及心脏修复。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15565145/"
+          },
+          {
+            "label": "Thymosin beta4 促进大鼠内侧副韧带损伤的愈合。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23523891/"
+          },
+          {
+            "label": "Thymosin beta4 在一项 2 期随机试验中显著改善了重度干眼症的体征和症状。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25826322/"
+          },
+          {
+            "label": "在一项随机、安慰剂对照、双盲 III 期临床试验中，0.1% RGN-259（Thymosin beta4）滴眼液促进了神经营养性角膜病患者的愈合并改善了舒适度。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9820614/"
+          },
+          {
+            "label": "Thymosin beta4：多功能再生肽。基本特性与临床应用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22074294/"
+          },
+          {
+            "label": "Thymosin beta4 功能与应用的研究进展。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "TB-500 体外／离体代谢、相关代谢物合成及尿液和血浆中检出限的研究。",
+            "url": "https://www.wada-ama.org/en/resources/scientific-research/investigation-vitroex-vivo-tb-500-metabolism-synthesis-relevant"
+          },
+          {
+            "label": "根据《联邦食品、药品和化妆品法》第 503A 条提名用于配制药物的原料药物质。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "2026 年七月 23-24 日药物配制咨询委员会会议——会议通知。",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          }
+        ],
+        "unresolved_fields": [
+          "loading_weekly_total_distribution_per_injection",
+          "TB_500_exact_sequence",
+          "time_of_day",
+          "primary_validation"
+        ],
+        "notes": "仅作来源参考；尚未经审查。表格和独立参考资料仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "5fe3146d-64d6-41ce-a696-bb960f2d9c45",
+      "productID": "tb-500",
+      "title": "TB-500——来源中的按单次剂量计的前期负荷替代方案",
+      "purpose": "来源所述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及设为应用默认方案的审核尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "tb-500"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 复溶指南／ "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "前期负荷，第 1–2 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2",
+              "maximum": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "interval_days_range": {
+                "minimum": 2,
+                "maximum": 3
+              },
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "逐渐减量，第 3–8 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2",
+              "maximum": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500 剂量与给药方案",
+              "subsection": "周期指南",
+              "rows": [
+                [
+                  "方案",
+                  "持续时间",
+                  "停药期",
+                  "最适用情境"
+                ],
+                [
+                  "短周期",
+                  "4-6 周",
+                  "4 周",
+                  "聚焦单个研究问题"
+                ],
+                [
+                  "标准周期",
+                  "8-12 周",
+                  "4-8 周",
+                  "多数社区引用的方案"
+                ],
+                [
+                  "负荷后维持",
+                  "每周一次，持续 6-12 周",
+                  "不固定",
+                  "在 4-6 周负荷阶段后继续使用"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/tb-500-cycle-length",
+              "source_tables": [
+                {
+                  "section": "TB-500 周期长度表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "周期长度",
+                      "常见描述",
+                      "证据状态",
+                      "主要证据局限"
+                    ],
+                    [
+                      "4 周",
+                      "短期使用阶段或仅采用前期负荷的框架",
+                      "社区惯例",
+                      "没有 TB-500 人体试验确立过 4 周注射周期"
+                    ],
+                    [
+                      "6 周",
+                      "社区研究参考资料中的较短完整周期",
+                      "社区惯例",
+                      "没有对照试验表明 6 周是理想的停用时间点"
+                    ],
+                    [
+                      "8 周",
+                      "包含早期和后期阶段的常见完整周期框架",
+                      "社区惯例",
+                      "没有 TB-500 人体研究将 8 周周期与更短或更长的周期进行比较"
+                    ],
+                    [
+                      "12 周",
+                      "延长的社区周期或较长的维持框架",
+                      "社区惯例",
+                      "更长时间的暴露并无更强的 TB-500 人体证据支持"
+                    ],
+                    [
+                      "最长 84 天",
+                      "已发表的全长 thymosin beta-4 局部用药研究的持续时间",
+                      "不同分子／制剂背景下的人体研究",
+                      "不能确立 12 周 TB-500 注射周期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "主要证据界限：TB-500 并非全长 Thymosin Beta-4",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "来源或背景",
+                      "持续时间",
+                      "研究内容",
+                      "对 TB-500 周期的意义"
+                    ],
+                    [
+                      "TB-500 社区参考资料",
+                      "4–6 周",
+                      "社区 TB-500 注射时间安排",
+                      "常见研究惯例；并非人体对照试验"
+                    ],
+                    [
+                      "TB-500 社区参考资料",
+                      "8–12 周",
+                      "较长的社区 TB-500 注射时间安排",
+                      "常见研究惯例；未经临床验证"
+                    ],
+                    [
+                      "RGN-259 干眼症 II 期研究",
+                      "28 天",
+                      "全长 thymosin beta-4 滴眼液",
+                      "不同制剂和给药途径的人体用药持续时间证据"
+                    ],
+                    [
+                      "ARISE 干眼症研究",
+                      "28 天",
+                      "全长 thymosin beta-4 滴眼液",
+                      "不能验证 TB-500 注射用药的持续时间"
+                    ],
+                    [
+                      "RGN-137 静脉淤滞性溃疡研究",
+                      "最长 84 天",
+                      "全长 thymosin beta-4 局部用凝胶",
+                      "显示研究中全长 Tβ4 的暴露时间较长，不能确立 12 周 TB-500 周期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500 的停药期有多长？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "用药期",
+                      "常配套的停用时间",
+                      "证据说明"
+                    ],
+                    [
+                      "4–6 周",
+                      "约 4 周",
+                      "社区惯例；没有 TB-500 人体洗脱期试验"
+                    ],
+                    [
+                      "8–12 周",
+                      "约 4–8 周",
+                      "社区惯例；尚无经过验证的最佳停用时间"
+                    ],
+                    [
+                      "重复周期",
+                      "不固定",
+                      "没有循证确定的年度周期次数或必需的恢复期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500 周期长度与 Thymosin Beta-4 研究持续时间的比较",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "研究",
+                      "制剂／给药途径",
+                      "治疗持续时间",
+                      "关于周期的结论"
+                    ],
+                    [
+                      "Sosne 与 Ousler 的 II 期干眼症试验",
+                      "RGN-259 滴眼液",
+                      "28 天",
+                      "不能确立 TB-500 注射用药的持续时间"
+                    ],
+                    [
+                      "重度干眼症 II 期研究",
+                      "RGN-259 滴眼液",
+                      "治疗 28 天，之后进行随访",
+                      "仅支持人体全长 Tβ4 暴露的证据"
+                    ],
+                    [
+                      "ARISE-1",
+                      "RGN-259 滴眼液",
+                      "28 天",
+                      "不能确立 4 周 TB-500 周期"
+                    ],
+                    [
+                      "ARISE-2",
+                      "RGN-259 滴眼液",
+                      "28 天",
+                      "不能确立 4 周 TB-500 周期"
+                    ],
+                    [
+                      "静脉淤滞性溃疡研究",
+                      "RGN-137 局部用凝胶",
+                      "最长 84 天",
+                      "不能确立 12 周 TB-500 周期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "关于 TB-500 周期长度，能得出和不能得出哪些结论？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "主张",
+                      "证据状态",
+                      "PDP 应如何呈现"
+                    ],
+                    [
+                      "4–6 周的 TB-500 周期经常被讨论",
+                      "作为社区惯例有据可循",
+                      "社区报告的研究框架"
+                    ],
+                    [
+                      "8–12 周的 TB-500 周期经常被讨论",
+                      "作为社区惯例有据可循",
+                      "社区报告的研究框架"
+                    ],
+                    [
+                      "8 周是最佳 TB-500 周期",
+                      "尚未确立",
+                      "不得作为已证实的说法呈现"
+                    ],
+                    [
+                      "12 周是经临床证实的 TB-500 周期",
+                      "尚未确立",
+                      "不得从全长 Tβ4 研究中推导出这一结论"
+                    ],
+                    [
+                      "必须停药 4 周",
+                      "尚未确立",
+                      "仅为社区惯例"
+                    ],
+                    [
+                      "FDA 已找到 TB-500 药品的人体暴露数据",
+                      "无证据支持",
+                      "FDA 表示尚未找到此类数据"
+                    ],
+                    [
+                      "全长 thymosin beta-4 已有持续数周的人体研究",
+                      "有证据支持",
+                      "不同分子／制剂背景下已发表的人体证据"
+                    ],
+                    [
+                      "一项 84 天的 Tβ4 局部用药研究证明了 12 周 TB-500 注射周期",
+                      "错误推论",
+                      "始终附带说明给药途径、制剂和分子的区别"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500 储存与操作",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干品（粉末）",
+                  "长期储存：-4 F（-20 C）",
+                  "短期储存可采用冷藏（35.6-46.4 F／2-8 C）；较长期储存优先采用冷冻。"
+                ],
+                [
+                  "复溶后（液体）",
+                  "35.6-46.4 F（2-8 C）",
+                  "在 2-4 周内使用。部分参考资料在适当冷藏条件下将期限延长至 30 天。"
+                ],
+                [
+                  "运输中",
+                  "阴凉避光",
+                  "冻干肽通常可耐受短暂的环境温度暴露；请查阅供应商针对该具体产品的指导。"
+                ],
+                [
+                  "光照",
+                  "避免",
+                  "将冻干及复溶后的小瓶均存放在原包装盒内，或冰箱的避光抽屉中。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_statements": [
+            {
+              "section": "TB-500 研究适用人群及应避免使用的人群",
+              "subsection": "接受药物检测的运动员",
+              "excerpt": "WADA 在 S0 类（未获批准的物质）中明确规定，TB-500 及所有 thymosin beta-4 衍生物在任何时候均被禁用。据报告，检测窗口为 30-45 天。参加 WADA 检测项目的运动员、NCAA 运动员以及接受遵循 WADA 标准检测的军人应避免使用。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500 研究适用人群及应避免使用的人群",
+              "subsection": "现患癌症或有癌症病史的人群",
+              "excerpt": "文献中，Tbeta-4 与某些肿瘤模型中转移潜能增加有关。对现患癌症或有癌症病史者而言，这属于理论上的担忧，并在研究用途的安全性讨论中被持续提示，并非已确定的临床风险。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500 研究适用人群及应避免使用的人群",
+              "subsection": "妊娠与哺乳期",
+              "excerpt": "没有人体数据确立其在妊娠或哺乳期的安全性。在这些情况下应避免使用。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500 副作用与安全性",
+              "subsection": "",
+              "excerpt": "由 7 个氨基酸组成的 TB-500 片段基本没有直接的人体安全性数据。最接近的参考是一项全长 thymosin beta-4 的 1 期研究。在该研究中，40 名健康志愿者连续 14 天每天接受最高 1260 mg 的静脉给药，未发生严重不良事件",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "健康志愿者静脉给予 thymosin beta4 的随机、安慰剂对照、单次及多次给药研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536472/"
+          },
+          {
+            "label": "thymosin 治疗静脉性溃疡的效果。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536470/"
+          },
+          {
+            "label": "Thymosin beta4 加速伤口愈合。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10469332/"
+          },
+          {
+            "label": "Thymosin beta4 激活整合素连接激酶，并促进心脏细胞迁移、存活及心脏修复。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15565145/"
+          },
+          {
+            "label": "Thymosin beta4 促进大鼠内侧副韧带损伤的愈合。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23523891/"
+          },
+          {
+            "label": "Thymosin beta4 在一项 2 期随机试验中显著改善了重度干眼症的体征和症状。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25826322/"
+          },
+          {
+            "label": "在一项随机、安慰剂对照、双盲 III 期临床试验中，0.1% RGN-259（Thymosin beta4）滴眼液促进了神经营养性角膜病患者的愈合并改善了舒适度。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9820614/"
+          },
+          {
+            "label": "Thymosin beta4：多功能再生肽。基本特性与临床应用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22074294/"
+          },
+          {
+            "label": "Thymosin beta4 功能与应用的研究进展。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "TB-500 体外／离体代谢、相关代谢物合成及尿液和血浆中检出限的研究。",
+            "url": "https://www.wada-ama.org/en/resources/scientific-research/investigation-vitroex-vivo-tb-500-metabolism-synthesis-relevant"
+          },
+          {
+            "label": "根据《联邦食品、药品和化妆品法》第 503A 条提名用于配制药物的原料药物质。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "2026 年七月 23-24 日药物配制咨询委员会会议——会议通知。",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          }
+        ],
+        "unresolved_fields": [
+          "interval_choice",
+          "TB_500_exact_sequence",
+          "time_of_day",
+          "primary_validation"
+        ],
+        "notes": "仅作来源参考；尚未经审查。表格和独立参考资料仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+      "url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+      "title": "TB-500 Peptide Dosage: Dosing, Protocol, & Reconstitution (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "a862d686-925b-466d-b219-31e5c077556c",
+      "url": "https://www.fda.gov/media/193349/download",
+      "title": "FDA evaluation of TB-500-related bulk drug substances, July 2026 PCAC briefing",
+      "publisher": "US Food and Drug Administration",
+      "type": "clinical_guidance",
+      "publishedAt": null
+    },
+    {
+      "id": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "url": "https://jointdrs.org/full-text/1851",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study",
+      "publisher": "Joint Diseases and Related Surgery",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/tb-500-cycle-length",
+      "title": "TB-500 Cycle Length: How Long Is a TB-500 Cycle? (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "33d0a933-f4e4-45d8-845d-494b0073c4f6",
+      "sourceID": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源验证仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "33d0a933-f4e4-45d8-845d-494b0073c4f6",
+      "sourceID": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于持续时间／停用期的背景证据；不能替代有关剂量、产品说明书、给药途径或特定人群的指导。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "5fe3146d-64d6-41ce-a696-bb960f2d9c45",
+      "sourceID": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源验证仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "5fe3146d-64d6-41ce-a696-bb960f2d9c45",
+      "sourceID": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于持续时间／停用期的背景证据；不能替代有关剂量、产品说明书、给药途径或特定人群的指导。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "tb-500",
+      "sourceID": "a862d686-925b-466d-b219-31e5c077556c",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读第 7、23-26 和 32-33 页。区分了由七个残基组成的乙酰化 TB-500 与全长 thymosin beta4；未发现人体有效性证据。全长蛋白及非乙酰化片段的研究结果不能直接套用。分类依据：愈合是所研究的用途，但本库中该化合物的身份及获益证据仍未明确。\n负责人后续跟进 2026-10-15：区分了由七个残基组成的乙酰化片段与全长 thymosin beta-4，并指出尚无该片段的人体有效性证据。支持有关身份与疗效的保留说明；负责人提供的修复、炎症、瘢痕及灵活性方面的益处仍属于拟议目标。分类依据：拟议益处集中于组织修复和损伤恢复。",
+      "supports": [
+        "/category_id",
+        "/benefits"
+      ]
+    },
+    {
+      "productID": "tb-500",
+      "sourceID": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "在大鼠肌腱研究中，名为 TB-500 的材料显示出效果信号；序列未说明。不能解决其身份究竟为片段还是全长蛋白的问题。分类依据：愈合是所研究的用途，但本库中该化合物的身份及获益证据仍未明确。",
+      "supports": [
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "愈合与恢复"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

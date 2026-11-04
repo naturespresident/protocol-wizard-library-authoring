@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghrp-6",
+      "name": "GHRP-6",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "実証されている生物学的作用：小規模なヒト内分泌研究で、成長ホルモンの分泌を刺激することが示されています。これはGH分泌促進物質としての役割を裏付けるものであり、健康増進効果を証明するものではありません。また、臨床研究では、GHRH/GHRP-6併用刺激が、重度のGH欠乏症の成人を健康な対照者と区別するうえで有用であることが示されました。この診断上の結果は併用検査に関するものであり、GHRP-6単独治療による筋肉、回復、脂肪減少、長寿への効果を確立するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "85c54b7b-32ba-4781-933b-6635c00f13cb",
+      "productID": "ghrp-6",
+      "title": "GHRP-6 — 出典に記載された一日三回の用量漸増",
+      "purpose": "出典に記載された参照用の計画作成",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事に由来する出典です。臨床的な妥当性が自動的に認められたり、アプリの既定値に採用されたりするものではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "ghrp-6"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "1-2週目",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3-4週目",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "5-12週目",
+            "duration": {
+              "kind": "fixed",
+              "value": 56,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted",
+            "source_exclusions": [
+              "carbohydrate_rich_food",
+              "fat_rich_food"
+            ]
+          },
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ghrp-6",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          },
+          "spacing_between_doses": {
+            "minimum": "4",
+            "unit": "hour"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+          "source_tables": [
+            {
+              "section": "GHRP-6の保管と取り扱い",
+              "subsection": "外観",
+              "rows": [
+                [
+                  "",
+                  "GHRP-6"
+                ],
+                [
+                  "凍結乾燥品（粉末状）",
+                  "-4F (-20C)で長期保管"
+                ],
+                [
+                  "再溶解後（液体状）",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "外観",
+                  "透明、無色"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+          "source_statements": [
+            {
+              "section": "GHRP-6の使用を避けるべき方",
+              "subsection": "",
+              "excerpt": "活動性のがん、またはがんの既往がある方です。GH/IGF-1シグナル伝達に理論上の懸念があるためです。",
+              "truncated": false
+            },
+            {
+              "section": "GHRP-6の使用を避けるべき方",
+              "subsection": "",
+              "excerpt": "妊娠中または授乳中の方です（安全性は確立されていません）。",
+              "truncated": false
+            },
+            {
+              "section": "GHRP-6の副作用と安全性",
+              "subsection": "",
+              "excerpt": "最も一貫してみられる作用は強い空腹感で、投与後数分以内に生じることがよくあります。ほかによく報告される作用には、水分貯留やむくみ、手のピリピリ感やしびれ（GHに関連する作用）、一時的に頭に血が上る感覚や紅潮、疲労感があります。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "下垂体に作用して成長ホルモンを特異的に放出させる新規合成ヘキサペプチドの試験管内および生体内活性について",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6714155/"
+          },
+          {
+            "label": "成長ホルモン放出に機能する下垂体および視床下部の受容体",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8688086/"
+          },
+          {
+            "label": "Ghrelinは胃由来の成長ホルモン放出作用を持つアシル化ペプチドです。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10604470/"
+          },
+          {
+            "label": "ヒトにおけるGhrelinの内分泌活性：GHRP-6およびGHRP-2との比較（GH、ACTH、cortisol、prolactin）",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11238504/"
+          },
+          {
+            "label": "Growth hormone (GH)-releasing peptide-6が最大限のGH刺激を引き起こすには、内因性の視床下部成長ホルモン放出ホルモンが必要です。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9543139/"
+          },
+          {
+            "label": "合成成長ホルモン放出ペプチド（GHRPs）：細胞保護作用を裏付けるエビデンスの歴史的評価",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28469519/"
+          },
+          {
+            "label": "L-163,191 (MK-0677)の設計と生物学的活性：強力で経口活性を持つ成長ホルモン分泌促進物質",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7624059/"
+          },
+          {
+            "label": "Ghrelin：構造と機能",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15788704/"
+          },
+          {
+            "label": "禁止表、S2項：ペプチドホルモン、成長因子、関連物質（成長ホルモン分泌促進物質）",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          },
+          {
+            "label": "FD&C法503A条に基づく調剤に使用される原薬",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_clock_times",
+          "fasting_interval",
+          "human_validation"
+        ],
+        "notes": "出典の参照情報のみであり、未レビューです。表および独立した参考文献は、引き続き出典記録で参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "9da38627-373f-4068-9831-84c6dffdb852",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11030292/",
+      "title": "GH-releasing hormone and GHRP-6 for diagnostic testing in GH-deficient adults (2000)",
+      "publisher": "The Lancet, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/ghrp-6",
+      "title": "GHRP-6 Peptide Guide: Dosing, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "f1996e62-ed5a-432b-9b14-fbc36528fbec",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9543138/",
+      "title": "GHRP-6 requires endogenous hypothalamic GHRH for maximal GH stimulation (1998)",
+      "publisher": "Journal of Clinical Endocrinology & Metabolism, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "85c54b7b-32ba-4781-933b-6635c00f13cb",
+      "sourceID": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "各項目は出典に記載されています。独立した検証は保留中です。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "ghrp-6",
+      "sourceID": "9da38627-373f-4068-9831-84c6dffdb852",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "患者125名と対照者125名を対象とした併用診断検査であり、単独治療ではありません。カテゴリー分類の根拠：成長ホルモン：GH刺激の直接測定とGHの診断研究です。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "ghrp-6",
+      "sourceID": "f1996e62-ed5a-432b-9b14-fbc36528fbec",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "健康な男性九名を対象としています。GH反応はバイオマーカーであり、治療効果ではありません。カテゴリー分類の根拠：成長ホルモン：GH刺激の直接測定とGHの診断研究です。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "成長ホルモン"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

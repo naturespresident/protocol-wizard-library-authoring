@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tesa-ipa-blend",
+      "name": "Tesa/Ipaブレンド",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "成分に基づいて提案されている根拠：tesamorelinのGH軸に対する作用および特定の病態を対象とした内臓脂肪の研究を、ipamorelinのGH分泌作用と組み合わせるというものです。これらの混合済み製剤について、臨床的有益性を直接検討した研究は見つかりませんでした。HIV関連脂肪異栄養症において確立されているTesamorelinの有益性は、研究された単剤製剤に関するものであり、tesamorelin/ipamorelinブレンドの減量、回復、筋肉に関する有益性を確立するものではありません。配合比が異なる製剤も、それぞれ別個の未検証の製剤であり、相互に置き換え可能な、研究済みの製品ではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "2bf95513-be27-49bd-96e5-d26680d0abd6",
+      "productID": "tesa-ipa-blend",
+      "title": "Tesamorelin / Ipamorelin 10:3混合済み製剤 — 出典の参考吸引量",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事が出典です。臨床的妥当性が自動的に認められるものではなく、アプリの既定設定に自動的に採用されるものでもありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "tesamorelin",
+              "ratio_part": "10"
+            },
+            {
+              "library_item_id": "ipamorelin",
+              "ratio_part": "3"
+            }
+          ],
+          "fixed_component_ratio": "10:3"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "出典に示された毎日の参考吸引量",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.43",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "0.33",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "0.10",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/tesamorelin-ipamorelin",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": [
+            {
+              "section": "Tesamorelin + Ipamorelinの保管と取り扱い",
+              "subsection": "外観",
+              "rows": [
+                [
+                  "",
+                  "Tesamorelin + Ipamorelinブレンド"
+                ],
+                [
+                  "凍結乾燥品（粉末状）",
+                  "長期：-4F（-20C）；短期：2-8C（35.6-46.4F）"
+                ],
+                [
+                  "再溶解後（液体状）",
+                  "35.6-46.4F（2-8C）、遮光します"
+                ],
+                [
+                  "外観",
+                  "再溶解後は澄明です"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_statements": [
+            {
+              "section": "Tesamorelin + Ipamorelinの副作用と安全性",
+              "subsection": "化合物ごとの安全性",
+              "excerpt": "tesamorelinの試験で最も多く報告された有害事象には、注射部位反応（発赤、かゆみ）、関節の痛み（関節痛）、四肢の痛み、末梢浮腫（体液貯留）、筋肉痛があります。Tesamorelinは耐糖能異常および2型糖尿病リスクの上昇との関連も示されており、妊娠中は禁忌です。",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelinの副作用と安全性",
+              "subsection": "化合物ごとの安全性",
+              "excerpt": "動物研究および限られたヒトのデータでは、Ipamorelinの忍容性は概して良好ですが、一過性の潮紅や頭痛が生じることがあります。ipamorelinはヒトを対象とした試験を完了していないため、長期的な安全性は確立されていません。",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelinの副作用と安全性",
+              "subsection": "スタック固有の不明点",
+              "excerpt": "このブレンドに特有の副作用の特性を明らかにしたヒト試験はありません。",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelinの副作用と安全性",
+              "subsection": "注射部位と品質に関するリスク",
+              "excerpt": "脂肪肥厚を避けるため、腹部、大腿、上腕の間で注射部位を順に変えることが一般的に行われています。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "腹部脂肪蓄積のあるHIV患者における成長ホルモン放出因子アナログTesamorelin（第3相）。",
+            "url": "https://jamanetwork.com/journals/jama/fullarticle/186684"
+          },
+          {
+            "label": "HIVおよび脂肪異栄養症のある成人の過剰な腹部内臓脂肪に対するEGRIFTA WR（tesamorelin F8）のFDA承認。",
+            "url": "https://www.theratech.com/news-releases/news-release-details/theratechnologies-receives-fda-approval-egrifta-wrtm-tesamorelin/"
+          },
+          {
+            "label": "EGRIFTA（注射用tesamorelin）の処方情報／添付文書。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/022505s000lbl.pdf"
+          },
+          {
+            "label": "Tesamorelin：合成GHRHアナログ；HIV脂肪異栄養症に対し、毎日2 mg を皮下投与します。",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548730/"
+          },
+          {
+            "label": "Tesamorelin：HIV関連脂肪異栄養症に対する成長ホルモン放出因子アナログ。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22298602/"
+          },
+          {
+            "label": "Ipamorelin、最初の選択的成長ホルモン分泌促進薬。",
+            "url": "https://academic.oup.com/ejendo/article-abstract/139/5/552/6748390"
+          },
+          {
+            "label": "術後イレウスを対象としたグレリン模倣薬ipamorelinの概念実証試験（第2相、中止）。",
+            "url": "https://link.springer.com/article/10.1007/s00384-014-2030-8"
+          },
+          {
+            "label": "成長ホルモン分泌促進薬の安全性と有効性；GHRH + GHRPの相乗作用とデュアル経路によるGH刺激。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5632578/"
+          },
+          {
+            "label": "Ipamorelinはラットの骨の長軸方向への成長を誘導します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10373343/"
+          },
+          {
+            "label": "軽度認知障害および健康な加齢における脳内GABAに対するGHRH（tesamorelin）の作用。",
+            "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/1688413"
+          },
+          {
+            "label": "Tesamorelin：HIV関連脂肪異栄養症における使用に関する総説。",
+            "url": "https://doi.org/10.2165/11202240-000000000-00000"
+          }
+        ],
+        "unresolved_fields": [
+          "phase_durations",
+          "titration_progression",
+          "added_diluent_volume_not_captured",
+          "rounded_mass_equivalents",
+          "exact_clock_time"
+        ],
+        "notes": "出典の参考情報のみであり、未審査です。表および独立した参考文献は出典の記録で引き続き参照できます。"
+      }
+    },
+    {
+      "id": "4c22efe7-11a5-4335-9f2b-78cd97a3eb58",
+      "productID": "tesa-ipa-blend",
+      "title": "Tesamorelin / Ipamorelin 1:1混合済み製剤 — 出典に記載された16週間の用量漸増",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事が出典です。臨床的妥当性が自動的に認められるものではなく、アプリの既定設定に自動的に採用されるものでもありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "tesamorelin",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "ipamorelin",
+              "ratio_part": "1"
+            }
+          ],
+          "fixed_component_ratio": "1:1"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "component_amounts": [
+              {
+                "component_id": "tesamorelin",
+                "value": "5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "ipamorelin",
+                "value": "5",
+                "unit": "mg"
+              }
+            ],
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": null,
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": true
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "第1-2週",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "334",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "167",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "167",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "第3-4週",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "666",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "333",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "333",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "第5-8週",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "第9-16週",
+            "duration": {
+              "kind": "fixed",
+              "value": 56,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1334",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "667",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "667",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/tesamorelin-ipamorelin",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": [
+            {
+              "section": "Tesamorelin + Ipamorelinの保管と取り扱い",
+              "subsection": "外観",
+              "rows": [
+                [
+                  "",
+                  "Tesamorelin + Ipamorelinブレンド"
+                ],
+                [
+                  "凍結乾燥品（粉末状）",
+                  "長期：-4F（-20C）；短期：2-8C（35.6-46.4F）"
+                ],
+                [
+                  "再溶解後（液体状）",
+                  "35.6-46.4F（2-8C）、遮光します"
+                ],
+                [
+                  "外観",
+                  "再溶解後は澄明です"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_statements": [
+            {
+              "section": "Tesamorelin + Ipamorelinの副作用と安全性",
+              "subsection": "化合物ごとの安全性",
+              "excerpt": "tesamorelinの試験で最も多く報告された有害事象には、注射部位反応（発赤、かゆみ）、関節の痛み（関節痛）、四肢の痛み、末梢浮腫（体液貯留）、筋肉痛があります。Tesamorelinは耐糖能異常および2型糖尿病リスクの上昇との関連も示されており、妊娠中は禁忌です。",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelinの副作用と安全性",
+              "subsection": "化合物ごとの安全性",
+              "excerpt": "動物研究および限られたヒトのデータでは、Ipamorelinの忍容性は概して良好ですが、一過性の潮紅や頭痛が生じることがあります。ipamorelinはヒトを対象とした試験を完了していないため、長期的な安全性は確立されていません。",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelinの副作用と安全性",
+              "subsection": "スタック固有の不明点",
+              "excerpt": "このブレンドに特有の副作用の特性を明らかにしたヒト試験はありません。",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelinの副作用と安全性",
+              "subsection": "注射部位と品質に関するリスク",
+              "excerpt": "脂肪肥厚を避けるため、腹部、大腿、上腕の間で注射部位を順に変えることが一般的に行われています。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "腹部脂肪蓄積のあるHIV患者における成長ホルモン放出因子アナログTesamorelin（第3相）。",
+            "url": "https://jamanetwork.com/journals/jama/fullarticle/186684"
+          },
+          {
+            "label": "HIVおよび脂肪異栄養症のある成人の過剰な腹部内臓脂肪に対するEGRIFTA WR（tesamorelin F8）のFDA承認。",
+            "url": "https://www.theratech.com/news-releases/news-release-details/theratechnologies-receives-fda-approval-egrifta-wrtm-tesamorelin/"
+          },
+          {
+            "label": "EGRIFTA（注射用tesamorelin）の処方情報／添付文書。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/022505s000lbl.pdf"
+          },
+          {
+            "label": "Tesamorelin：合成GHRHアナログ；HIV脂肪異栄養症に対し、毎日2 mg を皮下投与します。",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548730/"
+          },
+          {
+            "label": "Tesamorelin：HIV関連脂肪異栄養症に対する成長ホルモン放出因子アナログ。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22298602/"
+          },
+          {
+            "label": "Ipamorelin、最初の選択的成長ホルモン分泌促進薬。",
+            "url": "https://academic.oup.com/ejendo/article-abstract/139/5/552/6748390"
+          },
+          {
+            "label": "術後イレウスを対象としたグレリン模倣薬ipamorelinの概念実証試験（第2相、中止）。",
+            "url": "https://link.springer.com/article/10.1007/s00384-014-2030-8"
+          },
+          {
+            "label": "成長ホルモン分泌促進薬の安全性と有効性；GHRH + GHRPの相乗作用とデュアル経路によるGH刺激。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5632578/"
+          },
+          {
+            "label": "Ipamorelinはラットの骨の長軸方向への成長を誘導します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10373343/"
+          },
+          {
+            "label": "軽度認知障害および健康な加齢における脳内GABAに対するGHRH（tesamorelin）の作用。",
+            "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/1688413"
+          },
+          {
+            "label": "Tesamorelin：HIV関連脂肪異栄養症における使用に関する総説。",
+            "url": "https://doi.org/10.2165/11202240-000000000-00000"
+          }
+        ],
+        "unresolved_fields": [
+          "added_diluent_volume_not_captured",
+          "rounded_component_dose_conversion",
+          "exact_clock_time"
+        ],
+        "notes": "出典の参考情報のみであり、未審査です。表および独立した参考文献は出典の記録で引き続き参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "632fa60e-d980-4597-b848-d216ab5cfe16",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
+      "title": "Egrifta SV (tesamorelin) prescribing information",
+      "publisher": "Theratechnologies, via NLM DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (1999)",
+      "publisher": "Pharmaceutical Research, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+      "url": "https://www.peptidedosingprotocols.com/stacks/tesamorelin-ipamorelin",
+      "title": "Tesamorelin + Ipamorelin Peptide Stack: Dosing Guide for 10/3 and 5/5 Blends (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "2bf95513-be27-49bd-96e5-d26680d0abd6",
+      "sourceID": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "出典に各フィールドの記載がありますが、独立した検証は未実施です。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "4c22efe7-11a5-4335-9f2b-78cd97a3eb58",
+      "sourceID": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "出典に各フィールドの記載がありますが、独立した検証は未実施です。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "tesa-ipa-blend",
+      "sourceID": "632fa60e-d980-4597-b848-d216ab5cfe16",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "特定の病態における単剤の有益性であり、ipamorelin混合済み製剤の評価はありません。カテゴリーの根拠：成長ホルモン：GH軸に対する併用作用の研究を意図したものです。この分類によってtesamorelinの適応がブレンドに引き継がれることはありません。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "tesa-ipa-blend",
+      "sourceID": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "個別成分によるGH反応であり、ブレンドの有効性を示すものではありません。カテゴリーの根拠：成長ホルモン：GH軸に対する併用作用の研究を意図したものです。この分類によってtesamorelinの適応がブレンドに引き継がれることはありません。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "成長ホルモン"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

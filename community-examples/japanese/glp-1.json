@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-1",
+      "name": "Semaglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "承認されたsemaglutide製剤では、ヒトにおける有益性が確立されています。体重減少と長期的な体重維持、2型糖尿病の成人における血糖コントロールの改善、特定の高リスク集団における主要心血管イベントの減少です。Ozempicは、2型糖尿病と慢性腎臓病を有する成人において、腎臓病の進行と心血管死のリスクも低減します。Wegovy注射剤は、中等度から進行した線維化を伴い、肝硬変を伴わないMASHに対して迅速承認を受けています。有益性は製品、投与経路、適応症、対象集団によって異なり、すべての調剤製剤の同等性を確立するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "1fbbbb02-1311-4cbe-9a30-3fc2708d2638",
+      "productID": "glp-1",
+      "title": "Wegovy錠 — 添付文書に記載された毎日投与の用量漸増",
+      "purpose": "成人の体重減少または心血管リスクの低減",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "一次資料である添付文書に基づきます。抽出された記録は未確認であり、完全な処方指示ではありません。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Wegovy tablets",
+          "components": [
+            {
+              "name": "Semaglutide"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "tablet",
+            "reconstitution_required": false
+          }
+        ],
+        "phases": [
+          {
+            "name": "用量漸増1",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "用量漸増2",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "用量漸増3",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "9",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "維持",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "25",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [],
+        "notes": "成人の体重減少または心血管リスクに関する情報です。朝の空腹時投与と忍容性に応じた調整については、添付文書の全文を参照する必要があります。保存資料としてのみ扱います。"
+      }
+    },
+    {
+      "id": "3ef32ceb-f434-4474-9dc4-7d5265f57036",
+      "productID": "glp-1",
+      "title": "Rybelsus — 出典に記載された従来の錠剤の用量推移",
+      "purpose": "出典の記述に基づく参考用の計画",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事／コミュニティによる記述です。独立した出典の検証と、アプリの既定値への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "label_described_by_secondary_source",
+          "indication_context": "type 2 diabetes",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "branded_oral_tablet",
+          "components": [
+            {
+              "library_item_id": "glp-1"
+            }
+          ],
+          "product": "Rybelsus legacy 3/7/14 mg tablet formulation"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "1–4週目",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "5–8週目",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "7",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "増量が必要な場合は9週目以降",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "14",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "174872a5-d822-4659-87fa-e00501696134",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/semaglutide",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "174872a5-d822-4659-87fa-e00501696134",
+          "source_tables": [
+            {
+              "section": "Semaglutideの投与プロトコルとスケジュール",
+              "subsection": "サイクルの指針",
+              "rows": [
+                [
+                  "方法",
+                  "期間",
+                  "維持期",
+                  "主な対象"
+                ],
+                [
+                  "肥満に対する標準的な用量漸増",
+                  "約16週間で2.4 mg に到達",
+                  "週ごとの維持投与を継続",
+                  "Wegovy方式の肥満研究"
+                ],
+                [
+                  "T2Dに対する標準的な用量漸増",
+                  "約8-16週間で1.0または2.0 mg に到達",
+                  "週ごとの維持投与を継続",
+                  "Ozempic方式の糖尿病研究"
+                ],
+                [
+                  "用量漸増の延期",
+                  "忍容できない段階では、その段階を4週間延長します",
+                  "目標維持用量は同じです",
+                  "副作用により予定どおりの漸増が遅れる場合"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "174872a5-d822-4659-87fa-e00501696134",
+          "source_tables": [
+            {
+              "section": "Semaglutideの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "形態",
+                  "保管",
+                  "保存期間"
+                ],
+                [
+                  "凍結乾燥品（粉末、密封）",
+                  "-4F（-20C）の冷凍庫",
+                  "最大12+か月"
+                ],
+                [
+                  "凍結乾燥品（粉末、密封）",
+                  "35.6-46.4F（2-8C）の冷蔵庫",
+                  "数か月"
+                ],
+                [
+                  "凍結乾燥品（粉末、密封）",
+                  "室温（輸送時）",
+                  "数週間安定しています"
+                ],
+                [
+                  "再溶解後（溶液）",
+                  "35.6-46.4F（2-8C）の冷蔵庫",
+                  "28日以内に使用してください"
+                ],
+                [
+                  "再溶解後（溶液）",
+                  "-4F（-20C）の冷凍庫",
+                  "推奨されません。凍結させないでください"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "174872a5-d822-4659-87fa-e00501696134",
+          "source_statements": [
+            {
+              "section": "Semaglutideの対象となる人と使用を避けるべき人",
+              "subsection": "",
+              "excerpt": "Semaglutideは複数の疾患に対してFDAの承認を受けていますが、すべての人に適しているわけではありません。使用を完全に避けるべき人もいれば、開始前に医師による厳重な管理が必要な人もいます。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutideの対象となる人と使用を避けるべき人",
+              "subsection": "禁忌",
+              "excerpt": "甲状腺髄様癌（MTC）の既往歴または家族歴です。Semaglutideには、げっ歯類の試験で認められた甲状腺C細胞腫瘍に基づく枠囲み警告があります。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutideの対象となる人と使用を避けるべき人",
+              "subsection": "慎重に使用してください",
+              "excerpt": "妊娠および授乳についてです。Semaglutideは妊娠中の使用に対して承認されていません。半減期が長いため、添付文書では妊娠を計画している場合、少なくとも2か月前に使用を中止することを推奨しています。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutideの対象となる人と使用を避けるべき人",
+              "subsection": "慎重に使用してください",
+              "excerpt": "既存の糖尿病網膜症についてです。SUSTAIN-6では、網膜症合併症の発生率が高くなりました（3.0%、プラセボ群では1.8%）。すでに網膜症があった人における急速な血糖改善との関連が考えられます。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutideの副作用と安全性",
+              "subsection": "",
+              "excerpt": "semaglutideで最もよくみられる副作用は、悪心、下痢、嘔吐、便秘といった胃腸に関連する症状です。通常、用量が増える最初の数か月に最も強く現れ、ほとんどの人では時間とともに改善または消失します。以下の安全性プロファイルは、STEP、SUSTAIN、SELECTの各試験プログラムに参加した数万人のデータに基づいています。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutideの副作用と安全性",
+              "subsection": "よくみられる胃腸症状",
+              "excerpt": "2.4 mg の用量に関するSTEP 1-3の統合データでは、参加者の43.9%に悪心が発生しました（プラセボ群では16.1%）。下痢が発生した割合は",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "過体重または肥満の成人におけるSemaglutideの週一回投与（STEP 1）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183"
+          },
+          {
+            "label": "糖尿病のない肥満患者におけるSemaglutideと心血管転帰（SELECT）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2307563"
+          },
+          {
+            "label": "2型糖尿病患者におけるSemaglutideと心血管転帰（SUSTAIN-6）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1607141"
+          },
+          {
+            "label": "2型糖尿病患者の慢性腎臓病に対するSemaglutideの効果（FLOW）。",
+            "url": "https://www.nejm.org/doi/10.1056/NEJMoa2403347"
+          },
+          {
+            "label": "代謝機能障害関連脂肪肝炎におけるSemaglutideの第3相試験（ESSENCE）。",
+            "url": "https://www.nejm.org/doi/10.1056/NEJMoa2413258"
+          },
+          {
+            "label": "過体重または肥満の成人におけるSemaglutide 2.4 mg 週一回投与の胃腸の忍容性。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34514682/"
+          },
+          {
+            "label": "肥満の青少年におけるSemaglutideの週一回投与（STEP TEENS）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2208601"
+          },
+          {
+            "label": "高リスクの2型糖尿病における経口Semaglutideと心血管転帰（SOUL）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2501006"
+          },
+          {
+            "label": "過体重または肥満で2型糖尿病を有する成人におけるSemaglutide 2.4 mg の週一回投与（STEP 2）。",
+            "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00213-0/fulltext"
+          },
+          {
+            "label": "Wegovy（semaglutide）注射剤 — 添付文書。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215256s024lbl.pdf"
+          },
+          {
+            "label": "Ozempic（semaglutide）注射剤 — 添付文書。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf"
+          },
+          {
+            "label": "STEP 1：過体重または肥満の人におけるSemaglutideの有効性を調べる研究（NCT03548935）。",
+            "url": "https://clinicaltrials.gov/study/NCT03548935"
+          }
+        ],
+        "unresolved_fields": [
+          "source_four_weeks_vs_label_month_duration",
+          "current_formulation_label_verification",
+          "oral_administration_and_food_instructions",
+          "higher_dose_selection"
+        ],
+        "notes": "出典の参考資料としてのみ扱います。未確認です。表と独立した参考文献は、出典の記録で引き続き参照できます。",
+        "maintenance_option": {
+          "value": "7",
+          "unit": "mg",
+          "condition": "出典の表によると、コントロールを継続するためにこの用量を維持することもできます"
+        }
+      }
+    },
+    {
+      "id": "851c96e9-b7bf-4b1a-bde9-72e15232843d",
+      "productID": "glp-1",
+      "title": "Wegovy注射剤 — 添付文書に記載された用量漸増と維持用量の選択肢",
+      "purpose": "添付文書に記載された適応症別の治療",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "一次資料である添付文書に基づきます。抽出された記録は未確認であり、完全な処方指示ではありません。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Wegovy injection",
+          "components": [
+            {
+              "name": "Semaglutide"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "prefilled_device",
+            "reconstitution_required": false
+          }
+        ],
+        "phases": [
+          {
+            "name": "用量漸増1",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.25",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "用量漸増2",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "用量漸増3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "用量漸増4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.7",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "維持",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "1.7",
+                "2.4"
+              ],
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_dose_selection",
+          "conditional_dose_adjustments"
+        ],
+        "notes": "維持用量の選択は適応症と忍容性によって決まります。用量漸増は延期できます。体重減少の適応に関する添付文書には、2.4 mg を少なくとも四週間投与した後に、条件に応じて7.2 mg へ増量することも記載されています。保存資料としてのみ扱い、そのまま実行できる汎用テンプレートではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "174872a5-d822-4659-87fa-e00501696134",
+      "url": "https://www.peptidedosingprotocols.com/protocol/semaglutide",
+      "title": "Semaglutide Dosing Guide: Titration, Dosing, Schedule & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "1b73e823-1674-46aa-9c11-e057a42520a4",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s025lbl.pdf",
+      "title": "Wegovy prescribing information, revised June 2026",
+      "publisher": "U.S. Food and Drug Administration / Novo Nordisk",
+      "type": "regulatory_label",
+      "publishedAt": "2026-06"
+    },
+    {
+      "id": "32625991-9e7a-4338-9239-18bfa683aa1d",
+      "url": "https://www.novo-pi.com/wegovy.pdf",
+      "title": "WEGOVY (semaglutide injection and tablets) prescribing information",
+      "publisher": "Novo Nordisk",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "65675b5f-3b70-47b8-bba3-1bba50b85641",
+      "url": "https://www.novo-pi.com/ozempic.pdf",
+      "title": "OZEMPIC (semaglutide injection) prescribing information",
+      "publisher": "Novo Nordisk",
+      "type": "regulatory_label",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "1fbbbb02-1311-4cbe-9a30-3fc2708d2638",
+      "sourceID": "174872a5-d822-4659-87fa-e00501696134",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "同じWegovy錠の用量推移です。出典では四週間、添付文書では三十日間とされています。用量のみを引用し、期間の不一致を明示してください。",
+      "supports": [
+        "/phases/0/dose",
+        "/phases/1/dose",
+        "/phases/2/dose",
+        "/phases/3/dose"
+      ]
+    },
+    {
+      "protocolID": "1fbbbb02-1311-4cbe-9a30-3fc2708d2638",
+      "sourceID": "1b73e823-1674-46aa-9c11-e057a42520a4",
+      "locator": "Sections 2.1 and 2.3, Table 2",
+      "evidenceNote": "各30日間の三段階を経て、毎日の維持投与を継続します。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "3ef32ceb-f434-4474-9dc4-7d5265f57036",
+      "sourceID": "174872a5-d822-4659-87fa-e00501696134",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にはこれらの項目が記載されています。一次資料の検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/maintenance_option"
+      ]
+    },
+    {
+      "protocolID": "851c96e9-b7bf-4b1a-bde9-72e15232843d",
+      "sourceID": "174872a5-d822-4659-87fa-e00501696134",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "同じ標準的な注射剤の用量漸増と、2.4 mg の維持用量の選択肢です。出典は、新しい添付文書の選択肢をすべて網羅しているわけではありません。",
+      "supports": [
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "851c96e9-b7bf-4b1a-bde9-72e15232843d",
+      "sourceID": "1b73e823-1674-46aa-9c11-e057a42520a4",
+      "locator": "Sections 2.1–2.2, Table 1",
+      "evidenceNote": "四段階の用量漸増を経て維持用量を選択します。選択には臨床的な条件が影響します。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "productID": "glp-1",
+      "sourceID": "32625991-9e7a-4338-9239-18bfa683aa1d",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "現行の添付文書では、注射剤と錠剤の対象集団、体重および心血管に関する適応症、注射剤のMASHに対する迅速承認が区別されています。カテゴリの根拠：体重と代謝：体重管理と糖尿病／代謝疾患が、確立された主な用途です。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glp-1",
+      "sourceID": "65675b5f-3b70-47b8-bba3-1bba50b85641",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "2026年五月の添付文書では、血糖、心血管、腎臓の転帰に関する適応症と、それぞれの対象となる集団が明記されています。カテゴリの根拠：体重と代謝：体重管理と糖尿病／代謝疾患が、確立された主な用途です。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重と代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    },
+    {
+      "id": "oral",
+      "name": "経口"
+    }
+  ]
+}

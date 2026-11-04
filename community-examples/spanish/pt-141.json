@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pt-141",
+      "name": "Bremelanotide",
+      "aliases": [
+        "PT-141"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": "Beneficio demostrado en humanos para el producto subcutáneo aprobado de bremelanotide: aumento del deseo sexual y reducción del malestar asociado con el trastorno del deseo sexual hipoactivo adquirido y generalizado en mujeres premenopáusicas que cumplen los criterios de la información para prescribir. Esta evidencia no establece beneficios en hombres ni en mujeres posmenopáusicas, ni una mejora general del desempeño sexual."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "productID": "pt-141",
+      "title": "Vyleesi — régimen de bremelanotide según necesidad indicado en la información para prescribir",
+      "purpose": "Trastorno del deseo sexual hipoactivo adquirido y generalizado en mujeres premenopáusicas que cumplen los criterios",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Extracción de referencia sin revisar; no constituye instrucciones completas de prescripción.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Vyleesi single-dose autoinjector",
+          "components": [
+            {
+              "name": "Bremelanotide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "Mujeres premenopáusicas con trastorno del deseo sexual hipoactivo adquirido y generalizado; no hombres ni mujeres posmenopáusicas"
+        },
+        "preparation_options": [
+          {
+            "form": "prefilled_device",
+            "reconstitution_required": false,
+            "container_amount": {
+              "value": "1.75",
+              "unit": "mg"
+            },
+            "container_volume": {
+              "value": "0.3",
+              "unit": "mL"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Tratamiento según necesidad",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.75",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "as_needed",
+              "doses_per_day": null,
+              "minimum_minutes_before_event": 45,
+              "maximum_doses_per_24_hours": 1,
+              "maximum_doses_per_month": 8,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [],
+        "notes": "Suspender después de cincuenta y seis días si los síntomas no mejoran. El uso según necesidad no tiene un número fijo de inyecciones diarias; las contraindicaciones y el seguimiento se encuentran en la información para prescribir completa."
+      }
+    },
+    {
+      "id": "e02fe941-a3b7-4171-8cea-810d3d4c7134",
+      "productID": "pt-141",
+      "title": "Bremelanotide — rango de dosis del ensayo intranasal para la disfunción eréctil masculina según la fuente",
+      "purpose": "Planificación de referencia descrita en la fuente",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "Descripción secundaria editorial/comunitaria. Están pendientes la validación independiente de la fuente y su incorporación como opción predeterminada de la aplicación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "phase_2_trial_described_by_secondary_source",
+          "indication_context": "men with erectile dysfunction",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_trial_product",
+          "components": [
+            {
+              "library_item_id": "pt-141"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Rango de dosis de los grupos del ensayo",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "7.5",
+              "maximum": "20",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "no se proporcionó el esquema de administración del ensayo"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bremelanotide-pt-141",
+            "locator": "Protocolo y esquema de dosificación; afirmaciones de la fuente sobre el momento de administración"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_tables": [
+            {
+              "section": "Protocolo y esquema de dosificación de PT-141",
+              "subsection": "Pautas del ciclo",
+              "rows": [
+                [
+                  "Enfoque",
+                  "Patrón",
+                  "Fuente de referencia"
+                ],
+                [
+                  "Uso a demanda aprobado por la FDA (Vyleesi)",
+                  "1.75 mg por vía subcutánea ≥45 min antes de la actividad, ≤1/24h, ≤8/mes",
+                  "Información para prescribir de Vyleesi (resumen de Mayo Clinic)"
+                ],
+                [
+                  "Esquema del ensayo de fase 3",
+                  "1.75 mg por vía subcutánea a demanda durante 24 semanas",
+                  "Kingsberg 2019 (RECONNECT)"
+                ],
+                [
+                  "Extensión de seguridad a largo plazo",
+                  "1.75 mg por vía subcutánea a demanda durante 52 semanas adicionales",
+                  "Simon 2019 (extensión abierta)"
+                ],
+                [
+                  "Fase 2 intranasal (hombres con disfunción eréctil)",
+                  "7.5-20 mg por vía intranasal en los grupos del ensayo estudiados",
+                  "Diamond 2006"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_tables": [
+            {
+              "section": "Almacenamiento y manipulación de PT-141",
+              "subsection": "",
+              "rows": [
+                [
+                  "Estado",
+                  "Almacenamiento",
+                  "Notas"
+                ],
+                [
+                  "Liofilizado (en polvo)",
+                  "-4°F (-20°C) a largo plazo; se acepta la refrigeración a corto plazo",
+                  "Utilice los datos de estabilidad del proveedor cuando estén disponibles."
+                ],
+                [
+                  "Reconstituido (en forma líquida)",
+                  "35.6-46.4°F (2-8°C)",
+                  "Inspeccione la claridad de cada extracción; deseche el producto si está turbio o presenta cambios de color."
+                ],
+                [
+                  "Autoinyector de Vyleesi",
+                  "A temperatura ambiente, protegido del calor, la humedad y la luz directa; no congelar",
+                  "Según la información para prescribir aprobada por la FDA."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_statements": [
+            {
+              "section": "Para quién es PT-141 y quién debería evitarlo",
+              "subsection": "No debería usarse",
+              "excerpt": "La información para prescribir de Vyleesi y el resumen del medicamento de Mayo Clinic indican que PT-141 no debería usarse en personas con hipertensión no controlada o enfermedad cardiovascular conocida, debido al aumento transitorio de la presión arterial después de la administración. Tampoco se recomienda durante el embarazo ni cuando se planea un embarazo, y no hay datos adecuados de seguridad para la lactancia.",
+              "truncated": false
+            },
+            {
+              "section": "Para quién es PT-141 y quién debería evitarlo",
+              "subsection": "Usar con precaución",
+              "excerpt": "La enfermedad renal o hepática grave puede ralentizar la eliminación. Las afecciones que retrasan el vaciamiento gástrico pueden empeorar con PT-141 porque el agonismo de la melanocortina ralentiza el vaciamiento gástrico. Naltrexone figura como una interacción destacada (PT-141 puede reducir la exposición a naltrexone cuando se usan ambos). PT-141 no debería combinarse con otro agonista de la melanocortina, como Melanotan II, porque comparten receptores y la seguridad de la exposición combinada no ha sido",
+              "truncated": true
+            },
+            {
+              "section": "Efectos secundarios y seguridad de PT-141",
+              "subsection": "",
+              "excerpt": "Las tasas de efectos secundarios que figuran a continuación provienen de la información para prescribir de Vyleesi aprobada por la FDA y de la publicación del ensayo RECONNECT de fase 3 (Kingsberg 2019). El evento adverso más común fue la náusea, que se notificó en aproximadamente el 40% de quienes usaron bremelanotide a la dosis de 1.75 mg. La mayoría de los eventos fueron leves a moderados, disminuyeron con el tiempo con el uso repetido y no llevaron a suspender el tratamiento en la mayoría de los participantes.",
+              "truncated": false
+            },
+            {
+              "section": "Efectos secundarios y seguridad de PT-141",
+              "subsection": "Náusea",
+              "excerpt": "La mayoría",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Bremelanotide (vía subcutánea) — Descripción y dosificación.",
+            "url": "https://www.mayoclinic.org/drugs-supplements/bremelanotide-subcutaneous-route/description/drg-20466805"
+          },
+          {
+            "label": "Bremelanotide para el tratamiento del trastorno del deseo sexual hipoactivo: dos ensayos aleatorizados de fase 3.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31599840/"
+          },
+          {
+            "label": "Seguridad y eficacia a largo plazo de Bremelanotide para el trastorno del deseo sexual hipoactivo.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31599841/"
+          },
+          {
+            "label": "Bremelanotide para las disfunciones sexuales femeninas en mujeres premenopáusicas: un ensayo aleatorizado, controlado con placebo, para determinar la dosis.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27333087/"
+          },
+          {
+            "label": "Evaluación doble ciego y controlada con placebo de la seguridad, las propiedades farmacocinéticas y los efectos farmacodinámicos de PT-141 intranasal, un agonista de los receptores de melanocortina, en hombres sanos y pacientes con disfunción eréctil leve a moderada.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16034466/"
+          },
+          {
+            "label": "Evaluación de la seguridad y la eficacia de bremelanotide, un agonista de los receptores de melanocortina, en mujeres con trastorno de la excitación: un estudio aleatorizado, doble ciego, controlado con placebo y de dosis fija.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18331256/"
+          },
+          {
+            "label": "Facilitación selectiva de la conducta de solicitación sexual en la rata hembra mediante un agonista de los receptores de melanocortina.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15226502/"
+          },
+          {
+            "label": "Análisis de subgrupos preespecificados e integrados de los estudios RECONNECT de fase 3 de Bremelanotide.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35230162/"
+          },
+          {
+            "label": "Bremelanotide: una visión general de los efectos preclínicos sobre el sistema nervioso central en la función sexual femenina.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17958602/"
+          },
+          {
+            "label": "PT-141 (Bremelanotide): guía de investigación del agonista de los receptores de melanocortina.",
+            "url": "https://lotilabs.com/resources/pt-141-bremelanotide-melanocortin-receptor-agonist-research-guide/"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "actual_dose_arms",
+          "frequency",
+          "duration",
+          "product_concentration"
+        ],
+        "notes": "Solo como referencia de la fuente; sin revisar. Las tablas y las referencias independientes siguen disponibles en el registro de la fuente."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "url": "https://www.peptidedosingprotocols.com/protocol/bremelanotide-pt-141",
+      "title": "PT-141 (Bremelanotide) Dosage Guide: Timing, Protocol & Side Effects",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "63d43aa8-5a5c-4f89-b699-f5e44da04d47",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/210557Orig1s000Lbl.pdf",
+      "title": "Vyleesi original FDA-approved labeling, June 2019",
+      "publisher": "U.S. Food and Drug Administration / AMAG Pharmaceuticals",
+      "type": "regulatory_label",
+      "publishedAt": "2019-06"
+    },
+    {
+      "id": "7a673c9c-4e5e-4132-a3cf-57c5a0e491f9",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1d0c1b5-2f39-4bad-a6a4-0066e3ad5dcf",
+      "title": "VYLEESI (bremelanotide injection) prescribing information",
+      "publisher": "Manufacturer prescribing information / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "e0952025-c4ab-4f1f-9f35-6a64b315515c",
+      "url": "https://vyleesi.com/docs/Vyleesi-Full-Prescribing-Information.pdf",
+      "title": "Vyleesi prescribing information, revised March 2024",
+      "publisher": "Vyleesi manufacturer prescribing information",
+      "type": "regulatory_label",
+      "publishedAt": "2024-03"
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "La misma dosis de Vyleesi, administración a demanda, límites máximos y población indicada en la información para prescribir; se añadió la cita en lugar de duplicar.",
+      "supports": [
+        "/phases/0/dose",
+        "/phases/0/schedule"
+      ]
+    },
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "63d43aa8-5a5c-4f89-b699-f5e44da04d47",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "La dosis, el momento de administración respecto de la actividad, los límites máximos y el criterio de reevaluación coinciden con la información para prescribir posterior.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "e0952025-c4ab-4f1f-9f35-6a64b315515c",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "La información para prescribir describe el momento de administración en función de la actividad, los límites máximos diarios/mensuales y el dispositivo listo para usar específico del producto.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "e02fe941-a3b7-4171-8cea-810d3d4c7134",
+      "sourceID": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La fuente describe estos campos; la verificación con fuentes primarias sigue pendiente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "pt-141",
+      "sourceID": "7a673c9c-4e5e-4132-a3cf-57c5a0e491f9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Las secciones 1 y 14 especifican la población y dos estudios de fase 3 que muestran una mejora del deseo y del malestar asociado frente al placebo; las limitaciones de la información para prescribir excluyen la mejora del desempeño. Justificación de la categoría: Especializado y clínico: tratamiento de un trastorno definido del deseo sexual en una población específica de pacientes.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado y clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    },
+    {
+      "id": "intranasal",
+      "name": "Intranasal"
+    }
+  ]
+}

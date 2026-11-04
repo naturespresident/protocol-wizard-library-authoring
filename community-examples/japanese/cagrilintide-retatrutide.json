@@ -1,0 +1,1304 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cagrilintide-retatrutide",
+      "name": "Cagrilintide + Retatrutide スタック",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 2,
+      "benefits": "直接的な併用のエビデンスは前臨床段階のものです。食餌誘発性肥満の雄ラットでは、cagrilintideとretatrutideの併用により、体重と摂食量が減少し、血中コレステロール、トリグリセリド、インスリンの指標が改善しました。この実験では、併用は比較対象の各単剤を上回りました。ヒトでの併用効果が実証された例は見つかりませんでした。これらの動物実験の知見は、ヒトでのスタックの妥当性を裏付けるものでも、臨床的な相乗効果を確立するものでもありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "0dac56c3-afb1-46fe-9a86-0dfedeb0e747",
+      "productID": "cagrilintide-retatrutide",
+      "title": "Cagrilintide / Retatrutide 1:5 事前混合製剤 — 出典の週ごとの増量",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集資料です。臨床的な妥当性の自動的な承認や、アプリの既定設定への昇格は行いません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "glp-3",
+              "ratio_part": "5"
+            },
+            {
+              "library_item_id": "cagrilintide",
+              "ratio_part": "1"
+            }
+          ],
+          "fixed_component_ratio": "5:1"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "15",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.5",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "glp-3",
+                "value": "12.5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "cagrilintide",
+                "value": "2.5",
+                "unit": "mg"
+              }
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "開始",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "2.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "0.4",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.40",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "40",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "段階 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3.6",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "3.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "0.6",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.60",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "60",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "段階 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 56,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4.8",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "4.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "0.8",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.80",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "80",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "段階 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "7.2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "6.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "1.2",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "1.20",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "120",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "段階 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "9.6",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "8.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "1.6",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "1.60",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "160",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "維持",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "14.4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "glp-3",
+                "dose": {
+                  "value": "12.0",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "cagrilintide",
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "2.40",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "240",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_tables": [
+            {
+              "section": "Cagrilintide + Retatrutideの投与プロトコルとスケジュール",
+              "subsection": "サイクルの指針",
+              "rows": [
+                [
+                  "方法",
+                  "期間",
+                  "休薬期間",
+                  "適した用途・対象"
+                ],
+                [
+                  "時期をずらした完全な漸増",
+                  "24週間の増量 + 終了時期を定めない維持",
+                  "コミュニティ：16-24週間使用、4-8週間休薬",
+                  "各経路を網羅した主な減量戦略"
+                ],
+                [
+                  "Retaを先に開始し、cagを追加",
+                  "retaを8-12 mg で安定させてから、cagを12+週間追加します",
+                  "Cagのみを独立してサイクル使用できます",
+                  "すでにretatrutideを使用しており、満腹感の増強を望む利用者"
+                ],
+                [
+                  "短期サイクルでの試行",
+                  "最大用量未満で8-12週間",
+                  "4週間休薬",
+                  "初期の忍容性の確認"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_tables": [
+            {
+              "section": "Cagrilintide + Retatrutideの溶解ガイド",
+              "subsection": "溶解後の安定性",
+              "rows": [
+                [
+                  "化合物",
+                  "凍結乾燥状態",
+                  "溶解後（2-8 °C）",
+                  "注記"
+                ],
+                [
+                  "Retatrutide",
+                  "-20 °Cで12+か月",
+                  "28-30日間",
+                  "GLP系ペプチドの標準です。"
+                ],
+                [
+                  "Cagrilintide",
+                  "-20 °Cで12+か月",
+                  "28-30日間",
+                  "振とうしないでください（アミロイド線維形成のリスクがあります）。濁った溶液は廃棄してください。"
+                ],
+                [
+                  "事前混合製剤",
+                  "-20 °Cで12+か月",
+                  "28-30日間",
+                  "ブレンド中の両化合物に同じ期間が適用されます。"
+                ]
+              ]
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "Cagrilintide",
+                  "Retatrutide"
+                ],
+                [
+                  "凍結乾燥状態（長期）",
+                  "-4 °F（-20 °C）、12+か月",
+                  "-4 °F（-20 °C）、12+か月"
+                ],
+                [
+                  "凍結乾燥状態（短期）",
+                  "35.6-46.4 °F（2-8 °C）、数か月",
+                  "35.6-46.4 °F（2-8 °C）、数か月"
+                ],
+                [
+                  "溶解後（液体）",
+                  "35.6-46.4 °F（2-8 °C）、28-30日間",
+                  "35.6-46.4 °F（2-8 °C）、28-30日間"
+                ],
+                [
+                  "溶解後の色",
+                  "無色透明",
+                  "無色透明"
+                ],
+                [
+                  "振とうの可否",
+                  "不可 — アミロイド線維形成のリスクがあります",
+                  "不可 — 標準的なペプチドの取り扱いに従います"
+                ],
+                [
+                  "遮光",
+                  "必要",
+                  "必要"
+                ],
+                [
+                  "経口投与の可否",
+                  "不可",
+                  "不可"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_statements": [
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "",
+              "excerpt": "この併用は、いかなる試験でも検証されていません。安全性の全体像は、各化合物自体のデータとCagriSemaから得られた知見に基づいています。主な懸念は消化器系の副作用が重なることです。両化合物は異なる経路を介して消化を遅らせるため、併用により悪心、嘔吐、便秘が増強される可能性があります。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "併用で重なる、または増強される懸念",
+              "excerpt": "異常感覚 — 通常とは異なる皮膚感覚です（retatrutideに特有です）。ピリピリ感、しびれ、針で刺すような感覚がretatrutideの試験で報告されており、高用量ほど増えるようです。これはretatrutideの安全性シグナルであり、cagrilintideのものではありません。気づいた場合は、発現した時期を記録してください。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "併用で重なる、または増強される懸念",
+              "excerpt": "glucagonとamylinの相互作用は不明です。Retatrutideはglucagon受容体に直接作用します。Cagrilintideはcalcitonin関連受容体に作用し、glucagonに関連する作用も一部あります。併用による血糖への影響は研究されていません。血糖に懸念がある場合は、プロトコルの早期に血糖モニタリングについて臨床医と相談すべきです。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "コミュニティでよく報告される副作用",
+              "excerpt": "強い食欲抑制 — 通常は望まれる作用ですが、不快な場合もあります。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "禁忌を示唆する所見",
+              "excerpt": "標準的な慎重な運用では、活動性の消化器疾患、1型糖尿病、膵炎の既往、甲状腺髄様癌の既往、または活動性の癌がある人は、いずれのretatrutideプロトコルからも除外します。Cagrilintideを追加すると、消化器系の忍容性に対する要件がさらに厳しくなります。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "再評価する時期",
+              "excerpt": "もし",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "肥満に対する三種ホルモン受容体作動薬Retatrutide — 第2相試験。",
+            "url": "https://doi.org/10.1056/NEJMoa2301972"
+          },
+          {
+            "label": "Lillyの三重作動薬retatrutideは、初めて成功した第3相試験で、最大で平均71.2 lbsの体重減少と、変形性関節症の疼痛の大幅な緩和をもたらしました。",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average"
+          },
+          {
+            "label": "過体重または肥満の成人におけるCagrilintideとSemaglutideの併用投与。",
+            "url": "https://doi.org/10.1056/NEJMoa2502081"
+          },
+          {
+            "label": "過体重および肥満の人の体重管理における週に一度のcagrilintide。",
+            "url": "https://doi.org/10.1016/S0140-6736(21)01751-7"
+          },
+          {
+            "label": "cagrilintideとsemaglutide 2.4 mg の反復併用投与における安全性、忍容性、薬物動態、薬力学。",
+            "url": "https://doi.org/10.1016/S0140-6736(21)00845-X"
+          },
+          {
+            "label": "長時間作用型amylinアナログCagrilintideの開発。",
+            "url": "https://doi.org/10.1021/acs.jmedchem.1c00565"
+          },
+          {
+            "label": "肥満、閉塞性睡眠時無呼吸、膝関節の変形性関節症の治療におけるRetatrutide：TRIUMPH承認申請用臨床試験の根拠とデザイン。",
+            "url": "https://doi.org/10.1111/dom.70209"
+          },
+          {
+            "label": "cagrilintideのcalcitonin受容体およびamylin受容体への結合における構造的・動的特徴。",
+            "url": "https://doi.org/10.1038/s41467-025-58680-y"
+          },
+          {
+            "label": "抗肥満薬としてのCagrilintide単独およびSemaglutideとの併用（Cagrisema）の有効性と安全性：システマティックレビューとメタ解析。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11750092/"
+          },
+          {
+            "label": "Retatrutideは、第3相TRIUMPH-4試験で最大28.7%の体重減少と顕著な膝痛の軽減を達成しました。",
+            "url": "https://www.patientcareonline.com/view/retatrutide-achieves-up-to-28-7-weight-loss-and-marked-knee-pain-reduction-in-phase-3-triumph-4-trial"
+          },
+          {
+            "label": "肥満および膝関節の変形性関節症を有する成人における週に一度のRetatrutide（LY3437943）の試験（TRIUMPH-4）。NCT05931367。",
+            "url": "https://clinicaltrials.gov/study/NCT05931367"
+          },
+          {
+            "label": "REDEFINE 1 — 過体重または肥満の成人におけるCagrilintideとSemaglutide。NCT05567796。",
+            "url": "https://clinicaltrials.gov/study/NCT05567796"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "same_product_pharmacokinetic_compatibility",
+          "draws_exceed_1_mL_and_U100_100_scale"
+        ],
+        "notes": "出典の参照用に限ります。未審査です。表と独立した参考文献は出典レコードで引き続き参照できます。"
+      }
+    },
+    {
+      "id": "7244b010-2ac5-4011-8e13-290e11f645a4",
+      "productID": "cagrilintide-retatrutide",
+      "title": "Cagrilintide + Retatrutide — 時期をずらした24週間の増量と維持",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集資料です。臨床的な妥当性の自動的な承認や、アプリの既定設定への昇格は行いません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "glp-3"
+            },
+            {
+              "library_item_id": "cagrilintide"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "成分別の投与計画",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "成分別のスケジュール"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_tables": [
+            {
+              "section": "Cagrilintide + Retatrutideの投与プロトコルとスケジュール",
+              "subsection": "サイクルの指針",
+              "rows": [
+                [
+                  "方法",
+                  "期間",
+                  "休薬期間",
+                  "適した用途・対象"
+                ],
+                [
+                  "時期をずらした完全な漸増",
+                  "24週間の増量 + 終了時期を定めない維持",
+                  "コミュニティ：16-24週間使用、4-8週間休薬",
+                  "各経路を網羅した主な減量戦略"
+                ],
+                [
+                  "Retaを先に開始し、cagを追加",
+                  "retaを8-12 mg で安定させてから、cagを12+週間追加します",
+                  "Cagのみを独立してサイクル使用できます",
+                  "すでにretatrutideを使用しており、満腹感の増強を望む利用者"
+                ],
+                [
+                  "短期サイクルでの試行",
+                  "最大用量未満で8-12週間",
+                  "4週間休薬",
+                  "初期の忍容性の確認"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_tables": [
+            {
+              "section": "Cagrilintide + Retatrutideの溶解ガイド",
+              "subsection": "溶解後の安定性",
+              "rows": [
+                [
+                  "化合物",
+                  "凍結乾燥状態",
+                  "溶解後（2-8 °C）",
+                  "注記"
+                ],
+                [
+                  "Retatrutide",
+                  "-20 °Cで12+か月",
+                  "28-30日間",
+                  "GLP系ペプチドの標準です。"
+                ],
+                [
+                  "Cagrilintide",
+                  "-20 °Cで12+か月",
+                  "28-30日間",
+                  "振とうしないでください（アミロイド線維形成のリスクがあります）。濁った溶液は廃棄してください。"
+                ],
+                [
+                  "事前混合製剤",
+                  "-20 °Cで12+か月",
+                  "28-30日間",
+                  "ブレンド中の両化合物に同じ期間が適用されます。"
+                ]
+              ]
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "Cagrilintide",
+                  "Retatrutide"
+                ],
+                [
+                  "凍結乾燥状態（長期）",
+                  "-4 °F（-20 °C）、12+か月",
+                  "-4 °F（-20 °C）、12+か月"
+                ],
+                [
+                  "凍結乾燥状態（短期）",
+                  "35.6-46.4 °F（2-8 °C）、数か月",
+                  "35.6-46.4 °F（2-8 °C）、数か月"
+                ],
+                [
+                  "溶解後（液体）",
+                  "35.6-46.4 °F（2-8 °C）、28-30日間",
+                  "35.6-46.4 °F（2-8 °C）、28-30日間"
+                ],
+                [
+                  "溶解後の色",
+                  "無色透明",
+                  "無色透明"
+                ],
+                [
+                  "振とうの可否",
+                  "不可 — アミロイド線維形成のリスクがあります",
+                  "不可 — 標準的なペプチドの取り扱いに従います"
+                ],
+                [
+                  "遮光",
+                  "必要",
+                  "必要"
+                ],
+                [
+                  "経口投与の可否",
+                  "不可",
+                  "不可"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+          "source_statements": [
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "",
+              "excerpt": "この併用は、いかなる試験でも検証されていません。安全性の全体像は、各化合物自体のデータとCagriSemaから得られた知見に基づいています。主な懸念は消化器系の副作用が重なることです。両化合物は異なる経路を介して消化を遅らせるため、併用により悪心、嘔吐、便秘が増強される可能性があります。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "併用で重なる、または増強される懸念",
+              "excerpt": "異常感覚 — 通常とは異なる皮膚感覚です（retatrutideに特有です）。ピリピリ感、しびれ、針で刺すような感覚がretatrutideの試験で報告されており、高用量ほど増えるようです。これはretatrutideの安全性シグナルであり、cagrilintideのものではありません。気づいた場合は、発現した時期を記録してください。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "併用で重なる、または増強される懸念",
+              "excerpt": "glucagonとamylinの相互作用は不明です。Retatrutideはglucagon受容体に直接作用します。Cagrilintideはcalcitonin関連受容体に作用し、glucagonに関連する作用も一部あります。併用による血糖への影響は研究されていません。血糖に懸念がある場合は、プロトコルの早期に血糖モニタリングについて臨床医と相談すべきです。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "コミュニティでよく報告される副作用",
+              "excerpt": "強い食欲抑制 — 通常は望まれる作用ですが、不快な場合もあります。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "禁忌を示唆する所見",
+              "excerpt": "標準的な慎重な運用では、活動性の消化器疾患、1型糖尿病、膵炎の既往、甲状腺髄様癌の既往、または活動性の癌がある人は、いずれのretatrutideプロトコルからも除外します。Cagrilintideを追加すると、消化器系の忍容性に対する要件がさらに厳しくなります。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintide + Retatrutideの副作用と安全性",
+              "subsection": "再評価する時期",
+              "excerpt": "もし",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "肥満に対する三種ホルモン受容体作動薬Retatrutide — 第2相試験。",
+            "url": "https://doi.org/10.1056/NEJMoa2301972"
+          },
+          {
+            "label": "Lillyの三重作動薬retatrutideは、初めて成功した第3相試験で、最大で平均71.2 lbsの体重減少と、変形性関節症の疼痛の大幅な緩和をもたらしました。",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average"
+          },
+          {
+            "label": "過体重または肥満の成人におけるCagrilintideとSemaglutideの併用投与。",
+            "url": "https://doi.org/10.1056/NEJMoa2502081"
+          },
+          {
+            "label": "過体重および肥満の人の体重管理における週に一度のcagrilintide。",
+            "url": "https://doi.org/10.1016/S0140-6736(21)01751-7"
+          },
+          {
+            "label": "cagrilintideとsemaglutide 2.4 mg の反復併用投与における安全性、忍容性、薬物動態、薬力学。",
+            "url": "https://doi.org/10.1016/S0140-6736(21)00845-X"
+          },
+          {
+            "label": "長時間作用型amylinアナログCagrilintideの開発。",
+            "url": "https://doi.org/10.1021/acs.jmedchem.1c00565"
+          },
+          {
+            "label": "肥満、閉塞性睡眠時無呼吸、膝関節の変形性関節症の治療におけるRetatrutide：TRIUMPH承認申請用臨床試験の根拠とデザイン。",
+            "url": "https://doi.org/10.1111/dom.70209"
+          },
+          {
+            "label": "cagrilintideのcalcitonin受容体およびamylin受容体への結合における構造的・動的特徴。",
+            "url": "https://doi.org/10.1038/s41467-025-58680-y"
+          },
+          {
+            "label": "抗肥満薬としてのCagrilintide単独およびSemaglutideとの併用（Cagrisema）の有効性と安全性：システマティックレビューとメタ解析。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11750092/"
+          },
+          {
+            "label": "Retatrutideは、第3相TRIUMPH-4試験で最大28.7%の体重減少と顕著な膝痛の軽減を達成しました。",
+            "url": "https://www.patientcareonline.com/view/retatrutide-achieves-up-to-28-7-weight-loss-and-marked-knee-pain-reduction-in-phase-3-triumph-4-trial"
+          },
+          {
+            "label": "肥満および膝関節の変形性関節症を有する成人における週に一度のRetatrutide（LY3437943）の試験（TRIUMPH-4）。NCT05931367。",
+            "url": "https://clinicaltrials.gov/study/NCT05931367"
+          },
+          {
+            "label": "REDEFINE 1 — 過体重または肥満の成人におけるCagrilintideとSemaglutide。NCT05567796。",
+            "url": "https://clinicaltrials.gov/study/NCT05567796"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "stated_loading_summary_vs_full_titration_table",
+          "eligible_population",
+          "maximum_draw_volume_exceeds_U100_100_scale"
+        ],
+        "notes": "出典の参照用に限ります。未審査です。表と独立した参考文献は出典レコードで引き続き参照できます。定義リストの導入投与の要約は、完全な漸増表と異なります。表を保持し、不一致を明示してください。",
+        "component_regimens": [
+          {
+            "component_id": "glp-3",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "Retaの開始",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "まずretatrutideに対する消化器系の忍容性を確認してください。"
+              },
+              {
+                "name": "Retaの増量 1",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "retatrutide単独の使用を継続してください。"
+              },
+              {
+                "name": "Cagの導入",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "cagrilintideを最低用量で追加してください。retaの用量は一定に保ってください。"
+              },
+              {
+                "name": "併用の増量 1",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "8",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "この段階では消化器系の影響がピークに達することがよくあります。"
+              },
+              {
+                "name": "併用の増量 2",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "8",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "retaの用量を維持し、cagを増量してください。"
+              },
+              {
+                "name": "併用の増量 3",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "12",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "維持用量に近づけてください。"
+              },
+              {
+                "name": "維持",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "12",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "忍容性があれば、四受容体すべてを網羅します。"
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+                "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+              }
+            },
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "glp-3",
+                "dry_amount": {
+                  "value": "10",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "1",
+                  "unit": "mL"
+                }
+              }
+            ]
+          },
+          {
+            "component_id": "cagrilintide",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "Retaの開始",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": null,
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "status": "not_started",
+                "condition": "まずretatrutideに対する消化器系の忍容性を確認してください。"
+              },
+              {
+                "name": "Retaの増量 1",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": null,
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "status": "not_started",
+                "condition": "retatrutide単独の使用を継続してください。"
+              },
+              {
+                "name": "Cagの導入",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.25",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "cagrilintideを最低用量で追加してください。retaの用量は一定に保ってください。"
+              },
+              {
+                "name": "併用の増量 1",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "この段階では消化器系の影響がピークに達することがよくあります。"
+              },
+              {
+                "name": "併用の増量 2",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.0",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "retaの用量を維持し、cagを増量してください。"
+              },
+              {
+                "name": "併用の増量 3",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.7",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "維持用量に近づけてください。"
+              },
+              {
+                "name": "維持",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "忍容性があれば、四受容体すべてを網羅します。"
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+                "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+              }
+            },
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "cagrilintide",
+                "dry_amount": {
+                  "value": "5",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "2",
+                  "unit": "mL"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+      "url": "https://www.peptidedosingprotocols.com/stacks/cagrilintide-retatrutide",
+      "title": "Cagrilintide + Retatrutide Peptide Stack: Dosing Guide Reta + Amylin Pair (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "936a4439-e399-4cff-abe5-20cf6f965022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42744908/",
+      "title": "Cagrilintide and retatrutide combination therapy enhances weight loss and metabolic outcomes in obese male rats",
+      "publisher": "Nature Metabolism / authors, abstract in PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "0dac56c3-afb1-46fe-9a86-0dfedeb0e747",
+      "sourceID": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "出典に各フィールドの記述があります。独立した検証は未実施です。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "7244b010-2ac5-4011-8e13-290e11f645a4",
+      "sourceID": "5814ca5a-fcb2-41f0-971c-748cfb366320",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "出典に各フィールドの記述があります。独立した検証は未実施です。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cagrilintide-retatrutide",
+      "sourceID": "936a4439-e399-4cff-abe5-20cf6f965022",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "2026年九月15日公開、DOI 10.1038/s42255-026-01603-y。原著の抄録に、検証された併用とラットでの転帰が直接記載されています。カテゴリの根拠：体重と代謝：この直接的な動物研究では、体重減少と代謝指標を評価しました。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重と代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

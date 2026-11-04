@@ -1,0 +1,988 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bpc-157",
+      "name": "BPC-157",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "临床前组织修复研究：在大鼠皮肤切口和肠吻合实验中，BPC-157 改善了伤口愈合指标，包括胶原形成和抗张强度。这些动物研究结果表明，愈合与恢复值得开展研究；但并不能证实其对人体损伤恢复有可靠益处。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "68e9a366-13ea-4aec-be9b-006df3cd5436",
+      "productID": "bpc-157",
+      "title": "BPC-157 — 每日两次高剂量范围",
+      "purpose": "来源描述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性来源；不自动视为已获临床验证，也不自动提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "acute injury planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 复溶指南 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "每日两次高剂量范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+              "source_tables": [
+                {
+                  "section": "人体报告采用了哪些时间安排？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "报告及给药途径",
+                      "接受治疗的时长",
+                      "观察",
+                      "主要局限"
+                    ],
+                    [
+                      "膝痛，2021：关节内注射",
+                      "通常接受一次治疗；少数人在再次受伤后重复注射",
+                      "随访时长不一，多为 6–12 个月",
+                      "回顾症状；无对照组"
+                    ],
+                    [
+                      "膀胱症状，2024：膀胱壁注射",
+                      "在膀胱内镜引导下进行一次操作",
+                      "在 6 周时进行膀胱镜检查；问卷调查大多在 4–6 个月后进行",
+                      "小规模报告，无对照组；检查时间各不相同"
+                    ],
+                    [
+                      "小规模安全性研究，2025：静脉输注（IV）",
+                      "连续 2 天输注",
+                      "监测至第 3 天",
+                      "仅涉及 2 名成人；无法得出长期安全性结论"
+                    ]
+                  ]
+                },
+                {
+                  "section": "一种给药途径能否确定另一种途径的周期？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "给药途径",
+                      "含义",
+                      "证据适用边界"
+                    ],
+                    [
+                      "关节内给药",
+                      "注入关节内",
+                      "不能据此确立常规皮下注射疗程"
+                    ],
+                    [
+                      "静脉给药",
+                      "经静脉给予",
+                      "不能说明吞服产品如何进入体内，也不能据此制定居家注射方案"
+                    ],
+                    [
+                      "皮下给药",
+                      "注入皮下",
+                      "需要针对该给药途径及拟议时长的证据"
+                    ],
+                    [
+                      "口服或直肠给药",
+                      "吞服或送入下段肠道",
+                      "需要针对该确切产品及给药方式的结果"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [
+            {
+              "section": "BPC-157 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干状态（粉末形式）",
+                  "长期储存：-4F（-20C）；短期储存：冷藏",
+                  "遵循供应商标签；粉末比复溶后的溶液更稳定。"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4F（2-8C）",
+                  "按常见社区规划，在约 3-4 周内使用。请勿冷冻复溶后的药瓶。"
+                ],
+                [
+                  "复溶后的外观",
+                  "澄清、无色溶液",
+                  "不应使用浑浊或含有颗粒的溶液。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_statements": [
+            {
+              "section": "BPC-157 副作用与安全性",
+              "subsection": "理论机制风险",
+              "excerpt": "支持组织修复的同一通路（血管生成）也支持肿瘤生长。综述将此列为尚未解决的问题，尤其涉及目前患有癌症或既往有癌症病史的患者（Sehgal 等，Pharmaceuticals，2025）。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "十五肽 BPC 157 对肌腱愈合的促进作用涉及肌腱外生长、细胞存活和细胞迁移。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21030672"
+          },
+          {
+            "label": "促血管生成的 BPC157 的治疗潜力与 VEGFR2 的激活和上调有关。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27847966"
+          },
+          {
+            "label": "BPC 157 对大鼠血管舒缩张力及 Src-Cav-1-eNOS 信号通路的调节作用。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555539"
+          },
+          {
+            "label": "body-protective compound 157 在大鼠和犬中的药代动力学、分布、代谢和排泄。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587"
+          },
+          {
+            "label": "稳定的胃源性十五肽 BPC 157：胃肠道的新型疗法。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21548867"
+          },
+          {
+            "label": "十五肽 BPC 157 与中枢神经系统。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8504390"
+          },
+          {
+            "label": "BPC-157 在骨科运动医学中的新兴应用：系统综述。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605"
+          },
+          {
+            "label": "关节内注射 BPC 157 用于多种类型的膝痛。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34324435"
+          },
+          {
+            "label": "BPC-157 对间质性膀胱炎患者症状的影响：初步研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39325560"
+          },
+          {
+            "label": "人体静脉输注 BPC157 的安全性：初步研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40131143"
+          },
+          {
+            "label": "body protective compound-157（一种用于治疗多种伤口的潜在药物）的临床前安全性评价。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32334036"
+          },
+          {
+            "label": "BPC 157：细胞保护与组织修复的有前景候选物。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134"
+          },
+          {
+            "label": "更新后的 503A 原料药物质清单（第 2 类修订，2026 年四月 22 日生效）。",
+            "url": "https://www.fda.gov/media/94155/download"
+          }
+        ],
+        "unresolved_fields": [
+          "course_duration_choice",
+          "time_of_day",
+          "product_preparation",
+          "human_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "仅供来源参考；未经审查。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "788a458e-9095-46a8-8dd9-00018ca373ba",
+      "productID": "bpc-157",
+      "title": "BPC-157 — 每日一次低剂量范围",
+      "purpose": "来源描述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性来源；不自动视为已获临床验证，也不自动提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "maintenance/general planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 复溶指南 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "每日一次低剂量范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "250",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+              "source_tables": [
+                {
+                  "section": "人体报告采用了哪些时间安排？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "报告及给药途径",
+                      "接受治疗的时长",
+                      "观察",
+                      "主要局限"
+                    ],
+                    [
+                      "膝痛，2021：关节内注射",
+                      "通常接受一次治疗；少数人在再次受伤后重复注射",
+                      "随访时长不一，多为 6–12 个月",
+                      "回顾症状；无对照组"
+                    ],
+                    [
+                      "膀胱症状，2024：膀胱壁注射",
+                      "在膀胱内镜引导下进行一次操作",
+                      "在 6 周时进行膀胱镜检查；问卷调查大多在 4–6 个月后进行",
+                      "小规模报告，无对照组；检查时间各不相同"
+                    ],
+                    [
+                      "小规模安全性研究，2025：静脉输注（IV）",
+                      "连续 2 天输注",
+                      "监测至第 3 天",
+                      "仅涉及 2 名成人；无法得出长期安全性结论"
+                    ]
+                  ]
+                },
+                {
+                  "section": "一种给药途径能否确定另一种途径的周期？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "给药途径",
+                      "含义",
+                      "证据适用边界"
+                    ],
+                    [
+                      "关节内给药",
+                      "注入关节内",
+                      "不能据此确立常规皮下注射疗程"
+                    ],
+                    [
+                      "静脉给药",
+                      "经静脉给予",
+                      "不能说明吞服产品如何进入体内，也不能据此制定居家注射方案"
+                    ],
+                    [
+                      "皮下给药",
+                      "注入皮下",
+                      "需要针对该给药途径及拟议时长的证据"
+                    ],
+                    [
+                      "口服或直肠给药",
+                      "吞服或送入下段肠道",
+                      "需要针对该确切产品及给药方式的结果"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [
+            {
+              "section": "BPC-157 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干状态（粉末形式）",
+                  "长期储存：-4F（-20C）；短期储存：冷藏",
+                  "遵循供应商标签；粉末比复溶后的溶液更稳定。"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4F（2-8C）",
+                  "按常见社区规划，在约 3-4 周内使用。请勿冷冻复溶后的药瓶。"
+                ],
+                [
+                  "复溶后的外观",
+                  "澄清、无色溶液",
+                  "不应使用浑浊或含有颗粒的溶液。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_statements": [
+            {
+              "section": "BPC-157 副作用与安全性",
+              "subsection": "理论机制风险",
+              "excerpt": "支持组织修复的同一通路（血管生成）也支持肿瘤生长。综述将此列为尚未解决的问题，尤其涉及目前患有癌症或既往有癌症病史的患者（Sehgal 等，Pharmaceuticals，2025）。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "十五肽 BPC 157 对肌腱愈合的促进作用涉及肌腱外生长、细胞存活和细胞迁移。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21030672"
+          },
+          {
+            "label": "促血管生成的 BPC157 的治疗潜力与 VEGFR2 的激活和上调有关。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27847966"
+          },
+          {
+            "label": "BPC 157 对大鼠血管舒缩张力及 Src-Cav-1-eNOS 信号通路的调节作用。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555539"
+          },
+          {
+            "label": "body-protective compound 157 在大鼠和犬中的药代动力学、分布、代谢和排泄。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587"
+          },
+          {
+            "label": "稳定的胃源性十五肽 BPC 157：胃肠道的新型疗法。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21548867"
+          },
+          {
+            "label": "十五肽 BPC 157 与中枢神经系统。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8504390"
+          },
+          {
+            "label": "BPC-157 在骨科运动医学中的新兴应用：系统综述。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605"
+          },
+          {
+            "label": "关节内注射 BPC 157 用于多种类型的膝痛。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34324435"
+          },
+          {
+            "label": "BPC-157 对间质性膀胱炎患者症状的影响：初步研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39325560"
+          },
+          {
+            "label": "人体静脉输注 BPC157 的安全性：初步研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40131143"
+          },
+          {
+            "label": "body protective compound-157（一种用于治疗多种伤口的潜在药物）的临床前安全性评价。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32334036"
+          },
+          {
+            "label": "BPC 157：细胞保护与组织修复的有前景候选物。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134"
+          },
+          {
+            "label": "更新后的 503A 原料药物质清单（第 2 类修订，2026 年四月 22 日生效）。",
+            "url": "https://www.fda.gov/media/94155/download"
+          }
+        ],
+        "unresolved_fields": [
+          "course_duration_choice",
+          "time_of_day",
+          "product_preparation",
+          "human_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "仅供来源参考；未经审查。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "d481c7f1-95a5-4c77-8af3-5f7c344e01ae",
+      "productID": "bpc-157",
+      "title": "BPC-157 — 每日两次标准剂量范围",
+      "purpose": "来源描述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性来源；不自动视为已获临床验证，也不自动提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "community general planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 复溶指南 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "每日两次标准剂量范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "250",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+              "source_tables": [
+                {
+                  "section": "人体报告采用了哪些时间安排？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "报告及给药途径",
+                      "接受治疗的时长",
+                      "观察",
+                      "主要局限"
+                    ],
+                    [
+                      "膝痛，2021：关节内注射",
+                      "通常接受一次治疗；少数人在再次受伤后重复注射",
+                      "随访时长不一，多为 6–12 个月",
+                      "回顾症状；无对照组"
+                    ],
+                    [
+                      "膀胱症状，2024：膀胱壁注射",
+                      "在膀胱内镜引导下进行一次操作",
+                      "在 6 周时进行膀胱镜检查；问卷调查大多在 4–6 个月后进行",
+                      "小规模报告，无对照组；检查时间各不相同"
+                    ],
+                    [
+                      "小规模安全性研究，2025：静脉输注（IV）",
+                      "连续 2 天输注",
+                      "监测至第 3 天",
+                      "仅涉及 2 名成人；无法得出长期安全性结论"
+                    ]
+                  ]
+                },
+                {
+                  "section": "一种给药途径能否确定另一种途径的周期？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "给药途径",
+                      "含义",
+                      "证据适用边界"
+                    ],
+                    [
+                      "关节内给药",
+                      "注入关节内",
+                      "不能据此确立常规皮下注射疗程"
+                    ],
+                    [
+                      "静脉给药",
+                      "经静脉给予",
+                      "不能说明吞服产品如何进入体内，也不能据此制定居家注射方案"
+                    ],
+                    [
+                      "皮下给药",
+                      "注入皮下",
+                      "需要针对该给药途径及拟议时长的证据"
+                    ],
+                    [
+                      "口服或直肠给药",
+                      "吞服或送入下段肠道",
+                      "需要针对该确切产品及给药方式的结果"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [
+            {
+              "section": "BPC-157 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干状态（粉末形式）",
+                  "长期储存：-4F（-20C）；短期储存：冷藏",
+                  "遵循供应商标签；粉末比复溶后的溶液更稳定。"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4F（2-8C）",
+                  "按常见社区规划，在约 3-4 周内使用。请勿冷冻复溶后的药瓶。"
+                ],
+                [
+                  "复溶后的外观",
+                  "澄清、无色溶液",
+                  "不应使用浑浊或含有颗粒的溶液。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_statements": [
+            {
+              "section": "BPC-157 副作用与安全性",
+              "subsection": "理论机制风险",
+              "excerpt": "支持组织修复的同一通路（血管生成）也支持肿瘤生长。综述将此列为尚未解决的问题，尤其涉及目前患有癌症或既往有癌症病史的患者（Sehgal 等，Pharmaceuticals，2025）。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "十五肽 BPC 157 对肌腱愈合的促进作用涉及肌腱外生长、细胞存活和细胞迁移。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21030672"
+          },
+          {
+            "label": "促血管生成的 BPC157 的治疗潜力与 VEGFR2 的激活和上调有关。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27847966"
+          },
+          {
+            "label": "BPC 157 对大鼠血管舒缩张力及 Src-Cav-1-eNOS 信号通路的调节作用。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555539"
+          },
+          {
+            "label": "body-protective compound 157 在大鼠和犬中的药代动力学、分布、代谢和排泄。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587"
+          },
+          {
+            "label": "稳定的胃源性十五肽 BPC 157：胃肠道的新型疗法。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21548867"
+          },
+          {
+            "label": "十五肽 BPC 157 与中枢神经系统。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8504390"
+          },
+          {
+            "label": "BPC-157 在骨科运动医学中的新兴应用：系统综述。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605"
+          },
+          {
+            "label": "关节内注射 BPC 157 用于多种类型的膝痛。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34324435"
+          },
+          {
+            "label": "BPC-157 对间质性膀胱炎患者症状的影响：初步研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39325560"
+          },
+          {
+            "label": "人体静脉输注 BPC157 的安全性：初步研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40131143"
+          },
+          {
+            "label": "body protective compound-157（一种用于治疗多种伤口的潜在药物）的临床前安全性评价。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32334036"
+          },
+          {
+            "label": "BPC 157：细胞保护与组织修复的有前景候选物。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134"
+          },
+          {
+            "label": "更新后的 503A 原料药物质清单（第 2 类修订，2026 年四月 22 日生效）。",
+            "url": "https://www.fda.gov/media/94155/download"
+          }
+        ],
+        "unresolved_fields": [
+          "course_duration_choice",
+          "time_of_day",
+          "product_preparation",
+          "human_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "仅供来源参考；未经审查。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+      "title": "BPC-157 Cycle Length: Human Studies, Breaks & Limits",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+      "title": "BPC-157 Dosing Guide: Protocol, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9403790/",
+      "title": "BPC 157's effect on healing",
+      "publisher": "Journal of Physiology, Paris / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "68e9a366-13ea-4aec-be9b-006df3cd5436",
+      "sourceID": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于时长／停用期的背景证据；不能替代剂量、产品标签、给药途径或针对特定人群的说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "68e9a366-13ea-4aec-be9b-006df3cd5436",
+      "sourceID": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "来源描述了这些字段；独立核实尚待完成。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "788a458e-9095-46a8-8dd9-00018ca373ba",
+      "sourceID": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于时长／停用期的背景证据；不能替代剂量、产品标签、给药途径或针对特定人群的说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "788a458e-9095-46a8-8dd9-00018ca373ba",
+      "sourceID": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "来源描述了这些字段；独立核实尚待完成。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "d481c7f1-95a5-4c77-8af3-5f7c344e01ae",
+      "sourceID": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于时长／停用期的背景证据；不能替代剂量、产品标签、给药途径或针对特定人群的说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "d481c7f1-95a5-4c77-8af3-5f7c344e01ae",
+      "sourceID": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "来源描述了这些字段；独立核实尚待完成。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "bpc-157",
+      "sourceID": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "原始大鼠实验；已阅读索引摘要。涉及皮肤切口、结肠吻合及海绵血管生成模型。不据此推断人体疗效。类别依据：直接研究的益处是动物模型中的组织修复。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "愈合与恢复"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

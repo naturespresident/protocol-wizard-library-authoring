@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "selank",
+      "name": "Selank",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 5,
+      "benefits": "Möglicher Nutzen bei Angstsymptomen: Eine kleine russische Vergleichsstudie mit Patienten mit generalisierter Angststörung oder Neurasthenie berichtete über eine mit medazepam vergleichbare Besserung der Angst sowie zusätzliche Verbesserungen erschöpfungsbedingter Symptome. Dies sind vorläufige klinische Befunde, kein endgültiger Nachweis einer breiten anxiolytischen oder nootropen Wirksamkeit. Die Studie war klein und verwendete ein aktives Vergleichspräparat; sie belegt keinen Nutzen für Gedächtnis oder Kognition bei gesunden Personen, bei Depressionen oder bei langfristiger Anwendung der Protokolle dieser Bibliothek."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "79eee387-88ba-4942-8c74-59ff4491af11",
+      "productID": "selank",
+      "title": "Selank — subkutane Einleitung, Pause und Wiederholung laut Quelle",
+      "purpose": "Referenzplanung nach Quellenbeschreibung",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Sekundäre redaktionelle Beschreibung bzw. Community-Beschreibung. Eine unabhängige Validierung der Quelle und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "selank"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Leitfaden zur Rekonstitution von Selank / Berechnung der Rekonstitution von Selank 10 mg"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Leitfaden zur Rekonstitution von Selank / Berechnung der Rekonstitution von Selank 10 mg"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Leitfaden zur Rekonstitution von Selank / Berechnung der Rekonstitution von Selank 10 mg"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "6",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Leitfaden zur Rekonstitution von Selank / Berechnung der Rekonstitution von Selank 10 mg"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "10",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Leitfaden zur Rekonstitution von Selank / Berechnung der Rekonstitution von Selank 10 mg"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Einleitung in den Wochen 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Erhaltung in den Wochen 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "400",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Zykluspause in den Wochen 5–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Pause"
+            },
+            "status": "rest"
+          },
+          {
+            "name": "Wiederholung in den Wochen 9–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "300",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/selank",
+            "locator": "Dosierungsprotokoll und Zeitplan; Zeitangaben der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/selank",
+              "source_tables": [
+                {
+                  "section": "Evidenz zur Zyklusdauer von Selank",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Quelle",
+                      "Anwendungszeitraum",
+                      "Weiterer Verlauf",
+                      "Was dadurch gestützt wird"
+                    ],
+                    [
+                      "Aktuelle russische Gebrauchsinformation zur medizinischen Anwendung",
+                      "14 Tage",
+                      "Kann bei Bedarf und nach ärztlicher Rücksprache nach 1-3 Wochen wiederholt werden",
+                      "Offizielle Dauer und Zeitpunkt der Wiederholung für das russische intranasale Präparat"
+                    ],
+                    [
+                      "Medvedev u. a., 2014",
+                      "14 Tage",
+                      "Die Patienten wurden nach der Behandlung nachbeobachtet; laut Veröffentlichung blieb die gemessene anxiolytische Wirkung mindestens 7 Tage nach der letzten Anwendung bestehen",
+                      "Eine 14-tägige Selank-Monotherapie beim Menschen mit Nachbeobachtung nach Behandlungsende"
+                    ],
+                    [
+                      "Medvedev u. a., 2015",
+                      "14 Tage als Hauptbehandlungszeitraum",
+                      "20 Patienten der Selank-Gruppe setzten Selank für weitere 7 Tage bis einschließlich Tag 21 fort",
+                      "Eine Humanstudie, die im Rahmen eines bestimmten Behandlungsdesigns eine Verlängerung der Selank-Anwendung auf 21 Tage umfasste"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Zeitplanung für Pause und Wiederholung bei Selank",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Frage",
+                      "Evidenzbasierte Antwort"
+                    ],
+                    [
+                      "Ist in der russischen Gebrauchsinformation eine Pause angegeben?",
+                      "Ja. Eine Behandlung kann bei Bedarf und nach ärztlicher Rücksprache nach 1-3 Wochen wiederholt werden."
+                    ],
+                    [
+                      "Ist eine Woche besser als zwei oder drei Wochen?",
+                      "Nicht belegt. Die geprüften Quellen enthielten keinen kontrollierten Vergleich unterschiedlicher Pausendauern."
+                    ],
+                    [
+                      "Verhindert die Pause nachweislich eine Desensibilisierung der Rezeptoren?",
+                      "Nein. Die aktuelle Gebrauchsinformation nennt den Zeitpunkt der Wiederholung, führt diesen Mechanismus jedoch nicht als Grund für das Intervall an."
+                    ],
+                    [
+                      "Belegt dies eine Pause von 1-3 Wochen für injizierbares Selank?",
+                      "Nein. Die Zeitangaben in der Gebrauchsinformation beziehen sich auf das intranasale russische Präparat."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Evidenz zu Anwendungszyklen von intranasalem und injizierbarem Selank",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Verabreichungsweg oder Kontext",
+                      "Evidenz zu Anwendungszyklen beim Menschen",
+                      "Schlussfolgerung zur Zyklusdauer"
+                    ],
+                    [
+                      "Intranasales russisches Präparat",
+                      "Ja",
+                      "14-tägige Behandlung laut Gebrauchsinformation; die aktuelle Gebrauchsinformation nennt 1-3 Wochen bis zur Wiederholung"
+                    ],
+                    [
+                      "Veröffentlichte Humanstudien zu Selank",
+                      "Ja",
+                      "14-tägige Behandlungen sind dokumentiert, mit einer Verlängerung auf 21 Tage in einer Studie von 2015"
+                    ],
+                    [
+                      "Subkutane Injektion",
+                      "In den geprüften Quellen wurde kein validierter Anwendungszyklus beim Menschen ermittelt",
+                      "Stellen Sie einen 4-wöchigen, 8-wöchigen oder anderen Injektionszyklus nicht als klinisch belegt dar"
+                    ],
+                    [
+                      "Tier- oder Laborstudien",
+                      "Nur präklinisch",
+                      "Nützlich für die Erforschung von Wirkmechanismen, ihre Dauer sollte jedoch nicht in einen Anwendungszyklus beim Menschen übertragen werden"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Zyklusdauer und Dosierungsprotokoll von Selank im Vergleich",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Frage",
+                      "Am besten geeignete Seite"
+                    ],
+                    [
+                      "Wie lange dauert ein Selank-Zyklus?",
+                      "Dieser Leitfaden zum Selank-Zyklus"
+                    ],
+                    [
+                      "Wie lange dauert die Pause zwischen den Behandlungen?",
+                      "Dieser Leitfaden zum Selank-Zyklus"
+                    ],
+                    [
+                      "Kann eine Behandlung wiederholt werden?",
+                      "Dieser Leitfaden zum Selank-Zyklus"
+                    ],
+                    [
+                      "Wie gingen die 14-tägigen und 21-tägigen Studien vor?",
+                      "Dieser Leitfaden zum Selank-Zyklus"
+                    ],
+                    [
+                      "Wie wird Selank dosiert?",
+                      "Selank-Protokoll"
+                    ],
+                    [
+                      "Wie rekonstituieren Sie eine Selank-Durchstechflasche?",
+                      "Selank-Protokoll"
+                    ],
+                    [
+                      "Wie viele U-100-Spritzeneinheiten werden in einer Berechnung verwendet?",
+                      "Selank-Protokoll"
+                    ],
+                    [
+                      "Wie unterscheiden sich nasale und subkutane Dosismengen?",
+                      "Selank-Protokoll"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [
+            {
+              "section": "Lagerung und Handhabung von Selank",
+              "subsection": "",
+              "rows": [
+                [
+                  "Zustand",
+                  "Lagerung",
+                  "Hinweise"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "-4F (-20C) langfristig; 35.6-46.4F (2-8C) kurzfristig",
+                  "Das Pulver ist gefroren mehrere Monate bis 2+ Jahre stabil."
+                ],
+                [
+                  "Rekonstituiert (flüssig)",
+                  "35.6-46.4F (2-8C)",
+                  "Etwa 3-4 Wochen. Frieren Sie die Flüssigkeit nicht ein."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_statements": [
+            {
+              "section": "Für wen Selank infrage kommt und wer es meiden sollte",
+              "subsection": "Forscher und Ärzte verzichten üblicherweise auf Selank, wenn:",
+              "excerpt": "Die betreffende Person schwanger ist, stillt oder versucht, schwanger zu werden — für diese Gruppen liegen keine Sicherheitsdaten beim Menschen vor.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen Selank infrage kommt und wer es meiden sollte",
+              "subsection": "Forscher und Ärzte verzichten üblicherweise auf Selank, wenn:",
+              "excerpt": "Die betreffende Person bereits verschreibungspflichtige Anxiolytika, Antidepressiva oder Sedativa ohne ärztliche Überwachung einnimmt, da die Auswirkungen einer kombinierten Anwendung nicht formell untersucht wurden.",
+              "truncated": false
+            },
+            {
+              "section": "Nebenwirkungen und Sicherheit von Selank",
+              "subsection": "",
+              "excerpt": "Die veröffentlichten russischen Studienberichte zeigen für Selank ein auffallend mildes Nebenwirkungsprofil. Im direkten Vergleich mit Benzodiazepinen erzielte Selank eine ähnliche Angstlinderung ohne Sedierung, Abhängigkeit, Gedächtnisprobleme, Toleranzentwicklung oder Entzugserscheinungen.",
+              "truncated": false
+            },
+            {
+              "section": "Nebenwirkungen und Sicherheit von Selank",
+              "subsection": "Theoretische Risiken",
+              "excerpt": "Arzneimittelwechselwirkungen. Die Auswirkungen einer kombinierten Anwendung mit verschreibungspflichtigen Anxiolytika, Antidepressiva und Sedativa wurden nicht formell untersucht.",
+              "truncated": false
+            },
+            {
+              "section": "Nebenwirkungen und Sicherheit von Selank",
+              "subsection": "Theoretische Risiken",
+              "excerpt": "Ungeklärte Langzeitfolgen. Der Großteil der veröffentlichten Evidenz bezieht sich auf Behandlungen von 14-21 Tagen. Daten zur Langzeitsicherheit sind begrenzt.",
+              "truncated": false
+            },
+            {
+              "section": "Zeitlicher Verlauf und Beobachtung bei Selank",
+              "subsection": "",
+              "excerpt": "Die beruhigende Wirkung von Selank entwickelt sich über einige Tage, nicht innerhalb von Minuten. Russische Studienberichte beschreiben deutliche anxiolytische Veränderungen im Verlauf 14-tägiger Behandlungen. Anwender aus der Community beschreiben typischerweise eine spürbare Veränderung innerhalb von 3-7 Tagen.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Wirksamkeit und mögliche Wirkmechanismen des neuen peptidischen Anxiolytikums selank in der Therapie generalisierter Angststörungen und der Neurasthenie.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/"
+          },
+          {
+            "label": "Vergleich der anxiolytischen Wirkung und Verträglichkeit von selank und phenazepam bei der Behandlung von Angststörungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25176261/"
+          },
+          {
+            "label": "Optimierung der Behandlung von Angststörungen mit selank.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26356395/"
+          },
+          {
+            "label": "Immunmodulatorische Wirkungen von selank bei Patienten mit Angst und asthenischen Störungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18577961/"
+          },
+          {
+            "label": "Die Anwendung von Selank beeinflusst die Expression einiger an der GABAergen Neurotransmission beteiligter Gene.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4757669/"
+          },
+          {
+            "label": "GABA, Selank und Olanzapine beeinflussen die Expression von Genen, die an der GABAergen Neurotransmission in IMR-32-Zellen beteiligt sind.",
+            "url": "https://doi.org/10.3389/fphar.2017.00089"
+          },
+          {
+            "label": "Das Peptid Selank verstärkt die Wirkung von Diazepam bei der Angstreduktion unter unvorhersehbaren chronischen milden Stressbedingungen bei Ratten.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322660/"
+          },
+          {
+            "label": "Funktioneller konnektomischer Ansatz zur Untersuchung der Wirkungen von Selank und Semax.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/"
+          },
+          {
+            "label": "Die intranasale Anwendung des Peptids Selank reguliert die BDNF-Expression im Hippocampus von Ratten in vivo.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18841804/"
+          },
+          {
+            "label": "Semax und selank hemmen die Enkephalin abbauenden Enzyme aus menschlichem Serum.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+          },
+          {
+            "label": "Selank, ein Peptidanalogon von tuftsin, schützt bei Ratten vor ethanolbedingten Gedächtnisstörungen durch Regulierung des BDNF-Gehalts im Hippocampus und im präfrontalen Cortex.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Kolik+selank+ethanol+BDNF"
+          },
+          {
+            "label": "Selank.",
+            "url": "https://en.wikipedia.org/wiki/Selank"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_clock_time",
+          "source_repeat_dose_selection",
+          "human_subcutaneous_validation"
+        ],
+        "notes": "Nur als Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar."
+      }
+    },
+    {
+      "id": "7f13f18a-47ba-4308-99ac-f93517997a26",
+      "productID": "selank",
+      "title": "Selank — intranasale Behandlung und Auswaschphase laut Quelle",
+      "purpose": "Referenzplanung nach Quellenbeschreibung",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "Sekundäre redaktionelle Beschreibung bzw. Community-Beschreibung. Eine unabhängige Validierung der Quelle und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "selank"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Intranasale Standardbehandlung",
+            "duration": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 21,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "2700",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 2,
+                "maximum": 3,
+                "period": "day"
+              },
+              "description": "2-3x täglich"
+            }
+          },
+          {
+            "name": "Auswaschphase",
+            "duration": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 21,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Pause"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/selank",
+            "locator": "Dosierungsprotokoll und Zeitplan; Zeitangaben der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/selank",
+              "source_tables": [
+                {
+                  "section": "Evidenz zur Zyklusdauer von Selank",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Quelle",
+                      "Anwendungszeitraum",
+                      "Weiterer Verlauf",
+                      "Was dadurch gestützt wird"
+                    ],
+                    [
+                      "Aktuelle russische Gebrauchsinformation zur medizinischen Anwendung",
+                      "14 Tage",
+                      "Kann bei Bedarf und nach ärztlicher Rücksprache nach 1-3 Wochen wiederholt werden",
+                      "Offizielle Dauer und Zeitpunkt der Wiederholung für das russische intranasale Präparat"
+                    ],
+                    [
+                      "Medvedev u. a., 2014",
+                      "14 Tage",
+                      "Die Patienten wurden nach der Behandlung nachbeobachtet; laut Veröffentlichung blieb die gemessene anxiolytische Wirkung mindestens 7 Tage nach der letzten Anwendung bestehen",
+                      "Eine 14-tägige Selank-Monotherapie beim Menschen mit Nachbeobachtung nach Behandlungsende"
+                    ],
+                    [
+                      "Medvedev u. a., 2015",
+                      "14 Tage als Hauptbehandlungszeitraum",
+                      "20 Patienten der Selank-Gruppe setzten Selank für weitere 7 Tage bis einschließlich Tag 21 fort",
+                      "Eine Humanstudie, die im Rahmen eines bestimmten Behandlungsdesigns eine Verlängerung der Selank-Anwendung auf 21 Tage umfasste"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Zeitplanung für Pause und Wiederholung bei Selank",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Frage",
+                      "Evidenzbasierte Antwort"
+                    ],
+                    [
+                      "Ist in der russischen Gebrauchsinformation eine Pause angegeben?",
+                      "Ja. Eine Behandlung kann bei Bedarf und nach ärztlicher Rücksprache nach 1-3 Wochen wiederholt werden."
+                    ],
+                    [
+                      "Ist eine Woche besser als zwei oder drei Wochen?",
+                      "Nicht belegt. Die geprüften Quellen enthielten keinen kontrollierten Vergleich unterschiedlicher Pausendauern."
+                    ],
+                    [
+                      "Verhindert die Pause nachweislich eine Desensibilisierung der Rezeptoren?",
+                      "Nein. Die aktuelle Gebrauchsinformation nennt den Zeitpunkt der Wiederholung, führt diesen Mechanismus jedoch nicht als Grund für das Intervall an."
+                    ],
+                    [
+                      "Belegt dies eine Pause von 1-3 Wochen für injizierbares Selank?",
+                      "Nein. Die Zeitangaben in der Gebrauchsinformation beziehen sich auf das intranasale russische Präparat."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Evidenz zu Anwendungszyklen von intranasalem und injizierbarem Selank",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Verabreichungsweg oder Kontext",
+                      "Evidenz zu Anwendungszyklen beim Menschen",
+                      "Schlussfolgerung zur Zyklusdauer"
+                    ],
+                    [
+                      "Intranasales russisches Präparat",
+                      "Ja",
+                      "14-tägige Behandlung laut Gebrauchsinformation; die aktuelle Gebrauchsinformation nennt 1-3 Wochen bis zur Wiederholung"
+                    ],
+                    [
+                      "Veröffentlichte Humanstudien zu Selank",
+                      "Ja",
+                      "14-tägige Behandlungen sind dokumentiert, mit einer Verlängerung auf 21 Tage in einer Studie von 2015"
+                    ],
+                    [
+                      "Subkutane Injektion",
+                      "In den geprüften Quellen wurde kein validierter Anwendungszyklus beim Menschen ermittelt",
+                      "Stellen Sie einen 4-wöchigen, 8-wöchigen oder anderen Injektionszyklus nicht als klinisch belegt dar"
+                    ],
+                    [
+                      "Tier- oder Laborstudien",
+                      "Nur präklinisch",
+                      "Nützlich für die Erforschung von Wirkmechanismen, ihre Dauer sollte jedoch nicht in einen Anwendungszyklus beim Menschen übertragen werden"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Zyklusdauer und Dosierungsprotokoll von Selank im Vergleich",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Frage",
+                      "Am besten geeignete Seite"
+                    ],
+                    [
+                      "Wie lange dauert ein Selank-Zyklus?",
+                      "Dieser Leitfaden zum Selank-Zyklus"
+                    ],
+                    [
+                      "Wie lange dauert die Pause zwischen den Behandlungen?",
+                      "Dieser Leitfaden zum Selank-Zyklus"
+                    ],
+                    [
+                      "Kann eine Behandlung wiederholt werden?",
+                      "Dieser Leitfaden zum Selank-Zyklus"
+                    ],
+                    [
+                      "Wie gingen die 14-tägigen und 21-tägigen Studien vor?",
+                      "Dieser Leitfaden zum Selank-Zyklus"
+                    ],
+                    [
+                      "Wie wird Selank dosiert?",
+                      "Selank-Protokoll"
+                    ],
+                    [
+                      "Wie rekonstituieren Sie eine Selank-Durchstechflasche?",
+                      "Selank-Protokoll"
+                    ],
+                    [
+                      "Wie viele U-100-Spritzeneinheiten werden in einer Berechnung verwendet?",
+                      "Selank-Protokoll"
+                    ],
+                    [
+                      "Wie unterscheiden sich nasale und subkutane Dosismengen?",
+                      "Selank-Protokoll"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [
+            {
+              "section": "Lagerung und Handhabung von Selank",
+              "subsection": "",
+              "rows": [
+                [
+                  "Zustand",
+                  "Lagerung",
+                  "Hinweise"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "-4F (-20C) langfristig; 35.6-46.4F (2-8C) kurzfristig",
+                  "Das Pulver ist gefroren mehrere Monate bis 2+ Jahre stabil."
+                ],
+                [
+                  "Rekonstituiert (flüssig)",
+                  "35.6-46.4F (2-8C)",
+                  "Etwa 3-4 Wochen. Frieren Sie die Flüssigkeit nicht ein."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_statements": [
+            {
+              "section": "Für wen Selank infrage kommt und wer es meiden sollte",
+              "subsection": "Forscher und Ärzte verzichten üblicherweise auf Selank, wenn:",
+              "excerpt": "Die betreffende Person schwanger ist, stillt oder versucht, schwanger zu werden — für diese Gruppen liegen keine Sicherheitsdaten beim Menschen vor.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen Selank infrage kommt und wer es meiden sollte",
+              "subsection": "Forscher und Ärzte verzichten üblicherweise auf Selank, wenn:",
+              "excerpt": "Die betreffende Person bereits verschreibungspflichtige Anxiolytika, Antidepressiva oder Sedativa ohne ärztliche Überwachung einnimmt, da die Auswirkungen einer kombinierten Anwendung nicht formell untersucht wurden.",
+              "truncated": false
+            },
+            {
+              "section": "Nebenwirkungen und Sicherheit von Selank",
+              "subsection": "",
+              "excerpt": "Die veröffentlichten russischen Studienberichte zeigen für Selank ein auffallend mildes Nebenwirkungsprofil. Im direkten Vergleich mit Benzodiazepinen erzielte Selank eine ähnliche Angstlinderung ohne Sedierung, Abhängigkeit, Gedächtnisprobleme, Toleranzentwicklung oder Entzugserscheinungen.",
+              "truncated": false
+            },
+            {
+              "section": "Nebenwirkungen und Sicherheit von Selank",
+              "subsection": "Theoretische Risiken",
+              "excerpt": "Arzneimittelwechselwirkungen. Die Auswirkungen einer kombinierten Anwendung mit verschreibungspflichtigen Anxiolytika, Antidepressiva und Sedativa wurden nicht formell untersucht.",
+              "truncated": false
+            },
+            {
+              "section": "Nebenwirkungen und Sicherheit von Selank",
+              "subsection": "Theoretische Risiken",
+              "excerpt": "Ungeklärte Langzeitfolgen. Der Großteil der veröffentlichten Evidenz bezieht sich auf Behandlungen von 14-21 Tagen. Daten zur Langzeitsicherheit sind begrenzt.",
+              "truncated": false
+            },
+            {
+              "section": "Zeitlicher Verlauf und Beobachtung bei Selank",
+              "subsection": "",
+              "excerpt": "Die beruhigende Wirkung von Selank entwickelt sich über einige Tage, nicht innerhalb von Minuten. Russische Studienberichte beschreiben deutliche anxiolytische Veränderungen im Verlauf 14-tägiger Behandlungen. Anwender aus der Community beschreiben typischerweise eine spürbare Veränderung innerhalb von 3-7 Tagen.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Wirksamkeit und mögliche Wirkmechanismen des neuen peptidischen Anxiolytikums selank in der Therapie generalisierter Angststörungen und der Neurasthenie.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/"
+          },
+          {
+            "label": "Vergleich der anxiolytischen Wirkung und Verträglichkeit von selank und phenazepam bei der Behandlung von Angststörungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25176261/"
+          },
+          {
+            "label": "Optimierung der Behandlung von Angststörungen mit selank.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26356395/"
+          },
+          {
+            "label": "Immunmodulatorische Wirkungen von selank bei Patienten mit Angst und asthenischen Störungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18577961/"
+          },
+          {
+            "label": "Die Anwendung von Selank beeinflusst die Expression einiger an der GABAergen Neurotransmission beteiligter Gene.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4757669/"
+          },
+          {
+            "label": "GABA, Selank und Olanzapine beeinflussen die Expression von Genen, die an der GABAergen Neurotransmission in IMR-32-Zellen beteiligt sind.",
+            "url": "https://doi.org/10.3389/fphar.2017.00089"
+          },
+          {
+            "label": "Das Peptid Selank verstärkt die Wirkung von Diazepam bei der Angstreduktion unter unvorhersehbaren chronischen milden Stressbedingungen bei Ratten.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322660/"
+          },
+          {
+            "label": "Funktioneller konnektomischer Ansatz zur Untersuchung der Wirkungen von Selank und Semax.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/"
+          },
+          {
+            "label": "Die intranasale Anwendung des Peptids Selank reguliert die BDNF-Expression im Hippocampus von Ratten in vivo.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18841804/"
+          },
+          {
+            "label": "Semax und selank hemmen die Enkephalin abbauenden Enzyme aus menschlichem Serum.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+          },
+          {
+            "label": "Selank, ein Peptidanalogon von tuftsin, schützt bei Ratten vor ethanolbedingten Gedächtnisstörungen durch Regulierung des BDNF-Gehalts im Hippocampus und im präfrontalen Cortex.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Kolik+selank+ethanol+BDNF"
+          },
+          {
+            "label": "Selank.",
+            "url": "https://en.wikipedia.org/wiki/Selank"
+          }
+        ],
+        "unresolved_fields": [
+          "per_administration_allocation",
+          "daily_count_choice",
+          "product_concentration",
+          "primary_clinical_verification"
+        ],
+        "notes": "Nur als Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/selank",
+      "title": "Selank Cycle Length: 14-Day Course, Breaks & Repeat Timing",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/selank",
+      "title": "Selank Dosage Guide: Injection, Reconstitution & Nasal vs SubQ",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "86bbcd04-64ed-4dd7-bcc7-8b892e2fa18f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/",
+      "title": "Efficacy and possible mechanisms of Selank in generalized anxiety disorders and neurasthenia (2008)",
+      "publisher": "Zhurnal Nevrologii i Psikhiatrii imeni S. S. Korsakova, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "79eee387-88ba-4942-8c74-59ff4491af11",
+      "sourceID": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundbelege zu Dauer und Pausen; kein Ersatz für dosis-, präparate-, verabreichungsweg- oder populationsspezifische Anweisungen.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "79eee387-88ba-4942-8c74-59ff4491af11",
+      "sourceID": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "7f13f18a-47ba-4308-99ac-f93517997a26",
+      "sourceID": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundbelege zu Dauer und Pausen; kein Ersatz für dosis-, präparate-, verabreichungsweg- oder populationsspezifische Anweisungen.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "7f13f18a-47ba-4308-99ac-f93517997a26",
+      "sourceID": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "selank",
+      "sourceID": "86bbcd04-64ed-4dd7-bcc7-8b892e2fa18f",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "62 Patienten; Vergleich von Selank mit medazepam, kein belastbares placebokontrolliertes Wirksamkeitsprogramm. Begründung der Kategorie: Kognitiv und neurologisch: vorläufige psychiatrische Forschung zu Angstsymptomen, ohne nachgewiesene allgemeine Steigerung der kognitiven Leistungsfähigkeit.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Kognitiv und neurologisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    },
+    {
+      "id": "intranasal",
+      "name": "Intranasal"
+    }
+  ]
+}

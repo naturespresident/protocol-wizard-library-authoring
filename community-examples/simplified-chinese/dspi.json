@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dspi",
+      "name": "DSIP（Delta Sleep-Inducing Peptide）",
+      "aliases": [
+        "DSPI（Delta sleep inducing peptide）",
+        "DSPI",
+        "DSIP",
+        "Emideltide"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": "研究中的睡眠和恢复获益：已针对慢波（δ）睡眠及睡眠结构开展研究，并提出其可能参与皮质醇和应激调节、疼痛缓解及恢复。DSIP 被描述为神经调节剂，而非常规镇静剂。人体睡眠研究规模较小，结果不一致；其能否可靠地促进恢复性睡眠、缓解慢性疼痛，以及是否不会引起日间嗜睡或依赖，均尚未得到确切证实。静脉给药研究的结果不能确立每种给药方式的获益。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "e62b5bbb-408d-4794-b835-1b107cfa022e",
+      "productID": "dspi",
+      "title": "DSIP——来源中的社区晚间剂量范围",
+      "purpose": "来源所述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性描述／社区描述。独立来源核实及将其设为应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "dspi"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+              "locator": "DSIP 复溶指南／ "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "社区晚间规划范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "total_product",
+              "range_options": [
+                {
+                  "minimum": "100",
+                  "maximum": "200"
+                },
+                {
+                  "minimum": "200",
+                  "maximum": "300"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [
+            {
+              "anchor": "intended_sleep",
+              "relationship": "before",
+              "offset": {
+                "minimum": 60,
+                "maximum": 180,
+                "unit": "minute"
+              }
+            }
+          ],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/dsip",
+            "locator": "给药方案与时间表；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_tables": [
+            {
+              "section": "DSIP 给药方案与时间表",
+              "subsection": "周期指南",
+              "rows": [
+                [
+                  "方式",
+                  "持续时间",
+                  "评估时间点",
+                  "典型背景"
+                ],
+                [
+                  "短疗程",
+                  "5-7 晚",
+                  "第 1 周结束时",
+                  "与已发表人体试验的观察时段一致。"
+                ],
+                [
+                  "标准周期",
+                  "4 周",
+                  "第 4 周",
+                  "一般研究规划背景。"
+                ],
+                [
+                  "延长周期",
+                  "6-8 周",
+                  "第 6 周",
+                  "较少见；长期安全性数据有限。"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_tables": [
+            {
+              "section": "DSIP 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干状态（粉末形式）",
+                  "-4F（-20C）长期储存",
+                  "依据供应商标签和稳定性数据；避光保存。"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4F（2-8C）",
+                  "在研究用肽通常的稳定性期限内使用；参阅供应商指南。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_statements": [
+            {
+              "section": "DSIP 的适用人群及应避免使用的人群",
+              "subsection": "",
+              "excerpt": "妊娠期和哺乳期：尚未研究；应避免使用。",
+              "truncated": false
+            },
+            {
+              "section": "DSIP 副作用与安全性",
+              "subsection": "已报告和理论上的风险",
+              "excerpt": "研究报告中描述了可能出现的晨起迟钝或生动梦境等影响。",
+              "truncated": false
+            },
+            {
+              "section": "DSIP 副作用与安全性",
+              "subsection": "已报告和理论上的风险",
+              "excerpt": "可能与 HPA 轴激素相互作用；现代试验尚未明确其特征。",
+              "truncated": false
+            },
+            {
+              "section": "DSIP 的时间进程与监测事项",
+              "subsection": "",
+              "excerpt": "早期试验使用多导睡眠监测，在给药后的首晚或次晚测量睡眠结构的变化。有时报告主观睡眠质量的变化发生于",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Delta-sleep-inducing peptide（DSIP）：综述。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6145137/"
+          },
+          {
+            "label": "Delta-sleep-inducing peptide（DSIP）：最新进展。",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/0149763484900228"
+          },
+          {
+            "label": "Delta sleep-inducing peptide（DSIP）：仍未解开的谜团。",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1471-4159.2006.03693.x"
+          },
+          {
+            "label": "合成 DSIP（delta-sleep-inducing-peptide）对人类睡眠障碍的影响。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7028502/"
+          },
+          {
+            "label": "Delta-sleep-inducing peptide 对严重慢性失眠患者 24 小时睡眠与觉醒行为的影响。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3622582/"
+          },
+          {
+            "label": "短期给予 delta sleep-inducing peptide 改善慢性失眠患者睡眠的疗效研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3583493/"
+          },
+          {
+            "label": "Delta sleep-inducing peptide 恢复局灶性卒中后 SD 大鼠的运动功能。",
+            "url": "https://www.mdpi.com/1420-3049/26/17/5173"
+          },
+          {
+            "label": "毕赤酵母分泌肽穿越血脑屏障，以及 DSIP 融合肽在 PCPA 诱导的失眠小鼠模型中的疗效。",
+            "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1439536/full"
+          },
+          {
+            "label": "用于药物配制且可能存在重大安全风险的某些原料药（第 2 类）。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks"
+          },
+          {
+            "label": "Delta sleep-inducing peptide。",
+            "url": "https://journals.lww.com/ejanaesthesiology/fulltext/2001/07000/delta_sleep_inducing_peptide.1.aspx"
+          }
+        ],
+        "unresolved_fields": [
+          "cycle_duration_choice",
+          "range_choice",
+          "human_subcutaneous_validation"
+        ],
+        "notes": "仅供来源参考；未经审核。表格和独立参考文献仍保留在来源记录中。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "07ef5aae-34be-4471-a48b-8052d34f658a",
+      "url": "https://riteaid.com/peptides/dsip",
+      "title": "DSIP Peptide: Benefits, Dosage & 2026 Legal Status",
+      "publisher": "Rite Aid",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "0b729ba5-232e-48a0-832a-b09e6a3556e1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1299794/",
+      "title": "Effects of delta sleep-inducing peptide on sleep of chronic insomniac patients: a double-blind study (1992)",
+      "publisher": "Neuropsychobiology, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "74c9cc40-9922-40ea-8eac-31b781822052",
+      "url": "https://cenegenics.com/what-is-dsip-delta-sleep-inducing-peptide-benefits-mechanism-and-uses/",
+      "title": "What Is DSIP? Delta Sleep-Inducing Peptide Benefits, Mechanism, and Uses",
+      "publisher": "Cenegenics",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+      "url": "https://www.peptidedosingprotocols.com/protocol/dsip",
+      "title": "DSIP Peptide Dosing Guide: Timing, Protocol & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "e62b5bbb-408d-4794-b835-1b107cfa022e",
+      "sourceID": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；原始来源核实仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "07ef5aae-34be-4471-a48b-8052d34f658a",
+      "locator": "Research benefits and mechanism sections",
+      "evidenceNote": "所有者后续补充 2026-10-15：所有者提供的二手综述介绍了睡眠、应激和疼痛方面的研究目标，并承认严格的人体试验有限。机制及可靠的临床获益仍不确定。分类依据：睡眠调节和应激调节属于神经系统研究目的。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "0b729ba5-232e-48a0-832a-b09e6a3556e1",
+      "locator": "Abstract; prior source verification",
+      "evidenceNote": "所有者后续补充 2026-10-15：小规模盲法失眠研究报告的客观效果较弱，未能确立显著的短期治疗获益。该研究支持证据不一致这一限定说明，不能支持关于睡眠、应激、疼痛或耐受性的更强主张。分类依据：睡眠调节和应激调节属于神经系统研究目的。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "74c9cc40-9922-40ea-8eac-31b781822052",
+      "locator": "Potential benefits and mechanism sections",
+      "evidenceNote": "所有者后续补充 2026-10-15：所有者提供的诊所文章报告了拟议的睡眠、应激／皮质醇和疼痛方面的应用。二手主张被记录为拟议获益；该文章不能确立临床疗效，也不能确立不存在不良反应。分类依据：睡眠调节和应激调节属于神经系统研究目的。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经系统"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

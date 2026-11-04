@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "kpv",
+      "name": "KPV",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "临床前抗炎研究：KPV 减弱了培养的肠道细胞和免疫细胞中的炎症信号传导，并减轻了小鼠化学诱导性结肠炎。这些发现支持对肠道炎症开展研究；它们并不能确立其对炎症性肠病的临床益处，也不能确立人体注射方案。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "productID": "kpv",
+      "title": "KPV — 来源所述口服范围",
+      "purpose": "来源所述参考规划",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及提升为应用默认方案仍待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_product",
+          "components": [
+            {
+              "library_item_id": "kpv"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "社区范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "每日 1-2 次"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+              "source_tables": [
+                {
+                  "section": "KPV 疗程时长表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "框架",
+                      "报告的使用期",
+                      "报告的停用期",
+                      "证据级别"
+                    ],
+                    [
+                      "短疗程",
+                      "4 周",
+                      "2–4 周",
+                      "常见社区参考；无人体对照试验"
+                    ],
+                    [
+                      "标准社区范围",
+                      "6–8 周",
+                      "2–4 周",
+                      "经常被讨论；尚未在临床上确立"
+                    ],
+                    [
+                      "延长疗程",
+                      "12 周",
+                      "约 4 周或更长",
+                      "有延长使用的报告，但长期证据有限"
+                    ],
+                    [
+                      "长期延长使用",
+                      "最长 16 周",
+                      "4–8 周",
+                      "轶事性报告；无 KPV 试验验证此时长"
+                    ]
+                  ]
+                },
+                {
+                  "section": "社区 KPV 疗程与研究持续时间对比",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "来源",
+                      "时长示例",
+                      "研究内容",
+                      "可得出的结论"
+                    ],
+                    [
+                      "社区方案",
+                      "4–8 周",
+                      "口服或皮下给药研究框架",
+                      "展示常被讨论的时间安排，并非经验证的疗程"
+                    ],
+                    [
+                      "延长的社区方案",
+                      "8–12 周",
+                      "较长期的研究规划",
+                      "记录延长使用的情况，并不证明时间越长越好"
+                    ],
+                    [
+                      "Dalmasso 等（2008）",
+                      "48 小时至 8 天",
+                      "小鼠结肠炎模型及 PepT1 转运",
+                      "支持短期临床前研究，不能据此确立人体疗程"
+                    ],
+                    [
+                      "Kannengiesser 等（2008）",
+                      "小鼠结肠炎模型中持续数天",
+                      "DSS 及过继转移性结肠炎模型中的 KPV",
+                      "仅展示动物抗炎研究"
+                    ],
+                    [
+                      "Xiao 等（2017）",
+                      "短期 DSS 模型中的每日治疗",
+                      "小鼠口服载 KPV 纳米颗粒",
+                      "支持递送系统实验，不能据此制定游离 KPV 疗程指导"
+                    ],
+                    [
+                      "Dalmasso 等（2016）",
+                      "反复的 DSS 处理期，期间设有恢复窗口",
+                      "小鼠结肠炎相关癌症模型",
+                      "展示较长期的动物实验设计，不能据此确立连续的人体方案"
+                    ]
+                  ]
+                },
+                {
+                  "section": "6 至 8 周的 KPV 疗程如何？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "使用期",
+                      "天数",
+                      "KPV 总量",
+                      "10 mg 药瓶"
+                    ],
+                    [
+                      "6 周",
+                      "42",
+                      "21 mg",
+                      "3 瓶"
+                    ],
+                    [
+                      "8 周",
+                      "56",
+                      "28 mg",
+                      "3 瓶"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV 需要按疗程间歇使用吗？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "使用期框架",
+                      "报告的停用期",
+                      "证据说明"
+                    ],
+                    [
+                      "4 周",
+                      "2–4 周",
+                      "社区惯例；无试验比较"
+                    ],
+                    [
+                      "6–8 周",
+                      "2–4 周",
+                      "常被讨论；无经证实的重置期"
+                    ],
+                    [
+                      "12 周",
+                      "约 4 周或更长",
+                      "社区延长使用模式；尚未在临床上确立"
+                    ],
+                    [
+                      "16 周",
+                      "4–8 周",
+                      "轶事性框架，存在重大证据缺口"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV 的给药途径会改变疗程时长吗？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "给药途径",
+                      "讨论内容",
+                      "疗程证据"
+                    ],
+                    [
+                      "口服",
+                      "侧重肠道的社区框架及动物 PepT1 研究",
+                      "尚未确立人体口服疗程"
+                    ],
+                    [
+                      "皮下给药",
+                      "全身性给药的社区方案",
+                      "尚无已完成的人体皮下给药剂量或疗程试验"
+                    ],
+                    [
+                      "外用",
+                      "针对特定制剂的皮肤研究",
+                      "各制剂之间无统一的标准浓度或疗程"
+                    ]
+                  ]
+                },
+                {
+                  "section": "每瓶 10 mg KPV 能用多久？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "计算的每日用量",
+                      "计算式",
+                      "计算的份数",
+                      "大致时长"
+                    ],
+                    [
+                      "200 mcg",
+                      "10,000 ÷ 200",
+                      "50",
+                      "50 天"
+                    ],
+                    [
+                      "300 mcg",
+                      "10,000 ÷ 300",
+                      "33.3",
+                      "约 33 天"
+                    ],
+                    [
+                      "400 mcg",
+                      "10,000 ÷ 400",
+                      "25",
+                      "25 天"
+                    ],
+                    [
+                      "500 mcg",
+                      "10,000 ÷ 500",
+                      "20",
+                      "20 天"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [
+            {
+              "section": "KPV 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存参考",
+                  "主要注意事项"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "遵循产品说明文件",
+                  "防热、避免直射光并防潮"
+                ],
+                [
+                  "复溶后",
+                  "通常冷藏；遵循标签说明",
+                  "避免温度反复变化"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_statements": [
+            {
+              "section": "KPV 研究的安全性限制",
+              "subsection": "",
+              "excerpt": "KPV 主要在抗炎和肠道屏障模型中接受研究。尚无已完成的人体试验界定哪些人可以安全使用，因此本页面不提供个人使用资格建议。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 研究的安全性限制",
+              "subsection": "",
+              "excerpt": "通常不在研究规划范围内的情况：妊娠和哺乳（无安全性数据）、已知对肽类化合物过敏，以及未经临床医生监督的活动性复杂感染性疾病（由于炎症与抗微生物信号传导存在重叠）。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 研究的安全性限制",
+              "subsection": "",
+              "excerpt": "需谨慎的情况：正在使用处方免疫调节剂的活动性自身免疫性疾病（相互作用尚未研究），以及接受处方治疗的 IBD 或其他肠道炎症性疾病。KPV 不应替代处方药物，并应与主治医生讨论。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 副作用与安全性",
+              "subsection": "",
+              "excerpt": "动物研究和社区使用中的报告通常显示 KPV 耐受性良好，但尚无已完成的正式人体安全性试验。不存在长期安全性数据。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 副作用与安全性",
+              "subsection": "",
+              "excerpt": "常见报告的反应（社区层面，并非试验数据）：轻度且短暂的注射部位刺激、偶发轻度头痛，以及在较高口服剂量下偶发胃肠不适。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 副作用与安全性",
+              "subsection": "",
+              "excerpt": "免疫作用特征：KPV 下调特定炎症通路（尤其是 NF-kB），而非广泛抑制免疫系统。在动物研究中，这尚未产生皮质类固醇所见的感染易感性特征——但",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "PepT1 介导的三肽 KPV 摄取减轻肠道炎症。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/"
+          },
+          {
+            "label": "通过 hyaluronic acid 功能化纳米颗粒口服靶向递送三肽 KPV 可有效缓解溃疡性结肠炎。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/"
+          },
+          {
+            "label": "Alpha-MSH 相关肽：一类新的抗炎和免疫调节药物。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2095288/"
+          },
+          {
+            "label": "神经肽 alpha-MSH 与炎症：外周及中枢抗炎作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10985255/"
+          },
+          {
+            "label": "以 melanocortin 受体为靶点的潜在新型疗法。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16289446/"
+          },
+          {
+            "label": "melanocortin 肽在炎症性肠病中的治疗潜力。",
+            "url": "https://www.nature.com/subjects/inflammatory-bowel-disease"
+          },
+          {
+            "label": "Melanocortin 对炎症的调节。",
+            "url": "https://www.frontiersin.org/articles/10.3389/fendo.2019.00683/full"
+          },
+          {
+            "label": "alpha-melanocyte-stimulating hormone 自分泌调节巨噬细胞一氧化氮合酶的证据。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7541113/"
+          },
+          {
+            "label": "Alpha-MSH 调节实验性炎症性肠病。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9437733/"
+          },
+          {
+            "label": "神经肽 alpha-MSH 在急性、慢性及全身性炎症中的抗炎作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2550304/"
+          },
+          {
+            "label": "被提名用于 503A 条款下配制的原料药：第 2 类更新（KPV 自 2026 年四月 22 日起从第 2 类移除）。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA 宣布 12 种肽的状态变更（2026 年四月 15 日公告）。",
+            "url": "https://ssrpinstitute.org/news/fda-announces-change-in-status-of-12-peptides/"
+          }
+        ],
+        "unresolved_fields": [
+          "duration",
+          "best_time_of_day",
+          "formulation_identity",
+          "human_validation"
+        ],
+        "notes": "仅供来源参考；未经审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "85562a65-584d-449d-a623-2535e24ca360",
+      "productID": "kpv",
+      "title": "KPV — 来源所述皮下给药范围",
+      "purpose": "来源所述参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及提升为应用默认方案仍待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "kpv"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 复溶表与每瓶用量计算／复溶公式"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 复溶表与每瓶用量计算／复溶公式"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 复溶表与每瓶用量计算／复溶公式"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 复溶表与每瓶用量计算／复溶公式"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 复溶表与每瓶用量计算／复溶公式"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "社区范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+              "source_tables": [
+                {
+                  "section": "KPV 疗程时长表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "框架",
+                      "报告的使用期",
+                      "报告的停用期",
+                      "证据级别"
+                    ],
+                    [
+                      "短疗程",
+                      "4 周",
+                      "2–4 周",
+                      "常见社区参考；无人体对照试验"
+                    ],
+                    [
+                      "标准社区范围",
+                      "6–8 周",
+                      "2–4 周",
+                      "经常被讨论；尚未在临床上确立"
+                    ],
+                    [
+                      "延长疗程",
+                      "12 周",
+                      "约 4 周或更长",
+                      "有延长使用的报告，但长期证据有限"
+                    ],
+                    [
+                      "长期延长使用",
+                      "最长 16 周",
+                      "4–8 周",
+                      "轶事性报告；无 KPV 试验验证此时长"
+                    ]
+                  ]
+                },
+                {
+                  "section": "社区 KPV 疗程与研究持续时间对比",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "来源",
+                      "时长示例",
+                      "研究内容",
+                      "可得出的结论"
+                    ],
+                    [
+                      "社区方案",
+                      "4–8 周",
+                      "口服或皮下给药研究框架",
+                      "展示常被讨论的时间安排，并非经验证的疗程"
+                    ],
+                    [
+                      "延长的社区方案",
+                      "8–12 周",
+                      "较长期的研究规划",
+                      "记录延长使用的情况，并不证明时间越长越好"
+                    ],
+                    [
+                      "Dalmasso 等（2008）",
+                      "48 小时至 8 天",
+                      "小鼠结肠炎模型及 PepT1 转运",
+                      "支持短期临床前研究，不能据此确立人体疗程"
+                    ],
+                    [
+                      "Kannengiesser 等（2008）",
+                      "小鼠结肠炎模型中持续数天",
+                      "DSS 及过继转移性结肠炎模型中的 KPV",
+                      "仅展示动物抗炎研究"
+                    ],
+                    [
+                      "Xiao 等（2017）",
+                      "短期 DSS 模型中的每日治疗",
+                      "小鼠口服载 KPV 纳米颗粒",
+                      "支持递送系统实验，不能据此制定游离 KPV 疗程指导"
+                    ],
+                    [
+                      "Dalmasso 等（2016）",
+                      "反复的 DSS 处理期，期间设有恢复窗口",
+                      "小鼠结肠炎相关癌症模型",
+                      "展示较长期的动物实验设计，不能据此确立连续的人体方案"
+                    ]
+                  ]
+                },
+                {
+                  "section": "6 至 8 周的 KPV 疗程如何？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "使用期",
+                      "天数",
+                      "KPV 总量",
+                      "10 mg 药瓶"
+                    ],
+                    [
+                      "6 周",
+                      "42",
+                      "21 mg",
+                      "3 瓶"
+                    ],
+                    [
+                      "8 周",
+                      "56",
+                      "28 mg",
+                      "3 瓶"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV 需要按疗程间歇使用吗？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "使用期框架",
+                      "报告的停用期",
+                      "证据说明"
+                    ],
+                    [
+                      "4 周",
+                      "2–4 周",
+                      "社区惯例；无试验比较"
+                    ],
+                    [
+                      "6–8 周",
+                      "2–4 周",
+                      "常被讨论；无经证实的重置期"
+                    ],
+                    [
+                      "12 周",
+                      "约 4 周或更长",
+                      "社区延长使用模式；尚未在临床上确立"
+                    ],
+                    [
+                      "16 周",
+                      "4–8 周",
+                      "轶事性框架，存在重大证据缺口"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV 的给药途径会改变疗程时长吗？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "给药途径",
+                      "讨论内容",
+                      "疗程证据"
+                    ],
+                    [
+                      "口服",
+                      "侧重肠道的社区框架及动物 PepT1 研究",
+                      "尚未确立人体口服疗程"
+                    ],
+                    [
+                      "皮下给药",
+                      "全身性给药的社区方案",
+                      "尚无已完成的人体皮下给药剂量或疗程试验"
+                    ],
+                    [
+                      "外用",
+                      "针对特定制剂的皮肤研究",
+                      "各制剂之间无统一的标准浓度或疗程"
+                    ]
+                  ]
+                },
+                {
+                  "section": "每瓶 10 mg KPV 能用多久？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "计算的每日用量",
+                      "计算式",
+                      "计算的份数",
+                      "大致时长"
+                    ],
+                    [
+                      "200 mcg",
+                      "10,000 ÷ 200",
+                      "50",
+                      "50 天"
+                    ],
+                    [
+                      "300 mcg",
+                      "10,000 ÷ 300",
+                      "33.3",
+                      "约 33 天"
+                    ],
+                    [
+                      "400 mcg",
+                      "10,000 ÷ 400",
+                      "25",
+                      "25 天"
+                    ],
+                    [
+                      "500 mcg",
+                      "10,000 ÷ 500",
+                      "20",
+                      "20 天"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [
+            {
+              "section": "KPV 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存参考",
+                  "主要注意事项"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "遵循产品说明文件",
+                  "防热、避免直射光并防潮"
+                ],
+                [
+                  "复溶后",
+                  "通常冷藏；遵循标签说明",
+                  "避免温度反复变化"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_statements": [
+            {
+              "section": "KPV 研究的安全性限制",
+              "subsection": "",
+              "excerpt": "KPV 主要在抗炎和肠道屏障模型中接受研究。尚无已完成的人体试验界定哪些人可以安全使用，因此本页面不提供个人使用资格建议。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 研究的安全性限制",
+              "subsection": "",
+              "excerpt": "通常不在研究规划范围内的情况：妊娠和哺乳（无安全性数据）、已知对肽类化合物过敏，以及未经临床医生监督的活动性复杂感染性疾病（由于炎症与抗微生物信号传导存在重叠）。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 研究的安全性限制",
+              "subsection": "",
+              "excerpt": "需谨慎的情况：正在使用处方免疫调节剂的活动性自身免疫性疾病（相互作用尚未研究），以及接受处方治疗的 IBD 或其他肠道炎症性疾病。KPV 不应替代处方药物，并应与主治医生讨论。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 副作用与安全性",
+              "subsection": "",
+              "excerpt": "动物研究和社区使用中的报告通常显示 KPV 耐受性良好，但尚无已完成的正式人体安全性试验。不存在长期安全性数据。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 副作用与安全性",
+              "subsection": "",
+              "excerpt": "常见报告的反应（社区层面，并非试验数据）：轻度且短暂的注射部位刺激、偶发轻度头痛，以及在较高口服剂量下偶发胃肠不适。",
+              "truncated": false
+            },
+            {
+              "section": "KPV 副作用与安全性",
+              "subsection": "",
+              "excerpt": "免疫作用特征：KPV 下调特定炎症通路（尤其是 NF-kB），而非广泛抑制免疫系统。在动物研究中，这尚未产生皮质类固醇所见的感染易感性特征——但",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "PepT1 介导的三肽 KPV 摄取减轻肠道炎症。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/"
+          },
+          {
+            "label": "通过 hyaluronic acid 功能化纳米颗粒口服靶向递送三肽 KPV 可有效缓解溃疡性结肠炎。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/"
+          },
+          {
+            "label": "Alpha-MSH 相关肽：一类新的抗炎和免疫调节药物。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2095288/"
+          },
+          {
+            "label": "神经肽 alpha-MSH 与炎症：外周及中枢抗炎作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10985255/"
+          },
+          {
+            "label": "以 melanocortin 受体为靶点的潜在新型疗法。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16289446/"
+          },
+          {
+            "label": "melanocortin 肽在炎症性肠病中的治疗潜力。",
+            "url": "https://www.nature.com/subjects/inflammatory-bowel-disease"
+          },
+          {
+            "label": "Melanocortin 对炎症的调节。",
+            "url": "https://www.frontiersin.org/articles/10.3389/fendo.2019.00683/full"
+          },
+          {
+            "label": "alpha-melanocyte-stimulating hormone 自分泌调节巨噬细胞一氧化氮合酶的证据。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7541113/"
+          },
+          {
+            "label": "Alpha-MSH 调节实验性炎症性肠病。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9437733/"
+          },
+          {
+            "label": "神经肽 alpha-MSH 在急性、慢性及全身性炎症中的抗炎作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2550304/"
+          },
+          {
+            "label": "被提名用于 503A 条款下配制的原料药：第 2 类更新（KPV 自 2026 年四月 22 日起从第 2 类移除）。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA 宣布 12 种肽的状态变更（2026 年四月 15 日公告）。",
+            "url": "https://ssrpinstitute.org/news/fda-announces-change-in-status-of-12-peptides/"
+          }
+        ],
+        "unresolved_fields": [
+          "duration",
+          "best_time_of_day",
+          "formulation_identity",
+          "human_validation"
+        ],
+        "notes": "仅供来源参考；未经审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+      "title": "KPV Cycle Length: How Long Is a KPV Peptide Cycle? (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+      "title": "KPV Peptide Dosage Chart, Protocol & Reconstitution Guide (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/",
+      "title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation",
+      "publisher": "Gastroenterology / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "sourceID": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于时长／停用期的背景证据；不能替代剂量、产品标签、给药途径或特定人群的说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "sourceID": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源核实仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "85562a65-584d-449d-a623-2535e24ca360",
+      "sourceID": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于时长／停用期的背景证据；不能替代剂量、产品标签、给药途径或特定人群的说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "85562a65-584d-449d-a623-2535e24ca360",
+      "sourceID": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源核实仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "kpv",
+      "sourceID": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始收录摘要。涉及人细胞系及 DSS/TNBS 小鼠结肠炎实验；未对患者进行治疗。类别依据：直接证据涉及实验性肠道炎症性疾病，而非一般性恢复。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    },
+    {
+      "id": "oral",
+      "name": "口服"
+    }
+  ]
+}

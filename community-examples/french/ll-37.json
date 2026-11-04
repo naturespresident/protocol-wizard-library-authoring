@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ll-37",
+      "name": "LL-37",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "Les données expérimentales sur l’usage topique pour la cicatrisation des plaies sont contrastées. Un essai mené chez 25 personnes présentant des ulcères du pied diabétique a rapporté une amélioration du tissu de granulation, sans réduction significative de la surface des plaies. Un essai plus vaste mené chez 148 personnes présentant des ulcères veineux n’a trouvé aucun avantage global sur la cicatrisation ; les résultats favorables dans le sous-groupe présentant de grands ulcères étaient exploratoires. Ces résultats n’établissent aucun bénéfice des injections systémiques ni du traitement des infections."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "aa38d5ae-c197-4e80-a67a-191cbb4a86b6",
+      "productID": "ll-37",
+      "title": "LL-37 — choix des concentrations topiques de l’essai selon la source",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "topical",
+      "population": "human",
+      "evidenceNotes": "Description éditoriale/communautaire secondaire. La validation indépendante de la source et son adoption comme référence par défaut dans l’application sont en attente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "topical_product",
+          "components": [
+            {
+              "library_item_id": "ll-37"
+            }
+          ],
+          "concentration_options": [
+            {
+              "value": "0.5",
+              "unit": "mg/mL",
+              "trial_scope": "both cited trials"
+            },
+            {
+              "value": "1.6",
+              "unit": "mg/mL",
+              "trial_scope": "both cited trials"
+            },
+            {
+              "value": "3.2",
+              "unit": "mg/mL",
+              "trial_scope": "first-in-man only"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Concentrations topiques de l’essai",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 2,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ll-37",
+            "locator": "Protocole posologique et calendrier ; indications de calendrier de la source"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de LL-37",
+              "subsection": "Aspect",
+              "rows": [
+                [
+                  "",
+                  "LL-37"
+                ],
+                [
+                  "Poudre lyophilisée",
+                  "-4°F (-20°C), à long terme"
+                ],
+                [
+                  "Liquide reconstitué",
+                  "35.6-46.4°F (2-8°C), utiliser rapidement"
+                ],
+                [
+                  "Aspect",
+                  "Limpide, incolore après mélange"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_statements": [
+            {
+              "section": "Délais attendus et surveillance de LL-37",
+              "subsection": "",
+              "excerpt": "Les seules données sur les délais chez l’humain proviennent des essais sur les plaies. Dans ces essais, LL-37 appliqué par voie topique deux fois par semaine a amélioré les taux de cicatrisation sur une période de traitement de 4 semaines (première administration chez l’humain) et de 13 semaines (phase IIb), avec l’effet le plus marqué sur les grands ulcères anciens.",
+              "truncated": false
+            },
+            {
+              "section": "Délais attendus et surveillance de LL-37",
+              "subsection": "",
+              "excerpt": "Pour l’usage injectable communautaire, il n’existe aucun délai validé, car cet usage n’a pas été étudié dans des essais chez l’humain. Toute promesse de résultat semaine après semaine doit être considérée comme non étayée. Pour la planification de la recherche, les priorités pratiques sont la surveillance du site d’injection, le suivi des changements cutanés ou inflammatoires et l’arrêt",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Le traitement par LL-37 est sûr et efficace pour améliorer la cicatrisation des ulcères veineux de jambe difficiles à cicatriser : un essai clinique randomisé et contrôlé par placebo.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25041740/"
+          },
+          {
+            "label": "Évaluation de LL-37 dans la cicatrisation des ulcères veineux de jambe difficiles à cicatriser : un essai clinique multicentrique, prospectif, randomisé et contrôlé par placebo (HEAL LL-37).",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9298190/"
+          },
+          {
+            "label": "Ropocamptide (LL-37) — cicatrisation des plaies chroniques, état du développement.",
+            "url": "https://www.promorepharma.com/en/ll-37-healing-of-chronic-wounds/"
+          },
+          {
+            "label": "Caractéristiques uniques de la cathélicidine humaine LL-37.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27117377/"
+          },
+          {
+            "label": "LL-37 : structures, activité antimicrobienne et influence sur les maladies liées aux amyloïdes.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38540740/"
+          },
+          {
+            "label": "Le peptide antimicrobien cathélicidine exerce des effets immunomodulateurs par l’intermédiaire des récepteurs éboueurs.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9821026/"
+          },
+          {
+            "label": "Peptides antimicrobiens de la famille des cathélicidines : gros plan sur LL-37 et ses modifications.",
+            "url": "https://www.mdpi.com/1422-0067/26/16/8103"
+          },
+          {
+            "label": "La cathélicidine LL-37 : une nouvelle molécule importante dans la physiopathologie du lupus érythémateux systémique.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7388365/"
+          },
+          {
+            "label": "Évaluation des effets des antibiotiques peptidiques bêta-défensines humaines et LL-37 sur la libération d’histamine et la production de prostaglandine D2 par les mastocytes.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11298331/"
+          },
+          {
+            "label": "Le peptide antimicrobien cathélicidine LL-37 inhibe la pyroptose des macrophages induite par LPS/ATP selon un double mécanisme.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3894207/"
+          },
+          {
+            "label": "Décryptage de LL-37 : structure et mécanismes antimicrobiens contre les menaces microbiennes.",
+            "url": "https://www.sciencedirect.com/science/article/pii/S156713482500142X"
+          }
+        ],
+        "unresolved_fields": [
+          "applied_volume_or_mass",
+          "primary_trial_verification",
+          "duration",
+          "population_eligibility"
+        ],
+        "notes": "Référence de la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans la fiche de la source."
+      }
+    },
+    {
+      "id": "c12f1894-9d03-4763-a5ee-f5c0e2ffdf3f",
+      "productID": "ll-37",
+      "title": "LL-37 — plage initiale d’injection communautaire selon la source",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Description éditoriale/communautaire secondaire. La validation indépendante de la source et son adoption comme référence par défaut dans l’application sont en attente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "ll-37"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Plage initiale communautaire",
+            "duration": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 5,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ll-37",
+            "locator": "Protocole posologique et calendrier ; indications de calendrier de la source"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de LL-37",
+              "subsection": "Aspect",
+              "rows": [
+                [
+                  "",
+                  "LL-37"
+                ],
+                [
+                  "Poudre lyophilisée",
+                  "-4°F (-20°C), à long terme"
+                ],
+                [
+                  "Liquide reconstitué",
+                  "35.6-46.4°F (2-8°C), utiliser rapidement"
+                ],
+                [
+                  "Aspect",
+                  "Limpide, incolore après mélange"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_statements": [
+            {
+              "section": "Délais attendus et surveillance de LL-37",
+              "subsection": "",
+              "excerpt": "Les seules données sur les délais chez l’humain proviennent des essais sur les plaies. Dans ces essais, LL-37 appliqué par voie topique deux fois par semaine a amélioré les taux de cicatrisation sur une période de traitement de 4 semaines (première administration chez l’humain) et de 13 semaines (phase IIb), avec l’effet le plus marqué sur les grands ulcères anciens.",
+              "truncated": false
+            },
+            {
+              "section": "Délais attendus et surveillance de LL-37",
+              "subsection": "",
+              "excerpt": "Pour l’usage injectable communautaire, il n’existe aucun délai validé, car cet usage n’a pas été étudié dans des essais chez l’humain. Toute promesse de résultat semaine après semaine doit être considérée comme non étayée. Pour la planification de la recherche, les priorités pratiques sont la surveillance du site d’injection, le suivi des changements cutanés ou inflammatoires et l’arrêt",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Le traitement par LL-37 est sûr et efficace pour améliorer la cicatrisation des ulcères veineux de jambe difficiles à cicatriser : un essai clinique randomisé et contrôlé par placebo.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25041740/"
+          },
+          {
+            "label": "Évaluation de LL-37 dans la cicatrisation des ulcères veineux de jambe difficiles à cicatriser : un essai clinique multicentrique, prospectif, randomisé et contrôlé par placebo (HEAL LL-37).",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9298190/"
+          },
+          {
+            "label": "Ropocamptide (LL-37) — cicatrisation des plaies chroniques, état du développement.",
+            "url": "https://www.promorepharma.com/en/ll-37-healing-of-chronic-wounds/"
+          },
+          {
+            "label": "Caractéristiques uniques de la cathélicidine humaine LL-37.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27117377/"
+          },
+          {
+            "label": "LL-37 : structures, activité antimicrobienne et influence sur les maladies liées aux amyloïdes.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38540740/"
+          },
+          {
+            "label": "Le peptide antimicrobien cathélicidine exerce des effets immunomodulateurs par l’intermédiaire des récepteurs éboueurs.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9821026/"
+          },
+          {
+            "label": "Peptides antimicrobiens de la famille des cathélicidines : gros plan sur LL-37 et ses modifications.",
+            "url": "https://www.mdpi.com/1422-0067/26/16/8103"
+          },
+          {
+            "label": "La cathélicidine LL-37 : une nouvelle molécule importante dans la physiopathologie du lupus érythémateux systémique.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7388365/"
+          },
+          {
+            "label": "Évaluation des effets des antibiotiques peptidiques bêta-défensines humaines et LL-37 sur la libération d’histamine et la production de prostaglandine D2 par les mastocytes.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11298331/"
+          },
+          {
+            "label": "Le peptide antimicrobien cathélicidine LL-37 inhibe la pyroptose des macrophages induite par LPS/ATP selon un double mécanisme.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3894207/"
+          },
+          {
+            "label": "Décryptage de LL-37 : structure et mécanismes antimicrobiens contre les menaces microbiennes.",
+            "url": "https://www.sciencedirect.com/science/article/pii/S156713482500142X"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "weekdays_or_block_pattern",
+          "no_human_injection_validation",
+          "upper_limit_not_selected"
+        ],
+        "notes": "Référence de la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans la fiche de la source.",
+        "source_upper_limit": {
+          "unit": "mcg",
+          "basis": "daily_total",
+          "kind": "maximum",
+          "maximum": "500",
+          "minimum": null
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+      "url": "https://www.peptidedosingprotocols.com/protocol/ll-37",
+      "title": "LL-37 Peptide Protocol Guide - Dosing, Reconstitution & Safety",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "49fa09fb-b5ed-4b9d-a6ec-2edd903fe0ce",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9298190/",
+      "title": "Evaluation of LL-37 in healing of hard-to-heal venous leg ulcers: a multicentric prospective randomized placebo-controlled clinical trial",
+      "publisher": "Wound Repair and Regeneration, 2021",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "7326d1db-db34-4d0d-9907-2ecfec0c458a",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10514151/",
+      "title": "Efficacy of LL-37 cream in enhancing healing of diabetic foot ulcer: a randomized double-blind controlled trial",
+      "publisher": "Archives of Dermatological Research, 2023",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "aa38d5ae-c197-4e80-a67a-191cbb4a86b6",
+      "sourceID": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La source décrit ces champs ; la vérification dans la source primaire reste en attente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "c12f1894-9d03-4763-a5ee-f5c0e2ffdf3f",
+      "sourceID": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La source décrit ces champs ; la vérification dans la source primaire reste en attente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/source_upper_limit"
+      ]
+    },
+    {
+      "productID": "ll-37",
+      "sourceID": "49fa09fb-b5ed-4b9d-a6ec-2edd903fe0ce",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Résumé original et texte des méthodes statistiques lus. Phase IIb, 148 personnes randomisées ; aucune efficacité globale significative ; analyse post hoc favorable pour les grandes plaies. Justification de la catégorie : les études chez l’humain portent sur la cicatrisation des plaies par voie topique.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "ll-37",
+      "sourceID": "7326d1db-db34-4d0d-9907-2ecfec0c458a",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Résultats et limites de l’étude originale lus. Vingt-cinq participants ; modifications significatives de l’indice de granulation, mais aucune amélioration significative de la surface des plaies ni de la colonisation bactérienne. Justification de la catégorie : les études chez l’humain portent sur la cicatrisation des plaies par voie topique.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cicatrisation et récupération"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    },
+    {
+      "id": "topical",
+      "name": "Topique"
+    }
+  ]
+}

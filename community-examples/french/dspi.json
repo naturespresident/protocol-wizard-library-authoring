@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dspi",
+      "name": "DSIP (peptide inducteur du sommeil delta)",
+      "aliases": [
+        "DSPI (peptide inducteur du sommeil delta)",
+        "DSPI",
+        "DSIP",
+        "Emideltide"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": "Bénéfices à l’étude pour le sommeil et la récupération : étudié pour le sommeil à ondes lentes (delta) et l’architecture du sommeil, avec des rôles proposés dans la modulation du cortisol et du stress, le soulagement de la douleur et la récupération. DSIP est décrit comme un neuromodulateur plutôt que comme un sédatif conventionnel. Les résultats sur le sommeil chez l’humain proviennent d’études de petite taille et sont mitigés ; un sommeil réparateur fiable, le soulagement de la douleur chronique et l’absence de somnolence diurne ou de dépendance ne sont pas fermement établis. Les résultats des études par voie intraveineuse n’établissent pas de bénéfices pour toutes les voies d’administration."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "e62b5bbb-408d-4794-b835-1b107cfa022e",
+      "productID": "dspi",
+      "title": "DSIP — plages de doses du soir issues des pratiques communautaires décrites par la source",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Description secondaire de nature éditoriale ou communautaire. La validation indépendante de la source et l’adoption comme valeur par défaut dans l’application sont en attente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "dspi"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+              "locator": "Guide de reconstitution de DSIP / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Plages communautaires de planification pour le soir",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "total_product",
+              "range_options": [
+                {
+                  "minimum": "100",
+                  "maximum": "200"
+                },
+                {
+                  "minimum": "200",
+                  "maximum": "300"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [
+            {
+              "anchor": "intended_sleep",
+              "relationship": "before",
+              "offset": {
+                "minimum": 60,
+                "maximum": 180,
+                "unit": "minute"
+              }
+            }
+          ],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/dsip",
+            "locator": "Protocole posologique et calendrier ; indications horaires de la source"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_tables": [
+            {
+              "section": "Protocole posologique et calendrier de DSIP",
+              "subsection": "Recommandations sur les cycles",
+              "rows": [
+                [
+                  "Approche",
+                  "Durée",
+                  "Moment de réévaluation",
+                  "Contexte habituel"
+                ],
+                [
+                  "Cure courte",
+                  "5-7 nuits",
+                  "Fin de la semaine 1",
+                  "Correspond aux durées des essais publiés chez l’humain."
+                ],
+                [
+                  "Cycle standard",
+                  "4 semaines",
+                  "Semaine 4",
+                  "Contexte général de planification de la recherche."
+                ],
+                [
+                  "Cycle prolongé",
+                  "6-8 semaines",
+                  "Semaine 6",
+                  "Moins courant ; les données de sécurité à long terme sont limitées."
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de DSIP",
+              "subsection": "",
+              "rows": [
+                [
+                  "État",
+                  "Conservation",
+                  "Notes"
+                ],
+                [
+                  "Lyophilisé (sous forme de poudre)",
+                  "-4F (-20C) à long terme",
+                  "Se référer à l’étiquette du fournisseur et aux données de stabilité ; protéger de la lumière."
+                ],
+                [
+                  "Reconstitué (sous forme liquide)",
+                  "35.6-46.4F (2-8C)",
+                  "Utiliser dans les délais de stabilité habituels des peptides de recherche ; se référer aux recommandations du fournisseur."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_statements": [
+            {
+              "section": "À qui DSIP est destiné et qui devrait l’éviter",
+              "subsection": "",
+              "excerpt": "Grossesse et allaitement : non étudiés ; l’utilisation devrait être évitée.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de DSIP",
+              "subsection": "Risques rapportés et théoriques",
+              "excerpt": "Une possible torpeur matinale ou des effets de rêves intenses sont décrits dans des comptes rendus de recherche.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de DSIP",
+              "subsection": "Risques rapportés et théoriques",
+              "excerpt": "Interaction possible avec les hormones de l’axe hypothalamo-hypophyso-surrénalien ; non caractérisée dans les essais modernes.",
+              "truncated": false
+            },
+            {
+              "section": "Calendrier de DSIP et éléments à surveiller",
+              "subsection": "",
+              "excerpt": "Des essais anciens ont mesuré des changements de l’architecture du sommeil dès la première ou la deuxième nuit d’administration, au moyen de la polysomnographie. Des changements subjectifs de la qualité du sommeil ont parfois été rapportés le",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Peptide inducteur du sommeil delta (DSIP) : une revue.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6145137/"
+          },
+          {
+            "label": "Peptide inducteur du sommeil delta (DSIP) : une mise à jour.",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/0149763484900228"
+          },
+          {
+            "label": "Peptide inducteur du sommeil delta (DSIP) : une énigme toujours non résolue.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1471-4159.2006.03693.x"
+          },
+          {
+            "label": "L’influence du DSIP synthétique (peptide inducteur du sommeil delta) sur le sommeil perturbé chez l’humain.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7028502/"
+          },
+          {
+            "label": "Effets du peptide inducteur du sommeil delta sur le comportement veille-sommeil sur 24 heures en cas d’insomnie chronique sévère.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3622582/"
+          },
+          {
+            "label": "Étude de l’efficacité du peptide inducteur du sommeil delta pour améliorer le sommeil lors d’une administration de courte durée à des personnes souffrant d’insomnie chronique.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3583493/"
+          },
+          {
+            "label": "Le peptide inducteur du sommeil delta restaure la fonction motrice chez des rats SD après un accident vasculaire cérébral focal.",
+            "url": "https://www.mdpi.com/1420-3049/26/17/5173"
+          },
+          {
+            "label": "Peptides sécrétés par Pichia pastoris traversant la barrière hémato-encéphalique et efficacité du peptide de fusion DSIP dans des modèles murins d’insomnie induite par la PCPA.",
+            "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1439536/full"
+          },
+          {
+            "label": "Certaines substances médicamenteuses en vrac destinées aux préparations magistrales pouvant présenter des risques de sécurité importants (Catégorie 2).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks"
+          },
+          {
+            "label": "Peptide inducteur du sommeil delta.",
+            "url": "https://journals.lww.com/ejanaesthesiology/fulltext/2001/07000/delta_sleep_inducing_peptide.1.aspx"
+          }
+        ],
+        "unresolved_fields": [
+          "cycle_duration_choice",
+          "range_choice",
+          "human_subcutaneous_validation"
+        ],
+        "notes": "Référence à la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans l’enregistrement de la source."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "07ef5aae-34be-4471-a48b-8052d34f658a",
+      "url": "https://riteaid.com/peptides/dsip",
+      "title": "DSIP Peptide: Benefits, Dosage & 2026 Legal Status",
+      "publisher": "Rite Aid",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "0b729ba5-232e-48a0-832a-b09e6a3556e1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1299794/",
+      "title": "Effects of delta sleep-inducing peptide on sleep of chronic insomniac patients: a double-blind study (1992)",
+      "publisher": "Neuropsychobiology, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "74c9cc40-9922-40ea-8eac-31b781822052",
+      "url": "https://cenegenics.com/what-is-dsip-delta-sleep-inducing-peptide-benefits-mechanism-and-uses/",
+      "title": "What Is DSIP? Delta Sleep-Inducing Peptide Benefits, Mechanism, and Uses",
+      "publisher": "Cenegenics",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+      "url": "https://www.peptidedosingprotocols.com/protocol/dsip",
+      "title": "DSIP Peptide Dosing Guide: Timing, Protocol & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "e62b5bbb-408d-4794-b835-1b107cfa022e",
+      "sourceID": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La source décrit ces champs ; la vérification des sources primaires reste en attente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "07ef5aae-34be-4471-a48b-8052d34f658a",
+      "locator": "Research benefits and mechanism sections",
+      "evidenceNote": "Suivi du propriétaire du 2026-10-15 : la synthèse secondaire fournie par le propriétaire décrit les objectifs de recherche sur le sommeil, le stress et la douleur et reconnaît le nombre limité d’essais rigoureux chez l’humain. Les mécanismes et les bénéfices cliniques fiables restent incertains. Justification de la catégorie : la régulation du sommeil et la modulation du stress sont des objectifs de recherche neurologique.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "0b729ba5-232e-48a0-832a-b09e6a3556e1",
+      "locator": "Abstract; prior source verification",
+      "evidenceNote": "Suivi du propriétaire du 2026-10-15 : une étude de petite taille menée en aveugle sur l’insomnie a rapporté de faibles effets objectifs et n’a pas établi de bénéfice thérapeutique majeur à court terme. Elle étaye la réserve concernant les résultats mitigés, sans étayer les allégations plus fortes sur le sommeil, le stress, la douleur ou la tolérance. Justification de la catégorie : la régulation du sommeil et la modulation du stress sont des objectifs de recherche neurologique.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "74c9cc40-9922-40ea-8eac-31b781822052",
+      "locator": "Potential benefits and mechanism sections",
+      "evidenceNote": "Suivi du propriétaire du 2026-10-15 : l’article de clinique fourni par le propriétaire fait état d’applications proposées pour le sommeil, le stress/cortisol et la douleur. Les allégations secondaires sont consignées comme des bénéfices proposés ; cet article n’établit ni l’efficacité clinique ni l’absence d’effets indésirables. Justification de la catégorie : la régulation du sommeil et la modulation du stress sont des objectifs de recherche neurologique.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitif et neurologique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

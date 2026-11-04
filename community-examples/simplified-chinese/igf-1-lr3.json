@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "临床前发现：Long R3 IGF-I 在使用 dexamethasone 诱导分解代谢状态的大鼠中显示出合成代谢作用，并改善了氮潴留。其他动物研究发现肠道或器官生长，但不应将其视为健康获益。本次检索未核实到 IGF-1 LR3 对人体的直接临床获益。天然 IGF-1 或 mecasermin 的研究发现及获批用途不能套用于这种经修饰的类似物。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "7cd8f0d9-d871-4005-b384-ce4dae20b9c9",
+      "productID": "igf-1-lr3",
+      "title": "IGF-1 LR3——训练后肌内注射剂量范围",
+      "purpose": "依据来源描述进行参考规划",
+      "methodID": "intramuscular",
+      "population": "human",
+      "evidenceNotes": "二手编辑性描述／社区描述。独立来源核实及将其设为应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "igf-1-lr3"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "0.5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "200",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "100",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "评估阶段",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "替代维持剂量范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "daily_total",
+              "range_options": [
+                {
+                  "minimum": "20",
+                  "maximum": "50"
+                },
+                {
+                  "minimum": "50",
+                  "maximum": "100"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [
+            {
+              "anchor": "workout",
+              "relationship": "after",
+              "offset": null
+            }
+          ],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/igf-1-lr3",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          },
+          "site_as_reported": "trained muscle"
+        },
+        "cycle_guidance": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_tables": [
+            {
+              "section": "IGF-1 LR3 给药方案与时间安排",
+              "subsection": "周期结构",
+              "rows": [
+                [
+                  "方案",
+                  "用药期",
+                  "停药期",
+                  "最适合的情况"
+                ],
+                [
+                  "保守方案",
+                  "3-4 周",
+                  "4-6 周",
+                  "在最初几个周期中评估较低剂量的耐受性。"
+                ],
+                [
+                  "标准方案",
+                  "4 周",
+                  "至少 4 周",
+                  "研究社区中最常被引用的周期结构。"
+                ],
+                [
+                  "延长方案",
+                  "5-6 周",
+                  "至少 6 周",
+                  "仅在既往周期已确认葡萄糖耐受性后使用。"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_tables": [
+            {
+              "section": "IGF-1 LR3 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存条件",
+                  "储存时长"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "-4°F（-20°C）冷冻室",
+                  "长期储存，最长约 12 个月。"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "35.6-46.4°F（2-8°C）冷藏室",
+                  "数月。"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "室温",
+                  "可耐受数周的运输／在途时段；尽量缩短暴露时间。"
+                ],
+                [
+                  "复溶后（液体）",
+                  "35.6-46.4°F（2-8°C）冷藏室",
+                  "约 28-30 天。"
+                ],
+                [
+                  "复溶后（液体）",
+                  "-4°F（-20°C）冷冻室",
+                  "不推荐；冻融可能损伤该肽。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_statements": [
+            {
+              "section": "IGF-1 LR3 适用人群及应避免使用的人群",
+              "subsection": "",
+              "excerpt": "IGF-1 LR3 没有 FDA 批准的人体适应证。它作为研究化合物进行研究，仅用于研究社区方案。Increlex（mecasermin）的 FDA 说明书适用于儿科重度原发性 IGFD 的天然 rhIGF-1 治疗，是最接近的人体参考资料，并为以下禁忌证提供依据。",
+              "truncated": false
+            },
+            {
+              "section": "IGF-1 LR3 适用人群及应避免使用的人群",
+              "subsection": "IGF-1 LR3 被广泛认为禁用的情况",
+              "excerpt": "活动性癌症、既往癌症史或显著的癌症家族史。IGF-1 信号具有促有丝分裂和抗凋亡作用。Increlex 说明书明确禁止活动性或疑似肿瘤患者使用，并指出出现活动性或疑似恶性肿瘤时应停药。流行病学研究反复发现，循环 IGF-1 水平升高与某些癌症的风险相关（LeRoith & Roberts 2003；Pollak 2008）。",
+              "truncated": false
+            },
+            {
+              "section": "IGF-1 LR3 适用人群及应避免使用的人群",
+              "subsection": "IGF-1 LR3 被广泛认为禁用的情况",
+              "excerpt": "糖尿病（1 型或 2 型）或任何涉及葡萄糖调节异常的疾病。IGF-1 LR3 会降低血糖。在现有胰岛素治疗基础上加用，或在葡萄糖处理能力受损时使用，可能导致不可预测的严重低血糖。2025 年 Increlex 说明书要求配合正餐／加餐给药，并从低剂量开始滴定，正是因为低血糖的发生如此普遍。",
+              "truncated": false
+            },
+            {
+              "section": "IGF-1 LR3 适用人群及应避免使用的人群",
+              "subsection": "IGF-1 LR3 被广泛认为禁用的情况",
+              "excerpt": "妊娠和哺乳期。没有人体安全性数据。Increlex 说明书规定它应",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "与 IGF 结合蛋白结合能力较弱的 IGF-I 类似物在输注时具有更高效力，改为注射给药时仍保持这种优势。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8708565/"
+          },
+          {
+            "label": "Insulin-like growth factor-I（IGF-I），尤其是 IGF-I 变体，在经 dexamethasone 处理的大鼠中具有合成代谢作用。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1130894/"
+          },
+          {
+            "label": "IGF 结合蛋白具有多种功能，并通过依赖 IGF 及不依赖 IGF 的机制发挥作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12379487/"
+          },
+          {
+            "label": "IGF-1 通过改变血管平滑肌细胞表型，在动脉粥样硬化中发挥稳定斑块的作用。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3069834/"
+          },
+          {
+            "label": "INCRELEX（mecasermin）注射液——处方信息要点（2025 年修订版）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/021839s033lbl.pdf"
+          },
+          {
+            "label": "Increlex EPAR——产品信息（mecasermin）。",
+            "url": "https://www.ema.europa.eu/en/documents/product-information/increlex-epar-product-information_en.pdf"
+          },
+          {
+            "label": "insulin-like growth factor 系统与癌症。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12767520/"
+          },
+          {
+            "label": "肿瘤中的 Insulin 和 insulin-like growth factor 信号传导。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19029956/"
+          },
+          {
+            "label": "insulin-like growth factor-I 治疗肌萎缩侧索硬化症的安慰剂对照试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9710020/"
+          },
+          {
+            "label": "在为期 2 年的 ALS 试验中，皮下注射 IGF-1 未显示获益。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2601089/"
+          },
+          {
+            "label": "为反兴奋剂检测目的，使用免疫纯化和高分辨率质谱法检测 LongR3-IGF-I、Des(1-3)-IGF-I 和 R3-IGF-I。",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/dta.2792"
+          },
+          {
+            "label": "Insulin-Like Growth Factor-1（IGF-1）及其在医学诊断和体育运动中的监测。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7913862/"
+          },
+          {
+            "label": "生长激素和 IGF-I 对肌肉质量的调节。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2439524/"
+          }
+        ],
+        "unresolved_fields": [
+          "phase_durations",
+          "dose_band_choice",
+          "hypoglycemia_monitoring_details",
+          "primary_source_verification",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "仅供来源参考；未经审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "c66ad233-27a1-4be5-a057-3ede6eb4e3ab",
+      "productID": "igf-1-lr3",
+      "title": "IGF-1 LR3——社区皮下注射剂量范围",
+      "purpose": "依据来源描述进行参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性描述／社区描述。独立来源核实及将其设为应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "igf-1-lr3"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "0.5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "200",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "100",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "IGF-1 LR3 复溶指南 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "评估阶段",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "替代维持剂量范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "daily_total",
+              "range_options": [
+                {
+                  "minimum": "20",
+                  "maximum": "40"
+                },
+                {
+                  "minimum": "40",
+                  "maximum": "80"
+                },
+                {
+                  "minimum": "80",
+                  "maximum": "100"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/igf-1-lr3",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_tables": [
+            {
+              "section": "IGF-1 LR3 给药方案与时间安排",
+              "subsection": "周期结构",
+              "rows": [
+                [
+                  "方案",
+                  "用药期",
+                  "停药期",
+                  "最适合的情况"
+                ],
+                [
+                  "保守方案",
+                  "3-4 周",
+                  "4-6 周",
+                  "在最初几个周期中评估较低剂量的耐受性。"
+                ],
+                [
+                  "标准方案",
+                  "4 周",
+                  "至少 4 周",
+                  "研究社区中最常被引用的周期结构。"
+                ],
+                [
+                  "延长方案",
+                  "5-6 周",
+                  "至少 6 周",
+                  "仅在既往周期已确认葡萄糖耐受性后使用。"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_tables": [
+            {
+              "section": "IGF-1 LR3 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存条件",
+                  "储存时长"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "-4°F（-20°C）冷冻室",
+                  "长期储存，最长约 12 个月。"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "35.6-46.4°F（2-8°C）冷藏室",
+                  "数月。"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "室温",
+                  "可耐受数周的运输／在途时段；尽量缩短暴露时间。"
+                ],
+                [
+                  "复溶后（液体）",
+                  "35.6-46.4°F（2-8°C）冷藏室",
+                  "约 28-30 天。"
+                ],
+                [
+                  "复溶后（液体）",
+                  "-4°F（-20°C）冷冻室",
+                  "不推荐；冻融可能损伤该肽。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_statements": [
+            {
+              "section": "IGF-1 LR3 适用人群及应避免使用的人群",
+              "subsection": "",
+              "excerpt": "IGF-1 LR3 没有 FDA 批准的人体适应证。它作为研究化合物进行研究，仅用于研究社区方案。Increlex（mecasermin）的 FDA 说明书适用于儿科重度原发性 IGFD 的天然 rhIGF-1 治疗，是最接近的人体参考资料，并为以下禁忌证提供依据。",
+              "truncated": false
+            },
+            {
+              "section": "IGF-1 LR3 适用人群及应避免使用的人群",
+              "subsection": "IGF-1 LR3 被广泛认为禁用的情况",
+              "excerpt": "活动性癌症、既往癌症史或显著的癌症家族史。IGF-1 信号具有促有丝分裂和抗凋亡作用。Increlex 说明书明确禁止活动性或疑似肿瘤患者使用，并指出出现活动性或疑似恶性肿瘤时应停药。流行病学研究反复发现，循环 IGF-1 水平升高与某些癌症的风险相关（LeRoith & Roberts 2003；Pollak 2008）。",
+              "truncated": false
+            },
+            {
+              "section": "IGF-1 LR3 适用人群及应避免使用的人群",
+              "subsection": "IGF-1 LR3 被广泛认为禁用的情况",
+              "excerpt": "糖尿病（1 型或 2 型）或任何涉及葡萄糖调节异常的疾病。IGF-1 LR3 会降低血糖。在现有胰岛素治疗基础上加用，或在葡萄糖处理能力受损时使用，可能导致不可预测的严重低血糖。2025 年 Increlex 说明书要求配合正餐／加餐给药，并从低剂量开始滴定，正是因为低血糖的发生如此普遍。",
+              "truncated": false
+            },
+            {
+              "section": "IGF-1 LR3 适用人群及应避免使用的人群",
+              "subsection": "IGF-1 LR3 被广泛认为禁用的情况",
+              "excerpt": "妊娠和哺乳期。没有人体安全性数据。Increlex 说明书规定它应",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "与 IGF 结合蛋白结合能力较弱的 IGF-I 类似物在输注时具有更高效力，改为注射给药时仍保持这种优势。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8708565/"
+          },
+          {
+            "label": "Insulin-like growth factor-I（IGF-I），尤其是 IGF-I 变体，在经 dexamethasone 处理的大鼠中具有合成代谢作用。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1130894/"
+          },
+          {
+            "label": "IGF 结合蛋白具有多种功能，并通过依赖 IGF 及不依赖 IGF 的机制发挥作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12379487/"
+          },
+          {
+            "label": "IGF-1 通过改变血管平滑肌细胞表型，在动脉粥样硬化中发挥稳定斑块的作用。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3069834/"
+          },
+          {
+            "label": "INCRELEX（mecasermin）注射液——处方信息要点（2025 年修订版）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/021839s033lbl.pdf"
+          },
+          {
+            "label": "Increlex EPAR——产品信息（mecasermin）。",
+            "url": "https://www.ema.europa.eu/en/documents/product-information/increlex-epar-product-information_en.pdf"
+          },
+          {
+            "label": "insulin-like growth factor 系统与癌症。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12767520/"
+          },
+          {
+            "label": "肿瘤中的 Insulin 和 insulin-like growth factor 信号传导。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19029956/"
+          },
+          {
+            "label": "insulin-like growth factor-I 治疗肌萎缩侧索硬化症的安慰剂对照试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9710020/"
+          },
+          {
+            "label": "在为期 2 年的 ALS 试验中，皮下注射 IGF-1 未显示获益。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2601089/"
+          },
+          {
+            "label": "为反兴奋剂检测目的，使用免疫纯化和高分辨率质谱法检测 LongR3-IGF-I、Des(1-3)-IGF-I 和 R3-IGF-I。",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/dta.2792"
+          },
+          {
+            "label": "Insulin-Like Growth Factor-1（IGF-1）及其在医学诊断和体育运动中的监测。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7913862/"
+          },
+          {
+            "label": "生长激素和 IGF-I 对肌肉质量的调节。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2439524/"
+          }
+        ],
+        "unresolved_fields": [
+          "phase_durations",
+          "dose_band_choice",
+          "hypoglycemia_monitoring_details",
+          "primary_source_verification",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "仅供来源参考；未经审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+      "url": "https://www.peptidedosingprotocols.com/protocol/igf-1-lr3",
+      "title": "IGF-1 LR3 Peptide Dosing Guide: Cycle, Side Effects & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "73ad3618-a1fb-436d-a8ad-8bd5a06dfd7f",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1130894/",
+      "title": "IGF-I and especially IGF-I variants are anabolic in dexamethasone-treated rats (1992)",
+      "publisher": "Biochemical Journal, via NLM PubMed Central",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f6ce13d1-6640-4eab-8b3f-f309f21c9412",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7561636/",
+      "title": "Long R3 IGF-I infusion stimulates organ growth in the guinea pig (1995)",
+      "publisher": "Journal of Endocrinology, via NLM PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "7cd8f0d9-d871-4005-b384-ce4dae20b9c9",
+      "sourceID": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；原始来源核实仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "c66ad233-27a1-4be5-a057-3ede6eb4e3ab",
+      "sourceID": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；原始来源核实仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "igf-1-lr3",
+      "sourceID": "73ad3618-a1fb-436d-a8ad-8bd5a06dfd7f",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "研究明确涉及 LR3；动物中的合成代谢作用并不能确立对人体肌肉或恢复的获益。分类理由：生长激素：IGF-1 生长信号类似物；该分类反映的是内分泌研究领域，而非已证实的人体获益。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "igf-1-lr3",
+      "sourceID": "f6ce13d1-6640-4eab-8b3f-f309f21c9412",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "器官重量增加，但整体生长未显著增加；这种作用未必有益。分类理由：生长激素：IGF-1 生长信号类似物；该分类反映的是内分泌研究领域，而非已证实的人体获益。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    },
+    {
+      "id": "intramuscular",
+      "name": "肌内注射"
+    }
+  ]
+}

@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "kpv",
+      "name": "KPV",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "전임상 항염증 연구: KPV는 배양한 장 세포와 면역 세포에서 염증 신호 전달을 줄이고 생쥐에서 화학적으로 유발한 대장염을 줄였어요. 이 결과는 장 염증에 대한 연구를 뒷받침하지만, 염증성 장 질환에 대한 임상적 이점이나 인체 주사 프로토콜을 확립하지는 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "productID": "kpv",
+      "title": "KPV — 출처에 제시된 경구 투여 범위",
+      "purpose": "출처에 기술된 참조용 계획",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티의 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 보류 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_product",
+          "components": [
+            {
+              "library_item_id": "kpv"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "커뮤니티 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "하루 1-2회"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+              "source_tables": [
+                {
+                  "section": "KPV 주기 길이 표",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "계획 틀",
+                      "보고된 투여 기간",
+                      "보고된 휴지기",
+                      "근거 수준"
+                    ],
+                    [
+                      "짧은 주기",
+                      "4주",
+                      "2–4주",
+                      "흔히 쓰이는 커뮤니티 참조 기준이에요. 대조 인체 시험은 없어요"
+                    ],
+                    [
+                      "표준 커뮤니티 범위",
+                      "6–8주",
+                      "2–4주",
+                      "자주 논의되지만 임상적으로 확립되지 않았어요"
+                    ],
+                    [
+                      "연장 주기",
+                      "12주",
+                      "약 4주 이상",
+                      "보고된 연장 기간으로, 장기 근거는 제한적이에요"
+                    ],
+                    [
+                      "장기 연장",
+                      "최대 16주",
+                      "4–8주",
+                      "일화적 근거예요. 이 기간을 검증한 KPV 시험은 없어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "커뮤니티의 KPV 주기와 연구 기간 비교",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "출처",
+                      "기간 예시",
+                      "연구 대상",
+                      "알 수 있는 점"
+                    ],
+                    [
+                      "커뮤니티 프로토콜",
+                      "4–8주",
+                      "경구 또는 피하 연구 계획 틀",
+                      "흔히 논의되는 일정을 보여주지만, 검증된 주기는 아니에요"
+                    ],
+                    [
+                      "연장된 커뮤니티 프로토콜",
+                      "8–12주",
+                      "더 긴 연구 계획",
+                      "연장을 기록한 것이며, 더 길수록 더 좋다는 증거는 아니에요"
+                    ],
+                    [
+                      "Dalmasso 외 (2008)",
+                      "48시간에서 8일까지",
+                      "생쥐 대장염 모델과 PepT1 수송",
+                      "단기 전임상 연구를 뒷받침하며, 인체 투여 주기를 뒷받침하지는 않아요"
+                    ],
+                    [
+                      "Kannengiesser 외 (2008)",
+                      "생쥐 대장염 모델에서 며칠간",
+                      "DSS 및 이식 유발 대장염 모델에서의 KPV",
+                      "동물 항염증 연구만 보여줘요"
+                    ],
+                    [
+                      "Xiao 외 (2017)",
+                      "단기 DSS 모델에서 매일 투여",
+                      "생쥐에 경구 투여한 KPV 탑재 나노입자",
+                      "전달 시스템 실험을 뒷받침하며, 유리형 KPV의 주기 지침을 뒷받침하지는 않아요"
+                    ],
+                    [
+                      "Dalmasso 외 (2016)",
+                      "회복 기간을 둔 반복 DSS 투여 기간",
+                      "생쥐의 대장염 관련 암 모델",
+                      "더 긴 동물 실험 설계를 보여주며, 연속 인체 투여 프로토콜은 아니에요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "6-8주 KPV 주기는 어떤가요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "투여 기간",
+                      "일수",
+                      "총 KPV 양",
+                      "10 mg 바이알"
+                    ],
+                    [
+                      "6주",
+                      "42",
+                      "21 mg",
+                      "바이알 3개"
+                    ],
+                    [
+                      "8주",
+                      "56",
+                      "28 mg",
+                      "바이알 3개"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV는 주기적으로 투여해야 하나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "투여 계획 틀",
+                      "보고된 휴지기",
+                      "근거 참고 사항"
+                    ],
+                    [
+                      "4주",
+                      "2–4주",
+                      "커뮤니티 관행이에요. 시험을 통한 비교는 없어요"
+                    ],
+                    [
+                      "6–8주",
+                      "2–4주",
+                      "흔히 논의되지만, 입증된 재설정 기간은 없어요"
+                    ],
+                    [
+                      "12주",
+                      "약 4주 이상",
+                      "연장된 커뮤니티 패턴으로, 임상적으로 확립되지 않았어요"
+                    ],
+                    [
+                      "16주",
+                      "4–8주",
+                      "근거에 큰 공백이 있는 일화적 계획 틀이에요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV 투여 경로에 따라 주기 길이가 달라지나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "투여 경로",
+                      "논의되는 내용",
+                      "주기 근거"
+                    ],
+                    [
+                      "경구",
+                      "장에 초점을 둔 커뮤니티 계획 틀과 동물 PepT1 연구",
+                      "확립된 인체 경구 투여 주기는 없어요"
+                    ],
+                    [
+                      "피하",
+                      "전신 투여 커뮤니티 프로토콜",
+                      "완료된 인체 피하 투여량 또는 주기 시험은 없어요"
+                    ],
+                    [
+                      "국소",
+                      "제형별 피부 연구",
+                      "제형 전반에 공통으로 적용되는 표준 농도나 주기는 없어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "10 mg KPV 바이알 하나는 얼마나 오래 사용할 수 있나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "계산에 사용한 일일 양",
+                      "계산식",
+                      "계산된 분할 횟수",
+                      "대략적인 기간"
+                    ],
+                    [
+                      "200 mcg",
+                      "10,000 ÷ 200",
+                      "50",
+                      "50일"
+                    ],
+                    [
+                      "300 mcg",
+                      "10,000 ÷ 300",
+                      "33.3",
+                      "약 33일"
+                    ],
+                    [
+                      "400 mcg",
+                      "10,000 ÷ 400",
+                      "25",
+                      "25일"
+                    ],
+                    [
+                      "500 mcg",
+                      "10,000 ÷ 500",
+                      "20",
+                      "20일"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [
+            {
+              "section": "KPV 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "보관 참조 기준",
+                  "주요 주의 사항"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "제품 설명서를 따르세요",
+                  "열, 직사광선, 습기로부터 보호하세요"
+                ],
+                [
+                  "재용해 상태",
+                  "일반적으로 냉장 보관해요. 라벨을 따르세요",
+                  "반복적인 온도 변화를 피하세요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_statements": [
+            {
+              "section": "KPV 연구의 안전성 한계",
+              "subsection": "",
+              "excerpt": "KPV는 주로 항염증 및 장 장벽 모델에서 연구되고 있어요. 누가 안전하게 사용할 수 있는지 규명한 인체 시험이 완료된 바 없으므로, 이 페이지는 개인의 사용 적격성에 대한 조언을 제공하지 않아요.",
+              "truncated": false
+            },
+            {
+              "section": "KPV 연구의 안전성 한계",
+              "subsection": "",
+              "excerpt": "일반적으로 연구 계획 범위에서 제외되는 경우: 임신 및 수유(안전성 자료 없음), 펩타이드 화합물에 대한 알려진 과민반응, 의료진의 감독이 없는 활동성 복합 감염 질환(염증 신호와 항미생물 신호 전달이 겹치기 때문이에요).",
+              "truncated": false
+            },
+            {
+              "section": "KPV 연구의 안전성 한계",
+              "subsection": "",
+              "excerpt": "주의가 필요한 경우: 처방된 면역조절제를 사용 중인 활동성 자가면역 질환(상호작용은 연구되지 않았어요), 처방 치료로 관리 중인 IBD 또는 기타 염증성 장 질환이에요. KPV는 처방약을 대체해서는 안 되며, 담당 의료진과 상의해야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "KPV 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "KPV는 동물 연구와 커뮤니티 사용에서 대체로 내약성이 양호하다고 보고되지만, 정식 인체 안전성 시험은 완료된 바 없어요. 장기 안전성 자료는 없어요.",
+              "truncated": false
+            },
+            {
+              "section": "KPV 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "흔히 보고되는 영향(시험 자료가 아닌 커뮤니티 수준의 보고): 경미하고 일시적인 주사 부위 자극, 간헐적인 경미한 두통, 높은 경구 투여량에서 간헐적으로 나타나는 위장 장애예요.",
+              "truncated": false
+            },
+            {
+              "section": "KPV 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "면역 특성: KPV는 면역계를 광범위하게 억제하기보다는 특정 염증 경로(특히 NF-kB)를 하향 조절해요. 동물 연구에서는 코르티코스테로이드에서 관찰되는 감염 감수성 양상이 나타나지 않았어요 — 하지만",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "PepT1 매개 트리펩타이드 KPV 흡수는 장 염증을 줄여요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/"
+          },
+          {
+            "label": "hyaluronic acid로 기능화한 나노입자를 통한 트리펩타이드 KPV의 경구 표적 전달은 궤양성 대장염을 효과적으로 완화해요.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/"
+          },
+          {
+            "label": "Alpha-MSH 관련 펩타이드: 새로운 계열의 항염증 및 면역조절 약물.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2095288/"
+          },
+          {
+            "label": "신경펩타이드 alpha-MSH와 염증: 말초 및 중추 항염증 효과.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10985255/"
+          },
+          {
+            "label": "잠재적인 신규 치료법을 위한 멜라노코르틴 수용체 표적화.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16289446/"
+          },
+          {
+            "label": "염증성 장 질환에서 멜라노코르틴 펩타이드의 치료 잠재력.",
+            "url": "https://www.nature.com/subjects/inflammatory-bowel-disease"
+          },
+          {
+            "label": "멜라노코르틴의 염증 조절.",
+            "url": "https://www.frontiersin.org/articles/10.3389/fendo.2019.00683/full"
+          },
+          {
+            "label": "alpha-melanocyte-stimulating hormone에 의한 대식세포 산화질소 합성효소의 자가분비 조절 근거.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7541113/"
+          },
+          {
+            "label": "Alpha-MSH는 실험적 염증성 장 질환을 조절해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9437733/"
+          },
+          {
+            "label": "급성, 만성 및 전신 염증에서 신경펩타이드 alpha-MSH의 항염증 효과.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2550304/"
+          },
+          {
+            "label": "503A에 따른 조제에 사용하도록 후보로 제안된 원료의약품: 범주 2 업데이트(KPV는 2026년 사월 22일부터 범주 2에서 제외됐어요).",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA가 펩타이드 12종의 지위 변경을 발표했어요(2026년 사월 15일 발표).",
+            "url": "https://ssrpinstitute.org/news/fda-announces-change-in-status-of-12-peptides/"
+          }
+        ],
+        "unresolved_fields": [
+          "duration",
+          "best_time_of_day",
+          "formulation_identity",
+          "human_validation"
+        ],
+        "notes": "출처 참조용으로만 제공되며, 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    },
+    {
+      "id": "85562a65-584d-449d-a623-2535e24ca360",
+      "productID": "kpv",
+      "title": "KPV — 출처에 제시된 피하 투여 범위",
+      "purpose": "출처에 기술된 참조용 계획",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티의 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 보류 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "kpv"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 재용해 표와 바이알 계산 / 재용해 공식"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 재용해 표와 바이알 계산 / 재용해 공식"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 재용해 표와 바이알 계산 / 재용해 공식"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 재용해 표와 바이알 계산 / 재용해 공식"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV 재용해 표와 바이알 계산 / 재용해 공식"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "커뮤니티 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+              "source_tables": [
+                {
+                  "section": "KPV 주기 길이 표",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "계획 틀",
+                      "보고된 투여 기간",
+                      "보고된 휴지기",
+                      "근거 수준"
+                    ],
+                    [
+                      "짧은 주기",
+                      "4주",
+                      "2–4주",
+                      "흔히 쓰이는 커뮤니티 참조 기준이에요. 대조 인체 시험은 없어요"
+                    ],
+                    [
+                      "표준 커뮤니티 범위",
+                      "6–8주",
+                      "2–4주",
+                      "자주 논의되지만 임상적으로 확립되지 않았어요"
+                    ],
+                    [
+                      "연장 주기",
+                      "12주",
+                      "약 4주 이상",
+                      "보고된 연장 기간으로, 장기 근거는 제한적이에요"
+                    ],
+                    [
+                      "장기 연장",
+                      "최대 16주",
+                      "4–8주",
+                      "일화적 근거예요. 이 기간을 검증한 KPV 시험은 없어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "커뮤니티의 KPV 주기와 연구 기간 비교",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "출처",
+                      "기간 예시",
+                      "연구 대상",
+                      "알 수 있는 점"
+                    ],
+                    [
+                      "커뮤니티 프로토콜",
+                      "4–8주",
+                      "경구 또는 피하 연구 계획 틀",
+                      "흔히 논의되는 일정을 보여주지만, 검증된 주기는 아니에요"
+                    ],
+                    [
+                      "연장된 커뮤니티 프로토콜",
+                      "8–12주",
+                      "더 긴 연구 계획",
+                      "연장을 기록한 것이며, 더 길수록 더 좋다는 증거는 아니에요"
+                    ],
+                    [
+                      "Dalmasso 외 (2008)",
+                      "48시간에서 8일까지",
+                      "생쥐 대장염 모델과 PepT1 수송",
+                      "단기 전임상 연구를 뒷받침하며, 인체 투여 주기를 뒷받침하지는 않아요"
+                    ],
+                    [
+                      "Kannengiesser 외 (2008)",
+                      "생쥐 대장염 모델에서 며칠간",
+                      "DSS 및 이식 유발 대장염 모델에서의 KPV",
+                      "동물 항염증 연구만 보여줘요"
+                    ],
+                    [
+                      "Xiao 외 (2017)",
+                      "단기 DSS 모델에서 매일 투여",
+                      "생쥐에 경구 투여한 KPV 탑재 나노입자",
+                      "전달 시스템 실험을 뒷받침하며, 유리형 KPV의 주기 지침을 뒷받침하지는 않아요"
+                    ],
+                    [
+                      "Dalmasso 외 (2016)",
+                      "회복 기간을 둔 반복 DSS 투여 기간",
+                      "생쥐의 대장염 관련 암 모델",
+                      "더 긴 동물 실험 설계를 보여주며, 연속 인체 투여 프로토콜은 아니에요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "6-8주 KPV 주기는 어떤가요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "투여 기간",
+                      "일수",
+                      "총 KPV 양",
+                      "10 mg 바이알"
+                    ],
+                    [
+                      "6주",
+                      "42",
+                      "21 mg",
+                      "바이알 3개"
+                    ],
+                    [
+                      "8주",
+                      "56",
+                      "28 mg",
+                      "바이알 3개"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV는 주기적으로 투여해야 하나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "투여 계획 틀",
+                      "보고된 휴지기",
+                      "근거 참고 사항"
+                    ],
+                    [
+                      "4주",
+                      "2–4주",
+                      "커뮤니티 관행이에요. 시험을 통한 비교는 없어요"
+                    ],
+                    [
+                      "6–8주",
+                      "2–4주",
+                      "흔히 논의되지만, 입증된 재설정 기간은 없어요"
+                    ],
+                    [
+                      "12주",
+                      "약 4주 이상",
+                      "연장된 커뮤니티 패턴으로, 임상적으로 확립되지 않았어요"
+                    ],
+                    [
+                      "16주",
+                      "4–8주",
+                      "근거에 큰 공백이 있는 일화적 계획 틀이에요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV 투여 경로에 따라 주기 길이가 달라지나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "투여 경로",
+                      "논의되는 내용",
+                      "주기 근거"
+                    ],
+                    [
+                      "경구",
+                      "장에 초점을 둔 커뮤니티 계획 틀과 동물 PepT1 연구",
+                      "확립된 인체 경구 투여 주기는 없어요"
+                    ],
+                    [
+                      "피하",
+                      "전신 투여 커뮤니티 프로토콜",
+                      "완료된 인체 피하 투여량 또는 주기 시험은 없어요"
+                    ],
+                    [
+                      "국소",
+                      "제형별 피부 연구",
+                      "제형 전반에 공통으로 적용되는 표준 농도나 주기는 없어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "10 mg KPV 바이알 하나는 얼마나 오래 사용할 수 있나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "계산에 사용한 일일 양",
+                      "계산식",
+                      "계산된 분할 횟수",
+                      "대략적인 기간"
+                    ],
+                    [
+                      "200 mcg",
+                      "10,000 ÷ 200",
+                      "50",
+                      "50일"
+                    ],
+                    [
+                      "300 mcg",
+                      "10,000 ÷ 300",
+                      "33.3",
+                      "약 33일"
+                    ],
+                    [
+                      "400 mcg",
+                      "10,000 ÷ 400",
+                      "25",
+                      "25일"
+                    ],
+                    [
+                      "500 mcg",
+                      "10,000 ÷ 500",
+                      "20",
+                      "20일"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [
+            {
+              "section": "KPV 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "보관 참조 기준",
+                  "주요 주의 사항"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "제품 설명서를 따르세요",
+                  "열, 직사광선, 습기로부터 보호하세요"
+                ],
+                [
+                  "재용해 상태",
+                  "일반적으로 냉장 보관해요. 라벨을 따르세요",
+                  "반복적인 온도 변화를 피하세요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_statements": [
+            {
+              "section": "KPV 연구의 안전성 한계",
+              "subsection": "",
+              "excerpt": "KPV는 주로 항염증 및 장 장벽 모델에서 연구되고 있어요. 누가 안전하게 사용할 수 있는지 규명한 인체 시험이 완료된 바 없으므로, 이 페이지는 개인의 사용 적격성에 대한 조언을 제공하지 않아요.",
+              "truncated": false
+            },
+            {
+              "section": "KPV 연구의 안전성 한계",
+              "subsection": "",
+              "excerpt": "일반적으로 연구 계획 범위에서 제외되는 경우: 임신 및 수유(안전성 자료 없음), 펩타이드 화합물에 대한 알려진 과민반응, 의료진의 감독이 없는 활동성 복합 감염 질환(염증 신호와 항미생물 신호 전달이 겹치기 때문이에요).",
+              "truncated": false
+            },
+            {
+              "section": "KPV 연구의 안전성 한계",
+              "subsection": "",
+              "excerpt": "주의가 필요한 경우: 처방된 면역조절제를 사용 중인 활동성 자가면역 질환(상호작용은 연구되지 않았어요), 처방 치료로 관리 중인 IBD 또는 기타 염증성 장 질환이에요. KPV는 처방약을 대체해서는 안 되며, 담당 의료진과 상의해야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "KPV 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "KPV는 동물 연구와 커뮤니티 사용에서 대체로 내약성이 양호하다고 보고되지만, 정식 인체 안전성 시험은 완료된 바 없어요. 장기 안전성 자료는 없어요.",
+              "truncated": false
+            },
+            {
+              "section": "KPV 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "흔히 보고되는 영향(시험 자료가 아닌 커뮤니티 수준의 보고): 경미하고 일시적인 주사 부위 자극, 간헐적인 경미한 두통, 높은 경구 투여량에서 간헐적으로 나타나는 위장 장애예요.",
+              "truncated": false
+            },
+            {
+              "section": "KPV 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "면역 특성: KPV는 면역계를 광범위하게 억제하기보다는 특정 염증 경로(특히 NF-kB)를 하향 조절해요. 동물 연구에서는 코르티코스테로이드에서 관찰되는 감염 감수성 양상이 나타나지 않았어요 — 하지만",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "PepT1 매개 트리펩타이드 KPV 흡수는 장 염증을 줄여요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/"
+          },
+          {
+            "label": "hyaluronic acid로 기능화한 나노입자를 통한 트리펩타이드 KPV의 경구 표적 전달은 궤양성 대장염을 효과적으로 완화해요.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/"
+          },
+          {
+            "label": "Alpha-MSH 관련 펩타이드: 새로운 계열의 항염증 및 면역조절 약물.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2095288/"
+          },
+          {
+            "label": "신경펩타이드 alpha-MSH와 염증: 말초 및 중추 항염증 효과.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10985255/"
+          },
+          {
+            "label": "잠재적인 신규 치료법을 위한 멜라노코르틴 수용체 표적화.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16289446/"
+          },
+          {
+            "label": "염증성 장 질환에서 멜라노코르틴 펩타이드의 치료 잠재력.",
+            "url": "https://www.nature.com/subjects/inflammatory-bowel-disease"
+          },
+          {
+            "label": "멜라노코르틴의 염증 조절.",
+            "url": "https://www.frontiersin.org/articles/10.3389/fendo.2019.00683/full"
+          },
+          {
+            "label": "alpha-melanocyte-stimulating hormone에 의한 대식세포 산화질소 합성효소의 자가분비 조절 근거.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7541113/"
+          },
+          {
+            "label": "Alpha-MSH는 실험적 염증성 장 질환을 조절해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9437733/"
+          },
+          {
+            "label": "급성, 만성 및 전신 염증에서 신경펩타이드 alpha-MSH의 항염증 효과.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2550304/"
+          },
+          {
+            "label": "503A에 따른 조제에 사용하도록 후보로 제안된 원료의약품: 범주 2 업데이트(KPV는 2026년 사월 22일부터 범주 2에서 제외됐어요).",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA가 펩타이드 12종의 지위 변경을 발표했어요(2026년 사월 15일 발표).",
+            "url": "https://ssrpinstitute.org/news/fda-announces-change-in-status-of-12-peptides/"
+          }
+        ],
+        "unresolved_fields": [
+          "duration",
+          "best_time_of_day",
+          "formulation_identity",
+          "human_validation"
+        ],
+        "notes": "출처 참조용으로만 제공되며, 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+      "title": "KPV Cycle Length: How Long Is a KPV Peptide Cycle? (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+      "title": "KPV Peptide Dosage Chart, Protocol & Reconstitution Guide (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/",
+      "title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation",
+      "publisher": "Gastroenterology / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "sourceID": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴지기에 관한 배경 근거이며, 투여량, 제품 라벨, 투여 경로 또는 집단별 지침을 대체하지 않아요.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "sourceID": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에 이 항목들이 기술되어 있어요. 일차 출처 검증은 보류 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "85562a65-584d-449d-a623-2535e24ca360",
+      "sourceID": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴지기에 관한 배경 근거이며, 투여량, 제품 라벨, 투여 경로 또는 집단별 지침을 대체하지 않아요.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "85562a65-584d-449d-a623-2535e24ca360",
+      "sourceID": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에 이 항목들이 기술되어 있어요. 일차 출처 검증은 보류 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "kpv",
+      "sourceID": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "색인된 원문 초록을 읽었어요. 인체 세포주와 DSS/TNBS 생쥐 대장염 실험이며, 치료받은 환자는 없어요. 범주 선정 근거: 직접적인 근거는 일반적인 회복보다는 실험적 장 염증 질환에 관한 것이에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    },
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

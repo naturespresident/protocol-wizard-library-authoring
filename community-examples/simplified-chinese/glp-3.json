@@ -1,0 +1,705 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-3",
+      "name": "Retatrutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "人体临床试验证据：研究中的皮下注射用 retatrutide 使未患糖尿病的肥胖成人体重显著下降。3 期 TRIUMPH-1 试验还发现，在相应受影响的亚组中，膝骨关节炎疼痛减轻，呼吸暂停低通气事件减少。这些结果针对所研究的药物、给药途径和患者人群，并不能证明含 retatrutide 的联用方案具有获益。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "productID": "glp-3",
+      "title": "Retatrutide——设有指定剂量组的 2 期肥胖症试验",
+      "purpose": "研究性肥胖症剂量探索试验",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "未经审查的参考资料摘录；并非完整的处方用药说明。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Investigational study product — NCT04881760",
+          "components": [
+            {
+              "name": "Retatrutide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "肥胖或符合条件的超重研究参与者；排除 2 型糖尿病患者",
+          "study_id": "NCT04881760",
+          "study_phase": "2"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "指定研究组，包括适用时的剂量递增",
+            "duration": {
+              "kind": "fixed",
+              "value": 336,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "1",
+                "4",
+                "8",
+                "12"
+              ],
+              "unit": "mg",
+              "basis": "total_product",
+              "kind": "target_dose_choices"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "trial_arms": [
+          {
+            "target_dose": "1",
+            "initial_dose": null
+          },
+          {
+            "target_dose": "4",
+            "initial_dose": "2"
+          },
+          {
+            "target_dose": "4",
+            "initial_dose": "4"
+          },
+          {
+            "target_dose": "8",
+            "initial_dose": "2"
+          },
+          {
+            "target_dose": "8",
+            "initial_dose": "4"
+          },
+          {
+            "target_dose": "12",
+            "initial_dose": "2"
+          }
+        ],
+        "unresolved_fields": [
+          "arm_specific_intermediate_doses_and_escalation_durations",
+          "formulation_and_preparation"
+        ],
+        "notes": "这是一个包含来源所报告各组的试验方案，并非六个独立的库条目。目标剂量并非每周都使用的剂量。制造商的试验摘要未提供完整的剂量递增序列。"
+      }
+    },
+    {
+      "id": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "productID": "glp-3",
+      "title": "Retatrutide——来源所述的 TRIUMPH 剂量递增阶梯",
+      "purpose": "来源所述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。尚待独立核实来源，并提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "phase_3_trials_described_by_secondary_source",
+          "indication_context": "TRIUMPH trial program",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "glp-3"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "12",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 复溶指南／ "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "四周剂量递增阶段 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "四周剂量递增阶段 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "四周剂量递增阶段 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "6",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "四周剂量递增阶段 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "9",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 17+ 周",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "12",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/retatrutide",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/retatrutide",
+              "source_tables": [
+                {
+                  "section": "Retatrutide 周期长度表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "持续时间",
+                      "研究",
+                      "该持续时间的含义"
+                    ],
+                    [
+                      "12 周",
+                      "针对 2 型糖尿病成人的 1b 期试验",
+                      "早期概念验证研究，重点考察安全性、耐受性、药代动力学和药效学。该研究并未确立 12 周周期的标准。"
+                    ],
+                    [
+                      "36 周",
+                      "2 期 2 型糖尿病试验",
+                      "后续 2 期试验的疗效和安全性结局评估持续至第 36 周。"
+                    ],
+                    [
+                      "40 周",
+                      "TRANSCEND-T2D-1 3 期试验",
+                      "针对通过饮食和运动仍控制不佳的 2 型糖尿病成人的 3 期治疗期。"
+                    ],
+                    [
+                      "48 周",
+                      "2 期肥胖症试验",
+                      "尽管主要体重终点早在第 24 周就已测量，治疗仍持续了 48 周。"
+                    ],
+                    [
+                      "68 周",
+                      "TRIUMPH-4 3 期试验",
+                      "针对未患糖尿病、患有肥胖症或超重且伴有膝骨关节炎的成人的主要 3 期评估期。"
+                    ],
+                    [
+                      "80 周",
+                      "TRIUMPH-1、TRIUMPH-2 和 TRIUMPH-3",
+                      "多个针对不同参与者群体的大型肥胖症研究所采用的主要 3 期结局评估期。"
+                    ],
+                    [
+                      "104 周",
+                      "TRIUMPH-1 延长期",
+                      "预先设定的盲法延长期对基线 BMI 至少为 35 的亚组进行了随访，涵盖两年的治疗。"
+                    ],
+                    [
+                      "80 + 36 周",
+                      "TRIUMPH-6 维持研究",
+                      "正在进行的研究，先接受 80 周 retatrutide 导入治疗，随后 36 周继续使用 retatrutide、改用不同剂量的 retatrutide 或使用安慰剂。结果尚未公布。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Retatrutide 周期长度与剂量滴定的比较",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "问题",
+                      "最适合查阅的页面",
+                      "该页面应包含的内容"
+                    ],
+                    [
+                      "Retatrutide 的研究持续了多久？",
+                      "本周期指南",
+                      "12、36、40、48、68、80 和 104 周的研究时间线"
+                    ],
+                    [
+                      "是否有证据支持 12 周周期？",
+                      "本周期指南",
+                      "12 周 1b 期研究能够和不能确立的结论"
+                    ],
+                    [
+                      "有证据支持多长的停药期？",
+                      "本周期指南",
+                      "维持治疗、停药以及缺乏经验证的周期间停药期"
+                    ],
+                    [
+                      "3 期试验的起始剂量是多少？",
+                      "Retatrutide 方案指南",
+                      "起始剂量与各试验的特定剂量设计"
+                    ],
+                    [
+                      "剂量滴定时间表是什么？",
+                      "Retatrutide 方案指南",
+                      "剂量递增与目标剂量组"
+                    ],
+                    [
+                      "小瓶和注射器的用量如何计算？",
+                      "Retatrutide 方案指南",
+                      "复溶、浓度与 U-100 计算示例"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_tables": [
+            {
+              "section": "Retatrutide 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干制剂（粉末形态），密封",
+                  "-4F（-20C）或以下（冷冻室）",
+                  "长期，最长可达 12+ 个月"
+                ],
+                [
+                  "冻干制剂（粉末形态），密封",
+                  "35.6-46.4F（2-8C）（冷藏室）",
+                  "数月"
+                ],
+                [
+                  "冻干制剂（粉末形态），运输中",
+                  "短期室温储存",
+                  "可稳定保存数周；粉末可耐受短期温度波动"
+                ],
+                [
+                  "复溶后（液体形态）",
+                  "35.6-46.4F（2-8C）（冷藏室）",
+                  "在 2-4 周内使用；避光保存"
+                ],
+                [
+                  "复溶后（液体形态）",
+                  "-4F（-20C）（分装后冷冻）",
+                  "最长可达 3-4 个月；避免反复冻融"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_statements": [
+            {
+              "section": "Retatrutide 适用于哪些人，以及哪些人应避免使用",
+              "subsection": "",
+              "excerpt": "目前 retatrutide 的研究对象包括肥胖成人、2 型糖尿病成人，以及患有膝骨关节炎、睡眠呼吸暂停和代谢功能障碍相关脂肪性肝病（MASLD）等体重相关疾病的成人。截至 2026 年八月，该药尚未获批用于任何用途，因此入选资格由试验规定，而非由药品说明书规定。",
+              "truncated": false
+            },
+            {
+              "section": "Retatrutide 适用于哪些人，以及哪些人应避免使用",
+              "subsection": "试验常见的排除标准",
+              "excerpt": "2 期和 3 期 retatrutide 试验通常排除以下参与者：有胰腺炎、甲状腺髓样癌或 2 型多发性内分泌腺瘤综合征（MEN 2）病史者，重度胃轻瘫患者，近期发生过重大心血管事件者，重度肾功能损害患者，1 型糖尿病患者（在肥胖症研究中），以及妊娠或哺乳期人群。这些排除标准与 semaglutide 和 tirzepatide 试验采用的一般模式相同。",
+              "truncated": false
+            },
+            {
+              "section": "Retatrutide 适用于哪些人，以及哪些人应避免使用",
+              "subsection": "妊娠、哺乳与备孕",
+              "excerpt": "尚未在妊娠或哺乳期人群中研究 retatrutide。试验要求采取有效避孕措施。处于这些情况的任何人都不应在合格医疗照护之外考虑使用 retatrutide。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "用于肥胖症的三重激素受体激动剂 Retatrutide——一项 2 期试验。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          },
+          {
+            "label": "GIP、GLP-1 和胰高血糖素受体激动剂 Retatrutide 用于 2 型糖尿病患者：一项随机、双盲、安慰剂及活性药物对照、平行组 2 期试验。",
+            "url": "https://doi.org/10.1016/S0140-6736(23)01053-X"
+          },
+          {
+            "label": "三重激素受体激动剂 retatrutide 用于代谢功能障碍相关脂肪性肝病：一项随机 2a 期试验。",
+            "url": "https://www.nature.com/articles/s41591-024-03018-2"
+          },
+          {
+            "label": "LY3437943，一种用于血糖控制和减重的新型胰高血糖素、GIP 和 GLP-1 三重受体激动剂：从发现到临床概念验证。",
+            "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+          },
+          {
+            "label": "Lilly 的三重激动剂 retatrutide 在首项成功的 3 期试验中实现平均减重最高达 71.2 lbs，同时显著缓解骨关节炎疼痛。",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average"
+          },
+          {
+            "label": "Lilly 的三重激动剂 retatrutide 在关键性 3 期肥胖症试验中实现显著减重。",
+            "url": "https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html"
+          },
+          {
+            "label": "Lilly 的三重激动剂 retatrutide 在另外两项 3 期肥胖症试验中取得成功，显著改善体重和 A1C。",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional"
+          },
+          {
+            "label": "Lilly 的三重激动剂 retatrutide 在首项治疗 2 型糖尿病的 3 期试验中显示 A1C 和体重显著下降。",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-demonstrated-significant"
+          },
+          {
+            "label": "关于 retatrutide 需要了解的信息。",
+            "url": "https://www.lilly.com/news/stories/what-to-know-about-retatrutide"
+          },
+          {
+            "label": "TRANSCEND-T2D-1：一项在 2 型糖尿病成人参与者中开展的 Retatrutide（LY3437943）研究（NCT06354660）。",
+            "url": "https://clinicaltrials.gov/study/NCT06354660"
+          },
+          {
+            "label": "TRIUMPH-4：一项在患有肥胖症和膝骨关节炎的参与者中开展的 Retatrutide（LY3437943）研究（NCT05929066）。",
+            "url": "https://clinicaltrials.gov/study/NCT05929066"
+          },
+          {
+            "label": "三重激动剂 Retatrutide 降低 T2D 患者的 A1c 和体重。",
+            "url": "https://www.medscape.com/viewarticle/triple-agonist-retatrutide-reduces-a1c-weight-t2d-2026a10008vn"
+          },
+          {
+            "label": "关于 FDA 审查品牌 GLP-1 药物的复配版本，以及有关网络卖家销售未获批肽类产品报告的声明。",
+            "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers"
+          }
+        ],
+        "unresolved_fields": [
+          "specific_trial_population_and_duration",
+          "product_identity",
+          "primary_registry_verification",
+          "exact_clock_time"
+        ],
+        "notes": "仅作为来源参考；未经审查。表格和独立参考文献仍可在来源记录中查阅。",
+        "trial_target_options": {
+          "options": [
+            "4",
+            "9",
+            "12"
+          ],
+          "unit": "mg",
+          "basis": "total_product"
+        },
+        "target_rule": "Lower target arms stop escalating at their assigned target; full ladder describes the 12 mg target."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "570a7d56-5e97-44d7-ac45-7e30476d4676",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42814954/",
+      "title": "Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity",
+      "publisher": "New England Journal of Medicine / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/retatrutide",
+      "title": "Retatrutide Protocol Guide: Starting Dose, Titration & Reconstitution",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "dfaf75c2-88f8-4271-8572-38af724691ae",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-phase-2-retatrutide-results-published-new-england-journal",
+      "title": "Lilly phase 2 retatrutide obesity trial results",
+      "publisher": "Eli Lilly and Company",
+      "type": "manufacturer",
+      "publishedAt": "2023-06-26"
+    },
+    {
+      "id": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/retatrutide",
+      "title": "Retatrutide Cycle Length: What Clinical Trials Actually Studied",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "相同的 2 期剂量组；中间剂量递增信息不完整的问题仍未解决。",
+      "supports": [
+        "/trial_arms"
+      ]
+    },
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "dfaf75c2-88f8-4271-8572-38af724691ae",
+      "locator": "About The Study (NCT04881760)",
+      "evidenceNote": "试验组和治疗时长有明确说明；缺少中间剂量递增步骤。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "有关持续时间／停药期的背景证据；不能替代有关剂量、产品说明书、给药途径或特定人群的用药说明。",
+      "supports": []
+    },
+    {
+      "protocolID": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "sourceID": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；尚待一手来源核实。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/trial_target_options",
+        "/target_rule"
+      ]
+    },
+    {
+      "protocolID": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "sourceID": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "有关持续时间／停药期的背景证据；不能替代有关剂量、产品说明书、给药途径或特定人群的用药说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "glp-3",
+      "sourceID": "570a7d56-5e97-44d7-ac45-7e30476d4676",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "2026 年九月 29 日发表；TRIUMPH-1 将 2,339 名参与者随机分组，研究持续 80 周，并报告了体重、骨关节炎疼痛及睡眠呼吸暂停的结局。分类依据：体重与代谢：肥胖症治疗是主要研究的获益，同时也研究了一些肥胖相关症状的结局。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下给药"
+    }
+  ]
+}

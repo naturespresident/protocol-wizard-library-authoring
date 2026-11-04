@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "epitalon",
+      "name": "Epitalon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 3,
+      "benefits": "实验室衰老研究：Epitalon/Epithalon 在培养的人体成纤维细胞中诱导了端粒酶活性和端粒延长。这是一项细胞层面的观察结果，并不能证明其能够延长人类寿命、逆转衰老、改善睡眠或预防疾病。有关松果体提取物的研究结果不应被视为支持这种合成肽的证据。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "73e1eff9-e8fd-450f-ae58-ae4301cb1ac3",
+      "productID": "epitalon",
+      "title": "Epitalon——来源中的 5 mg／20 天周期",
+      "purpose": "依据来源描述进行参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。尚待独立验证来源，并评估是否提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "epitalon"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon 复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "50",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon 复溶指南／ "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "短周期",
+            "duration": {
+              "kind": "fixed",
+              "value": 20,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": [
+            {
+              "section": "Epitalon 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "温度",
+                  "备注"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "-4 F（-20 C），长期储存",
+                  "保持干燥并避光。"
+                ],
+                [
+                  "复溶后（液体）",
+                  "35.6-46.4 F（2-8 C）",
+                  "在约 1-2 周内使用。"
+                ],
+                [
+                  "外观",
+                  "混合后澄清",
+                  "如出现浑浊或颗粒，请丢弃。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_statements": [
+            {
+              "section": "Epitalon 副作用与安全性",
+              "subsection": "",
+              "excerpt": "轻度嗜睡，尤其是在晚间给药时，因为该肽与褪黑素信号传导有关。",
+              "truncated": false
+            },
+            {
+              "section": "Epitalon 副作用与安全性",
+              "subsection": "",
+              "excerpt": "更大的安全性证据缺口在于未知因素，而非已知副作用。长期人体安全性数据有限，端粒酶问题在这里也很重要。理论上，激活端粒酶可能影响那些不希望其进一步分裂的细胞，因此，有癌症病史的人群被列为需谨慎对待的情况。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Epithalon 肽在人体体细胞中诱导端粒酶活性和端粒延长。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14668908/"
+          },
+          {
+            "label": "epithalamine（松果体肽制剂）对衰老加速的老年受试者的抗衰老作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17426848/"
+          },
+          {
+            "label": "长期给予肽类生物调节剂对老年受试者死亡率的影响（临床项目）。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14523363/"
+          },
+          {
+            "label": "肽制剂 epithalamin 对老年人松果体褪黑素功能昼夜节律的影响。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15514717/"
+          },
+          {
+            "label": "Epitalon 对雌性 SHR 小鼠衰老生物标志物、寿命及自发性肿瘤发生率的影响。",
+            "url": "https://link.springer.com/article/10.1023/A:1025114230714"
+          },
+          {
+            "label": "合成四肽 epitalon 恢复衰老猴紊乱的神经内分泌调节功能。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11524632/"
+          },
+          {
+            "label": "Epitalon 通过上调端粒酶或 ALT 活性增加人类细胞系的端粒长度。",
+            "url": "https://link.springer.com/article/10.1007/s10522-025-10315-x"
+          },
+          {
+            "label": "Epithalamin 和 Epithalon：证据与安全性的研究评估。",
+            "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Epithalamin-and-Epithalon-Cognitive-Vitality-For-Researchers.pdf"
+          },
+          {
+            "label": "Epitalon 的监管状态：并非经 FDA 批准的药物；研究用途背景。",
+            "url": "https://www.fda.gov/drugs"
+          }
+        ],
+        "unresolved_fields": [
+          "annual_repeat_conflict",
+          "human_validation",
+          "product_preparation"
+        ],
+        "notes": "仅供来源参考；未经审查。表格和独立参考文献仍可在来源记录中查阅。",
+        "repeat_guidance": {
+          "source_table_times_per_year": {
+            "minimum": 2,
+            "maximum": 3
+          },
+          "quick_start_times_per_year": {
+            "minimum": 1,
+            "maximum": 2
+          },
+          "conflict_requires_review": true
+        }
+      }
+    },
+    {
+      "id": "cd0f21cb-d747-45da-a3fa-6dd15fd4d19e",
+      "productID": "epitalon",
+      "title": "Epitalon——来源中的 10 mg／10 天周期",
+      "purpose": "依据来源描述进行参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。尚待独立验证来源，并评估是否提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "epitalon"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon 复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "50",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon 复溶指南／ "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "短周期",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": [
+            {
+              "section": "Epitalon 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "温度",
+                  "备注"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "-4 F（-20 C），长期储存",
+                  "保持干燥并避光。"
+                ],
+                [
+                  "复溶后（液体）",
+                  "35.6-46.4 F（2-8 C）",
+                  "在约 1-2 周内使用。"
+                ],
+                [
+                  "外观",
+                  "混合后澄清",
+                  "如出现浑浊或颗粒，请丢弃。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_statements": [
+            {
+              "section": "Epitalon 副作用与安全性",
+              "subsection": "",
+              "excerpt": "轻度嗜睡，尤其是在晚间给药时，因为该肽与褪黑素信号传导有关。",
+              "truncated": false
+            },
+            {
+              "section": "Epitalon 副作用与安全性",
+              "subsection": "",
+              "excerpt": "更大的安全性证据缺口在于未知因素，而非已知副作用。长期人体安全性数据有限，端粒酶问题在这里也很重要。理论上，激活端粒酶可能影响那些不希望其进一步分裂的细胞，因此，有癌症病史的人群被列为需谨慎对待的情况。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Epithalon 肽在人体体细胞中诱导端粒酶活性和端粒延长。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14668908/"
+          },
+          {
+            "label": "epithalamine（松果体肽制剂）对衰老加速的老年受试者的抗衰老作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17426848/"
+          },
+          {
+            "label": "长期给予肽类生物调节剂对老年受试者死亡率的影响（临床项目）。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14523363/"
+          },
+          {
+            "label": "肽制剂 epithalamin 对老年人松果体褪黑素功能昼夜节律的影响。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15514717/"
+          },
+          {
+            "label": "Epitalon 对雌性 SHR 小鼠衰老生物标志物、寿命及自发性肿瘤发生率的影响。",
+            "url": "https://link.springer.com/article/10.1023/A:1025114230714"
+          },
+          {
+            "label": "合成四肽 epitalon 恢复衰老猴紊乱的神经内分泌调节功能。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11524632/"
+          },
+          {
+            "label": "Epitalon 通过上调端粒酶或 ALT 活性增加人类细胞系的端粒长度。",
+            "url": "https://link.springer.com/article/10.1007/s10522-025-10315-x"
+          },
+          {
+            "label": "Epithalamin 和 Epithalon：证据与安全性的研究评估。",
+            "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Epithalamin-and-Epithalon-Cognitive-Vitality-For-Researchers.pdf"
+          },
+          {
+            "label": "Epitalon 的监管状态：并非经 FDA 批准的药物；研究用途背景。",
+            "url": "https://www.fda.gov/drugs"
+          }
+        ],
+        "unresolved_fields": [
+          "annual_repeat_conflict",
+          "human_validation",
+          "product_preparation"
+        ],
+        "notes": "仅供来源参考；未经审查。表格和独立参考文献仍可在来源记录中查阅。",
+        "repeat_guidance": {
+          "source_table_times_per_year": {
+            "minimum": 2,
+            "maximum": 3
+          },
+          "quick_start_times_per_year": {
+            "minimum": 1,
+            "maximum": 2
+          },
+          "conflict_requires_review": true
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "44a06a93-4122-443a-84bd-8e80c0467cd5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12937682/",
+      "title": "Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells",
+      "publisher": "Bulletin of Experimental Biology and Medicine / PubMed",
+      "type": "lab_study",
+      "publishedAt": null
+    },
+    {
+      "id": "86808e60-d081-46e4-aea4-66915c604548",
+      "url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+      "title": "Epitalon Peptide Protocol Guide: Dosing, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "73e1eff9-e8fd-450f-ae58-ae4301cb1ac3",
+      "sourceID": "86808e60-d081-46e4-aea4-66915c604548",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；尚待核实一手来源。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/repeat_guidance"
+      ]
+    },
+    {
+      "protocolID": "cd0f21cb-d747-45da-a3fa-6dd15fd4d19e",
+      "sourceID": "86808e60-d081-46e4-aea4-66915c604548",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；尚待核实一手来源。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/repeat_guidance"
+      ]
+    },
+    {
+      "productID": "epitalon",
+      "sourceID": "44a06a93-4122-443a-84bd-8e80c0467cd5",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读被收录的原始摘要。研究采用人类胎儿成纤维细胞培养物，并非人体治疗试验；仅涉及细胞层面的替代结局。分类依据：细胞衰老机制是直接研究主题，尚未证实对人类长寿有益。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "抗衰老与皮肤"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

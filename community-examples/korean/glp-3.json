@@ -1,0 +1,705 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-3",
+      "name": "Retatrutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "인체 임상시험 근거: 시험용 retatrutide 피하주사는 당뇨병이 없는 비만 성인에서 유의한 체중 감소를 보였어요. 3상 TRIUMPH-1 시험에서는 해당 질환이 있는 하위 집단에서 무릎 골관절염 통증과 무호흡-저호흡 사건도 감소했어요. 이 결과는 연구된 약물, 투여 경로 및 환자 집단에 관한 것이며 retatrutide를 포함한 병용 조합의 이점을 입증하지는 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "productID": "glp-3",
+      "title": "Retatrutide — 용량군을 배정한 2상 비만 시험",
+      "purpose": "시험용 약물의 비만 치료 용량 탐색 시험",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "검토되지 않은 참고자료 발췌이며, 완전한 처방 지침은 아니에요.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Investigational study product — NCT04881760",
+          "components": [
+            {
+              "name": "Retatrutide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "비만이거나 적격 기준에 해당하는 과체중 연구 참여자; 2형 당뇨병 제외",
+          "study_id": "NCT04881760",
+          "study_phase": "2"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "해당하는 경우 증량을 포함하는 배정된 연구군",
+            "duration": {
+              "kind": "fixed",
+              "value": 336,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "1",
+                "4",
+                "8",
+                "12"
+              ],
+              "unit": "mg",
+              "basis": "total_product",
+              "kind": "target_dose_choices"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "trial_arms": [
+          {
+            "target_dose": "1",
+            "initial_dose": null
+          },
+          {
+            "target_dose": "4",
+            "initial_dose": "2"
+          },
+          {
+            "target_dose": "4",
+            "initial_dose": "4"
+          },
+          {
+            "target_dose": "8",
+            "initial_dose": "2"
+          },
+          {
+            "target_dose": "8",
+            "initial_dose": "4"
+          },
+          {
+            "target_dose": "12",
+            "initial_dose": "2"
+          }
+        ],
+        "unresolved_fields": [
+          "arm_specific_intermediate_doses_and_escalation_durations",
+          "formulation_and_preparation"
+        ],
+        "notes": "출처에 보고된 시험군을 포함하는 하나의 시험 프로토콜이며, 별도의 라이브러리 항목 여섯 개가 아니에요. 목표 용량은 매주 투여하는 용량을 뜻하지 않아요. 제조사의 시험 요약에는 전체 증량 순서가 제시되어 있지 않아요."
+      }
+    },
+    {
+      "id": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "productID": "glp-3",
+      "title": "Retatrutide — 출처에 제시된 TRIUMPH 단계별 용량 증량",
+      "purpose": "출처에 설명된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "편집 기사/커뮤니티의 이차적 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 보류 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "phase_3_trials_described_by_secondary_source",
+          "indication_context": "TRIUMPH trial program",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "glp-3"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 재용해 가이드 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 재용해 가이드 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "12",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 재용해 가이드 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 재용해 가이드 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide 재용해 가이드 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "사 주 간격 증량 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "사 주 간격 증량 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "사 주 간격 증량 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "6",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "사 주 간격 증량 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "9",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "17+주차",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "12",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/retatrutide",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/retatrutide",
+              "source_tables": [
+                {
+                  "section": "Retatrutide 주기 길이 표",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "기간",
+                      "연구",
+                      "기간의 의미"
+                    ],
+                    [
+                      "12주",
+                      "2형 당뇨병 성인 대상 1b상 시험",
+                      "안전성, 내약성, 약동학 및 약력학에 초점을 맞춘 초기 개념 입증 연구예요. 12주 주기의 표준을 확립하지는 않았어요."
+                    ],
+                    [
+                      "36주",
+                      "2상 2형 당뇨병 시험",
+                      "이후 2상 유효성 및 안전성 결과를 36주차까지 평가했어요."
+                    ],
+                    [
+                      "40주",
+                      "TRANSCEND-T2D-1 3상",
+                      "식이요법과 운동으로 충분히 조절되지 않는 2형 당뇨병 성인을 대상으로 한 3상 치료 기간이에요."
+                    ],
+                    [
+                      "48주",
+                      "2상 비만 시험",
+                      "체중 관련 일차 평가변수는 더 이른 시점인 24주차에 측정했지만 치료는 48주 동안 지속했어요."
+                    ],
+                    [
+                      "68주",
+                      "TRIUMPH-4 3상",
+                      "당뇨병이 없고 비만 또는 과체중이면서 무릎 골관절염이 있는 성인을 대상으로 한 3상 일차 평가 기간이에요."
+                    ],
+                    [
+                      "80주",
+                      "TRIUMPH-1, TRIUMPH-2 및 TRIUMPH-3",
+                      "서로 다른 참여자 집단을 대상으로 한 여러 대규모 비만 연구에서 사용된 3상 일차 결과 평가 기간이에요."
+                    ],
+                    [
+                      "104주",
+                      "TRIUMPH-1 연장 연구",
+                      "사전에 명시된 눈가림 연장 연구에서 기저 BMI가 35 이상인 하위 집단을 이 년간의 치료 동안 추적했어요."
+                    ],
+                    [
+                      "80 + 36주",
+                      "TRIUMPH-6 유지 연구",
+                      "retatrutide를 80주 동안 선행 투여한 후 36주 동안 retatrutide를 계속 투여하거나 다른 용량의 retatrutide 또는 위약을 투여하는 진행 중인 연구예요. 결과는 아직 나와 있지 않아요."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Retatrutide 주기 길이와 용량 적정의 비교",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "질문",
+                      "가장 적합한 페이지",
+                      "해당 페이지에 포함되는 내용"
+                    ],
+                    [
+                      "retatrutide는 얼마나 오랫동안 연구되었나요?",
+                      "이 주기 가이드",
+                      "12주, 36주, 40주, 48주, 68주, 80주 및 104주 연구 일정"
+                    ],
+                    [
+                      "12주 주기를 뒷받침하는 근거가 있나요?",
+                      "이 주기 가이드",
+                      "12주 1b상 연구가 확립할 수 있는 것과 없는 것"
+                    ],
+                    [
+                      "얼마나 긴 휴약 기간을 뒷받침하는 근거가 있나요?",
+                      "이 주기 가이드",
+                      "유지, 투여 중단 및 검증된 휴약 기간의 부재"
+                    ],
+                    [
+                      "3상 시작 용량은 얼마였나요?",
+                      "Retatrutide 프로토콜 가이드",
+                      "시작 용량 및 시험별 용량 설계"
+                    ],
+                    [
+                      "용량 적정 일정은 어떻게 되나요?",
+                      "Retatrutide 프로토콜 가이드",
+                      "용량 증량 및 목표 용량군"
+                    ],
+                    [
+                      "바이알과 주사기 계산은 어떻게 하나요?",
+                      "Retatrutide 프로토콜 가이드",
+                      "재용해, 농도 및 U-100 계산 예시"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_tables": [
+            {
+              "section": "Retatrutide 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "보관",
+                  "참고사항"
+                ],
+                [
+                  "동결건조 상태(분말 형태), 밀봉",
+                  "-4F (-20C) 이하(냉동고)",
+                  "장기 보관, 최대 12+개월"
+                ],
+                [
+                  "동결건조 상태(분말 형태), 밀봉",
+                  "35.6-46.4F (2-8C) (냉장고)",
+                  "수개월"
+                ],
+                [
+                  "동결건조 상태(분말 형태), 배송 중",
+                  "단기간 실온 보관",
+                  "수 주 동안 안정적이에요. 분말은 단기간의 온도 변화를 견뎌요."
+                ],
+                [
+                  "재용해 상태(액체 형태)",
+                  "35.6-46.4F (2-8C) (냉장고)",
+                  "2-4주 이내에 사용해요. 빛으로부터 보호해요."
+                ],
+                [
+                  "재용해 상태(액체 형태)",
+                  "-4F (-20C) (소분하여 냉동)",
+                  "최대 3-4개월; 냉동과 해동을 반복하지 않도록 해요."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_statements": [
+            {
+              "section": "Retatrutide의 대상과 사용을 피해야 하는 대상",
+              "subsection": "",
+              "excerpt": "Retatrutide는 현재 비만 성인, 2형 당뇨병 성인, 그리고 무릎 골관절염, 수면 무호흡증, 대사이상 관련 지방간질환(MASLD)과 같은 체중 관련 질환이 있는 성인을 대상으로 연구되고 있어요. 2026년 팔월 기준으로 어떤 용도로도 승인되지 않았으므로, 적격 기준은 허가사항이 아닌 시험에서 정해요.",
+              "truncated": false
+            },
+            {
+              "section": "Retatrutide의 대상과 사용을 피해야 하는 대상",
+              "subsection": "시험 제외 기준의 공통 양상",
+              "excerpt": "2상 및 3상 retatrutide 시험에서는 췌장염, 갑상선 수질암, 다발성 내분비샘 종양 증후군 2형(MEN 2), 중증 위마비, 최근의 주요 심혈관 사건, 중증 신장애, 1형 당뇨병(비만 연구의 경우)의 병력이 있거나 임신 또는 수유 중인 참여자를 일반적으로 제외했어요. 이러한 제외 기준은 semaglutide 및 tirzepatide 시험에서 사용된 것과 전반적으로 같은 양상을 따라요.",
+              "truncated": false
+            },
+            {
+              "section": "Retatrutide의 대상과 사용을 피해야 하는 대상",
+              "subsection": "임신, 수유 및 임신 시도",
+              "excerpt": "Retatrutide는 임신 또는 수유 중인 사람을 대상으로 연구되지 않았어요. 시험에서는 효과적인 피임을 요구해요. 이러한 상황에 해당한다면 누구든 자격을 갖춘 의료진의 진료 없이 retatrutide 사용을 고려해서는 안 돼요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "비만 치료를 위한 삼중 호르몬 수용체 작용제 Retatrutide - 2상 시험.",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          },
+          {
+            "label": "2형 당뇨병 환자를 위한 GIP, GLP-1 및 glucagon 수용체 작용제 Retatrutide: 무작위 배정, 이중 눈가림, 위약 및 활성 대조, 평행군 2상 시험.",
+            "url": "https://doi.org/10.1016/S0140-6736(23)01053-X"
+          },
+          {
+            "label": "대사이상 관련 지방간질환 치료를 위한 삼중 호르몬 수용체 작용제 retatrutide: 무작위 배정 2a상 시험.",
+            "url": "https://www.nature.com/articles/s41591-024-03018-2"
+          },
+          {
+            "label": "혈당 조절과 체중 감소를 위한 새로운 glucagon, GIP 및 GLP-1 삼중 수용체 작용제 LY3437943: 발굴부터 임상적 개념 입증까지.",
+            "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+          },
+          {
+            "label": "Lilly의 삼중 작용제 retatrutide는 최초로 성공한 3상 시험에서 골관절염 통증의 상당한 완화와 함께 평균 최대 71.2 lbs의 체중 감소를 보였어요.",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average"
+          },
+          {
+            "label": "Lilly의 삼중 작용제 retatrutide는 핵심 3상 비만 시험에서 강력한 체중 감소를 보였어요.",
+            "url": "https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html"
+          },
+          {
+            "label": "Lilly의 삼중 작용제 retatrutide는 추가로 진행한 두 건의 3상 비만 시험에서 성공을 거두며 체중과 A1C의 유의한 개선을 보였어요.",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional"
+          },
+          {
+            "label": "Lilly의 삼중 작용제 retatrutide는 2형 당뇨병 치료를 위한 최초의 3상 시험에서 A1C와 체중의 유의한 감소를 입증했어요.",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-demonstrated-significant"
+          },
+          {
+            "label": "retatrutide에 대해 알아야 할 사항.",
+            "url": "https://www.lilly.com/news/stories/what-to-know-about-retatrutide"
+          },
+          {
+            "label": "TRANSCEND-T2D-1: 2형 당뇨병 성인 참여자를 대상으로 한 Retatrutide (LY3437943) 연구(NCT06354660).",
+            "url": "https://clinicaltrials.gov/study/NCT06354660"
+          },
+          {
+            "label": "TRIUMPH-4: 비만과 무릎 골관절염이 있는 참여자를 대상으로 한 Retatrutide (LY3437943) 연구(NCT05929066).",
+            "url": "https://clinicaltrials.gov/study/NCT05929066"
+          },
+          {
+            "label": "삼중 작용제 Retatrutide는 T2D에서 A1c와 체중을 감소시켜요.",
+            "url": "https://www.medscape.com/viewarticle/triple-agonist-retatrutide-reduces-a1c-weight-t2d-2026a10008vn"
+          },
+          {
+            "label": "유명 상표 GLP-1 의약품의 조제 제제에 대한 FDA의 검토와 온라인 판매자가 미승인 펩타이드를 판매한다는 보고에 관한 성명.",
+            "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers"
+          }
+        ],
+        "unresolved_fields": [
+          "specific_trial_population_and_duration",
+          "product_identity",
+          "primary_registry_verification",
+          "exact_clock_time"
+        ],
+        "notes": "출처 참고용으로만 제공하며 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요.",
+        "trial_target_options": {
+          "options": [
+            "4",
+            "9",
+            "12"
+          ],
+          "unit": "mg",
+          "basis": "total_product"
+        },
+        "target_rule": "Lower target arms stop escalating at their assigned target; full ladder describes the 12 mg target."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "570a7d56-5e97-44d7-ac45-7e30476d4676",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42814954/",
+      "title": "Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity",
+      "publisher": "New England Journal of Medicine / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/retatrutide",
+      "title": "Retatrutide Protocol Guide: Starting Dose, Titration & Reconstitution",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "dfaf75c2-88f8-4271-8572-38af724691ae",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-phase-2-retatrutide-results-published-new-england-journal",
+      "title": "Lilly phase 2 retatrutide obesity trial results",
+      "publisher": "Eli Lilly and Company",
+      "type": "manufacturer",
+      "publishedAt": "2023-06-26"
+    },
+    {
+      "id": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/retatrutide",
+      "title": "Retatrutide Cycle Length: What Clinical Trials Actually Studied",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "동일한 2상 용량군이에요. 불완전한 중간 증량 정보는 여전히 해결되지 않았어요.",
+      "supports": [
+        "/trial_arms"
+      ]
+    },
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "dfaf75c2-88f8-4271-8572-38af724691ae",
+      "locator": "About The Study (NCT04881760)",
+      "evidenceNote": "시험군과 치료 기간은 명시되어 있지만 중간 증량 단계는 제시되어 있지 않아요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴약에 관한 배경 근거이며, 용량, 제품 허가사항, 투여 경로 또는 대상 집단별 지침을 대체하지 않아요.",
+      "supports": []
+    },
+    {
+      "protocolID": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "sourceID": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에 이 필드들이 설명되어 있어요. 일차 출처를 통한 검증은 아직 보류 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/trial_target_options",
+        "/target_rule"
+      ]
+    },
+    {
+      "protocolID": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "sourceID": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴약에 관한 배경 근거이며, 용량, 제품 허가사항, 투여 경로 또는 대상 집단별 지침을 대체하지 않아요.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "glp-3",
+      "sourceID": "570a7d56-5e97-44d7-ac45-7e30476d4676",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "2026년 구월 29일 발표예요. TRIUMPH-1은 참여자 2,339명을 무작위 배정하여 80주 동안 연구했으며 체중, 골관절염 통증 및 수면 무호흡증 결과를 보고해요. 범주 분류 근거: 체중 및 대사: 비만 치료가 연구된 주요 이점이며, 일부 비만 관련 증상 결과도 포함돼요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

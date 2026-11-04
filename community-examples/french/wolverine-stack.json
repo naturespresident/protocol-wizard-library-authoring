@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "wolverine-stack",
+      "name": "Wolverine Stack",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "Une étude exploratoire chez le rat portant sur les deux composants nommés a rapporté un signal sur l’histologie tendineuse, sans bénéfice supplémentaire de leur association. Elle n’établit ni l’efficacité du schéma nommé Wolverine ou de son calendrier d’administration de produits séparés, ni l’identité de son TB-500. Aucun bénéfice vérifié de cette association chez l’humain n’a été trouvé."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "40e26259-2ba0-400e-bc43-ff9bd6fbc884",
+      "productID": "wolverine-stack",
+      "title": "Wolverine — produits de charge et d’entretien indépendants",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Source éditoriale secondaire ; aucune validation clinique automatique ni adoption comme protocole par défaut dans l’application.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            },
+            {
+              "library_item_id": "tb-500"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Schéma propre à chaque composant",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Calendriers propres à chaque composant"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+            "locator": "Protocole posologique et calendrier ; indications de la source sur le moment d’administration"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Durée du cycle de Wolverine Stack : calendriers communautaires de 6–12 semaines",
+              "subsection": "",
+              "rows": [
+                [
+                  "Approche",
+                  "Charge",
+                  "Entretien",
+                  "Cycle total",
+                  "Contexte courant"
+                ],
+                [
+                  "Prémélange quotidien",
+                  "—",
+                  "0.5–2.0 mg de mélange au total par jour",
+                  "6–12 semaines",
+                  "Priorité à la commodité, exposition constante"
+                ],
+                [
+                  "Flacons séparés, schéma standard",
+                  "Semaines 1–4",
+                  "Semaines 5–8",
+                  "8–12 semaines",
+                  "Charge puis diminution progressive pour la planification en cas de blessure"
+                ],
+                [
+                  "Flacons séparés, schéma prolongé",
+                  "Semaines 1–4",
+                  "Semaines 5–12",
+                  "12 semaines",
+                  "Planification de la recherche sur les tissus à cicatrisation plus lente"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Tableau de la durée du cycle de Wolverine Stack",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Durée du cycle",
+                      "Description habituelle",
+                      "Note sur les données probantes"
+                    ],
+                    [
+                      "4–6 semaines",
+                      "Cycle court ciblé ou plan initial limité à la charge",
+                      "Courant dans les discussions communautaires ; non testé comme protocole clinique associant les composants"
+                    ],
+                    [
+                      "6–8 semaines",
+                      "Cycle complet le plus courant, avec phases de charge et d’entretien",
+                      "Norme communautaire ; aucun essai contrôlé chez l’humain"
+                    ],
+                    [
+                      "8–12 semaines",
+                      "Plan prolongé pour des échéances de recherche plus lentes ou plus longues",
+                      "Moins uniforme et étayé par encore moins de données de sécurité"
+                    ],
+                    [
+                      "Plus de 12 semaines",
+                      "Utilisation à long terme ou répétée",
+                      "Aucune base établie de sécurité chez l’humain pour cette association de composants"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Phases de charge et d’entretien",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Phase",
+                      "Période habituelle",
+                      "Description communautaire"
+                    ],
+                    [
+                      "Phase de charge",
+                      "Semaines 1–4",
+                      "Partie du plan où la fréquence d’administration est la plus élevée. Les calendriers avec flacons séparés prévoient souvent BPC-157 chaque jour et TB-500 moins fréquemment."
+                    ],
+                    [
+                      "Phase d’entretien",
+                      "Semaines 5–8",
+                      "BPC-157 peut rester administré quotidiennement, tandis que la fréquence d’administration de TB-500 est souvent réduite."
+                    ],
+                    [
+                      "Phase prolongée",
+                      "Semaines 9–12",
+                      "Certains plans communautaires poursuivent un schéma à fréquence réduite, mais les données étayant cette prolongation sont faibles."
+                    ],
+                    [
+                      "Période d’arrêt entre les cycles",
+                      "Après le cycle actif",
+                      "Les plans communautaires comprennent souvent une période sans aucun des deux composés, mais aucune période d’élimination validée n’existe."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cycles avec prémélange ou avec flacons séparés",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Format",
+                      "Schéma d’administration courant",
+                      "Principale limite"
+                    ],
+                    [
+                      "Flacon de prémélange 1:1",
+                      "Un prélèvement combiné selon un calendrier régulier tout au long du cycle",
+                      "Le rapport entre les doses reste fixe ; il est donc impossible de modifier un composé sans modifier l’autre"
+                    ],
+                    [
+                      "Flacons séparés de BPC-157 et de TB-500",
+                      "BPC-157 quotidien avec TB-500 moins fréquent, souvent suivi d’une phase à fréquence réduite",
+                      "Calculs plus complexes et davantage de risques d’erreurs de calendrier"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de Wolverine Stack",
+              "subsection": "",
+              "rows": [
+                [
+                  "État",
+                  "BPC-157",
+                  "TB-500"
+                ],
+                [
+                  "Lyophilisé (poudre)",
+                  "-4°F (-20°C) à long terme ; au frais, au sec et à l’abri de la lumière",
+                  "-4°F (-20°C) à long terme ; au frais, au sec et à l’abri de la lumière"
+                ],
+                [
+                  "Reconstitué (liquide)",
+                  "35.6–46.4°F (2–8°C) ; utiliser dans les ~30 jours",
+                  "35.6–46.4°F (2–8°C) ; utiliser dans les ~30 jours"
+                ],
+                [
+                  "Exposition à la lumière",
+                  "Protéger de la lumière directe",
+                  "Protéger de la lumière directe"
+                ],
+                [
+                  "Aspect",
+                  "Limpide après reconstitution",
+                  "Limpide ou très légèrement teinté"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de Wolverine Stack",
+              "subsection": "Préoccupations théoriques et liées à l’association",
+              "excerpt": "Les deux composés favorisent l’angiogenèse, qui est le mécanisme recherché pour la réparation, mais constitue aussi une voie impliquée dans la croissance tumorale. Un article de Cha et al. publié en 2003 dans J Natl Cancer Inst a rapporté que l’expression de Thymosin Beta-4 augmentait les métastases de tumeurs pulmonaires dans un modèle murin B16-F10. La portée de ces résultats pour un fragment exogène de TB-500 chez l’humain est inconnue, mais il s’agit du risque théorique le plus cité chez les cliniciens",
+              "truncated": true
+            },
+            {
+              "section": "Effets indésirables et sécurité de Wolverine Stack",
+              "subsection": "Sport et compétition",
+              "excerpt": "BPC-157 et TB-500 sont tous deux interdits dans la catégorie S0 des substances non approuvées de la WADA, en compétition et hors compétition. Les athlètes soumis à un programme de contrôle de la WADA, de l’USADA ou de toute instance dirigeante sportive ne devraient pas présumer de l’existence d’un délai d’élimination — ces substances sont détectables et interdites quel que soit le moment de leur utilisation.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Utilisation émergente de BPC-157 en médecine orthopédique du sport : revue systématique.",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15563316251355551"
+          },
+          {
+            "label": "Désinsertion du tendon d’Achille chez le rat et pentadécapeptide gastrique stable BPC 157 : amélioration de la cicatrisation tendon-os et atténuation de l’aggravation due aux corticostéroïdes.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16583442/"
+          },
+          {
+            "label": "L’effet du pentadécapeptide BPC 157 favorisant la cicatrisation tendineuse implique la croissance tendineuse, la survie cellulaire et la migration cellulaire.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21164151/"
+          },
+          {
+            "label": "Pentadécapeptide gastrique stable BPC 157 et cicatrisation des plaies.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34267654/"
+          },
+          {
+            "label": "Multifonctionnalité et application médicale possible du peptide BPC 157 — revue de la littérature et des brevets.",
+            "url": "https://www.mdpi.com/1424-8247/18/2/185"
+          },
+          {
+            "label": "Thymosin beta 4 stimule la migration directionnelle des cellules endothéliales de la veine ombilicale humaine.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9194528/"
+          },
+          {
+            "label": "Thymosin beta-4 et angiogenèse : modes d’action et potentiel thérapeutique.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17632766/"
+          },
+          {
+            "label": "Thymosin beta4 favorise l’angiogenèse, la cicatrisation des plaies et le développement des follicules pileux.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15037013/"
+          },
+          {
+            "label": "Progrès concernant la fonction et l’application de Thymosin β4.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "Rôle de thymosin beta4 dans les métastases tumorales et l’angiogenèse.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14625258/"
+          },
+          {
+            "label": "Standard international du Code mondial antidopage 2025 — Liste des interdictions — Section S0 (Substances non approuvées).",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_duration_choice",
+          "time_of_day",
+          "TB_500_exact_sequence",
+          "source_total_cycle_vs_phase_endpoint"
+        ],
+        "notes": "Référence à la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans l’enregistrement de la source.",
+        "component_regimens": [
+          {
+            "component_id": "bpc-157",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "Charge",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "250",
+                  "maximum": "500",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "Entretien",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+                "locator": "Protocole posologique et calendrier ; indications de la source sur le moment d’administration"
+              }
+            }
+          },
+          {
+            "component_id": "tb-500",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "Charge",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "2",
+                  "maximum": "5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "times_per_week",
+                  "times_per_week": 2,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "Entretien",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "source_described",
+                  "doses_per_day": null,
+                  "suggested_times": [],
+                  "frequency_range": {
+                    "minimum": 1,
+                    "maximum": 2,
+                    "period": "week"
+                  },
+                  "description": "1-2x/semaine"
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+                "locator": "Protocole posologique et calendrier ; indications de la source sur le moment d’administration"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+      "title": "Wolverine Stack Dosing Guide: BPC-157 + TB-500 Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "url": "https://jointdrs.org/full-text/1851",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study",
+      "publisher": "Joint Diseases and Related Surgery",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+      "title": "Wolverine Stack Cycle Length: 6–12 Week Research Schedules",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "40e26259-2ba0-400e-bc43-ff9bd6fbc884",
+      "sourceID": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "La source décrit les champs ; vérification indépendante en attente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "40e26259-2ba0-400e-bc43-ff9bd6fbc884",
+      "sourceID": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Données contextuelles sur la durée et les périodes d’arrêt ; ne remplacent pas les instructions propres à la dose, à l’étiquetage du produit, à la voie d’administration ou à la population.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "wolverine-stack",
+      "sourceID": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Texte intégral original lu ; expérience associant les composants chez le rat, sans validation de l’association commerciale nommée ni de son calendrier. Justification de la catégorie : la recherche sur la réparation des tendons et des tissus est l’objectif visé, sans preuve de l’efficacité du schéma nommé.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cicatrisation et récupération"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

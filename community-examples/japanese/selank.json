@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "selank",
+      "name": "Selank",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 5,
+      "benefits": "不安症状への有益性の可能性：全般性不安障害または神経衰弱の患者を対象としたロシアの小規模な比較試験では、medazepamと同程度の不安の改善に加え、疲労に関連する症状の改善が報告されました。これは予備的な臨床的エビデンスであり、幅広い抗不安効果や認知機能向上効果を決定的に示すものではありません。この研究は小規模で、実薬対照を用いており、健康な方の記憶、認知、うつ病、またはこのライブラリのプロトコルの長期使用に対する有益性を確立するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "79eee387-88ba-4942-8c74-59ff4491af11",
+      "productID": "selank",
+      "title": "Selank — 出典に記載された皮下投与の導入、休薬および再実施",
+      "purpose": "出典の記述に基づく参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事／コミュニティの記述です。独立した出典の検証とアプリのデフォルトへの採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "selank"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank再溶解ガイド / Selank 10 mg の再溶解計算"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank再溶解ガイド / Selank 10 mg の再溶解計算"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank再溶解ガイド / Selank 10 mg の再溶解計算"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "6",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank再溶解ガイド / Selank 10 mg の再溶解計算"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "10",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank再溶解ガイド / Selank 10 mg の再溶解計算"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "導入期：第1–2週",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "維持期：第3–4週",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "400",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "休薬期間：第5–8週",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "休薬"
+            },
+            "status": "rest"
+          },
+          {
+            "name": "再実施：第9–12週",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "300",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/selank",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/selank",
+              "source_tables": [
+                {
+                  "section": "Selankのサイクル期間に関するエビデンス",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "出典",
+                      "投与期間",
+                      "その後の経過",
+                      "裏付けられる内容"
+                    ],
+                    [
+                      "現行のロシアの医療用製品の使用説明書",
+                      "14日間",
+                      "必要な場合、臨床医への相談後に1-3週間の間隔をあけて再実施できるとされています",
+                      "ロシアの鼻腔内投与製品の正式な投与期間と再実施の時期"
+                    ],
+                    [
+                      "Medvedevら、2014",
+                      "14日間",
+                      "治療後に患者を追跡調査し、測定された抗不安効果が最終投与後少なくとも7日間持続したと論文に報告されています",
+                      "ヒトにおける14日間のSelank単剤療法と、治療終了後の追跡調査"
+                    ],
+                    [
+                      "Medvedevら、2015",
+                      "主な治療期間は14日間です",
+                      "Selank群の20人の患者が、21日目までさらに7日間Selankを継続しました",
+                      "特定の治療デザインで、Selank投与を21日間まで延長したヒト研究"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Selankの休薬期間と再実施の時期",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "質問",
+                      "エビデンスに基づく回答"
+                    ],
+                    [
+                      "ロシアの使用説明書に休薬期間の記載はありますか？",
+                      "はい。必要な場合、臨床医への相談後に1-3週間の間隔をあけて治療を再実施できるとされています。"
+                    ],
+                    [
+                      "休薬期間は、二週間や三週間よりも一週間の方がよいのでしょうか？",
+                      "確立されていません。確認した出典には、異なる休薬期間を比較した対照試験は含まれていませんでした。"
+                    ],
+                    [
+                      "休薬によって受容体の脱感作を防げることは証明されていますか？",
+                      "いいえ。現行の製品の使用説明書には再実施の時期が記載されていますが、その間隔をあける理由としてこの機序は挙げられていません。"
+                    ],
+                    [
+                      "これにより、注射用Selankに1-3週間の休薬期間を設けることが裏付けられますか？",
+                      "いいえ。添付文書に記載された時期は、ロシアの鼻腔内投与製品に対応するものです。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "鼻腔内投与と注射投与のSelankのサイクルに関するエビデンス",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与経路または背景",
+                      "ヒトのサイクルに関するエビデンス",
+                      "サイクル期間に関する要点"
+                    ],
+                    [
+                      "ロシアの鼻腔内投与製品",
+                      "あります",
+                      "添付文書上の投与期間は14日間で、現行の使用説明書には1-3週間の間隔をあけた再実施が記載されています"
+                    ],
+                    [
+                      "公表されたSelankのヒト研究",
+                      "あります",
+                      "14日間の投与が記録されており、2015年のある研究では21日間まで延長されています"
+                    ],
+                    [
+                      "皮下注射",
+                      "確認した出典では、検証済みのヒトのサイクルは見つかりませんでした",
+                      "4週間、8週間、またはその他の注射投与のサイクルを、臨床的に証明されたものとして提示しないでください"
+                    ],
+                    [
+                      "動物研究または実験室での研究",
+                      "前臨床研究のみです",
+                      "機序の研究には有用ですが、その研究期間をヒトのサイクルに置き換えるべきではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Selankのサイクル期間とSelankの投与プロトコルの比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "質問",
+                      "最適な参照ページ"
+                    ],
+                    [
+                      "Selankのサイクルはどのくらいの期間ですか？",
+                      "このSelankのサイクルガイド"
+                    ],
+                    [
+                      "治療と治療の間の休薬期間はどのくらいですか？",
+                      "このSelankのサイクルガイド"
+                    ],
+                    [
+                      "治療を再実施できますか？",
+                      "このSelankのサイクルガイド"
+                    ],
+                    [
+                      "14日間および21日間の研究では何が行われましたか？",
+                      "このSelankのサイクルガイド"
+                    ],
+                    [
+                      "Selankの投与量はどのくらいですか？",
+                      "Selankのプロトコル"
+                    ],
+                    [
+                      "Selankのバイアルはどのように再溶解しますか？",
+                      "Selankのプロトコル"
+                    ],
+                    [
+                      "計算では U-100 シリンジの何単位を使用しますか？",
+                      "Selankのプロトコル"
+                    ],
+                    [
+                      "経鼻投与と皮下投与の投与量はどのように異なりますか？",
+                      "Selankのプロトコル"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [
+            {
+              "section": "Selankの保存と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保存",
+                  "備考"
+                ],
+                [
+                  "凍結乾燥状態（粉末）",
+                  "長期：-4F (-20C)；短期：35.6-46.4F (2-8C)",
+                  "粉末は凍結状態で数か月から2+年間安定しています。"
+                ],
+                [
+                  "再溶解後（液状）",
+                  "35.6-46.4F (2-8C)",
+                  "約3-4週間です。液体を凍結しないでください。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_statements": [
+            {
+              "section": "Selankの対象となる方と使用を避けるべき方",
+              "subsection": "研究者や臨床医は、一般的に次の場合にSelankの使用を避けています：",
+              "excerpt": "対象者が妊娠中、授乳中、または妊娠を試みている場合です。これらの集団に関するヒトの安全性データはありません。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの対象となる方と使用を避けるべき方",
+              "subsection": "研究者や臨床医は、一般的に次の場合にSelankの使用を避けています：",
+              "excerpt": "対象者が臨床医の監督なしに、すでに処方抗不安薬、抗うつ薬、または鎮静薬を使用している場合です。併用による影響は正式に研究されていません。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの副作用と安全性",
+              "subsection": "",
+              "excerpt": "公表されたロシアの試験記録では、Selankの副作用は顕著に軽度です。ベンゾジアゼピン系薬との直接比較では、Selankは鎮静、依存、記憶障害、耐性、離脱症状を伴わずに、同程度の不安軽減効果を示しました。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの副作用と安全性",
+              "subsection": "理論上のリスク",
+              "excerpt": "薬物相互作用。処方抗不安薬、抗うつ薬、および鎮静薬との併用による影響は、正式に研究されていません。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの副作用と安全性",
+              "subsection": "理論上のリスク",
+              "excerpt": "長期的な不明点。公表されたエビデンスの大部分は、14-21日間の治療を対象としています。長期的な安全性データは限られています。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの効果の経過と観察項目",
+              "subsection": "",
+              "excerpt": "Selankの心を落ち着かせる効果は、数分ではなく数日かけて現れます。ロシアの試験報告では、14日間の治療期間を通じて意味のある抗不安作用の変化が記述されています。コミュニティの使用者は、通常3-7日で実感できる変化があると述べています。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "全般性不安障害および神経衰弱の治療における新規ペプチド抗不安薬selankの有効性と考えられる作用機序。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/"
+          },
+          {
+            "label": "不安障害の治療におけるselankとphenazepamの抗不安効果および忍容性の比較。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25176261/"
+          },
+          {
+            "label": "selankによる不安障害治療の最適化。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26356395/"
+          },
+          {
+            "label": "不安・無力症性障害の患者におけるselankの免疫調節効果。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18577961/"
+          },
+          {
+            "label": "Selankの投与はGABA作動性神経伝達に関与する一部の遺伝子の発現に影響します。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4757669/"
+          },
+          {
+            "label": "GABA、Selank、およびOlanzapineは、IMR-32細胞のGABA作動性神経伝達に関与する遺伝子の発現に影響します。",
+            "url": "https://doi.org/10.3389/fphar.2017.00089"
+          },
+          {
+            "label": "ペプチドSelankは、予測不能な慢性軽度ストレス条件下のラットにおいてDiazepamの不安軽減効果を増強します。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322660/"
+          },
+          {
+            "label": "SelankとSemaxの効果を研究するための機能的コネクトーム解析アプローチ。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/"
+          },
+          {
+            "label": "ペプチドSelankの鼻腔内投与は、ラット海馬のBDNF発現を生体内で調節します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18841804/"
+          },
+          {
+            "label": "Semaxとselankはヒト血清由来のエンケファリン分解酵素を阻害します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+          },
+          {
+            "label": "tuftsinのペプチド類縁体であるSelankは、ラットの海馬および前頭前皮質のBDNF含量を調節することにより、ethanolによる記憶障害を防ぎます。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Kolik+selank+ethanol+BDNF"
+          },
+          {
+            "label": "Selank.",
+            "url": "https://en.wikipedia.org/wiki/Selank"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_clock_time",
+          "source_repeat_dose_selection",
+          "human_subcutaneous_validation"
+        ],
+        "notes": "出典の参照情報のみで、未レビューです。表と独立した参考文献は、出典の記録で引き続き参照できます。"
+      }
+    },
+    {
+      "id": "7f13f18a-47ba-4308-99ac-f93517997a26",
+      "productID": "selank",
+      "title": "Selank — 出典に記載された鼻腔内投与の治療期間と休薬期間",
+      "purpose": "出典の記述に基づく参考計画",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事／コミュニティの記述です。独立した出典の検証とアプリのデフォルトへの採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "selank"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "標準的な鼻腔内投与の治療期間",
+            "duration": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 21,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "2700",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 2,
+                "maximum": 3,
+                "period": "day"
+              },
+              "description": "毎日2-3回"
+            }
+          },
+          {
+            "name": "休薬期間",
+            "duration": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 21,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "休薬"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/selank",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/selank",
+              "source_tables": [
+                {
+                  "section": "Selankのサイクル期間に関するエビデンス",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "出典",
+                      "投与期間",
+                      "その後の経過",
+                      "裏付けられる内容"
+                    ],
+                    [
+                      "現行のロシアの医療用製品の使用説明書",
+                      "14日間",
+                      "必要な場合、臨床医への相談後に1-3週間の間隔をあけて再実施できるとされています",
+                      "ロシアの鼻腔内投与製品の正式な投与期間と再実施の時期"
+                    ],
+                    [
+                      "Medvedevら、2014",
+                      "14日間",
+                      "治療後に患者を追跡調査し、測定された抗不安効果が最終投与後少なくとも7日間持続したと論文に報告されています",
+                      "ヒトにおける14日間のSelank単剤療法と、治療終了後の追跡調査"
+                    ],
+                    [
+                      "Medvedevら、2015",
+                      "主な治療期間は14日間です",
+                      "Selank群の20人の患者が、21日目までさらに7日間Selankを継続しました",
+                      "特定の治療デザインで、Selank投与を21日間まで延長したヒト研究"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Selankの休薬期間と再実施の時期",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "質問",
+                      "エビデンスに基づく回答"
+                    ],
+                    [
+                      "ロシアの使用説明書に休薬期間の記載はありますか？",
+                      "はい。必要な場合、臨床医への相談後に1-3週間の間隔をあけて治療を再実施できるとされています。"
+                    ],
+                    [
+                      "休薬期間は、二週間や三週間よりも一週間の方がよいのでしょうか？",
+                      "確立されていません。確認した出典には、異なる休薬期間を比較した対照試験は含まれていませんでした。"
+                    ],
+                    [
+                      "休薬によって受容体の脱感作を防げることは証明されていますか？",
+                      "いいえ。現行の製品の使用説明書には再実施の時期が記載されていますが、その間隔をあける理由としてこの機序は挙げられていません。"
+                    ],
+                    [
+                      "これにより、注射用Selankに1-3週間の休薬期間を設けることが裏付けられますか？",
+                      "いいえ。添付文書に記載された時期は、ロシアの鼻腔内投与製品に対応するものです。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "鼻腔内投与と注射投与のSelankのサイクルに関するエビデンス",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与経路または背景",
+                      "ヒトのサイクルに関するエビデンス",
+                      "サイクル期間に関する要点"
+                    ],
+                    [
+                      "ロシアの鼻腔内投与製品",
+                      "あります",
+                      "添付文書上の投与期間は14日間で、現行の使用説明書には1-3週間の間隔をあけた再実施が記載されています"
+                    ],
+                    [
+                      "公表されたSelankのヒト研究",
+                      "あります",
+                      "14日間の投与が記録されており、2015年のある研究では21日間まで延長されています"
+                    ],
+                    [
+                      "皮下注射",
+                      "確認した出典では、検証済みのヒトのサイクルは見つかりませんでした",
+                      "4週間、8週間、またはその他の注射投与のサイクルを、臨床的に証明されたものとして提示しないでください"
+                    ],
+                    [
+                      "動物研究または実験室での研究",
+                      "前臨床研究のみです",
+                      "機序の研究には有用ですが、その研究期間をヒトのサイクルに置き換えるべきではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Selankのサイクル期間とSelankの投与プロトコルの比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "質問",
+                      "最適な参照ページ"
+                    ],
+                    [
+                      "Selankのサイクルはどのくらいの期間ですか？",
+                      "このSelankのサイクルガイド"
+                    ],
+                    [
+                      "治療と治療の間の休薬期間はどのくらいですか？",
+                      "このSelankのサイクルガイド"
+                    ],
+                    [
+                      "治療を再実施できますか？",
+                      "このSelankのサイクルガイド"
+                    ],
+                    [
+                      "14日間および21日間の研究では何が行われましたか？",
+                      "このSelankのサイクルガイド"
+                    ],
+                    [
+                      "Selankの投与量はどのくらいですか？",
+                      "Selankのプロトコル"
+                    ],
+                    [
+                      "Selankのバイアルはどのように再溶解しますか？",
+                      "Selankのプロトコル"
+                    ],
+                    [
+                      "計算では U-100 シリンジの何単位を使用しますか？",
+                      "Selankのプロトコル"
+                    ],
+                    [
+                      "経鼻投与と皮下投与の投与量はどのように異なりますか？",
+                      "Selankのプロトコル"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [
+            {
+              "section": "Selankの保存と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保存",
+                  "備考"
+                ],
+                [
+                  "凍結乾燥状態（粉末）",
+                  "長期：-4F (-20C)；短期：35.6-46.4F (2-8C)",
+                  "粉末は凍結状態で数か月から2+年間安定しています。"
+                ],
+                [
+                  "再溶解後（液状）",
+                  "35.6-46.4F (2-8C)",
+                  "約3-4週間です。液体を凍結しないでください。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_statements": [
+            {
+              "section": "Selankの対象となる方と使用を避けるべき方",
+              "subsection": "研究者や臨床医は、一般的に次の場合にSelankの使用を避けています：",
+              "excerpt": "対象者が妊娠中、授乳中、または妊娠を試みている場合です。これらの集団に関するヒトの安全性データはありません。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの対象となる方と使用を避けるべき方",
+              "subsection": "研究者や臨床医は、一般的に次の場合にSelankの使用を避けています：",
+              "excerpt": "対象者が臨床医の監督なしに、すでに処方抗不安薬、抗うつ薬、または鎮静薬を使用している場合です。併用による影響は正式に研究されていません。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの副作用と安全性",
+              "subsection": "",
+              "excerpt": "公表されたロシアの試験記録では、Selankの副作用は顕著に軽度です。ベンゾジアゼピン系薬との直接比較では、Selankは鎮静、依存、記憶障害、耐性、離脱症状を伴わずに、同程度の不安軽減効果を示しました。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの副作用と安全性",
+              "subsection": "理論上のリスク",
+              "excerpt": "薬物相互作用。処方抗不安薬、抗うつ薬、および鎮静薬との併用による影響は、正式に研究されていません。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの副作用と安全性",
+              "subsection": "理論上のリスク",
+              "excerpt": "長期的な不明点。公表されたエビデンスの大部分は、14-21日間の治療を対象としています。長期的な安全性データは限られています。",
+              "truncated": false
+            },
+            {
+              "section": "Selankの効果の経過と観察項目",
+              "subsection": "",
+              "excerpt": "Selankの心を落ち着かせる効果は、数分ではなく数日かけて現れます。ロシアの試験報告では、14日間の治療期間を通じて意味のある抗不安作用の変化が記述されています。コミュニティの使用者は、通常3-7日で実感できる変化があると述べています。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "全般性不安障害および神経衰弱の治療における新規ペプチド抗不安薬selankの有効性と考えられる作用機序。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/"
+          },
+          {
+            "label": "不安障害の治療におけるselankとphenazepamの抗不安効果および忍容性の比較。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25176261/"
+          },
+          {
+            "label": "selankによる不安障害治療の最適化。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26356395/"
+          },
+          {
+            "label": "不安・無力症性障害の患者におけるselankの免疫調節効果。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18577961/"
+          },
+          {
+            "label": "Selankの投与はGABA作動性神経伝達に関与する一部の遺伝子の発現に影響します。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4757669/"
+          },
+          {
+            "label": "GABA、Selank、およびOlanzapineは、IMR-32細胞のGABA作動性神経伝達に関与する遺伝子の発現に影響します。",
+            "url": "https://doi.org/10.3389/fphar.2017.00089"
+          },
+          {
+            "label": "ペプチドSelankは、予測不能な慢性軽度ストレス条件下のラットにおいてDiazepamの不安軽減効果を増強します。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322660/"
+          },
+          {
+            "label": "SelankとSemaxの効果を研究するための機能的コネクトーム解析アプローチ。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/"
+          },
+          {
+            "label": "ペプチドSelankの鼻腔内投与は、ラット海馬のBDNF発現を生体内で調節します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18841804/"
+          },
+          {
+            "label": "Semaxとselankはヒト血清由来のエンケファリン分解酵素を阻害します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+          },
+          {
+            "label": "tuftsinのペプチド類縁体であるSelankは、ラットの海馬および前頭前皮質のBDNF含量を調節することにより、ethanolによる記憶障害を防ぎます。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Kolik+selank+ethanol+BDNF"
+          },
+          {
+            "label": "Selank.",
+            "url": "https://en.wikipedia.org/wiki/Selank"
+          }
+        ],
+        "unresolved_fields": [
+          "per_administration_allocation",
+          "daily_count_choice",
+          "product_concentration",
+          "primary_clinical_verification"
+        ],
+        "notes": "出典の参照情報のみで、未レビューです。表と独立した参考文献は、出典の記録で引き続き参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/selank",
+      "title": "Selank Cycle Length: 14-Day Course, Breaks & Repeat Timing",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/selank",
+      "title": "Selank Dosage Guide: Injection, Reconstitution & Nasal vs SubQ",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "86bbcd04-64ed-4dd7-bcc7-8b892e2fa18f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/",
+      "title": "Efficacy and possible mechanisms of Selank in generalized anxiety disorders and neurasthenia (2008)",
+      "publisher": "Zhurnal Nevrologii i Psikhiatrii imeni S. S. Korsakova, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "79eee387-88ba-4942-8c74-59ff4491af11",
+      "sourceID": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間／休薬に関する背景エビデンスであり、投与量、製品の添付文書、投与経路、または対象集団に固有の指示に代わるものではありません。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "79eee387-88ba-4942-8c74-59ff4491af11",
+      "sourceID": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目の記述がありますが、一次資料の検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "7f13f18a-47ba-4308-99ac-f93517997a26",
+      "sourceID": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間／休薬に関する背景エビデンスであり、投与量、製品の添付文書、投与経路、または対象集団に固有の指示に代わるものではありません。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "7f13f18a-47ba-4308-99ac-f93517997a26",
+      "sourceID": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目の記述がありますが、一次資料の検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "selank",
+      "sourceID": "86bbcd04-64ed-4dd7-bcc7-8b892e2fa18f",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "患者62人を対象にSelankとmedazepamを比較したもので、強固なプラセボ対照の有効性研究プログラムではありません。カテゴリーの根拠：認知・神経：精神医学領域の不安症状に関する予備的研究であり、一般的な認知機能の向上は確立されていません。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知・神経"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    },
+    {
+      "id": "intranasal",
+      "name": "鼻腔内投与"
+    }
+  ]
+}

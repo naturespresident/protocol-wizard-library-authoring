@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-2",
+      "name": "Tirzepatide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "Los beneficios establecidos de los productos aprobados de tirzepatide por vía subcutánea incluyen la pérdida de peso y el mantenimiento del peso a largo plazo en adultos que cumplen los criterios, un mejor control de la glucosa en la diabetes tipo 2 y el tratamiento de la apnea obstructiva del sueño de moderada a grave en adultos con obesidad. La información de prescripción vigente de Mounjaro también incluye la reducción de eventos cardiovasculares mayores en adultos de alto riesgo con diabetes tipo 2. Estos beneficios son específicos del producto y de la población; la evidencia sobre tirzepatide por sí solo no establece los beneficios de las combinaciones que lo contienen."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "productID": "glp-2",
+      "title": "Zepbound — aumento condicional de dosis y mantenimiento según la información de prescripción",
+      "purpose": "Control del peso en adultos o apnea obstructiva del sueño en personas con obesidad",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Extracción de referencia sin revisar; no constituye instrucciones completas de prescripción.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Zepbound",
+          "components": [
+            {
+              "name": "Tirzepatide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "Adultos con obesidad o sobrepeso que cumple los criterios; la indicación para apnea obstructiva del sueño requiere obesidad"
+        },
+        "preparation_options": [
+          {
+            "form": "ready_solution",
+            "reconstitution_required": false
+          }
+        ],
+        "phases": [
+          {
+            "name": "Inicio",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Aumento individualizado de dosis y mantenimiento",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "5",
+                "7.5",
+                "10",
+                "12.5",
+                "15"
+              ],
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "conditional_escalation": {
+          "post_initiation_start": {
+            "value": "5",
+            "unit": "mg"
+          },
+          "increment": {
+            "value": "2.5",
+            "unit": "mg"
+          },
+          "minimum_days_at_each_dose": 28,
+          "maximum": {
+            "value": "15",
+            "unit": "mg"
+          },
+          "maintenance_options": {
+            "weight_management": [
+              "5",
+              "10",
+              "15"
+            ],
+            "obstructive_sleep_apnea": [
+              "10",
+              "15"
+            ]
+          }
+        },
+        "unresolved_fields": [
+          "individual_escalation_sequence",
+          "maintenance_dose_selection"
+        ],
+        "notes": "Archive juntas las opciones definidas por la fuente; no se implica una titulación fija universal ni una preparación en viales de formulación magistral."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "26300ca9-06c5-4823-9c57-73e1855a6568",
+      "url": "https://pi.lilly.com/us/zepbound-uspi.pdf",
+      "title": "Zepbound prescribing information, revised August 2026",
+      "publisher": "Eli Lilly and Company",
+      "type": "regulatory_label",
+      "publishedAt": "2026-08"
+    },
+    {
+      "id": "7ca78315-a75d-4264-befa-32abf53435dc",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
+      "title": "ZEPBOUND (tirzepatide) prescribing information",
+      "publisher": "Eli Lilly / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "a4479d54-db30-4d64-9fc6-4ccb1a6518e7",
+      "url": "https://www.peptidedosingprotocols.com/protocol/tirzepatide",
+      "title": "Tirzepatide Dosing Chart: 2.5-15 mg Weekly Titration, Reconstitution & Side Effects",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "e9db8ee4-bcfb-4ea8-9db1-9356f789ed52",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+      "title": "MOUNJARO (tirzepatide) prescribing information",
+      "publisher": "Eli Lilly / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "fffa6144-803b-46e6-be70-a2ea566c8b45",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/tirzepatide",
+      "title": "Tirzepatide Cycle Length: Treatment, Maintenance & Stopping",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "sourceID": "26300ca9-06c5-4823-9c57-73e1855a6568",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "Inicio con administración una vez por semana, seguido de incrementos seleccionados de forma individual y opciones de mantenimiento específicas para cada indicación.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "sourceID": "a4479d54-db30-4d64-9fc6-4ccb1a6518e7",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "El ejemplo sigue la escala de dosis existente de Zepbound; el esquema que alcanza la dosis máxima no es un protocolo nuevo ni un requisito para todos los pacientes.",
+      "supports": [
+        "/conditional_escalation"
+      ]
+    },
+    {
+      "protocolID": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "sourceID": "fffa6144-803b-46e6-be70-a2ea566c8b45",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Evidencia de contexto sobre la duración y los períodos de descanso; no sustituye las instrucciones sobre la dosis, la información de prescripción del producto, la vía de administración ni las instrucciones específicas para cada población.",
+      "supports": []
+    },
+    {
+      "productID": "glp-2",
+      "sourceID": "7ca78315-a75d-4264-befa-32abf53435dc",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "La información de prescripción de agosto de 2026 respalda la reducción y el mantenimiento del peso y el tratamiento de la apnea obstructiva del sueño de moderada a grave asociada con la obesidad. Fundamento de la categoría: Peso y metabolismo: la obesidad y la diabetes son los principales usos establecidos.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glp-2",
+      "sourceID": "e9db8ee4-bcfb-4ea8-9db1-9356f789ed52",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "La información de prescripción vigente respalda el control de la glucosa en adultos y niños de 10 años o más con diabetes tipo 2, además de la reducción del riesgo de eventos cardiovasculares en adultos de alto riesgo con diabetes tipo 2. Fundamento de la categoría: Peso y metabolismo: la obesidad y la diabetes son los principales usos establecidos.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

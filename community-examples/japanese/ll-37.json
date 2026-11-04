@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ll-37",
+      "name": "LL-37",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "研究段階にある局所投与による創傷治癒のエビデンスは一致していません。25人を対象とした糖尿病性足潰瘍の試験では、肉芽組織の改善が報告されましたが、創傷面積の有意な縮小は認められませんでした。より大規模な148人を対象とした静脈性潰瘍の試験では、全体として治癒における優位性は認められませんでした。大きな潰瘍のサブグループで得られた好ましい結果は、探索的なものでした。これらの結果は、全身投与を目的とした注射や感染症治療の有益性を確立するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "aa38d5ae-c197-4e80-a67a-191cbb4a86b6",
+      "productID": "ll-37",
+      "title": "LL-37 — 出典に記載された局所投与試験の濃度の選択肢",
+      "purpose": "出典の記述を参考にした計画",
+      "methodID": "topical",
+      "population": "human",
+      "evidenceNotes": "編集記事／コミュニティによる二次的な記述です。独立した出典の検証と、アプリの標準設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "topical_product",
+          "components": [
+            {
+              "library_item_id": "ll-37"
+            }
+          ],
+          "concentration_options": [
+            {
+              "value": "0.5",
+              "unit": "mg/mL",
+              "trial_scope": "both cited trials"
+            },
+            {
+              "value": "1.6",
+              "unit": "mg/mL",
+              "trial_scope": "both cited trials"
+            },
+            {
+              "value": "3.2",
+              "unit": "mg/mL",
+              "trial_scope": "first-in-man only"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "局所投与試験の濃度",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 2,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ll-37",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_tables": [
+            {
+              "section": "LL-37の保管と取り扱い",
+              "subsection": "外観",
+              "rows": [
+                [
+                  "",
+                  "LL-37"
+                ],
+                [
+                  "凍結乾燥粉末",
+                  "-4°F (-20°C)、長期保管"
+                ],
+                [
+                  "再溶解後の液体",
+                  "35.6-46.4°F (2-8°C)、速やかに使用してください"
+                ],
+                [
+                  "外観",
+                  "混合すると無色透明になります"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_statements": [
+            {
+              "section": "LL-37の予想される経過とモニタリング",
+              "subsection": "",
+              "excerpt": "ヒトでの経過に関するデータは、創傷の試験で得られたものだけです。これらの試験では、週に二度のLL-37の局所投与により、4週間（初回ヒト投与試験）および13週間（第IIb相試験）の治療期間中に治癒率が改善し、大きく長期間持続する潰瘍で最も強い効果が認められました。",
+              "truncated": false
+            },
+            {
+              "section": "LL-37の予想される経過とモニタリング",
+              "subsection": "",
+              "excerpt": "コミュニティでの注射による使用については、ヒトを対象とした試験で研究されていないため、検証された経過の目安はありません。週ごとの結果を約束する説明は、いずれも根拠のないものとして扱うべきです。研究計画において実際に重視するのは、注射部位の観察、皮膚や炎症の変化の追跡、そして中止することです",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "LL-37による治療は難治性静脈性下腿潰瘍の治癒促進において安全かつ有効です：無作為化プラセボ対照臨床試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25041740/"
+          },
+          {
+            "label": "難治性静脈性下腿潰瘍の治癒におけるLL-37の評価：多施設前向き無作為化プラセボ対照臨床試験（HEAL LL-37）。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9298190/"
+          },
+          {
+            "label": "Ropocamptide (LL-37) — 慢性創傷の治癒、開発状況。",
+            "url": "https://www.promorepharma.com/en/ll-37-healing-of-chronic-wounds/"
+          },
+          {
+            "label": "ヒトcathelicidin LL-37の特有の特徴。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27117377/"
+          },
+          {
+            "label": "LL-37：構造、抗菌活性、アミロイド関連疾患への影響。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38540740/"
+          },
+          {
+            "label": "抗菌ペプチドCathelicidinはスカベンジャー受容体を介して免疫調節作用を発揮します。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9821026/"
+          },
+          {
+            "label": "cathelicidinファミリーの抗菌ペプチド：LL-37とその修飾体に着目して。",
+            "url": "https://www.mdpi.com/1422-0067/26/16/8103"
+          },
+          {
+            "label": "Cathelicidin LL-37：全身性エリテマトーデスの病態生理における新たな重要分子。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7388365/"
+          },
+          {
+            "label": "ペプチド抗菌薬であるヒトbeta-defensinsおよびLL-37が、肥満細胞からのhistamine放出とprostaglandin D2産生に及ぼす影響の評価。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11298331/"
+          },
+          {
+            "label": "抗菌cathelicidinペプチドLL-37は、二重の機序によりLPS/ATP誘導性のマクロファージのパイロトーシスを阻害します。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3894207/"
+          },
+          {
+            "label": "LL-37の解明：構造と微生物の脅威に対する抗菌機序。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S156713482500142X"
+          }
+        ],
+        "unresolved_fields": [
+          "applied_volume_or_mass",
+          "primary_trial_verification",
+          "duration",
+          "population_eligibility"
+        ],
+        "notes": "出典の参考情報のみであり、未レビューです。表と独立した参考文献は、引き続き出典レコードで参照できます。"
+      }
+    },
+    {
+      "id": "c12f1894-9d03-4763-a5ee-f5c0e2ffdf3f",
+      "productID": "ll-37",
+      "title": "LL-37 — 出典に記載されたコミュニティでの注射の開始用量範囲",
+      "purpose": "出典の記述を参考にした計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "編集記事／コミュニティによる二次的な記述です。独立した出典の検証と、アプリの標準設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "ll-37"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "コミュニティでの開始用量範囲",
+            "duration": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 5,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ll-37",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_tables": [
+            {
+              "section": "LL-37の保管と取り扱い",
+              "subsection": "外観",
+              "rows": [
+                [
+                  "",
+                  "LL-37"
+                ],
+                [
+                  "凍結乾燥粉末",
+                  "-4°F (-20°C)、長期保管"
+                ],
+                [
+                  "再溶解後の液体",
+                  "35.6-46.4°F (2-8°C)、速やかに使用してください"
+                ],
+                [
+                  "外観",
+                  "混合すると無色透明になります"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+          "source_statements": [
+            {
+              "section": "LL-37の予想される経過とモニタリング",
+              "subsection": "",
+              "excerpt": "ヒトでの経過に関するデータは、創傷の試験で得られたものだけです。これらの試験では、週に二度のLL-37の局所投与により、4週間（初回ヒト投与試験）および13週間（第IIb相試験）の治療期間中に治癒率が改善し、大きく長期間持続する潰瘍で最も強い効果が認められました。",
+              "truncated": false
+            },
+            {
+              "section": "LL-37の予想される経過とモニタリング",
+              "subsection": "",
+              "excerpt": "コミュニティでの注射による使用については、ヒトを対象とした試験で研究されていないため、検証された経過の目安はありません。週ごとの結果を約束する説明は、いずれも根拠のないものとして扱うべきです。研究計画において実際に重視するのは、注射部位の観察、皮膚や炎症の変化の追跡、そして中止することです",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "LL-37による治療は難治性静脈性下腿潰瘍の治癒促進において安全かつ有効です：無作為化プラセボ対照臨床試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25041740/"
+          },
+          {
+            "label": "難治性静脈性下腿潰瘍の治癒におけるLL-37の評価：多施設前向き無作為化プラセボ対照臨床試験（HEAL LL-37）。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9298190/"
+          },
+          {
+            "label": "Ropocamptide (LL-37) — 慢性創傷の治癒、開発状況。",
+            "url": "https://www.promorepharma.com/en/ll-37-healing-of-chronic-wounds/"
+          },
+          {
+            "label": "ヒトcathelicidin LL-37の特有の特徴。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27117377/"
+          },
+          {
+            "label": "LL-37：構造、抗菌活性、アミロイド関連疾患への影響。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38540740/"
+          },
+          {
+            "label": "抗菌ペプチドCathelicidinはスカベンジャー受容体を介して免疫調節作用を発揮します。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9821026/"
+          },
+          {
+            "label": "cathelicidinファミリーの抗菌ペプチド：LL-37とその修飾体に着目して。",
+            "url": "https://www.mdpi.com/1422-0067/26/16/8103"
+          },
+          {
+            "label": "Cathelicidin LL-37：全身性エリテマトーデスの病態生理における新たな重要分子。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7388365/"
+          },
+          {
+            "label": "ペプチド抗菌薬であるヒトbeta-defensinsおよびLL-37が、肥満細胞からのhistamine放出とprostaglandin D2産生に及ぼす影響の評価。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11298331/"
+          },
+          {
+            "label": "抗菌cathelicidinペプチドLL-37は、二重の機序によりLPS/ATP誘導性のマクロファージのパイロトーシスを阻害します。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3894207/"
+          },
+          {
+            "label": "LL-37の解明：構造と微生物の脅威に対する抗菌機序。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S156713482500142X"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "weekdays_or_block_pattern",
+          "no_human_injection_validation",
+          "upper_limit_not_selected"
+        ],
+        "notes": "出典の参考情報のみであり、未レビューです。表と独立した参考文献は、引き続き出典レコードで参照できます。",
+        "source_upper_limit": {
+          "unit": "mcg",
+          "basis": "daily_total",
+          "kind": "maximum",
+          "maximum": "500",
+          "minimum": null
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+      "url": "https://www.peptidedosingprotocols.com/protocol/ll-37",
+      "title": "LL-37 Peptide Protocol Guide - Dosing, Reconstitution & Safety",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "49fa09fb-b5ed-4b9d-a6ec-2edd903fe0ce",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9298190/",
+      "title": "Evaluation of LL-37 in healing of hard-to-heal venous leg ulcers: a multicentric prospective randomized placebo-controlled clinical trial",
+      "publisher": "Wound Repair and Regeneration, 2021",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "7326d1db-db34-4d0d-9907-2ecfec0c458a",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10514151/",
+      "title": "Efficacy of LL-37 cream in enhancing healing of diabetic foot ulcer: a randomized double-blind controlled trial",
+      "publisher": "Archives of Dermatological Research, 2023",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "aa38d5ae-c197-4e80-a67a-191cbb4a86b6",
+      "sourceID": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "これらの項目は出典に記述されています。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "c12f1894-9d03-4763-a5ee-f5c0e2ffdf3f",
+      "sourceID": "32083c5f-716d-481b-bb41-31bce4cf1b2a",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "これらの項目は出典に記述されています。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/source_upper_limit"
+      ]
+    },
+    {
+      "productID": "ll-37",
+      "sourceID": "49fa09fb-b5ed-4b9d-a6ec-2edd903fe0ce",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "原著の抄録と統計手法の記述を確認しました。第IIb相試験で、148人が無作為に割り付けられました。全体として有意な有効性は認められませんでした。大きな創傷での好ましい分析結果は事後解析によるものです。カテゴリーの根拠：ヒトを対象とした研究では、局所投与による創傷治癒を調べています。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "ll-37",
+      "sourceID": "7326d1db-db34-4d0d-9907-2ecfec0c458a",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "原著の研究結果と限界を確認しました。参加者は二十五人です。肉芽形成指数には有意な変化が認められましたが、創傷面積または細菌定着に有意な改善は認められませんでした。カテゴリーの根拠：ヒトを対象とした研究では、局所投与による創傷治癒を調べています。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "治癒と回復"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    },
+    {
+      "id": "topical",
+      "name": "局所"
+    }
+  ]
+}

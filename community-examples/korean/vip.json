@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vip",
+      "name": "VIP (Vasoactive intestinal peptide, 혈관활성 장 펩타이드)",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "연구 중인 흡입형 VIP/aviptadil은 소규모 생리학 연구에서 일시적인 폐혈관 확장을 일으켰어요. 질환 치료에 관한 근거는 여전히 엇갈리며 투여 경로에 따라 달라요. 더 큰 규모의 위약 대조 정맥 투여 aviptadil 시험에서는 COVID-19 호흡부전의 치료 결과가 개선되지 않았어요. 이러한 결과가 비강 투여 웰니스, 만성 피로 또는 비특이적 염증 프로토콜의 유익성을 입증하지는 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "62d8ffb1-9108-480e-9b62-ecc435ff03c0",
+      "productID": "vip",
+      "title": "VIP — 출처에 기술된 주 다섯 번 투여하는 클리닉 방식의 참고 자료",
+      "purpose": "출처에 기술된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차적인 편집 자료/커뮤니티 설명이에요. 독립적인 출처 검증과 앱 기본값 채택은 대기 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vip"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+              "locator": "VIP 펩타이드 재용해 가이드 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "클리닉 방식의 지속 투여",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 5,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/vip",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": [
+            {
+              "section": "VIP 펩타이드 보관 및 취급",
+              "subsection": "외관",
+              "rows": [
+                [
+                  "",
+                  "VIP"
+                ],
+                [
+                  "동결건조 상태(분말 형태)",
+                  "장기 보관 시 -4F (-20C)"
+                ],
+                [
+                  "재용해 상태(액체 형태)",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "외관",
+                  "맑고 무색이에요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_statements": [
+            {
+              "section": "VIP 사용을 피해야 하는 대상",
+              "subsection": "",
+              "excerpt": "일부 집단은 면밀한 의료 지도 없이 VIP를 사용해서는 안 돼요. VIP는 췌장에 영향을 줄 수 있으므로, 췌장염 병력이 있거나 리파아제 수치가 상승하는 사람은 사용을 피하거나 중단해야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "VIP 사용을 피해야 하는 대상",
+              "subsection": "",
+              "excerpt": "임신 중이거나 수유 중인 사람(안전성이 확립되지 않았어요).",
+              "truncated": false
+            },
+            {
+              "section": "VIP 사용을 피해야 하는 대상",
+              "subsection": "",
+              "excerpt": "활동성 암이 있는 사람은 먼저 상담해야 해요. 일부 종양에서는 VIP 수용체가 과발현되며, 이는 이론적인 우려 사항이에요.",
+              "truncated": false
+            },
+            {
+              "section": "자주 묻는 질문",
+              "subsection": "Q10: VIP 펩타이드 사용을 피해야 하는 대상은 누구인가요?",
+              "excerpt": "췌장염 병력이 있거나 리파아제 수치가 높은 사람, 임신 중이거나 수유 중인 사람, 혈압이 매우 낮은 사람, 활동성 암이 있는 사람은 면밀한 의료 지도 없이 VIP를 사용해서는 안 돼요. 먼저 임상의가 전체 병력을 검토해야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "VIP 예상 경과 및 모니터링",
+              "subsection": "",
+              "excerpt": "공급업체 자료에 나오는 주차별 '효과 발현 일정'은 비판적으로 살펴보세요. 이는 임상시험 평가변수가 아닌 마케팅 요약이며, 근거가 뒷받침하는 범위보다 훨씬 많은 질환을 나열해요.",
+              "truncated": false
+            },
+            {
+              "section": "VIP 예상 경과 및 모니터링",
+              "subsection": "",
+              "excerpt": "감독하에 VIP를 연구한 경우에는 정해진 일정보다 모니터링이 더 중요해요. 클리닉의 CIRS 프로토콜에서는 첫 투여 후, 시작 후 약 두 주 시점, 그리고 용량을 늘릴 때마다 리파아제 수치를 다시 확인하고, 증상과 검사 결과를 더 장기간 추적해요. 시판되는 대부분의 VIP 용도에 대해서는 예측 가능한 유익성을 보여 주는 강력한 임상시험 근거가 아직 없어요",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "광범위한 생물학적 활성을 지닌 폴리펩타이드: 소장에서의 분리.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5411915/"
+          },
+          {
+            "label": "미국에서 COVID-19 관련 저산소혈증성 호흡부전 치료를 위한 정맥 투여 aviptadil 및 remdesivir (TESICO): 무작위 배정 위약 대조 시험.",
+            "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23)00147-9/fulltext"
+          },
+          {
+            "label": "호흡부전을 동반한 위중한 COVID-19에 대한 정맥 투여 Aviptadil (NCT04311697).",
+            "url": "https://clinicaltrials.gov/study/NCT04311697"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide (VIP)는 물로 손상된 건물에 노출된 후 발생한 만성 염증 반응 증후군(CIRS)을 교정해요.",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=28586"
+          },
+          {
+            "label": "VIP로 치료한 CIRS 환자의 RNA-Seq에서 치유와 함께 나타나는 대사 상태 및 선천 면역 기능의 변화가 확인돼요.",
+            "url": "https://esmed.org/MRA/mra/article/view/862"
+          },
+          {
+            "label": "발기부전에서 해면체 내 주사를 위한 Vasoactive intestinal polypeptide/phentolamine.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18485029/"
+          },
+          {
+            "label": "불응성 발기부전에 대한 aviptadil 및 phentolamine의 해면체 내 주사.",
+            "url": "https://academic.oup.com/jsm/article-abstract/22/5/726/8107665"
+          },
+          {
+            "label": "FD&C 법 제503A조에 따른 조제에 사용되는 벌크 원료의약품.",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          },
+          {
+            "label": "FDA 펩타이드 규제가 변경될 수 있어요: VIP, GHK-Cu 및 기타 펩타이드의 조제 분류.",
+            "url": "https://www.frierlevitt.com/articles/fda-peptide-regulation-rfk-announcement-compounding-pharmacies/"
+          },
+          {
+            "label": "FDA가 COVID-19에 대한 Zyesami (aviptadil)의 EUA 요청을 거절했어요.",
+            "url": "https://www.managedhealthcareexecutive.com/view/fda-declines-eua-request-for-zyesami-for-covid-19"
+          },
+          {
+            "label": "aviptadil(합성 VIP)의 예상되는 약리학적 역할: VPAC 수용체 기전 및 폐 생물학.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630992/"
+          }
+        ],
+        "unresolved_fields": [
+          "weekdays",
+          "exact_clock_times",
+          "clinical_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "출처 참고 자료로만 사용하며, 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    },
+    {
+      "id": "66a5942e-d8cc-4557-8423-6f325c80529a",
+      "productID": "vip",
+      "title": "VIP — 출처에 기술된 피하 투여 시작 및 지속 투여 용량 선택지",
+      "purpose": "출처에 기술된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차적인 편집 자료/커뮤니티 설명이에요. 독립적인 출처 검증과 앱 기본값 채택은 대기 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vip"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+              "locator": "VIP 펩타이드 재용해 가이드 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "보수적인 시작",
+            "duration": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "표준/고급 지속 투여 선택지",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "100",
+                "200"
+              ],
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "하루 1-2회"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/vip",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": [
+            {
+              "section": "VIP 펩타이드 보관 및 취급",
+              "subsection": "외관",
+              "rows": [
+                [
+                  "",
+                  "VIP"
+                ],
+                [
+                  "동결건조 상태(분말 형태)",
+                  "장기 보관 시 -4F (-20C)"
+                ],
+                [
+                  "재용해 상태(액체 형태)",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "외관",
+                  "맑고 무색이에요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_statements": [
+            {
+              "section": "VIP 사용을 피해야 하는 대상",
+              "subsection": "",
+              "excerpt": "일부 집단은 면밀한 의료 지도 없이 VIP를 사용해서는 안 돼요. VIP는 췌장에 영향을 줄 수 있으므로, 췌장염 병력이 있거나 리파아제 수치가 상승하는 사람은 사용을 피하거나 중단해야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "VIP 사용을 피해야 하는 대상",
+              "subsection": "",
+              "excerpt": "임신 중이거나 수유 중인 사람(안전성이 확립되지 않았어요).",
+              "truncated": false
+            },
+            {
+              "section": "VIP 사용을 피해야 하는 대상",
+              "subsection": "",
+              "excerpt": "활동성 암이 있는 사람은 먼저 상담해야 해요. 일부 종양에서는 VIP 수용체가 과발현되며, 이는 이론적인 우려 사항이에요.",
+              "truncated": false
+            },
+            {
+              "section": "자주 묻는 질문",
+              "subsection": "Q10: VIP 펩타이드 사용을 피해야 하는 대상은 누구인가요?",
+              "excerpt": "췌장염 병력이 있거나 리파아제 수치가 높은 사람, 임신 중이거나 수유 중인 사람, 혈압이 매우 낮은 사람, 활동성 암이 있는 사람은 면밀한 의료 지도 없이 VIP를 사용해서는 안 돼요. 먼저 임상의가 전체 병력을 검토해야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "VIP 예상 경과 및 모니터링",
+              "subsection": "",
+              "excerpt": "공급업체 자료에 나오는 주차별 '효과 발현 일정'은 비판적으로 살펴보세요. 이는 임상시험 평가변수가 아닌 마케팅 요약이며, 근거가 뒷받침하는 범위보다 훨씬 많은 질환을 나열해요.",
+              "truncated": false
+            },
+            {
+              "section": "VIP 예상 경과 및 모니터링",
+              "subsection": "",
+              "excerpt": "감독하에 VIP를 연구한 경우에는 정해진 일정보다 모니터링이 더 중요해요. 클리닉의 CIRS 프로토콜에서는 첫 투여 후, 시작 후 약 두 주 시점, 그리고 용량을 늘릴 때마다 리파아제 수치를 다시 확인하고, 증상과 검사 결과를 더 장기간 추적해요. 시판되는 대부분의 VIP 용도에 대해서는 예측 가능한 유익성을 보여 주는 강력한 임상시험 근거가 아직 없어요",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "광범위한 생물학적 활성을 지닌 폴리펩타이드: 소장에서의 분리.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5411915/"
+          },
+          {
+            "label": "미국에서 COVID-19 관련 저산소혈증성 호흡부전 치료를 위한 정맥 투여 aviptadil 및 remdesivir (TESICO): 무작위 배정 위약 대조 시험.",
+            "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23)00147-9/fulltext"
+          },
+          {
+            "label": "호흡부전을 동반한 위중한 COVID-19에 대한 정맥 투여 Aviptadil (NCT04311697).",
+            "url": "https://clinicaltrials.gov/study/NCT04311697"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide (VIP)는 물로 손상된 건물에 노출된 후 발생한 만성 염증 반응 증후군(CIRS)을 교정해요.",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=28586"
+          },
+          {
+            "label": "VIP로 치료한 CIRS 환자의 RNA-Seq에서 치유와 함께 나타나는 대사 상태 및 선천 면역 기능의 변화가 확인돼요.",
+            "url": "https://esmed.org/MRA/mra/article/view/862"
+          },
+          {
+            "label": "발기부전에서 해면체 내 주사를 위한 Vasoactive intestinal polypeptide/phentolamine.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18485029/"
+          },
+          {
+            "label": "불응성 발기부전에 대한 aviptadil 및 phentolamine의 해면체 내 주사.",
+            "url": "https://academic.oup.com/jsm/article-abstract/22/5/726/8107665"
+          },
+          {
+            "label": "FD&C 법 제503A조에 따른 조제에 사용되는 벌크 원료의약품.",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          },
+          {
+            "label": "FDA 펩타이드 규제가 변경될 수 있어요: VIP, GHK-Cu 및 기타 펩타이드의 조제 분류.",
+            "url": "https://www.frierlevitt.com/articles/fda-peptide-regulation-rfk-announcement-compounding-pharmacies/"
+          },
+          {
+            "label": "FDA가 COVID-19에 대한 Zyesami (aviptadil)의 EUA 요청을 거절했어요.",
+            "url": "https://www.managedhealthcareexecutive.com/view/fda-declines-eua-request-for-zyesami-for-covid-19"
+          },
+          {
+            "label": "aviptadil(합성 VIP)의 예상되는 약리학적 역할: VPAC 수용체 기전 및 폐 생물학.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630992/"
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_dose_and_frequency_choice",
+          "best_time_of_day",
+          "human_subcutaneous_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "출처 참고 자료로만 사용하며, 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "url": "https://www.peptidedosingprotocols.com/protocol/vip",
+      "title": "VIP Peptide Dosing Guide: Vasoactive Intestinal Peptide Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "76e3f0c9-e124-4e82-8139-e68924c35ccf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10527239/",
+      "title": "Intravenous aviptadil and remdesivir for treatment of COVID-19-associated hypoxaemic respiratory failure in the USA (TESICO): a randomised, placebo-controlled trial",
+      "publisher": "The Lancet Respiratory Medicine",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "bdb7ce6a-a6b4-4c6d-b12f-f5facc092507",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18978135/",
+      "title": "Inhalation of vasoactive intestinal peptide in pulmonary hypertension",
+      "publisher": "European Respiratory Journal / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "62d8ffb1-9108-480e-9b62-ecc435ff03c0",
+      "sourceID": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에서 이 항목들을 설명해요. 일차 출처 검증은 아직 대기 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "66a5942e-d8cc-4557-8423-6f325c80529a",
+      "sourceID": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에서 이 항목들을 설명해요. 일차 출처 검증은 아직 대기 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "vip",
+      "sourceID": "76e3f0c9-e124-4e82-8139-e68924c35ccf",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "원 연구의 결과와 결론을 읽었어요. 461명이 눈가림 방식으로 주입을 받았으며, aviptadil은 90일째 회복이나 다른 임상 평가변수를 개선하지 못했어요. 분류 근거: 검증된 연구는 폐혈관 생리학과 중증 호흡기 질환을 다뤄요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "vip",
+      "sourceID": "bdb7ce6a-a6b4-4c6d-b12f-f5facc092507",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "색인에 수록된 원 초록을 읽었어요. 환자 스무 명을 대상으로 했으며, 흡입 후 급성 혈역학적 반응이 나타났지만 만성적인 임상적 유익성이 확립된 것은 아니에요. 분류 근거: 검증된 연구는 폐혈관 생리학과 중증 호흡기 질환을 다뤄요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

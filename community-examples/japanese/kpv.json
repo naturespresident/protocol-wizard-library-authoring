@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "kpv",
+      "name": "KPV",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "抗炎症作用に関する前臨床研究：KPVは、培養した腸細胞および免疫細胞における炎症シグナル伝達を抑制し、マウスの化学物質誘発性大腸炎を軽減しました。これらの所見は腸の炎症に関する研究を支持しますが、炎症性腸疾患に対する臨床的有益性やヒトへの注射プロトコルを確立するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "productID": "kpv",
+      "title": "KPV — 出典に記載された経口投与の用量範囲",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事／コミュニティによる記述です。独立した出典の検証とアプリの既定値への採用は未実施です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_product",
+          "components": [
+            {
+              "library_item_id": "kpv"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "コミュニティでの用量範囲",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "毎日1-2回"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+              "source_tables": [
+                {
+                  "section": "KPVのサイクル期間一覧",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "枠組み",
+                      "報告された投与期間",
+                      "報告された休薬期間",
+                      "エビデンスの水準"
+                    ],
+                    [
+                      "短期サイクル",
+                      "4週間",
+                      "2–4週間",
+                      "コミュニティでよく参照されますが、ヒトを対象とした対照試験はありません"
+                    ],
+                    [
+                      "コミュニティでの標準的な範囲",
+                      "6–8週間",
+                      "2–4週間",
+                      "頻繁に議論されていますが、臨床的には確立されていません"
+                    ],
+                    [
+                      "延長サイクル",
+                      "12週間",
+                      "約4週間以上",
+                      "延長が報告されていますが、長期的なエビデンスは限られています"
+                    ],
+                    [
+                      "長期延長",
+                      "最長16週間",
+                      "4–8週間",
+                      "逸話的な情報であり、この期間の妥当性を裏付けるKPVの試験はありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "コミュニティでのKPVサイクルと研究期間の比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "出典",
+                      "期間の例",
+                      "研究内容",
+                      "示されること"
+                    ],
+                    [
+                      "コミュニティのプロトコル",
+                      "4–8週間",
+                      "経口または皮下投与の研究の枠組み",
+                      "一般に議論されるスケジュールを示しており、検証済みのサイクルではありません"
+                    ],
+                    [
+                      "コミュニティの延長プロトコル",
+                      "8–12週間",
+                      "より長期の研究計画",
+                      "延長について記録していますが、長い方がよいという証明ではありません"
+                    ],
+                    [
+                      "Dalmassoら（2008）",
+                      "48時間から8日間",
+                      "マウス大腸炎モデルとPepT1による輸送",
+                      "短期の前臨床研究を支持しますが、ヒトでのサイクルを支持するものではありません"
+                    ],
+                    [
+                      "Kannengiesserら（2008）",
+                      "マウス大腸炎モデルでの数日間",
+                      "DSSおよび移入大腸炎モデルにおけるKPV",
+                      "動物での抗炎症研究のみを示しています"
+                    ],
+                    [
+                      "Xiaoら（2017）",
+                      "短期のDSSモデルでの毎日の投与",
+                      "マウスへのKPV封入ナノ粒子の経口投与",
+                      "送達システムの実験を支持しますが、遊離KPVのサイクル指針を支持するものではありません"
+                    ],
+                    [
+                      "Dalmassoら（2016）",
+                      "回復期間を挟んだDSS投与期間の反復",
+                      "マウスの大腸炎関連がんモデル",
+                      "より長期の動物実験の設計を示しており、ヒトでの連続投与プロトコルではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "6–8週間のKPVサイクルについて",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与期間",
+                      "日数",
+                      "KPV総量",
+                      "10 mg バイアル"
+                    ],
+                    [
+                      "6週間",
+                      "42",
+                      "21 mg",
+                      "3バイアル"
+                    ],
+                    [
+                      "8週間",
+                      "56",
+                      "28 mg",
+                      "3バイアル"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPVはサイクル投与する必要がありますか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与期間の枠組み",
+                      "報告された休薬期間",
+                      "エビデンスに関する注記"
+                    ],
+                    [
+                      "4週間",
+                      "2–4週間",
+                      "コミュニティの慣行であり、試験による比較はありません"
+                    ],
+                    [
+                      "6–8週間",
+                      "2–4週間",
+                      "一般に議論されていますが、リセットに必要な期間は実証されていません"
+                    ],
+                    [
+                      "12週間",
+                      "約4週間以上",
+                      "コミュニティでの延長パターンであり、臨床的には確立されていません"
+                    ],
+                    [
+                      "16週間",
+                      "4–8週間",
+                      "逸話に基づく枠組みであり、エビデンスに大きな欠落があります"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPVの投与経路によってサイクル期間は変わりますか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与経路",
+                      "議論されている内容",
+                      "サイクルに関するエビデンス"
+                    ],
+                    [
+                      "経口",
+                      "腸に焦点を当てたコミュニティの枠組みと動物でのPepT1研究",
+                      "ヒトでの経口投与サイクルは確立されていません"
+                    ],
+                    [
+                      "皮下",
+                      "全身作用を目的としたコミュニティのプロトコル",
+                      "ヒトでの皮下投与の用量またはサイクルを検討した完了済みの試験はありません"
+                    ],
+                    [
+                      "局所",
+                      "特定の製剤に関する皮膚の研究",
+                      "製剤間で共通する標準的な濃度やサイクルはありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPVの10 mg バイアルは何日分ですか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "計算に用いる日量",
+                      "計算式",
+                      "計算上の回数",
+                      "おおよその期間"
+                    ],
+                    [
+                      "200 mcg",
+                      "10,000 ÷ 200",
+                      "50",
+                      "50日間"
+                    ],
+                    [
+                      "300 mcg",
+                      "10,000 ÷ 300",
+                      "33.3",
+                      "約33日間"
+                    ],
+                    [
+                      "400 mcg",
+                      "10,000 ÷ 400",
+                      "25",
+                      "25日間"
+                    ],
+                    [
+                      "500 mcg",
+                      "10,000 ÷ 500",
+                      "20",
+                      "20日間"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [
+            {
+              "section": "KPVの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保管に関する参考情報",
+                  "主な注意事項"
+                ],
+                [
+                  "凍結乾燥（粉末）",
+                  "製品の文書に従ってください",
+                  "熱、直射光、湿気を避けてください"
+                ],
+                [
+                  "再溶解後",
+                  "通常は冷蔵されます。ラベルに従ってください",
+                  "繰り返しの温度変化を避けてください"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_statements": [
+            {
+              "section": "KPV研究における安全性の限界",
+              "subsection": "",
+              "excerpt": "KPVは主に抗炎症作用と腸管バリアのモデルで研究されています。安全に使用できる対象者を明らかにした完了済みのヒト試験はないため、このページでは個人の適格性に関する助言は提供しません。",
+              "truncated": false
+            },
+            {
+              "section": "KPV研究における安全性の限界",
+              "subsection": "",
+              "excerpt": "一般に研究計画の対象範囲外となる状況：妊娠および授乳（安全性データがありません）、ペプチド化合物に対する既知の過敏症、医師の監督下にない活動性の複雑な感染症（炎症と抗菌作用のシグナル伝達が重複するため）。",
+              "truncated": false
+            },
+            {
+              "section": "KPV研究における安全性の限界",
+              "subsection": "",
+              "excerpt": "注意が必要な状況：処方された免疫調節薬を使用中の活動性自己免疫疾患（相互作用は研究されていません）、処方治療で管理されているIBDまたはその他の炎症性腸疾患です。KPVを処方薬の代わりに使用するべきではなく、主治医に相談するべきです。",
+              "truncated": false
+            },
+            {
+              "section": "KPVの副作用と安全性",
+              "subsection": "",
+              "excerpt": "動物研究とコミュニティでの使用では、KPVは一般に忍容性が良好と報告されていますが、正式なヒトでの安全性試験は完了していません。長期的な安全性データは存在しません。",
+              "truncated": false
+            },
+            {
+              "section": "KPVの副作用と安全性",
+              "subsection": "",
+              "excerpt": "よく報告される作用（試験データではなく、コミュニティでの情報）：軽度で一過性の注射部位の刺激、時折みられる軽い頭痛、高用量の経口投与時に時折みられる胃腸の不調です。",
+              "truncated": false
+            },
+            {
+              "section": "KPVの副作用と安全性",
+              "subsection": "",
+              "excerpt": "免疫への作用：KPVは免疫系を広く抑制するのではなく、特定の炎症経路（特にNF-kB）を抑えます。動物研究では、コルチコステロイドでみられるような感染症への罹りやすさは認められていませんが、",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "PepT1を介したトリペプチドKPVの取り込みは腸の炎症を軽減します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/"
+          },
+          {
+            "label": "hyaluronic acidで機能化したナノ粒子によるトリペプチドKPVの経口標的送達は、潰瘍性大腸炎を効率的に軽減します。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/"
+          },
+          {
+            "label": "Alpha-MSH関連ペプチド：新しい種類の抗炎症薬および免疫調節薬。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2095288/"
+          },
+          {
+            "label": "神経ペプチドalpha-MSHと炎症：末梢および中枢での抗炎症作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10985255/"
+          },
+          {
+            "label": "新たな治療法の可能性としてのメラノコルチン受容体の標的化。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16289446/"
+          },
+          {
+            "label": "炎症性腸疾患におけるメラノコルチンペプチドの治療上の可能性。",
+            "url": "https://www.nature.com/subjects/inflammatory-bowel-disease"
+          },
+          {
+            "label": "メラノコルチンによる炎症の調節。",
+            "url": "https://www.frontiersin.org/articles/10.3389/fendo.2019.00683/full"
+          },
+          {
+            "label": "alpha-melanocyte-stimulating hormoneによるマクロファージの一酸化窒素合成酵素のオートクリン調節のエビデンス。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7541113/"
+          },
+          {
+            "label": "Alpha-MSHは実験的炎症性腸疾患を調節します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9437733/"
+          },
+          {
+            "label": "急性、慢性および全身性炎症における神経ペプチドalpha-MSHの抗炎症作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2550304/"
+          },
+          {
+            "label": "503Aに基づく調剤への使用候補として提案された原薬：カテゴリー2の更新（2026年四月22日付でKPVをカテゴリー2から除外）。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDAが12種類のペプチドのステータス変更を発表（2026年四月15日発表）。",
+            "url": "https://ssrpinstitute.org/news/fda-announces-change-in-status-of-12-peptides/"
+          }
+        ],
+        "unresolved_fields": [
+          "duration",
+          "best_time_of_day",
+          "formulation_identity",
+          "human_validation"
+        ],
+        "notes": "出典の参照情報のみであり、未審査です。表と独立した参考文献は、出典の記録で引き続き参照できます。"
+      }
+    },
+    {
+      "id": "85562a65-584d-449d-a623-2535e24ca360",
+      "productID": "kpv",
+      "title": "KPV — 出典に記載された皮下投与の用量範囲",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事／コミュニティによる記述です。独立した出典の検証とアプリの既定値への採用は未実施です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "kpv"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPVの再溶解表とバイアル計算 / 再溶解の計算式"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPVの再溶解表とバイアル計算 / 再溶解の計算式"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPVの再溶解表とバイアル計算 / 再溶解の計算式"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPVの再溶解表とバイアル計算 / 再溶解の計算式"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPVの再溶解表とバイアル計算 / 再溶解の計算式"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "コミュニティでの用量範囲",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+              "source_tables": [
+                {
+                  "section": "KPVのサイクル期間一覧",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "枠組み",
+                      "報告された投与期間",
+                      "報告された休薬期間",
+                      "エビデンスの水準"
+                    ],
+                    [
+                      "短期サイクル",
+                      "4週間",
+                      "2–4週間",
+                      "コミュニティでよく参照されますが、ヒトを対象とした対照試験はありません"
+                    ],
+                    [
+                      "コミュニティでの標準的な範囲",
+                      "6–8週間",
+                      "2–4週間",
+                      "頻繁に議論されていますが、臨床的には確立されていません"
+                    ],
+                    [
+                      "延長サイクル",
+                      "12週間",
+                      "約4週間以上",
+                      "延長が報告されていますが、長期的なエビデンスは限られています"
+                    ],
+                    [
+                      "長期延長",
+                      "最長16週間",
+                      "4–8週間",
+                      "逸話的な情報であり、この期間の妥当性を裏付けるKPVの試験はありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "コミュニティでのKPVサイクルと研究期間の比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "出典",
+                      "期間の例",
+                      "研究内容",
+                      "示されること"
+                    ],
+                    [
+                      "コミュニティのプロトコル",
+                      "4–8週間",
+                      "経口または皮下投与の研究の枠組み",
+                      "一般に議論されるスケジュールを示しており、検証済みのサイクルではありません"
+                    ],
+                    [
+                      "コミュニティの延長プロトコル",
+                      "8–12週間",
+                      "より長期の研究計画",
+                      "延長について記録していますが、長い方がよいという証明ではありません"
+                    ],
+                    [
+                      "Dalmassoら（2008）",
+                      "48時間から8日間",
+                      "マウス大腸炎モデルとPepT1による輸送",
+                      "短期の前臨床研究を支持しますが、ヒトでのサイクルを支持するものではありません"
+                    ],
+                    [
+                      "Kannengiesserら（2008）",
+                      "マウス大腸炎モデルでの数日間",
+                      "DSSおよび移入大腸炎モデルにおけるKPV",
+                      "動物での抗炎症研究のみを示しています"
+                    ],
+                    [
+                      "Xiaoら（2017）",
+                      "短期のDSSモデルでの毎日の投与",
+                      "マウスへのKPV封入ナノ粒子の経口投与",
+                      "送達システムの実験を支持しますが、遊離KPVのサイクル指針を支持するものではありません"
+                    ],
+                    [
+                      "Dalmassoら（2016）",
+                      "回復期間を挟んだDSS投与期間の反復",
+                      "マウスの大腸炎関連がんモデル",
+                      "より長期の動物実験の設計を示しており、ヒトでの連続投与プロトコルではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "6–8週間のKPVサイクルについて",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与期間",
+                      "日数",
+                      "KPV総量",
+                      "10 mg バイアル"
+                    ],
+                    [
+                      "6週間",
+                      "42",
+                      "21 mg",
+                      "3バイアル"
+                    ],
+                    [
+                      "8週間",
+                      "56",
+                      "28 mg",
+                      "3バイアル"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPVはサイクル投与する必要がありますか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与期間の枠組み",
+                      "報告された休薬期間",
+                      "エビデンスに関する注記"
+                    ],
+                    [
+                      "4週間",
+                      "2–4週間",
+                      "コミュニティの慣行であり、試験による比較はありません"
+                    ],
+                    [
+                      "6–8週間",
+                      "2–4週間",
+                      "一般に議論されていますが、リセットに必要な期間は実証されていません"
+                    ],
+                    [
+                      "12週間",
+                      "約4週間以上",
+                      "コミュニティでの延長パターンであり、臨床的には確立されていません"
+                    ],
+                    [
+                      "16週間",
+                      "4–8週間",
+                      "逸話に基づく枠組みであり、エビデンスに大きな欠落があります"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPVの投与経路によってサイクル期間は変わりますか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与経路",
+                      "議論されている内容",
+                      "サイクルに関するエビデンス"
+                    ],
+                    [
+                      "経口",
+                      "腸に焦点を当てたコミュニティの枠組みと動物でのPepT1研究",
+                      "ヒトでの経口投与サイクルは確立されていません"
+                    ],
+                    [
+                      "皮下",
+                      "全身作用を目的としたコミュニティのプロトコル",
+                      "ヒトでの皮下投与の用量またはサイクルを検討した完了済みの試験はありません"
+                    ],
+                    [
+                      "局所",
+                      "特定の製剤に関する皮膚の研究",
+                      "製剤間で共通する標準的な濃度やサイクルはありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPVの10 mg バイアルは何日分ですか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "計算に用いる日量",
+                      "計算式",
+                      "計算上の回数",
+                      "おおよその期間"
+                    ],
+                    [
+                      "200 mcg",
+                      "10,000 ÷ 200",
+                      "50",
+                      "50日間"
+                    ],
+                    [
+                      "300 mcg",
+                      "10,000 ÷ 300",
+                      "33.3",
+                      "約33日間"
+                    ],
+                    [
+                      "400 mcg",
+                      "10,000 ÷ 400",
+                      "25",
+                      "25日間"
+                    ],
+                    [
+                      "500 mcg",
+                      "10,000 ÷ 500",
+                      "20",
+                      "20日間"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [
+            {
+              "section": "KPVの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保管に関する参考情報",
+                  "主な注意事項"
+                ],
+                [
+                  "凍結乾燥（粉末）",
+                  "製品の文書に従ってください",
+                  "熱、直射光、湿気を避けてください"
+                ],
+                [
+                  "再溶解後",
+                  "通常は冷蔵されます。ラベルに従ってください",
+                  "繰り返しの温度変化を避けてください"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_statements": [
+            {
+              "section": "KPV研究における安全性の限界",
+              "subsection": "",
+              "excerpt": "KPVは主に抗炎症作用と腸管バリアのモデルで研究されています。安全に使用できる対象者を明らかにした完了済みのヒト試験はないため、このページでは個人の適格性に関する助言は提供しません。",
+              "truncated": false
+            },
+            {
+              "section": "KPV研究における安全性の限界",
+              "subsection": "",
+              "excerpt": "一般に研究計画の対象範囲外となる状況：妊娠および授乳（安全性データがありません）、ペプチド化合物に対する既知の過敏症、医師の監督下にない活動性の複雑な感染症（炎症と抗菌作用のシグナル伝達が重複するため）。",
+              "truncated": false
+            },
+            {
+              "section": "KPV研究における安全性の限界",
+              "subsection": "",
+              "excerpt": "注意が必要な状況：処方された免疫調節薬を使用中の活動性自己免疫疾患（相互作用は研究されていません）、処方治療で管理されているIBDまたはその他の炎症性腸疾患です。KPVを処方薬の代わりに使用するべきではなく、主治医に相談するべきです。",
+              "truncated": false
+            },
+            {
+              "section": "KPVの副作用と安全性",
+              "subsection": "",
+              "excerpt": "動物研究とコミュニティでの使用では、KPVは一般に忍容性が良好と報告されていますが、正式なヒトでの安全性試験は完了していません。長期的な安全性データは存在しません。",
+              "truncated": false
+            },
+            {
+              "section": "KPVの副作用と安全性",
+              "subsection": "",
+              "excerpt": "よく報告される作用（試験データではなく、コミュニティでの情報）：軽度で一過性の注射部位の刺激、時折みられる軽い頭痛、高用量の経口投与時に時折みられる胃腸の不調です。",
+              "truncated": false
+            },
+            {
+              "section": "KPVの副作用と安全性",
+              "subsection": "",
+              "excerpt": "免疫への作用：KPVは免疫系を広く抑制するのではなく、特定の炎症経路（特にNF-kB）を抑えます。動物研究では、コルチコステロイドでみられるような感染症への罹りやすさは認められていませんが、",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "PepT1を介したトリペプチドKPVの取り込みは腸の炎症を軽減します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/"
+          },
+          {
+            "label": "hyaluronic acidで機能化したナノ粒子によるトリペプチドKPVの経口標的送達は、潰瘍性大腸炎を効率的に軽減します。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/"
+          },
+          {
+            "label": "Alpha-MSH関連ペプチド：新しい種類の抗炎症薬および免疫調節薬。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2095288/"
+          },
+          {
+            "label": "神経ペプチドalpha-MSHと炎症：末梢および中枢での抗炎症作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10985255/"
+          },
+          {
+            "label": "新たな治療法の可能性としてのメラノコルチン受容体の標的化。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16289446/"
+          },
+          {
+            "label": "炎症性腸疾患におけるメラノコルチンペプチドの治療上の可能性。",
+            "url": "https://www.nature.com/subjects/inflammatory-bowel-disease"
+          },
+          {
+            "label": "メラノコルチンによる炎症の調節。",
+            "url": "https://www.frontiersin.org/articles/10.3389/fendo.2019.00683/full"
+          },
+          {
+            "label": "alpha-melanocyte-stimulating hormoneによるマクロファージの一酸化窒素合成酵素のオートクリン調節のエビデンス。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7541113/"
+          },
+          {
+            "label": "Alpha-MSHは実験的炎症性腸疾患を調節します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9437733/"
+          },
+          {
+            "label": "急性、慢性および全身性炎症における神経ペプチドalpha-MSHの抗炎症作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2550304/"
+          },
+          {
+            "label": "503Aに基づく調剤への使用候補として提案された原薬：カテゴリー2の更新（2026年四月22日付でKPVをカテゴリー2から除外）。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDAが12種類のペプチドのステータス変更を発表（2026年四月15日発表）。",
+            "url": "https://ssrpinstitute.org/news/fda-announces-change-in-status-of-12-peptides/"
+          }
+        ],
+        "unresolved_fields": [
+          "duration",
+          "best_time_of_day",
+          "formulation_identity",
+          "human_validation"
+        ],
+        "notes": "出典の参照情報のみであり、未審査です。表と独立した参考文献は、出典の記録で引き続き参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+      "title": "KPV Cycle Length: How Long Is a KPV Peptide Cycle? (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+      "title": "KPV Peptide Dosage Chart, Protocol & Reconstitution Guide (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/",
+      "title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation",
+      "publisher": "Gastroenterology / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "sourceID": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間と休薬期間に関する背景エビデンスであり、用量、製品ラベル、投与経路、対象集団に固有の指示に代わるものではありません。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "sourceID": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にはこれらの項目が記載されていますが、一次資料による検証は未実施です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "85562a65-584d-449d-a623-2535e24ca360",
+      "sourceID": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間と休薬期間に関する背景エビデンスであり、用量、製品ラベル、投与経路、対象集団に固有の指示に代わるものではありません。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "85562a65-584d-449d-a623-2535e24ca360",
+      "sourceID": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にはこれらの項目が記載されていますが、一次資料による検証は未実施です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "kpv",
+      "sourceID": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "索引に収録された原著の抄録を確認済みです。ヒト細胞株とDSS/TNBSを用いたマウス大腸炎の実験であり、患者への投与は行われていません。カテゴリー分類の根拠：直接的なエビデンスは、一般的な回復ではなく、実験的な腸の炎症性疾患に関するものです。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門・臨床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    },
+    {
+      "id": "oral",
+      "name": "経口"
+    }
+  ]
+}

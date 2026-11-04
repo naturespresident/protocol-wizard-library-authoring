@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tesofensine",
+      "name": "Tesofensine",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 2,
+      "benefits": "経口tesofensineについて、ヒトでの体重減少を示唆する結果が報告されています。肥満の成人を対象としたランダム化第2相試験では、エネルギー制限食との併用で、プラセボよりも大きな体重減少が認められました。しかし、その後The Lancetはこの試験について懸念表明を発表しました。この試験の結果は、有効性や安全性について確定的な主張を裏付けるものではなく、留保を伴う予備的なエビデンスとして扱うべきです。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "20ca545e-5978-49b8-8d56-59aec5267f4a",
+      "productID": "tesofensine",
+      "title": "Tesofensine — 出典の試験における用量群と朝の投与時期",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事／コミュニティによる記述です。独立した出典の検証と、アプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trials_described_by_secondary_source",
+          "indication_context": "Phase 2 obesity dose arms",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_tablet",
+          "components": [
+            {
+              "library_item_id": "tesofensine"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "食事安定化のための導入期間",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "薬剤投与なし"
+            },
+            "status": "run_in"
+          },
+          {
+            "name": "割り付けられた治療群",
+            "duration": {
+              "kind": "fixed",
+              "value": 168,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "0.25",
+                "0.5",
+                "1"
+              ],
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "morning",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/tesofensine",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+          "source_tables": [
+            {
+              "section": "Tesofensineの投与プロトコルとスケジュール",
+              "subsection": "試験で用いられたサイクル構成",
+              "rows": [
+                [
+                  "フェーズ",
+                  "期間",
+                  "注記"
+                ],
+                [
+                  "導入期間",
+                  "2週間",
+                  "食事を安定させ、tesofensineは投与しません。体重と検査値のベースラインを設定するために用います。"
+                ],
+                [
+                  "治療",
+                  "24週間",
+                  "カロリー制限食と併用し、割り付けられた用量の錠剤を毎日一回服用します。"
+                ],
+                [
+                  "非盲検延長試験（TIPO-4）",
+                  "最大48週間の追加期間",
+                  "0.5 mg を継続し、一部の患者では任意で1.0 mg まで漸増します。"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+          "source_tables": [
+            {
+              "section": "Tesofensineの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "剤形・包装形態",
+                  "保管",
+                  "注記"
+                ],
+                [
+                  "密封された錠剤ボトル",
+                  "59-77F（15-25C）、乾燥した暗所",
+                  "異なる条件が指定されていないか、供給元のラベルを確認してください。"
+                ],
+                [
+                  "ボトルから取り出してピルケースに入れた錠剤",
+                  "同じ温度範囲です。湿気を最小限に抑えてください。",
+                  "長期保管にはあまり適していません。毎週補充してください。"
+                ],
+                [
+                  "粉末形態（分析用途のみ）",
+                  "供給元の指示に従ってください。多くの場合、冷蔵または冷凍です。",
+                  "粉末形態は試験での投与条件に一致しません。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+          "source_statements": [
+            {
+              "section": "Tesofensineの研究対象者と使用を避けるべき人",
+              "subsection": "特に注意が必要な集団",
+              "excerpt": "SSRI、SNRI、その他のセロトニン作動薬を服用している人です。正式な相互作用試験はありませんが、セロトニン系への複合的な負荷は現実的な懸念です。",
+              "truncated": false
+            },
+            {
+              "section": "Tesofensineの研究対象者と使用を避けるべき人",
+              "subsection": "特に注意が必要な集団",
+              "excerpt": "妊娠中、妊娠を計画中、または授乳中の人です。Tesofensineはこれらの集団では研究されていません。",
+              "truncated": false
+            },
+            {
+              "section": "Tesofensineの副作用と安全性",
+              "subsection": "心血管系への影響を示唆する所見",
+              "excerpt": "これは安全性について最も議論されている話題です。第2相試験では、0.5 mg 群でプラセボと比べて心拍数が毎分平均7.4拍増加しました。血圧は0.25 mg または0.5 mg では意味のある上昇を示しませんでしたが、1.0 mg では上昇しました。この傾向が、1.0 mg の用量が第3相試験から除外された理由であり、米国で",
+              "truncated": true
+            },
+            {
+              "section": "Tesofensineの副作用と安全性",
+              "subsection": "精神面への影響を示唆する所見",
+              "excerpt": "tesofensineはセロトニン、ドーパミン、ノルエピネフリンを増加させるため、気分と睡眠への影響は生物学的に予想されます。不眠は使用中止の比較的よくある理由のひとつです。不安、易刺激性、気分の変化については",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "肥満患者におけるtesofensineの体重減少、体組成、生活の質への影響：ランダム化二重盲検プラセボ対照試験。",
+            "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(08)61525-1/abstract"
+          },
+          {
+            "label": "Tesofensine — 強力な新規減量薬。Astrupら（Lancet 2008）の評価。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19548858/"
+          },
+          {
+            "label": "懸念表明 — 肥満患者におけるtesofensineの体重減少、体組成、生活の質への影響。",
+            "url": "https://discovery.researcher.life/article/expression-of-concerneffect-of-tesofensine-on-bodyweight-loss-body-composition-and-quality-of-life-in-obese-patients-a-randomised-doubleblind-placebocontrolled-trial/d59aea67bd283da49a348b416e472d50"
+          },
+          {
+            "label": "生体内におけるtesofensineの薬理活性に対する活性代謝物M1の寄与：薬物動態・薬力学モデリングによるアプローチ。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2199391/"
+          },
+          {
+            "label": "抗肥満効果を有する新規の三重モノアミン再取り込み阻害薬Tesofensine：PETで測定したドーパミントランスポーター占有率。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24239329/"
+          },
+          {
+            "label": "Sanionaのtesofensineが肥満の承認申請を目的とした第3相試験（Viking試験）で主要評価項目と副次評価項目を達成しました。",
+            "url": "https://tools.eurolandir.com/tools/Pressreleases/GetPressRelease/?ID=3548001&companycode=s-sanion&v="
+          },
+          {
+            "label": "Sanionaの提携先Medixが、メキシコでの肥満治療用tesofensineについて肯定的な見解を受けました。",
+            "url": "https://view.news.eu.nasdaq.com/view?id=ba550ce87a36abef56b065cec259b71ec&lang=en"
+          },
+          {
+            "label": "メキシコにおけるtesofensineの申請は未承認です — Sanionaの最新情報。",
+            "url": "https://inderes.fi/releases/mexican-application-for-tesofensine-not-yet-approved"
+          },
+          {
+            "label": "新規の抗肥満薬Tesofensineが視床下部のGABA作動性ニューロンの活動を抑制します。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042726/"
+          },
+          {
+            "label": "中枢作用性抗肥満薬の神経精神医学的有害作用：ランダム化比較試験のシステマティックレビュー。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493804/"
+          },
+          {
+            "label": "Tesofensineの開発パイプラインのページ。",
+            "url": "https://saniona.com/pipeline/tesofensine/"
+          },
+          {
+            "label": "2026年の新薬承認。",
+            "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_trial_eligibility",
+          "optional_extension_conditions",
+          "primary_verification"
+        ],
+        "notes": "出典の参考情報のみであり、未レビューです。表と独立した参考文献は、引き続き出典の記録で参照できます。",
+        "optional_extension": {
+          "duration": {
+            "kind": "maximum",
+            "value": 336,
+            "unit": "day"
+          },
+          "starting_dose": {
+            "value": "0.5",
+            "unit": "mg"
+          },
+          "optional_increase": {
+            "value": "1",
+            "unit": "mg"
+          }
+        },
+        "dose_arm_context": {
+          "1": "Phase 2 only; not later Phase 3",
+          "0.25": "Phase 2 and Mexico Phase 3",
+          "0.5": "Phase 2 and Mexico Phase 3"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "167be03a-7288-4c7d-acb1-d0e8e151ad4c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23561987/",
+      "title": "Expression of concern—Effect of tesofensine on bodyweight loss, body composition, and quality of life in obese patients",
+      "publisher": "The Lancet / bibliographic notice in PubMed",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "622e3569-35ec-4a5e-b3b7-499997314789",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18950853/",
+      "title": "Effect of tesofensine on bodyweight loss, body composition, and quality of life in obese patients: a randomised, double-blind, placebo-controlled trial",
+      "publisher": "The Lancet / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+      "url": "https://www.peptidedosingprotocols.com/protocol/tesofensine",
+      "title": "Tesofensine Dosing Guide: Oral Protocol, Half-Life & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "20ca545e-5978-49b8-8d56-59aec5267f4a",
+      "sourceID": "bedc2a82-df95-4434-908d-c41f464b33bb",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にはこれらの項目の記載があります。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/optional_extension",
+        "/dose_arm_context"
+      ]
+    },
+    {
+      "productID": "tesofensine",
+      "sourceID": "167be03a-7288-4c7d-acb1-d0e8e151ad4c",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "主要試験のPubMedページと索引に収録された通知には、懸念表明が明記されています。その解決については推論していません。カテゴリーの根拠：体重と代謝：報告された試験結果と意図された用途は、肥満と体重に関するものです。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "tesofensine",
+      "sourceID": "622e3569-35ec-4a5e-b3b7-499997314789",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "203人の参加者をランダムに割り付け、24週間にわたり経口治療と制限食を併用しました。PubMedには、同誌の2013年の懸念表明へのリンクが明示されています。カテゴリーの根拠：体重と代謝：報告された試験結果と意図された用途は、肥満と体重に関するものです。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重と代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "経口"
+    }
+  ]
+}

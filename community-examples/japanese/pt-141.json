@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pt-141",
+      "name": "Bremelanotide",
+      "aliases": [
+        "PT-141"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": "承認されたbremelanotide皮下投与製剤について、ヒトで実証された有益性：添付文書の基準を満たす閉経前女性において、後天性かつ全般性の性的欲求低下障害に伴う性的欲求の増加と苦痛の軽減が認められました。このエビデンスは、男性や閉経後女性における有益性、または一般的な性的パフォーマンスの向上を立証するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "productID": "pt-141",
+      "title": "Vyleesi — 添付文書に記載されたbremelanotideの頓用レジメン",
+      "purpose": "適格な閉経前女性における後天性かつ全般性の性的欲求低下障害",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "未レビューの参考資料からの抜粋です。完全な処方指示ではありません。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Vyleesi single-dose autoinjector",
+          "components": [
+            {
+              "name": "Bremelanotide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "後天性かつ全般性の性的欲求低下障害のある閉経前女性です。男性や閉経後女性は対象ではありません。"
+        },
+        "preparation_options": [
+          {
+            "form": "prefilled_device",
+            "reconstitution_required": false,
+            "container_amount": {
+              "value": "1.75",
+              "unit": "mg"
+            },
+            "container_volume": {
+              "value": "0.3",
+              "unit": "mL"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "必要時の治療",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.75",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "as_needed",
+              "doses_per_day": null,
+              "minimum_minutes_before_event": 45,
+              "maximum_doses_per_24_hours": 1,
+              "maximum_doses_per_month": 8,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [],
+        "notes": "五十六日間経過しても症状が改善しない場合は中止してください。頓用のため、毎日の注射回数は固定されていません。禁忌とモニタリングについては、添付文書の全文を参照してください。"
+      }
+    },
+    {
+      "id": "e02fe941-a3b7-4171-8cea-810d3d4c7134",
+      "productID": "pt-141",
+      "title": "Bremelanotide — 出典に記載された男性のED試験における鼻腔内投与の用量範囲",
+      "purpose": "出典の記述に基づく参考計画",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "編集記事またはコミュニティによる二次的な記述です。出典の独立した検証と、アプリの既定値への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "phase_2_trial_described_by_secondary_source",
+          "indication_context": "men with erectile dysfunction",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_trial_product",
+          "components": [
+            {
+              "library_item_id": "pt-141"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "試験の各用量群の範囲",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "7.5",
+              "maximum": "20",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "試験の投与スケジュールは記載されていません"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bremelanotide-pt-141",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_tables": [
+            {
+              "section": "PT-141の投与プロトコルとスケジュール",
+              "subsection": "サイクルの指針",
+              "rows": [
+                [
+                  "方法",
+                  "パターン",
+                  "参考出典"
+                ],
+                [
+                  "FDA承認の頓用（Vyleesi）",
+                  "性行為の≥45分前に1.75 mg を皮下投与します。≤1回/24時間、≤8回/月です。",
+                  "Vyleesiの添付文書（Mayo Clinicによる要約）"
+                ],
+                [
+                  "第3相試験のスケジュール",
+                  "24週間にわたり、必要時に1.75 mg を皮下投与します。",
+                  "Kingsberg 2019（RECONNECT）"
+                ],
+                [
+                  "長期安全性の延長試験",
+                  "追加の52週間にわたり、必要時に1.75 mg を皮下投与します。",
+                  "Simon 2019（非盲検延長試験）"
+                ],
+                [
+                  "第2相鼻腔内投与試験（EDのある男性）",
+                  "検討された試験群では7.5-20 mg を鼻腔内投与しました。",
+                  "Diamond 2006"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_tables": [
+            {
+              "section": "PT-141の保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保管",
+                  "備考"
+                ],
+                [
+                  "凍結乾燥（粉末状態）",
+                  "長期保管は-4°F（-20°C）です。短期の冷蔵保管も可能です。",
+                  "供給元の安定性データがある場合は、それに従ってください。"
+                ],
+                [
+                  "再溶解後（液体状態）",
+                  "35.6-46.4°F（2-8°C）",
+                  "吸引するたびに透明であることを確認し、濁りや変色がある場合は廃棄してください。"
+                ],
+                [
+                  "Vyleesiオートインジェクター",
+                  "熱、湿気、直射光を避け、室温で保管してください。凍結しないでください。",
+                  "FDA承認の添付文書に従ってください。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_statements": [
+            {
+              "section": "PT-141の対象者と使用を避けるべき方",
+              "subsection": "使用すべきではない方",
+              "excerpt": "Vyleesiの添付文書とMayo Clinicの薬剤概要では、投与後に一過性の血圧上昇が生じるため、コントロール不良の高血圧または既知の心血管疾患のある方にはPT-141を使用すべきではないとされています。また、妊娠中または妊娠を計画している場合も推奨されず、授乳中の安全性に関する十分なデータはありません。",
+              "truncated": false
+            },
+            {
+              "section": "PT-141の対象者と使用を避けるべき方",
+              "subsection": "慎重に使用すべき方",
+              "excerpt": "重度の腎疾患または肝疾患がある場合、クリアランスが低下する可能性があります。メラノコルチン受容体への作動作用が胃内容排出を遅らせるため、胃内容排出の遅延を伴う病態はPT-141によって悪化する可能性があります。Naltrexoneは、特に注意すべき相互作用として挙げられています（併用すると、PT-141がnaltrexoneの曝露量を減少させる可能性があります）。PT-141はMelanotan IIなどの他のメラノコルチン受容体作動薬と併用すべきではありません。受容体が重なり、併用時の安全性がまだ",
+              "truncated": true
+            },
+            {
+              "section": "PT-141の副作用と安全性",
+              "subsection": "",
+              "excerpt": "以下の副作用発現率は、FDA承認のVyleesiの添付文書と第3相RECONNECT試験の論文（Kingsberg 2019）に基づきます。最も一般的な有害事象は悪心で、1.75 mg の用量でbremelanotideを使用した方の約40%から報告されました。ほとんどの事象は軽度から中等度で、反復使用に伴い時間とともに減少し、ほとんどの参加者では投与中止に至りませんでした。",
+              "truncated": false
+            },
+            {
+              "section": "PT-141の副作用と安全性",
+              "subsection": "悪心",
+              "excerpt": "ほとんど",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Bremelanotide（皮下投与）— 概要と投与量。",
+            "url": "https://www.mayoclinic.org/drugs-supplements/bremelanotide-subcutaneous-route/description/drg-20466805"
+          },
+          {
+            "label": "性的欲求低下障害の治療におけるBremelanotide：二つの第3相無作為化試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31599840/"
+          },
+          {
+            "label": "性的欲求低下障害に対するBremelanotideの長期安全性と有効性。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31599841/"
+          },
+          {
+            "label": "閉経前女性の性機能障害に対するBremelanotide：無作為化プラセボ対照用量設定試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27333087/"
+          },
+          {
+            "label": "健康な男性および軽度から中等度の勃起不全患者における、メラノコルチン受容体作動薬PT-141の鼻腔内投与による安全性、薬物動態特性および薬力学的作用の二重盲検プラセボ対照評価。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16034466/"
+          },
+          {
+            "label": "性的興奮障害のある女性被験者におけるメラノコルチン受容体作動薬bremelanotideの安全性および有効性の評価：二重盲検プラセボ対照固定用量無作為化試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18331256/"
+          },
+          {
+            "label": "メラノコルチン受容体作動薬による雌ラットの性的誘引行動の選択的促進。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15226502/"
+          },
+          {
+            "label": "Bremelanotideの第3相RECONNECT試験における事前に規定されたサブグループ解析および統合サブグループ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35230162/"
+          },
+          {
+            "label": "Bremelanotide：女性の性機能に対する前臨床での中枢神経系作用の概要。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17958602/"
+          },
+          {
+            "label": "PT-141（Bremelanotide）：メラノコルチン受容体作動薬の研究ガイド。",
+            "url": "https://lotilabs.com/resources/pt-141-bremelanotide-melanocortin-receptor-agonist-research-guide/"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "actual_dose_arms",
+          "frequency",
+          "duration",
+          "product_concentration"
+        ],
+        "notes": "出典の参考情報のみで、未レビューです。表および独立した参考文献は、出典レコードで引き続き参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "url": "https://www.peptidedosingprotocols.com/protocol/bremelanotide-pt-141",
+      "title": "PT-141 (Bremelanotide) Dosage Guide: Timing, Protocol & Side Effects",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "63d43aa8-5a5c-4f89-b699-f5e44da04d47",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/210557Orig1s000Lbl.pdf",
+      "title": "Vyleesi original FDA-approved labeling, June 2019",
+      "publisher": "U.S. Food and Drug Administration / AMAG Pharmaceuticals",
+      "type": "regulatory_label",
+      "publishedAt": "2019-06"
+    },
+    {
+      "id": "7a673c9c-4e5e-4132-a3cf-57c5a0e491f9",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1d0c1b5-2f39-4bad-a6a4-0066e3ad5dcf",
+      "title": "VYLEESI (bremelanotide injection) prescribing information",
+      "publisher": "Manufacturer prescribing information / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "e0952025-c4ab-4f1f-9f35-6a64b315515c",
+      "url": "https://vyleesi.com/docs/Vyleesi-Full-Prescribing-Information.pdf",
+      "title": "Vyleesi prescribing information, revised March 2024",
+      "publisher": "Vyleesi manufacturer prescribing information",
+      "type": "regulatory_label",
+      "publishedAt": "2024-03"
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "Vyleesiの用量、頓用の投与時期、上限、添付文書上の対象集団が同一のため、重複させずに引用を追加しました。",
+      "supports": [
+        "/phases/0/dose",
+        "/phases/0/schedule"
+      ]
+    },
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "63d43aa8-5a5c-4f89-b699-f5e44da04d47",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "用量、性行為に対する投与時期、上限および再評価基準は、後年の添付文書と一致します。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "e0952025-c4ab-4f1f-9f35-6a64b315515c",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "添付文書には、性行為に応じた投与時期、日ごと・月ごとの上限、および製品専用の調製済みデバイスが記載されています。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "e02fe941-a3b7-4171-8cea-810d3d4c7134",
+      "sourceID": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目が記載されています。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "pt-141",
+      "sourceID": "7a673c9c-4e5e-4132-a3cf-57c5a0e491f9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "セクション1および14には、対象集団と、プラセボと比較して欲求およびそれに関連する苦痛の改善を示した二つの第3相試験が明記されています。添付文書の制限事項では、性的パフォーマンスの向上は対象外とされています。カテゴリーの根拠：専門的・臨床的：特定の患者集団における、定義された性的欲求障害の治療です。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門的・臨床的"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    },
+    {
+      "id": "intranasal",
+      "name": "鼻腔内"
+    }
+  ]
+}

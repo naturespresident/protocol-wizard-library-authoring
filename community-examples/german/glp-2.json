@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-2",
+      "name": "Tirzepatide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "Der nachgewiesene Nutzen zugelassener subkutaner tirzepatide-Produkte umfasst Gewichtsabnahme und langfristige Gewichtserhaltung bei dafür infrage kommenden Erwachsenen, eine verbesserte Blutzuckerkontrolle bei Typ-2-Diabetes und die Behandlung mittelschwerer bis schwerer obstruktiver Schlafapnoe bei Erwachsenen mit Adipositas. Die aktuelle Fachinformation zu Mounjaro umfasst auch die Verringerung schwerwiegender kardiovaskulärer Ereignisse bei Erwachsenen mit Typ-2-Diabetes und hohem Risiko. Dieser Nutzen ist produkt- und populationsspezifisch; die Evidenz für tirzepatide allein belegt keinen Nutzen von Kombinationen, die es enthalten."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "productID": "glp-2",
+      "title": "Zepbound — bedingte Dosissteigerung und Erhaltung gemäß Fachinformation",
+      "purpose": "Gewichtskontrolle bei Erwachsenen oder obstruktive Schlafapnoe bei Adipositas",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Ungeprüfte Extraktion aus einer Referenzquelle; keine vollständige Verordnungsanleitung.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Zepbound",
+          "components": [
+            {
+              "name": "Tirzepatide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "Erwachsene mit Adipositas oder Übergewicht, das die Anwendungskriterien erfüllt; das Anwendungsgebiet obstruktive Schlafapnoe setzt Adipositas voraus"
+        },
+        "preparation_options": [
+          {
+            "form": "ready_solution",
+            "reconstitution_required": false
+          }
+        ],
+        "phases": [
+          {
+            "name": "Behandlungsbeginn",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Individuelle Dosissteigerung und Erhaltung",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "5",
+                "7.5",
+                "10",
+                "12.5",
+                "15"
+              ],
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "conditional_escalation": {
+          "post_initiation_start": {
+            "value": "5",
+            "unit": "mg"
+          },
+          "increment": {
+            "value": "2.5",
+            "unit": "mg"
+          },
+          "minimum_days_at_each_dose": 28,
+          "maximum": {
+            "value": "15",
+            "unit": "mg"
+          },
+          "maintenance_options": {
+            "weight_management": [
+              "5",
+              "10",
+              "15"
+            ],
+            "obstructive_sleep_apnea": [
+              "10",
+              "15"
+            ]
+          }
+        },
+        "unresolved_fields": [
+          "individual_escalation_sequence",
+          "maintenance_dose_selection"
+        ],
+        "notes": "Archivieren Sie die in der Quelle festgelegten Optionen zusammen; daraus ergibt sich weder eine allgemeingültige feste Titration noch eine Zubereitung aus Durchstechflaschen mit individuell hergestellten Präparaten."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "26300ca9-06c5-4823-9c57-73e1855a6568",
+      "url": "https://pi.lilly.com/us/zepbound-uspi.pdf",
+      "title": "Zepbound prescribing information, revised August 2026",
+      "publisher": "Eli Lilly and Company",
+      "type": "regulatory_label",
+      "publishedAt": "2026-08"
+    },
+    {
+      "id": "7ca78315-a75d-4264-befa-32abf53435dc",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
+      "title": "ZEPBOUND (tirzepatide) prescribing information",
+      "publisher": "Eli Lilly / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "a4479d54-db30-4d64-9fc6-4ccb1a6518e7",
+      "url": "https://www.peptidedosingprotocols.com/protocol/tirzepatide",
+      "title": "Tirzepatide Dosing Chart: 2.5-15 mg Weekly Titration, Reconstitution & Side Effects",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "e9db8ee4-bcfb-4ea8-9db1-9356f789ed52",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+      "title": "MOUNJARO (tirzepatide) prescribing information",
+      "publisher": "Eli Lilly / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "fffa6144-803b-46e6-be70-a2ea566c8b45",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/tirzepatide",
+      "title": "Tirzepatide Cycle Length: Treatment, Maintenance & Stopping",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "sourceID": "26300ca9-06c5-4823-9c57-73e1855a6568",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "Behandlungsbeginn mit einmal wöchentlicher Gabe, gefolgt von individuell gewählten Dosissteigerungen und indikationsspezifischen Erhaltungsoptionen.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "sourceID": "a4479d54-db30-4d64-9fc6-4ccb1a6518e7",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "Das Beispiel folgt den bestehenden Dosisstufen von Zepbound; der Verlauf bis zur Höchstdosis ist weder ein neues Protokoll noch eine Vorgabe für jeden Patienten.",
+      "supports": [
+        "/conditional_escalation"
+      ]
+    },
+    {
+      "protocolID": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "sourceID": "fffa6144-803b-46e6-be70-a2ea566c8b45",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundinformationen zur Evidenz für Dauer und Pausen; kein Ersatz für Dosierungsangaben, Produktfachinformation, Angaben zum Verabreichungsweg oder populationsspezifische Anweisungen.",
+      "supports": []
+    },
+    {
+      "productID": "glp-2",
+      "sourceID": "7ca78315-a75d-4264-befa-32abf53435dc",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Die Fachinformation vom August 2026 stützt die Gewichtsreduktion und Gewichtserhaltung sowie die Behandlung einer mit Adipositas verbundenen mittelschweren bis schweren obstruktiven Schlafapnoe. Begründung der Kategorie: Gewicht und Stoffwechsel: Adipositas und Diabetes sind die wesentlichen etablierten Anwendungsgebiete.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glp-2",
+      "sourceID": "e9db8ee4-bcfb-4ea8-9db1-9356f789ed52",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Die aktuelle Fachinformation stützt die Blutzuckerkontrolle bei Erwachsenen und Kindern ab 10 Jahren mit Typ-2-Diabetes sowie die Senkung des Risikos kardiovaskulärer Ereignisse bei Erwachsenen mit Typ-2-Diabetes und hohem Risiko. Begründung der Kategorie: Gewicht und Stoffwechsel: Adipositas und Diabetes sind die wesentlichen etablierten Anwendungsgebiete.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Gewicht und Stoffwechsel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

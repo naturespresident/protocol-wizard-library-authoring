@@ -6,7 +6,10 @@ Create optional JSON reference libraries for Protocol Wizard, a personal protoco
 
 - `template/library.schema.json` — the complete JSON Schema for library format 1, including required fields, types, choices, and optional reference metadata.
 - [Generated schema reference](docs/schema/library.md) — field types, required attributes, supported values, and constraints, generated with Adobe's `jsonschema2md`.
-- `community-examples/<product-id>.json` — 52 individual product libraries containing 107 supported approved protocols in total. Each file contains exactly one product and all of its supported protocols, with the sources, citations, category, and delivery methods they use. Unsupported structured delivery methods or dose units are omitted without converting quantities or changing the authoring database.
+- `community-examples/english/<product-id>.json` — 52 individual English product libraries containing 107 supported protocols in total. Each file contains exactly one product and all of its supported protocols, with the sources, citations, category, and delivery methods they use. These JSON files are the source of truth for the English collection.
+- `community-examples/<language>/<product-id>.json` — translated files, using the same filenames and stable identifiers as the English originals. Portuguese files use Brazilian Portuguese. See the [example index](community-examples/README.md) for available translations.
+- `validate_translations.py`, `translation_chunks.py`, and their tests — the translation checker and the chunk tool described under [Maintaining the supplied examples](#maintaining-the-supplied-examples). `Makefile` and `requirements.txt` set up the local `.venv` (`make setup`), run the tests (`make test`), and validate translations (`make validate`).
+- `.agents/skills/translate-library/SKILL.md` — instructions for an AI agent (Codex) translating library files.
 
 Create your own product files with the [schema](template/library.schema.json), or start with the [community examples](community-examples/README.md). Download the individual JSON files you want to import into Protocol Wizard.
 
@@ -122,12 +125,12 @@ Matching template `suggested_times` take precedence over the window. Otherwise, 
 
 ### Numbers in prose
 
-Write library text in English. Any quantity inside prose uses the same format as dose amounts: a **dot decimal** with no grouping separators. For example, write `0.25 mg`, `0.250 mg` or `1500 mcg`. Never write `0,25 mg` or `1,500 mcg`. This applies to:
+Write library text in the language of the file's folder. Keep JSON keys, stable identifiers, machine-readable choices, units and structured amounts unchanged across languages. Any quantity inside prose uses the same format as dose amounts: a **dot decimal** with no grouping separators. For example, write `0.25 mg`, `0.250 mg` or `1500 mcg`. Never write `0,25 mg` or `1,500 mcg`. This applies to:
 
 - `timing.note`
 - phase `condition` and `conditions` text, and regimen `conditional_escalation` text, which the app shows as a check-in's source condition
 
-The app shows this text as written. It reads the numbers aloud for VoiceOver in this format on every device, whatever the user's region. That means a dot is always a decimal point, so `0.250 mg` is read as "zero point two five zero milligrams" in every region, and not as 250 on a device that groups thousands with a dot. A comma in a quantity is therefore ambiguous and must not be used. JSON Schema can't check numbers inside free text, so this rule is up to authors.
+The app shows this text as written. It interprets these numbers using the source format for VoiceOver regardless of the user's region. A dot is always a decimal point, so `0.250 mg` is not interpreted as 250 on a device that groups thousands with a dot. A comma in a quantity is therefore ambiguous and must not be used. JSON Schema can't check numbers inside free text, so this rule is up to authors.
 
 ## Protocol attributes (`protocols[]`)
 
@@ -184,13 +187,31 @@ Missing optional attributes and explicit `null` are both accepted where the sche
 
 ## Validate before sharing
 
-Use a validator supporting [JSON Schema Draft 2020-12](https://json-schema.org/draft/2020-12/json-schema-validation). For example, with [uv](https://docs.astral.sh/uv/), run this from the repository root:
+Use a validator supporting [JSON Schema Draft 2020-12](https://json-schema.org/draft/2020-12/json-schema-validation). The repository's tooling needs Python 3 and the `jsonschema` package. Set up a local virtual environment once, from the repository root:
 
 ```sh
-uv run --no-project --with jsonschema python -c 'import json; from jsonschema import Draft202012Validator; s=json.load(open("template/library.schema.json")); Draft202012Validator.check_schema(s); v=Draft202012Validator(s); from pathlib import Path; files=list(Path("community-examples").glob("*.json")); [v.validate(json.loads(p.read_text())) for p in files]; print(f"{len(files)} product libraries have valid structure")'
+make setup
+```
+
+This creates `.venv/` and installs the packages listed in `requirements.txt`. Without `make`, run `python3 -m venv .venv` and then `.venv/bin/pip install -r requirements.txt`. All Python commands below use `.venv/bin/python3`.
+
+To check every shipped product file against the schema:
+
+```sh
+.venv/bin/python3 -c 'import json; from jsonschema import Draft202012Validator; s=json.load(open("template/library.schema.json")); Draft202012Validator.check_schema(s); v=Draft202012Validator(s); from pathlib import Path; files=list(Path("community-examples").glob("*/*.json")); [v.validate(json.loads(p.read_text())) for p in files]; print(f"{len(files)} product libraries have valid structure")'
 ```
 
 To check your own file, use `Draft202012Validator(s).validate(json.load(open("your-product.json")))`. The schema checks plain decimal syntax on documented dose amounts, including ranges, options, and conditional values. Signs, exponents, grouping separators, and whitespace are invalid. The app additionally checks the file size, unique IDs, cross-references, parsed source URLs, and structured app choices in extensible metadata. Relationship and parsed-URL checks go beyond JSON Schema validation. Both file import and URL import use the bundled authoring schema before a catalog reaches installation review. Validation errors identify the failing JSON path when a structural rule fails.
+
+To check translations against their English originals, run `make validate` (or `.venv/bin/python3 validate_translations.py`). It validates every translation against the schema and the English original, and fails if:
+
+- keys, key order, array lengths, IDs, choices or structured values changed;
+- numbers or dose units (`mcg`, `µg`, `mg`, `kg`, `mL`, `IU`, `U-100`-style labels) written in text changed, including a decimal comma instead of a dot;
+- prose of four or more words is still identical to the English text.
+
+To check specific files, name the language folder and files, for example `.venv/bin/python3 validate_translations.py spanish adamax.json glp-2.json`. A named file that does not exist is an error, and so is finding no translations at all. Review text and medical terminology separately; this check does not establish translation accuracy.
+
+Run the unit tests for the validation and translation tooling with `make test`.
 
 The app repository embeds the same schema at `ios/ProtocolWizard/Resources/library-schema.json` (with a hyphen in the filename). `LibrarySchema` loads that resource from the app bundle so file and URL imports can validate offline against the installed app's supported format. The payload's optional `$schema` URL is only an editor hint.
 
@@ -236,12 +257,32 @@ Each product remembers its own source URL and last imported digest. Connected pr
 
 ## Maintaining the supplied examples
 
-Maintainers with access to the Protocol Wizard app repository can regenerate these examples with `make catalog`. Run the commands in this section from that app repository, which contains the exporter and authoring database. The exporter reads the database without modifying it and writes one file per product into `library-authoring/community-examples/`. It excludes protocols with unsupported structured delivery methods, dose units, or dose amount syntax instead of rewriting source quantities.
+Edit the English JSON files directly and update the corresponding translated files when source content changes. Preserve JSON keys, IDs, machine-readable values, units, dose amounts, schedules, references, and the meaning of all source evidence. Keep source titles and locators in their original language so readers can find the referenced material.
 
-To export one product and its optional hosted manifest:
+Run `make validate` after editing translations, and review medical terminology and translation accuracy with qualified native speakers before distribution. The validation checks the files that exist and reports how many product translations are still missing.
+
+### Translating with the chunk tool
+
+English product files are large, so `translation_chunks.py` splits a file's translatable prose into small chunks and rebuilds the JSON mechanically. This keeps structure, IDs and numbers from drifting, and it suits a person or an AI agent translating a file in pieces.
 
 ```sh
-python3 library/export_catalog.py --product-id example-supplement --output /tmp/example-supplement.json --manifest /tmp/latest.json --catalog-url https://example.org/example-supplement.json
+.venv/bin/python3 translation_chunks.py extract spanish adamax.json
 ```
 
-Replace the example ID with an ID from your database. `--version` defaults to `1` and currently accepts only `1`. To choose another output directory, use `--output-dir /path/to/community-examples` instead of `--output` and omit `--product-id`. Inspect every generated file before publishing. Existing files for products no longer exported are not automatically deleted.
+`extract` writes `translation-work/spanish/adamax/chunk-001.json`, `chunk-002.json`, and so on. Each chunk is a JSON object of `{"<path>": "<English text>"}`. Rerunning `extract` keeps existing translated work; add `--force` to start over. For each chunk, save a `chunk-NNN.translated.json` beside it with the same keys and translated values. Then:
+
+```sh
+.venv/bin/python3 translation_chunks.py status spanish adamax.json   # chunks remaining
+.venv/bin/python3 translation_chunks.py apply spanish adamax.json    # merge into community-examples/spanish/adamax.json
+.venv/bin/python3 validate_translations.py spanish adamax.json
+```
+
+`apply` fails if a chunk is missing or its keys differ. `translation-work/` is temporary and ignored by git; delete it when done.
+
+The repository includes a [Codex skill](.agents/skills/translate-library/SKILL.md) (`translate-library`) that describes this workflow and the translation rules for each language. Run Codex from this repository's root so it finds the skill. For an unattended run of one file, use for example:
+
+```sh
+codex exec --sandbox workspace-write "Use the translate-library skill. Reply in English. Translate community-examples/english/adamax.json into spanish using the skill's chunk workflow. Do not stop until validate_translations.py passes."
+```
+
+To add a language, create its folder under `community-examples/`, add its name to `LANGUAGES` in `validate_translations.py`, and add a language note to the skill.

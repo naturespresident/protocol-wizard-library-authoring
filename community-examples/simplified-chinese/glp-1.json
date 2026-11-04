@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-1",
+      "name": "Semaglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "已获批的 Semaglutide 制剂已证实可为人类带来以下获益：减重和长期体重维持；改善成人 2 型糖尿病患者的血糖控制；以及减少特定高风险人群的主要心血管事件。Ozempic 还可降低合并慢性肾脏病的成人 2 型糖尿病患者的肾脏病进展风险和心血管死亡风险。Wegovy 注射剂已获加速批准，用于伴有中度至重度纤维化的非肝硬化代谢功能障碍相关脂肪性肝炎（MASH）。获益取决于产品、给药途径、适应证和人群；这些获益并不能证实每种配制制剂都具有等效性。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "1fbbbb02-1311-4cbe-9a30-3fc2708d2638",
+      "productID": "glp-1",
+      "title": "Wegovy 片剂——说明书规定的每日给药剂量递增方案",
+      "purpose": "成人减重或降低心血管风险",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "一手处方说明书；提取的记录尚未经审核，也不是完整的处方用药说明。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Wegovy tablets",
+          "components": [
+            {
+              "name": "Semaglutide"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "tablet",
+            "reconstitution_required": false
+          }
+        ],
+        "phases": [
+          {
+            "name": "剂量递增阶段 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "剂量递增阶段 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "剂量递增阶段 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "9",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "维持阶段",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "25",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [],
+        "notes": "适用于成人减重或降低心血管风险的情境。清晨空腹给药及根据耐受性进行的调整需参阅完整说明书；仅供存档。"
+      }
+    },
+    {
+      "id": "3ef32ceb-f434-4474-9dc4-7d5265f57036",
+      "productID": "glp-1",
+      "title": "Rybelsus——来源所述的旧版片剂给药剂量顺序",
+      "purpose": "来源所述的参考规划",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "二手编辑／社区资料描述。尚待独立来源验证及批准列为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "label_described_by_secondary_source",
+          "indication_context": "type 2 diabetes",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "branded_oral_tablet",
+          "components": [
+            {
+              "library_item_id": "glp-1"
+            }
+          ],
+          "product": "Rybelsus legacy 3/7/14 mg tablet formulation"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "第 1–4 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 5–8 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "7",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 9 周起（如需更高剂量）",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "14",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "174872a5-d822-4659-87fa-e00501696134",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/semaglutide",
+            "locator": "给药方案与日程；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "174872a5-d822-4659-87fa-e00501696134",
+          "source_tables": [
+            {
+              "section": "Semaglutide 给药方案与日程",
+              "subsection": "使用周期指南",
+              "rows": [
+                [
+                  "方案",
+                  "持续时间",
+                  "维持阶段",
+                  "最适用情境"
+                ],
+                [
+                  "肥胖症标准剂量滴定",
+                  "约 16 周达到 2.4 mg",
+                  "持续每周维持给药",
+                  "Wegovy 式肥胖症研究"
+                ],
+                [
+                  "T2D 标准剂量滴定",
+                  "约 8-16 周达到 1.0 或 2.0 mg",
+                  "持续每周维持给药",
+                  "Ozempic 式糖尿病研究"
+                ],
+                [
+                  "延后剂量递增",
+                  "在任何无法耐受的剂量阶段延长 4 周",
+                  "维持剂量目标相同",
+                  "副作用导致计划中的剂量递增放缓时"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "174872a5-d822-4659-87fa-e00501696134",
+          "source_tables": [
+            {
+              "section": "Semaglutide 储存与操作",
+              "subsection": "",
+              "rows": [
+                [
+                  "形态",
+                  "储存条件",
+                  "保存期限"
+                ],
+                [
+                  "冻干（粉末，密封）",
+                  "-4F（-20C）冷冻室",
+                  "最长可达 12+ 个月"
+                ],
+                [
+                  "冻干（粉末，密封）",
+                  "35.6-46.4F（2-8C）冷藏室",
+                  "数个月"
+                ],
+                [
+                  "冻干（粉末，密封）",
+                  "室温（运输）",
+                  "可稳定保存数周"
+                ],
+                [
+                  "复溶后（溶液）",
+                  "35.6-46.4F（2-8C）冷藏室",
+                  "在 28 天内使用"
+                ],
+                [
+                  "复溶后（溶液）",
+                  "-4F（-20C）冷冻室",
+                  "不建议——切勿冷冻"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "174872a5-d822-4659-87fa-e00501696134",
+          "source_statements": [
+            {
+              "section": "Semaglutide 适用人群及应避免使用的人群",
+              "subsection": "",
+              "excerpt": "Semaglutide 已获 FDA 批准用于多种疾病，但并非适用于所有人。部分人群应完全避免使用，另一些人群则需在开始使用前接受密切的医疗监督。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutide 适用人群及应避免使用的人群",
+              "subsection": "禁忌证",
+              "excerpt": "甲状腺髓样癌（MTC）的个人史或家族史。基于啮齿动物研究中出现的甲状腺 C 细胞肿瘤，Semaglutide 带有黑框警告。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutide 适用人群及应避免使用的人群",
+              "subsection": "慎用",
+              "excerpt": "妊娠及哺乳期。Semaglutide 未获批准用于妊娠期。由于其半衰期较长，说明书建议在计划怀孕前至少 2 个月停药。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutide 适用人群及应避免使用的人群",
+              "subsection": "慎用",
+              "excerpt": "既有糖尿病视网膜病变。在 SUSTAIN-6 研究中，视网膜病变并发症的发生率较高（3.0%，安慰剂组为 1.8%），可能与既有视网膜病变患者的血糖快速改善有关。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutide 副作用与安全性",
+              "subsection": "",
+              "excerpt": "semaglutide 最常见的副作用与胃肠道有关：恶心、腹泻、呕吐和便秘。这些副作用通常在最初几个月随剂量增加时最为严重，多数人发现其会随时间推移而改善或消失。下述安全性资料来自 STEP、SUSTAIN 和 SELECT 试验项目中的数万名参与者。",
+              "truncated": false
+            },
+            {
+              "section": "Semaglutide 副作用与安全性",
+              "subsection": "常见胃肠道副作用",
+              "excerpt": "在 STEP 1-3 关于 2.4 mg 剂量的汇总数据中，43.9% 的参与者出现恶心（安慰剂组为 16.1%），腹泻发生于",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "成人超重或肥胖症患者每周一次使用 Semaglutide（STEP 1）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183"
+          },
+          {
+            "label": "Semaglutide 与无糖尿病的肥胖症患者的心血管结局（SELECT）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2307563"
+          },
+          {
+            "label": "Semaglutide 与 2 型糖尿病患者的心血管结局（SUSTAIN-6）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1607141"
+          },
+          {
+            "label": "Semaglutide 对 2 型糖尿病患者慢性肾脏病的影响（FLOW）。",
+            "url": "https://www.nejm.org/doi/10.1056/NEJMoa2403347"
+          },
+          {
+            "label": "Semaglutide 治疗代谢功能障碍相关脂肪性肝炎的 3 期试验（ESSENCE）。",
+            "url": "https://www.nejm.org/doi/10.1056/NEJMoa2413258"
+          },
+          {
+            "label": "成人超重或肥胖症患者每周一次使用 Semaglutide 2.4 mg 的胃肠道耐受性。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34514682/"
+          },
+          {
+            "label": "青少年肥胖症患者每周一次使用 Semaglutide（STEP TEENS）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2208601"
+          },
+          {
+            "label": "口服 Semaglutide 与高风险 2 型糖尿病患者的心血管结局（SOUL）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2501006"
+          },
+          {
+            "label": "合并 2 型糖尿病的成人超重或肥胖症患者每周一次使用 Semaglutide 2.4 mg（STEP 2）。",
+            "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00213-0/fulltext"
+          },
+          {
+            "label": "Wegovy（semaglutide）注射剂——处方说明书。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215256s024lbl.pdf"
+          },
+          {
+            "label": "Ozempic（semaglutide）注射剂——处方说明书。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf"
+          },
+          {
+            "label": "STEP 1：研究 Semaglutide 在超重或肥胖症人群中疗效的研究（NCT03548935）。",
+            "url": "https://clinicaltrials.gov/study/NCT03548935"
+          }
+        ],
+        "unresolved_fields": [
+          "source_four_weeks_vs_label_month_duration",
+          "current_formulation_label_verification",
+          "oral_administration_and_food_instructions",
+          "higher_dose_selection"
+        ],
+        "notes": "仅供来源参考；尚未经审核。表格和独立参考文献仍可在来源记录中查阅。",
+        "maintenance_option": {
+          "value": "7",
+          "unit": "mg",
+          "condition": "根据来源表格，可维持此剂量以持续控制病情"
+        }
+      }
+    },
+    {
+      "id": "851c96e9-b7bf-4b1a-bde9-72e15232843d",
+      "productID": "glp-1",
+      "title": "Wegovy 注射剂——说明书规定的剂量递增及维持方案选择",
+      "purpose": "说明书所述的适应证特定治疗",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "一手处方说明书；提取的记录尚未经审核，也不是完整的处方用药说明。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Wegovy injection",
+          "components": [
+            {
+              "name": "Semaglutide"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "prefilled_device",
+            "reconstitution_required": false
+          }
+        ],
+        "phases": [
+          {
+            "name": "剂量递增阶段 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.25",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "剂量递增阶段 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "剂量递增阶段 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "剂量递增阶段 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.7",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "维持阶段",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "1.7",
+                "2.4"
+              ],
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_dose_selection",
+          "conditional_dose_adjustments"
+        ],
+        "notes": "维持方案的选择取决于适应证和耐受性。可延后剂量递增。减重适应证的说明书还描述了在使用 2.4 mg 至少四周后，有条件地递增至 7.2 mg 的方案。仅供存档；不是可直接执行的通用模板。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "174872a5-d822-4659-87fa-e00501696134",
+      "url": "https://www.peptidedosingprotocols.com/protocol/semaglutide",
+      "title": "Semaglutide Dosing Guide: Titration, Dosing, Schedule & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "1b73e823-1674-46aa-9c11-e057a42520a4",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s025lbl.pdf",
+      "title": "Wegovy prescribing information, revised June 2026",
+      "publisher": "U.S. Food and Drug Administration / Novo Nordisk",
+      "type": "regulatory_label",
+      "publishedAt": "2026-06"
+    },
+    {
+      "id": "32625991-9e7a-4338-9239-18bfa683aa1d",
+      "url": "https://www.novo-pi.com/wegovy.pdf",
+      "title": "WEGOVY (semaglutide injection and tablets) prescribing information",
+      "publisher": "Novo Nordisk",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "65675b5f-3b70-47b8-bba3-1bba50b85641",
+      "url": "https://www.novo-pi.com/ozempic.pdf",
+      "title": "OZEMPIC (semaglutide injection) prescribing information",
+      "publisher": "Novo Nordisk",
+      "type": "regulatory_label",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "1fbbbb02-1311-4cbe-9a30-3fc2708d2638",
+      "sourceID": "174872a5-d822-4659-87fa-e00501696134",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "相同的 Wegovy 片剂给药剂量顺序。来源称四周；说明书采用三十天。仅引用剂量，并标明持续时间存在冲突。",
+      "supports": [
+        "/phases/0/dose",
+        "/phases/1/dose",
+        "/phases/2/dose",
+        "/phases/3/dose"
+      ]
+    },
+    {
+      "protocolID": "1fbbbb02-1311-4cbe-9a30-3fc2708d2638",
+      "sourceID": "1b73e823-1674-46aa-9c11-e057a42520a4",
+      "locator": "Sections 2.1 and 2.3, Table 2",
+      "evidenceNote": "在进入持续每日维持给药前，先经历三个各为期 30 天的阶段。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "3ef32ceb-f434-4474-9dc4-7d5265f57036",
+      "sourceID": "174872a5-d822-4659-87fa-e00501696134",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；尚待一手来源验证。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/maintenance_option"
+      ]
+    },
+    {
+      "protocolID": "851c96e9-b7bf-4b1a-bde9-72e15232843d",
+      "sourceID": "174872a5-d822-4659-87fa-e00501696134",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "相同的标准注射剂量递增方案和 2.4 mg 维持剂量选项。来源未涵盖较新说明书中的所有选项。",
+      "supports": [
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "851c96e9-b7bf-4b1a-bde9-72e15232843d",
+      "sourceID": "1b73e823-1674-46aa-9c11-e057a42520a4",
+      "locator": "Sections 2.1–2.2, Table 1",
+      "evidenceNote": "四个剂量递增阶段后进入维持方案选择；临床状况会影响选择。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "productID": "glp-1",
+      "sourceID": "32625991-9e7a-4338-9239-18bfa683aa1d",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "现行说明书区分了注射剂／片剂的适用人群、体重和心血管适应证，以及注射剂针对 MASH 获得的加速批准。分类依据：体重与代谢：体重管理和糖尿病／代谢性疾病是已确立的核心用途。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glp-1",
+      "sourceID": "65675b5f-3b70-47b8-bba3-1bba50b85641",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "2026 年五月的说明书明确了血糖、心血管及肾脏结局相关的适应证及其适用人群。分类依据：体重与代谢：体重管理和糖尿病／代谢性疾病是已确立的核心用途。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    },
+    {
+      "id": "oral",
+      "name": "口服"
+    }
+  ]
+}

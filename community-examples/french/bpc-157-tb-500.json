@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bpc-157-tb-500",
+      "name": "BPC-157 + TB-500",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "Recherche exploratoire sur l’association : une expérience de réparation tendineuse chez le rat a montré une amélioration du score histologique avec BPC-157 associé à une substance étiquetée TB-500, mais aucun bénéfice supplémentaire par rapport à chacun des agents utilisés seuls. L’étude ne valide pas ce prémélange : la séquence de TB-500 utilisée et l’identité de ce produit ne sont pas confirmées, et le traitement était expérimental plutôt qu’un protocole destiné à l’humain."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "546bdf1b-52ff-4105-b7a6-c2d230a73b86",
+      "productID": "bpc-157-tb-500",
+      "title": "Wolverine / prémélange BPC-157 + TB-500 1:1 — plage posologique communautaire",
+      "purpose": "Planification de référence décrite dans la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Source éditoriale secondaire ; aucune validation clinique automatique ni promotion comme option par défaut dans l’application.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "bpc-157",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "tb-500",
+              "ratio_part": "1"
+            }
+          ],
+          "fixed_component_ratio": "1:1"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "5",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "5",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "Plage quotidienne communautaire du mélange",
+            "duration": {
+              "kind": "range",
+              "minimum": 42,
+              "maximum": 84,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 5,
+                "maximum": 7,
+                "period": "week"
+              },
+              "description": "5-7 jours/semaine"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+            "locator": "Protocole posologique et calendrier ; indications de la source sur les horaires"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Durée des cycles de Wolverine Stack : calendriers communautaires de 6–12 semaines",
+              "subsection": "",
+              "rows": [
+                [
+                  "Approche",
+                  "Charge",
+                  "Entretien",
+                  "Cycle total",
+                  "Contexte courant"
+                ],
+                [
+                  "Prémélange quotidien",
+                  "—",
+                  "0.5–2.0 mg de mélange au total par jour",
+                  "6–12 semaines",
+                  "Priorité à la commodité, exposition stable"
+                ],
+                [
+                  "Schéma standard avec flacons séparés",
+                  "Semaines 1–4",
+                  "Semaines 5–8",
+                  "8–12 semaines",
+                  "Charge puis réduction progressive pour la planification en cas de blessure"
+                ],
+                [
+                  "Schéma prolongé avec flacons séparés",
+                  "Semaines 1–4",
+                  "Semaines 5–12",
+                  "12 semaines",
+                  "Planification de la recherche sur les tissus à cicatrisation plus lente"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Tableau des durées de cycle de Wolverine Stack",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Durée du cycle",
+                      "Description habituelle",
+                      "Note sur les données probantes"
+                    ],
+                    [
+                      "4–6 semaines",
+                      "Cycle court ciblé ou schéma initial limité à la charge",
+                      "Courant dans les discussions communautaires ; non testé comme protocole clinique combiné"
+                    ],
+                    [
+                      "6–8 semaines",
+                      "Cycle complet le plus courant avec phases de charge et d’entretien",
+                      "Schéma communautaire standard ; aucun essai contrôlé chez l’humain"
+                    ],
+                    [
+                      "8–12 semaines",
+                      "Schéma prolongé pour des recherches progressant plus lentement ou durant plus longtemps",
+                      "Moins uniforme et étayé par encore moins de données de sécurité"
+                    ],
+                    [
+                      "Plus de 12 semaines",
+                      "Utilisation à long terme ou répétée",
+                      "Aucune base établie concernant la sécurité de l’association chez l’humain"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Phases de charge et d’entretien",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Phase",
+                      "Calendrier habituel",
+                      "Description communautaire"
+                    ],
+                    [
+                      "Phase de charge",
+                      "Semaines 1–4",
+                      "La partie du schéma où la fréquence est la plus élevée. Les calendriers avec flacons séparés prévoient souvent BPC-157 quotidiennement et TB-500 moins fréquemment."
+                    ],
+                    [
+                      "Phase d’entretien",
+                      "Semaines 5–8",
+                      "BPC-157 peut rester administré quotidiennement tandis que la fréquence de TB-500 est souvent réduite."
+                    ],
+                    [
+                      "Phase prolongée",
+                      "Semaines 9–12",
+                      "Certains schémas communautaires poursuivent un rythme moins fréquent, mais les données étayant cette prolongation sont faibles."
+                    ],
+                    [
+                      "Période de pause entre les cycles",
+                      "Après le cycle actif",
+                      "Les schémas communautaires comprennent souvent une période sans aucun des composés, mais aucune période d’élimination validée n’existe."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cycles avec prémélange ou flacons séparés",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Format",
+                      "Schéma d’administration courant",
+                      "Limite principale"
+                    ],
+                    [
+                      "Flacon de prémélange 1:1",
+                      "Un prélèvement combiné selon un calendrier régulier tout au long du cycle",
+                      "Le rapport des doses reste fixe ; la dose d’un composé ne peut donc pas être modifiée sans modifier celle de l’autre"
+                    ],
+                    [
+                      "Flacons séparés de BPC-157 et de TB-500",
+                      "BPC-157 quotidien avec TB-500 moins fréquent, souvent suivi d’une phase à fréquence réduite",
+                      "Calculs plus complexes et davantage de risques d’erreurs de calendrier"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de Wolverine Stack",
+              "subsection": "",
+              "rows": [
+                [
+                  "État",
+                  "BPC-157",
+                  "TB-500"
+                ],
+                [
+                  "Lyophilisé (poudre)",
+                  "-4°F (-20°C) à long terme ; au frais, au sec et à l’abri de la lumière",
+                  "-4°F (-20°C) à long terme ; au frais, au sec et à l’abri de la lumière"
+                ],
+                [
+                  "Reconstitué (liquide)",
+                  "35.6–46.4°F (2–8°C) ; utiliser dans un délai de ~30 jours",
+                  "35.6–46.4°F (2–8°C) ; utiliser dans un délai de ~30 jours"
+                ],
+                [
+                  "Exposition à la lumière",
+                  "Protéger de la lumière directe",
+                  "Protéger de la lumière directe"
+                ],
+                [
+                  "Aspect",
+                  "Limpide après reconstitution",
+                  "Limpide ou très légèrement teinté"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de Wolverine Stack",
+              "subsection": "Préoccupations théoriques et propres à l’association",
+              "excerpt": "Les deux composés favorisent l’angiogenèse, qui est le mécanisme recherché pour la réparation, mais aussi une voie impliquée dans la croissance tumorale. Un article de Cha et al. paru en 2003 dans J Natl Cancer Inst a rapporté que l’expression de Thymosin Beta-4 augmentait les métastases tumorales pulmonaires dans un modèle murin B16-F10. La portée de ces résultats pour un fragment exogène de TB-500 chez l’humain est inconnue, mais il s’agit du risque théorique le plus cité chez les cliniciens",
+              "truncated": true
+            },
+            {
+              "section": "Effets indésirables et sécurité de Wolverine Stack",
+              "subsection": "Sport et compétition",
+              "excerpt": "BPC-157 et TB-500 sont tous deux interdits dans la catégorie S0 des substances non approuvées de WADA, en compétition comme hors compétition. Les athlètes soumis aux contrôles de WADA, de USADA ou de toute instance dirigeante sportive ne devraient pas présumer de l’existence d’un délai d’élimination — les substances sont détectables et interdites quel que soit le moment de leur utilisation.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Utilisation émergente de BPC-157 en médecine orthopédique du sport : une revue systématique.",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15563316251355551"
+          },
+          {
+            "label": "Désinsertion du tendon d’Achille chez le rat et pentadécapeptide gastrique stable BPC 157 : amélioration de la cicatrisation tendino-osseuse et atténuation de l’aggravation induite par les corticostéroïdes.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16583442/"
+          },
+          {
+            "label": "L’effet du pentadécapeptide BPC 157 favorisant la cicatrisation tendineuse implique la croissance tendineuse, la survie cellulaire et la migration cellulaire.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21164151/"
+          },
+          {
+            "label": "Pentadécapeptide gastrique stable BPC 157 et cicatrisation des plaies.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34267654/"
+          },
+          {
+            "label": "Multifonctionnalité et application médicale possible du peptide BPC 157 — revue de la littérature et des brevets.",
+            "url": "https://www.mdpi.com/1424-8247/18/2/185"
+          },
+          {
+            "label": "Thymosin beta 4 stimule la migration directionnelle des cellules endothéliales de la veine ombilicale humaine.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9194528/"
+          },
+          {
+            "label": "Thymosin beta-4 et angiogenèse : modes d’action et potentiel thérapeutique.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17632766/"
+          },
+          {
+            "label": "Thymosin beta4 favorise l’angiogenèse, la cicatrisation des plaies et le développement des follicules pileux.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15037013/"
+          },
+          {
+            "label": "Progrès concernant la fonction et l’application de Thymosin β4.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "Rôle de thymosin beta4 dans les métastases tumorales et l’angiogenèse.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14625258/"
+          },
+          {
+            "label": "Standard international du Code mondial antidopage 2025 — Liste des interdictions — Section S0 (substances non approuvées).",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "selected_weekdays",
+          "time_of_day",
+          "TB_500_exact_sequence",
+          "range_selection"
+        ],
+        "notes": "Référence à la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans la fiche source."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+      "title": "Wolverine Stack Dosing Guide: BPC-157 + TB-500 Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "url": "https://jointdrs.org/full-text/1851",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study",
+      "publisher": "Joint Diseases and Related Surgery",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+      "title": "Wolverine Stack Cycle Length: 6–12 Week Research Schedules",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "546bdf1b-52ff-4105-b7a6-c2d230a73b86",
+      "sourceID": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "La source décrit les champs ; vérification indépendante en attente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "546bdf1b-52ff-4105-b7a6-c2d230a73b86",
+      "sourceID": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Données contextuelles sur la durée et les pauses ; ne remplacent pas les instructions relatives à la dose, à l’étiquetage du produit, à la voie d’administration ou à la population concernée.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "bpc-157-tb-500",
+      "sourceID": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Texte intégral original lu. Trente-deux rats ; le groupe recevant l’association a présenté une amélioration du score de Movin, mais aucune amélioration de la résistance ni aucun effet supplémentaire par rapport aux agents seuls. La séquence de TB-500 n’est pas précisée. Justification de la catégorie : la recherche sur la réparation tendineuse correspond au bénéfice recherché ; cette classification n’implique pas d’efficacité démontrée pour le mélange.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cicatrisation et récupération"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

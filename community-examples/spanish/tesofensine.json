@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tesofensine",
+      "name": "Tesofensine",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 2,
+      "benefits": "Se han reportado indicios de pérdida de peso en humanos con tesofensine por vía oral: un estudio aleatorizado de fase 2 en adultos con obesidad encontró una mayor pérdida de peso que con placebo, junto con una dieta con restricción energética. Sin embargo, The Lancet publicó posteriormente una expresión de preocupación sobre ese ensayo. Sus hallazgos deben tratarse como evidencia preliminar con reservas, no como una afirmación definitiva de eficacia o seguridad."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "20ca545e-5978-49b8-8d56-59aec5267f4a",
+      "productID": "tesofensine",
+      "title": "Tesofensine — grupos de dosis del ensayo descritos por la fuente con administración por la mañana",
+      "purpose": "Planificación de referencia descrita por la fuente",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "Descripción editorial/comunitaria secundaria. Están pendientes la validación independiente de la fuente y su adopción como opción predeterminada de la aplicación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trials_described_by_secondary_source",
+          "indication_context": "Phase 2 obesity dose arms",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_tablet",
+          "components": [
+            {
+              "library_item_id": "tesofensine"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Período inicial de estabilización de la dieta",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "sin fármaco"
+            },
+            "status": "run_in"
+          },
+          {
+            "name": "Grupos de tratamiento asignados",
+            "duration": {
+              "kind": "fixed",
+              "value": 168,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "0.25",
+                "0.5",
+                "1"
+              ],
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "morning",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/tesofensine",
+            "locator": "Protocolo y calendario de dosificación; indicaciones de horario de la fuente"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+          "source_tables": [
+            {
+              "section": "Protocolo y calendario de dosificación de Tesofensine",
+              "subsection": "Estructura del ciclo utilizada en los ensayos",
+              "rows": [
+                [
+                  "Fase",
+                  "Duración",
+                  "Notas"
+                ],
+                [
+                  "Período inicial",
+                  "2 semanas",
+                  "Estabilización de la dieta, sin tesofensine; se utiliza para establecer los valores basales de peso y de laboratorio"
+                ],
+                [
+                  "Tratamiento",
+                  "24 semanas",
+                  "Tableta una vez al día a la dosis asignada, junto con una dieta con restricción calórica"
+                ],
+                [
+                  "Extensión abierta (TIPO-4)",
+                  "Hasta 48 semanas adicionales",
+                  "Continuación con 0.5 mg, con aumento gradual opcional a 1.0 mg en algunos pacientes"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+          "source_tables": [
+            {
+              "section": "Almacenamiento y manipulación de Tesofensine",
+              "subsection": "",
+              "rows": [
+                [
+                  "Presentación",
+                  "Almacenamiento",
+                  "Notas"
+                ],
+                [
+                  "Frasco sellado de tabletas",
+                  "59-77F (15-25C), en un lugar seco y oscuro",
+                  "Revise la etiqueta del proveedor para identificar cualquier variación específica"
+                ],
+                [
+                  "Tabletas fuera del frasco, en un pastillero",
+                  "Mismo intervalo; minimice la humedad",
+                  "Menos adecuado para el almacenamiento a largo plazo; rellene semanalmente"
+                ],
+                [
+                  "Presentación en polvo (solo para uso analítico)",
+                  "Según las instrucciones del proveedor, a menudo refrigerado o congelado",
+                  "La presentación en polvo no corresponde al contexto de dosificación del ensayo"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+          "source_statements": [
+            {
+              "section": "En quiénes se estudió Tesofensine y quiénes deberían evitarlo",
+              "subsection": "Grupos en los que las señales de precaución son mayores",
+              "excerpt": "Personas que toman ISRS, IRSN u otros fármacos serotoninérgicos. La carga combinada sobre el sistema de serotonina es una preocupación real, aunque no existe ningún estudio formal de interacción.",
+              "truncated": false
+            },
+            {
+              "section": "En quiénes se estudió Tesofensine y quiénes deberían evitarlo",
+              "subsection": "Grupos en los que las señales de precaución son mayores",
+              "excerpt": "Personas embarazadas, que planean un embarazo o que están amamantando. Tesofensine no se ha estudiado en estos grupos.",
+              "truncated": false
+            },
+            {
+              "section": "Efectos secundarios y seguridad de Tesofensine",
+              "subsection": "Señal cardiovascular",
+              "excerpt": "Este es el tema de seguridad más debatido. En el ensayo de fase 2, la frecuencia cardíaca aumentó un promedio de 7.4 latidos por minuto en el grupo de 0.5 mg frente al placebo. La presión arterial no aumentó de manera significativa con 0.25 mg o 0.5 mg, pero sí aumentó con 1.0 mg. Este patrón explica por qué la dosis de 1.0 mg se eliminó de la fase 3 y por qué EE. UU.",
+              "truncated": true
+            },
+            {
+              "section": "Efectos secundarios y seguridad de Tesofensine",
+              "subsection": "Señal psiquiátrica",
+              "excerpt": "Debido a que tesofensine eleva la serotonina, la dopamina y la norepinefrina, es biológicamente esperable que tenga efectos sobre el estado de ánimo y el sueño. El insomnio es uno de los motivos más comunes por los que las personas lo suspenden. La ansiedad, la irritabilidad y los cambios de ánimo han",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Efecto de tesofensine sobre la pérdida de peso corporal, la composición corporal y la calidad de vida en pacientes con obesidad: un ensayo aleatorizado, doble ciego y controlado con placebo.",
+            "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(08)61525-1/abstract"
+          },
+          {
+            "label": "Tesofensine — un nuevo medicamento potente para la pérdida de peso. Evaluación de Astrup et al. (Lancet 2008).",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19548858/"
+          },
+          {
+            "label": "Expresión de preocupación — Efecto de tesofensine sobre la pérdida de peso corporal, la composición corporal y la calidad de vida en pacientes con obesidad.",
+            "url": "https://discovery.researcher.life/article/expression-of-concerneffect-of-tesofensine-on-bodyweight-loss-body-composition-and-quality-of-life-in-obese-patients-a-randomised-doubleblind-placebocontrolled-trial/d59aea67bd283da49a348b416e472d50"
+          },
+          {
+            "label": "Contribución del metabolito activo M1 a la actividad farmacológica de tesofensine in vivo: un enfoque de modelado farmacocinético-farmacodinámico.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2199391/"
+          },
+          {
+            "label": "Tesofensine, un nuevo inhibidor triple de la recaptación de monoaminas con efectos contra la obesidad: ocupación del transportador de dopamina medida mediante PET.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24239329/"
+          },
+          {
+            "label": "Tesofensine de Saniona cumple los criterios de valoración primarios y secundarios en el ensayo de registro de fase 3 para la obesidad (estudio Viking).",
+            "url": "https://tools.eurolandir.com/tools/Pressreleases/GetPressRelease/?ID=3548001&companycode=s-sanion&v="
+          },
+          {
+            "label": "Medix, socio de Saniona, recibe una opinión favorable sobre tesofensine para el tratamiento de la obesidad en México.",
+            "url": "https://view.news.eu.nasdaq.com/view?id=ba550ce87a36abef56b065cec259b71ec&lang=en"
+          },
+          {
+            "label": "La solicitud mexicana para tesofensine aún no ha sido aprobada — actualización de Saniona.",
+            "url": "https://inderes.fi/releases/mexican-application-for-tesofensine-not-yet-approved"
+          },
+          {
+            "label": "Tesofensine, un nuevo fármaco contra la obesidad, silencia las neuronas hipotalámicas GABAérgicas.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042726/"
+          },
+          {
+            "label": "Efectos adversos neuropsiquiátricos de los fármacos contra la obesidad de acción central: una revisión sistemática de ensayos controlados aleatorizados.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493804/"
+          },
+          {
+            "label": "Página de Tesofensine en la cartera de desarrollo.",
+            "url": "https://saniona.com/pipeline/tesofensine/"
+          },
+          {
+            "label": "Aprobaciones de nuevos fármacos para 2026.",
+            "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_trial_eligibility",
+          "optional_extension_conditions",
+          "primary_verification"
+        ],
+        "notes": "Solo como referencia de la fuente; sin revisar. Las tablas y las referencias independientes siguen disponibles en el registro de la fuente.",
+        "optional_extension": {
+          "duration": {
+            "kind": "maximum",
+            "value": 336,
+            "unit": "day"
+          },
+          "starting_dose": {
+            "value": "0.5",
+            "unit": "mg"
+          },
+          "optional_increase": {
+            "value": "1",
+            "unit": "mg"
+          }
+        },
+        "dose_arm_context": {
+          "1": "Phase 2 only; not later Phase 3",
+          "0.25": "Phase 2 and Mexico Phase 3",
+          "0.5": "Phase 2 and Mexico Phase 3"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "167be03a-7288-4c7d-acb1-d0e8e151ad4c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23561987/",
+      "title": "Expression of concern—Effect of tesofensine on bodyweight loss, body composition, and quality of life in obese patients",
+      "publisher": "The Lancet / bibliographic notice in PubMed",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "622e3569-35ec-4a5e-b3b7-499997314789",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18950853/",
+      "title": "Effect of tesofensine on bodyweight loss, body composition, and quality of life in obese patients: a randomised, double-blind, placebo-controlled trial",
+      "publisher": "The Lancet / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+      "url": "https://www.peptidedosingprotocols.com/protocol/tesofensine",
+      "title": "Tesofensine Dosing Guide: Oral Protocol, Half-Life & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "20ca545e-5978-49b8-8d56-59aec5267f4a",
+      "sourceID": "bedc2a82-df95-4434-908d-c41f464b33bb",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La fuente describe estos campos; la verificación con fuentes primarias sigue pendiente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/optional_extension",
+        "/dose_arm_context"
+      ]
+    },
+    {
+      "productID": "tesofensine",
+      "sourceID": "167be03a-7288-4c7d-acb1-d0e8e151ad4c",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "La página del ensayo principal en PubMed y el aviso indexado identifican la expresión de preocupación; no se infiere nada sobre su resolución. Justificación de la categoría: Peso y metabolismo: el resultado reportado del ensayo y el uso previsto se refieren a la obesidad y al peso corporal.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "tesofensine",
+      "sourceID": "622e3569-35ec-4a5e-b3b7-499997314789",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "203 participantes asignados aleatoriamente, 24 semanas, tratamiento oral más dieta restringida; PubMed enlaza explícitamente la expresión de preocupación de la revista de 2013. Justificación de la categoría: Peso y metabolismo: el resultado reportado del ensayo y el uso previsto se refieren a la obesidad y al peso corporal.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

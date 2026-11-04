@@ -1,0 +1,633 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cagrilintide",
+      "name": "Cagrilintide",
+      "aliases": [
+        "AM833"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "ヒトを対象とした試験のエビデンスは、糖尿病のない過体重または肥満の成人において、cagrilintideの皮下投与による体重減少を支持しています。ランダム化第2相試験では、26週間でプラセボよりも大きな体重減少が認められました。これは開発段階の体重管理に関するエビデンスであり、スタックとして販売されているすべての製剤、投与経路、組み合わせの有益性を確立するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "50341030-68c1-4dea-982b-374428eaf2ee",
+      "productID": "cagrilintide",
+      "title": "Cagrilintide — 第2相単剤療法の用量探索プロトコル",
+      "purpose": "開発段階の体重管理を目的とした単剤療法試験",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "未レビューの参考資料からの抽出情報です。完全な処方指示ではありません。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Investigational AM833 monotherapy study product",
+          "components": [
+            {
+              "name": "Cagrilintide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "肥満または過体重で、適格基準を満たす体重関連の併存疾患がある成人",
+          "study": "Phase 2 monotherapy dose-finding study"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "割り付けられた目標用量群（出典では漸増方法が未指定）",
+            "duration": {
+              "kind": "fixed",
+              "value": 182,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "0.3",
+                "0.6",
+                "1.2",
+                "2.4",
+                "4.5"
+              ],
+              "unit": "mg",
+              "basis": "total_product",
+              "kind": "target_dose_choices"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "arm_specific_dose_escalation",
+          "formulation_and_preparation"
+        ],
+        "notes": "単一の試験プロトコルに、目標用量の選択肢が五つあります。初回注射から目標用量を適用するとは想定していません。治療には生活習慣への介入が併用されました。"
+      }
+    },
+    {
+      "id": "6bc1e900-0c29-488c-a127-2968aeb6b15f",
+      "productID": "cagrilintide",
+      "title": "Cagrilintide — 2型糖尿病を対象とした第2相試験の単剤療法比較対照",
+      "purpose": "2型糖尿病における血糖および体重の転帰に関する探索的評価",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "未レビューの参考資料からの抽出情報です。完全な処方指示ではありません。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Investigational monotherapy comparator in CagriSema phase 2 study",
+          "components": [
+            {
+              "name": "Cagrilintide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "2型糖尿病があり、過体重の人",
+          "study": "Phase 2 study with separate cagrilintide, semaglutide, and combination arms"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "単剤療法の比較対照群；出典では用量漸増の記載なし",
+            "duration": {
+              "kind": "fixed",
+              "value": 224,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.4",
+              "unit": "mg",
+              "basis": "total_product",
+              "kind": "target_dose"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "dose_escalation_steps",
+          "formulation_and_preparation"
+        ],
+        "notes": "この記録はcagrilintide単独の比較対照を対象としています。併用療法にはsemaglutideが必要であり、相互に置き換え可能な単剤療法としては扱っていません。"
+      }
+    },
+    {
+      "id": "a13f9519-18e5-4a9b-a550-84ea508351eb",
+      "productID": "cagrilintide",
+      "title": "Cagrilintide — 出典に記載された16週間の漸増から維持投与まで",
+      "purpose": "出典の記述に基づく参考用の計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事の出典です。自動的に臨床的妥当性が確認されたり、アプリの既定設定に採用されたりするものではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "cagrilintide"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2.5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+              "locator": "Cagrilintide 再溶解ガイド / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1.67",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+              "locator": "Cagrilintide 再溶解ガイド / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+              "locator": "Cagrilintide 再溶解ガイド / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+              "locator": "Cagrilintide 再溶解ガイド / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "開始",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.25",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "胃腸の適応；忍容できる最低用量"
+          },
+          {
+            "name": "ステップ2",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "用量漸増"
+          },
+          {
+            "name": "ステップ3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.0",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "胃腸の副作用は、この段階でピークに達することがよくあります"
+          },
+          {
+            "name": "ステップ4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.7",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "維持投与に近づく段階"
+          },
+          {
+            "name": "維持",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "後期臨床試験のプロトコルで用いられた目標用量"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/cagrilintide",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+          "source_tables": [
+            {
+              "section": "Cagrilintideの投与プロトコルとスケジュール",
+              "subsection": "サイクルの指針",
+              "rows": [
+                [
+                  "方法",
+                  "期間",
+                  "見直し時点",
+                  "備考"
+                ],
+                [
+                  "短期サイクル",
+                  "16週間",
+                  "16週目",
+                  "用量漸増の完了と同時に維持投与に達します"
+                ],
+                [
+                  "標準サイクル",
+                  "26-32週間",
+                  "26 / 32週目",
+                  "第2相試験の期間に一致します"
+                ],
+                [
+                  "長期サイクル",
+                  "68週間",
+                  "68週目",
+                  "REDEFINE 1およびREDEFINE 2の評価時点に一致します"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+          "source_tables": [
+            {
+              "section": "Cagrilintideの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保管方法",
+                  "期間"
+                ],
+                [
+                  "凍結乾燥品（粉末）",
+                  "-4F (-20C)の冷凍庫",
+                  "最長24か月"
+                ],
+                [
+                  "凍結乾燥品（短期保管）",
+                  "35.6-46.4F (2-8C)の冷蔵庫",
+                  "輸送または短期保管には許容されます"
+                ],
+                [
+                  "再溶解後（液状）",
+                  "35.6-46.4F (2-8C)の冷蔵庫",
+                  "28-30日間；凍結しないでください"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+          "source_statements": [
+            {
+              "section": "Cagrilintideの対象となる人と使用を避けるべき人",
+              "subsection": "第3相試験で除外または注意の対象となった集団",
+              "excerpt": "第3相REDEFINE/REIMAGINEのプロトコルでは、通常、以下に該当する参加者が除外されていました：1型糖尿病、膵炎の既往、重度の胃不全麻痺、妊娠中または授乳中、最近の重大な心血管イベント、活動性悪性腫瘍、重度の腎機能障害または肝機能障害、甲状腺髄様癌またはMEN2の本人または家族の既往歴（GLP-1製剤クラスに関する注意事項で、配合製剤にも適用される可能性があります）。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintideの対象となる人と使用を避けるべき人",
+              "subsection": "薬剤の相互作用",
+              "excerpt": "cagrilintideは胃排出を遅らせるため、経口薬の吸収のされ方を変える可能性があります。治療域の狭い薬剤（warfarin、levothyroxine、経口避妊薬、一部の抗てんかん薬）は、臨床医による管理が必要です。低血糖のリスクを軽減するため、insulinやその他の血糖降下薬の調整が必要になる場合があります。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintideの対象となる人と使用を避けるべき人",
+              "subsection": "臨床医による管理",
+              "excerpt": "Cagrilintideは個人による自己投与が承認されていません。代謝性疾患、心疾患、胃腸疾患、肝疾患、腎疾患がある人、または妊娠中、授乳中、妊娠を計画している人は、資格を有する医療専門職による診療なしに使用を検討すべきではありません。",
+              "truncated": false
+            },
+            {
+              "section": "Cagrilintideの副作用と安全性",
+              "subsection": "理論上のリスクおよび製剤クラスに共通するリスク",
+              "excerpt": "これらはcagrilintideの試験では確認されていませんが、関連するamylinまたはGLP-1製剤クラスのデータに見られるため、注意事項として挙げられています：膵炎、胆嚢疾患、重度の低血糖（主にinsulinまたはスルホニル尿素薬との併用時）、重度の悪心や嘔吐による脱水に続発する急性腎障害です。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "過体重または肥満の成人におけるCagrilintideとSemaglutideの併用（REDEFINE 1）。",
+            "url": "https://doi.org/10.1056/NEJMoa2502081"
+          },
+          {
+            "label": "過体重または肥満があり、2型糖尿病を有する成人におけるCagrilintide-Semaglutide（REDEFINE 2）。",
+            "url": "https://doi.org/10.1056/NEJMoa2502082"
+          },
+          {
+            "label": "過体重および肥満の人の体重管理を目的とした週一回のcagrilintide投与：第2相試験。",
+            "url": "https://doi.org/10.1016/S0140-6736(21)01751-7"
+          },
+          {
+            "label": "体重管理を目的としたcagrilintideとsemaglutideの併用における安全性、忍容性、薬物動態および薬力学：第1b相試験。",
+            "url": "https://doi.org/10.1016/S0140-6736(21)00845-X"
+          },
+          {
+            "label": "2型糖尿病における週一回のcagrilintide 2.4 mg とsemaglutide 2.4 mg の併用の有効性と安全性：第2相試験。",
+            "url": "https://doi.org/10.1016/S0140-6736(23)01163-7"
+          },
+          {
+            "label": "長時間作用型AmylinアナログであるCagrilintideの開発。",
+            "url": "https://doi.org/10.1021/acs.jmedchem.1c00565"
+          },
+          {
+            "label": "cagrilintideのcalcitonin受容体およびamylin受容体への結合における構造的・動的特徴。",
+            "url": "https://doi.org/10.1038/s41467-025-58680-y"
+          },
+          {
+            "label": "将来の肥満治療薬としてのAmylin。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8735818/"
+          },
+          {
+            "label": "抗肥満薬としてのCagrilintide単独およびSemaglutideとの併用（CagriSema）の有効性と安全性：系統的レビューとメタ解析。",
+            "url": "https://doi.org/10.4103/ijem.ijem_45_24"
+          },
+          {
+            "label": "Cagrilintide：肥満治療のための長時間作用型Amylinアナログ。",
+            "url": "https://doi.org/10.1097/CRD.0000000000000513"
+          },
+          {
+            "label": "NEJMに発表されたREDEFINE 1では、CagriSema 2.4 mg / 2.4 mg が過体重または肥満の成人において平均22.7%の体重減少を示しました。",
+            "url": "https://www.prnewswire.com/news-releases/cagrisema-2-4-mg--2-4-mg-demonstrated-22-7-mean-weight-reduction-in-adults-with-overweight-or-obesity-in-redefine-1--published-in-nejm-302487770.html"
+          },
+          {
+            "label": "Novo NordiskがCagriSemaのFDA承認を申請（2025年十二月18日）。",
+            "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-302645862.html"
+          },
+          {
+            "label": "REDEFINE 1（NCT05567796）、REDEFINE 2（NCT05394519）、REDEFINE 3（NCT05669755）、REDEFINE 4（NCT06131437）、REDEFINE 11（NCT07011667）、REIMAGINE 2（NCT06065540）。",
+            "url": "https://clinicaltrials.gov/study/NCT05567796"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "study_vs_community_formulation",
+          "eligibility_and_preparation"
+        ],
+        "notes": "出典の参考情報のみです。未レビューです。表および独立した参考文献は、引き続き出典記録で参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "436b7273-1078-43fd-aa63-35982e700ed2",
+      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/pdfs/financial-results/2021/investor-presentation-Q3-2021.pdf",
+      "title": "Novo Nordisk investor presentation: first nine months of 2021",
+      "publisher": "Novo Nordisk",
+      "type": "manufacturer",
+      "publishedAt": "2021"
+    },
+    {
+      "id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+      "url": "https://www.peptidedosingprotocols.com/protocol/cagrilintide",
+      "title": "Cagrilintide Peptide Dosing Guide: Titration, Schedule & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "90fd0b3b-8002-48e7-ab04-e94eefad6368",
+      "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=274",
+      "title": "Novo Nordisk AM833 phase 2 and combination-trial results, June 2020",
+      "publisher": "Novo Nordisk",
+      "type": "manufacturer",
+      "publishedAt": "2020-06-18"
+    },
+    {
+      "id": "ae36bc9d-5660-4220-8a3a-8ee3a8dd8923",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=131155",
+      "title": "Novo Nordisk phase 2 CagriSema trial results in type 2 diabetes",
+      "publisher": "Novo Nordisk",
+      "type": "manufacturer",
+      "publishedAt": "2022-08-22"
+    },
+    {
+      "id": "e7233ef3-7487-4bd7-8242-368cee37e6b6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34798060/?dopt=Abstract",
+      "title": "Once-weekly cagrilintide for weight management in people with overweight and obesity: a dose-finding phase 2 trial",
+      "publisher": "The Lancet / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "50341030-68c1-4dea-982b-374428eaf2ee",
+      "sourceID": "436b7273-1078-43fd-aa63-35982e700ed2",
+      "locator": "Slide 64, phase 2 monotherapy panel",
+      "evidenceNote": "同一の試験および目標用量の選択肢です。出典ではCagrilintideとAM833を併記しています。",
+      "supports": [
+        "/formulation",
+        "/phases/0/dose",
+        "/phases/0/duration"
+      ]
+    },
+    {
+      "protocolID": "50341030-68c1-4dea-982b-374428eaf2ee",
+      "sourceID": "90fd0b3b-8002-48e7-ab04-e94eefad6368",
+      "locator": "AM833 phase 2 monotherapy trial",
+      "evidenceNote": "二十六週間の治療試験で、週一回投与の五つの目標用量が比較されました。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "6bc1e900-0c29-488c-a127-2968aeb6b15f",
+      "sourceID": "ae36bc9d-5660-4220-8a3a-8ee3a8dd8923",
+      "locator": "Trial description, paragraphs 2–3",
+      "evidenceNote": "スポンサーは、別個の週一回投与のcagrilintide比較対照群と、三十二週間の治療試験について記述しています。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "a13f9519-18e5-4a9b-a550-84ea508351eb",
+      "sourceID": "55131326-4e4b-4ba4-801e-c9be930c366b",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "出典に各フィールドの説明があります。独立した検証は未実施です。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cagrilintide",
+      "sourceID": "e7233ef3-7487-4bd7-8242-368cee37e6b6",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "706人の成人がランダム化され、試験したすべてのcagrilintide群でプラセボよりも大きな体重減少が認められました。抄録を確認しました。カテゴリの根拠：体重と代謝：直接的な臨床転帰は体重減少です。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重と代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

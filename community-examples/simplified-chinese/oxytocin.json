@@ -1,0 +1,1247 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "oxytocin",
+      "name": "Oxytocin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "已确立的益处属于产科用途：在临床诊疗中使用受监管的 oxytocin 注射剂，进行具有医学指征的引产或加强宫缩，以及通过子宫收缩控制产后出血。这些适应证并不能证明本库的鼻内给药社会认知方案或社区皮下给药方案具有益处。鼻内给予 oxytocin 用于神经精神疾病仍处于研究阶段；一项为期 24 周的大型自闭症试验发现，与安慰剂相比，社会功能或认知功能均无显著改善。此处尚未确立其在一般信任、情感联结和性欲方面的益处。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "0971c083-2678-47ca-8fec-9de32e0f7bf5",
+      "productID": "oxytocin",
+      "title": "Oxytocin — 单次给药社会认知",
+      "purpose": "来源所述的参考规划",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及设为应用默认方案的审核尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trial_described_by_secondary_source",
+          "indication_context": "single-dose research",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "单次给药社会认知",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "24",
+              "unit": "IU",
+              "basis": "biological_activity"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "研究中的单次给药"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "给药方案与时间表；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocin 储存与操作",
+              "subsection": "应避免的情况",
+              "rows": [
+                [
+                  "",
+                  "冻干制剂（粉末）",
+                  "复溶后（液体）"
+                ],
+                [
+                  "温度",
+                  "长期储存于 -4 华氏度（-20 摄氏度）",
+                  "35.6 至 46.4 华氏度（2 至 8 摄氏度）"
+                ],
+                [
+                  "实际保存期限",
+                  "至标签所示有效期",
+                  "使用 BAC 水复溶后约 2-4 周"
+                ],
+                [
+                  "外观",
+                  "白色冻干块状物",
+                  "澄清、无色溶液"
+                ],
+                [
+                  "应避免的情况",
+                  "反复冻融、阳光直射",
+                  "冷冻复溶后的溶液"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "",
+              "excerpt": "妊娠：除在医院内进行获批的医学引产外，妊娠期间绝不应使用 oxytocin。不当使用可导致子宫破裂、胎儿窘迫或更严重的后果。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "临床医生监督很重要",
+              "excerpt": "任何考虑通过鼻内或皮下给予研究用途 oxytocin 的人，都应先与有执业资格的临床医生讨论，尤其是有心血管疾病史、低钠血症史、妊娠史或精神科药物使用史的人。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 副作用与安全性",
+              "subsection": "静脉／肌内注射产科说明书安全性信息（FDA）",
+              "excerpt": "子宫过度刺激、子宫破裂、产后出血。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin 注射液，USP（合成）——现行 FDA 说明书（NDA 018261／018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin 注射液，USP）——处方信息（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自闭症谱系障碍儿童与青少年鼻内给予 Oxytocin。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocin 增强人类的信任。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "鼻内给予 oxytocin 研究领域的进展：经验教训与临床研究的未来方向。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "“少即是多”：以剂量反应关系解释鼻内给予 oxytocin 在人脑中的药效学。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人静脉和鼻内给予 oxytocin 的血浆药代动力学。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "给予 oxytocin 对自闭症患者社交行为和常规化行为的影响：一项预注册系统综述与荟萃分析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocin 与自闭症谱系障碍：随机对照试验的系统综述与荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "鼻内给予 oxytocin、社会认知与神经发育障碍：一项荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物 CID 439302）——结构与性质。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "人 oxytocin 受体的晶体结构。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：使用 Oxytocin 改善自闭症患者相互社交行为的研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "product_concentration",
+          "IU_not_U100_units"
+        ],
+        "notes": "仅作来源参考；尚未审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "2302113d-9aef-4c21-8375-114998c62215",
+      "productID": "oxytocin",
+      "title": "Oxytocin — 成人 ASD 试验",
+      "purpose": "来源所述的参考规划",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及设为应用默认方案的审核尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trial_described_by_secondary_source",
+          "indication_context": "adults with ASD",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "成人 ASD 试验",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "24",
+              "maximum": "48",
+              "unit": "IU",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "给药方案与时间表；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocin 储存与操作",
+              "subsection": "应避免的情况",
+              "rows": [
+                [
+                  "",
+                  "冻干制剂（粉末）",
+                  "复溶后（液体）"
+                ],
+                [
+                  "温度",
+                  "长期储存于 -4 华氏度（-20 摄氏度）",
+                  "35.6 至 46.4 华氏度（2 至 8 摄氏度）"
+                ],
+                [
+                  "实际保存期限",
+                  "至标签所示有效期",
+                  "使用 BAC 水复溶后约 2-4 周"
+                ],
+                [
+                  "外观",
+                  "白色冻干块状物",
+                  "澄清、无色溶液"
+                ],
+                [
+                  "应避免的情况",
+                  "反复冻融、阳光直射",
+                  "冷冻复溶后的溶液"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "",
+              "excerpt": "妊娠：除在医院内进行获批的医学引产外，妊娠期间绝不应使用 oxytocin。不当使用可导致子宫破裂、胎儿窘迫或更严重的后果。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "临床医生监督很重要",
+              "excerpt": "任何考虑通过鼻内或皮下给予研究用途 oxytocin 的人，都应先与有执业资格的临床医生讨论，尤其是有心血管疾病史、低钠血症史、妊娠史或精神科药物使用史的人。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 副作用与安全性",
+              "subsection": "静脉／肌内注射产科说明书安全性信息（FDA）",
+              "excerpt": "子宫过度刺激、子宫破裂、产后出血。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin 注射液，USP（合成）——现行 FDA 说明书（NDA 018261／018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin 注射液，USP）——处方信息（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自闭症谱系障碍儿童与青少年鼻内给予 Oxytocin。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocin 增强人类的信任。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "鼻内给予 oxytocin 研究领域的进展：经验教训与临床研究的未来方向。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "“少即是多”：以剂量反应关系解释鼻内给予 oxytocin 在人脑中的药效学。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人静脉和鼻内给予 oxytocin 的血浆药代动力学。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "给予 oxytocin 对自闭症患者社交行为和常规化行为的影响：一项预注册系统综述与荟萃分析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocin 与自闭症谱系障碍：随机对照试验的系统综述与荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "鼻内给予 oxytocin、社会认知与神经发育障碍：一项荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物 CID 439302）——结构与性质。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "人 oxytocin 受体的晶体结构。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：使用 Oxytocin 改善自闭症患者相互社交行为的研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "product_concentration",
+          "IU_not_U100_units",
+          "daily_total_distribution_per_administration"
+        ],
+        "notes": "仅作来源参考；尚未审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "544db95b-0310-4163-86fc-0d697065047c",
+      "productID": "oxytocin",
+      "title": "Oxytocin — SOARS-B 自闭症随机对照试验",
+      "purpose": "来源所述的参考规划",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及设为应用默认方案的审核尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trial_described_by_secondary_source",
+          "indication_context": "autism trial; exact cohort eligibility unreported",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "SOARS-B 自闭症随机对照试验",
+            "duration": {
+              "kind": "fixed",
+              "value": 168,
+              "unit": "day"
+            },
+            "dose": {
+              "kind": "maximum",
+              "maximum": "48",
+              "minimum": null,
+              "unit": "IU",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "给药方案与时间表；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocin 储存与操作",
+              "subsection": "应避免的情况",
+              "rows": [
+                [
+                  "",
+                  "冻干制剂（粉末）",
+                  "复溶后（液体）"
+                ],
+                [
+                  "温度",
+                  "长期储存于 -4 华氏度（-20 摄氏度）",
+                  "35.6 至 46.4 华氏度（2 至 8 摄氏度）"
+                ],
+                [
+                  "实际保存期限",
+                  "至标签所示有效期",
+                  "使用 BAC 水复溶后约 2-4 周"
+                ],
+                [
+                  "外观",
+                  "白色冻干块状物",
+                  "澄清、无色溶液"
+                ],
+                [
+                  "应避免的情况",
+                  "反复冻融、阳光直射",
+                  "冷冻复溶后的溶液"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "",
+              "excerpt": "妊娠：除在医院内进行获批的医学引产外，妊娠期间绝不应使用 oxytocin。不当使用可导致子宫破裂、胎儿窘迫或更严重的后果。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "临床医生监督很重要",
+              "excerpt": "任何考虑通过鼻内或皮下给予研究用途 oxytocin 的人，都应先与有执业资格的临床医生讨论，尤其是有心血管疾病史、低钠血症史、妊娠史或精神科药物使用史的人。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 副作用与安全性",
+              "subsection": "静脉／肌内注射产科说明书安全性信息（FDA）",
+              "excerpt": "子宫过度刺激、子宫破裂、产后出血。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin 注射液，USP（合成）——现行 FDA 说明书（NDA 018261／018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin 注射液，USP）——处方信息（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自闭症谱系障碍儿童与青少年鼻内给予 Oxytocin。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocin 增强人类的信任。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "鼻内给予 oxytocin 研究领域的进展：经验教训与临床研究的未来方向。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "“少即是多”：以剂量反应关系解释鼻内给予 oxytocin 在人脑中的药效学。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人静脉和鼻内给予 oxytocin 的血浆药代动力学。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "给予 oxytocin 对自闭症患者社交行为和常规化行为的影响：一项预注册系统综述与荟萃分析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocin 与自闭症谱系障碍：随机对照试验的系统综述与荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "鼻内给予 oxytocin、社会认知与神经发育障碍：一项荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物 CID 439302）——结构与性质。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "人 oxytocin 受体的晶体结构。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：使用 Oxytocin 改善自闭症患者相互社交行为的研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "product_concentration",
+          "IU_not_U100_units",
+          "daily_total_distribution_per_administration"
+        ],
+        "notes": "仅作来源参考；尚未审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "6b2321c1-896c-41f5-8299-1030efa67923",
+      "productID": "oxytocin",
+      "title": "Oxytocin — 剂量反应脑影像研究",
+      "purpose": "来源所述的参考规划",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及设为应用默认方案的审核尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trial_described_by_secondary_source",
+          "indication_context": "brain imaging dose arms",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "剂量反应脑影像研究",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "9",
+                "18",
+                "36"
+              ],
+              "unit": "IU",
+              "basis": "biological_activity"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "研究中的单次给药"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "给药方案与时间表；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocin 储存与操作",
+              "subsection": "应避免的情况",
+              "rows": [
+                [
+                  "",
+                  "冻干制剂（粉末）",
+                  "复溶后（液体）"
+                ],
+                [
+                  "温度",
+                  "长期储存于 -4 华氏度（-20 摄氏度）",
+                  "35.6 至 46.4 华氏度（2 至 8 摄氏度）"
+                ],
+                [
+                  "实际保存期限",
+                  "至标签所示有效期",
+                  "使用 BAC 水复溶后约 2-4 周"
+                ],
+                [
+                  "外观",
+                  "白色冻干块状物",
+                  "澄清、无色溶液"
+                ],
+                [
+                  "应避免的情况",
+                  "反复冻融、阳光直射",
+                  "冷冻复溶后的溶液"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "",
+              "excerpt": "妊娠：除在医院内进行获批的医学引产外，妊娠期间绝不应使用 oxytocin。不当使用可导致子宫破裂、胎儿窘迫或更严重的后果。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "临床医生监督很重要",
+              "excerpt": "任何考虑通过鼻内或皮下给予研究用途 oxytocin 的人，都应先与有执业资格的临床医生讨论，尤其是有心血管疾病史、低钠血症史、妊娠史或精神科药物使用史的人。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 副作用与安全性",
+              "subsection": "静脉／肌内注射产科说明书安全性信息（FDA）",
+              "excerpt": "子宫过度刺激、子宫破裂、产后出血。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin 注射液，USP（合成）——现行 FDA 说明书（NDA 018261／018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin 注射液，USP）——处方信息（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自闭症谱系障碍儿童与青少年鼻内给予 Oxytocin。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocin 增强人类的信任。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "鼻内给予 oxytocin 研究领域的进展：经验教训与临床研究的未来方向。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "“少即是多”：以剂量反应关系解释鼻内给予 oxytocin 在人脑中的药效学。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人静脉和鼻内给予 oxytocin 的血浆药代动力学。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "给予 oxytocin 对自闭症患者社交行为和常规化行为的影响：一项预注册系统综述与荟萃分析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocin 与自闭症谱系障碍：随机对照试验的系统综述与荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "鼻内给予 oxytocin、社会认知与神经发育障碍：一项荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物 CID 439302）——结构与性质。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "人 oxytocin 受体的晶体结构。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：使用 Oxytocin 改善自闭症患者相互社交行为的研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "product_concentration",
+          "IU_not_U100_units"
+        ],
+        "notes": "仅作来源参考；尚未审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "8e4b4049-763c-4347-82d1-e7470168db15",
+      "productID": "oxytocin",
+      "title": "Oxytocin — 来源中的社区皮下给药剂量范围",
+      "purpose": "来源所述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及设为应用默认方案的审核尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1.0",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin 复溶指南／IU 至 mcg 换算（oxytocin 专用）"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "0.67",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin 复溶指南／IU 至 mcg 换算（oxytocin 专用）"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1.67",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin 复溶指南／IU 至 mcg 换算（oxytocin 专用）"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1.0",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin 复溶指南／IU 至 mcg 换算（oxytocin 专用）"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2.0",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin 复溶指南／IU 至 mcg 换算（oxytocin 专用）"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "社区给药剂量范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "total_product",
+              "range_options": [
+                {
+                  "minimum": "100",
+                  "maximum": "100"
+                },
+                {
+                  "minimum": "200",
+                  "maximum": "300"
+                },
+                {
+                  "minimum": "400",
+                  "maximum": "500"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "给药方案与时间表；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocin 储存与操作",
+              "subsection": "应避免的情况",
+              "rows": [
+                [
+                  "",
+                  "冻干制剂（粉末）",
+                  "复溶后（液体）"
+                ],
+                [
+                  "温度",
+                  "长期储存于 -4 华氏度（-20 摄氏度）",
+                  "35.6 至 46.4 华氏度（2 至 8 摄氏度）"
+                ],
+                [
+                  "实际保存期限",
+                  "至标签所示有效期",
+                  "使用 BAC 水复溶后约 2-4 周"
+                ],
+                [
+                  "外观",
+                  "白色冻干块状物",
+                  "澄清、无色溶液"
+                ],
+                [
+                  "应避免的情况",
+                  "反复冻融、阳光直射",
+                  "冷冻复溶后的溶液"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "",
+              "excerpt": "妊娠：除在医院内进行获批的医学引产外，妊娠期间绝不应使用 oxytocin。不当使用可导致子宫破裂、胎儿窘迫或更严重的后果。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 的适用人群与应避免使用的人群",
+              "subsection": "临床医生监督很重要",
+              "excerpt": "任何考虑通过鼻内或皮下给予研究用途 oxytocin 的人，都应先与有执业资格的临床医生讨论，尤其是有心血管疾病史、低钠血症史、妊娠史或精神科药物使用史的人。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocin 副作用与安全性",
+              "subsection": "静脉／肌内注射产科说明书安全性信息（FDA）",
+              "excerpt": "子宫过度刺激、子宫破裂、产后出血。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin 注射液，USP（合成）——现行 FDA 说明书（NDA 018261／018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin 注射液，USP）——处方信息（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自闭症谱系障碍儿童与青少年鼻内给予 Oxytocin。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocin 增强人类的信任。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "鼻内给予 oxytocin 研究领域的进展：经验教训与临床研究的未来方向。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "“少即是多”：以剂量反应关系解释鼻内给予 oxytocin 在人脑中的药效学。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人静脉和鼻内给予 oxytocin 的血浆药代动力学。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "给予 oxytocin 对自闭症患者社交行为和常规化行为的影响：一项预注册系统综述与荟萃分析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocin 与自闭症谱系障碍：随机对照试验的系统综述与荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "鼻内给予 oxytocin、社会认知与神经发育障碍：一项荟萃分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物 CID 439302）——结构与性质。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "人 oxytocin 受体的晶体结构。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：使用 Oxytocin 改善自闭症患者相互社交行为的研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "cycle_duration",
+          "time_of_day",
+          "human_subcutaneous_validation",
+          "mass_to_IU_conversion_not_assumed"
+        ],
+        "notes": "仅作来源参考；尚未审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "078952e5-a8d5-46a5-9d20-7cbe6690bc78",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6d4b2c25-2e5d-49b5-93bc-2ae8a20916d1",
+      "title": "Pitocin (oxytocin injection) prescribing information",
+      "publisher": "Par Pharmaceutical, via NLM DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+      "title": "Oxytocin Peptide Dosing Guide: Routes, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "a38cc9f6-c997-4193-90f0-82b9da148288",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34644471/",
+      "title": "Intranasal oxytocin in children and adolescents with autism spectrum disorder (2021)",
+      "publisher": "New England Journal of Medicine, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "0971c083-2678-47ca-8fec-9de32e0f7bf5",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；原始来源验证尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "2302113d-9aef-4c21-8375-114998c62215",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；原始来源验证尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "544db95b-0310-4163-86fc-0d697065047c",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；原始来源验证尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "6b2321c1-896c-41f5-8299-1030efa67923",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；原始来源验证尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "8e4b4049-763c-4347-82d1-e7470168db15",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；原始来源验证尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "oxytocin",
+      "sourceID": "078952e5-a8d5-46a5-9d20-7cbe6690bc78",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已确立的产科适应证；不支持鼻内给药在社交或性欲方面的益处论断。分类依据：专科与临床：已确立的临床益处属于产科用途；神经精神疾病用途仍处于研究阶段，研究结果不一致。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "oxytocin",
+      "sourceID": "a38cc9f6-c997-4193-90f0-82b9da148288",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "为期 24 周的安慰剂对照研究未显示社会功能／认知功能方面的疗效。分类依据：专科与临床：已确立的临床益处属于产科用途；神经精神疾病用途仍处于研究阶段，研究结果不一致。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下给药"
+    },
+    {
+      "id": "intranasal",
+      "name": "鼻内给药"
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bpc-157",
+      "name": "BPC-157",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "Recherche préclinique sur la réparation tissulaire : BPC-157 a amélioré les mesures de cicatrisation, notamment la formation de collagène et la résistance à la traction, dans des expériences d’incision cutanée et d’anastomose intestinale chez le rat. Ces résultats chez l’animal indiquent un intérêt pour la recherche sur la cicatrisation et la récupération ; ils n’établissent pas de bénéfices fiables pour la récupération après une blessure chez l’humain."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "68e9a366-13ea-4aec-be9b-006df3cd5436",
+      "productID": "bpc-157",
+      "title": "BPC-157 — Plage élevée, deux fois par jour",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Source éditoriale secondaire ; aucune validation clinique automatique ni adoption automatique comme valeur par défaut de l’application.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "acute injury planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "Guide de reconstitution de BPC-157 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "Guide de reconstitution de BPC-157 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Plage élevée, deux fois par jour",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+            "locator": "Protocole posologique et calendrier ; indications de la source sur les horaires"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+              "source_tables": [
+                {
+                  "section": "Quelles durées les rapports chez l’humain ont-ils utilisées ?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Rapport et voie d’administration",
+                      "Durée du traitement reçu",
+                      "Observation",
+                      "Limite principale"
+                    ],
+                    [
+                      "Douleur au genou, 2021 : injection intra-articulaire",
+                      "Généralement un seul traitement ; quelques injections répétées après une nouvelle blessure",
+                      "Suivi variable, le plus souvent de 6–12 mois",
+                      "Évaluation rétrospective des symptômes ; aucun groupe de comparaison"
+                    ],
+                    [
+                      "Symptômes vésicaux, 2024 : injection dans la paroi de la vessie",
+                      "Une intervention guidée par un endoscope à l’intérieur de la vessie",
+                      "Examen endoscopique de la vessie à 6 semaines ; questionnaires principalement 4–6 mois plus tard",
+                      "Rapport de petite taille sans groupe de comparaison ; contrôles à des moments différents"
+                    ],
+                    [
+                      "Petite étude de sécurité, 2025 : perfusion dans une veine (IV)",
+                      "Perfusions sur 2 jours consécutifs",
+                      "Surveillance jusqu’au jour 3",
+                      "Seulement 2 adultes ; aucune conclusion sur la sécurité à long terme"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Une voie d’administration peut-elle déterminer le cycle d’une autre ?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Voie d’administration",
+                      "Signification",
+                      "Limite des données probantes"
+                    ],
+                    [
+                      "Intra-articulaire",
+                      "Administré dans une articulation",
+                      "N’établit pas de cure habituelle d’injections sous-cutanées"
+                    ],
+                    [
+                      "Intraveineuse",
+                      "Administré dans une veine",
+                      "Ne montre pas comment un produit avalé pénètre dans l’organisme et ne définit pas de schéma d’injections à domicile"
+                    ],
+                    [
+                      "Sous-cutanée",
+                      "Administré sous la peau",
+                      "Nécessite des données probantes pour cette voie et la durée proposée"
+                    ],
+                    [
+                      "Orale ou rectale",
+                      "Avalé ou administré dans la partie inférieure de l’intestin",
+                      "Nécessite des résultats pour ce produit précis et ce mode d’administration"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de BPC-157",
+              "subsection": "",
+              "rows": [
+                [
+                  "État",
+                  "Conservation",
+                  "Notes"
+                ],
+                [
+                  "Lyophilisé (sous forme de poudre)",
+                  "-4F (-20C) à long terme ; réfrigérateur à court terme",
+                  "Suivre l’étiquette du fournisseur ; la poudre est plus stable que la solution reconstituée."
+                ],
+                [
+                  "Reconstitué (sous forme liquide)",
+                  "35.6-46.4F (2-8C)",
+                  "Utiliser dans un délai d’environ 3-4 semaines selon la planification communautaire courante. Ne pas congeler le flacon reconstitué."
+                ],
+                [
+                  "Aspect après reconstitution",
+                  "Solution limpide et incolore",
+                  "Les solutions troubles ou contenant des particules ne devraient pas être utilisées."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de BPC-157",
+              "subsection": "Risque théorique lié au mécanisme d’action",
+              "excerpt": "La même voie qui favorise la réparation tissulaire (angiogenèse) favorise également la croissance tumorale. Les revues signalent qu’il s’agit d’une question non résolue, en particulier chez les patients atteints d’un cancer ou ayant des antécédents de cancer (Sehgal et al., Pharmaceuticals, 2025).",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "L’effet du pentadécapeptide BPC 157 favorisant la cicatrisation tendineuse implique la croissance du tendon, la survie cellulaire et la migration cellulaire.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21030672"
+          },
+          {
+            "label": "Le potentiel thérapeutique de BPC157 pro-angiogénique est associé à l’activation de VEGFR2 et à l’augmentation de son expression.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27847966"
+          },
+          {
+            "label": "Effets modulateurs de BPC 157 sur le tonus vasomoteur et la voie de signalisation Src-Cav-1-eNOS chez le rat.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555539"
+          },
+          {
+            "label": "Pharmacocinétique, distribution, métabolisme et excrétion du composé protecteur de l’organisme 157 chez le rat et le chien.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587"
+          },
+          {
+            "label": "Pentadécapeptide gastrique stable BPC 157 : nouveau traitement du tractus gastro-intestinal.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21548867"
+          },
+          {
+            "label": "Le pentadécapeptide BPC 157 et le système nerveux central.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8504390"
+          },
+          {
+            "label": "Utilisation émergente de BPC-157 en médecine orthopédique du sport : revue systématique.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605"
+          },
+          {
+            "label": "Injection intra-articulaire de BPC 157 pour plusieurs types de douleurs au genou.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34324435"
+          },
+          {
+            "label": "Effet de BPC-157 sur les symptômes chez les patients atteints de cystite interstitielle : étude pilote.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39325560"
+          },
+          {
+            "label": "Sécurité de la perfusion intraveineuse de BPC157 chez l’humain : étude pilote.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40131143"
+          },
+          {
+            "label": "Évaluation préclinique de la sécurité du composé protecteur de l’organisme-157, un médicament potentiel pour le traitement de diverses plaies.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32334036"
+          },
+          {
+            "label": "BPC 157 : un candidat prometteur pour la cytoprotection et la réparation tissulaire.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134"
+          },
+          {
+            "label": "Liste actualisée des substances médicamenteuses en vrac 503A (révision de la catégorie 2, en vigueur le 22 avril 2026).",
+            "url": "https://www.fda.gov/media/94155/download"
+          }
+        ],
+        "unresolved_fields": [
+          "course_duration_choice",
+          "time_of_day",
+          "product_preparation",
+          "human_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "Référence à la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans la fiche source."
+      }
+    },
+    {
+      "id": "788a458e-9095-46a8-8dd9-00018ca373ba",
+      "productID": "bpc-157",
+      "title": "BPC-157 — Plage faible, une fois par jour",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Source éditoriale secondaire ; aucune validation clinique automatique ni adoption automatique comme valeur par défaut de l’application.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "maintenance/general planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "Guide de reconstitution de BPC-157 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "Guide de reconstitution de BPC-157 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Plage faible, une fois par jour",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "250",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+            "locator": "Protocole posologique et calendrier ; indications de la source sur les horaires"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+              "source_tables": [
+                {
+                  "section": "Quelles durées les rapports chez l’humain ont-ils utilisées ?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Rapport et voie d’administration",
+                      "Durée du traitement reçu",
+                      "Observation",
+                      "Limite principale"
+                    ],
+                    [
+                      "Douleur au genou, 2021 : injection intra-articulaire",
+                      "Généralement un seul traitement ; quelques injections répétées après une nouvelle blessure",
+                      "Suivi variable, le plus souvent de 6–12 mois",
+                      "Évaluation rétrospective des symptômes ; aucun groupe de comparaison"
+                    ],
+                    [
+                      "Symptômes vésicaux, 2024 : injection dans la paroi de la vessie",
+                      "Une intervention guidée par un endoscope à l’intérieur de la vessie",
+                      "Examen endoscopique de la vessie à 6 semaines ; questionnaires principalement 4–6 mois plus tard",
+                      "Rapport de petite taille sans groupe de comparaison ; contrôles à des moments différents"
+                    ],
+                    [
+                      "Petite étude de sécurité, 2025 : perfusion dans une veine (IV)",
+                      "Perfusions sur 2 jours consécutifs",
+                      "Surveillance jusqu’au jour 3",
+                      "Seulement 2 adultes ; aucune conclusion sur la sécurité à long terme"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Une voie d’administration peut-elle déterminer le cycle d’une autre ?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Voie d’administration",
+                      "Signification",
+                      "Limite des données probantes"
+                    ],
+                    [
+                      "Intra-articulaire",
+                      "Administré dans une articulation",
+                      "N’établit pas de cure habituelle d’injections sous-cutanées"
+                    ],
+                    [
+                      "Intraveineuse",
+                      "Administré dans une veine",
+                      "Ne montre pas comment un produit avalé pénètre dans l’organisme et ne définit pas de schéma d’injections à domicile"
+                    ],
+                    [
+                      "Sous-cutanée",
+                      "Administré sous la peau",
+                      "Nécessite des données probantes pour cette voie et la durée proposée"
+                    ],
+                    [
+                      "Orale ou rectale",
+                      "Avalé ou administré dans la partie inférieure de l’intestin",
+                      "Nécessite des résultats pour ce produit précis et ce mode d’administration"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de BPC-157",
+              "subsection": "",
+              "rows": [
+                [
+                  "État",
+                  "Conservation",
+                  "Notes"
+                ],
+                [
+                  "Lyophilisé (sous forme de poudre)",
+                  "-4F (-20C) à long terme ; réfrigérateur à court terme",
+                  "Suivre l’étiquette du fournisseur ; la poudre est plus stable que la solution reconstituée."
+                ],
+                [
+                  "Reconstitué (sous forme liquide)",
+                  "35.6-46.4F (2-8C)",
+                  "Utiliser dans un délai d’environ 3-4 semaines selon la planification communautaire courante. Ne pas congeler le flacon reconstitué."
+                ],
+                [
+                  "Aspect après reconstitution",
+                  "Solution limpide et incolore",
+                  "Les solutions troubles ou contenant des particules ne devraient pas être utilisées."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de BPC-157",
+              "subsection": "Risque théorique lié au mécanisme d’action",
+              "excerpt": "La même voie qui favorise la réparation tissulaire (angiogenèse) favorise également la croissance tumorale. Les revues signalent qu’il s’agit d’une question non résolue, en particulier chez les patients atteints d’un cancer ou ayant des antécédents de cancer (Sehgal et al., Pharmaceuticals, 2025).",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "L’effet du pentadécapeptide BPC 157 favorisant la cicatrisation tendineuse implique la croissance du tendon, la survie cellulaire et la migration cellulaire.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21030672"
+          },
+          {
+            "label": "Le potentiel thérapeutique de BPC157 pro-angiogénique est associé à l’activation de VEGFR2 et à l’augmentation de son expression.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27847966"
+          },
+          {
+            "label": "Effets modulateurs de BPC 157 sur le tonus vasomoteur et la voie de signalisation Src-Cav-1-eNOS chez le rat.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555539"
+          },
+          {
+            "label": "Pharmacocinétique, distribution, métabolisme et excrétion du composé protecteur de l’organisme 157 chez le rat et le chien.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587"
+          },
+          {
+            "label": "Pentadécapeptide gastrique stable BPC 157 : nouveau traitement du tractus gastro-intestinal.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21548867"
+          },
+          {
+            "label": "Le pentadécapeptide BPC 157 et le système nerveux central.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8504390"
+          },
+          {
+            "label": "Utilisation émergente de BPC-157 en médecine orthopédique du sport : revue systématique.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605"
+          },
+          {
+            "label": "Injection intra-articulaire de BPC 157 pour plusieurs types de douleurs au genou.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34324435"
+          },
+          {
+            "label": "Effet de BPC-157 sur les symptômes chez les patients atteints de cystite interstitielle : étude pilote.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39325560"
+          },
+          {
+            "label": "Sécurité de la perfusion intraveineuse de BPC157 chez l’humain : étude pilote.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40131143"
+          },
+          {
+            "label": "Évaluation préclinique de la sécurité du composé protecteur de l’organisme-157, un médicament potentiel pour le traitement de diverses plaies.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32334036"
+          },
+          {
+            "label": "BPC 157 : un candidat prometteur pour la cytoprotection et la réparation tissulaire.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134"
+          },
+          {
+            "label": "Liste actualisée des substances médicamenteuses en vrac 503A (révision de la catégorie 2, en vigueur le 22 avril 2026).",
+            "url": "https://www.fda.gov/media/94155/download"
+          }
+        ],
+        "unresolved_fields": [
+          "course_duration_choice",
+          "time_of_day",
+          "product_preparation",
+          "human_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "Référence à la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans la fiche source."
+      }
+    },
+    {
+      "id": "d481c7f1-95a5-4c77-8af3-5f7c344e01ae",
+      "productID": "bpc-157",
+      "title": "BPC-157 — Plage standard, deux fois par jour",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Source éditoriale secondaire ; aucune validation clinique automatique ni adoption automatique comme valeur par défaut de l’application.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "community general planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "Guide de reconstitution de BPC-157 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "Guide de reconstitution de BPC-157 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Plage standard, deux fois par jour",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "250",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+            "locator": "Protocole posologique et calendrier ; indications de la source sur les horaires"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+              "source_tables": [
+                {
+                  "section": "Quelles durées les rapports chez l’humain ont-ils utilisées ?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Rapport et voie d’administration",
+                      "Durée du traitement reçu",
+                      "Observation",
+                      "Limite principale"
+                    ],
+                    [
+                      "Douleur au genou, 2021 : injection intra-articulaire",
+                      "Généralement un seul traitement ; quelques injections répétées après une nouvelle blessure",
+                      "Suivi variable, le plus souvent de 6–12 mois",
+                      "Évaluation rétrospective des symptômes ; aucun groupe de comparaison"
+                    ],
+                    [
+                      "Symptômes vésicaux, 2024 : injection dans la paroi de la vessie",
+                      "Une intervention guidée par un endoscope à l’intérieur de la vessie",
+                      "Examen endoscopique de la vessie à 6 semaines ; questionnaires principalement 4–6 mois plus tard",
+                      "Rapport de petite taille sans groupe de comparaison ; contrôles à des moments différents"
+                    ],
+                    [
+                      "Petite étude de sécurité, 2025 : perfusion dans une veine (IV)",
+                      "Perfusions sur 2 jours consécutifs",
+                      "Surveillance jusqu’au jour 3",
+                      "Seulement 2 adultes ; aucune conclusion sur la sécurité à long terme"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Une voie d’administration peut-elle déterminer le cycle d’une autre ?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Voie d’administration",
+                      "Signification",
+                      "Limite des données probantes"
+                    ],
+                    [
+                      "Intra-articulaire",
+                      "Administré dans une articulation",
+                      "N’établit pas de cure habituelle d’injections sous-cutanées"
+                    ],
+                    [
+                      "Intraveineuse",
+                      "Administré dans une veine",
+                      "Ne montre pas comment un produit avalé pénètre dans l’organisme et ne définit pas de schéma d’injections à domicile"
+                    ],
+                    [
+                      "Sous-cutanée",
+                      "Administré sous la peau",
+                      "Nécessite des données probantes pour cette voie et la durée proposée"
+                    ],
+                    [
+                      "Orale ou rectale",
+                      "Avalé ou administré dans la partie inférieure de l’intestin",
+                      "Nécessite des résultats pour ce produit précis et ce mode d’administration"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de BPC-157",
+              "subsection": "",
+              "rows": [
+                [
+                  "État",
+                  "Conservation",
+                  "Notes"
+                ],
+                [
+                  "Lyophilisé (sous forme de poudre)",
+                  "-4F (-20C) à long terme ; réfrigérateur à court terme",
+                  "Suivre l’étiquette du fournisseur ; la poudre est plus stable que la solution reconstituée."
+                ],
+                [
+                  "Reconstitué (sous forme liquide)",
+                  "35.6-46.4F (2-8C)",
+                  "Utiliser dans un délai d’environ 3-4 semaines selon la planification communautaire courante. Ne pas congeler le flacon reconstitué."
+                ],
+                [
+                  "Aspect après reconstitution",
+                  "Solution limpide et incolore",
+                  "Les solutions troubles ou contenant des particules ne devraient pas être utilisées."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de BPC-157",
+              "subsection": "Risque théorique lié au mécanisme d’action",
+              "excerpt": "La même voie qui favorise la réparation tissulaire (angiogenèse) favorise également la croissance tumorale. Les revues signalent qu’il s’agit d’une question non résolue, en particulier chez les patients atteints d’un cancer ou ayant des antécédents de cancer (Sehgal et al., Pharmaceuticals, 2025).",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "L’effet du pentadécapeptide BPC 157 favorisant la cicatrisation tendineuse implique la croissance du tendon, la survie cellulaire et la migration cellulaire.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21030672"
+          },
+          {
+            "label": "Le potentiel thérapeutique de BPC157 pro-angiogénique est associé à l’activation de VEGFR2 et à l’augmentation de son expression.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27847966"
+          },
+          {
+            "label": "Effets modulateurs de BPC 157 sur le tonus vasomoteur et la voie de signalisation Src-Cav-1-eNOS chez le rat.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555539"
+          },
+          {
+            "label": "Pharmacocinétique, distribution, métabolisme et excrétion du composé protecteur de l’organisme 157 chez le rat et le chien.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587"
+          },
+          {
+            "label": "Pentadécapeptide gastrique stable BPC 157 : nouveau traitement du tractus gastro-intestinal.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21548867"
+          },
+          {
+            "label": "Le pentadécapeptide BPC 157 et le système nerveux central.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8504390"
+          },
+          {
+            "label": "Utilisation émergente de BPC-157 en médecine orthopédique du sport : revue systématique.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605"
+          },
+          {
+            "label": "Injection intra-articulaire de BPC 157 pour plusieurs types de douleurs au genou.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34324435"
+          },
+          {
+            "label": "Effet de BPC-157 sur les symptômes chez les patients atteints de cystite interstitielle : étude pilote.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39325560"
+          },
+          {
+            "label": "Sécurité de la perfusion intraveineuse de BPC157 chez l’humain : étude pilote.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40131143"
+          },
+          {
+            "label": "Évaluation préclinique de la sécurité du composé protecteur de l’organisme-157, un médicament potentiel pour le traitement de diverses plaies.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32334036"
+          },
+          {
+            "label": "BPC 157 : un candidat prometteur pour la cytoprotection et la réparation tissulaire.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134"
+          },
+          {
+            "label": "Liste actualisée des substances médicamenteuses en vrac 503A (révision de la catégorie 2, en vigueur le 22 avril 2026).",
+            "url": "https://www.fda.gov/media/94155/download"
+          }
+        ],
+        "unresolved_fields": [
+          "course_duration_choice",
+          "time_of_day",
+          "product_preparation",
+          "human_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "Référence à la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans la fiche source."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+      "title": "BPC-157 Cycle Length: Human Studies, Breaks & Limits",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+      "title": "BPC-157 Dosing Guide: Protocol, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9403790/",
+      "title": "BPC 157's effect on healing",
+      "publisher": "Journal of Physiology, Paris / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "68e9a366-13ea-4aec-be9b-006df3cd5436",
+      "sourceID": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Données de contexte sur la durée et les pauses ; ne remplacent pas les instructions relatives à la dose, à l’étiquette du produit, à la voie d’administration ou à la population concernée.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "68e9a366-13ea-4aec-be9b-006df3cd5436",
+      "sourceID": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "La source décrit les champs ; vérification indépendante en attente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "788a458e-9095-46a8-8dd9-00018ca373ba",
+      "sourceID": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Données de contexte sur la durée et les pauses ; ne remplacent pas les instructions relatives à la dose, à l’étiquette du produit, à la voie d’administration ou à la population concernée.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "788a458e-9095-46a8-8dd9-00018ca373ba",
+      "sourceID": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "La source décrit les champs ; vérification indépendante en attente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "d481c7f1-95a5-4c77-8af3-5f7c344e01ae",
+      "sourceID": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Données de contexte sur la durée et les pauses ; ne remplacent pas les instructions relatives à la dose, à l’étiquette du produit, à la voie d’administration ou à la population concernée.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "d481c7f1-95a5-4c77-8af3-5f7c344e01ae",
+      "sourceID": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "La source décrit les champs ; vérification indépendante en attente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "bpc-157",
+      "sourceID": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Expériences originales chez le rat ; résumé indexé consulté. Incisions cutanées, anastomoses coliques et modèle d’angiogenèse sur éponge. Aucune déduction sur l’efficacité chez l’humain. Justification de la catégorie : le bénéfice directement étudié est la réparation tissulaire dans des modèles animaux.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cicatrisation et récupération"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

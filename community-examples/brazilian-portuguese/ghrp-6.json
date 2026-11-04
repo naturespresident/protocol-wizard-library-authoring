@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghrp-6",
+      "name": "GHRP-6",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "Efeito biológico demonstrado: estimula a secreção do hormônio do crescimento em pequenos estudos endócrinos em humanos. Isso sustenta seu papel como secretagogo de GH, em vez de comprovar um benefício para o bem-estar. Uma investigação clínica também constatou que a estimulação combinada com GHRH/GHRP-6 foi útil para distinguir adultos com deficiência grave de GH de controles saudáveis. Esse resultado diagnóstico diz respeito ao teste combinado; ele não estabelece benefícios do tratamento com GHRP-6 isoladamente para os músculos, a recuperação, a perda de gordura ou a longevidade."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "85c54b7b-32ba-4781-933b-6635c00f13cb",
+      "productID": "ghrp-6",
+      "title": "GHRP-6 — titulação três vezes ao dia conforme a fonte",
+      "purpose": "Planejamento de referência descrito na fonte",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Fonte editorial secundária; sem validação clínica automática nem promoção automática a opção padrão do aplicativo.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "ghrp-6"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Semanas 1-2",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 3-4",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 5-12",
+            "duration": {
+              "kind": "fixed",
+              "value": 56,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted",
+            "source_exclusions": [
+              "carbohydrate_rich_food",
+              "fat_rich_food"
+            ]
+          },
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ghrp-6",
+            "locator": "Protocolo de dosagem e cronograma; declarações da fonte sobre os horários"
+          },
+          "spacing_between_doses": {
+            "minimum": "4",
+            "unit": "hour"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+          "source_tables": [
+            {
+              "section": "Armazenamento e manuseio de GHRP-6",
+              "subsection": "Aparência",
+              "rows": [
+                [
+                  "",
+                  "GHRP-6"
+                ],
+                [
+                  "Liofilizado (forma em pó)",
+                  "-4F (-20C) a longo prazo"
+                ],
+                [
+                  "Reconstituído (forma líquida)",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "Aparência",
+                  "Límpido, incolor"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+          "source_statements": [
+            {
+              "section": "Quem deve evitar GHRP-6",
+              "subsection": "",
+              "excerpt": "Pessoas com câncer ativo ou prévio, pois a sinalização de GH/IGF-1 é uma preocupação teórica.",
+              "truncated": false
+            },
+            {
+              "section": "Quem deve evitar GHRP-6",
+              "subsection": "",
+              "excerpt": "Pessoas grávidas ou que estejam amamentando (segurança não estabelecida).",
+              "truncated": false
+            },
+            {
+              "section": "Efeitos colaterais e segurança de GHRP-6",
+              "subsection": "",
+              "excerpt": "O efeito mais consistente é a fome intensa , frequentemente poucos minutos após uma dose. Outros efeitos comumente relatados incluem retenção de líquidos ou inchaço, formigamento ou dormência nas mãos (um efeito relacionado ao GH), uma breve sensação de tontura ou rubor e cansaço.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Sobre a atividade in vitro e in vivo de um novo hexapeptídeo sintético que atua na hipófise para liberar especificamente o hormônio do crescimento.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6714155/"
+          },
+          {
+            "label": "Um receptor na hipófise e no hipotálamo que atua na liberação do hormônio do crescimento.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8688086/"
+          },
+          {
+            "label": "Ghrelin é um peptídeo acilado do estômago que promove a liberação do hormônio do crescimento.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10604470/"
+          },
+          {
+            "label": "Atividades endócrinas de ghrelin em humanos: comparação com GHRP-6 e GHRP-2 (GH, ACTH, cortisol, prolactin).",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11238504/"
+          },
+          {
+            "label": "O peptídeo-6 liberador do hormônio do crescimento (GH) requer o hormônio hipotalâmico endógeno liberador de GH para a estimulação máxima de GH.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9543139/"
+          },
+          {
+            "label": "Peptídeos sintéticos liberadores do hormônio do crescimento (GHRPs): uma avaliação histórica das evidências que sustentam seus efeitos citoprotetores.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28469519/"
+          },
+          {
+            "label": "Desenvolvimento e atividades biológicas de L-163,191 (MK-0677): um potente secretagogo do hormônio do crescimento, ativo por via oral.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7624059/"
+          },
+          {
+            "label": "Ghrelin: estrutura e função.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15788704/"
+          },
+          {
+            "label": "Lista de substâncias proibidas, seção S2: hormônios peptídicos, fatores de crescimento, substâncias relacionadas (secretagogos do hormônio do crescimento).",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          },
+          {
+            "label": "Substâncias farmacêuticas a granel usadas na manipulação conforme a seção 503A da Lei FD&C.",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_clock_times",
+          "fasting_interval",
+          "human_validation"
+        ],
+        "notes": "Apenas referência da fonte; sem revisão. As tabelas e as referências independentes permanecem disponíveis no registro da fonte."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "9da38627-373f-4068-9831-84c6dffdb852",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11030292/",
+      "title": "GH-releasing hormone and GHRP-6 for diagnostic testing in GH-deficient adults (2000)",
+      "publisher": "The Lancet, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/ghrp-6",
+      "title": "GHRP-6 Peptide Guide: Dosing, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "f1996e62-ed5a-432b-9b14-fbc36528fbec",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9543138/",
+      "title": "GHRP-6 requires endogenous hypothalamic GHRH for maximal GH stimulation (1998)",
+      "publisher": "Journal of Clinical Endocrinology & Metabolism, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "85c54b7b-32ba-4781-933b-6635c00f13cb",
+      "sourceID": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "A fonte descreve os campos; verificação independente pendente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "ghrp-6",
+      "sourceID": "9da38627-373f-4068-9831-84c6dffdb852",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Teste diagnóstico combinado em 125 pacientes e 125 controles; não se trata de tratamento isolado. Justificativa da categoria: Hormônio do crescimento: estimulação de GH medida diretamente e pesquisa diagnóstica com GH.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "ghrp-6",
+      "sourceID": "f1996e62-ed5a-432b-9b14-fbc36528fbec",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Nove homens saudáveis; a resposta de GH é um biomarcador, não uma medida de eficácia terapêutica. Justificativa da categoria: Hormônio do crescimento: estimulação de GH medida diretamente e pesquisa diagnóstica com GH.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormônio do crescimento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

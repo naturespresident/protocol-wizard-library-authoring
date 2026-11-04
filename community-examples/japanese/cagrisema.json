@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cagrisema",
+      "name": "CagriSema スタック",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 2,
+      "benefits": "ヒトを対象とした試験で実証された有益性：生活習慣への介入を受けている、糖尿病のない過体重または肥満の成人において、cagrilintideとsemaglutideの皮下併用投与は、プラセボよりも大きな体重減少をもたらしました。68週間のランダム化第3相試験REDEFINE 1では、より多くの参加者が大幅な体重減少の基準値を達成しました。これらの結果は、試験で検討された組み合わせと対象集団に適用されるものであり、任意の混合物や未検証の投与経路には適用されません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "4f579164-5cf5-4c69-a529-ec085103cd74",
+      "productID": "cagrisema",
+      "title": "Cagrilintide + Semaglutide — 出典に記載された16週間の同時漸増",
+      "purpose": "出典に記載された内容に基づく参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "編集された二次資料です。自動的に臨床的妥当性が確認されたり、アプリの既定の選択肢に昇格したりするものではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "cagrilintide"
+            },
+            {
+              "library_item_id": "glp-1"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "成分ごとの投与計画",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "成分ごとのスケジュール"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": {
+            "same_weekday": true,
+            "optional_stagger": "a few hours; no exact interval specified",
+            "separate_syringes": true
+          },
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+            "locator": "投与プロトコルとスケジュール；出典に記載された投与タイミング"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+          "source_tables": [
+            {
+              "section": "CagriSema 投与プロトコルとスケジュール",
+              "subsection": "サイクルの指針",
+              "rows": [
+                [
+                  "方法",
+                  "期間",
+                  "休薬期間",
+                  "最適な用途"
+                ],
+                [
+                  "試験を再現するサイクル",
+                  "68週間",
+                  "臨床医の指導に従います",
+                  "REDEFINE 1 / REDEFINE 2臨床試験に合わせる場合です。"
+                ],
+                [
+                  "標準的な研究サイクル",
+                  "12–24週間",
+                  "4–8週間",
+                  "多くの計画期間に適しており、第2相肥満試験の結果報告と整合しています。"
+                ],
+                [
+                  "短期の探索的サイクル",
+                  "8–12週間",
+                  "4週間",
+                  "忍容性と用量漸増の評価のみに用います。"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+          "source_tables": [
+            {
+              "section": "CagriSema の保管と取り扱い",
+              "subsection": "再溶解後の安定性が保たれる期間",
+              "rows": [
+                [
+                  "",
+                  "Cagrilintide",
+                  "Semaglutide",
+                  "混合済みのCagriSema"
+                ],
+                [
+                  "凍結乾燥状態（粉末形態）",
+                  "-4°F (-20°C)で長期保管します",
+                  "-4°F (-20°C)で長期保管します",
+                  "-4°F (-20°C)で長期保管します"
+                ],
+                [
+                  "再溶解後（液体形態）",
+                  "35.6–46.4°F (2–8°C)",
+                  "35.6–46.4°F (2–8°C)",
+                  "35.6–46.4°F (2–8°C)"
+                ],
+                [
+                  "外観",
+                  "再溶解後は澄明です",
+                  "再溶解後は澄明です",
+                  "再溶解後は澄明です"
+                ],
+                [
+                  "再溶解後の安定性が保たれる期間",
+                  "冷蔵で最長約28日間です",
+                  "冷蔵で最長約28日間です",
+                  "供給業者の分析証明書（COA）に従います"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+          "source_statements": [
+            {
+              "section": "CagriSema の副作用と安全性",
+              "subsection": "両試験に共通する傾向",
+              "excerpt": "悪心、嘔吐、下痢は用量漸増中にピークに達し、維持投与中に軽減しました。一方、便秘は試験期間を通じて比較的安定していました。試験のスポンサーは、安全性プロファイルがGLP-1受容体作動薬クラス全体と同程度であると説明しました。PepPalのGLP-1使用者向け併用サプリメントガイドでは、タンパク質、食物繊維、電解質、および検査結果に基づく栄養補給を扱っています。",
+              "truncated": false
+            },
+            {
+              "section": "CagriSema の副作用と安全性",
+              "subsection": "スタック固有の不明点と品質リスク",
+              "excerpt": "CagriSemaと研究用の調剤同等製品を直接比較した試験は公表されていません。CagriSemaは開発段階にあるため、FDA未承認製品または調剤製品は、使用前に同一性、純度、汚染リスクを評価しなければなりません。FDAは2026年初頭に、調剤薬に使用される未承認のGLP-1有効成分を対象とした取締措置を強調しており、品質管理上の懸念を裏付けています。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "過体重または肥満の成人におけるCagrilintideとSemaglutideの併用投与（REDEFINE 1）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502081"
+          },
+          {
+            "label": "過体重または肥満と2型糖尿病を有する成人におけるCagrilintide–Semaglutide（REDEFINE 2）。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502082"
+          },
+          {
+            "label": "Novo Nordiskは、体重管理のためのGLP-1とamylinの類似体による初の週次併用製剤CagriSemaについて、FDA承認申請を行いました。",
+            "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645868.html"
+          },
+          {
+            "label": "体重管理を目的としたcagrilintideの反復投与とsemaglutide 2·4 mg の併用投与における安全性、忍容性、薬物動態および薬力学：ランダム化対照第1b相試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33894838/"
+          },
+          {
+            "label": "2型糖尿病におけるcagrilintide 2·4 mg の週次投与とsemaglutide 2·4 mg の週次投与の併用による有効性と安全性：多施設共同ランダム化二重盲検実薬対照第2相試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37364590/"
+          },
+          {
+            "label": "過体重および肥満の人における体重管理を目的としたcagrilintideの週次投与：多施設共同ランダム化二重盲検プラセボ対照および実薬対照の用量探索第2相試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34288673/"
+          },
+          {
+            "label": "REDEFINE 3：心血管疾患を有する人におけるCagriSemaの作用を調べる研究。",
+            "url": "https://clinicaltrials.gov/study/NCT05669755"
+          },
+          {
+            "label": "REIMAGINE 2試験において、CagriSemaは2型糖尿病の成人で、HbA1cの1.91ポイント低下と14.2%の体重減少という優れた効果を示しました。",
+            "url": "https://www.biospace.com/press-releases/novo-nordisk-a-s-cagrisema-demonstrated-superior-hba1c-reduction-of-1-91-points-and-weight-loss-of-14-2-in-adults-with-type-2-diabetes-in-the-reimagine-2-trial"
+          },
+          {
+            "label": "Novo NordiskのCagriSema試験結果が、Eli Lillyとの肥満治療薬競争において同社に打撃を与えました。",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/novo-nordisks-obesity-drug-falls-short-against-eli-lillys-copenhagen-trial-2026-02-23/"
+          },
+          {
+            "label": "FDAは、FDA未承認のGLP-1製剤に対して措置を講じる意向です。",
+            "url": "https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs"
+          },
+          {
+            "label": "FDAは慢性的な体重管理のための新薬（tirzepatide / Zepbound）を承認しました。",
+            "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management"
+          },
+          {
+            "label": "Amylin：薬理学、生理学、および臨床での可能性。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4861438/"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "exact_optional_stagger_interval",
+          "product_specific_preparation",
+          "trial_eligibility_not_transferred"
+        ],
+        "notes": "出典を参照するための情報のみであり、未レビューです。表と独立した参考文献は、出典レコードで引き続き参照できます。",
+        "component_regimens": [
+          {
+            "component_id": "cagrilintide",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "1–4週",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.25",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "開始時：消化管の忍容性を最優先します。"
+              },
+              {
+                "name": "5–8週",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "漸増初期です。悪心は通常この期間にピークに達します。"
+              },
+              {
+                "name": "9–12週",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.0",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "漸増中期です。"
+              },
+              {
+                "name": "13–16週",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.7",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "漸増後期です。"
+              },
+              {
+                "name": "17週以降",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "維持投与における研究上の目標用量です。"
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+                "locator": "投与プロトコルとスケジュール；出典に記載された投与タイミング"
+              }
+            }
+          },
+          {
+            "component_id": "glp-1",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "1–4週",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.25",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "開始時：消化管の忍容性を最優先します。"
+              },
+              {
+                "name": "5–8週",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "漸増初期です。悪心は通常この期間にピークに達します。"
+              },
+              {
+                "name": "9–12週",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.0",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "漸増中期です。"
+              },
+              {
+                "name": "13–16週",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.7",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "漸増後期です。"
+              },
+              {
+                "name": "17週以降",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "維持投与における研究上の目標用量です。"
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+                "locator": "投与プロトコルとスケジュール；出典に記載された投与タイミング"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "394943ee-9b3d-48ab-9605-e18e96f72140",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40544433/",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity",
+      "publisher": "New England Journal of Medicine / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+      "url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+      "title": "CagriSema Dosing Protocol: Cagrilintide 2.4 mg + Semaglutide 2.4 mg (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "4f579164-5cf5-4c69-a529-ec085103cd74",
+      "sourceID": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "出典は各フィールドを説明しています。独立した検証は未実施です。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cagrisema",
+      "sourceID": "394943ee-9b3d-48ab-9605-e18e96f72140",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "REDEFINE 1では成人3,417人がランダム化されました。元の抄録では、68週時点でプラセボに対する有意な有益性が報告されています。カテゴリ分類の根拠：体重と代謝：併用に関する直接的な第3相エビデンスは体重減少に関するものです。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重と代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

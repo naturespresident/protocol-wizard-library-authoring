@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "selank",
+      "name": "Selank",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 5,
+      "benefits": "可能改善焦虑症状：一项在广泛性焦虑障碍或神经衰弱患者中开展的小型俄罗斯比较试验报告，Selank 对焦虑的改善与 medazepam 相似，并且还改善了疲劳相关症状。这属于初步临床证据，不能确凿证明其具有广泛的抗焦虑或益智效果。该研究规模较小，并采用活性药物作为对照；它不能确立其对健康人记忆、认知、抑郁症的益处，也不能确立长期使用本库方案的益处。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "79eee387-88ba-4942-8c74-59ff4491af11",
+      "productID": "selank",
+      "title": "Selank — 来源所述的皮下注射起始、停用与重复疗程",
+      "purpose": "按来源描述进行参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及提升为应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "selank"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank 复溶指南 / Selank 10 mg 复溶计算"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank 复溶指南 / Selank 10 mg 复溶计算"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank 复溶指南 / Selank 10 mg 复溶计算"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "6",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank 复溶指南 / Selank 10 mg 复溶计算"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "10",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+              "locator": "Selank 复溶指南 / Selank 10 mg 复溶计算"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "起始阶段，第 1–2 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "维持阶段，第 3–4 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "400",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "周期停用期，第 5–8 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "停用"
+            },
+            "status": "rest"
+          },
+          {
+            "name": "重复疗程，第 9–12 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "300",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/selank",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/selank",
+              "source_tables": [
+                {
+                  "section": "Selank 周期长度证据",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "来源",
+                      "用药期",
+                      "后续情况",
+                      "所支持的结论"
+                    ],
+                    [
+                      "现行俄罗斯药品使用说明书",
+                      "14 天",
+                      "如有需要，经临床医生咨询后，可在 1-3 周后重复疗程",
+                      "俄罗斯鼻内给药产品的官方疗程时长及重复疗程间隔"
+                    ],
+                    [
+                      "Medvedev 等，2014",
+                      "14 天",
+                      "治疗后对患者进行了随访；论文报告，测得的抗焦虑效果在末次给药后至少维持了 7 天",
+                      "在人体中开展的 14 天 Selank 单药治疗疗程，并在疗程结束后进行随访"
+                    ],
+                    [
+                      "Medvedev 等，2015",
+                      "主要治疗期为 14 天",
+                      "Selank 组中有 20 名患者继续使用 Selank 7 天，直至第 21 天",
+                      "一项人体研究，在特定治疗设计中将 Selank 疗程延长至 21 天"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Selank 停用期与重复疗程时间安排",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "问题",
+                      "基于证据的回答"
+                    ],
+                    [
+                      "俄罗斯说明书是否列明了停用期？",
+                      "是。如有需要，经临床医生咨询后，可在 1-3 周后重复疗程。"
+                    ],
+                    [
+                      "停用一周是否优于两周或三周？",
+                      "尚未确立。所审阅的来源中，没有对不同停用期长度进行对照比较的研究。"
+                    ],
+                    [
+                      "是否已证明停用期可防止受体脱敏？",
+                      "否。现行产品说明书给出了重复疗程的时间安排，但未将该机制列为设置间隔的原因。"
+                    ],
+                    [
+                      "这是否证明注射用 Selank 应有 1-3 周的停用期？",
+                      "否。说明书中的时间安排仅适用于俄罗斯鼻内给药产品。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "鼻内给药与注射用 Selank 的周期证据比较",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "给药途径或背景",
+                      "人体用药周期证据",
+                      "关于周期长度的结论"
+                    ],
+                    [
+                      "俄罗斯鼻内给药产品",
+                      "有",
+                      "说明书规定疗程为 14 天；现行说明书载明，重复疗程间隔为 1-3 周"
+                    ],
+                    [
+                      "已发表的 Selank 人体研究",
+                      "有",
+                      "已有 14 天疗程的记录，其中一项 2015 年研究将疗程延长至 21 天"
+                    ],
+                    [
+                      "皮下注射",
+                      "所审阅的来源中未发现经验证的人体用药周期",
+                      "不得将 4 周、8 周或其他注射用药周期描述为已获临床证实"
+                    ],
+                    [
+                      "动物或实验室研究",
+                      "仅有临床前证据",
+                      "有助于机制研究，但不应将其研究时长换算为人体用药周期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Selank 周期长度与 Selank 给药方案的区别",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "问题",
+                      "最相关的页面"
+                    ],
+                    [
+                      "Selank 的用药周期有多长？",
+                      "本 Selank 周期指南"
+                    ],
+                    [
+                      "疗程之间的停用期有多长？",
+                      "本 Selank 周期指南"
+                    ],
+                    [
+                      "可以重复疗程吗？",
+                      "本 Selank 周期指南"
+                    ],
+                    [
+                      "14 天和 21 天的研究分别做了什么？",
+                      "本 Selank 周期指南"
+                    ],
+                    [
+                      "Selank 的用量是多少？",
+                      "Selank 方案"
+                    ],
+                    [
+                      "如何复溶一瓶 Selank？",
+                      "Selank 方案"
+                    ],
+                    [
+                      "计算中使用多少 U-100 注射器刻度单位？",
+                      "Selank 方案"
+                    ],
+                    [
+                      "鼻内给药与皮下给药的剂量如何比较？",
+                      "Selank 方案"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [
+            {
+              "section": "Selank 储存与操作",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存条件",
+                  "说明"
+                ],
+                [
+                  "冻干形式（粉末）",
+                  "长期储存：-4F（-20C）；短期储存：35.6-46.4F（2-8C）",
+                  "粉末在冷冻条件下可稳定保存数月至 2+ 年。"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4F (2-8C)",
+                  "约 3-4 周。请勿冷冻液体。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_statements": [
+            {
+              "section": "Selank 适用人群与应避免使用的人群",
+              "subsection": "研究人员和临床医生通常会在以下情况下避免使用 Selank：",
+              "excerpt": "受试者处于妊娠期、哺乳期或备孕期——目前没有这些人群的人体安全性数据。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 适用人群与应避免使用的人群",
+              "subsection": "研究人员和临床医生通常会在以下情况下避免使用 Selank：",
+              "excerpt": "受试者已在未经临床医生监督的情况下使用处方抗焦虑药、抗抑郁药或镇静药，因为联合使用的效果尚未经过正式研究。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 副作用与安全性",
+              "subsection": "",
+              "excerpt": "已发表的俄罗斯试验记录显示，Selank 的副作用表现尤为轻微。与苯二氮䓬类药物直接比较时，Selank 产生了相似的焦虑缓解效果，且未出现镇静、依赖、记忆问题、耐受或戒断反应。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 副作用与安全性",
+              "subsection": "理论风险",
+              "excerpt": "药物相互作用。与处方抗焦虑药、抗抑郁药及镇静药联合使用的效果尚未经过正式研究。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 副作用与安全性",
+              "subsection": "理论风险",
+              "excerpt": "长期影响尚不明确。大多数已发表证据涉及 14-21 天的疗程。长期安全性数据有限。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 起效时间与监测事项",
+              "subsection": "",
+              "excerpt": "Selank 的舒缓效果在数天内逐渐累积，而非数分钟内。俄罗斯试验报告描述了在 14 天疗程中有意义的抗焦虑改善。社区使用者通常描述在 3-7 天内出现明显变化。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "新型肽类抗焦虑药 selank 治疗广泛性焦虑障碍和神经衰弱的疗效及可能的作用机制。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/"
+          },
+          {
+            "label": "selank 与 phenazepam 治疗焦虑障碍的抗焦虑作用及耐受性比较。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25176261/"
+          },
+          {
+            "label": "使用 selank 优化焦虑障碍的治疗。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26356395/"
+          },
+          {
+            "label": "selank 对焦虑－乏力障碍患者的免疫调节作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18577961/"
+          },
+          {
+            "label": "Selank 给药影响参与 GABA 能神经传递的部分基因的表达。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4757669/"
+          },
+          {
+            "label": "GABA、Selank 和 Olanzapine 影响 IMR-32 细胞中参与 GABA 能神经传递的基因的表达。",
+            "url": "https://doi.org/10.3389/fphar.2017.00089"
+          },
+          {
+            "label": "肽类 Selank 增强 Diazepam 在不可预知的慢性轻度应激条件下减轻大鼠焦虑的作用。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322660/"
+          },
+          {
+            "label": "研究 Selank 和 Semax 作用的功能连接组学方法。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/"
+          },
+          {
+            "label": "鼻内给予肽类 Selank 可在体内调节大鼠海马中的 BDNF 表达。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18841804/"
+          },
+          {
+            "label": "Semax 和 selank 抑制人血清中的 enkephalin 降解酶。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+          },
+          {
+            "label": "tuftsin 的肽类似物 Selank 通过调节大鼠海马和前额叶皮层中的 BDNF 含量，防止 ethanol 诱导的记忆损伤。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Kolik+selank+ethanol+BDNF"
+          },
+          {
+            "label": "Selank。",
+            "url": "https://en.wikipedia.org/wiki/Selank"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_clock_time",
+          "source_repeat_dose_selection",
+          "human_subcutaneous_validation"
+        ],
+        "notes": "仅供来源参考；未经审阅。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "7f13f18a-47ba-4308-99ac-f93517997a26",
+      "productID": "selank",
+      "title": "Selank — 来源所述的鼻内给药疗程与洗脱期",
+      "purpose": "按来源描述进行参考规划",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及提升为应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "selank"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "标准鼻内给药疗程",
+            "duration": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 21,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "2700",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 2,
+                "maximum": 3,
+                "period": "day"
+              },
+              "description": "每日 2-3 次"
+            }
+          },
+          {
+            "name": "洗脱期",
+            "duration": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 21,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "停用"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/selank",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/selank",
+              "source_tables": [
+                {
+                  "section": "Selank 周期长度证据",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "来源",
+                      "用药期",
+                      "后续情况",
+                      "所支持的结论"
+                    ],
+                    [
+                      "现行俄罗斯药品使用说明书",
+                      "14 天",
+                      "如有需要，经临床医生咨询后，可在 1-3 周后重复疗程",
+                      "俄罗斯鼻内给药产品的官方疗程时长及重复疗程间隔"
+                    ],
+                    [
+                      "Medvedev 等，2014",
+                      "14 天",
+                      "治疗后对患者进行了随访；论文报告，测得的抗焦虑效果在末次给药后至少维持了 7 天",
+                      "在人体中开展的 14 天 Selank 单药治疗疗程，并在疗程结束后进行随访"
+                    ],
+                    [
+                      "Medvedev 等，2015",
+                      "主要治疗期为 14 天",
+                      "Selank 组中有 20 名患者继续使用 Selank 7 天，直至第 21 天",
+                      "一项人体研究，在特定治疗设计中将 Selank 疗程延长至 21 天"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Selank 停用期与重复疗程时间安排",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "问题",
+                      "基于证据的回答"
+                    ],
+                    [
+                      "俄罗斯说明书是否列明了停用期？",
+                      "是。如有需要，经临床医生咨询后，可在 1-3 周后重复疗程。"
+                    ],
+                    [
+                      "停用一周是否优于两周或三周？",
+                      "尚未确立。所审阅的来源中，没有对不同停用期长度进行对照比较的研究。"
+                    ],
+                    [
+                      "是否已证明停用期可防止受体脱敏？",
+                      "否。现行产品说明书给出了重复疗程的时间安排，但未将该机制列为设置间隔的原因。"
+                    ],
+                    [
+                      "这是否证明注射用 Selank 应有 1-3 周的停用期？",
+                      "否。说明书中的时间安排仅适用于俄罗斯鼻内给药产品。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "鼻内给药与注射用 Selank 的周期证据比较",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "给药途径或背景",
+                      "人体用药周期证据",
+                      "关于周期长度的结论"
+                    ],
+                    [
+                      "俄罗斯鼻内给药产品",
+                      "有",
+                      "说明书规定疗程为 14 天；现行说明书载明，重复疗程间隔为 1-3 周"
+                    ],
+                    [
+                      "已发表的 Selank 人体研究",
+                      "有",
+                      "已有 14 天疗程的记录，其中一项 2015 年研究将疗程延长至 21 天"
+                    ],
+                    [
+                      "皮下注射",
+                      "所审阅的来源中未发现经验证的人体用药周期",
+                      "不得将 4 周、8 周或其他注射用药周期描述为已获临床证实"
+                    ],
+                    [
+                      "动物或实验室研究",
+                      "仅有临床前证据",
+                      "有助于机制研究，但不应将其研究时长换算为人体用药周期"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Selank 周期长度与 Selank 给药方案的区别",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "问题",
+                      "最相关的页面"
+                    ],
+                    [
+                      "Selank 的用药周期有多长？",
+                      "本 Selank 周期指南"
+                    ],
+                    [
+                      "疗程之间的停用期有多长？",
+                      "本 Selank 周期指南"
+                    ],
+                    [
+                      "可以重复疗程吗？",
+                      "本 Selank 周期指南"
+                    ],
+                    [
+                      "14 天和 21 天的研究分别做了什么？",
+                      "本 Selank 周期指南"
+                    ],
+                    [
+                      "Selank 的用量是多少？",
+                      "Selank 方案"
+                    ],
+                    [
+                      "如何复溶一瓶 Selank？",
+                      "Selank 方案"
+                    ],
+                    [
+                      "计算中使用多少 U-100 注射器刻度单位？",
+                      "Selank 方案"
+                    ],
+                    [
+                      "鼻内给药与皮下给药的剂量如何比较？",
+                      "Selank 方案"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_tables": [
+            {
+              "section": "Selank 储存与操作",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存条件",
+                  "说明"
+                ],
+                [
+                  "冻干形式（粉末）",
+                  "长期储存：-4F（-20C）；短期储存：35.6-46.4F（2-8C）",
+                  "粉末在冷冻条件下可稳定保存数月至 2+ 年。"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4F (2-8C)",
+                  "约 3-4 周。请勿冷冻液体。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+          "source_statements": [
+            {
+              "section": "Selank 适用人群与应避免使用的人群",
+              "subsection": "研究人员和临床医生通常会在以下情况下避免使用 Selank：",
+              "excerpt": "受试者处于妊娠期、哺乳期或备孕期——目前没有这些人群的人体安全性数据。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 适用人群与应避免使用的人群",
+              "subsection": "研究人员和临床医生通常会在以下情况下避免使用 Selank：",
+              "excerpt": "受试者已在未经临床医生监督的情况下使用处方抗焦虑药、抗抑郁药或镇静药，因为联合使用的效果尚未经过正式研究。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 副作用与安全性",
+              "subsection": "",
+              "excerpt": "已发表的俄罗斯试验记录显示，Selank 的副作用表现尤为轻微。与苯二氮䓬类药物直接比较时，Selank 产生了相似的焦虑缓解效果，且未出现镇静、依赖、记忆问题、耐受或戒断反应。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 副作用与安全性",
+              "subsection": "理论风险",
+              "excerpt": "药物相互作用。与处方抗焦虑药、抗抑郁药及镇静药联合使用的效果尚未经过正式研究。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 副作用与安全性",
+              "subsection": "理论风险",
+              "excerpt": "长期影响尚不明确。大多数已发表证据涉及 14-21 天的疗程。长期安全性数据有限。",
+              "truncated": false
+            },
+            {
+              "section": "Selank 起效时间与监测事项",
+              "subsection": "",
+              "excerpt": "Selank 的舒缓效果在数天内逐渐累积，而非数分钟内。俄罗斯试验报告描述了在 14 天疗程中有意义的抗焦虑改善。社区使用者通常描述在 3-7 天内出现明显变化。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "新型肽类抗焦虑药 selank 治疗广泛性焦虑障碍和神经衰弱的疗效及可能的作用机制。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/"
+          },
+          {
+            "label": "selank 与 phenazepam 治疗焦虑障碍的抗焦虑作用及耐受性比较。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25176261/"
+          },
+          {
+            "label": "使用 selank 优化焦虑障碍的治疗。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26356395/"
+          },
+          {
+            "label": "selank 对焦虑－乏力障碍患者的免疫调节作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18577961/"
+          },
+          {
+            "label": "Selank 给药影响参与 GABA 能神经传递的部分基因的表达。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4757669/"
+          },
+          {
+            "label": "GABA、Selank 和 Olanzapine 影响 IMR-32 细胞中参与 GABA 能神经传递的基因的表达。",
+            "url": "https://doi.org/10.3389/fphar.2017.00089"
+          },
+          {
+            "label": "肽类 Selank 增强 Diazepam 在不可预知的慢性轻度应激条件下减轻大鼠焦虑的作用。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5322660/"
+          },
+          {
+            "label": "研究 Selank 和 Semax 作用的功能连接组学方法。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32342318/"
+          },
+          {
+            "label": "鼻内给予肽类 Selank 可在体内调节大鼠海马中的 BDNF 表达。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18841804/"
+          },
+          {
+            "label": "Semax 和 selank 抑制人血清中的 enkephalin 降解酶。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+          },
+          {
+            "label": "tuftsin 的肽类似物 Selank 通过调节大鼠海马和前额叶皮层中的 BDNF 含量，防止 ethanol 诱导的记忆损伤。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/?term=Kolik+selank+ethanol+BDNF"
+          },
+          {
+            "label": "Selank。",
+            "url": "https://en.wikipedia.org/wiki/Selank"
+          }
+        ],
+        "unresolved_fields": [
+          "per_administration_allocation",
+          "daily_count_choice",
+          "product_concentration",
+          "primary_clinical_verification"
+        ],
+        "notes": "仅供来源参考；未经审阅。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/selank",
+      "title": "Selank Cycle Length: 14-Day Course, Breaks & Repeat Timing",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/selank",
+      "title": "Selank Dosage Guide: Injection, Reconstitution & Nasal vs SubQ",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "86bbcd04-64ed-4dd7-bcc7-8b892e2fa18f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18454096/",
+      "title": "Efficacy and possible mechanisms of Selank in generalized anxiety disorders and neurasthenia (2008)",
+      "publisher": "Zhurnal Nevrologii i Psikhiatrii imeni S. S. Korsakova, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "79eee387-88ba-4942-8c74-59ff4491af11",
+      "sourceID": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于疗程时长／停用期的背景证据；不能替代剂量、产品说明书、给药途径或特定人群的使用说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "79eee387-88ba-4942-8c74-59ff4491af11",
+      "sourceID": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源验证尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "7f13f18a-47ba-4308-99ac-f93517997a26",
+      "sourceID": "468dd1fc-a366-4f3e-be6f-f1f558b1f73d",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于疗程时长／停用期的背景证据；不能替代剂量、产品说明书、给药途径或特定人群的使用说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "7f13f18a-47ba-4308-99ac-f93517997a26",
+      "sourceID": "4dc1efbf-e455-42c7-961e-c9ca2d8783e2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源验证尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "selank",
+      "sourceID": "86bbcd04-64ed-4dd7-bcc7-8b892e2fa18f",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "62 名患者；Selank 与 medazepam 进行比较，并非严谨的安慰剂对照疗效研究项目。分类依据：认知与神经：针对精神科焦虑症状的初步研究，尚未确立其具有普遍的认知增强作用。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    },
+    {
+      "id": "intranasal",
+      "name": "鼻内给药"
+    }
+  ]
+}

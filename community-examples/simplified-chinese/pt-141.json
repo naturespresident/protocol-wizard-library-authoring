@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pt-141",
+      "name": "Bremelanotide",
+      "aliases": [
+        "PT-141"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": "已获批的皮下注射用 bremelanotide 产品已证实的人体获益：在符合说明书标准、患有获得性广泛性性欲减退障碍的绝经前女性中，提高性欲并减轻相关困扰。这些证据并不能确立其对男性或绝经后女性的获益，也不能证明其可普遍增强性表现。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "productID": "pt-141",
+      "title": "Vyleesi——说明书规定的按需使用 bremelanotide 方案",
+      "purpose": "符合条件的绝经前女性的获得性广泛性性欲减退障碍",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "未经审查的参考资料摘录；并非完整的处方用药说明。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Vyleesi single-dose autoinjector",
+          "components": [
+            {
+              "name": "Bremelanotide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "患有获得性广泛性性欲减退障碍的绝经前女性；不适用于男性或绝经后女性"
+        },
+        "preparation_options": [
+          {
+            "form": "prefilled_device",
+            "reconstitution_required": false,
+            "container_amount": {
+              "value": "1.75",
+              "unit": "mg"
+            },
+            "container_volume": {
+              "value": "0.3",
+              "unit": "mL"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "按需治疗",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.75",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "as_needed",
+              "doses_per_day": null,
+              "minimum_minutes_before_event": 45,
+              "maximum_doses_per_24_hours": 1,
+              "maximum_doses_per_month": 8,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [],
+        "notes": "使用五十六天后症状仍未改善则停药。按需使用没有固定的每日注射次数；禁忌证和监测要求仍见完整说明书。"
+      }
+    },
+    {
+      "id": "e02fe941-a3b7-4171-8cea-810d3d4c7134",
+      "productID": "pt-141",
+      "title": "Bremelanotide——来源中的男性勃起功能障碍鼻内给药试验剂量范围",
+      "purpose": "来源所述的参考方案规划",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二手编辑性描述／社区描述。独立来源核实及将其设为应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "phase_2_trial_described_by_secondary_source",
+          "indication_context": "men with erectile dysfunction",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_trial_product",
+          "components": [
+            {
+              "library_item_id": "pt-141"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "试验各剂量组范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "7.5",
+              "maximum": "20",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "未提供试验给药时间安排"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bremelanotide-pt-141",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_tables": [
+            {
+              "section": "PT-141 给药方案与时间安排",
+              "subsection": "周期指南",
+              "rows": [
+                [
+                  "方式",
+                  "模式",
+                  "参考来源"
+                ],
+                [
+                  "FDA 批准的按需用药（Vyleesi）",
+                  "活动前 ≥45 分钟皮下注射 1.75 mg，≤1 次／24 小时，≤8 次／月",
+                  "Vyleesi 说明书（Mayo Clinic 摘要）"
+                ],
+                [
+                  "3 期试验给药安排",
+                  "按需皮下注射 1.75 mg，持续 24 周",
+                  "Kingsberg 2019（RECONNECT）"
+                ],
+                [
+                  "长期安全性延伸研究",
+                  "继续按需皮下注射 1.75 mg，延长 52 周",
+                  "Simon 2019（开放标签延伸研究）"
+                ],
+                [
+                  "2 期鼻内给药（勃起功能障碍男性）",
+                  "所研究的试验组鼻内给予 7.5-20 mg",
+                  "Diamond 2006"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_tables": [
+            {
+              "section": "PT-141 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干状态（粉末形式）",
+                  "长期储存于 -4°F（-20°C）；短期可冷藏",
+                  "如有供应商的稳定性数据，则以其为依据。"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4°F（2-8°C）",
+                  "每次抽取时检查溶液是否澄清；如有浑浊或变色则丢弃。"
+                ],
+                [
+                  "Vyleesi 自动注射器",
+                  "室温保存，远离热源、潮湿和直射光；不得冷冻",
+                  "按 FDA 批准的说明书执行。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_statements": [
+            {
+              "section": "PT-141 的适用人群与应避免使用的人群",
+              "subsection": "不应使用",
+              "excerpt": "Vyleesi 说明书和 Mayo Clinic 药物摘要指出，未控制的高血压或已知心血管疾病患者不应使用 PT-141，因为给药后血压会短暂升高。也不建议在妊娠期间或计划妊娠时使用，且哺乳期使用的安全性数据不足。",
+              "truncated": false
+            },
+            {
+              "section": "PT-141 的适用人群与应避免使用的人群",
+              "subsection": "慎用",
+              "excerpt": "严重肾脏或肝脏疾病可能减慢药物清除。导致胃排空延迟的疾病可能在使用 PT-141 后加重，因为黑皮质素受体激动作用会减慢胃排空。Naltrexone 被列为需关注的相互作用药物（合用时，PT-141 可能降低 naltrexone 的暴露量）。PT-141 不应与 Melanotan II 等其他黑皮质素受体激动剂合用，因为两者作用的受体重叠，且联合暴露的安全性尚未",
+              "truncated": true
+            },
+            {
+              "section": "PT-141 副作用与安全性",
+              "subsection": "",
+              "excerpt": "下列副作用发生率来自 FDA 批准的 Vyleesi 说明书及 3 期 RECONNECT 试验发表的文献（Kingsberg 2019）。最常见的不良事件是恶心，使用 1.75 mg 剂量的 bremelanotide 使用者中约 40% 报告出现恶心。多数事件为轻度至中度，随着重复使用，发生情况随时间推移而减少，且多数参与者并未因此停药。",
+              "truncated": false
+            },
+            {
+              "section": "PT-141 副作用与安全性",
+              "subsection": "恶心",
+              "excerpt": "大多数",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Bremelanotide（皮下给药）——说明与给药剂量。",
+            "url": "https://www.mayoclinic.org/drugs-supplements/bremelanotide-subcutaneous-route/description/drg-20466805"
+          },
+          {
+            "label": "Bremelanotide 治疗性欲减退障碍：两项随机 3 期试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31599840/"
+          },
+          {
+            "label": "Bremelanotide 治疗性欲减退障碍的长期安全性与疗效。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31599841/"
+          },
+          {
+            "label": "Bremelanotide 治疗绝经前女性的女性性功能障碍：一项随机、安慰剂对照的剂量探索试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27333087/"
+          },
+          {
+            "label": "在健康男性及轻度至中度勃起功能障碍患者中，以双盲、安慰剂对照方式评估鼻内给予黑皮质素受体激动剂 PT-141 的安全性、药代动力学特性和药效学作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16034466/"
+          },
+          {
+            "label": "评估黑皮质素受体激动剂 bremelanotide 在性唤起障碍女性受试者中的安全性与疗效：一项双盲、安慰剂对照、固定剂量的随机研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18331256/"
+          },
+          {
+            "label": "黑皮质素受体激动剂对雌性大鼠求偶行为的选择性促进作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15226502/"
+          },
+          {
+            "label": "Bremelanotide 的 RECONNECT 3 期研究中预设的及整合的亚组分析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35230162/"
+          },
+          {
+            "label": "Bremelanotide：临床前研究中通过中枢神经系统影响女性性功能的作用概述。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17958602/"
+          },
+          {
+            "label": "PT-141（Bremelanotide）：黑皮质素受体激动剂研究指南。",
+            "url": "https://lotilabs.com/resources/pt-141-bremelanotide-melanocortin-receptor-agonist-research-guide/"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "actual_dose_arms",
+          "frequency",
+          "duration",
+          "product_concentration"
+        ],
+        "notes": "仅供来源参考；未经审查。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "url": "https://www.peptidedosingprotocols.com/protocol/bremelanotide-pt-141",
+      "title": "PT-141 (Bremelanotide) Dosage Guide: Timing, Protocol & Side Effects",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "63d43aa8-5a5c-4f89-b699-f5e44da04d47",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/210557Orig1s000Lbl.pdf",
+      "title": "Vyleesi original FDA-approved labeling, June 2019",
+      "publisher": "U.S. Food and Drug Administration / AMAG Pharmaceuticals",
+      "type": "regulatory_label",
+      "publishedAt": "2019-06"
+    },
+    {
+      "id": "7a673c9c-4e5e-4132-a3cf-57c5a0e491f9",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1d0c1b5-2f39-4bad-a6a4-0066e3ad5dcf",
+      "title": "VYLEESI (bremelanotide injection) prescribing information",
+      "publisher": "Manufacturer prescribing information / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "e0952025-c4ab-4f1f-9f35-6a64b315515c",
+      "url": "https://vyleesi.com/docs/Vyleesi-Full-Prescribing-Information.pdf",
+      "title": "Vyleesi prescribing information, revised March 2024",
+      "publisher": "Vyleesi manufacturer prescribing information",
+      "type": "regulatory_label",
+      "publishedAt": "2024-03"
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "Vyleesi 的剂量、按需给药时间、上限和说明书规定的人群相同；添加引用而非重复建立条目。",
+      "supports": [
+        "/phases/0/dose",
+        "/phases/0/schedule"
+      ]
+    },
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "63d43aa8-5a5c-4f89-b699-f5e44da04d47",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "剂量、相对于活动的给药时间、上限和重新评估标准与后续说明书一致。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "e0952025-c4ab-4f1f-9f35-6a64b315515c",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "说明书描述了基于活动的给药时间、每日／每月上限及该产品专用的预制装置。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "e02fe941-a3b7-4171-8cea-810d3d4c7134",
+      "sourceID": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源核实尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "pt-141",
+      "sourceID": "7a673c9c-4e5e-4132-a3cf-57c5a0e491f9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "第 1 和 14 节明确了适用人群，并列出两项 3 期研究，显示与安慰剂相比，性欲及相关困扰有所改善；说明书规定的限制排除了增强性表现的用途。分类依据：专科与临床：治疗特定患者人群中明确定义的性欲障碍。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    },
+    {
+      "id": "intranasal",
+      "name": "鼻内给药"
+    }
+  ]
+}

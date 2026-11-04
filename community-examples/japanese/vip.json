@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vip",
+      "name": "VIP（Vasoactive intestinal peptide）",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "小規模な生理学的研究では、治験段階の吸入VIP/aviptadilにより短時間の肺血管拡張が認められました。疾患治療に関するエビデンスは依然として一致しておらず、投与経路に特有のものです。より大規模なプラセボ対照試験では、aviptadilの静脈内投与はCOVID-19による呼吸不全の転帰を改善しませんでした。これは、健康増進、慢性疲労、非特異的炎症を目的とした経鼻投与プロトコルの有益性を確立するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "62d8ffb1-9108-480e-9b62-ecc435ff03c0",
+      "productID": "vip",
+      "title": "VIP — 出典に記載された週五回の診療所方式の参考資料",
+      "purpose": "出典の記述に基づく参考用の計画作成",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事／コミュニティによる記述です。出典の独立した検証と、アプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vip"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+              "locator": "VIPペプチド再溶解ガイド / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "診療所方式の継続投与",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 5,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/vip",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": [
+            {
+              "section": "VIPペプチドの保管と取り扱い",
+              "subsection": "外観",
+              "rows": [
+                [
+                  "",
+                  "VIP"
+                ],
+                [
+                  "凍結乾燥品（粉末）",
+                  "-4F (-20C)で長期保管"
+                ],
+                [
+                  "再溶解後（液体）",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "外観",
+                  "無色透明"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_statements": [
+            {
+              "section": "VIPの使用を避けるべき人",
+              "subsection": "",
+              "excerpt": "一部の人は、医療者による綿密な指導なしにVIPを使用すべきではありません。VIPは膵臓に影響を及ぼす可能性があるため、膵炎の既往がある人やリパーゼ値が上昇傾向にある人は、使用を避けるか中止すべきです。",
+              "truncated": false
+            },
+            {
+              "section": "VIPの使用を避けるべき人",
+              "subsection": "",
+              "excerpt": "妊娠中または授乳中の人（安全性は確立されていません）。",
+              "truncated": false
+            },
+            {
+              "section": "VIPの使用を避けるべき人",
+              "subsection": "",
+              "excerpt": "活動性のがんがある人は、まず医療者に相談すべきです。一部の腫瘍ではVIP受容体が過剰発現しており、理論上の懸念があります。",
+              "truncated": false
+            },
+            {
+              "section": "よくある質問",
+              "subsection": "Q10：VIPペプチドの使用を避けるべき人は誰ですか？",
+              "excerpt": "膵炎の既往やリパーゼ高値がある人、妊娠中または授乳中の人、血圧が非常に低い人、活動性のがんがある人は、医療者による綿密な指導なしにVIPを使用すべきではありません。まず臨床医が病歴全体を確認すべきです。",
+              "truncated": false
+            },
+            {
+              "section": "VIPで予想される経過とモニタリング",
+              "subsection": "",
+              "excerpt": "供給元の資料にある、週ごとの「効果が現れる時期」には懐疑的に向き合ってください。それらは販売促進用の要約であり、試験の評価項目ではありません。また、エビデンスが裏付ける範囲をはるかに超える数の病態を挙げています。",
+              "truncated": false
+            },
+            {
+              "section": "VIPで予想される経過とモニタリング",
+              "subsection": "",
+              "excerpt": "VIPが監督下で研究されている場面では、固定された予定よりもモニタリングが重要です。診療所でのCIRSプロトコルでは、初回投与後、開始から約二週間後、および増量のたびにリパーゼを再検査し、症状と検査値をより長期にわたって追跡します。販売促進されているVIPの用途の大半について、予測可能な有益性を示す強力な試験エビデンスは依然としてありません",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "広範な生物活性を持つポリペプチド：小腸からの単離。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5411915/"
+          },
+          {
+            "label": "米国におけるCOVID-19関連低酸素血症性呼吸不全の治療のためのaviptadil静脈内投与とremdesivir（TESICO）：ランダム化プラセボ対照試験。",
+            "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23)00147-9/fulltext"
+          },
+          {
+            "label": "呼吸不全を伴う重篤なCOVID-19に対するAviptadil静脈内投与（NCT04311697）。",
+            "url": "https://clinicaltrials.gov/study/NCT04311697"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide（VIP）は、水害を受けた建物への曝露後に発症した慢性炎症反応症候群（CIRS）を是正します。",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=28586"
+          },
+          {
+            "label": "VIPで治療されたCIRS患者のRNA-Seqでは、治癒と同時に生じる代謝状態と自然免疫機能の変化が示されています。",
+            "url": "https://esmed.org/MRA/mra/article/view/862"
+          },
+          {
+            "label": "勃起不全における陰茎海綿体内注射用Vasoactive intestinal polypeptide/phentolamine。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18485029/"
+          },
+          {
+            "label": "難治性勃起不全に対するaviptadilとphentolamineの陰茎海綿体内注射。",
+            "url": "https://academic.oup.com/jsm/article-abstract/22/5/726/8107665"
+          },
+          {
+            "label": "FD&C法第503A条に基づく調剤に使用される原薬。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          },
+          {
+            "label": "FDAのペプチド規制が変更される可能性：VIP、GHK-Cu、その他のペプチドの調剤区分。",
+            "url": "https://www.frierlevitt.com/articles/fda-peptide-regulation-rfk-announcement-compounding-pharmacies/"
+          },
+          {
+            "label": "FDAはCOVID-19に対するZyesami（aviptadil）のEUA申請を却下しました。",
+            "url": "https://www.managedhealthcareexecutive.com/view/fda-declines-eua-request-for-zyesami-for-covid-19"
+          },
+          {
+            "label": "aviptadil（合成VIP）に期待される薬理学的役割：VPAC受容体の機序と肺の生物学。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630992/"
+          }
+        ],
+        "unresolved_fields": [
+          "weekdays",
+          "exact_clock_times",
+          "clinical_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "出典の参考資料のみです。レビューは行われていません。表と独立した参考文献は、引き続き出典レコードで参照できます。"
+      }
+    },
+    {
+      "id": "66a5942e-d8cc-4557-8423-6f325c80529a",
+      "productID": "vip",
+      "title": "VIP — 出典に記載された皮下投与の開始用量と継続用量の選択肢",
+      "purpose": "出典の記述に基づく参考用の計画作成",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事／コミュニティによる記述です。出典の独立した検証と、アプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vip"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+              "locator": "VIPペプチド再溶解ガイド / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "控えめな開始用量",
+            "duration": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "標準／上級の継続投与の選択肢",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "100",
+                "200"
+              ],
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "毎日1-2回"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/vip",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": [
+            {
+              "section": "VIPペプチドの保管と取り扱い",
+              "subsection": "外観",
+              "rows": [
+                [
+                  "",
+                  "VIP"
+                ],
+                [
+                  "凍結乾燥品（粉末）",
+                  "-4F (-20C)で長期保管"
+                ],
+                [
+                  "再溶解後（液体）",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "外観",
+                  "無色透明"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_statements": [
+            {
+              "section": "VIPの使用を避けるべき人",
+              "subsection": "",
+              "excerpt": "一部の人は、医療者による綿密な指導なしにVIPを使用すべきではありません。VIPは膵臓に影響を及ぼす可能性があるため、膵炎の既往がある人やリパーゼ値が上昇傾向にある人は、使用を避けるか中止すべきです。",
+              "truncated": false
+            },
+            {
+              "section": "VIPの使用を避けるべき人",
+              "subsection": "",
+              "excerpt": "妊娠中または授乳中の人（安全性は確立されていません）。",
+              "truncated": false
+            },
+            {
+              "section": "VIPの使用を避けるべき人",
+              "subsection": "",
+              "excerpt": "活動性のがんがある人は、まず医療者に相談すべきです。一部の腫瘍ではVIP受容体が過剰発現しており、理論上の懸念があります。",
+              "truncated": false
+            },
+            {
+              "section": "よくある質問",
+              "subsection": "Q10：VIPペプチドの使用を避けるべき人は誰ですか？",
+              "excerpt": "膵炎の既往やリパーゼ高値がある人、妊娠中または授乳中の人、血圧が非常に低い人、活動性のがんがある人は、医療者による綿密な指導なしにVIPを使用すべきではありません。まず臨床医が病歴全体を確認すべきです。",
+              "truncated": false
+            },
+            {
+              "section": "VIPで予想される経過とモニタリング",
+              "subsection": "",
+              "excerpt": "供給元の資料にある、週ごとの「効果が現れる時期」には懐疑的に向き合ってください。それらは販売促進用の要約であり、試験の評価項目ではありません。また、エビデンスが裏付ける範囲をはるかに超える数の病態を挙げています。",
+              "truncated": false
+            },
+            {
+              "section": "VIPで予想される経過とモニタリング",
+              "subsection": "",
+              "excerpt": "VIPが監督下で研究されている場面では、固定された予定よりもモニタリングが重要です。診療所でのCIRSプロトコルでは、初回投与後、開始から約二週間後、および増量のたびにリパーゼを再検査し、症状と検査値をより長期にわたって追跡します。販売促進されているVIPの用途の大半について、予測可能な有益性を示す強力な試験エビデンスは依然としてありません",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "広範な生物活性を持つポリペプチド：小腸からの単離。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5411915/"
+          },
+          {
+            "label": "米国におけるCOVID-19関連低酸素血症性呼吸不全の治療のためのaviptadil静脈内投与とremdesivir（TESICO）：ランダム化プラセボ対照試験。",
+            "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23)00147-9/fulltext"
+          },
+          {
+            "label": "呼吸不全を伴う重篤なCOVID-19に対するAviptadil静脈内投与（NCT04311697）。",
+            "url": "https://clinicaltrials.gov/study/NCT04311697"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide（VIP）は、水害を受けた建物への曝露後に発症した慢性炎症反応症候群（CIRS）を是正します。",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=28586"
+          },
+          {
+            "label": "VIPで治療されたCIRS患者のRNA-Seqでは、治癒と同時に生じる代謝状態と自然免疫機能の変化が示されています。",
+            "url": "https://esmed.org/MRA/mra/article/view/862"
+          },
+          {
+            "label": "勃起不全における陰茎海綿体内注射用Vasoactive intestinal polypeptide/phentolamine。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18485029/"
+          },
+          {
+            "label": "難治性勃起不全に対するaviptadilとphentolamineの陰茎海綿体内注射。",
+            "url": "https://academic.oup.com/jsm/article-abstract/22/5/726/8107665"
+          },
+          {
+            "label": "FD&C法第503A条に基づく調剤に使用される原薬。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          },
+          {
+            "label": "FDAのペプチド規制が変更される可能性：VIP、GHK-Cu、その他のペプチドの調剤区分。",
+            "url": "https://www.frierlevitt.com/articles/fda-peptide-regulation-rfk-announcement-compounding-pharmacies/"
+          },
+          {
+            "label": "FDAはCOVID-19に対するZyesami（aviptadil）のEUA申請を却下しました。",
+            "url": "https://www.managedhealthcareexecutive.com/view/fda-declines-eua-request-for-zyesami-for-covid-19"
+          },
+          {
+            "label": "aviptadil（合成VIP）に期待される薬理学的役割：VPAC受容体の機序と肺の生物学。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630992/"
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_dose_and_frequency_choice",
+          "best_time_of_day",
+          "human_subcutaneous_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "出典の参考資料のみです。レビューは行われていません。表と独立した参考文献は、引き続き出典レコードで参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "url": "https://www.peptidedosingprotocols.com/protocol/vip",
+      "title": "VIP Peptide Dosing Guide: Vasoactive Intestinal Peptide Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "76e3f0c9-e124-4e82-8139-e68924c35ccf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10527239/",
+      "title": "Intravenous aviptadil and remdesivir for treatment of COVID-19-associated hypoxaemic respiratory failure in the USA (TESICO): a randomised, placebo-controlled trial",
+      "publisher": "The Lancet Respiratory Medicine",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "bdb7ce6a-a6b4-4c6d-b12f-f5facc092507",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18978135/",
+      "title": "Inhalation of vasoactive intestinal peptide in pulmonary hypertension",
+      "publisher": "European Respiratory Journal / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "62d8ffb1-9108-480e-9b62-ecc435ff03c0",
+      "sourceID": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にはこれらの項目の記述があります。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "66a5942e-d8cc-4557-8423-6f325c80529a",
+      "sourceID": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にはこれらの項目の記述があります。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "vip",
+      "sourceID": "76e3f0c9-e124-4e82-8139-e68924c35ccf",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "原著研究の結果と結論を確認しました。461人が盲検下で点滴投与を受けましたが、aviptadilは90日目の回復やその他の臨床評価項目を改善しませんでした。分類の根拠：検証済みの研究は、肺血管の生理学と重度の呼吸器疾患を対象としています。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "vip",
+      "sourceID": "bdb7ce6a-a6b4-4c6d-b12f-f5facc092507",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "索引に収載された原著の抄録を確認しました。患者は二十人で、吸入後に急性の血行動態反応が認められましたが、慢性的な臨床的有益性は確立されていません。分類の根拠：検証済みの研究は、肺血管の生理学と重度の呼吸器疾患を対象としています。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門・臨床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

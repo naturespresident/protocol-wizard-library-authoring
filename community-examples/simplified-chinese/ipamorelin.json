@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ipamorelin",
+      "name": "Ipamorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "已证实的生物学效应：在一项小规模人体志愿者药理学研究中，可引起短暂的生长激素释放。这属于生物标志物反应，尚未证实对肌肉增长、恢复、睡眠、减脂或延寿有益。一项针对术后肠麻痹的随机试验，在其主要的进食耐受性终点上未显示具有统计学意义的改善。这些静脉给药研究也未能确立本资料库中皮下给药的健康管理方案或含 ipamorelin 的联合方案具有临床获益。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "productID": "ipamorelin",
+      "title": "Ipamorelin——来源所述的每日总剂量滴定，存在剂量依据冲突",
+      "purpose": "按来源描述进行参考性规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。独立来源验证及设为应用默认方案的审核尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "ipamorelin"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin 复溶指南／以 mL 和 U-100 注射器单位表示的 Ipamorelin 剂量"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin 复溶指南／以 mL 和 U-100 注射器单位表示的 Ipamorelin 剂量"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin 复溶指南／以 mL 和 U-100 注射器单位表示的 Ipamorelin 剂量"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "评估期：第 1 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "剂量滴定期：第 2–3 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "每日 1-2 次"
+            }
+          },
+          {
+            "name": "标准期：第 4–8 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 35,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "每日 1-2 次"
+            }
+          },
+          {
+            "name": "延长期：第 9–12 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "每日 1-2 次"
+            }
+          },
+          {
+            "name": "停用期",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "停用期"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "bedtime",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted"
+          },
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ipamorelin",
+            "locator": "给药方案与时间表；来源中的给药时间说明"
+          },
+          "optional_split_windows": [
+            "morning",
+            "bedtime"
+          ]
+        },
+        "cycle_guidance": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/ipamorelin",
+              "source_tables": [
+                {
+                  "section": "Ipamorelin 周期表：8 周、12 周与 16 周对比",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "周期长度",
+                      "常见描述",
+                      "已发表的 Ipamorelin 证据",
+                      "证据级别"
+                    ],
+                    [
+                      "8 周",
+                      "较短的社区周期",
+                      "尚无人体试验确立 8 周的皮下给药周期",
+                      "社区惯例"
+                    ],
+                    [
+                      "12 周",
+                      "社区周期常见的结束时间点",
+                      "尚无人体试验确立 12 周的皮下给药周期",
+                      "社区惯例"
+                    ],
+                    [
+                      "16 周",
+                      "较长或延长的社区周期",
+                      "尚无人体试验确立 16 周的皮下给药周期",
+                      "社区惯例"
+                    ],
+                    [
+                      "最长 7 天",
+                      "已发表的术后试验用药时长",
+                      "从术后第 1 天至第 7 天或出院时静脉给予 Ipamorelin",
+                      "人体临床研究"
+                    ],
+                    [
+                      "最长 10 天",
+                      "II 期试验结局观察窗口",
+                      "重复静脉给药组，结局评估最长持续 10 天",
+                      "人体临床研究"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Ipamorelin 人体研究实际测试了什么",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "研究",
+                      "研究人群",
+                      "给药途径",
+                      "时间范围",
+                      "研究提供的信息"
+                    ],
+                    [
+                      "Gobburu 等，1999 年",
+                      "健康男性志愿者",
+                      "静脉输注",
+                      "单次输注 15 分钟",
+                      "描述了药代动力学／药效动力学特征，并发现终末半衰期约为 2 小时；未测试持续数周的周期。"
+                    ],
+                    [
+                      "Beck 等，2014 年／NCT00672074",
+                      "肠切除术患者",
+                      "静脉输注",
+                      "术后第 1-7 天或至出院时",
+                      "针对术后肠麻痹测试了短期重复用药；未验证长期皮下给药周期。"
+                    ],
+                    [
+                      "NCT01280344",
+                      "肠切除术患者",
+                      "静脉输注",
+                      "结局评估最长持续 10 天",
+                      "比较了重复静脉给药组；未确立 8 周、12 周或 16 周的周期。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Ipamorelin 半衰期与周期长度对比",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "术语",
+                      "含义",
+                      "证据说明"
+                    ],
+                    [
+                      "半衰期",
+                      "与药物清除相关的时间",
+                      "1999 年人体药代动力学／药效动力学研究中，静脉输注后约为 2 小时"
+                    ],
+                    [
+                      "生长激素反应窗口",
+                      "用药后的短暂激素反应",
+                      "1999 年的静脉给药研究中，生长激素在约 0.67 小时达到峰值"
+                    ],
+                    [
+                      "周期长度",
+                      "重复给药时间表的总周数",
+                      "尚无经验证的 8 周、12 周或 16 周皮下给药时长"
+                    ],
+                    [
+                      "停用期",
+                      "计划内不使用药物的时期",
+                      "Ipamorelin 人体试验尚未验证 4 周洗脱期的规则"
+                    ]
+                  ]
+                },
+                {
+                  "section": "已发表的证据与社区周期时间表对比",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "主张",
+                      "证据状态",
+                      "应如何表述"
+                    ],
+                    [
+                      "Ipamorelin 有人体药代动力学／药效动力学数据",
+                      "有证据支持",
+                      "已发表的人体静脉给药研究"
+                    ],
+                    [
+                      "已对肠道手术后重复给予 Ipamorelin 进行研究",
+                      "有证据支持",
+                      "已发表的 II 期静脉给药研究"
+                    ],
+                    [
+                      "8 周是最佳周期长度",
+                      "尚未确立",
+                      "仅为社区惯例"
+                    ],
+                    [
+                      "12 周是标准临床周期",
+                      "尚未确立",
+                      "仅为社区惯例"
+                    ],
+                    [
+                      "16 周已被证实安全或更有效",
+                      "尚未确立",
+                      "切勿将其表述为已证实的主张"
+                    ],
+                    [
+                      "必须停用 4 周才能恢复敏感性",
+                      "尚未确立",
+                      "属于社区提出的理由，并非经人体研究验证的规则"
+                    ],
+                    [
+                      "2 小时的半衰期可证明持续数周的周期长度合理",
+                      "错误推论",
+                      "半衰期和周期时长是不同的概念"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_tables": [
+            {
+              "section": "Ipamorelin 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "温度",
+                  "时长"
+                ],
+                [
+                  "冻干粉末",
+                  "-4F（-20C）",
+                  "长期（数月至数年）"
+                ],
+                [
+                  "冻干粉末",
+                  "36-46F（2-8C）",
+                  "数月"
+                ],
+                [
+                  "冻干粉末",
+                  "室温",
+                  "数周（运输窗口期）"
+                ],
+                [
+                  "复溶后（液体）",
+                  "36-46F（2-8C）",
+                  "最长 28 天"
+                ],
+                [
+                  "复溶后分装冷冻",
+                  "-4F（-20C）",
+                  "3-4 个月"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_statements": [
+            {
+              "section": "Ipamorelin 的适用人群及应避免使用的人群",
+              "subsection": "以下人群应避免使用",
+              "excerpt": "活动性癌症或近期患过癌症。生长激素和 IGF-1 可促进细胞生长。目前患有癌症或近期患过癌症的任何人都应避免使用升高生长激素的化合物。",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelin 的适用人群及应避免使用的人群",
+              "subsection": "以下人群应避免使用",
+              "excerpt": "妊娠期或哺乳期。这两类人群均无 ipamorelin 的安全性数据。",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelin 的适用人群及应避免使用的人群",
+              "subsection": "存在以下情况时需格外谨慎",
+              "excerpt": "显著的癌症家族史。",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelin 的适用人群及应避免使用的人群",
+              "subsection": "存在以下情况时需格外谨慎",
+              "excerpt": "糖尿病前期或空腹血糖接近正常范围上限。",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelin 的适用人群及应避免使用的人群",
+              "subsection": "监测的界限",
+              "excerpt": "部分执业医务人员会在长期 ipamorelin 方案开始前及实施期间检查空腹血糖和 HbA1c。本页面不构成医疗建议。任何关于开始、继续或停止使用研究用化合物的决定，均应由个人与其执业临床医生共同作出。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Ipamorelin，首个选择性生长激素促分泌剂。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9849822/"
+          },
+          {
+            "label": "生长激素释放肽 ipamorelin 在人体志愿者中的药代动力学－药效动力学建模。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/"
+          },
+          {
+            "label": "胃饥饿素模拟物 ipamorelin 用于肠切除术患者术后肠麻痹治疗的前瞻性、随机、对照、概念验证研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/"
+          },
+          {
+            "label": "生长激素促分泌剂：历史、作用机制及临床开发。",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/rco2.9"
+          },
+          {
+            "label": "新型口服生长激素促分泌剂 NN703 的药理学特征。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10427163/"
+          },
+          {
+            "label": "Ipamorelin 与安慰剂相比对胃肠功能恢复的安全性和有效性（NCT01280344）。",
+            "url": "https://clinicaltrials.gov/study/NCT01280344"
+          },
+          {
+            "label": "Ipamorelin 用于术后肠麻痹（NCT00672074）。",
+            "url": "https://clinicaltrials.gov/study/NCT00672074"
+          },
+          {
+            "label": "依据第 503A 条使用原料药物质进行药品配制的临时政策——第 2 类清单及 PCAC 审查更新。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA 总结报告：Ipamorelin Acetate（PCAC 审查材料）。",
+            "url": "https://downloads.regulations.gov/FDA-2015-N-3469-0293/attachment_1.pdf"
+          },
+          {
+            "label": "术后肠麻痹：药理学视角。",
+            "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.15800"
+          },
+          {
+            "label": "生长激素促分泌剂对身体成分及骨骼健康影响的综述。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28526632/"
+          },
+          {
+            "label": "禁用清单——S2 肽类激素、生长因子、相关物质及模拟物（涵盖胃饥饿素模拟物）。",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "daily_total_table_vs_per_shot_FAQ_conflict",
+          "daily_count_choice",
+          "optional_extension_to_week_16",
+          "exact_clock_times"
+        ],
+        "notes": "仅供来源参考；未经审查。表格和独立参考文献仍可在来源记录中查阅。主表标明每日总剂量；常见问题解答将后续剂量称为每次注射剂量。切勿在不说明的情况下将总剂量视为每次注射剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "45812810-3288-4d83-aa7e-c22dfa354046",
+      "url": "https://www.peptidedosingprotocols.com/protocol/ipamorelin",
+      "title": "Ipamorelin Peptide Dosing Guide: Timing, Protocol & Side Effects (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/ipamorelin",
+      "title": "Ipamorelin Cycle Length: 8, 12 & 16 Week Research Context",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (1999)",
+      "publisher": "Pharmaceutical Research, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cd1441f4-06da-49da-8b9f-f2c7fc4b61ec",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/",
+      "title": "Randomized proof-of-concept study of ipamorelin for postoperative ileus (2014)",
+      "publisher": "International Journal of Colorectal Disease, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "sourceID": "45812810-3288-4d83-aa7e-c22dfa354046",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源核实尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "sourceID": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "关于时长／停用间隔的背景证据；不能替代有关剂量、产品标签、给药途径或特定人群的说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "ipamorelin",
+      "sourceID": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "静脉给药后的生长激素生物标志物反应；并非临床获益试验。分类依据：生长激素：具有人体生长激素释放的直接证据，但临床获益尚未确立。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "ipamorelin",
+      "sourceID": "cd1441f4-06da-49da-8b9f-f2c7fc4b61ec",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "入组 117 人；主要疗效比较 p=0.15，无统计学意义。分类依据：生长激素：具有人体生长激素释放的直接证据，但临床获益尚未确立。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

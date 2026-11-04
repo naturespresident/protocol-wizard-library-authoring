@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cjc-1295-dac",
+      "name": "CJC-1295 (DAC)",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "已证实的生物学效应：在针对健康成年人的短期随机研究中，生长激素和 IGF-1 浓度持续升高。这些是激素测量结果，并不能证明其可改善恢复、增肌、减脂、睡眠或延长寿命。研究所用材料为长效 DAC 形式，具体盐型未得到完整说明。这些研究尚未确立其用于生长激素缺乏症及长期健康保养的临床获益。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "7ff99318-7471-434f-bdc4-40674dbbcf81",
+      "productID": "cjc-1295-dac",
+      "title": "CJC-1295 DAC——来源中的每周给药计划及较高剂量／分次给药替代方案",
+      "purpose": "来源所述的参考计划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性描述／社区描述。独立来源核实及将其设为应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "cjc-1295-dac",
+              "variant": "DAC"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+              "locator": "CJC-1295（含 DAC）复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+              "locator": "CJC-1295（含 DAC）复溶指南／ "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+              "locator": "CJC-1295（含 DAC）复溶指南／ "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "起始阶段",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "500",
+              "maximum": "1000",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "治疗剂量范围",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/cjc-1295-dac",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+          "source_tables": [
+            {
+              "section": "CJC-1295（含 DAC）给药方案与时间安排",
+              "subsection": "周期结构",
+              "rows": [
+                [
+                  "方案",
+                  "周期长度",
+                  "停药期",
+                  "最适用情境"
+                ],
+                [
+                  "标准方案",
+                  "8-12 周",
+                  "4-6 周",
+                  "旨在限制脱敏风险的一般研究计划。"
+                ],
+                [
+                  "延长方案",
+                  "12-16 周",
+                  "6-8 周",
+                  "以稳态 IGF-1 为目标、研究时间窗口较长的情境。"
+                ],
+                [
+                  "分次给药方案",
+                  "8-12 周",
+                  "4-6 周",
+                  "每周两次，每次 1 mg，以使 GH／IGF-1 浓度包络曲线更平稳。"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "2406a411-ce64-47ef-8b34-39fff9314678",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/cjc-1295-dac",
+              "source_tables": [
+                {
+                  "section": "人体研究实际做了什么？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "研究",
+                      "给药期",
+                      "研究或测量的总时间窗口",
+                      "重复疗程间隔"
+                    ],
+                    [
+                      "Teichman：单次注射试验",
+                      "注射一次",
+                      "为期 28 天的研究",
+                      "尚未确立"
+                    ],
+                    [
+                      "Teichman：多次注射试验",
+                      "第 0 和 14 天，或第 0、7 和 14 天",
+                      "为期 49 天的研究",
+                      "尚未确立"
+                    ],
+                    [
+                      "Ionescu 和 Frohman：激素脉冲研究",
+                      "注射一次",
+                      "在注射前及注射后一周进行测量",
+                      "尚未确立"
+                    ]
+                  ]
+                },
+                {
+                  "section": "经常被混淆的四种时间线",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "术语",
+                      "通俗含义",
+                      "仅凭该项无法判断的内容"
+                    ],
+                    [
+                      "给药时间窗口",
+                      "从首次注射到末次注射的时间",
+                      "是每天注射，还是仅在选定的日期注射"
+                    ],
+                    [
+                      "研究持续时间",
+                      "研究人员执行研究计划的完整时段",
+                      "有多少天进行了治疗"
+                    ],
+                    [
+                      "测得的效应",
+                      "所报告的变化被观察到的持续时间",
+                      "每个人会感受到多长时间的获益"
+                    ],
+                    [
+                      "重复疗程间隔",
+                      "开始另一疗程前的间隔",
+                      "重新开始给药是否经过测试或是否安全"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+          "source_tables": [
+            {
+              "section": "CJC-1295（含 DAC）的储存与操作处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存条件",
+                  "保存期限"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "长期储存于 -4F（-20C）或以下",
+                  "依据供应商标签为 12-24+ 个月"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "35.6-46.4F（2-8C）",
+                  "依据供应商标签为数月"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "室温",
+                  "数周（仅限运输时段）"
+                ],
+                [
+                  "复溶后（液体）",
+                  "35.6-46.4F（2-8C）",
+                  "典型研究计划时间窗口为 3-4 周"
+                ],
+                [
+                  "复溶后（分装冷冻）",
+                  "-4F（-20C）",
+                  "约 3-4 个月"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+          "source_statements": [
+            {
+              "section": "CJC-1295（含 DAC）适用于哪些人，以及哪些人应避免使用",
+              "subsection": "",
+              "excerpt": "活动性或近期恶性肿瘤：在癌症情境下一般应避免使 GH／IGF-1 升高。",
+              "truncated": false
+            },
+            {
+              "section": "CJC-1295（含 DAC）适用于哪些人，以及哪些人应避免使用",
+              "subsection": "",
+              "excerpt": "妊娠期或哺乳期：无人体安全性数据。",
+              "truncated": false
+            },
+            {
+              "section": "CJC-1295（含 DAC）适用于哪些人，以及哪些人应避免使用",
+              "subsection": "半衰期较长的影响",
+              "excerpt": "由于 CJC-1295（含 DAC）的活性可持续 6-8 天，任何不良反应都可能持续数天，而非在数小时内消退。因此，专业监督尤为重要。",
+              "truncated": false
+            },
+            {
+              "section": "CJC-1295（含 DAC）的副作用与安全性",
+              "subsection": "",
+              "excerpt": "第 1 期数据表明，CJC-1295（含 DAC）在较低剂量范围内的耐受性相对良好，但在更高暴露量下不良事件增多。已发表记录中最重要的安全性信号来自被叫停的第 2 期试验。",
+              "truncated": false
+            },
+            {
+              "section": "CJC-1295（含 DAC）的副作用与安全性",
+              "subsection": "DAC 特有的考量",
+              "excerpt": "由于半衰期为 6-8 天，副作用可能持续数天，而非数分钟。这是其与作用时间较短的 GHRH 类似物在实际使用中最重要的区别。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "长效生长激素释放激素类似物 CJC-1295 对健康成年人生长激素（GH）和胰岛素样生长因子 I 分泌的持续刺激。",
+            "url": "https://doi.org/10.1210/jc.2005-1536"
+          },
+          {
+            "label": "在长效生长激素释放激素类似物 CJC-1295 持续刺激期间，生长激素（GH）的脉冲式分泌仍然存在。",
+            "url": "https://doi.org/10.1210/jc.2006-1702"
+          },
+          {
+            "label": "人生长激素释放因子（hGRF）1-29 与白蛋白的生物偶联物激活大鼠垂体前叶的 GRF 受体：将 CJC-1295 鉴定为长效 GRF 类似物。",
+            "url": "https://doi.org/10.1210/en.2004-1286"
+          },
+          {
+            "label": "每日一次给予长效 GHRH 类似物 CJC-1295，可使 GHRH 基因敲除小鼠的生长恢复正常。",
+            "url": "https://doi.org/10.1152/ajpendo.00201.2006"
+          },
+          {
+            "label": "长效 GHRH 类似物 CJC-1295 激活 GH／IGF-1 轴，导致正常成年受试者的血清蛋白谱发生变化。",
+            "url": "https://doi.org/10.1016/j.ghir.2009.03.001"
+          },
+          {
+            "label": "长效形式的生长激素释放激素和生长激素：对正常志愿者及生长激素缺乏症成年人的影响。",
+            "url": "https://doi.org/10.1159/000110620"
+          },
+          {
+            "label": "在一种未知药物制剂中鉴定出生长激素释放肽 CJC-1295。",
+            "url": "https://doi.org/10.1002/dta.233"
+          },
+          {
+            "label": "CJC-1295 用于 HIV 相关内脏脂肪堆积的第 2 期试验（NCT00267527）。",
+            "url": "https://clinicaltrials.gov/study/NCT00267527"
+          },
+          {
+            "label": "脂肪营养不良研究在一名患者死亡后被叫停。",
+            "url": "https://www.aidsmap.com/news/jul-2006/lipodystrophy-study-halted-after-patient-death"
+          },
+          {
+            "label": "依据第 503A 条提名用于药物配制的原料药——CJC-1295 审查记录（FDA-2024-N-4777-0009，附件 6）。",
+            "url": "https://downloads.regulations.gov/FDA-2024-N-4777-0009/attachment_6.pdf"
+          }
+        ],
+        "unresolved_fields": [
+          "overlapping_phase_choice",
+          "clinical_trial_ceiling_not_community_default",
+          "eligibility",
+          "preparation"
+        ],
+        "notes": "仅供来源参考；未经审查。来源记录中仍保留表格和独立参考文献。",
+        "phase_alternatives": [
+          {
+            "name": "较高且重叠的剂量范围",
+            "start_week": 3,
+            "phases": [
+              {
+                "name": "第 3–12 周",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 70,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2000",
+                  "unit": "mcg",
+                  "basis": "total_product"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "split_option": {
+              "dose": {
+                "value": "1",
+                "unit": "mg",
+                "basis": "total_product"
+              },
+              "schedule": {
+                "pattern": "times_per_week",
+                "times_per_week": 2,
+                "doses_per_day": 1,
+                "suggested_times": []
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2406a411-ce64-47ef-8b34-39fff9314678",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/cjc-1295-dac",
+      "title": "CJC-1295 with DAC Cycle Length: Studies, Breaks & Limits",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "2e03bb49-e681-458b-95b8-d36bd625b562",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+      "title": "Prolonged stimulation of GH and IGF-I secretion by CJC-1295 in healthy adults (2006)",
+      "publisher": "Journal of Clinical Endocrinology & Metabolism, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "c14a3166-152f-4692-aec8-2e8794d53273",
+      "url": "https://www.peptidedosingprotocols.com/protocol/cjc-1295-dac",
+      "title": "CJC-1295 with DAC Dosing Guide: Schedule, Half-Life & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "f1352487-f41c-4cee-aab1-3a41263543ca",
+      "url": "https://www.fda.gov/media/183819/download",
+      "title": "FDA PCAC briefing: CJC-1295-related bulk drug substances (December 2024)",
+      "publisher": "US Food and Drug Administration",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "7ff99318-7471-434f-bdc4-40674dbbcf81",
+      "sourceID": "2406a411-ce64-47ef-8b34-39fff9314678",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "有关持续时间／停药间隔的背景证据；不能替代针对剂量、产品标签、给药途径或特定人群的说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "7ff99318-7471-434f-bdc4-40674dbbcf81",
+      "sourceID": "c14a3166-152f-4692-aec8-2e8794d53273",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源核实尚待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/phase_alternatives"
+      ]
+    },
+    {
+      "productID": "cjc-1295-dac",
+      "sourceID": "2e03bb49-e681-458b-95b8-d36bd625b562",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "两项短期安慰剂对照试验测量了激素；未证明临床结局。分类理由：“生长激素”依据人体证据直接证实了对 GH 轴的刺激，而临床获益仍未得到证实。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "cjc-1295-dac",
+      "sourceID": "f1352487-f41c-4cee-aab1-3a41263543ca",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "区分含 DAC 与不含 DAC 的形式，并指出人体证据的局限；见 pp.35,49–50。分类理由：“生长激素”依据人体证据直接证实了对 GH 轴的刺激，而临床获益仍未得到证实。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

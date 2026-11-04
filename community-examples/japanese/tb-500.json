@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tb-500",
+      "name": "TB-500 (Thymosin Beta-4)",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "提案されている組織修復上の利益：細胞遊走と新たな血管形成が、腱、靱帯、筋肉、皮膚の回復、炎症や瘢痕の軽減、関節柔軟性の改善を期待する根拠です。これらは実験的な目標または報告されている目標であり、ヒトで実証された利益ではありません。TB-500という名称の製品は、thymosin beta-4の短い断片、または全長の合成thymosin beta-4を指す場合があります。正確な配列と製剤の確認が必要です。全長タンパク質についての知見は、断片や特定の市販製品で同じ効果が得られることを確立するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "33d0a933-f4e4-45d8-845d-494b0073c4f6",
+      "productID": "tb-500",
+      "title": "TB-500 — 出典に記載された週当たり総量によるローディングと維持",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事・コミュニティでの記述です。出典の独立した検証とアプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "tb-500"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 再溶解ガイド / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 再溶解ガイド / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "ローディング期：第1–6週",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "4",
+              "maximum": "5",
+              "unit": "mg",
+              "basis": "weekly_total"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 2,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "維持期：第7–12週",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2",
+              "maximum": "2.5",
+              "unit": "mg",
+              "basis": "weekly_total"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "休薬期間",
+            "duration": {
+              "kind": "range",
+              "minimum": 28,
+              "maximum": 56,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "休止"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500の用量と投与プロトコル",
+              "subsection": "サイクルの指針",
+              "rows": [
+                [
+                  "方法",
+                  "期間",
+                  "休薬期間",
+                  "最も適した用途"
+                ],
+                [
+                  "短期サイクル",
+                  "4-6週間",
+                  "4週間",
+                  "単一の研究課題への集中"
+                ],
+                [
+                  "標準サイクル",
+                  "8-12週間",
+                  "4-8週間",
+                  "コミュニティで参照される大半の計画"
+                ],
+                [
+                  "ローディング後の維持",
+                  "週に一度、6-12週間",
+                  "変動します",
+                  "4-6週間のローディング期後の継続"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/tb-500-cycle-length",
+              "source_tables": [
+                {
+                  "section": "TB-500のサイクル期間表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "サイクル期間",
+                      "一般的な記述",
+                      "エビデンスの状況",
+                      "エビデンスの主な限界"
+                    ],
+                    [
+                      "4週間",
+                      "短い投与期間、または初期の集中投与のみの枠組み",
+                      "コミュニティでの慣行",
+                      "ヒトのTB-500試験で4週間の注射サイクルが確立されたことはありません"
+                    ],
+                    [
+                      "6週間",
+                      "コミュニティの研究参考資料における短い全サイクル",
+                      "コミュニティでの慣行",
+                      "6週間が理想的な終了時点であることを示す対照試験はありません"
+                    ],
+                    [
+                      "8週間",
+                      "前期と後期を設けた一般的な全サイクルの枠組み",
+                      "コミュニティでの慣行",
+                      "8週間とそれより短い、または長いサイクルを比較したヒトのTB-500研究はありません"
+                    ],
+                    [
+                      "12週間",
+                      "コミュニティでの延長サイクル、またはより長期の維持の枠組み",
+                      "コミュニティでの慣行",
+                      "より長期の曝露を裏付ける、より強いTB-500のヒトでのエビデンスはありません"
+                    ],
+                    [
+                      "最長84日間",
+                      "公表された全長thymosin beta-4の局所投与研究の期間",
+                      "異なる分子・製剤の条件下でのヒト研究",
+                      "12週間の注射用TB-500サイクルを確立するものではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "エビデンスの主な適用限界：TB-500は全長Thymosin Beta-4ではありません",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "出典または背景",
+                      "期間",
+                      "研究対象",
+                      "TB-500サイクルに対する意味"
+                    ],
+                    [
+                      "TB-500に関するコミュニティの参考資料",
+                      "4–6週間",
+                      "コミュニティでの注射用TB-500のスケジュール",
+                      "一般的な研究上の慣行であり、ヒトの対照試験ではありません"
+                    ],
+                    [
+                      "TB-500に関するコミュニティの参考資料",
+                      "8–12週間",
+                      "コミュニティでのより長期の注射用TB-500のスケジュール",
+                      "一般的な研究上の慣行であり、臨床的に検証されていません"
+                    ],
+                    [
+                      "RGN-259のドライアイ第II相試験",
+                      "28日間",
+                      "全長thymosin beta-4点眼液",
+                      "異なる製剤および投与経路についての、ヒトでの投与期間のエビデンスです"
+                    ],
+                    [
+                      "ARISEドライアイ試験",
+                      "28日間",
+                      "全長thymosin beta-4点眼液",
+                      "注射用TB-500の投与期間を検証するものではありません"
+                    ],
+                    [
+                      "RGN-137の静脈うっ滞性潰瘍試験",
+                      "最長84日間",
+                      "全長thymosin beta-4外用ゲル",
+                      "研究における全長Tβ4のより長期の曝露を示しますが、12週間のTB-500サイクルを示すものではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500の休薬期間はどのくらいですか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与期間",
+                      "一般的に組み合わせる休止期間",
+                      "エビデンスに関する注記"
+                    ],
+                    [
+                      "4–6週間",
+                      "約4週間",
+                      "コミュニティでの慣行です。ヒトでのTB-500のウォッシュアウト試験はありません"
+                    ],
+                    [
+                      "8–12週間",
+                      "約4–8週間",
+                      "コミュニティでの慣行です。最適な休止期間は検証されていません"
+                    ],
+                    [
+                      "サイクルの反復",
+                      "変動します",
+                      "エビデンスに基づく年間サイクル回数や必要なリセット期間はありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500のサイクル期間とThymosin Beta-4の研究期間の比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "研究",
+                      "製剤 / 投与経路",
+                      "投与期間",
+                      "サイクルに関する結論"
+                    ],
+                    [
+                      "Sosne & Ouslerのドライアイ第II相試験",
+                      "RGN-259点眼液",
+                      "28日間",
+                      "注射用TB-500の投与期間を確立するものではありません"
+                    ],
+                    [
+                      "重度ドライアイの第II相試験",
+                      "RGN-259点眼液",
+                      "28日間の投与とその後の追跡調査",
+                      "ヒトでの全長Tβ4への曝露のみを裏付けます"
+                    ],
+                    [
+                      "ARISE-1",
+                      "RGN-259点眼液",
+                      "28日間",
+                      "4週間のTB-500サイクルを確立するものではありません"
+                    ],
+                    [
+                      "ARISE-2",
+                      "RGN-259点眼液",
+                      "28日間",
+                      "4週間のTB-500サイクルを確立するものではありません"
+                    ],
+                    [
+                      "静脈うっ滞性潰瘍の研究",
+                      "RGN-137外用ゲル",
+                      "最長84日間",
+                      "12週間のTB-500サイクルを確立するものではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500のサイクル期間について、何が結論でき、何が結論できませんか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "主張",
+                      "エビデンスの状況",
+                      "PDPでの提示方法"
+                    ],
+                    [
+                      "4–6週間のTB-500サイクルは一般的に議論されています",
+                      "コミュニティでの慣行として裏付けられています",
+                      "コミュニティで報告されている研究の枠組み"
+                    ],
+                    [
+                      "8–12週間のTB-500サイクルは一般的に議論されています",
+                      "コミュニティでの慣行として裏付けられています",
+                      "コミュニティで報告されている研究の枠組み"
+                    ],
+                    [
+                      "8週間が最良のTB-500サイクルです",
+                      "確立されていません",
+                      "実証済みの主張として提示しないでください"
+                    ],
+                    [
+                      "12週間は臨床的に実証されたTB-500サイクルです",
+                      "確立されていません",
+                      "全長Tβ4の研究からこれを推論しないでください"
+                    ],
+                    [
+                      "4週間の休薬が必要です",
+                      "確立されていません",
+                      "コミュニティでの慣行にすぎません"
+                    ],
+                    [
+                      "FDAはTB-500医薬品のヒトでの曝露データを確認しています",
+                      "裏付けられていません",
+                      "FDAは、そのようなデータを確認していないと述べています"
+                    ],
+                    [
+                      "全長thymosin beta-4にはヒトを対象とした複数週にわたる研究があります",
+                      "裏付けられています",
+                      "異なる分子・製剤の条件下で公表されたヒトでのエビデンス"
+                    ],
+                    [
+                      "84日間のTβ4局所投与研究が、12週間の注射用TB-500サイクルを証明しています",
+                      "誤った推論です",
+                      "投与経路、製剤、分子の違いを併記してください"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500の保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保管",
+                  "注記"
+                ],
+                [
+                  "凍結乾燥状態（粉末）",
+                  "長期保管は-4 F (-20 C)",
+                  "短期保管には冷蔵庫（35.6-46.4 F / 2-8 C）を使用できます。より長期の保管には冷凍庫が望ましいです。"
+                ],
+                [
+                  "再溶解後（液状）",
+                  "保管温度：35.6-46.4 F (2-8 C)",
+                  "2-4週間以内に使用してください。適切に冷蔵されている場合、30日までとしている参考資料もあります。"
+                ],
+                [
+                  "輸送中",
+                  "冷暗所",
+                  "凍結乾燥ペプチドは一般に短時間であれば室温への曝露に耐えます。個別の製品について供給元の指針を確認してください。"
+                ],
+                [
+                  "光への曝露",
+                  "避けてください",
+                  "凍結乾燥状態と再溶解後のバイアルは、いずれも元の外箱に入れるか、冷蔵庫の光が当たらない引き出しに保管してください。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_statements": [
+            {
+              "section": "TB-500研究の対象と、使用を避けるべき人",
+              "subsection": "薬物検査の対象となる競技者",
+              "excerpt": "TB-500およびすべてのthymosin beta-4誘導体は、WADAのセクションS0（未承認物質）により、常時明示的に禁止されています。検出可能期間は30-45日の範囲と報告されています。WADA検査対象競技の競技者、NCAAの競技者、およびWADAに準拠した検査の対象となる軍人は、使用を避けるべきです。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500研究の対象と、使用を避けるべき人",
+              "subsection": "活動性のがん、またはがんの既往歴がある人",
+              "excerpt": "文献では、一部の腫瘍モデルにおいてTbeta-4と転移能の増大との関連が示されています。これは活動性のがん、またはがんの既往歴がある場合の理論上の懸念であり、研究用途の安全性に関する議論で一貫して指摘されていますが、確立された臨床リスクではありません。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500研究の対象と、使用を避けるべき人",
+              "subsection": "妊娠および授乳",
+              "excerpt": "妊娠中または授乳中の安全性を確立するヒトのデータはありません。これらの場合には使用を避けてください。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500の副作用と安全性",
+              "subsection": "",
+              "excerpt": "7個のアミノ酸からなるTB-500断片について、ヒトでの直接的な安全性データは事実上存在しません。最も近い参考資料は、全長thymosin beta-4の第1相試験です。この試験では、健康なボランティア40人に最大1260 mg を毎日14日間静脈内投与し、重篤な有害事象はありませんでした",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "健康なボランティアを対象としたthymosin beta4静脈内投与の無作為化プラセボ対照単回・反復投与試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536472/"
+          },
+          {
+            "label": "静脈性潰瘍に対するthymosin治療の効果。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536470/"
+          },
+          {
+            "label": "Thymosin beta4は創傷治癒を促進します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10469332/"
+          },
+          {
+            "label": "Thymosin beta4はインテグリン結合キナーゼを活性化し、心臓細胞の遊走、生存、および心臓の修復を促進します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15565145/"
+          },
+          {
+            "label": "Thymosin beta4はラットの内側側副靱帯損傷の治癒を促進します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23523891/"
+          },
+          {
+            "label": "Thymosin beta4は、第2相無作為化試験で重度ドライアイの徴候と症状を有意に改善します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25826322/"
+          },
+          {
+            "label": "0.1% RGN-259 (Thymosin beta4)点眼液は、無作為化プラセボ対照二重盲検第III相臨床試験で、神経栄養性角膜症患者の治癒を促進し、快適性を改善します。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9820614/"
+          },
+          {
+            "label": "Thymosin beta4：多機能な再生ペプチド。基本的性質と臨床応用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22074294/"
+          },
+          {
+            "label": "Thymosin beta4の機能と応用に関する進展。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "試験管内・生体外でのTB-500代謝、関連代謝物の合成、および尿・血漿中の検出限界に関する調査。",
+            "url": "https://www.wada-ama.org/en/resources/scientific-research/investigation-vitroex-vivo-tb-500-metabolism-synthesis-relevant"
+          },
+          {
+            "label": "連邦食品・医薬品・化粧品法第503A条に基づく調剤での使用候補として挙げられた原薬。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "2026年七月23-24日の薬局調剤諮問委員会会合 - 会合の告知。",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          }
+        ],
+        "unresolved_fields": [
+          "loading_weekly_total_distribution_per_injection",
+          "TB_500_exact_sequence",
+          "time_of_day",
+          "primary_validation"
+        ],
+        "notes": "出典の参照のみで、未審査です。表および独立した参考資料は、出典レコードで引き続き参照できます。"
+      }
+    },
+    {
+      "id": "5fe3146d-64d6-41ce-a696-bb960f2d9c45",
+      "productID": "tb-500",
+      "title": "TB-500 — 出典に記載された投与ごとの初期集中投与という代替案",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事・コミュニティでの記述です。出典の独立した検証とアプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "tb-500"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 再溶解ガイド / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 再溶解ガイド / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "初期集中投与期：第1–2週",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2",
+              "maximum": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "interval_days_range": {
+                "minimum": 2,
+                "maximum": 3
+              },
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "漸減期：第3–8週",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2",
+              "maximum": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500の用量と投与プロトコル",
+              "subsection": "サイクルの指針",
+              "rows": [
+                [
+                  "方法",
+                  "期間",
+                  "休薬期間",
+                  "最も適した用途"
+                ],
+                [
+                  "短期サイクル",
+                  "4-6週間",
+                  "4週間",
+                  "単一の研究課題への集中"
+                ],
+                [
+                  "標準サイクル",
+                  "8-12週間",
+                  "4-8週間",
+                  "コミュニティで参照される大半の計画"
+                ],
+                [
+                  "ローディング後の維持",
+                  "週に一度、6-12週間",
+                  "変動します",
+                  "4-6週間のローディング期後の継続"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/tb-500-cycle-length",
+              "source_tables": [
+                {
+                  "section": "TB-500のサイクル期間表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "サイクル期間",
+                      "一般的な記述",
+                      "エビデンスの状況",
+                      "エビデンスの主な限界"
+                    ],
+                    [
+                      "4週間",
+                      "短い投与期間、または初期の集中投与のみの枠組み",
+                      "コミュニティでの慣行",
+                      "ヒトのTB-500試験で4週間の注射サイクルが確立されたことはありません"
+                    ],
+                    [
+                      "6週間",
+                      "コミュニティの研究参考資料における短い全サイクル",
+                      "コミュニティでの慣行",
+                      "6週間が理想的な終了時点であることを示す対照試験はありません"
+                    ],
+                    [
+                      "8週間",
+                      "前期と後期を設けた一般的な全サイクルの枠組み",
+                      "コミュニティでの慣行",
+                      "8週間とそれより短い、または長いサイクルを比較したヒトのTB-500研究はありません"
+                    ],
+                    [
+                      "12週間",
+                      "コミュニティでの延長サイクル、またはより長期の維持の枠組み",
+                      "コミュニティでの慣行",
+                      "より長期の曝露を裏付ける、より強いTB-500のヒトでのエビデンスはありません"
+                    ],
+                    [
+                      "最長84日間",
+                      "公表された全長thymosin beta-4の局所投与研究の期間",
+                      "異なる分子・製剤の条件下でのヒト研究",
+                      "12週間の注射用TB-500サイクルを確立するものではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "エビデンスの主な適用限界：TB-500は全長Thymosin Beta-4ではありません",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "出典または背景",
+                      "期間",
+                      "研究対象",
+                      "TB-500サイクルに対する意味"
+                    ],
+                    [
+                      "TB-500に関するコミュニティの参考資料",
+                      "4–6週間",
+                      "コミュニティでの注射用TB-500のスケジュール",
+                      "一般的な研究上の慣行であり、ヒトの対照試験ではありません"
+                    ],
+                    [
+                      "TB-500に関するコミュニティの参考資料",
+                      "8–12週間",
+                      "コミュニティでのより長期の注射用TB-500のスケジュール",
+                      "一般的な研究上の慣行であり、臨床的に検証されていません"
+                    ],
+                    [
+                      "RGN-259のドライアイ第II相試験",
+                      "28日間",
+                      "全長thymosin beta-4点眼液",
+                      "異なる製剤および投与経路についての、ヒトでの投与期間のエビデンスです"
+                    ],
+                    [
+                      "ARISEドライアイ試験",
+                      "28日間",
+                      "全長thymosin beta-4点眼液",
+                      "注射用TB-500の投与期間を検証するものではありません"
+                    ],
+                    [
+                      "RGN-137の静脈うっ滞性潰瘍試験",
+                      "最長84日間",
+                      "全長thymosin beta-4外用ゲル",
+                      "研究における全長Tβ4のより長期の曝露を示しますが、12週間のTB-500サイクルを示すものではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500の休薬期間はどのくらいですか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "投与期間",
+                      "一般的に組み合わせる休止期間",
+                      "エビデンスに関する注記"
+                    ],
+                    [
+                      "4–6週間",
+                      "約4週間",
+                      "コミュニティでの慣行です。ヒトでのTB-500のウォッシュアウト試験はありません"
+                    ],
+                    [
+                      "8–12週間",
+                      "約4–8週間",
+                      "コミュニティでの慣行です。最適な休止期間は検証されていません"
+                    ],
+                    [
+                      "サイクルの反復",
+                      "変動します",
+                      "エビデンスに基づく年間サイクル回数や必要なリセット期間はありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500のサイクル期間とThymosin Beta-4の研究期間の比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "研究",
+                      "製剤 / 投与経路",
+                      "投与期間",
+                      "サイクルに関する結論"
+                    ],
+                    [
+                      "Sosne & Ouslerのドライアイ第II相試験",
+                      "RGN-259点眼液",
+                      "28日間",
+                      "注射用TB-500の投与期間を確立するものではありません"
+                    ],
+                    [
+                      "重度ドライアイの第II相試験",
+                      "RGN-259点眼液",
+                      "28日間の投与とその後の追跡調査",
+                      "ヒトでの全長Tβ4への曝露のみを裏付けます"
+                    ],
+                    [
+                      "ARISE-1",
+                      "RGN-259点眼液",
+                      "28日間",
+                      "4週間のTB-500サイクルを確立するものではありません"
+                    ],
+                    [
+                      "ARISE-2",
+                      "RGN-259点眼液",
+                      "28日間",
+                      "4週間のTB-500サイクルを確立するものではありません"
+                    ],
+                    [
+                      "静脈うっ滞性潰瘍の研究",
+                      "RGN-137外用ゲル",
+                      "最長84日間",
+                      "12週間のTB-500サイクルを確立するものではありません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500のサイクル期間について、何が結論でき、何が結論できませんか？",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "主張",
+                      "エビデンスの状況",
+                      "PDPでの提示方法"
+                    ],
+                    [
+                      "4–6週間のTB-500サイクルは一般的に議論されています",
+                      "コミュニティでの慣行として裏付けられています",
+                      "コミュニティで報告されている研究の枠組み"
+                    ],
+                    [
+                      "8–12週間のTB-500サイクルは一般的に議論されています",
+                      "コミュニティでの慣行として裏付けられています",
+                      "コミュニティで報告されている研究の枠組み"
+                    ],
+                    [
+                      "8週間が最良のTB-500サイクルです",
+                      "確立されていません",
+                      "実証済みの主張として提示しないでください"
+                    ],
+                    [
+                      "12週間は臨床的に実証されたTB-500サイクルです",
+                      "確立されていません",
+                      "全長Tβ4の研究からこれを推論しないでください"
+                    ],
+                    [
+                      "4週間の休薬が必要です",
+                      "確立されていません",
+                      "コミュニティでの慣行にすぎません"
+                    ],
+                    [
+                      "FDAはTB-500医薬品のヒトでの曝露データを確認しています",
+                      "裏付けられていません",
+                      "FDAは、そのようなデータを確認していないと述べています"
+                    ],
+                    [
+                      "全長thymosin beta-4にはヒトを対象とした複数週にわたる研究があります",
+                      "裏付けられています",
+                      "異なる分子・製剤の条件下で公表されたヒトでのエビデンス"
+                    ],
+                    [
+                      "84日間のTβ4局所投与研究が、12週間の注射用TB-500サイクルを証明しています",
+                      "誤った推論です",
+                      "投与経路、製剤、分子の違いを併記してください"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500の保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保管",
+                  "注記"
+                ],
+                [
+                  "凍結乾燥状態（粉末）",
+                  "長期保管は-4 F (-20 C)",
+                  "短期保管には冷蔵庫（35.6-46.4 F / 2-8 C）を使用できます。より長期の保管には冷凍庫が望ましいです。"
+                ],
+                [
+                  "再溶解後（液状）",
+                  "保管温度：35.6-46.4 F (2-8 C)",
+                  "2-4週間以内に使用してください。適切に冷蔵されている場合、30日までとしている参考資料もあります。"
+                ],
+                [
+                  "輸送中",
+                  "冷暗所",
+                  "凍結乾燥ペプチドは一般に短時間であれば室温への曝露に耐えます。個別の製品について供給元の指針を確認してください。"
+                ],
+                [
+                  "光への曝露",
+                  "避けてください",
+                  "凍結乾燥状態と再溶解後のバイアルは、いずれも元の外箱に入れるか、冷蔵庫の光が当たらない引き出しに保管してください。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_statements": [
+            {
+              "section": "TB-500研究の対象と、使用を避けるべき人",
+              "subsection": "薬物検査の対象となる競技者",
+              "excerpt": "TB-500およびすべてのthymosin beta-4誘導体は、WADAのセクションS0（未承認物質）により、常時明示的に禁止されています。検出可能期間は30-45日の範囲と報告されています。WADA検査対象競技の競技者、NCAAの競技者、およびWADAに準拠した検査の対象となる軍人は、使用を避けるべきです。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500研究の対象と、使用を避けるべき人",
+              "subsection": "活動性のがん、またはがんの既往歴がある人",
+              "excerpt": "文献では、一部の腫瘍モデルにおいてTbeta-4と転移能の増大との関連が示されています。これは活動性のがん、またはがんの既往歴がある場合の理論上の懸念であり、研究用途の安全性に関する議論で一貫して指摘されていますが、確立された臨床リスクではありません。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500研究の対象と、使用を避けるべき人",
+              "subsection": "妊娠および授乳",
+              "excerpt": "妊娠中または授乳中の安全性を確立するヒトのデータはありません。これらの場合には使用を避けてください。",
+              "truncated": false
+            },
+            {
+              "section": "TB-500の副作用と安全性",
+              "subsection": "",
+              "excerpt": "7個のアミノ酸からなるTB-500断片について、ヒトでの直接的な安全性データは事実上存在しません。最も近い参考資料は、全長thymosin beta-4の第1相試験です。この試験では、健康なボランティア40人に最大1260 mg を毎日14日間静脈内投与し、重篤な有害事象はありませんでした",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "健康なボランティアを対象としたthymosin beta4静脈内投与の無作為化プラセボ対照単回・反復投与試験。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536472/"
+          },
+          {
+            "label": "静脈性潰瘍に対するthymosin治療の効果。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536470/"
+          },
+          {
+            "label": "Thymosin beta4は創傷治癒を促進します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10469332/"
+          },
+          {
+            "label": "Thymosin beta4はインテグリン結合キナーゼを活性化し、心臓細胞の遊走、生存、および心臓の修復を促進します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15565145/"
+          },
+          {
+            "label": "Thymosin beta4はラットの内側側副靱帯損傷の治癒を促進します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23523891/"
+          },
+          {
+            "label": "Thymosin beta4は、第2相無作為化試験で重度ドライアイの徴候と症状を有意に改善します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25826322/"
+          },
+          {
+            "label": "0.1% RGN-259 (Thymosin beta4)点眼液は、無作為化プラセボ対照二重盲検第III相臨床試験で、神経栄養性角膜症患者の治癒を促進し、快適性を改善します。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9820614/"
+          },
+          {
+            "label": "Thymosin beta4：多機能な再生ペプチド。基本的性質と臨床応用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22074294/"
+          },
+          {
+            "label": "Thymosin beta4の機能と応用に関する進展。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "試験管内・生体外でのTB-500代謝、関連代謝物の合成、および尿・血漿中の検出限界に関する調査。",
+            "url": "https://www.wada-ama.org/en/resources/scientific-research/investigation-vitroex-vivo-tb-500-metabolism-synthesis-relevant"
+          },
+          {
+            "label": "連邦食品・医薬品・化粧品法第503A条に基づく調剤での使用候補として挙げられた原薬。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "2026年七月23-24日の薬局調剤諮問委員会会合 - 会合の告知。",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          }
+        ],
+        "unresolved_fields": [
+          "interval_choice",
+          "TB_500_exact_sequence",
+          "time_of_day",
+          "primary_validation"
+        ],
+        "notes": "出典の参照のみで、未審査です。表および独立した参考資料は、出典レコードで引き続き参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+      "url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+      "title": "TB-500 Peptide Dosage: Dosing, Protocol, & Reconstitution (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "a862d686-925b-466d-b219-31e5c077556c",
+      "url": "https://www.fda.gov/media/193349/download",
+      "title": "FDA evaluation of TB-500-related bulk drug substances, July 2026 PCAC briefing",
+      "publisher": "US Food and Drug Administration",
+      "type": "clinical_guidance",
+      "publishedAt": null
+    },
+    {
+      "id": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "url": "https://jointdrs.org/full-text/1851",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study",
+      "publisher": "Joint Diseases and Related Surgery",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/tb-500-cycle-length",
+      "title": "TB-500 Cycle Length: How Long Is a TB-500 Cycle? (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "33d0a933-f4e4-45d8-845d-494b0073c4f6",
+      "sourceID": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "これらの項目は出典に記載されています。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "33d0a933-f4e4-45d8-845d-494b0073c4f6",
+      "sourceID": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間・休止期間に関する背景エビデンスです。用量、製品ラベル、投与経路、または対象集団に固有の指示に代わるものではありません。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "5fe3146d-64d6-41ce-a696-bb960f2d9c45",
+      "sourceID": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "これらの項目は出典に記載されています。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "5fe3146d-64d6-41ce-a696-bb960f2d9c45",
+      "sourceID": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間・休止期間に関する背景エビデンスです。用量、製品ラベル、投与経路、または対象集団に固有の指示に代わるものではありません。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "tb-500",
+      "sourceID": "a862d686-925b-466d-b219-31e5c077556c",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "7、23-26、32-33ページを確認済みです。アセチル化された七残基のTB-500と全長thymosin beta4を区別しています。ヒトでの有効性のエビデンスは確認されていません。全長タンパク質や非アセチル化断片の知見は、そのまま適用できません。カテゴリ分類の根拠：ライブラリ内の化合物の同一性と利益のエビデンスは未解決ですが、治癒が研究対象の用途です。\n所有者による追加確認 2026-10-15：アセチル化された七残基の断片と全長thymosin beta-4を区別し、断片についてヒトでの有効性のエビデンスがないことを示しています。同一性と有効性に関する留保を裏付けています。所有者が提示した修復、炎症、瘢痕、柔軟性に関する利益は、引き続き提案された目標です。カテゴリ分類の根拠：提案された利益は、組織修復と損傷からの回復を中心としています。",
+      "supports": [
+        "/category_id",
+        "/benefits"
+      ]
+    },
+    {
+      "productID": "tb-500",
+      "sourceID": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "TB-500と呼ばれる物質について、ラットの腱で効果の兆候が示されています。配列は明記されていません。断片と全長タンパク質のどちらであるかという同一性の問題は解決していません。カテゴリ分類の根拠：ライブラリ内の化合物の同一性と利益のエビデンスは未解決ですが、治癒が研究対象の用途です。",
+      "supports": [
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "治癒と回復"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

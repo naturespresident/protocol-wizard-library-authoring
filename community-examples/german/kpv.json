@@ -1,0 +1,1047 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "kpv",
+      "name": "KPV",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "Präklinische Forschung zu entzündungshemmenden Wirkungen: KPV verringerte entzündliche Signalübertragung in kultivierten Darm- und Immunzellen sowie chemisch induzierte Kolitis bei Mäusen. Die Ergebnisse unterstützen die Erforschung von Darmentzündungen; sie belegen weder einen klinischen Nutzen bei chronisch-entzündlichen Darmerkrankungen noch ein Injektionsprotokoll für Menschen."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "productID": "kpv",
+      "title": "KPV — oraler Dosisbereich laut Quelle",
+      "purpose": "Referenzplanung gemäß Quellenbeschreibung",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "Sekundäre redaktionelle Beschreibung bzw. Community-Beschreibung. Eine unabhängige Quellenvalidierung und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_product",
+          "components": [
+            {
+              "library_item_id": "kpv"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Community-Bereich",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "1-2x täglich"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+            "locator": "Dosierungsprotokoll und Zeitplan; Zeitangaben der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Tabelle zur KPV-Zyklusdauer",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Rahmenplan",
+                      "Berichteter Anwendungszeitraum",
+                      "Berichtete Pause",
+                      "Evidenzniveau"
+                    ],
+                    [
+                      "Kurzer Zyklus",
+                      "4 Wochen",
+                      "2–4 Wochen",
+                      "Gängige Community-Referenz; keine kontrollierte Humanstudie"
+                    ],
+                    [
+                      "Üblicher Community-Bereich",
+                      "6–8 Wochen",
+                      "2–4 Wochen",
+                      "Häufig diskutiert; klinisch nicht etabliert"
+                    ],
+                    [
+                      "Verlängerter Zyklus",
+                      "12 Wochen",
+                      "Etwa 4 Wochen oder länger",
+                      "Berichtete Verlängerung bei begrenzter Langzeitevidenz"
+                    ],
+                    [
+                      "Lange Verlängerung",
+                      "Bis zu 16 Wochen",
+                      "4–8 Wochen",
+                      "Anekdotisch; keine KPV-Studie validiert diese Dauer"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV-Zyklen in der Community im Vergleich zur Dauer von Forschungsstudien",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Quelle",
+                      "Beispieldauer",
+                      "Untersuchungsgegenstand",
+                      "Aussagekraft"
+                    ],
+                    [
+                      "Community-Protokolle",
+                      "4–8 Wochen",
+                      "Orale oder subkutane Forschungsrahmenpläne",
+                      "Zeigt einen häufig diskutierten Zeitplan, keinen validierten Zyklus"
+                    ],
+                    [
+                      "Verlängerte Community-Protokolle",
+                      "8–12 Wochen",
+                      "Längerfristige Forschungsplanung",
+                      "Dokumentiert eine Verlängerung, belegt aber nicht, dass länger besser ist"
+                    ],
+                    [
+                      "Dalmasso u. a. (2008)",
+                      "48 Stunden bis 8 Tage",
+                      "Kolitis-Mausmodelle und PepT1-Transport",
+                      "Unterstützt kurzzeitige präklinische Forschung, keinen Zyklus für Menschen"
+                    ],
+                    [
+                      "Kannengiesser u. a. (2008)",
+                      "Tage in murinen Kolitis-Modellen",
+                      "KPV in DSS- und Transferkolitis-Modellen",
+                      "Zeigt ausschließlich tierexperimentelle Forschung zu entzündungshemmenden Wirkungen"
+                    ],
+                    [
+                      "Xiao u. a. (2017)",
+                      "Tägliche Behandlung in einem kurzzeitigen DSS-Modell",
+                      "Oral verabreichte, mit KPV beladene Nanopartikel bei Mäusen",
+                      "Unterstützt ein Experiment mit einem Verabreichungssystem, keine Zyklusempfehlung für freies KPV"
+                    ],
+                    [
+                      "Dalmasso u. a. (2016)",
+                      "Wiederholte DSS-Zeiträume mit Erholungsphasen",
+                      "Modell für kolitisassoziierten Krebs bei Mäusen",
+                      "Zeigt ein längerfristiges tierexperimentelles Studiendesign, kein kontinuierliches Protokoll für Menschen"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Was ist mit einem KPV-Zyklus von 6 bis 8 Wochen?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Anwendungszeitraum",
+                      "Tage",
+                      "KPV-Gesamtmenge",
+                      "Durchstechflaschen zu 10 mg"
+                    ],
+                    [
+                      "6 Wochen",
+                      "42",
+                      "21 mg",
+                      "3 Durchstechflaschen"
+                    ],
+                    [
+                      "8 Wochen",
+                      "56",
+                      "28 mg",
+                      "3 Durchstechflaschen"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Muss KPV in Zyklen angewendet werden?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Anwendungsrahmen",
+                      "Berichtete Pause",
+                      "Evidenzhinweis"
+                    ],
+                    [
+                      "4 Wochen",
+                      "2–4 Wochen",
+                      "Community-Konvention; kein Vergleich in Studien"
+                    ],
+                    [
+                      "6–8 Wochen",
+                      "2–4 Wochen",
+                      "Häufig diskutiert; kein belegter Zeitraum für eine Rückkehr zum Ausgangszustand"
+                    ],
+                    [
+                      "12 Wochen",
+                      "Etwa 4 Wochen oder länger",
+                      "Verlängertes Community-Schema; klinisch nicht etabliert"
+                    ],
+                    [
+                      "16 Wochen",
+                      "4–8 Wochen",
+                      "Anekdotischer Rahmenplan mit erheblichen Evidenzlücken"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Verändert der KPV-Verabreichungsweg die Zyklusdauer?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Verabreichungsweg",
+                      "Diskutierte Ansätze",
+                      "Evidenz zum Zyklus"
+                    ],
+                    [
+                      "Oral",
+                      "Darmbezogene Community-Rahmenpläne und tierexperimentelle PepT1-Studien",
+                      "Kein etablierter oraler Zyklus für Menschen"
+                    ],
+                    [
+                      "Subkutan",
+                      "Systemische Community-Protokolle",
+                      "Keine abgeschlossene Humanstudie zur subkutanen Dosis oder zum Zyklus"
+                    ],
+                    [
+                      "Topisch",
+                      "Formulierungsspezifische Hautforschung",
+                      "Keine formulierungsübergreifende Standardkonzentration oder Standardzyklusdauer"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Wie lange reicht eine KPV-Durchstechflasche mit 10 mg?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Berechnete Tagesmenge",
+                      "Berechnung",
+                      "Berechnete Portionen",
+                      "Ungefähre Dauer"
+                    ],
+                    [
+                      "200 mcg",
+                      "10,000 ÷ 200",
+                      "50",
+                      "50 Tage"
+                    ],
+                    [
+                      "300 mcg",
+                      "10,000 ÷ 300",
+                      "33.3",
+                      "Etwa 33 Tage"
+                    ],
+                    [
+                      "400 mcg",
+                      "10,000 ÷ 400",
+                      "25",
+                      "25 Tage"
+                    ],
+                    [
+                      "500 mcg",
+                      "10,000 ÷ 500",
+                      "20",
+                      "20 Tage"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [
+            {
+              "section": "KPV: Lagerung und Handhabung",
+              "subsection": "",
+              "rows": [
+                [
+                  "Zustand",
+                  "Lagerungsangabe",
+                  "Wesentlicher Vorsichtshinweis"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "Befolgen Sie die Produktdokumentation",
+                  "Vor Hitze, direktem Licht und Feuchtigkeit schützen"
+                ],
+                [
+                  "Rekonstituiert",
+                  "Üblicherweise gekühlt; befolgen Sie die Angaben auf dem Etikett",
+                  "Wiederholte Temperaturwechsel vermeiden"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_statements": [
+            {
+              "section": "Grenzen der Sicherheitskenntnisse zur KPV-Forschung",
+              "subsection": "",
+              "excerpt": "KPV wird hauptsächlich in Modellen zur Entzündungshemmung und zur Darmbarriere untersucht. Keine abgeschlossene Humanstudie legt fest, wer es sicher anwenden kann; daher bietet diese Seite keine individuelle Beratung zur Eignung.",
+              "truncated": false
+            },
+            {
+              "section": "Grenzen der Sicherheitskenntnisse zur KPV-Forschung",
+              "subsection": "",
+              "excerpt": "Im Allgemeinen außerhalb des Rahmens der Forschungsplanung: Schwangerschaft und Stillzeit (keine Sicherheitsdaten), bekannte Überempfindlichkeit gegen Peptidverbindungen und aktive komplexe Infektionskrankheiten ohne ärztliche Überwachung (aufgrund sich überschneidender entzündlicher und antimikrobieller Signalübertragung).",
+              "truncated": false
+            },
+            {
+              "section": "Grenzen der Sicherheitskenntnisse zur KPV-Forschung",
+              "subsection": "",
+              "excerpt": "Bereiche, in denen Vorsicht geboten ist: aktive Autoimmunerkrankungen unter verordneten Immunmodulatoren (die Wechselwirkung wurde nicht untersucht) sowie chronisch-entzündliche Darmerkrankungen oder andere entzündliche Darmerkrankungen, die mit verschreibungspflichtigen Therapien behandelt werden. KPV sollte verordnete Medikamente nicht ersetzen und sollte mit der behandelnden Ärztin oder dem behandelnden Arzt besprochen werden.",
+              "truncated": false
+            },
+            {
+              "section": "KPV: Nebenwirkungen und Sicherheit",
+              "subsection": "",
+              "excerpt": "In Tierstudien und bei der Anwendung in der Community wird KPV im Allgemeinen als gut verträglich beschrieben, jedoch wurde keine formelle Sicherheitsstudie am Menschen abgeschlossen. Langzeitdaten zur Sicherheit liegen nicht vor.",
+              "truncated": false
+            },
+            {
+              "section": "KPV: Nebenwirkungen und Sicherheit",
+              "subsection": "",
+              "excerpt": "Häufig berichtete Wirkungen (Community-Berichte, keine Studiendaten): leichte und vorübergehende Reizung an der Injektionsstelle, gelegentliche leichte Kopfschmerzen und gelegentliche Magen-Darm-Beschwerden bei höheren oralen Dosen.",
+              "truncated": false
+            },
+            {
+              "section": "KPV: Nebenwirkungen und Sicherheit",
+              "subsection": "",
+              "excerpt": "Immunprofil: KPV dämpft bestimmte entzündliche Signalwege (insbesondere NF-kB), anstatt das Immunsystem breit zu unterdrücken. In Tierversuchen hat dies nicht zu dem bei Kortikosteroiden beobachteten Profil der Infektionsanfälligkeit geführt — aber",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Die PepT1-vermittelte Aufnahme des Tripeptids KPV verringert Darmentzündungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/"
+          },
+          {
+            "label": "Die gezielte orale Verabreichung des Tripeptids KPV über mit Hyaluronsäure funktionalisierte Nanopartikel lindert wirksam Colitis ulcerosa.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/"
+          },
+          {
+            "label": "Mit Alpha-MSH verwandte Peptide: eine neue Klasse entzündungshemmender und immunmodulierender Arzneimittel.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2095288/"
+          },
+          {
+            "label": "Das Neuropeptid alpha-MSH und Entzündungen: periphere und zentrale entzündungshemmende Wirkungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10985255/"
+          },
+          {
+            "label": "Gezielte Beeinflussung von Melanocortinrezeptoren als potenzieller neuer Therapieansatz.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16289446/"
+          },
+          {
+            "label": "Das therapeutische Potenzial von Melanocortinpeptiden bei chronisch-entzündlichen Darmerkrankungen.",
+            "url": "https://www.nature.com/subjects/inflammatory-bowel-disease"
+          },
+          {
+            "label": "Regulation von Entzündungen durch Melanocortine.",
+            "url": "https://www.frontiersin.org/articles/10.3389/fendo.2019.00683/full"
+          },
+          {
+            "label": "Hinweise auf eine autokrine Modulation der Stickstoffmonoxid-Synthase von Makrophagen durch alpha-melanocyte-stimulating hormone.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7541113/"
+          },
+          {
+            "label": "Alpha-MSH moduliert experimentelle chronisch-entzündliche Darmerkrankungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9437733/"
+          },
+          {
+            "label": "Entzündungshemmende Wirkungen des Neuropeptids alpha-MSH bei akuten, chronischen und systemischen Entzündungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2550304/"
+          },
+          {
+            "label": "Zur Verwendung bei der Rezepturherstellung gemäß 503A vorgeschlagene pharmazeutische Ausgangsstoffe: Aktualisierung zu Kategorie 2 (KPV mit Wirkung zum 22. April 2026 aus Kategorie 2 entfernt).",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA kündigt Statusänderung für 12 Peptide an (Mitteilung vom 15. April 2026).",
+            "url": "https://ssrpinstitute.org/news/fda-announces-change-in-status-of-12-peptides/"
+          }
+        ],
+        "unresolved_fields": [
+          "duration",
+          "best_time_of_day",
+          "formulation_identity",
+          "human_validation"
+        ],
+        "notes": "Nur Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar."
+      }
+    },
+    {
+      "id": "85562a65-584d-449d-a623-2535e24ca360",
+      "productID": "kpv",
+      "title": "KPV — subkutaner Dosisbereich laut Quelle",
+      "purpose": "Referenzplanung gemäß Quellenbeschreibung",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Sekundäre redaktionelle Beschreibung bzw. Community-Beschreibung. Eine unabhängige Quellenvalidierung und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "kpv"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV-Rekonstitutionstabelle und Berechnungen zur Durchstechflasche / Rekonstitutionsformeln"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV-Rekonstitutionstabelle und Berechnungen zur Durchstechflasche / Rekonstitutionsformeln"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV-Rekonstitutionstabelle und Berechnungen zur Durchstechflasche / Rekonstitutionsformeln"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV-Rekonstitutionstabelle und Berechnungen zur Durchstechflasche / Rekonstitutionsformeln"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+              "locator": "KPV-Rekonstitutionstabelle und Berechnungen zur Durchstechflasche / Rekonstitutionsformeln"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Community-Bereich",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+            "locator": "Dosierungsprotokoll und Zeitplan; Zeitangaben der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Tabelle zur KPV-Zyklusdauer",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Rahmenplan",
+                      "Berichteter Anwendungszeitraum",
+                      "Berichtete Pause",
+                      "Evidenzniveau"
+                    ],
+                    [
+                      "Kurzer Zyklus",
+                      "4 Wochen",
+                      "2–4 Wochen",
+                      "Gängige Community-Referenz; keine kontrollierte Humanstudie"
+                    ],
+                    [
+                      "Üblicher Community-Bereich",
+                      "6–8 Wochen",
+                      "2–4 Wochen",
+                      "Häufig diskutiert; klinisch nicht etabliert"
+                    ],
+                    [
+                      "Verlängerter Zyklus",
+                      "12 Wochen",
+                      "Etwa 4 Wochen oder länger",
+                      "Berichtete Verlängerung bei begrenzter Langzeitevidenz"
+                    ],
+                    [
+                      "Lange Verlängerung",
+                      "Bis zu 16 Wochen",
+                      "4–8 Wochen",
+                      "Anekdotisch; keine KPV-Studie validiert diese Dauer"
+                    ]
+                  ]
+                },
+                {
+                  "section": "KPV-Zyklen in der Community im Vergleich zur Dauer von Forschungsstudien",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Quelle",
+                      "Beispieldauer",
+                      "Untersuchungsgegenstand",
+                      "Aussagekraft"
+                    ],
+                    [
+                      "Community-Protokolle",
+                      "4–8 Wochen",
+                      "Orale oder subkutane Forschungsrahmenpläne",
+                      "Zeigt einen häufig diskutierten Zeitplan, keinen validierten Zyklus"
+                    ],
+                    [
+                      "Verlängerte Community-Protokolle",
+                      "8–12 Wochen",
+                      "Längerfristige Forschungsplanung",
+                      "Dokumentiert eine Verlängerung, belegt aber nicht, dass länger besser ist"
+                    ],
+                    [
+                      "Dalmasso u. a. (2008)",
+                      "48 Stunden bis 8 Tage",
+                      "Kolitis-Mausmodelle und PepT1-Transport",
+                      "Unterstützt kurzzeitige präklinische Forschung, keinen Zyklus für Menschen"
+                    ],
+                    [
+                      "Kannengiesser u. a. (2008)",
+                      "Tage in murinen Kolitis-Modellen",
+                      "KPV in DSS- und Transferkolitis-Modellen",
+                      "Zeigt ausschließlich tierexperimentelle Forschung zu entzündungshemmenden Wirkungen"
+                    ],
+                    [
+                      "Xiao u. a. (2017)",
+                      "Tägliche Behandlung in einem kurzzeitigen DSS-Modell",
+                      "Oral verabreichte, mit KPV beladene Nanopartikel bei Mäusen",
+                      "Unterstützt ein Experiment mit einem Verabreichungssystem, keine Zyklusempfehlung für freies KPV"
+                    ],
+                    [
+                      "Dalmasso u. a. (2016)",
+                      "Wiederholte DSS-Zeiträume mit Erholungsphasen",
+                      "Modell für kolitisassoziierten Krebs bei Mäusen",
+                      "Zeigt ein längerfristiges tierexperimentelles Studiendesign, kein kontinuierliches Protokoll für Menschen"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Was ist mit einem KPV-Zyklus von 6 bis 8 Wochen?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Anwendungszeitraum",
+                      "Tage",
+                      "KPV-Gesamtmenge",
+                      "Durchstechflaschen zu 10 mg"
+                    ],
+                    [
+                      "6 Wochen",
+                      "42",
+                      "21 mg",
+                      "3 Durchstechflaschen"
+                    ],
+                    [
+                      "8 Wochen",
+                      "56",
+                      "28 mg",
+                      "3 Durchstechflaschen"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Muss KPV in Zyklen angewendet werden?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Anwendungsrahmen",
+                      "Berichtete Pause",
+                      "Evidenzhinweis"
+                    ],
+                    [
+                      "4 Wochen",
+                      "2–4 Wochen",
+                      "Community-Konvention; kein Vergleich in Studien"
+                    ],
+                    [
+                      "6–8 Wochen",
+                      "2–4 Wochen",
+                      "Häufig diskutiert; kein belegter Zeitraum für eine Rückkehr zum Ausgangszustand"
+                    ],
+                    [
+                      "12 Wochen",
+                      "Etwa 4 Wochen oder länger",
+                      "Verlängertes Community-Schema; klinisch nicht etabliert"
+                    ],
+                    [
+                      "16 Wochen",
+                      "4–8 Wochen",
+                      "Anekdotischer Rahmenplan mit erheblichen Evidenzlücken"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Verändert der KPV-Verabreichungsweg die Zyklusdauer?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Verabreichungsweg",
+                      "Diskutierte Ansätze",
+                      "Evidenz zum Zyklus"
+                    ],
+                    [
+                      "Oral",
+                      "Darmbezogene Community-Rahmenpläne und tierexperimentelle PepT1-Studien",
+                      "Kein etablierter oraler Zyklus für Menschen"
+                    ],
+                    [
+                      "Subkutan",
+                      "Systemische Community-Protokolle",
+                      "Keine abgeschlossene Humanstudie zur subkutanen Dosis oder zum Zyklus"
+                    ],
+                    [
+                      "Topisch",
+                      "Formulierungsspezifische Hautforschung",
+                      "Keine formulierungsübergreifende Standardkonzentration oder Standardzyklusdauer"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Wie lange reicht eine KPV-Durchstechflasche mit 10 mg?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Berechnete Tagesmenge",
+                      "Berechnung",
+                      "Berechnete Portionen",
+                      "Ungefähre Dauer"
+                    ],
+                    [
+                      "200 mcg",
+                      "10,000 ÷ 200",
+                      "50",
+                      "50 Tage"
+                    ],
+                    [
+                      "300 mcg",
+                      "10,000 ÷ 300",
+                      "33.3",
+                      "Etwa 33 Tage"
+                    ],
+                    [
+                      "400 mcg",
+                      "10,000 ÷ 400",
+                      "25",
+                      "25 Tage"
+                    ],
+                    [
+                      "500 mcg",
+                      "10,000 ÷ 500",
+                      "20",
+                      "20 Tage"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_tables": [
+            {
+              "section": "KPV: Lagerung und Handhabung",
+              "subsection": "",
+              "rows": [
+                [
+                  "Zustand",
+                  "Lagerungsangabe",
+                  "Wesentlicher Vorsichtshinweis"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "Befolgen Sie die Produktdokumentation",
+                  "Vor Hitze, direktem Licht und Feuchtigkeit schützen"
+                ],
+                [
+                  "Rekonstituiert",
+                  "Üblicherweise gekühlt; befolgen Sie die Angaben auf dem Etikett",
+                  "Wiederholte Temperaturwechsel vermeiden"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+          "source_statements": [
+            {
+              "section": "Grenzen der Sicherheitskenntnisse zur KPV-Forschung",
+              "subsection": "",
+              "excerpt": "KPV wird hauptsächlich in Modellen zur Entzündungshemmung und zur Darmbarriere untersucht. Keine abgeschlossene Humanstudie legt fest, wer es sicher anwenden kann; daher bietet diese Seite keine individuelle Beratung zur Eignung.",
+              "truncated": false
+            },
+            {
+              "section": "Grenzen der Sicherheitskenntnisse zur KPV-Forschung",
+              "subsection": "",
+              "excerpt": "Im Allgemeinen außerhalb des Rahmens der Forschungsplanung: Schwangerschaft und Stillzeit (keine Sicherheitsdaten), bekannte Überempfindlichkeit gegen Peptidverbindungen und aktive komplexe Infektionskrankheiten ohne ärztliche Überwachung (aufgrund sich überschneidender entzündlicher und antimikrobieller Signalübertragung).",
+              "truncated": false
+            },
+            {
+              "section": "Grenzen der Sicherheitskenntnisse zur KPV-Forschung",
+              "subsection": "",
+              "excerpt": "Bereiche, in denen Vorsicht geboten ist: aktive Autoimmunerkrankungen unter verordneten Immunmodulatoren (die Wechselwirkung wurde nicht untersucht) sowie chronisch-entzündliche Darmerkrankungen oder andere entzündliche Darmerkrankungen, die mit verschreibungspflichtigen Therapien behandelt werden. KPV sollte verordnete Medikamente nicht ersetzen und sollte mit der behandelnden Ärztin oder dem behandelnden Arzt besprochen werden.",
+              "truncated": false
+            },
+            {
+              "section": "KPV: Nebenwirkungen und Sicherheit",
+              "subsection": "",
+              "excerpt": "In Tierstudien und bei der Anwendung in der Community wird KPV im Allgemeinen als gut verträglich beschrieben, jedoch wurde keine formelle Sicherheitsstudie am Menschen abgeschlossen. Langzeitdaten zur Sicherheit liegen nicht vor.",
+              "truncated": false
+            },
+            {
+              "section": "KPV: Nebenwirkungen und Sicherheit",
+              "subsection": "",
+              "excerpt": "Häufig berichtete Wirkungen (Community-Berichte, keine Studiendaten): leichte und vorübergehende Reizung an der Injektionsstelle, gelegentliche leichte Kopfschmerzen und gelegentliche Magen-Darm-Beschwerden bei höheren oralen Dosen.",
+              "truncated": false
+            },
+            {
+              "section": "KPV: Nebenwirkungen und Sicherheit",
+              "subsection": "",
+              "excerpt": "Immunprofil: KPV dämpft bestimmte entzündliche Signalwege (insbesondere NF-kB), anstatt das Immunsystem breit zu unterdrücken. In Tierversuchen hat dies nicht zu dem bei Kortikosteroiden beobachteten Profil der Infektionsanfälligkeit geführt — aber",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Die PepT1-vermittelte Aufnahme des Tripeptids KPV verringert Darmentzündungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/"
+          },
+          {
+            "label": "Die gezielte orale Verabreichung des Tripeptids KPV über mit Hyaluronsäure funktionalisierte Nanopartikel lindert wirksam Colitis ulcerosa.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5498804/"
+          },
+          {
+            "label": "Mit Alpha-MSH verwandte Peptide: eine neue Klasse entzündungshemmender und immunmodulierender Arzneimittel.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2095288/"
+          },
+          {
+            "label": "Das Neuropeptid alpha-MSH und Entzündungen: periphere und zentrale entzündungshemmende Wirkungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10985255/"
+          },
+          {
+            "label": "Gezielte Beeinflussung von Melanocortinrezeptoren als potenzieller neuer Therapieansatz.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16289446/"
+          },
+          {
+            "label": "Das therapeutische Potenzial von Melanocortinpeptiden bei chronisch-entzündlichen Darmerkrankungen.",
+            "url": "https://www.nature.com/subjects/inflammatory-bowel-disease"
+          },
+          {
+            "label": "Regulation von Entzündungen durch Melanocortine.",
+            "url": "https://www.frontiersin.org/articles/10.3389/fendo.2019.00683/full"
+          },
+          {
+            "label": "Hinweise auf eine autokrine Modulation der Stickstoffmonoxid-Synthase von Makrophagen durch alpha-melanocyte-stimulating hormone.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7541113/"
+          },
+          {
+            "label": "Alpha-MSH moduliert experimentelle chronisch-entzündliche Darmerkrankungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9437733/"
+          },
+          {
+            "label": "Entzündungshemmende Wirkungen des Neuropeptids alpha-MSH bei akuten, chronischen und systemischen Entzündungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/2550304/"
+          },
+          {
+            "label": "Zur Verwendung bei der Rezepturherstellung gemäß 503A vorgeschlagene pharmazeutische Ausgangsstoffe: Aktualisierung zu Kategorie 2 (KPV mit Wirkung zum 22. April 2026 aus Kategorie 2 entfernt).",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA kündigt Statusänderung für 12 Peptide an (Mitteilung vom 15. April 2026).",
+            "url": "https://ssrpinstitute.org/news/fda-announces-change-in-status-of-12-peptides/"
+          }
+        ],
+        "unresolved_fields": [
+          "duration",
+          "best_time_of_day",
+          "formulation_identity",
+          "human_validation"
+        ],
+        "notes": "Nur Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/kpv-cycle-length",
+      "title": "KPV Cycle Length: How Long Is a KPV Peptide Cycle? (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "url": "https://www.peptidedosingprotocols.com/protocol/kpv",
+      "title": "KPV Peptide Dosage Chart, Protocol & Reconstitution Guide (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/",
+      "title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation",
+      "publisher": "Gastroenterology / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "sourceID": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundevidenz zur Dauer und zu Pausen; kein Ersatz für Angaben zur Dosis, zum Produktetikett oder zum Verabreichungsweg oder für populationsspezifische Anweisungen.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "05ea9419-7803-4b6f-ae46-5b4eb8fd9412",
+      "sourceID": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "85562a65-584d-449d-a623-2535e24ca360",
+      "sourceID": "0705b4f0-f44a-419d-bdbb-3114c7c02a4e",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundevidenz zur Dauer und zu Pausen; kein Ersatz für Angaben zur Dosis, zum Produktetikett oder zum Verabreichungsweg oder für populationsspezifische Anweisungen.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "85562a65-584d-449d-a623-2535e24ca360",
+      "sourceID": "3b841db0-c04b-43e3-ace6-9d1b2d2da838",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "kpv",
+      "sourceID": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Originale indexierte Zusammenfassung gelesen. Humane Zelllinien und DSS/TNBS-Kolitisexperimente an Mäusen; keine Patienten behandelt. Begründung der Kategorie: Die direkte Evidenz betrifft experimentelle entzündliche Darmerkrankungen und keine allgemeine Regeneration.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert und klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    },
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

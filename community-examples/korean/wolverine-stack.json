@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "wolverine-stack",
+      "name": "Wolverine Stack",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "명시된 두 성분을 대상으로 한 탐색적 쥐 연구에서 힘줄 조직학적 변화 신호가 보고됐지만, 병용에 따른 추가 이점은 없었어요. 이 연구는 Wolverine이라는 이름의 요법이나 각 제품의 개별 투여 일정의 유효성을 입증하지 않으며, 사용된 TB-500의 정체도 확인해 주지 않아요. 이 스택의 인체 효과는 검증된 바를 찾지 못했어요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "40e26259-2ba0-400e-bc43-ff9bd6fbc884",
+      "productID": "wolverine-stack",
+      "title": "Wolverine — 개별 부하 투여 및 유지 투여 제품",
+      "purpose": "출처에 설명된 참고용 계획",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료예요. 임상적 타당성이 자동으로 검증되거나 앱 기본값으로 자동 채택되는 것은 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            },
+            {
+              "library_item_id": "tb-500"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "성분별 요법",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "성분별 투여 일정"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Wolverine Stack 주기 길이: 커뮤니티의 6–12주 일정",
+              "subsection": "",
+              "rows": [
+                [
+                  "접근 방식",
+                  "부하 투여",
+                  "유지 투여",
+                  "전체 주기",
+                  "일반적인 적용 맥락"
+                ],
+                [
+                  "사전 혼합 제제 매일 투여",
+                  "—",
+                  "매일 혼합 제제 총량 0.5–2.0 mg",
+                  "6–12주",
+                  "편의성 우선, 일정한 노출"
+                ],
+                [
+                  "개별 바이알 표준 일정",
+                  "1–4주차",
+                  "5–8주차",
+                  "8–12주",
+                  "손상 관련 계획을 위한 부하 투여 후 점진적 감량"
+                ],
+                [
+                  "개별 바이알 연장 일정",
+                  "1–4주차",
+                  "5–12주차",
+                  "12주",
+                  "회복이 더딘 조직의 연구 계획"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Wolverine Stack 주기 길이 표",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "주기 길이",
+                      "일반적으로 설명되는 방식",
+                      "근거 참고 사항"
+                    ],
+                    [
+                      "4–6주",
+                      "짧은 집중 주기 또는 초기 부하 투여만 하는 계획",
+                      "커뮤니티에서 흔히 논의되지만, 병용 임상 프로토콜로 시험되지는 않았어요"
+                    ],
+                    [
+                      "6–8주",
+                      "부하 투여 및 유지 투여 단계로 이루어진 가장 일반적인 전체 주기",
+                      "커뮤니티의 표준 방식이며, 대조 인체 시험은 없어요"
+                    ],
+                    [
+                      "8–12주",
+                      "진행이 더디거나 더 긴 연구 기간을 위한 연장 계획",
+                      "일관성이 더 낮고, 뒷받침하는 안전성 자료도 더욱 적어요"
+                    ],
+                    [
+                      "12주 초과",
+                      "장기 또는 반복 사용",
+                      "이 병용 스택의 인체 안전성을 뒷받침하는 확립된 근거는 없어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "부하 투여 및 유지 투여 단계",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "단계",
+                      "일반적인 시기",
+                      "커뮤니티의 설명"
+                    ],
+                    [
+                      "부하 투여 단계",
+                      "1–4주차",
+                      "계획 중 투여 빈도가 가장 높은 부분이에요. 개별 바이알 일정에서는 흔히 BPC-157을 매일 투여하고 TB-500은 그보다 낮은 빈도로 투여해요."
+                    ],
+                    [
+                      "유지 투여 단계",
+                      "5–8주차",
+                      "BPC-157은 매일 투여하는 일정을 유지할 수 있고, TB-500의 투여 빈도는 흔히 줄어들어요."
+                    ],
+                    [
+                      "연장 단계",
+                      "9–12주차",
+                      "일부 커뮤니티 계획에서는 더 낮은 빈도의 투여 방식을 이어가지만, 이러한 연장을 뒷받침하는 근거는 약해요."
+                    ],
+                    [
+                      "휴지기",
+                      "활성 투여 주기 이후",
+                      "커뮤니티 계획에는 흔히 두 화합물을 모두 사용하지 않는 기간이 포함되지만, 검증된 휴약 기간은 없어요."
+                    ]
+                  ]
+                },
+                {
+                  "section": "사전 혼합 제제와 개별 바이알의 주기 비교",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "제형",
+                      "일반적인 일정 패턴",
+                      "주요 한계"
+                    ],
+                    [
+                      "1:1 사전 혼합 바이알",
+                      "주기 내내 규칙적인 일정에 따라 혼합 제제를 한 번에 뽑아요",
+                      "용량 비율이 고정돼 있어 다른 화합물의 용량을 바꾸지 않고 한 화합물의 용량만 바꿀 수는 없어요"
+                    ],
+                    [
+                      "BPC-157 및 TB-500 개별 바이알",
+                      "BPC-157은 매일, TB-500은 그보다 낮은 빈도로 투여하며, 이후 더 낮은 빈도의 단계로 이어지는 경우가 많아요",
+                      "계산이 더 복잡하고 일정 오류가 생길 가능성이 더 높아요"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Wolverine Stack 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "BPC-157",
+                  "TB-500"
+                ],
+                [
+                  "동결 건조 상태(분말)",
+                  "장기 보관 시 -4°F (-20°C); 서늘하고 건조하며 어두운 곳에 보관해요",
+                  "장기 보관 시 -4°F (-20°C); 서늘하고 건조하며 어두운 곳에 보관해요"
+                ],
+                [
+                  "재용해 상태(액체)",
+                  "35.6–46.4°F (2–8°C); 약 30일 이내에 사용해요",
+                  "35.6–46.4°F (2–8°C); 약 30일 이내에 사용해요"
+                ],
+                [
+                  "빛 노출",
+                  "직사광선에 노출되지 않도록 해요",
+                  "직사광선에 노출되지 않도록 해요"
+                ],
+                [
+                  "외관",
+                  "재용해 후 투명해요",
+                  "투명하거나 아주 옅은 색을 띠어요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_statements": [
+            {
+              "section": "Wolverine Stack 부작용 및 안전성",
+              "subsection": "이론적 우려 및 스택 전체에 관한 우려",
+              "excerpt": "두 화합물 모두 혈관신생을 촉진해요. 이는 의도된 복구 기전이지만, 종양 성장과도 관련된 경로예요. Cha 등의 2003년 J Natl Cancer Inst 논문에서는 B16-F10 마우스 모델에서 Thymosin Beta-4 발현이 폐 종양 전이를 증가시켰다고 보고했어요. 이 결과가 인체에 외부에서 투여하는 TB-500 절편에 어떤 의미를 갖는지는 알려져 있지 않지만, 임상의 사이에서 가장 많이 인용되는 이론적 위험이에요",
+              "truncated": true
+            },
+            {
+              "section": "Wolverine Stack 부작용 및 안전성",
+              "subsection": "스포츠 및 경기",
+              "excerpt": "BPC-157과 TB-500은 모두 WADA의 S0 미승인 물질 범주에 따라 경기 기간 중과 경기 기간 외 모두 금지돼요. WADA, USADA 또는 스포츠 관리 기관의 검사 프로그램 대상인 선수는 검출을 피할 수 있는 기간이 있다고 가정해서는 안 돼요. 이 물질들은 시점에 관계없이 검출될 수 있으며 금지돼요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "정형외과 스포츠 의학에서 새롭게 활용되는 BPC-157: 체계적 문헌고찰.",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15563316251355551"
+          },
+          {
+            "label": "쥐의 아킬레스건 박리와 안정적인 위 유래 펜타데카펩타이드 BPC 157: 힘줄과 뼈의 치유 촉진 및 코르티코스테로이드에 의한 악화 억제.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16583442/"
+          },
+          {
+            "label": "펜타데카펩타이드 BPC 157의 힘줄 치유 촉진 효과에는 힘줄의 외향성 성장, 세포 생존 및 세포 이동이 관여해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21164151/"
+          },
+          {
+            "label": "안정적인 위 유래 펜타데카펩타이드 BPC 157과 상처 치유.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34267654/"
+          },
+          {
+            "label": "BPC 157 펩타이드의 다기능성과 의학적 응용 가능성 — 문헌 및 특허 검토.",
+            "url": "https://www.mdpi.com/1424-8247/18/2/185"
+          },
+          {
+            "label": "Thymosin beta 4는 인간 제대정맥 내피세포의 방향성 이동을 촉진해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9194528/"
+          },
+          {
+            "label": "Thymosin beta-4와 혈관신생: 작용 방식 및 치료 잠재력.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17632766/"
+          },
+          {
+            "label": "Thymosin beta4는 혈관신생, 상처 치유 및 모낭 발달을 촉진해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15037013/"
+          },
+          {
+            "label": "Thymosin β4의 기능과 응용에 관한 연구 진전.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "종양 전이 및 혈관신생에서 thymosin beta4의 역할.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14625258/"
+          },
+          {
+            "label": "2025 세계도핑방지규약 국제표준 금지목록 — S0 항목(미승인 물질).",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_duration_choice",
+          "time_of_day",
+          "TB_500_exact_sequence",
+          "source_total_cycle_vs_phase_endpoint"
+        ],
+        "notes": "출처 참고용이며, 아직 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요.",
+        "component_regimens": [
+          {
+            "component_id": "bpc-157",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "부하 투여",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "250",
+                  "maximum": "500",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "유지 투여",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+                "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+              }
+            }
+          },
+          {
+            "component_id": "tb-500",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "부하 투여",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "2",
+                  "maximum": "5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "times_per_week",
+                  "times_per_week": 2,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "유지 투여",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "source_described",
+                  "doses_per_day": null,
+                  "suggested_times": [],
+                  "frequency_range": {
+                    "minimum": 1,
+                    "maximum": 2,
+                    "period": "week"
+                  },
+                  "description": "주 1-2회"
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+                "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+      "title": "Wolverine Stack Dosing Guide: BPC-157 + TB-500 Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "url": "https://jointdrs.org/full-text/1851",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study",
+      "publisher": "Joint Diseases and Related Surgery",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+      "title": "Wolverine Stack Cycle Length: 6–12 Week Research Schedules",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "40e26259-2ba0-400e-bc43-ff9bd6fbc884",
+      "sourceID": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "출처에서 해당 필드를 설명하고 있으며, 독립적인 검증은 아직 진행 전이에요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "40e26259-2ba0-400e-bc43-ff9bd6fbc884",
+      "sourceID": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴지기에 관한 배경 근거이며, 용량, 제품 라벨, 투여 경로 또는 대상 집단별 지침을 대신하지 않아요.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "wolverine-stack",
+      "sourceID": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "원문 전문을 읽었어요. 쥐를 대상으로 한 성분 병용 실험이며, 명시된 상업용 스택이나 일정을 검증한 것은 아니에요. 분류 근거: 힘줄 및 조직 복구 연구가 의도된 목적이지만, 명시된 요법이 효과가 있다는 근거는 없어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "치유 및 회복"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

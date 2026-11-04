@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "semorelin",
+      "name": "Sermorelin",
+      "aliases": [
+        "Semorelin"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": "특정 집단에서 입증된 임상 효과: 성장호르몬 결핍이 있는 사춘기 이전 소아를 대상으로 한 해 동안 진행된 sermorelin/GHRH-(1-29) 공개 연구에서 성장 속도가 증가했어요. 이러한 소아의 성장 결과는 성인 웰니스 관련 주장과 구별돼요. 이 결과는 건강한 성인의 근력, 회복, 수면, 체지방 감소 또는 수명 연장에 대한 개선을 입증하지 않으며, 라이브러리에 수록된 성인 대상 커뮤니티 투여 요법이 그러한 이점을 제공한다는 증거로 제시해서는 안 돼요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "f687f1b6-9974-4dab-a19b-e69c537c782a",
+      "productID": "semorelin",
+      "title": "Sermorelin — 출처에 제시된 매일 밤 용량 적정 및 선택적 휴약일",
+      "purpose": "출처에 설명된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "편집 자료/커뮤니티에서 제공한 이차적 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 보류 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "semorelin"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+              "locator": "Sermorelin 재용해 가이드 / 그 밖의 일반적인 바이알 용량"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+              "locator": "Sermorelin 재용해 가이드 / 그 밖의 일반적인 바이알 용량"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "9",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+              "locator": "Sermorelin 재용해 가이드 / 그 밖의 일반적인 바이알 용량"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "15",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+              "locator": "Sermorelin 재용해 가이드 / 그 밖의 일반적인 바이알 용량"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "1–2주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3–4주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "5–8주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "9주차 이후",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "400",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "bedtime",
+          "suggested_clock_times": [],
+          "relative_events": [
+            {
+              "anchor": "sleep",
+              "relationship": "before",
+              "offset": {
+                "minimum": 30,
+                "maximum": 60,
+                "unit": "minute"
+              }
+            },
+            {
+              "anchor": "last_meal",
+              "relationship": "after",
+              "offset": {
+                "minimum": 60,
+                "maximum": 90,
+                "unit": "minute"
+              }
+            }
+          ],
+          "food_guidance": {
+            "state": "fasted"
+          },
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/sermorelin",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+          "source_tables": [
+            {
+              "section": "Sermorelin 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "형태",
+                  "온도",
+                  "기간"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "-4°F (-20°C)",
+                  "장기간(수년)"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "36-46°F (2-8°C)",
+                  "수개월"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "59-77°F (15-25°C)",
+                  "수주(운송 시 허용 기간)"
+                ],
+                [
+                  "재용해 상태",
+                  "36-46°F (2-8°C)",
+                  "최대 28일"
+                ],
+                [
+                  "재용해 상태(냉동)",
+                  "-4°F (-20°C)",
+                  "권장하지 않아요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+          "source_statements": [
+            {
+              "section": "Sermorelin의 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "",
+              "excerpt": "Sermorelin은 일반적으로 두 가지 상황에서 논의돼요. 과거 FDA 허가 당시의 허가사항에 기재된 소아 GH 결핍과, GH 최적화, 수면 및 체성분을 목적으로 503A 또는 503B 조제 약국을 통해 이루어지는 성인의 허가 외 사용이에요. 두 경우 모두 면허가 있는 임상의가 관여해야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "Sermorelin의 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "일반적으로 Sermorelin 사용을 피하는 대상",
+              "excerpt": "임신 또는 수유 중인 경우예요. 과거 FDA 허가 당시의 허가사항에서는 sermorelin을 임신 위험도 범주 C로 분류했어요. 임신부를 대상으로 한 대조 연구는 없으며, sermorelin이 모유로 이행하는지는 알려져 있지 않아요.",
+              "truncated": false
+            },
+            {
+              "section": "Sermorelin의 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "일반적으로 Sermorelin 사용을 피하는 대상",
+              "excerpt": "활동성 암이 있는 경우예요. GH와 IGF-1은 기존 세포에 성장 신호로 작용할 수 있어요. 대부분의 프로토콜에서는 시작 전에 활동성 악성종양 여부를 선별 검사해요.",
+              "truncated": false
+            },
+            {
+              "section": "Sermorelin의 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "일반적으로 Sermorelin 사용을 피하는 대상",
+              "excerpt": "두개내 병변으로 인한 성장호르몬 결핍이에요. 과거 FDA 허가 당시의 허가사항에서는 이러한 환자들을 대상으로 연구하지 않았으며 sermorelin 요법을 권장하지 않는다고 명시했어요.",
+              "truncated": false
+            },
+            {
+              "section": "Sermorelin 부작용 및 안전성",
+              "subsection": "모니터링할 사항",
+              "excerpt": "갑상선기능저하증이에요. 임상시험 참여자의 약 6.5%에서 갑상선기능저하증이 발생했어요. 치료하지 않은 갑상선기능저하증은 GH 자극에 대한 신체의 반응을 감소시키므로, 시작 전과 추적 관찰 시 갑상선 검사를 하는 것이 표준 진료 관행이에요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "성장호르몬 분비촉진제: 역사, 작용 기전 및 임상 개발.",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/rco2.9"
+          },
+          {
+            "label": "Sermorelin: 성인 발병 성장호르몬 부족 관리에 더 나은 접근법일까요?",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2699646/"
+          },
+          {
+            "label": "Sermorelin Acetate 처방 정보.",
+            "url": "https://www.rxlist.com/sermorelin-acetate-drug.htm"
+          },
+          {
+            "label": "조제에 사용할 때 중대한 안전성 위험을 초래할 수 있는 일부 원료의약품(503A 범주 1 / 범주 2 목록).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks"
+          },
+          {
+            "label": "2026년 칠월 23-24일 약국 조제 자문위원회 회의(503A 원료의약품 목록 검토).",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          },
+          {
+            "label": "Sermorelin(주사 경로) - 부작용 및 용량.",
+            "url": "https://www.mayoclinic.org/drugs-supplements/sermorelin-injection-route/description/drg-20065923"
+          },
+          {
+            "label": "Sermorelin(DB00010) 의약품 개요.",
+            "url": "https://go.drugbank.com/drugs/DB00010"
+          },
+          {
+            "label": "Sermorelin(CID 16132413).",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sermorelin"
+          },
+          {
+            "label": "정맥 또는 비강 투여 후 건강한 대상자에서 growth hormone-releasing hormone(1-29)-NH2의 약동학 및 성장호르몬 분비 자극.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8219485/"
+          },
+          {
+            "label": "2025년 펩타이드 조제의 규제 현황(범주 1의 예로 제시된 sermorelin 및 NAD+).",
+            "url": "https://www.frierlevitt.com/articles/regulatory-status-of-peptide-compounding-in-2025/"
+          },
+          {
+            "label": "Sermorelin 요약 및 참고문헌.",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/sermorelin"
+          }
+        ],
+        "unresolved_fields": [
+          "schedule_alternative_selection",
+          "target_duration_3_to_6_calendar_months",
+          "primary_validation",
+          "maintenance_dose_choice"
+        ],
+        "notes": "출처 참고용으로만 제공하며, 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요.",
+        "schedule_alternative": {
+          "pattern": "weekdays",
+          "iso_weekdays": [
+            7,
+            1,
+            2,
+            3,
+            4
+          ],
+          "doses_per_day": 1,
+          "suggested_times": [],
+          "source_description": "Sunday through Thursday; Friday/Saturday off"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2bdc2611-3488-4006-a0d2-fc8e81698389",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8772599/",
+      "title": "Daily GHRH therapy accelerates growth in GH-deficient children: Geref International Study Group (1996)",
+      "publisher": "Journal of Clinical Endocrinology & Metabolism, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+      "url": "https://www.peptidedosingprotocols.com/protocol/sermorelin",
+      "title": "Sermorelin Peptide Dosing Guide: Protocol, Timing & Side Effects (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "f687f1b6-9974-4dab-a19b-e69c537c782a",
+      "sourceID": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에서 이러한 필드를 설명하고 있어요. 일차 출처를 통한 검증은 아직 보류 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/schedule_alternative"
+      ]
+    },
+    {
+      "productID": "semorelin",
+      "sourceID": "2bdc2611-3488-4006-a0d2-fc8e81698389",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "등록 인원은 110명이며, 유효성을 평가할 수 있는 인원은 86명이에요. 공개 연구에서 소아의 성장 속도가 증가했어요. 범주 분류 근거: 성장호르몬: 소아 GH 결핍에서 성장 결과가 검증되었어요. 라이브러리에 표시되는 물질의 정체는 Sermorelin으로 확인되었어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

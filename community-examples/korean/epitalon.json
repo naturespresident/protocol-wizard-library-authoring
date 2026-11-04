@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "epitalon",
+      "name": "Epitalon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 3,
+      "benefits": "실험실 노화 연구: Epitalon/Epithalon은 배양한 인간 섬유아세포에서 텔로머레이스 활성과 텔로미어 연장을 유도했어요. 이는 세포 수준에서 관찰된 결과이며, 사람의 수명을 연장하거나 노화를 되돌리거나 수면을 개선하거나 질병을 예방한다는 증거는 아니에요. 송과선 추출물에 관한 연구 결과를 이 합성 펩타이드에 대한 근거로 취급해서는 안 돼요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "73e1eff9-e8fd-450f-ae58-ae4301cb1ac3",
+      "productID": "epitalon",
+      "title": "Epitalon — 출처에 제시된 5 mg / 20일 주기",
+      "purpose": "출처에 기술된 내용을 바탕으로 한 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티의 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 아직 대기 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "epitalon"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon 재용해 가이드 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "50",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon 재용해 가이드 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "단기 주기",
+            "duration": {
+              "kind": "fixed",
+              "value": 20,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": [
+            {
+              "section": "Epitalon 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "온도",
+                  "참고 사항"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "장기 보관 시 -4 F (-20 C)",
+                  "건조하게 유지하고 빛을 피해 보관해요."
+                ],
+                [
+                  "재용해 상태(액체)",
+                  "보관 온도: 35.6-46.4 F (2-8 C)",
+                  "약 1-2주 이내에 사용해요."
+                ],
+                [
+                  "외관",
+                  "혼합 후 투명해요",
+                  "탁하거나 입자가 있으면 폐기해요."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_statements": [
+            {
+              "section": "Epitalon 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "이 펩타이드는 멜라토닌 신호 전달과 관련이 있어, 특히 저녁에 투여하면 가벼운 졸음이 나타나요.",
+              "truncated": false
+            },
+            {
+              "section": "Epitalon 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "더 큰 안전성 정보의 공백은 알려진 부작용보다는 아직 알려지지 않은 부분에 있어요. 사람을 대상으로 한 장기 안전성 자료는 제한적이며, 텔로머레이스 문제도 중요해요. 이론적으로 텔로머레이스를 활성화하면 추가적인 분열이 바람직하지 않은 세포에 영향을 줄 수 있어요. 이 때문에 암 병력이 있는 사람은 주의가 필요한 사례로 분류돼요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Epithalon 펩타이드는 인간 체세포에서 텔로머레이스 활성과 텔로미어 연장을 유도해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14668908/"
+          },
+          {
+            "label": "노화가 가속된 고령 연구 대상자에서 epithalamine(송과선 펩타이드 제제)의 노화 보호 효과.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17426848/"
+          },
+          {
+            "label": "펩타이드 생체조절제의 장기 투여가 고령 연구 대상자의 사망률에 미치는 영향(임상 프로그램).",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14523363/"
+          },
+          {
+            "label": "펩타이드 제제 epithalamin이 고령자의 송과선 멜라토닌 기능의 일주기 리듬에 미치는 영향.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15514717/"
+          },
+          {
+            "label": "Epitalon이 암컷 SHR 생쥐의 노화 생체표지자, 수명 및 자연발생 종양 발생률에 미치는 영향.",
+            "url": "https://link.springer.com/article/10.1023/A:1025114230714"
+          },
+          {
+            "label": "합성 테트라펩타이드 epitalon은 노령 원숭이에서 교란된 신경내분비 조절을 회복시켜요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11524632/"
+          },
+          {
+            "label": "Epitalon은 텔로머레이스 상향 조절 또는 ALT 활성을 통해 인간 세포주의 텔로미어 길이를 늘려요.",
+            "url": "https://link.springer.com/article/10.1007/s10522-025-10315-x"
+          },
+          {
+            "label": "Epithalamin 및 Epithalon: 근거와 안전성에 대한 연구 평가.",
+            "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Epithalamin-and-Epithalon-Cognitive-Vitality-For-Researchers.pdf"
+          },
+          {
+            "label": "Epitalon의 규제 현황: FDA 승인 의약품이 아니에요; 연구용 사용 맥락.",
+            "url": "https://www.fda.gov/drugs"
+          }
+        ],
+        "unresolved_fields": [
+          "annual_repeat_conflict",
+          "human_validation",
+          "product_preparation"
+        ],
+        "notes": "출처 참고용이며, 검토되지 않았어요. 표와 독립적인 참고 문헌은 출처 기록에서 계속 확인할 수 있어요.",
+        "repeat_guidance": {
+          "source_table_times_per_year": {
+            "minimum": 2,
+            "maximum": 3
+          },
+          "quick_start_times_per_year": {
+            "minimum": 1,
+            "maximum": 2
+          },
+          "conflict_requires_review": true
+        }
+      }
+    },
+    {
+      "id": "cd0f21cb-d747-45da-a3fa-6dd15fd4d19e",
+      "productID": "epitalon",
+      "title": "Epitalon — 출처에 제시된 10 mg / 10일 주기",
+      "purpose": "출처에 기술된 내용을 바탕으로 한 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티의 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 아직 대기 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "epitalon"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon 재용해 가이드 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "50",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+              "locator": "Epitalon 재용해 가이드 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "단기 주기",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_tables": [
+            {
+              "section": "Epitalon 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "온도",
+                  "참고 사항"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "장기 보관 시 -4 F (-20 C)",
+                  "건조하게 유지하고 빛을 피해 보관해요."
+                ],
+                [
+                  "재용해 상태(액체)",
+                  "보관 온도: 35.6-46.4 F (2-8 C)",
+                  "약 1-2주 이내에 사용해요."
+                ],
+                [
+                  "외관",
+                  "혼합 후 투명해요",
+                  "탁하거나 입자가 있으면 폐기해요."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "86808e60-d081-46e4-aea4-66915c604548",
+          "source_statements": [
+            {
+              "section": "Epitalon 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "이 펩타이드는 멜라토닌 신호 전달과 관련이 있어, 특히 저녁에 투여하면 가벼운 졸음이 나타나요.",
+              "truncated": false
+            },
+            {
+              "section": "Epitalon 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "더 큰 안전성 정보의 공백은 알려진 부작용보다는 아직 알려지지 않은 부분에 있어요. 사람을 대상으로 한 장기 안전성 자료는 제한적이며, 텔로머레이스 문제도 중요해요. 이론적으로 텔로머레이스를 활성화하면 추가적인 분열이 바람직하지 않은 세포에 영향을 줄 수 있어요. 이 때문에 암 병력이 있는 사람은 주의가 필요한 사례로 분류돼요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Epithalon 펩타이드는 인간 체세포에서 텔로머레이스 활성과 텔로미어 연장을 유도해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14668908/"
+          },
+          {
+            "label": "노화가 가속된 고령 연구 대상자에서 epithalamine(송과선 펩타이드 제제)의 노화 보호 효과.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17426848/"
+          },
+          {
+            "label": "펩타이드 생체조절제의 장기 투여가 고령 연구 대상자의 사망률에 미치는 영향(임상 프로그램).",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14523363/"
+          },
+          {
+            "label": "펩타이드 제제 epithalamin이 고령자의 송과선 멜라토닌 기능의 일주기 리듬에 미치는 영향.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15514717/"
+          },
+          {
+            "label": "Epitalon이 암컷 SHR 생쥐의 노화 생체표지자, 수명 및 자연발생 종양 발생률에 미치는 영향.",
+            "url": "https://link.springer.com/article/10.1023/A:1025114230714"
+          },
+          {
+            "label": "합성 테트라펩타이드 epitalon은 노령 원숭이에서 교란된 신경내분비 조절을 회복시켜요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11524632/"
+          },
+          {
+            "label": "Epitalon은 텔로머레이스 상향 조절 또는 ALT 활성을 통해 인간 세포주의 텔로미어 길이를 늘려요.",
+            "url": "https://link.springer.com/article/10.1007/s10522-025-10315-x"
+          },
+          {
+            "label": "Epithalamin 및 Epithalon: 근거와 안전성에 대한 연구 평가.",
+            "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Epithalamin-and-Epithalon-Cognitive-Vitality-For-Researchers.pdf"
+          },
+          {
+            "label": "Epitalon의 규제 현황: FDA 승인 의약품이 아니에요; 연구용 사용 맥락.",
+            "url": "https://www.fda.gov/drugs"
+          }
+        ],
+        "unresolved_fields": [
+          "annual_repeat_conflict",
+          "human_validation",
+          "product_preparation"
+        ],
+        "notes": "출처 참고용이며, 검토되지 않았어요. 표와 독립적인 참고 문헌은 출처 기록에서 계속 확인할 수 있어요.",
+        "repeat_guidance": {
+          "source_table_times_per_year": {
+            "minimum": 2,
+            "maximum": 3
+          },
+          "quick_start_times_per_year": {
+            "minimum": 1,
+            "maximum": 2
+          },
+          "conflict_requires_review": true
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "44a06a93-4122-443a-84bd-8e80c0467cd5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12937682/",
+      "title": "Epithalon peptide induces telomerase activity and telomere elongation in human somatic cells",
+      "publisher": "Bulletin of Experimental Biology and Medicine / PubMed",
+      "type": "lab_study",
+      "publishedAt": null
+    },
+    {
+      "id": "86808e60-d081-46e4-aea4-66915c604548",
+      "url": "https://www.peptidedosingprotocols.com/protocol/epitalon",
+      "title": "Epitalon Peptide Protocol Guide: Dosing, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "73e1eff9-e8fd-450f-ae58-ae4301cb1ac3",
+      "sourceID": "86808e60-d081-46e4-aea4-66915c604548",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에 이 항목들이 기술되어 있어요; 일차 출처 검증은 아직 대기 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/repeat_guidance"
+      ]
+    },
+    {
+      "protocolID": "cd0f21cb-d747-45da-a3fa-6dd15fd4d19e",
+      "sourceID": "86808e60-d081-46e4-aea4-66915c604548",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에 이 항목들이 기술되어 있어요; 일차 출처 검증은 아직 대기 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/repeat_guidance"
+      ]
+    },
+    {
+      "productID": "epitalon",
+      "sourceID": "44a06a93-4122-443a-84bd-8e80c0467cd5",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "색인에 등재된 원문 초록을 읽었어요. 인간 태아 섬유아세포 배양 연구이며, 사람을 대상으로 한 치료 시험은 아니에요; 세포 수준의 대리지표 결과만 다뤄요. 카테고리 분류 근거: 세포 노화 기전이 직접적인 연구 주제이며, 사람의 수명 연장 이점은 입증되지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "노화 방지 및 피부"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

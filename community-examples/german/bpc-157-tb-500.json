@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bpc-157-tb-500",
+      "name": "BPC-157 + TB-500",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "Explorative Kombinationsforschung: Ein Experiment zur Sehnenheilung bei Ratten zeigte mit BPC-157 zusammen mit als TB-500 bezeichnetem Material einen verbesserten histologischen Score, jedoch keinen zusätzlichen Nutzen gegenüber den einzeln eingesetzten Substanzen. Die Studie validiert diese vorgemischte Mischung nicht: Die Sequenz des darin verwendeten TB-500 und die Identität dieses Produkts sind unbestätigt, und die Behandlung war experimentell und kein Protokoll für Menschen."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "546bdf1b-52ff-4105-b7a6-c2d230a73b86",
+      "productID": "bpc-157-tb-500",
+      "title": "Wolverine / BPC-157 + TB-500 1:1-Vormischung — Dosisbereich aus der Community",
+      "purpose": "Referenzplanung gemäß Quellenbeschreibung",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Redaktionelle Sekundärquelle; keine automatische klinische Validierung oder Übernahme als App-Standard.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "bpc-157",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "tb-500",
+              "ratio_part": "1"
+            }
+          ],
+          "fixed_component_ratio": "1:1"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "5",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "5",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "Täglicher Dosisbereich der Mischung aus der Community",
+            "duration": {
+              "kind": "range",
+              "minimum": 42,
+              "maximum": 84,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 5,
+                "maximum": 7,
+                "period": "week"
+              },
+              "description": "5-7 Tage/Woche"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+            "locator": "Dosierungsprotokoll und Zeitplan; Zeitangaben der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Zyklusdauer des Wolverine Stack: Community-Zeitpläne über 6–12 Wochen",
+              "subsection": "",
+              "rows": [
+                [
+                  "Ansatz",
+                  "Aufsättigung",
+                  "Erhaltung",
+                  "Gesamter Zyklus",
+                  "Üblicher Kontext"
+                ],
+                [
+                  "Vorgemischt, täglich",
+                  "—",
+                  "0.5–2.0 mg Gesamtmischung täglich",
+                  "6–12 Wochen",
+                  "Komfort im Vordergrund, gleichmäßige Exposition"
+                ],
+                [
+                  "Separate Durchstechflaschen, Standard",
+                  "Wochen 1–4",
+                  "Wochen 5–8",
+                  "8–12 Wochen",
+                  "Aufsättigung mit anschließendem Ausschleichen zur Planung bei Verletzungen"
+                ],
+                [
+                  "Separate Durchstechflaschen, verlängert",
+                  "Wochen 1–4",
+                  "Wochen 5–12",
+                  "12 Wochen",
+                  "Forschungsplanung für langsamer heilendes Gewebe"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Übersicht zur Zyklusdauer des Wolverine Stack",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Zyklusdauer",
+                      "Übliche Beschreibung",
+                      "Evidenzhinweis"
+                    ],
+                    [
+                      "4–6 Wochen",
+                      "Kurzer gezielter Zyklus oder früher Plan nur mit Aufsättigung",
+                      "In Community-Diskussionen üblich; nicht als kombiniertes klinisches Protokoll getestet"
+                    ],
+                    [
+                      "6–8 Wochen",
+                      "Häufigster vollständiger Zyklus mit Aufsättigungs- und Erhaltungsphasen",
+                      "Community-Standard; keine kontrollierte Studie am Menschen"
+                    ],
+                    [
+                      "8–12 Wochen",
+                      "Verlängerter Plan für langsamere oder längere Forschungsabläufe",
+                      "Weniger einheitlich und durch noch weniger Sicherheitsdaten gestützt"
+                    ],
+                    [
+                      "Mehr als 12 Wochen",
+                      "Langfristige oder wiederholte Anwendung",
+                      "Keine etablierte Grundlage zur Sicherheit der Kombination beim Menschen"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Aufsättigungs- und Erhaltungsphasen",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Phase",
+                      "Üblicher Zeitraum",
+                      "Beschreibung aus der Community"
+                    ],
+                    [
+                      "Aufsättigungsphase",
+                      "Wochen 1–4",
+                      "Der Teil des Plans mit der höchsten Anwendungshäufigkeit. Zeitpläne mit separaten Durchstechflaschen sehen häufig täglich BPC-157 und seltener TB-500 vor."
+                    ],
+                    [
+                      "Erhaltungsphase",
+                      "Wochen 5–8",
+                      "BPC-157 kann weiterhin täglich angewendet werden, während die Anwendungshäufigkeit von TB-500 häufig reduziert wird."
+                    ],
+                    [
+                      "Verlängerte Phase",
+                      "Wochen 9–12",
+                      "Einige Community-Pläne setzen ein Schema mit geringerer Anwendungshäufigkeit fort, die Evidenz für diese Verlängerung ist jedoch schwach."
+                    ],
+                    [
+                      "Zykluspause",
+                      "Nach dem aktiven Zyklus",
+                      "Community-Pläne sehen häufig eine Zeit ohne beide Substanzen vor, es gibt jedoch keine validierte Auswaschphase."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Zyklen mit Vormischung im Vergleich zu separaten Durchstechflaschen",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Format",
+                      "Übliches Anwendungsschema",
+                      "Haupteinschränkung"
+                    ],
+                    [
+                      "Durchstechflasche mit 1:1-Vormischung",
+                      "Gemeinsames Aufziehen beider Substanzen nach einem regelmäßigen Zeitplan über den gesamten Zyklus",
+                      "Das Dosisverhältnis bleibt fest, sodass die Dosis einer Substanz nicht geändert werden kann, ohne die der anderen zu ändern"
+                    ],
+                    [
+                      "Separate Durchstechflaschen mit BPC-157 und TB-500",
+                      "Täglich BPC-157 mit seltenerer Anwendung von TB-500, häufig gefolgt von einer Phase mit geringerer Anwendungshäufigkeit",
+                      "Komplexere Berechnungen und mehr Möglichkeiten für Fehler im Zeitplan"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Lagerung und Handhabung des Wolverine Stack",
+              "subsection": "",
+              "rows": [
+                [
+                  "Zustand",
+                  "BPC-157",
+                  "TB-500"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "-4°F (-20°C) langfristig; kühl, trocken, dunkel",
+                  "-4°F (-20°C) langfristig; kühl, trocken, dunkel"
+                ],
+                [
+                  "Rekonstituiert (flüssig)",
+                  "35.6–46.4°F (2–8°C); innerhalb von ~30 Tagen verwenden",
+                  "35.6–46.4°F (2–8°C); innerhalb von ~30 Tagen verwenden"
+                ],
+                [
+                  "Lichtexposition",
+                  "Vor direktem Licht schützen",
+                  "Vor direktem Licht schützen"
+                ],
+                [
+                  "Aussehen",
+                  "Nach Rekonstitution klar",
+                  "Klar oder nur sehr schwach gefärbt"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_statements": [
+            {
+              "section": "Nebenwirkungen und Sicherheit des Wolverine Stack",
+              "subsection": "Theoretische Bedenken und Bedenken zur Kombination",
+              "excerpt": "Beide Substanzen fördern die Angiogenese, die den beabsichtigten Reparaturmechanismus darstellt, aber auch ein relevanter Prozess beim Tumorwachstum ist. Eine 2003 in J Natl Cancer Inst veröffentlichte Arbeit von Cha et al. berichtete, dass die Expression von Thymosin Beta-4 die Metastasierung von Lungentumoren in einem B16-F10-Mausmodell erhöhte. Die Bedeutung dieser Ergebnisse für ein exogenes TB-500-Fragment beim Menschen ist unbekannt, es ist jedoch das am häufigsten zitierte theoretische Risiko bei Ärzten",
+              "truncated": true
+            },
+            {
+              "section": "Nebenwirkungen und Sicherheit des Wolverine Stack",
+              "subsection": "Sport und Wettkampf",
+              "excerpt": "Sowohl BPC-157 als auch TB-500 sind nach der WADA-Kategorie S0 für nicht zugelassene Substanzen innerhalb und außerhalb von Wettkämpfen verboten. Athleten, die einem Testprogramm der WADA, USADA oder eines Sportverbands unterliegen, sollten kein Zeitfenster bis zur vollständigen Ausscheidung annehmen — die Substanzen sind unabhängig vom Zeitpunkt nachweisbar und verboten.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Zunehmender Einsatz von BPC-157 in der orthopädischen Sportmedizin: Eine systematische Übersichtsarbeit.",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15563316251355551"
+          },
+          {
+            "label": "Achillessehnenablösung bei Ratten und das stabile gastrische Pentadecapeptid BPC 157: Förderung der Sehnen-Knochen-Heilung und Entgegenwirken einer kortikosteroidbedingten Verschlechterung.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16583442/"
+          },
+          {
+            "label": "Die fördernde Wirkung des Pentadecapeptids BPC 157 auf die Sehnenheilung umfasst Sehnenauswuchs, Zellüberleben und Zellmigration.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21164151/"
+          },
+          {
+            "label": "Das stabile gastrische Pentadecapeptid BPC 157 und die Wundheilung.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34267654/"
+          },
+          {
+            "label": "Multifunktionalität und mögliche medizinische Anwendung des Peptids BPC 157 — Literatur- und Patentübersicht.",
+            "url": "https://www.mdpi.com/1424-8247/18/2/185"
+          },
+          {
+            "label": "Thymosin beta 4 stimuliert die gerichtete Migration menschlicher Endothelzellen der Nabelschnurvene.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9194528/"
+          },
+          {
+            "label": "Thymosin beta-4 und Angiogenese: Wirkmechanismen und therapeutisches Potenzial.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17632766/"
+          },
+          {
+            "label": "Thymosin beta4 fördert Angiogenese, Wundheilung und die Entwicklung von Haarfollikeln.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15037013/"
+          },
+          {
+            "label": "Fortschritte bei der Erforschung der Funktion und Anwendung von Thymosin β4.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "Rolle von thymosin beta4 bei Tumormetastasierung und Angiogenese.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14625258/"
+          },
+          {
+            "label": "World Anti-Doping Code 2025: Internationaler Standard, Verbotsliste — Abschnitt S0 (nicht zugelassene Substanzen).",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "selected_weekdays",
+          "time_of_day",
+          "TB_500_exact_sequence",
+          "range_selection"
+        ],
+        "notes": "Nur als Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+      "title": "Wolverine Stack Dosing Guide: BPC-157 + TB-500 Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "url": "https://jointdrs.org/full-text/1851",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study",
+      "publisher": "Joint Diseases and Related Surgery",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+      "title": "Wolverine Stack Cycle Length: 6–12 Week Research Schedules",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "546bdf1b-52ff-4105-b7a6-c2d230a73b86",
+      "sourceID": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "Die Quelle beschreibt die Felder; unabhängige Überprüfung ausstehend.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "546bdf1b-52ff-4105-b7a6-c2d230a73b86",
+      "sourceID": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundevidenz zu Dauer und Pausen; kein Ersatz für Anweisungen zur Dosis, Produktkennzeichnung, zum Verabreichungsweg oder für bestimmte Populationen.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "bpc-157-tb-500",
+      "sourceID": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Originalvolltext gelesen. Zweiunddreißig Ratten; der Kombinationsarm verbesserte den Movin-Score, jedoch weder die Festigkeit noch die Wirkung gegenüber den einzeln eingesetzten Substanzen. Die Sequenz von TB-500 ist nicht angegeben. Begründung der Kategorie: Forschung zur Sehnenheilung betrifft den beabsichtigten Nutzen; die Einstufung impliziert keine nachgewiesene Wirksamkeit der Mischung.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Heilung und Regeneration"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

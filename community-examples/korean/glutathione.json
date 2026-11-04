@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glutathione",
+      "name": "Glutathione",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "소규모 위약 대조 연구에서 경구 보충은 혈액과 세포 내 glutathione 저장량을 늘리고 일부 산화 스트레스 생체표지자를 개선했어요. 별도의 소규모 리포솜 제형 연구에서도 유사한 생체표지자 변화가 보고되었어요. 이는 특정 제형에서 관찰된 생화학적 결과이며, 광범위한 해독, 질병 예방, 노화 방지 또는 정맥 투여 요법의 이점을 입증하지는 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "a94eec42-4085-4299-87ea-6076d46246a5",
+      "productID": "glutathione",
+      "title": "Glutathione — 의료기관 정맥 투여 참고 범위",
+      "purpose": "출처에 기술된 내용을 참고한 계획 수립",
+      "methodID": "intramuscular",
+      "population": "human",
+      "evidenceNotes": "편집 자료/커뮤니티의 이차 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 아직 이루어지지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "source_described_research_or_clinic_context",
+          "indication_context": "Clinic IV reference range",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "clinic_IV_product",
+          "components": [
+            {
+              "library_item_id": "glutathione"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "의료기관 정맥 투여 참고 범위",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "1200",
+              "unit": "mg",
+              "basis": "per_session"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "week"
+              },
+              "description": "주 1-2회"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": [
+            {
+              "section": "Glutathione 보관 및 취급",
+              "subsection": "외관",
+              "rows": [
+                [
+                  "",
+                  "경구 캡슐/리포솜 제형",
+                  "동결 건조 연구용 바이알",
+                  "재용해한 용액"
+                ],
+                [
+                  "온도",
+                  "실온, 건조한 곳",
+                  "장기 보관 시 -4F (-20C)",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "빛",
+                  "밀봉하고 빛을 피해 보관해요",
+                  "빛을 피해 보관해요",
+                  "빛을 피해 보관해요"
+                ],
+                [
+                  "외관",
+                  "해당 없음",
+                  "흰색/미백색 분말",
+                  "투명해요; 탁하거나 입자가 보이면 폐기해요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_statements": [
+            {
+              "section": "Glutathione 부작용 및 안전성",
+              "subsection": "품질 및 무균성 위험",
+              "excerpt": "주사제의 가장 큰 위험은 분자 자체가 아니라 제품이에요. 2019년 일월에 한 의료기관에서 일곱 명의 환자가 glutathione 정맥 주입 후 몇 분 이내에 반응을 보였으며, FDA는 이를 조제에 사용된 분말의 높은 내독소 수치와 연관 지었어요. 규제되지 않은 주사제는 감염 위험(HIV, 간염)도 수반해요. 다음과 같은 경우에",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "경구 glutathione 보충이 체내 glutathione 저장량에 미치는 영향에 대한 무작위 대조 시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/"
+          },
+          {
+            "label": "경구 glutathione 보충이 인체 자원자의 전신 산화 스트레스 생체표지자에 미치는 영향.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710870/"
+          },
+          {
+            "label": "경구 미백제로서의 Glutathione: 무작위 배정, 이중 눈가림, 위약 대조 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20524875/"
+          },
+          {
+            "label": "필리핀 여성에서 피부 미백제로서의 glutathione 로젠지에 대한 공개 단일군 시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26148180/"
+          },
+          {
+            "label": "피부 미백제 및 기미 치료제로서의 Glutathione: 체계적 문헌고찰.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.17535"
+          },
+          {
+            "label": "Glutathione과 그 노화 방지 및 멜라닌 생성 억제 효과.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28490897/"
+          },
+          {
+            "label": "FDA가 식이 성분 glutathione을 무균 주사제 조제에 사용하는 것에 대한 우려를 강조해요(조제 경보).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables"
+          },
+          {
+            "label": "FDA 권고 제2019-182호: 피부 미백제로 glutathione을 사용하는 것은 안전하지 않아요.",
+            "url": "https://www.fda.gov.ph/fda-advisory-no-2019-182-unsafe-use-of-glutathione-as-skin-lightening-agent/"
+          },
+          {
+            "label": "비알코올성 지방간 질환 치료를 위한 glutathione의 유효성: 공개 단일군 다기관 예비 연구.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5549431/"
+          },
+          {
+            "label": "파킨슨병에서 비강 내 glutathione 투여에 대한 IIb상 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28436395/"
+          },
+          {
+            "label": "파킨슨병에서 비강 내 glutathione 투여에 대한 무작위 배정, 이중 눈가림 I/IIa상 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230671/"
+          },
+          {
+            "label": "인체에서 경구 glutathione의 생체이용률과 안전성에 대한 표적 대사체 평가: 무작위 배정 교차 임상시험.",
+            "url": "https://www.mdpi.com/2076-3921/15/3/354"
+          },
+          {
+            "label": "N-acetylcysteine의 현재 및 잠재적 치료 용도: 세포 내 glutathione으로의 전환 필요성.",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0163725813001952"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_product",
+          "primary_source_verification"
+        ],
+        "notes": "출처 참고용이며 아직 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    },
+    {
+      "id": "b0be692b-9420-4091-bab8-a274ffd220c1",
+      "productID": "glutathione",
+      "title": "Glutathione — 경구 캡슐 연구 범위",
+      "purpose": "출처에 기술된 내용을 참고한 계획 수립",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "편집 자료/커뮤니티의 이차 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 아직 이루어지지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "source_described_research_or_clinic_context",
+          "indication_context": "Oral capsule research range",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_capsule",
+          "components": [
+            {
+              "library_item_id": "glutathione"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "경구 캡슐 연구 범위",
+            "duration": {
+              "kind": "minimum",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "1000",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted",
+            "basis": "supplement_label_convention_not_proven_requirement"
+          },
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": [
+            {
+              "section": "Glutathione 보관 및 취급",
+              "subsection": "외관",
+              "rows": [
+                [
+                  "",
+                  "경구 캡슐/리포솜 제형",
+                  "동결 건조 연구용 바이알",
+                  "재용해한 용액"
+                ],
+                [
+                  "온도",
+                  "실온, 건조한 곳",
+                  "장기 보관 시 -4F (-20C)",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "빛",
+                  "밀봉하고 빛을 피해 보관해요",
+                  "빛을 피해 보관해요",
+                  "빛을 피해 보관해요"
+                ],
+                [
+                  "외관",
+                  "해당 없음",
+                  "흰색/미백색 분말",
+                  "투명해요; 탁하거나 입자가 보이면 폐기해요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_statements": [
+            {
+              "section": "Glutathione 부작용 및 안전성",
+              "subsection": "품질 및 무균성 위험",
+              "excerpt": "주사제의 가장 큰 위험은 분자 자체가 아니라 제품이에요. 2019년 일월에 한 의료기관에서 일곱 명의 환자가 glutathione 정맥 주입 후 몇 분 이내에 반응을 보였으며, FDA는 이를 조제에 사용된 분말의 높은 내독소 수치와 연관 지었어요. 규제되지 않은 주사제는 감염 위험(HIV, 간염)도 수반해요. 다음과 같은 경우에",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "경구 glutathione 보충이 체내 glutathione 저장량에 미치는 영향에 대한 무작위 대조 시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/"
+          },
+          {
+            "label": "경구 glutathione 보충이 인체 자원자의 전신 산화 스트레스 생체표지자에 미치는 영향.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710870/"
+          },
+          {
+            "label": "경구 미백제로서의 Glutathione: 무작위 배정, 이중 눈가림, 위약 대조 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20524875/"
+          },
+          {
+            "label": "필리핀 여성에서 피부 미백제로서의 glutathione 로젠지에 대한 공개 단일군 시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26148180/"
+          },
+          {
+            "label": "피부 미백제 및 기미 치료제로서의 Glutathione: 체계적 문헌고찰.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.17535"
+          },
+          {
+            "label": "Glutathione과 그 노화 방지 및 멜라닌 생성 억제 효과.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28490897/"
+          },
+          {
+            "label": "FDA가 식이 성분 glutathione을 무균 주사제 조제에 사용하는 것에 대한 우려를 강조해요(조제 경보).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables"
+          },
+          {
+            "label": "FDA 권고 제2019-182호: 피부 미백제로 glutathione을 사용하는 것은 안전하지 않아요.",
+            "url": "https://www.fda.gov.ph/fda-advisory-no-2019-182-unsafe-use-of-glutathione-as-skin-lightening-agent/"
+          },
+          {
+            "label": "비알코올성 지방간 질환 치료를 위한 glutathione의 유효성: 공개 단일군 다기관 예비 연구.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5549431/"
+          },
+          {
+            "label": "파킨슨병에서 비강 내 glutathione 투여에 대한 IIb상 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28436395/"
+          },
+          {
+            "label": "파킨슨병에서 비강 내 glutathione 투여에 대한 무작위 배정, 이중 눈가림 I/IIa상 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230671/"
+          },
+          {
+            "label": "인체에서 경구 glutathione의 생체이용률과 안전성에 대한 표적 대사체 평가: 무작위 배정 교차 임상시험.",
+            "url": "https://www.mdpi.com/2076-3921/15/3/354"
+          },
+          {
+            "label": "N-acetylcysteine의 현재 및 잠재적 치료 용도: 세포 내 glutathione으로의 전환 필요성.",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0163725813001952"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_product",
+          "primary_source_verification",
+          "calendar_duration_not_converted_to_fixed_days",
+          "daily_administration_count"
+        ],
+        "notes": "출처 참고용이며 아직 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요.",
+        "source_calendar_duration": {
+          "value": 6,
+          "unit": "calendar_month",
+          "qualifier": "maximum"
+        }
+      }
+    },
+    {
+      "id": "c73a35d7-498c-4d40-9718-9ee28a3c6c0f",
+      "productID": "glutathione",
+      "title": "Glutathione — 파킨슨병 비강 내 투여 시험 참고 자료",
+      "purpose": "출처에 기술된 내용을 참고한 계획 수립",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "편집 자료/커뮤니티의 이차 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 아직 이루어지지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "source_described_research_or_clinic_context",
+          "indication_context": "Parkinson intranasal trial reference",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "nasal_spray",
+          "components": [
+            {
+              "library_item_id": "glutathione"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "파킨슨병 비강 내 투여 시험 참고 자료",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "200",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": [
+            {
+              "section": "Glutathione 보관 및 취급",
+              "subsection": "외관",
+              "rows": [
+                [
+                  "",
+                  "경구 캡슐/리포솜 제형",
+                  "동결 건조 연구용 바이알",
+                  "재용해한 용액"
+                ],
+                [
+                  "온도",
+                  "실온, 건조한 곳",
+                  "장기 보관 시 -4F (-20C)",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "빛",
+                  "밀봉하고 빛을 피해 보관해요",
+                  "빛을 피해 보관해요",
+                  "빛을 피해 보관해요"
+                ],
+                [
+                  "외관",
+                  "해당 없음",
+                  "흰색/미백색 분말",
+                  "투명해요; 탁하거나 입자가 보이면 폐기해요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_statements": [
+            {
+              "section": "Glutathione 부작용 및 안전성",
+              "subsection": "품질 및 무균성 위험",
+              "excerpt": "주사제의 가장 큰 위험은 분자 자체가 아니라 제품이에요. 2019년 일월에 한 의료기관에서 일곱 명의 환자가 glutathione 정맥 주입 후 몇 분 이내에 반응을 보였으며, FDA는 이를 조제에 사용된 분말의 높은 내독소 수치와 연관 지었어요. 규제되지 않은 주사제는 감염 위험(HIV, 간염)도 수반해요. 다음과 같은 경우에",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "경구 glutathione 보충이 체내 glutathione 저장량에 미치는 영향에 대한 무작위 대조 시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/"
+          },
+          {
+            "label": "경구 glutathione 보충이 인체 자원자의 전신 산화 스트레스 생체표지자에 미치는 영향.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710870/"
+          },
+          {
+            "label": "경구 미백제로서의 Glutathione: 무작위 배정, 이중 눈가림, 위약 대조 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20524875/"
+          },
+          {
+            "label": "필리핀 여성에서 피부 미백제로서의 glutathione 로젠지에 대한 공개 단일군 시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26148180/"
+          },
+          {
+            "label": "피부 미백제 및 기미 치료제로서의 Glutathione: 체계적 문헌고찰.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.17535"
+          },
+          {
+            "label": "Glutathione과 그 노화 방지 및 멜라닌 생성 억제 효과.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28490897/"
+          },
+          {
+            "label": "FDA가 식이 성분 glutathione을 무균 주사제 조제에 사용하는 것에 대한 우려를 강조해요(조제 경보).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables"
+          },
+          {
+            "label": "FDA 권고 제2019-182호: 피부 미백제로 glutathione을 사용하는 것은 안전하지 않아요.",
+            "url": "https://www.fda.gov.ph/fda-advisory-no-2019-182-unsafe-use-of-glutathione-as-skin-lightening-agent/"
+          },
+          {
+            "label": "비알코올성 지방간 질환 치료를 위한 glutathione의 유효성: 공개 단일군 다기관 예비 연구.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5549431/"
+          },
+          {
+            "label": "파킨슨병에서 비강 내 glutathione 투여에 대한 IIb상 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28436395/"
+          },
+          {
+            "label": "파킨슨병에서 비강 내 glutathione 투여에 대한 무작위 배정, 이중 눈가림 I/IIa상 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230671/"
+          },
+          {
+            "label": "인체에서 경구 glutathione의 생체이용률과 안전성에 대한 표적 대사체 평가: 무작위 배정 교차 임상시험.",
+            "url": "https://www.mdpi.com/2076-3921/15/3/354"
+          },
+          {
+            "label": "N-acetylcysteine의 현재 및 잠재적 치료 용도: 세포 내 glutathione으로의 전환 필요성.",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0163725813001952"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_product",
+          "primary_source_verification",
+          "calendar_duration_not_converted_to_fixed_days"
+        ],
+        "notes": "출처 참고용이며 아직 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요.",
+        "source_calendar_duration": {
+          "value": 3,
+          "unit": "calendar_month",
+          "qualifier": "fixed"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2c42156b-4eef-43d1-9e8a-ed931c07ad18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/",
+      "title": "Randomized controlled trial of oral glutathione supplementation on body stores of glutathione",
+      "publisher": "European Journal of Nutrition / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+      "title": "Glutathione Protocol Guide - Dosing Context, Routes & Safety",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "7603ff34-65e6-46d5-805d-759d5706fc2f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28853742/",
+      "title": "Oral supplementation with liposomal glutathione elevates body stores of glutathione and markers of immune function",
+      "publisher": "European Journal of Clinical Nutrition / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "a94eec42-4085-4299-87ea-6076d46246a5",
+      "sourceID": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에서 이 필드들을 설명하고 있어요. 일차 출처 검증은 아직 이루어지지 않았어요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "b0be692b-9420-4091-bab8-a274ffd220c1",
+      "sourceID": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에서 이 필드들을 설명하고 있어요. 일차 출처 검증은 아직 이루어지지 않았어요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/source_calendar_duration"
+      ]
+    },
+    {
+      "protocolID": "c73a35d7-498c-4d40-9718-9ee28a3c6c0f",
+      "sourceID": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에서 이 필드들을 설명하고 있어요. 일차 출처 검증은 아직 이루어지지 않았어요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/source_calendar_duration"
+      ]
+    },
+    {
+      "productID": "glutathione",
+      "sourceID": "2c42156b-4eef-43d1-9e8a-ed931c07ad18",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "색인에 등재된 원문 초록을 읽었어요. 비흡연 성인 쉰네 명을 대상으로 여섯 달 동안 진행한 위약 대조 경구 투여 연구예요. 주로 생화학적 평가변수를 다루며, 임상적인 질병 개선 이점을 다루지는 않아요. 분류 근거: 항산화 생체표지자 및 특정 제형의 임상 연구는 전문 및 임상 범주에 가장 잘 맞아요. 광범위한 장수 이점은 추론하지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glutathione",
+      "sourceID": "7603ff34-65e6-46d5-805d-759d5706fc2f",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "색인에 등재된 원문 초록을 읽었어요. 열두 명을 대상으로 한 달 동안 진행한 예비 연구예요. 위약군이 없고 생체표지자만 다루며 통계적 검정력이 제한적이에요. 분류 근거: 항산화 생체표지자 및 특정 제형의 임상 연구는 전문 및 임상 범주에 가장 잘 맞아요. 광범위한 장수 이점은 추론하지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "근육 내 투여"
+    },
+    {
+      "id": "oral",
+      "name": "경구 투여"
+    },
+    {
+      "id": "intranasal",
+      "name": "비강 내 투여"
+    }
+  ]
+}

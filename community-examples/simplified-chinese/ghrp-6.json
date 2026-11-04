@@ -1,0 +1,307 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghrp-6",
+      "name": "GHRP-6",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "已证实的生物学作用：在小规模人体内分泌研究中刺激生长激素分泌。这支持其作为 GH 促分泌剂的作用，而非证明其具有健康保养获益。一项临床研究还发现，联合 GHRH／GHRP-6 刺激有助于区分重度 GH 缺乏症成年人和健康对照者。该诊断结果针对的是联合试验；并不能确立单独使用 GHRP-6 治疗对肌肉、恢复、减脂或延寿的获益。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "85c54b7b-32ba-4781-933b-6635c00f13cb",
+      "productID": "ghrp-6",
+      "title": "GHRP-6——来源所述的每日三次剂量滴定",
+      "purpose": "来源所述的参考计划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑资料；不会自动获得临床验证或被设为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "ghrp-6"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "第 1-2 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 3-4 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 5-12 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 56,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted",
+            "source_exclusions": [
+              "carbohydrate_rich_food",
+              "fat_rich_food"
+            ]
+          },
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ghrp-6",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          },
+          "spacing_between_doses": {
+            "minimum": "4",
+            "unit": "hour"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+          "source_tables": [
+            {
+              "section": "GHRP-6 储存与处理",
+              "subsection": "外观",
+              "rows": [
+                [
+                  "",
+                  "GHRP-6"
+                ],
+                [
+                  "冻干状态（粉末形式）",
+                  "-4F（-20C）长期储存"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4F（2-8C）"
+                ],
+                [
+                  "外观",
+                  "澄清、无色"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+          "source_statements": [
+            {
+              "section": "哪些人应避免使用 GHRP-6",
+              "subsection": "",
+              "excerpt": "患有活动性癌症或既往有癌症病史的人群，因为 GH／IGF-1 信号传导在理论上令人担忧。",
+              "truncated": false
+            },
+            {
+              "section": "哪些人应避免使用 GHRP-6",
+              "subsection": "",
+              "excerpt": "妊娠期或哺乳期人群（安全性尚未确立）。",
+              "truncated": false
+            },
+            {
+              "section": "GHRP-6 副作用与安全性",
+              "subsection": "",
+              "excerpt": "最一贯出现的反应是强烈的饥饿感，常在给药后数分钟内出现。其他常见的报告反应包括水潴留或浮肿、手部刺痛或麻木（与 GH 相关的反应）、短暂的头部充血感或潮红，以及疲倦。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "一种作用于垂体、特异性释放生长激素的新型合成六肽的体外与体内活性。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6714155/"
+          },
+          {
+            "label": "垂体和下丘脑中参与生长激素释放的一种受体。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8688086/"
+          },
+          {
+            "label": "Ghrelin 是一种来自胃、可释放生长激素的酰化肽。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10604470/"
+          },
+          {
+            "label": "ghrelin 在人体内的内分泌活性：与 GHRP-6 和 GHRP-2 的比较（GH、ACTH、cortisol、prolactin）。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11238504/"
+          },
+          {
+            "label": "Growth hormone (GH)-releasing peptide-6 需要内源性下丘脑 GH 释放激素才能达到最大 GH 刺激作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9543139/"
+          },
+          {
+            "label": "合成生长激素释放肽（GHRPs）：支持其细胞保护作用的证据的历史评述。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28469519/"
+          },
+          {
+            "label": "L-163,191（MK-0677）的设计与生物学活性：一种强效、具有口服活性的 GH 促分泌剂。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7624059/"
+          },
+          {
+            "label": "Ghrelin：结构与功能。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15788704/"
+          },
+          {
+            "label": "禁用清单，S2 节：肽类激素、生长因子及相关物质（生长激素促分泌剂）。",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          },
+          {
+            "label": "依据《联邦食品、药品和化妆品法》（FD&C Act）第 503A 条用于药品配制的原料药物质。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_clock_times",
+          "fasting_interval",
+          "human_validation"
+        ],
+        "notes": "仅供来源参考；未经审查。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "9da38627-373f-4068-9831-84c6dffdb852",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11030292/",
+      "title": "GH-releasing hormone and GHRP-6 for diagnostic testing in GH-deficient adults (2000)",
+      "publisher": "The Lancet, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/ghrp-6",
+      "title": "GHRP-6 Peptide Guide: Dosing, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "f1996e62-ed5a-432b-9b14-fbc36528fbec",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9543138/",
+      "title": "GHRP-6 requires endogenous hypothalamic GHRH for maximal GH stimulation (1998)",
+      "publisher": "Journal of Clinical Endocrinology & Metabolism, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "85c54b7b-32ba-4781-933b-6635c00f13cb",
+      "sourceID": "ccf51dd0-1938-45ee-944f-25fae8b080d2",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "来源描述了这些字段；独立核实仍待完成。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "ghrp-6",
+      "sourceID": "9da38627-373f-4068-9831-84c6dffdb852",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "对 125 名患者和 125 名对照者进行的联合诊断试验；并非单独治疗。分类依据：生长激素：直接测量 GH 刺激作用的研究及 GH 诊断研究。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "ghrp-6",
+      "sourceID": "f1996e62-ed5a-432b-9b14-fbc36528fbec",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "九名健康男性；GH 反应是生物标志物，而非治疗疗效。分类依据：生长激素：直接测量 GH 刺激作用的研究及 GH 诊断研究。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

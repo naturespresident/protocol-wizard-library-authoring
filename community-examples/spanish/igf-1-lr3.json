@@ -1,0 +1,830 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "igf-1-lr3",
+      "name": "IGF-1 LR3",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "Hallazgo preclínico: Long R3 IGF-I mostró efectos anabólicos y mejoró la retención de nitrógeno en ratas en las que se indujo un estado catabólico con dexamethasone. Otros estudios en animales encontraron crecimiento intestinal o de órganos, lo que no debe suponerse que representa un beneficio para la salud. En esta búsqueda no se verificó ningún beneficio clínico directo de IGF-1 LR3 en humanos. Los hallazgos y los usos aprobados de IGF-1 nativo o mecasermin no pueden extrapolarse a este análogo modificado."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "7cd8f0d9-d871-4005-b384-ce4dae20b9c9",
+      "productID": "igf-1-lr3",
+      "title": "IGF-1 LR3 — Rangos de administración intramuscular después del entrenamiento",
+      "purpose": "Planificación de referencia descrita en la fuente",
+      "methodID": "intramuscular",
+      "population": "human",
+      "evidenceNotes": "Descripción editorial/comunitaria secundaria. Están pendientes la validación independiente de la fuente y su incorporación como opción predeterminada en la aplicación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "igf-1-lr3"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "0.5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "200",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "100",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Evaluación",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Rangos alternativos de mantenimiento",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "daily_total",
+              "range_options": [
+                {
+                  "minimum": "20",
+                  "maximum": "50"
+                },
+                {
+                  "minimum": "50",
+                  "maximum": "100"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [
+            {
+              "anchor": "workout",
+              "relationship": "after",
+              "offset": null
+            }
+          ],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/igf-1-lr3",
+            "locator": "Protocolo y calendario de dosificación; indicaciones de la fuente sobre los horarios"
+          },
+          "site_as_reported": "trained muscle"
+        },
+        "cycle_guidance": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_tables": [
+            {
+              "section": "Protocolo y calendario de dosificación de IGF-1 LR3",
+              "subsection": "Estructura del ciclo",
+              "rows": [
+                [
+                  "Enfoque",
+                  "Período de tratamiento",
+                  "Descanso entre ciclos de tratamiento",
+                  "Más adecuado para"
+                ],
+                [
+                  "Conservador",
+                  "3-4 semanas",
+                  "4-6 semanas",
+                  "Evaluación de la tolerancia a dosis más bajas en los primeros ciclos."
+                ],
+                [
+                  "Estándar",
+                  "4 semanas",
+                  "4 semanas como mínimo",
+                  "Estructura más citada en la comunidad de investigación."
+                ],
+                [
+                  "Prolongado",
+                  "5-6 semanas",
+                  "6 semanas como mínimo",
+                  "Se utiliza únicamente después de que ciclos previos hayan confirmado la tolerancia a la glucosa."
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_tables": [
+            {
+              "section": "Almacenamiento y manipulación de IGF-1 LR3",
+              "subsection": "",
+              "rows": [
+                [
+                  "Estado",
+                  "Almacenamiento",
+                  "Duración"
+                ],
+                [
+                  "Liofilizado (polvo)",
+                  "Congelador a -4°F (-20°C)",
+                  "Almacenamiento a largo plazo, hasta aproximadamente 12 meses."
+                ],
+                [
+                  "Liofilizado (polvo)",
+                  "Refrigerador a 35.6-46.4°F (2-8°C)",
+                  "Varios meses."
+                ],
+                [
+                  "Liofilizado (polvo)",
+                  "Temperatura ambiente",
+                  "Se tolera durante períodos de envío/transporte de semanas; minimizar la exposición."
+                ],
+                [
+                  "Reconstituido (líquido)",
+                  "Refrigerador a 35.6-46.4°F (2-8°C)",
+                  "Aproximadamente 28-30 días."
+                ],
+                [
+                  "Reconstituido (líquido)",
+                  "Congelador a -4°F (-20°C)",
+                  "No se recomienda; la congelación y descongelación pueden dañar el péptido."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_statements": [
+            {
+              "section": "A quién está dirigido IGF-1 LR3 y quién debe evitarlo",
+              "subsection": "",
+              "excerpt": "IGF-1 LR3 no tiene ninguna indicación para uso humano aprobada por la FDA. Se estudia como compuesto de investigación y se utiliza únicamente en protocolos de la comunidad de investigación. La ficha técnica de Increlex (mecasermin) de la FDA, que corresponde a rhIGF-1 nativo para la deficiencia primaria grave de IGF (IGFD) en pacientes pediátricos, es la referencia humana más cercana y sirve de base para las contraindicaciones que se indican a continuación.",
+              "truncated": false
+            },
+            {
+              "section": "A quién está dirigido IGF-1 LR3 y quién debe evitarlo",
+              "subsection": "Situaciones en las que IGF-1 LR3 se considera ampliamente contraindicado",
+              "excerpt": "Cáncer activo o previo, o antecedentes familiares importantes de cáncer. La señalización de IGF-1 es mitogénica y antiapoptótica. La ficha técnica de Increlex contraindica explícitamente su uso en pacientes con neoplasia activa o sospechada e indica que una neoplasia maligna activa o sospechada debe motivar la suspensión del tratamiento. Los estudios epidemiológicos han vinculado repetidamente los niveles elevados de IGF-1 circulante con el riesgo de ciertos tipos de cáncer (LeRoith & Roberts 2003; Pollak 2008).",
+              "truncated": false
+            },
+            {
+              "section": "A quién está dirigido IGF-1 LR3 y quién debe evitarlo",
+              "subsection": "Situaciones en las que IGF-1 LR3 se considera ampliamente contraindicado",
+              "excerpt": "Diabetes (tipo 1 o tipo 2) o cualquier afección que implique desregulación de la glucosa. IGF-1 LR3 reduce la glucosa en sangre. Añadirlo a un tratamiento existente con insulina o a una alteración del manejo de la glucosa puede producir hipoglucemia grave e impredecible. La ficha técnica de Increlex de 2025 exige acompañar las dosis con una comida o un refrigerio y realizar una titulación de la dosis a partir de una dosis baja, específicamente porque la hipoglucemia es muy constante.",
+              "truncated": false
+            },
+            {
+              "section": "A quién está dirigido IGF-1 LR3 y quién debe evitarlo",
+              "subsection": "Situaciones en las que IGF-1 LR3 se considera ampliamente contraindicado",
+              "excerpt": "Embarazo y lactancia. No existen datos de seguridad en humanos. La ficha técnica de Increlex especifica que debería",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "La mayor potencia de los análogos de IGF-I administrados por infusión que se unen débilmente a las proteínas de unión a IGF se mantiene cuando se administran por inyección.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8708565/"
+          },
+          {
+            "label": "El factor de crecimiento similar a la insulina I (IGF-I) y, especialmente, las variantes de IGF-I tienen efectos anabólicos en ratas tratadas con dexamethasone.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1130894/"
+          },
+          {
+            "label": "Las proteínas de unión a IGF son multifuncionales y actúan mediante mecanismos dependientes e independientes de IGF.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12379487/"
+          },
+          {
+            "label": "IGF-1 tiene efectos estabilizadores de la placa en la aterosclerosis al modificar el fenotipo de las células musculares lisas vasculares.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3069834/"
+          },
+          {
+            "label": "INCRELEX (mecasermin) inyectable — Aspectos destacados de la información de prescripción (revisión de 2025).",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/021839s033lbl.pdf"
+          },
+          {
+            "label": "EPAR de Increlex — Información del producto (mecasermin).",
+            "url": "https://www.ema.europa.eu/en/documents/product-information/increlex-epar-product-information_en.pdf"
+          },
+          {
+            "label": "El sistema del factor de crecimiento similar a la insulina y el cáncer.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12767520/"
+          },
+          {
+            "label": "Señalización de la insulina y del factor de crecimiento similar a la insulina en la neoplasia.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19029956/"
+          },
+          {
+            "label": "Ensayo controlado con placebo del factor de crecimiento similar a la insulina I en la esclerosis lateral amiotrófica.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9710020/"
+          },
+          {
+            "label": "IGF-1 subcutáneo no muestra beneficios en un ensayo de 2 años sobre la ELA.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2601089/"
+          },
+          {
+            "label": "Detección de LongR3-IGF-I, Des(1-3)-IGF-I y R3-IGF-I mediante inmunopurificación y espectrometría de masas de alta resolución con fines antidopaje.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/dta.2792"
+          },
+          {
+            "label": "Factor de crecimiento similar a la insulina 1 (IGF-1) y su monitoreo en el diagnóstico médico y en el deporte.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7913862/"
+          },
+          {
+            "label": "Regulación de la masa muscular por la hormona del crecimiento e IGF-I.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2439524/"
+          }
+        ],
+        "unresolved_fields": [
+          "phase_durations",
+          "dose_band_choice",
+          "hypoglycemia_monitoring_details",
+          "primary_source_verification",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "Solo como referencia de la fuente; sin revisión. Las tablas y las referencias independientes siguen disponibles en el registro de la fuente."
+      }
+    },
+    {
+      "id": "c66ad233-27a1-4be5-a057-3ede6eb4e3ab",
+      "productID": "igf-1-lr3",
+      "title": "IGF-1 LR3 — Rangos comunitarios de administración subcutánea",
+      "purpose": "Planificación de referencia descrita en la fuente",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Descripción editorial/comunitaria secundaria. Están pendientes la validación independiente de la fuente y su incorporación como opción predeterminada en la aplicación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "igf-1-lr3"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "0.5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "200",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "100",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+              "locator": "Guía de reconstitución de IGF-1 LR3 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Evaluación",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Rangos alternativos de mantenimiento",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "daily_total",
+              "range_options": [
+                {
+                  "minimum": "20",
+                  "maximum": "40"
+                },
+                {
+                  "minimum": "40",
+                  "maximum": "80"
+                },
+                {
+                  "minimum": "80",
+                  "maximum": "100"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/igf-1-lr3",
+            "locator": "Protocolo y calendario de dosificación; indicaciones de la fuente sobre los horarios"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_tables": [
+            {
+              "section": "Protocolo y calendario de dosificación de IGF-1 LR3",
+              "subsection": "Estructura del ciclo",
+              "rows": [
+                [
+                  "Enfoque",
+                  "Período de tratamiento",
+                  "Descanso entre ciclos de tratamiento",
+                  "Más adecuado para"
+                ],
+                [
+                  "Conservador",
+                  "3-4 semanas",
+                  "4-6 semanas",
+                  "Evaluación de la tolerancia a dosis más bajas en los primeros ciclos."
+                ],
+                [
+                  "Estándar",
+                  "4 semanas",
+                  "4 semanas como mínimo",
+                  "Estructura más citada en la comunidad de investigación."
+                ],
+                [
+                  "Prolongado",
+                  "5-6 semanas",
+                  "6 semanas como mínimo",
+                  "Se utiliza únicamente después de que ciclos previos hayan confirmado la tolerancia a la glucosa."
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_tables": [
+            {
+              "section": "Almacenamiento y manipulación de IGF-1 LR3",
+              "subsection": "",
+              "rows": [
+                [
+                  "Estado",
+                  "Almacenamiento",
+                  "Duración"
+                ],
+                [
+                  "Liofilizado (polvo)",
+                  "Congelador a -4°F (-20°C)",
+                  "Almacenamiento a largo plazo, hasta aproximadamente 12 meses."
+                ],
+                [
+                  "Liofilizado (polvo)",
+                  "Refrigerador a 35.6-46.4°F (2-8°C)",
+                  "Varios meses."
+                ],
+                [
+                  "Liofilizado (polvo)",
+                  "Temperatura ambiente",
+                  "Se tolera durante períodos de envío/transporte de semanas; minimizar la exposición."
+                ],
+                [
+                  "Reconstituido (líquido)",
+                  "Refrigerador a 35.6-46.4°F (2-8°C)",
+                  "Aproximadamente 28-30 días."
+                ],
+                [
+                  "Reconstituido (líquido)",
+                  "Congelador a -4°F (-20°C)",
+                  "No se recomienda; la congelación y descongelación pueden dañar el péptido."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+          "source_statements": [
+            {
+              "section": "A quién está dirigido IGF-1 LR3 y quién debe evitarlo",
+              "subsection": "",
+              "excerpt": "IGF-1 LR3 no tiene ninguna indicación para uso humano aprobada por la FDA. Se estudia como compuesto de investigación y se utiliza únicamente en protocolos de la comunidad de investigación. La ficha técnica de Increlex (mecasermin) de la FDA, que corresponde a rhIGF-1 nativo para la deficiencia primaria grave de IGF (IGFD) en pacientes pediátricos, es la referencia humana más cercana y sirve de base para las contraindicaciones que se indican a continuación.",
+              "truncated": false
+            },
+            {
+              "section": "A quién está dirigido IGF-1 LR3 y quién debe evitarlo",
+              "subsection": "Situaciones en las que IGF-1 LR3 se considera ampliamente contraindicado",
+              "excerpt": "Cáncer activo o previo, o antecedentes familiares importantes de cáncer. La señalización de IGF-1 es mitogénica y antiapoptótica. La ficha técnica de Increlex contraindica explícitamente su uso en pacientes con neoplasia activa o sospechada e indica que una neoplasia maligna activa o sospechada debe motivar la suspensión del tratamiento. Los estudios epidemiológicos han vinculado repetidamente los niveles elevados de IGF-1 circulante con el riesgo de ciertos tipos de cáncer (LeRoith & Roberts 2003; Pollak 2008).",
+              "truncated": false
+            },
+            {
+              "section": "A quién está dirigido IGF-1 LR3 y quién debe evitarlo",
+              "subsection": "Situaciones en las que IGF-1 LR3 se considera ampliamente contraindicado",
+              "excerpt": "Diabetes (tipo 1 o tipo 2) o cualquier afección que implique desregulación de la glucosa. IGF-1 LR3 reduce la glucosa en sangre. Añadirlo a un tratamiento existente con insulina o a una alteración del manejo de la glucosa puede producir hipoglucemia grave e impredecible. La ficha técnica de Increlex de 2025 exige acompañar las dosis con una comida o un refrigerio y realizar una titulación de la dosis a partir de una dosis baja, específicamente porque la hipoglucemia es muy constante.",
+              "truncated": false
+            },
+            {
+              "section": "A quién está dirigido IGF-1 LR3 y quién debe evitarlo",
+              "subsection": "Situaciones en las que IGF-1 LR3 se considera ampliamente contraindicado",
+              "excerpt": "Embarazo y lactancia. No existen datos de seguridad en humanos. La ficha técnica de Increlex especifica que debería",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "La mayor potencia de los análogos de IGF-I administrados por infusión que se unen débilmente a las proteínas de unión a IGF se mantiene cuando se administran por inyección.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8708565/"
+          },
+          {
+            "label": "El factor de crecimiento similar a la insulina I (IGF-I) y, especialmente, las variantes de IGF-I tienen efectos anabólicos en ratas tratadas con dexamethasone.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1130894/"
+          },
+          {
+            "label": "Las proteínas de unión a IGF son multifuncionales y actúan mediante mecanismos dependientes e independientes de IGF.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12379487/"
+          },
+          {
+            "label": "IGF-1 tiene efectos estabilizadores de la placa en la aterosclerosis al modificar el fenotipo de las células musculares lisas vasculares.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3069834/"
+          },
+          {
+            "label": "INCRELEX (mecasermin) inyectable — Aspectos destacados de la información de prescripción (revisión de 2025).",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/021839s033lbl.pdf"
+          },
+          {
+            "label": "EPAR de Increlex — Información del producto (mecasermin).",
+            "url": "https://www.ema.europa.eu/en/documents/product-information/increlex-epar-product-information_en.pdf"
+          },
+          {
+            "label": "El sistema del factor de crecimiento similar a la insulina y el cáncer.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12767520/"
+          },
+          {
+            "label": "Señalización de la insulina y del factor de crecimiento similar a la insulina en la neoplasia.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19029956/"
+          },
+          {
+            "label": "Ensayo controlado con placebo del factor de crecimiento similar a la insulina I en la esclerosis lateral amiotrófica.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9710020/"
+          },
+          {
+            "label": "IGF-1 subcutáneo no muestra beneficios en un ensayo de 2 años sobre la ELA.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2601089/"
+          },
+          {
+            "label": "Detección de LongR3-IGF-I, Des(1-3)-IGF-I y R3-IGF-I mediante inmunopurificación y espectrometría de masas de alta resolución con fines antidopaje.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/dta.2792"
+          },
+          {
+            "label": "Factor de crecimiento similar a la insulina 1 (IGF-1) y su monitoreo en el diagnóstico médico y en el deporte.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7913862/"
+          },
+          {
+            "label": "Regulación de la masa muscular por la hormona del crecimiento e IGF-I.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2439524/"
+          }
+        ],
+        "unresolved_fields": [
+          "phase_durations",
+          "dose_band_choice",
+          "hypoglycemia_monitoring_details",
+          "primary_source_verification",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "Solo como referencia de la fuente; sin revisión. Las tablas y las referencias independientes siguen disponibles en el registro de la fuente."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+      "url": "https://www.peptidedosingprotocols.com/protocol/igf-1-lr3",
+      "title": "IGF-1 LR3 Peptide Dosing Guide: Cycle, Side Effects & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "73ad3618-a1fb-436d-a8ad-8bd5a06dfd7f",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1130894/",
+      "title": "IGF-I and especially IGF-I variants are anabolic in dexamethasone-treated rats (1992)",
+      "publisher": "Biochemical Journal, via NLM PubMed Central",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f6ce13d1-6640-4eab-8b3f-f309f21c9412",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7561636/",
+      "title": "Long R3 IGF-I infusion stimulates organ growth in the guinea pig (1995)",
+      "publisher": "Journal of Endocrinology, via NLM PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "7cd8f0d9-d871-4005-b384-ce4dae20b9c9",
+      "sourceID": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La fuente describe estos campos; la verificación con fuentes primarias sigue pendiente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "c66ad233-27a1-4be5-a057-3ede6eb4e3ab",
+      "sourceID": "1e361e35-82a4-4eb6-9593-3d8bbd1b871f",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La fuente describe estos campos; la verificación con fuentes primarias sigue pendiente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "igf-1-lr3",
+      "sourceID": "73ad3618-a1fb-436d-a8ad-8bd5a06dfd7f",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "LR3 se estudió explícitamente; el anabolismo en animales no demuestra un beneficio muscular o de recuperación en humanos. Justificación de la categoría: Hormona del crecimiento: análogo de IGF-1 implicado en la señalización del crecimiento; la categorización refleja el ámbito de investigación endocrina, no un beneficio demostrado en humanos.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "igf-1-lr3",
+      "sourceID": "f6ce13d1-6640-4eab-8b3f-f309f21c9412",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "El peso de los órganos aumentó sin un crecimiento general significativo; el efecto no es necesariamente beneficioso. Justificación de la categoría: Hormona del crecimiento: análogo de IGF-1 implicado en la señalización del crecimiento; la categorización refleja el ámbito de investigación endocrina, no un beneficio demostrado en humanos.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormona del crecimiento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    },
+    {
+      "id": "intramuscular",
+      "name": "Intramuscular"
+    }
+  ]
+}

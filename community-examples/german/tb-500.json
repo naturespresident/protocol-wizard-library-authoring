@@ -1,0 +1,1158 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tb-500",
+      "name": "TB-500 (Thymosin Beta-4)",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "Angenommener Nutzen für die Gewebereparatur: Zellmigration und die Bildung neuer Blutgefäße bilden die Grundlage für die angestrebte Erholung von Sehnen, Bändern, Muskeln und Haut, eine Verringerung von Entzündungen und Narbenbildung sowie eine verbesserte Gelenkbeweglichkeit. Dies sind experimentelle oder berichtete Ziele, keine nachgewiesenen Vorteile beim Menschen. Als TB-500 bezeichnete Produkte können ein kurzes Fragment von thymosin beta-4 oder synthetisches thymosin beta-4 in voller Länge enthalten; die genaue Sequenz und Formulierung müssen bestätigt werden. Erkenntnisse zum Protein in voller Länge belegen nicht dieselben Wirkungen für das Fragment oder ein bestimmtes kommerzielles Produkt."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "33d0a933-f4e4-45d8-845d-494b0073c4f6",
+      "productID": "tb-500",
+      "title": "TB-500 — Aufsättigung und Erhaltung mit wöchentlicher Gesamtdosis laut Quelle",
+      "purpose": "Referenzplanung laut Quellenbeschreibung",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Sekundäre redaktionelle/Community-Beschreibung. Eine unabhängige Validierung der Quelle und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "tb-500"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 Rekonstitutionsanleitung / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 Rekonstitutionsanleitung / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Aufsättigung in den Wochen 1–6",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "4",
+              "maximum": "5",
+              "unit": "mg",
+              "basis": "weekly_total"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 2,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Erhaltung in den Wochen 7–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2",
+              "maximum": "2.5",
+              "unit": "mg",
+              "basis": "weekly_total"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Pause",
+            "duration": {
+              "kind": "range",
+              "minimum": 28,
+              "maximum": 56,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Ruhephase"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+            "locator": "Dosierungsprotokoll & Zeitplan; Zeitangaben der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500-Dosierung & Dosierungsprotokoll",
+              "subsection": "Zyklusleitlinien",
+              "rows": [
+                [
+                  "Ansatz",
+                  "Dauer",
+                  "Pause",
+                  "Am besten geeignet für"
+                ],
+                [
+                  "Kurzer Zyklus",
+                  "4-6 Wochen",
+                  "4 Wochen",
+                  "Fokus auf eine einzelne Forschungsfrage"
+                ],
+                [
+                  "Standardzyklus",
+                  "8-12 Wochen",
+                  "4-8 Wochen",
+                  "Die meisten in der Community angeführten Pläne"
+                ],
+                [
+                  "Erhaltung nach Aufsättigung",
+                  "Einmal wöchentlich, 6-12 Wochen",
+                  "Variabel",
+                  "Fortsetzung nach einer 4-6-wöchigen Aufsättigungsphase"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/tb-500-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Übersicht zur TB-500-Zyklusdauer",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Zyklusdauer",
+                      "Übliche Beschreibung",
+                      "Evidenzstatus",
+                      "Wesentliche Einschränkung der Evidenz"
+                    ],
+                    [
+                      "4 Wochen",
+                      "Kurze aktive Phase oder Schema mit ausschließlich anfänglicher Aufsättigung",
+                      "Community-Konvention",
+                      "Keine TB-500-Humanstudie hat einen 4-wöchigen Zyklus mit Injektionen etabliert"
+                    ],
+                    [
+                      "6 Wochen",
+                      "Kurzer vollständiger Zyklus in Forschungsreferenzen der Community",
+                      "Community-Konvention",
+                      "Keine kontrollierte Studie zeigt, dass 6 Wochen ein idealer Endzeitpunkt sind"
+                    ],
+                    [
+                      "8 Wochen",
+                      "Gängiges Schema für einen vollständigen Zyklus mit einer frühen und einer späteren Phase",
+                      "Community-Konvention",
+                      "Keine TB-500-Humanstudie verglich 8 Wochen mit kürzeren oder längeren Zyklen"
+                    ],
+                    [
+                      "12 Wochen",
+                      "Verlängerter Community-Zyklus oder längeres Erhaltungsschema",
+                      "Community-Konvention",
+                      "Eine längere Exposition wird nicht durch stärkere Evidenz zu TB-500 beim Menschen gestützt"
+                    ],
+                    [
+                      "Bis zu 84 Tage",
+                      "Veröffentlichte Forschungsdauer zur topischen Anwendung von thymosin beta-4 in voller Länge",
+                      "Humanforschung in einem anderen Molekül-/Formulierungskontext",
+                      "Etabliert keinen 12-wöchigen Zyklus mit TB-500-Injektionen"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Die wesentliche Grenze der Evidenz: TB-500 ist kein Thymosin Beta-4 in voller Länge",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Quelle oder Kontext",
+                      "Dauer",
+                      "Untersuchungsgegenstand",
+                      "Bedeutung für TB-500-Zyklen"
+                    ],
+                    [
+                      "TB-500-Referenzen aus der Community",
+                      "4–6 Wochen",
+                      "Community-Zeitplan für TB-500-Injektionen",
+                      "Gängige Forschungskonvention; keine kontrollierte Humanstudie"
+                    ],
+                    [
+                      "TB-500-Referenzen aus der Community",
+                      "8–12 Wochen",
+                      "Längerer Community-Zeitplan für TB-500-Injektionen",
+                      "Gängige Forschungskonvention; nicht klinisch validiert"
+                    ],
+                    [
+                      "RGN-259-Phase-II-Studie zum trockenen Auge",
+                      "28 Tage",
+                      "Augenlösung mit thymosin beta-4 in voller Länge",
+                      "Evidenz zur Anwendungsdauer beim Menschen für eine andere Formulierung und einen anderen Verabreichungsweg"
+                    ],
+                    [
+                      "ARISE-Studien zum trockenen Auge",
+                      "28 Tage",
+                      "Augenlösung mit thymosin beta-4 in voller Länge",
+                      "Validiert nicht die Anwendungsdauer von TB-500-Injektionen"
+                    ],
+                    [
+                      "RGN-137-Studie zu venösen Stauungsulzera",
+                      "Bis zu 84 Tage",
+                      "Topisches Gel mit thymosin beta-4 in voller Länge",
+                      "Zeigt eine längere Exposition gegenüber Tβ4 in voller Länge in der Forschung, keinen 12-wöchigen TB-500-Zyklus"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Wie lange dauert eine TB-500-Pause?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Aktive Phase",
+                      "Üblicherweise zugehörige Pause",
+                      "Evidenzhinweis"
+                    ],
+                    [
+                      "4–6 Wochen",
+                      "Etwa 4 Wochen",
+                      "Community-Konvention; keine Auswaschstudie zu TB-500 beim Menschen"
+                    ],
+                    [
+                      "8–12 Wochen",
+                      "Etwa 4–8 Wochen",
+                      "Community-Konvention; keine validierte optimale Pause"
+                    ],
+                    [
+                      "Wiederholte Zyklen",
+                      "Variabel",
+                      "Keine evidenzbasierte jährliche Zykluszahl oder erforderliche Erholungspause"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500-Zyklusdauer im Vergleich zur Studiendauer von Thymosin Beta-4",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Studie",
+                      "Formulierung / Verabreichungsweg",
+                      "Behandlungsdauer",
+                      "Schlussfolgerung zur Zyklusdauer"
+                    ],
+                    [
+                      "Phase-II-Studie von Sosne & Ousler zum trockenen Auge",
+                      "RGN-259-Augenlösung",
+                      "28 Tage",
+                      "Etabliert keine Anwendungsdauer für TB-500-Injektionen"
+                    ],
+                    [
+                      "Phase-II-Studie zum schweren trockenen Auge",
+                      "RGN-259-Augenlösung",
+                      "28 Tage Behandlung mit anschließender Nachbeobachtung",
+                      "Belegt nur die Exposition gegenüber Tβ4 in voller Länge beim Menschen"
+                    ],
+                    [
+                      "ARISE-1",
+                      "RGN-259-Augenlösung",
+                      "28 Tage",
+                      "Etabliert keinen 4-wöchigen TB-500-Zyklus"
+                    ],
+                    [
+                      "ARISE-2",
+                      "RGN-259-Augenlösung",
+                      "28 Tage",
+                      "Etabliert keinen 4-wöchigen TB-500-Zyklus"
+                    ],
+                    [
+                      "Studie zu venösen Stauungsulzera",
+                      "RGN-137-Gel zur topischen Anwendung",
+                      "Bis zu 84 Tage",
+                      "Etabliert keinen 12-wöchigen TB-500-Zyklus"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Welche Schlussfolgerungen zur TB-500-Zyklusdauer sind möglich und welche nicht?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Aussage",
+                      "Evidenzstatus",
+                      "Wie PDP dies darstellen sollte"
+                    ],
+                    [
+                      "4–6-wöchige TB-500-Zyklen werden häufig diskutiert",
+                      "Als Community-Konvention belegt",
+                      "Von der Community berichtetes Forschungsschema"
+                    ],
+                    [
+                      "8–12-wöchige TB-500-Zyklen werden häufig diskutiert",
+                      "Als Community-Konvention belegt",
+                      "Von der Community berichtetes Forschungsschema"
+                    ],
+                    [
+                      "8 Wochen sind die beste Dauer für einen TB-500-Zyklus",
+                      "Nicht belegt",
+                      "Nicht als erwiesene Aussage darstellen"
+                    ],
+                    [
+                      "12 Wochen sind eine klinisch nachgewiesene Dauer für einen TB-500-Zyklus",
+                      "Nicht belegt",
+                      "Dies nicht aus Studien zu Tβ4 in voller Länge ableiten"
+                    ],
+                    [
+                      "Eine Pause von 4 Wochen ist erforderlich",
+                      "Nicht belegt",
+                      "Lediglich eine Community-Konvention"
+                    ],
+                    [
+                      "Die FDA hat Daten zur Exposition von Menschen gegenüber TB-500-Arzneimitteln identifiziert",
+                      "Nicht durch Evidenz gestützt",
+                      "Die FDA gibt an, keine solchen Daten identifiziert zu haben"
+                    ],
+                    [
+                      "Zu thymosin beta-4 in voller Länge liegt mehrwöchige Humanforschung vor",
+                      "Durch Evidenz gestützt",
+                      "Veröffentlichte Evidenz beim Menschen in einem anderen Molekül-/Formulierungskontext"
+                    ],
+                    [
+                      "Eine 84-tägige Studie mit topischem Tβ4 beweist einen 12-wöchigen Zyklus mit TB-500-Injektionen",
+                      "Falsche Schlussfolgerung",
+                      "Unterschiede in Verabreichungsweg, Formulierung und Molekül stets mit angeben"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500 Lagerung & Handhabung",
+              "subsection": "",
+              "rows": [
+                [
+                  "Zustand",
+                  "Lagerung",
+                  "Hinweise"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "-4 F (-20 C) langfristig",
+                  "Der Kühlschrank (35.6-46.4 F / 2-8 C) ist für eine kurzfristigere Lagerung geeignet; für eine längere Lagerung ist der Gefrierschrank vorzuziehen."
+                ],
+                [
+                  "Rekonstituiert (flüssig)",
+                  "Bei 35.6-46.4 F (2-8 C)",
+                  "Innerhalb von 2-4 Wochen verwenden. Einige Referenzen nennen bei ordnungsgemäßer Kühlung bis zu 30 Tage."
+                ],
+                [
+                  "Während des Transports",
+                  "Kühl und dunkel",
+                  "Eine kurze Exposition gegenüber Umgebungstemperatur wird vom lyophilisierten Peptid im Allgemeinen toleriert; prüfen Sie die Angaben des Lieferanten für das jeweilige Produkt."
+                ],
+                [
+                  "Lichtexposition",
+                  "Vermeiden",
+                  "Bewahren Sie sowohl lyophilisierte als auch rekonstituierte Durchstechflaschen im Originalkarton oder in einer dunklen Schublade des Kühlschranks auf."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_statements": [
+            {
+              "section": "Für wen die TB-500-Forschung gedacht ist und wer darauf verzichten sollte",
+              "subsection": "Sportler, die Dopingkontrollen unterliegen",
+              "excerpt": "TB-500 und alle Derivate von thymosin beta-4 sind von der WADA gemäß Abschnitt S0 (Nicht zugelassene Substanzen) jederzeit ausdrücklich verboten. Es werden Nachweisfenster im Bereich von 30-45 Tagen angegeben. Sportler in Sportarten mit WADA-Kontrollen, NCAA-Sportler und Militärangehörige, die WADA-konformen Kontrollen unterliegen, sollten auf die Anwendung verzichten.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen die TB-500-Forschung gedacht ist und wer darauf verzichten sollte",
+              "subsection": "Menschen mit aktiver oder früherer Krebserkrankung",
+              "excerpt": "Tbeta-4 wird in der Literatur in einigen Tumormodellen mit einem erhöhten Metastasierungspotenzial in Verbindung gebracht. Dies ist ein theoretischer Vorbehalt bei aktiver oder früherer Krebserkrankung und wird in Sicherheitsdiskussionen zur Forschungsanwendung regelmäßig hervorgehoben, ist jedoch kein gesichertes klinisches Risiko.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen die TB-500-Forschung gedacht ist und wer darauf verzichten sollte",
+              "subsection": "Schwangerschaft und Stillzeit",
+              "excerpt": "Es liegen keine Humandaten vor, die die Sicherheit während Schwangerschaft oder Stillzeit belegen. In diesen Situationen auf die Anwendung verzichten.",
+              "truncated": false
+            },
+            {
+              "section": "TB-500 Nebenwirkungen & Sicherheit",
+              "subsection": "",
+              "excerpt": "Direkte Sicherheitsdaten beim Menschen für das aus 7 Aminosäuren bestehende TB-500-Fragment fehlen praktisch vollständig. Die nächstliegende Referenz ist eine Phase-1-Studie zu thymosin beta-4 in voller Länge. In dieser Studie erhielten 40 gesunde Freiwillige über 14 Tage täglich IV-Dosen von bis zu 1260 mg, ohne schwerwiegende unerwünschte Ereignisse",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Eine randomisierte, placebokontrollierte Studie zu Einzel- und Mehrfachdosen von intravenösem thymosin beta4 bei gesunden Freiwilligen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536472/"
+          },
+          {
+            "label": "Die Wirkung der Behandlung mit thymosin bei venösen Ulzera.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536470/"
+          },
+          {
+            "label": "Thymosin beta4 beschleunigt die Wundheilung.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10469332/"
+          },
+          {
+            "label": "Thymosin beta4 aktiviert die integringekoppelte Kinase und fördert die Migration und das Überleben von Herzzellen sowie die Reparatur des Herzens.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15565145/"
+          },
+          {
+            "label": "Thymosin beta4 verbessert die Heilung einer Verletzung des medialen Kollateralbands bei Ratten.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23523891/"
+          },
+          {
+            "label": "Thymosin beta4 verbessert in einer randomisierten Phase-2-Studie die Zeichen und Symptome eines schweren trockenen Auges signifikant.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25826322/"
+          },
+          {
+            "label": "0.1% RGN-259-Augenlösung (Thymosin beta4) fördert in einer randomisierten, placebokontrollierten, doppelt verblindeten klinischen Phase-III-Studie die Heilung und verbessert das Wohlbefinden bei Patienten mit neurotropher Keratopathie.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9820614/"
+          },
+          {
+            "label": "Thymosin beta4: Ein multifunktionelles regeneratives Peptid. Grundlegende Eigenschaften und klinische Anwendungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22074294/"
+          },
+          {
+            "label": "Fortschritte bei der Erforschung der Funktion und Anwendung von Thymosin beta4.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "Untersuchung des In-vitro-/Ex-vivo-Stoffwechsels von TB-500, Synthese relevanter Metaboliten und Nachweisgrenzen in Urin und Plasma.",
+            "url": "https://www.wada-ama.org/en/resources/scientific-research/investigation-vitroex-vivo-tb-500-metabolism-synthesis-relevant"
+          },
+          {
+            "label": "Für die Verwendung bei der Rezepturherstellung gemäß Abschnitt 503A des Federal Food, Drug, and Cosmetic Act vorgeschlagene Bulk-Arzneistoffe.",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "Sitzung des Beratungsausschusses für pharmazeutische Rezepturherstellung am 23-24. Juli 2026 – Sitzungsankündigung.",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          }
+        ],
+        "unresolved_fields": [
+          "loading_weekly_total_distribution_per_injection",
+          "TB_500_exact_sequence",
+          "time_of_day",
+          "primary_validation"
+        ],
+        "notes": "Nur als Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar."
+      }
+    },
+    {
+      "id": "5fe3146d-64d6-41ce-a696-bb960f2d9c45",
+      "productID": "tb-500",
+      "title": "TB-500 — Alternative mit anfänglicher Aufsättigung pro Einzeldosis laut Quelle",
+      "purpose": "Referenzplanung laut Quellenbeschreibung",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Sekundäre redaktionelle/Community-Beschreibung. Eine unabhängige Validierung der Quelle und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "tb-500"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 Rekonstitutionsanleitung / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+              "locator": "TB-500 Rekonstitutionsanleitung / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Anfängliche Aufsättigung in den Wochen 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2",
+              "maximum": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "interval_days_range": {
+                "minimum": 2,
+                "maximum": 3
+              },
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Dosisreduktion in den Wochen 3–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2",
+              "maximum": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+            "locator": "Dosierungsprotokoll & Zeitplan; Zeitangaben der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500-Dosierung & Dosierungsprotokoll",
+              "subsection": "Zyklusleitlinien",
+              "rows": [
+                [
+                  "Ansatz",
+                  "Dauer",
+                  "Pause",
+                  "Am besten geeignet für"
+                ],
+                [
+                  "Kurzer Zyklus",
+                  "4-6 Wochen",
+                  "4 Wochen",
+                  "Fokus auf eine einzelne Forschungsfrage"
+                ],
+                [
+                  "Standardzyklus",
+                  "8-12 Wochen",
+                  "4-8 Wochen",
+                  "Die meisten in der Community angeführten Pläne"
+                ],
+                [
+                  "Erhaltung nach Aufsättigung",
+                  "Einmal wöchentlich, 6-12 Wochen",
+                  "Variabel",
+                  "Fortsetzung nach einer 4-6-wöchigen Aufsättigungsphase"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/tb-500-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Übersicht zur TB-500-Zyklusdauer",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Zyklusdauer",
+                      "Übliche Beschreibung",
+                      "Evidenzstatus",
+                      "Wesentliche Einschränkung der Evidenz"
+                    ],
+                    [
+                      "4 Wochen",
+                      "Kurze aktive Phase oder Schema mit ausschließlich anfänglicher Aufsättigung",
+                      "Community-Konvention",
+                      "Keine TB-500-Humanstudie hat einen 4-wöchigen Zyklus mit Injektionen etabliert"
+                    ],
+                    [
+                      "6 Wochen",
+                      "Kurzer vollständiger Zyklus in Forschungsreferenzen der Community",
+                      "Community-Konvention",
+                      "Keine kontrollierte Studie zeigt, dass 6 Wochen ein idealer Endzeitpunkt sind"
+                    ],
+                    [
+                      "8 Wochen",
+                      "Gängiges Schema für einen vollständigen Zyklus mit einer frühen und einer späteren Phase",
+                      "Community-Konvention",
+                      "Keine TB-500-Humanstudie verglich 8 Wochen mit kürzeren oder längeren Zyklen"
+                    ],
+                    [
+                      "12 Wochen",
+                      "Verlängerter Community-Zyklus oder längeres Erhaltungsschema",
+                      "Community-Konvention",
+                      "Eine längere Exposition wird nicht durch stärkere Evidenz zu TB-500 beim Menschen gestützt"
+                    ],
+                    [
+                      "Bis zu 84 Tage",
+                      "Veröffentlichte Forschungsdauer zur topischen Anwendung von thymosin beta-4 in voller Länge",
+                      "Humanforschung in einem anderen Molekül-/Formulierungskontext",
+                      "Etabliert keinen 12-wöchigen Zyklus mit TB-500-Injektionen"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Die wesentliche Grenze der Evidenz: TB-500 ist kein Thymosin Beta-4 in voller Länge",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Quelle oder Kontext",
+                      "Dauer",
+                      "Untersuchungsgegenstand",
+                      "Bedeutung für TB-500-Zyklen"
+                    ],
+                    [
+                      "TB-500-Referenzen aus der Community",
+                      "4–6 Wochen",
+                      "Community-Zeitplan für TB-500-Injektionen",
+                      "Gängige Forschungskonvention; keine kontrollierte Humanstudie"
+                    ],
+                    [
+                      "TB-500-Referenzen aus der Community",
+                      "8–12 Wochen",
+                      "Längerer Community-Zeitplan für TB-500-Injektionen",
+                      "Gängige Forschungskonvention; nicht klinisch validiert"
+                    ],
+                    [
+                      "RGN-259-Phase-II-Studie zum trockenen Auge",
+                      "28 Tage",
+                      "Augenlösung mit thymosin beta-4 in voller Länge",
+                      "Evidenz zur Anwendungsdauer beim Menschen für eine andere Formulierung und einen anderen Verabreichungsweg"
+                    ],
+                    [
+                      "ARISE-Studien zum trockenen Auge",
+                      "28 Tage",
+                      "Augenlösung mit thymosin beta-4 in voller Länge",
+                      "Validiert nicht die Anwendungsdauer von TB-500-Injektionen"
+                    ],
+                    [
+                      "RGN-137-Studie zu venösen Stauungsulzera",
+                      "Bis zu 84 Tage",
+                      "Topisches Gel mit thymosin beta-4 in voller Länge",
+                      "Zeigt eine längere Exposition gegenüber Tβ4 in voller Länge in der Forschung, keinen 12-wöchigen TB-500-Zyklus"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Wie lange dauert eine TB-500-Pause?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Aktive Phase",
+                      "Üblicherweise zugehörige Pause",
+                      "Evidenzhinweis"
+                    ],
+                    [
+                      "4–6 Wochen",
+                      "Etwa 4 Wochen",
+                      "Community-Konvention; keine Auswaschstudie zu TB-500 beim Menschen"
+                    ],
+                    [
+                      "8–12 Wochen",
+                      "Etwa 4–8 Wochen",
+                      "Community-Konvention; keine validierte optimale Pause"
+                    ],
+                    [
+                      "Wiederholte Zyklen",
+                      "Variabel",
+                      "Keine evidenzbasierte jährliche Zykluszahl oder erforderliche Erholungspause"
+                    ]
+                  ]
+                },
+                {
+                  "section": "TB-500-Zyklusdauer im Vergleich zur Studiendauer von Thymosin Beta-4",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Studie",
+                      "Formulierung / Verabreichungsweg",
+                      "Behandlungsdauer",
+                      "Schlussfolgerung zur Zyklusdauer"
+                    ],
+                    [
+                      "Phase-II-Studie von Sosne & Ousler zum trockenen Auge",
+                      "RGN-259-Augenlösung",
+                      "28 Tage",
+                      "Etabliert keine Anwendungsdauer für TB-500-Injektionen"
+                    ],
+                    [
+                      "Phase-II-Studie zum schweren trockenen Auge",
+                      "RGN-259-Augenlösung",
+                      "28 Tage Behandlung mit anschließender Nachbeobachtung",
+                      "Belegt nur die Exposition gegenüber Tβ4 in voller Länge beim Menschen"
+                    ],
+                    [
+                      "ARISE-1",
+                      "RGN-259-Augenlösung",
+                      "28 Tage",
+                      "Etabliert keinen 4-wöchigen TB-500-Zyklus"
+                    ],
+                    [
+                      "ARISE-2",
+                      "RGN-259-Augenlösung",
+                      "28 Tage",
+                      "Etabliert keinen 4-wöchigen TB-500-Zyklus"
+                    ],
+                    [
+                      "Studie zu venösen Stauungsulzera",
+                      "RGN-137-Gel zur topischen Anwendung",
+                      "Bis zu 84 Tage",
+                      "Etabliert keinen 12-wöchigen TB-500-Zyklus"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Welche Schlussfolgerungen zur TB-500-Zyklusdauer sind möglich und welche nicht?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Aussage",
+                      "Evidenzstatus",
+                      "Wie PDP dies darstellen sollte"
+                    ],
+                    [
+                      "4–6-wöchige TB-500-Zyklen werden häufig diskutiert",
+                      "Als Community-Konvention belegt",
+                      "Von der Community berichtetes Forschungsschema"
+                    ],
+                    [
+                      "8–12-wöchige TB-500-Zyklen werden häufig diskutiert",
+                      "Als Community-Konvention belegt",
+                      "Von der Community berichtetes Forschungsschema"
+                    ],
+                    [
+                      "8 Wochen sind die beste Dauer für einen TB-500-Zyklus",
+                      "Nicht belegt",
+                      "Nicht als erwiesene Aussage darstellen"
+                    ],
+                    [
+                      "12 Wochen sind eine klinisch nachgewiesene Dauer für einen TB-500-Zyklus",
+                      "Nicht belegt",
+                      "Dies nicht aus Studien zu Tβ4 in voller Länge ableiten"
+                    ],
+                    [
+                      "Eine Pause von 4 Wochen ist erforderlich",
+                      "Nicht belegt",
+                      "Lediglich eine Community-Konvention"
+                    ],
+                    [
+                      "Die FDA hat Daten zur Exposition von Menschen gegenüber TB-500-Arzneimitteln identifiziert",
+                      "Nicht durch Evidenz gestützt",
+                      "Die FDA gibt an, keine solchen Daten identifiziert zu haben"
+                    ],
+                    [
+                      "Zu thymosin beta-4 in voller Länge liegt mehrwöchige Humanforschung vor",
+                      "Durch Evidenz gestützt",
+                      "Veröffentlichte Evidenz beim Menschen in einem anderen Molekül-/Formulierungskontext"
+                    ],
+                    [
+                      "Eine 84-tägige Studie mit topischem Tβ4 beweist einen 12-wöchigen Zyklus mit TB-500-Injektionen",
+                      "Falsche Schlussfolgerung",
+                      "Unterschiede in Verabreichungsweg, Formulierung und Molekül stets mit angeben"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_tables": [
+            {
+              "section": "TB-500 Lagerung & Handhabung",
+              "subsection": "",
+              "rows": [
+                [
+                  "Zustand",
+                  "Lagerung",
+                  "Hinweise"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "-4 F (-20 C) langfristig",
+                  "Der Kühlschrank (35.6-46.4 F / 2-8 C) ist für eine kurzfristigere Lagerung geeignet; für eine längere Lagerung ist der Gefrierschrank vorzuziehen."
+                ],
+                [
+                  "Rekonstituiert (flüssig)",
+                  "Bei 35.6-46.4 F (2-8 C)",
+                  "Innerhalb von 2-4 Wochen verwenden. Einige Referenzen nennen bei ordnungsgemäßer Kühlung bis zu 30 Tage."
+                ],
+                [
+                  "Während des Transports",
+                  "Kühl und dunkel",
+                  "Eine kurze Exposition gegenüber Umgebungstemperatur wird vom lyophilisierten Peptid im Allgemeinen toleriert; prüfen Sie die Angaben des Lieferanten für das jeweilige Produkt."
+                ],
+                [
+                  "Lichtexposition",
+                  "Vermeiden",
+                  "Bewahren Sie sowohl lyophilisierte als auch rekonstituierte Durchstechflaschen im Originalkarton oder in einer dunklen Schublade des Kühlschranks auf."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+          "source_statements": [
+            {
+              "section": "Für wen die TB-500-Forschung gedacht ist und wer darauf verzichten sollte",
+              "subsection": "Sportler, die Dopingkontrollen unterliegen",
+              "excerpt": "TB-500 und alle Derivate von thymosin beta-4 sind von der WADA gemäß Abschnitt S0 (Nicht zugelassene Substanzen) jederzeit ausdrücklich verboten. Es werden Nachweisfenster im Bereich von 30-45 Tagen angegeben. Sportler in Sportarten mit WADA-Kontrollen, NCAA-Sportler und Militärangehörige, die WADA-konformen Kontrollen unterliegen, sollten auf die Anwendung verzichten.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen die TB-500-Forschung gedacht ist und wer darauf verzichten sollte",
+              "subsection": "Menschen mit aktiver oder früherer Krebserkrankung",
+              "excerpt": "Tbeta-4 wird in der Literatur in einigen Tumormodellen mit einem erhöhten Metastasierungspotenzial in Verbindung gebracht. Dies ist ein theoretischer Vorbehalt bei aktiver oder früherer Krebserkrankung und wird in Sicherheitsdiskussionen zur Forschungsanwendung regelmäßig hervorgehoben, ist jedoch kein gesichertes klinisches Risiko.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen die TB-500-Forschung gedacht ist und wer darauf verzichten sollte",
+              "subsection": "Schwangerschaft und Stillzeit",
+              "excerpt": "Es liegen keine Humandaten vor, die die Sicherheit während Schwangerschaft oder Stillzeit belegen. In diesen Situationen auf die Anwendung verzichten.",
+              "truncated": false
+            },
+            {
+              "section": "TB-500 Nebenwirkungen & Sicherheit",
+              "subsection": "",
+              "excerpt": "Direkte Sicherheitsdaten beim Menschen für das aus 7 Aminosäuren bestehende TB-500-Fragment fehlen praktisch vollständig. Die nächstliegende Referenz ist eine Phase-1-Studie zu thymosin beta-4 in voller Länge. In dieser Studie erhielten 40 gesunde Freiwillige über 14 Tage täglich IV-Dosen von bis zu 1260 mg, ohne schwerwiegende unerwünschte Ereignisse",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Eine randomisierte, placebokontrollierte Studie zu Einzel- und Mehrfachdosen von intravenösem thymosin beta4 bei gesunden Freiwilligen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536472/"
+          },
+          {
+            "label": "Die Wirkung der Behandlung mit thymosin bei venösen Ulzera.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20536470/"
+          },
+          {
+            "label": "Thymosin beta4 beschleunigt die Wundheilung.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10469332/"
+          },
+          {
+            "label": "Thymosin beta4 aktiviert die integringekoppelte Kinase und fördert die Migration und das Überleben von Herzzellen sowie die Reparatur des Herzens.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15565145/"
+          },
+          {
+            "label": "Thymosin beta4 verbessert die Heilung einer Verletzung des medialen Kollateralbands bei Ratten.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/23523891/"
+          },
+          {
+            "label": "Thymosin beta4 verbessert in einer randomisierten Phase-2-Studie die Zeichen und Symptome eines schweren trockenen Auges signifikant.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25826322/"
+          },
+          {
+            "label": "0.1% RGN-259-Augenlösung (Thymosin beta4) fördert in einer randomisierten, placebokontrollierten, doppelt verblindeten klinischen Phase-III-Studie die Heilung und verbessert das Wohlbefinden bei Patienten mit neurotropher Keratopathie.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9820614/"
+          },
+          {
+            "label": "Thymosin beta4: Ein multifunktionelles regeneratives Peptid. Grundlegende Eigenschaften und klinische Anwendungen.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22074294/"
+          },
+          {
+            "label": "Fortschritte bei der Erforschung der Funktion und Anwendung von Thymosin beta4.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "Untersuchung des In-vitro-/Ex-vivo-Stoffwechsels von TB-500, Synthese relevanter Metaboliten und Nachweisgrenzen in Urin und Plasma.",
+            "url": "https://www.wada-ama.org/en/resources/scientific-research/investigation-vitroex-vivo-tb-500-metabolism-synthesis-relevant"
+          },
+          {
+            "label": "Für die Verwendung bei der Rezepturherstellung gemäß Abschnitt 503A des Federal Food, Drug, and Cosmetic Act vorgeschlagene Bulk-Arzneistoffe.",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "Sitzung des Beratungsausschusses für pharmazeutische Rezepturherstellung am 23-24. Juli 2026 – Sitzungsankündigung.",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          }
+        ],
+        "unresolved_fields": [
+          "interval_choice",
+          "TB_500_exact_sequence",
+          "time_of_day",
+          "primary_validation"
+        ],
+        "notes": "Nur als Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+      "url": "https://www.peptidedosingprotocols.com/protocol/tb-500",
+      "title": "TB-500 Peptide Dosage: Dosing, Protocol, & Reconstitution (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "a862d686-925b-466d-b219-31e5c077556c",
+      "url": "https://www.fda.gov/media/193349/download",
+      "title": "FDA evaluation of TB-500-related bulk drug substances, July 2026 PCAC briefing",
+      "publisher": "US Food and Drug Administration",
+      "type": "clinical_guidance",
+      "publishedAt": null
+    },
+    {
+      "id": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "url": "https://jointdrs.org/full-text/1851",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study",
+      "publisher": "Joint Diseases and Related Surgery",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/tb-500-cycle-length",
+      "title": "TB-500 Cycle Length: How Long Is a TB-500 Cycle? (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "33d0a933-f4e4-45d8-845d-494b0073c4f6",
+      "sourceID": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "33d0a933-f4e4-45d8-845d-494b0073c4f6",
+      "sourceID": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundevidenz zu Dauer/Pausen; kein Ersatz für Anweisungen zur Dosis, Produktkennzeichnung, zum Verabreichungsweg oder für populationsspezifische Anweisungen.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "5fe3146d-64d6-41ce-a696-bb960f2d9c45",
+      "sourceID": "867ac322-6469-437e-a7d1-9a4a31ae8c47",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "5fe3146d-64d6-41ce-a696-bb960f2d9c45",
+      "sourceID": "cd2fb0cb-2b95-4626-89e0-f364dd768af5",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundevidenz zu Dauer/Pausen; kein Ersatz für Anweisungen zur Dosis, Produktkennzeichnung, zum Verabreichungsweg oder für populationsspezifische Anweisungen.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "tb-500",
+      "sourceID": "a862d686-925b-466d-b219-31e5c077556c",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Seiten 7, 23-26 und 32-33 gelesen. Unterscheidet acetyliertes TB-500 aus sieben Aminosäureresten von thymosin beta4 in voller Länge; keine Evidenz zur Wirksamkeit beim Menschen identifiziert. Befunde zum vollständigen Protein und zum nicht acetylierten Fragment sind nicht übertragbar. Begründung der Kategorie: Heilung ist die untersuchte Anwendung, obwohl die Identität der Substanz in der Bibliothek und die Evidenz zum Nutzen weiterhin ungeklärt sind.\nNachtrag des Verantwortlichen vom 2026-10-15: Unterscheidet das acetylierte Fragment aus sieben Aminosäureresten von thymosin beta-4 in voller Länge und identifiziert keine Evidenz zur Wirksamkeit des Fragments beim Menschen. Stützt die Vorbehalte zu Identität und Wirksamkeit; die vom Verantwortlichen angegebenen Vorteile hinsichtlich Reparatur, Entzündung, Narbenbildung und Beweglichkeit bleiben angestrebte Ziele. Begründung der Kategorie: Die angenommenen Vorteile konzentrieren sich auf Gewebereparatur und Erholung nach Verletzungen.",
+      "supports": [
+        "/category_id",
+        "/benefits"
+      ]
+    },
+    {
+      "productID": "tb-500",
+      "sourceID": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Hinweis aus einem Rattensehnenmodell für als TB-500 bezeichnetes Material; Sequenz nicht angegeben. Klärt die Identität als Fragment oder vollständiges Protein nicht. Begründung der Kategorie: Heilung ist die untersuchte Anwendung, obwohl die Identität der Substanz in der Bibliothek und die Evidenz zum Nutzen weiterhin ungeklärt sind.",
+      "supports": [
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Heilung & Erholung"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

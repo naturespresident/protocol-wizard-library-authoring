@@ -1,0 +1,705 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-3",
+      "name": "Retatrutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "ヒト臨床試験のエビデンス：治験中の皮下投与用retatrutideは、糖尿病のない肥満の成人で有意な体重減少をもたらしました。第3相TRIUMPH-1試験では、該当する疾患を有する各サブグループで、変形性膝関節症の疼痛の軽減と無呼吸・低呼吸イベントの減少も認められました。これらの結果は、試験で用いられた薬剤、投与経路、対象患者集団に関するものであり、retatrutideを含むスタックの有益性を示すものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "productID": "glp-3",
+      "title": "Retatrutide — 用量群を割り付けた第2相肥満試験",
+      "purpose": "肥満を対象とする治験段階の用量探索試験",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "未レビューの参考資料からの抽出情報です。完全な処方指示ではありません。",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Investigational study product — NCT04881760",
+          "components": [
+            {
+              "name": "Retatrutide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "肥満または適格基準を満たす過体重の試験参加者です。2型糖尿病は除外されています",
+          "study_id": "NCT04881760",
+          "study_phase": "2"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "該当する場合は増量を含む割り付け試験群",
+            "duration": {
+              "kind": "fixed",
+              "value": 336,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "1",
+                "4",
+                "8",
+                "12"
+              ],
+              "unit": "mg",
+              "basis": "total_product",
+              "kind": "target_dose_choices"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "trial_arms": [
+          {
+            "target_dose": "1",
+            "initial_dose": null
+          },
+          {
+            "target_dose": "4",
+            "initial_dose": "2"
+          },
+          {
+            "target_dose": "4",
+            "initial_dose": "4"
+          },
+          {
+            "target_dose": "8",
+            "initial_dose": "2"
+          },
+          {
+            "target_dose": "8",
+            "initial_dose": "4"
+          },
+          {
+            "target_dose": "12",
+            "initial_dose": "2"
+          }
+        ],
+        "unresolved_fields": [
+          "arm_specific_intermediate_doses_and_escalation_durations",
+          "formulation_and_preparation"
+        ],
+        "notes": "出典に報告された群を含む単一の試験プロトコルであり、六つの独立したライブラリエントリではありません。目標用量は毎週の投与量ではありません。製造元の試験概要には、完全な増量手順は記載されていません。"
+      }
+    },
+    {
+      "id": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "productID": "glp-3",
+      "title": "Retatrutide — 出典のTRIUMPH段階的増量表",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "編集記事・コミュニティによる二次的な記述です。独立した出典検証とアプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "phase_3_trials_described_by_secondary_source",
+          "indication_context": "TRIUMPH trial program",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "glp-3"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide再溶解ガイド / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide再溶解ガイド / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "12",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide再溶解ガイド / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide再溶解ガイド / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide再溶解ガイド / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "四週間ごとの増量 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "四週間ごとの増量 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "四週間ごとの増量 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "6",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "四週間ごとの増量 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "9",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "17週目以降",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "12",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/retatrutide",
+            "locator": "投与プロトコルとスケジュール；出典の投与タイミングに関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/retatrutide",
+              "source_tables": [
+                {
+                  "section": "Retatrutideのサイクル期間一覧",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "期間",
+                      "試験",
+                      "この期間が意味するもの"
+                    ],
+                    [
+                      "12週間",
+                      "2型糖尿病の成人を対象とした第1b相試験",
+                      "安全性、忍容性、薬物動態、薬力学に重点を置いた初期の概念実証試験です。12週間のサイクルを標準として確立したものではありません。"
+                    ],
+                    [
+                      "36週間",
+                      "第2相2型糖尿病試験",
+                      "その後の第2相試験では、有効性と安全性の結果が36週目まで評価されました。"
+                    ],
+                    [
+                      "40週間",
+                      "TRANSCEND-T2D-1 第3相試験",
+                      "食事療法と運動療法ではコントロールが不十分な2型糖尿病の成人を対象とした、第3相試験の治療期間です。"
+                    ],
+                    [
+                      "48週間",
+                      "第2相肥満試験",
+                      "体重に関する主要評価項目はそれより早い24週目に測定されましたが、治療は48週間継続されました。"
+                    ],
+                    [
+                      "68週間",
+                      "TRIUMPH-4 第3相試験",
+                      "糖尿病がなく、肥満または過体重で変形性膝関節症を有する成人を対象とした、第3相試験の主要評価期間です。"
+                    ],
+                    [
+                      "80週間",
+                      "TRIUMPH-1、TRIUMPH-2、およびTRIUMPH-3",
+                      "参加者集団の異なる複数の大規模肥満試験で用いられた、第3相試験の主要評価期間です。"
+                    ],
+                    [
+                      "104週間",
+                      "TRIUMPH-1延長試験",
+                      "事前に規定された盲検延長試験で、ベースラインのBMIが35以上のサブグループを二年間の治療にわたって追跡しました。"
+                    ],
+                    [
+                      "80 + 36週間",
+                      "TRIUMPH-6維持試験",
+                      "進行中の試験で、80週間のretatrutide導入投与後、36週間にわたってretatrutideの継続投与、異なる用量のretatrutide、またはプラセボを投与します。結果はまだ得られていません。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Retatrutideのサイクル期間と用量漸増の違い",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "質問",
+                      "最適なページ",
+                      "そこで扱う内容"
+                    ],
+                    [
+                      "retatrutideはどのくらいの期間研究されましたか？",
+                      "このサイクルガイド",
+                      "12、36、40、48、68、80、および104週間の研究期間"
+                    ],
+                    [
+                      "12週間のサイクルを裏付ける根拠はありますか？",
+                      "このサイクルガイド",
+                      "12週間の第1b相試験で確立できることとできないこと"
+                    ],
+                    [
+                      "根拠のある休薬期間はどのくらいですか？",
+                      "このサイクルガイド",
+                      "維持、中止、および検証済みの休薬期間がないこと"
+                    ],
+                    [
+                      "第3相試験の開始用量はいくらでしたか？",
+                      "Retatrutideプロトコルガイド",
+                      "開始用量と試験固有の用量設計"
+                    ],
+                    [
+                      "用量漸増のスケジュールはどのようなものですか？",
+                      "Retatrutideプロトコルガイド",
+                      "増量と目標用量群"
+                    ],
+                    [
+                      "バイアルとシリンジの計算はどのように行いますか？",
+                      "Retatrutideプロトコルガイド",
+                      "再溶解、濃度、および U-100 の計算例"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_tables": [
+            {
+              "section": "Retatrutideの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保管",
+                  "注記"
+                ],
+                [
+                  "凍結乾燥品（粉末状）、密封",
+                  "-4F（-20C）以下（冷凍庫）",
+                  "長期、最長12+か月"
+                ],
+                [
+                  "凍結乾燥品（粉末状）、密封",
+                  "35.6-46.4F（2-8C）（冷蔵庫）",
+                  "数か月"
+                ],
+                [
+                  "凍結乾燥品（粉末状）、輸送中",
+                  "短期間の室温保管",
+                  "数週間安定しています。粉末は短期間の温度変動に耐えます"
+                ],
+                [
+                  "再溶解後（液状）",
+                  "35.6-46.4F（2-8C）（冷蔵庫）",
+                  "2-4週間以内に使用し、遮光してください"
+                ],
+                [
+                  "再溶解後（液状）",
+                  "-4F（-20C）（小分け凍結）",
+                  "最長3-4か月です。凍結・融解を繰り返さないでください"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_statements": [
+            {
+              "section": "Retatrutideの対象者と使用を避けるべき人",
+              "subsection": "",
+              "excerpt": "Retatrutideは現在、肥満の成人、2型糖尿病の成人、および変形性膝関節症、睡眠時無呼吸、代謝機能障害関連脂肪性肝疾患（MASLD）などの体重に関連する疾患を有する成人を対象に研究されています。2026年八月時点でいかなる用途でも承認されていないため、適格性は添付文書ではなく試験によって定義されます。",
+              "truncated": false
+            },
+            {
+              "section": "Retatrutideの対象者と使用を避けるべき人",
+              "subsection": "試験の除外基準にみられる傾向",
+              "excerpt": "retatrutideの第2相および第3相試験では、膵炎、甲状腺髄様癌、多発性内分泌腫瘍症2型（MEN 2）の既往、重度の胃不全麻痺、最近の重大な心血管イベント、重度の腎機能障害、1型糖尿病（肥満試験の場合）、妊娠または授乳に該当する参加者を除外することが一般的でした。これらの除外基準は、semaglutideおよびtirzepatideの試験で用いられたものと同じ全般的な傾向に沿っています。",
+              "truncated": false
+            },
+            {
+              "section": "Retatrutideの対象者と使用を避けるべき人",
+              "subsection": "妊娠、授乳、および妊娠を試みている場合",
+              "excerpt": "Retatrutideは、妊娠中または授乳中の人では研究されていません。試験では有効な避妊が必須です。これらの状況にある人は、適切な資格を有する医療従事者による診療のもと以外でretatrutideを検討すべきではありません。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "肥満に対する三重ホルモン受容体作動薬Retatrutide — 第2相試験。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          },
+          {
+            "label": "2型糖尿病患者に対するGIP、GLP-1およびグルカゴン受容体作動薬Retatrutide：無作為化二重盲検プラセボ・実薬対照並行群間第2相試験。",
+            "url": "https://doi.org/10.1016/S0140-6736(23)01053-X"
+          },
+          {
+            "label": "代謝機能障害関連脂肪性肝疾患に対する三重ホルモン受容体作動薬retatrutide：無作為化第2a相試験。",
+            "url": "https://www.nature.com/articles/s41591-024-03018-2"
+          },
+          {
+            "label": "血糖コントロールと体重減少のための新規グルカゴン、GIP、およびGLP-1三重受容体作動薬LY3437943：発見から臨床的概念実証まで。",
+            "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+          },
+          {
+            "label": "Lillyのトリプルアゴニストretatrutideが、最初に成功した第3相試験で、最大平均71.2 lbsの体重減少とともに変形性関節症の疼痛の大幅な軽減をもたらしました。",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average"
+          },
+          {
+            "label": "Lillyのトリプルアゴニストretatrutideが、肥満を対象とした主要な第3相試験で大幅な体重減少をもたらしました。",
+            "url": "https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html"
+          },
+          {
+            "label": "Lillyのトリプルアゴニストretatrutideが、追加の二つの第3相肥満試験で成功し、体重とA1Cの有意な改善をもたらしました。",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional"
+          },
+          {
+            "label": "Lillyのトリプルアゴニストretatrutideが、2型糖尿病治療のための最初の第3相試験でA1Cと体重の有意な低下を示しました。",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-demonstrated-significant"
+          },
+          {
+            "label": "retatrutideについて知っておくべきこと。",
+            "url": "https://www.lilly.com/news/stories/what-to-know-about-retatrutide"
+          },
+          {
+            "label": "TRANSCEND-T2D-1：2型糖尿病の成人参加者を対象としたRetatrutide（LY3437943）の試験（NCT06354660）。",
+            "url": "https://clinicaltrials.gov/study/NCT06354660"
+          },
+          {
+            "label": "TRIUMPH-4：肥満および変形性膝関節症を有する参加者を対象としたRetatrutide（LY3437943）の試験（NCT05929066）。",
+            "url": "https://clinicaltrials.gov/study/NCT05929066"
+          },
+          {
+            "label": "トリプルアゴニストRetatrutideがT2DにおいてA1cと体重を低下させます。",
+            "url": "https://www.medscape.com/viewarticle/triple-agonist-retatrutide-reduces-a1c-weight-t2d-2026a10008vn"
+          },
+          {
+            "label": "ブランド名GLP-1薬の調剤版に関するFDAの審査、およびオンライン販売業者による未承認ペプチドの販売の報告に関する声明。",
+            "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers"
+          }
+        ],
+        "unresolved_fields": [
+          "specific_trial_population_and_duration",
+          "product_identity",
+          "primary_registry_verification",
+          "exact_clock_time"
+        ],
+        "notes": "出典の参考情報のみで、未レビューです。表と独立した参考文献は出典レコードに保持されています。",
+        "trial_target_options": {
+          "options": [
+            "4",
+            "9",
+            "12"
+          ],
+          "unit": "mg",
+          "basis": "total_product"
+        },
+        "target_rule": "Lower target arms stop escalating at their assigned target; full ladder describes the 12 mg target."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "570a7d56-5e97-44d7-ac45-7e30476d4676",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42814954/",
+      "title": "Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity",
+      "publisher": "New England Journal of Medicine / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/retatrutide",
+      "title": "Retatrutide Protocol Guide: Starting Dose, Titration & Reconstitution",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "dfaf75c2-88f8-4271-8572-38af724691ae",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-phase-2-retatrutide-results-published-new-england-journal",
+      "title": "Lilly phase 2 retatrutide obesity trial results",
+      "publisher": "Eli Lilly and Company",
+      "type": "manufacturer",
+      "publishedAt": "2023-06-26"
+    },
+    {
+      "id": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/retatrutide",
+      "title": "Retatrutide Cycle Length: What Clinical Trials Actually Studied",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "同じ第2相試験の用量群です。中間の増量手順の情報が不完全である問題は未解決です。",
+      "supports": [
+        "/trial_arms"
+      ]
+    },
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "dfaf75c2-88f8-4271-8572-38af724691ae",
+      "locator": "About The Study (NCT04881760)",
+      "evidenceNote": "試験群と治療期間は明示されていますが、中間の増量段階は記載されていません。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間・休薬に関する背景エビデンスです。用量、製品の添付文書、投与経路、または対象集団に固有の指示に代わるものではありません。",
+      "supports": []
+    },
+    {
+      "protocolID": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "sourceID": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目が記載されています。一次資料による検証は保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/trial_target_options",
+        "/target_rule"
+      ]
+    },
+    {
+      "protocolID": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "sourceID": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間・休薬に関する背景エビデンスです。用量、製品の添付文書、投与経路、または対象集団に固有の指示に代わるものではありません。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "glp-3",
+      "sourceID": "570a7d56-5e97-44d7-ac45-7e30476d4676",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "2026年九月29日公表です。TRIUMPH-1では2,339人の参加者を無作為に割り付け、80週間にわたる体重、変形性関節症の疼痛、および睡眠時無呼吸の結果を報告しています。カテゴリの根拠：体重と代謝：主に研究された有益性は肥満治療であり、肥満関連症状についても一部の結果が報告されています。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重と代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

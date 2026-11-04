@@ -1,0 +1,434 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glow-blend",
+      "name": "GLOW Blend",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": "Fundamentação proposta para recuperação e remodelação da pele: esta mistura combina BPC-157, TB-500 e GHK-Cu. As pesquisas sobre os componentes individuais incluem achados sobre reparo de feridas com BPC-157 em ratos e sobre tecido conjuntivo com GHK-Cu em feridas de ratos. Esses achados explicam os objetivos da pesquisa; não demonstram benefícios da mistura pré-formulada. Não foi encontrado nenhum estudo direto de eficácia da combinação, e a sequência do TB-500 permanece sem confirmação."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "98fab0e6-b9b1-497f-a1a1-993cdfa3258a",
+      "productID": "glow-blend",
+      "title": "Pré-mistura GLOW 5:1:1 — referência diária descrita pela fonte",
+      "purpose": "Planejamento comunitário de reparo tecidual e remodelação da pele",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Protocolo editorial/comunitário de fonte secundária, sem validação clínica independente. Todas as precauções, instruções de preparo, armazenamento e horários descritos pela fonte exigem revisão.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "tissue_repair_and_skin_remodeling",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "ghk-cu",
+              "name": "GHK-Cu",
+              "ratio_part": "5"
+            },
+            {
+              "library_item_id": "tb-500",
+              "name": "TB-500",
+              "ratio_part": "1",
+              "exact_sequence": null
+            },
+            {
+              "library_item_id": "bpc-157",
+              "name": "BPC-157",
+              "ratio_part": "1"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "70",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "ghk-cu",
+                "value": "50",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              }
+            ],
+            "source_reported_concentration": {
+              "value": "23.3",
+              "unit": "mg/mL",
+              "approximate": true
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Ciclo típico",
+            "duration": {
+              "kind": "range",
+              "minimum": 28,
+              "maximum": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.33",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.1",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "10",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            },
+            "component_doses": [
+              {
+                "component_id": "ghk-cu",
+                "dose": {
+                  "value": "1.67",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "dose": {
+                  "value": "0.33",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "bpc-157",
+                "dose": {
+                  "value": "0.33",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing": null,
+          "basis": "not_reported",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "Protocolo de dosagem e cronograma; Perguntas frequentes"
+          }
+        },
+        "cycle_guidance": {
+          "options": [
+            {
+              "label": "padrão",
+              "on": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 42,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 14,
+                "maximum": 28,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "prolongado",
+              "on": {
+                "kind": "range",
+                "minimum": 56,
+                "maximum": 84,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 56,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "focado na pele",
+              "on": {
+                "kind": "fixed",
+                "value": 28,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 14,
+                "maximum": 28,
+                "unit": "day"
+              }
+            }
+          ],
+          "conflicting_guidance": {
+            "on": {
+              "kind": "range",
+              "minimum": 30,
+              "maximum": 60,
+              "unit": "day"
+            },
+            "off": "equal_time_off"
+          },
+          "repeat_rule": null,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "Orientações sobre ciclos; Notas do protocolo"
+          }
+        },
+        "storage": {
+          "dry": {
+            "temperature_c": "-20",
+            "protect_from_light": true,
+            "expiry": null
+          },
+          "reconstituted": {
+            "temperature_c": {
+              "minimum": "2",
+              "maximum": "8"
+            },
+            "premix_use_within": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 14,
+              "unit": "day"
+            },
+            "component_use_within": [
+              {
+                "component_id": "bpc-157",
+                "duration": {
+                  "kind": "maximum",
+                  "value": 30,
+                  "unit": "day"
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "duration": {
+                  "kind": "range",
+                  "minimum": 7,
+                  "maximum": 14,
+                  "unit": "day"
+                }
+              },
+              {
+                "component_id": "ghk-cu",
+                "duration": {
+                  "kind": "maximum",
+                  "value": 30,
+                  "unit": "day"
+                }
+              }
+            ]
+          },
+          "notes": "As alegações de estabilidade da fonte não foram validadas de forma independente para estes produtos específicos.",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "Guia de reconstituição; Armazenamento e manuseio"
+          }
+        },
+        "cautions": {
+          "exclusions": [
+            "active_or_prior_malignancy",
+            "pregnancy_or_breastfeeding",
+            "copper_metabolism_disorder",
+            "retinal_vascular_disease",
+            "drug_tested_sport"
+          ],
+          "reported_effects": [
+            "local_irritation",
+            "fatigue",
+            "headache"
+          ],
+          "monitoring": [
+            {
+              "markers": [
+                "CBC",
+                "CMP"
+              ],
+              "time": "baseline"
+            },
+            {
+              "markers": [
+                "CRP",
+                "copper",
+                "ceruloplasmin"
+              ],
+              "time": "optional"
+            },
+            {
+              "markers": [
+                "broad_markers"
+              ],
+              "after_start_days": {
+                "minimum": 42,
+                "maximum": 84
+              },
+              "condition": "uso sistêmico contínuo ou mudanças nos sintomas"
+            }
+          ],
+          "clinical_standard_established": false,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "Quem deve evitar; Efeitos colaterais e segurança; Exames de sangue e monitoramento"
+          }
+        },
+        "evidence_context": {
+          "regimen_basis": "community_derived",
+          "direct_combination_trial_reported": false,
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "exact_clock_time",
+          "best_time_of_day",
+          "food_timing",
+          "exact_TB_500_sequence",
+          "cycle_break_conflict",
+          "product_specific_stability_validation"
+        ],
+        "notes": "O volume é a medida usada pela fonte; a massa e as quantidades dos componentes, por serem arredondadas, não devem ser tratadas como conversões exatas. As alegações sobre pausas entre ciclos divergem dentro da página."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8227353/",
+      "title": "In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds",
+      "publisher": "Journal of Clinical Investigation / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "5957a962-1c02-42f4-949e-880179d4c994",
+      "url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+      "title": "GLOW Peptide Guide: BPC-157 + TB-500 + GHK-Cu Stack Dosing Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9403790/",
+      "title": "BPC 157's effect on healing",
+      "publisher": "Journal of Physiology, Paris / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "98fab0e6-b9b1-497f-a1a1-993cdfa3258a",
+      "sourceID": "5957a962-1c02-42f4-949e-880179d4c994",
+      "locator": "Quick Start; Pre-Blended GLOW Vial Overview; Cycle Guidelines; Reconstitution Guide; Storage & Handling; Blood Tests & Monitoring",
+      "evidenceNote": "Dá suporte aos campos listados conforme descritos pela comunidade; sem validação por ensaio direto da combinação.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "glow-blend",
+      "sourceID": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Resumo do estudo original em ratos lido. Fundamentação apenas dos componentes; nenhuma mistura GLOW foi testada. Justificativa da categoria: classificação provisória com base na finalidade de remodelação da pele e do colágeno declarada pela fonte; nenhum benefício do tratamento combinado foi estabelecido.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glow-blend",
+      "sourceID": "5957a962-1c02-42f4-949e-880179d4c994",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Lido apenas para identificar a mistura e sua finalidade pretendida nesta biblioteca. A página afirma explicitamente que não há ensaios da combinação em humanos e que sua fundamentação deriva dos componentes. Não constitui evidência de eficácia. Justificativa da categoria: classificação provisória com base na finalidade de remodelação da pele e do colágeno declarada pela fonte; nenhum benefício do tratamento combinado foi estabelecido.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glow-blend",
+      "sourceID": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Resumo do estudo original em ratos lido. Fundamentação apenas dos componentes; nenhuma mistura GLOW foi testada. Justificativa da categoria: classificação provisória com base na finalidade de remodelação da pele e do colágeno declarada pela fonte; nenhum benefício do tratamento combinado foi estabelecido.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Antienvelhecimento e pele"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

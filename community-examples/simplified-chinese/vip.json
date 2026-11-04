@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vip",
+      "name": "VIP（Vasoactive intestinal peptide，血管活性肠肽）",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "在一项小规模生理学研究中，研究性吸入 VIP/aviptadil 产生了短暂的肺血管扩张作用。用于疾病治疗的证据仍不一致，且因给药途径而异：一项规模更大的静脉给予 aviptadil 的安慰剂对照试验未改善 COVID-19 呼吸衰竭的结局。这并不能确立鼻内给药保健、慢性疲劳或非特异性炎症方案的益处。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "62d8ffb1-9108-480e-9b62-ecc435ff03c0",
+      "productID": "vip",
+      "title": "VIP — 来源所述每周五次的临床模式参考方案",
+      "purpose": "来源所述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性或社区描述。独立来源验证及纳入应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vip"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+              "locator": "VIP 肽复溶指南 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "临床模式持续用药",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 5,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/vip",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": [
+            {
+              "section": "VIP 肽的储存与处理",
+              "subsection": "外观",
+              "rows": [
+                [
+                  "",
+                  "VIP"
+                ],
+                [
+                  "冻干（粉末形式）",
+                  "-4F（-20C）长期储存"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4F（2-8C）"
+                ],
+                [
+                  "外观",
+                  "澄清、无色"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_statements": [
+            {
+              "section": "哪些人应避免使用 VIP",
+              "subsection": "",
+              "excerpt": "部分人群在没有密切医疗指导的情况下不应使用 VIP。由于 VIP 可影响胰腺，任何有胰腺炎病史或脂肪酶水平上升的人都应避免使用或停用。",
+              "truncated": false
+            },
+            {
+              "section": "哪些人应避免使用 VIP",
+              "subsection": "",
+              "excerpt": "妊娠期或哺乳期人群（安全性尚未确立）。",
+              "truncated": false
+            },
+            {
+              "section": "哪些人应避免使用 VIP",
+              "subsection": "",
+              "excerpt": "患有活动期癌症的人应先咨询医生；某些肿瘤中的 VIP 受体过度表达，这在理论上令人担忧。",
+              "truncated": false
+            },
+            {
+              "section": "常见问题",
+              "subsection": "Q10：哪些人应避免使用 VIP 肽？",
+              "excerpt": "有胰腺炎病史或脂肪酶升高的人、妊娠期或哺乳期人群、血压极低的人以及患有活动期癌症的人，在没有密切医疗指导的情况下不应使用 VIP。临床医生应先审阅您的完整病史。",
+              "truncated": false
+            },
+            {
+              "section": "VIP 预期时间进程与监测",
+              "subsection": "",
+              "excerpt": "应对供应商资料中按周列出的“获益时间表”持怀疑态度。这些是营销摘要，而非试验终点，其中列出的病症远远超出了证据所支持的范围。",
+              "truncated": false
+            },
+            {
+              "section": "VIP 预期时间进程与监测",
+              "subsection": "",
+              "excerpt": "在受监督的 VIP 研究中，监测比固定时间表更为重要。在临床 CIRS 方案中，首次给药后、用药约两周时以及每次增加剂量后均会复查脂肪酶，并对症状和实验室指标进行更长期的跟踪。对于大多数被推广的 VIP 用途，仍没有强有力的试验证据表明存在可预测的益处",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "具有广泛生物活性的多肽：从小肠中分离。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5411915/"
+          },
+          {
+            "label": "在美国静脉给予 aviptadil 和 remdesivir 治疗 COVID-19 相关低氧性呼吸衰竭（TESICO）：一项随机、安慰剂对照试验。",
+            "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23)00147-9/fulltext"
+          },
+          {
+            "label": "静脉给予 Aviptadil 治疗伴呼吸衰竭的危重型 COVID-19（NCT04311697）。",
+            "url": "https://clinicaltrials.gov/study/NCT04311697"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide（VIP）可纠正暴露于水损建筑后发生的慢性炎症反应综合征（CIRS）。",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=28586"
+          },
+          {
+            "label": "对接受 VIP 治疗的 CIRS 患者进行 RNA-Seq 分析显示，其代谢状态和先天免疫功能的变化与康复同步发生。",
+            "url": "https://esmed.org/MRA/mra/article/view/862"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide/phentolamine 用于阴茎海绵体内注射治疗勃起功能障碍。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18485029/"
+          },
+          {
+            "label": "阴茎海绵体内注射 aviptadil 和 phentolamine 治疗难治性勃起功能障碍。",
+            "url": "https://academic.oup.com/jsm/article-abstract/22/5/726/8107665"
+          },
+          {
+            "label": "根据《联邦食品、药品和化妆品法》（FD&C Act）第 503A 条用于药物配制的原料药物质。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          },
+          {
+            "label": "FDA 对肽的监管可能发生变化：VIP、GHK-Cu 及其他肽的药物配制类别。",
+            "url": "https://www.frierlevitt.com/articles/fda-peptide-regulation-rfk-announcement-compounding-pharmacies/"
+          },
+          {
+            "label": "FDA 拒绝了 Zyesami（aviptadil）用于 COVID-19 的 EUA 申请。",
+            "url": "https://www.managedhealthcareexecutive.com/view/fda-declines-eua-request-for-zyesami-for-covid-19"
+          },
+          {
+            "label": "aviptadil（合成 VIP）的预期药理作用：VPAC 受体机制与肺生物学。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630992/"
+          }
+        ],
+        "unresolved_fields": [
+          "weekdays",
+          "exact_clock_times",
+          "clinical_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "仅供来源参考；尚未审阅。表格及独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "66a5942e-d8cc-4557-8423-6f325c80529a",
+      "productID": "vip",
+      "title": "VIP — 来源所述的皮下注射起始与持续用药剂量选项",
+      "purpose": "来源所述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性或社区描述。独立来源验证及纳入应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vip"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+              "locator": "VIP 肽复溶指南 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "保守起始",
+            "duration": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "标准或进阶持续用药选项",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "100",
+                "200"
+              ],
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "每日 1-2 次"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/vip",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": [
+            {
+              "section": "VIP 肽的储存与处理",
+              "subsection": "外观",
+              "rows": [
+                [
+                  "",
+                  "VIP"
+                ],
+                [
+                  "冻干（粉末形式）",
+                  "-4F（-20C）长期储存"
+                ],
+                [
+                  "复溶后（液体形式）",
+                  "35.6-46.4F（2-8C）"
+                ],
+                [
+                  "外观",
+                  "澄清、无色"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_statements": [
+            {
+              "section": "哪些人应避免使用 VIP",
+              "subsection": "",
+              "excerpt": "部分人群在没有密切医疗指导的情况下不应使用 VIP。由于 VIP 可影响胰腺，任何有胰腺炎病史或脂肪酶水平上升的人都应避免使用或停用。",
+              "truncated": false
+            },
+            {
+              "section": "哪些人应避免使用 VIP",
+              "subsection": "",
+              "excerpt": "妊娠期或哺乳期人群（安全性尚未确立）。",
+              "truncated": false
+            },
+            {
+              "section": "哪些人应避免使用 VIP",
+              "subsection": "",
+              "excerpt": "患有活动期癌症的人应先咨询医生；某些肿瘤中的 VIP 受体过度表达，这在理论上令人担忧。",
+              "truncated": false
+            },
+            {
+              "section": "常见问题",
+              "subsection": "Q10：哪些人应避免使用 VIP 肽？",
+              "excerpt": "有胰腺炎病史或脂肪酶升高的人、妊娠期或哺乳期人群、血压极低的人以及患有活动期癌症的人，在没有密切医疗指导的情况下不应使用 VIP。临床医生应先审阅您的完整病史。",
+              "truncated": false
+            },
+            {
+              "section": "VIP 预期时间进程与监测",
+              "subsection": "",
+              "excerpt": "应对供应商资料中按周列出的“获益时间表”持怀疑态度。这些是营销摘要，而非试验终点，其中列出的病症远远超出了证据所支持的范围。",
+              "truncated": false
+            },
+            {
+              "section": "VIP 预期时间进程与监测",
+              "subsection": "",
+              "excerpt": "在受监督的 VIP 研究中，监测比固定时间表更为重要。在临床 CIRS 方案中，首次给药后、用药约两周时以及每次增加剂量后均会复查脂肪酶，并对症状和实验室指标进行更长期的跟踪。对于大多数被推广的 VIP 用途，仍没有强有力的试验证据表明存在可预测的益处",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "具有广泛生物活性的多肽：从小肠中分离。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5411915/"
+          },
+          {
+            "label": "在美国静脉给予 aviptadil 和 remdesivir 治疗 COVID-19 相关低氧性呼吸衰竭（TESICO）：一项随机、安慰剂对照试验。",
+            "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23)00147-9/fulltext"
+          },
+          {
+            "label": "静脉给予 Aviptadil 治疗伴呼吸衰竭的危重型 COVID-19（NCT04311697）。",
+            "url": "https://clinicaltrials.gov/study/NCT04311697"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide（VIP）可纠正暴露于水损建筑后发生的慢性炎症反应综合征（CIRS）。",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=28586"
+          },
+          {
+            "label": "对接受 VIP 治疗的 CIRS 患者进行 RNA-Seq 分析显示，其代谢状态和先天免疫功能的变化与康复同步发生。",
+            "url": "https://esmed.org/MRA/mra/article/view/862"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide/phentolamine 用于阴茎海绵体内注射治疗勃起功能障碍。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18485029/"
+          },
+          {
+            "label": "阴茎海绵体内注射 aviptadil 和 phentolamine 治疗难治性勃起功能障碍。",
+            "url": "https://academic.oup.com/jsm/article-abstract/22/5/726/8107665"
+          },
+          {
+            "label": "根据《联邦食品、药品和化妆品法》（FD&C Act）第 503A 条用于药物配制的原料药物质。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          },
+          {
+            "label": "FDA 对肽的监管可能发生变化：VIP、GHK-Cu 及其他肽的药物配制类别。",
+            "url": "https://www.frierlevitt.com/articles/fda-peptide-regulation-rfk-announcement-compounding-pharmacies/"
+          },
+          {
+            "label": "FDA 拒绝了 Zyesami（aviptadil）用于 COVID-19 的 EUA 申请。",
+            "url": "https://www.managedhealthcareexecutive.com/view/fda-declines-eua-request-for-zyesami-for-covid-19"
+          },
+          {
+            "label": "aviptadil（合成 VIP）的预期药理作用：VPAC 受体机制与肺生物学。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630992/"
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_dose_and_frequency_choice",
+          "best_time_of_day",
+          "human_subcutaneous_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "仅供来源参考；尚未审阅。表格及独立参考文献仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "url": "https://www.peptidedosingprotocols.com/protocol/vip",
+      "title": "VIP Peptide Dosing Guide: Vasoactive Intestinal Peptide Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "76e3f0c9-e124-4e82-8139-e68924c35ccf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10527239/",
+      "title": "Intravenous aviptadil and remdesivir for treatment of COVID-19-associated hypoxaemic respiratory failure in the USA (TESICO): a randomised, placebo-controlled trial",
+      "publisher": "The Lancet Respiratory Medicine",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "bdb7ce6a-a6b4-4c6d-b12f-f5facc092507",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18978135/",
+      "title": "Inhalation of vasoactive intestinal peptide in pulmonary hypertension",
+      "publisher": "European Respiratory Journal / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "62d8ffb1-9108-480e-9b62-ecc435ff03c0",
+      "sourceID": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源验证仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "66a5942e-d8cc-4557-8423-6f325c80529a",
+      "sourceID": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源验证仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "vip",
+      "sourceID": "76e3f0c9-e124-4e82-8139-e68924c35ccf",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始研究的结果和结论。461 人接受了盲法输注；aviptadil 未改善第 90 天的恢复情况或其他临床终点。分类依据：经核实的研究涉及肺血管生理学和严重呼吸系统疾病。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "vip",
+      "sourceID": "bdb7ce6a-a6b4-4c6d-b12f-f5facc092507",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始收录摘要。二十名患者；吸入后出现急性血流动力学反应，尚未确立长期临床益处。分类依据：经核实的研究涉及肺血管生理学和严重呼吸系统疾病。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

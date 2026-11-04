@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ipamorelin",
+      "name": "Ipamorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "実証された生物学的作用：ヒトのボランティアを対象とした小規模な薬理学的研究で、一過性の成長ホルモン分泌が認められました。これはバイオマーカーの反応であり、筋肉、回復、睡眠、脂肪減少、長寿に関する有益性は実証されていません。術後イレウスを対象としたランダム化試験では、主要評価項目である食事耐容能に統計学的に有意な改善は認められませんでした。これらの静脈内投与の研究は、本ライブラリに収載された健康増進目的の皮下投与レジメンやipamorelinを含むスタックの臨床的有益性も確立するものではありません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "productID": "ipamorelin",
+      "title": "Ipamorelin — 用量の基準に矛盾がある、出典に記載された日量合計の漸増",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事／コミュニティによる記述です。出典の独立した検証とアプリの既定値への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "ipamorelin"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin再溶解ガイド / mLおよび U-100 シリンジの目盛りによるIpamorelinの投与量"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin再溶解ガイド / mLおよび U-100 シリンジの目盛りによるIpamorelinの投与量"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin再溶解ガイド / mLおよび U-100 シリンジの目盛りによるIpamorelinの投与量"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "評価：第1週",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "用量漸増：第2–3週",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "毎日1-2回"
+            }
+          },
+          {
+            "name": "標準：第4–8週",
+            "duration": {
+              "kind": "fixed",
+              "value": 35,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "毎日1-2回"
+            }
+          },
+          {
+            "name": "延長：第9–12週",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "毎日1-2回"
+            }
+          },
+          {
+            "name": "休薬期間",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "休薬期間"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "bedtime",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted"
+          },
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ipamorelin",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          },
+          "optional_split_windows": [
+            "morning",
+            "bedtime"
+          ]
+        },
+        "cycle_guidance": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/ipamorelin",
+              "source_tables": [
+                {
+                  "section": "Ipamorelinのサイクル表：8週間、12週間、16週間の比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "サイクル期間",
+                      "一般的な説明",
+                      "公表されたIpamorelinのエビデンス",
+                      "エビデンスの水準"
+                    ],
+                    [
+                      "8週間",
+                      "コミュニティでの短めのサイクル",
+                      "8週間の皮下投与サイクルを確立したヒト試験はありません",
+                      "コミュニティでの慣行"
+                    ],
+                    [
+                      "12週間",
+                      "コミュニティで一般的なサイクル終了時点",
+                      "12週間の皮下投与サイクルを確立したヒト試験はありません",
+                      "コミュニティでの慣行"
+                    ],
+                    [
+                      "16週間",
+                      "コミュニティでの長期または延長サイクル",
+                      "16週間の皮下投与サイクルを確立したヒト試験はありません",
+                      "コミュニティでの慣行"
+                    ],
+                    [
+                      "最長7日間",
+                      "公表された術後試験での曝露期間",
+                      "術後1日目から7日目または退院までのIpamorelin静脈内投与",
+                      "ヒト臨床研究"
+                    ],
+                    [
+                      "最長10日間",
+                      "第II相試験の評価期間",
+                      "反復静脈内投与群で、最長10日間にわたり転帰を評価しました",
+                      "ヒト臨床研究"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Ipamorelinのヒト研究で実際に検証された内容",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "研究",
+                      "対象集団",
+                      "投与経路",
+                      "期間",
+                      "研究から分かること"
+                    ],
+                    [
+                      "Gobburuら 1999",
+                      "健康な男性ボランティア",
+                      "静脈内点滴投与",
+                      "15分間の単回点滴投与",
+                      "薬物動態／薬力学を明らかにし、終末相半減期は約2時間と報告しました。複数週にわたるサイクルは検証していません。"
+                    ],
+                    [
+                      "Beckら 2014 / NCT00672074",
+                      "腸切除術を受けた患者",
+                      "静脈内点滴投与",
+                      "術後1-7日目または退院まで",
+                      "術後イレウスに対する短期間の反復曝露を検証しました。長期の皮下投与サイクルの妥当性は確認していません。"
+                    ],
+                    [
+                      "NCT01280344",
+                      "腸切除術を受けた患者",
+                      "静脈内点滴投与",
+                      "最長10日間にわたり転帰を評価しました",
+                      "反復静脈内投与群を比較しました。8週間、12週間、16週間のサイクルは確立していません。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Ipamorelinの半減期とサイクル期間の比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "用語",
+                      "意味",
+                      "エビデンスが示す内容"
+                    ],
+                    [
+                      "半減期",
+                      "薬物の消失に関連する時間",
+                      "1999年のヒト薬物動態／薬力学研究では、静脈内点滴投与後に約2時間でした"
+                    ],
+                    [
+                      "GH反応の時間枠",
+                      "曝露後の短時間のホルモン反応",
+                      "1999年の静脈内投与研究では、GHは約0.67時間でピークに達しました"
+                    ],
+                    [
+                      "サイクル期間",
+                      "反復スケジュールの合計週数",
+                      "8週間、12週間、16週間の皮下投与期間の妥当性は確認されていません"
+                    ],
+                    [
+                      "休薬期間",
+                      "曝露を行わない計画的な期間",
+                      "Ipamorelinのヒト試験では、4週間のウォッシュアウトという規則の妥当性は確認されていません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "公表されたエビデンスとコミュニティのサイクルスケジュールの比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "主張",
+                      "エビデンスの状況",
+                      "提示の仕方"
+                    ],
+                    [
+                      "Ipamorelinにはヒトの薬物動態／薬力学データがあります",
+                      "裏付けられています",
+                      "公表されたヒトの静脈内投与研究"
+                    ],
+                    [
+                      "Ipamorelinは腸手術後の反復投与で研究されました",
+                      "裏付けられています",
+                      "公表された第II相の静脈内投与研究"
+                    ],
+                    [
+                      "8週間が最適なサイクル期間です",
+                      "確立されていません",
+                      "コミュニティでの慣行にすぎません"
+                    ],
+                    [
+                      "12週間が標準的な臨床サイクルです",
+                      "確立されていません",
+                      "コミュニティでの慣行にすぎません"
+                    ],
+                    [
+                      "16週間の安全性またはより高い有効性は実証されています",
+                      "確立されていません",
+                      "実証された主張として提示しないでください"
+                    ],
+                    [
+                      "感受性を回復するには4週間の休薬が必要です",
+                      "確立されていません",
+                      "コミュニティでの理論的根拠であり、ヒトで妥当性が確認された規則ではありません"
+                    ],
+                    [
+                      "2時間の半減期が複数週にわたるサイクル期間を裏付けます",
+                      "誤った推論です",
+                      "半減期とサイクル期間は別の概念です"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_tables": [
+            {
+              "section": "Ipamorelinの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "温度",
+                  "期間"
+                ],
+                [
+                  "凍結乾燥粉末",
+                  "-4F (-20C)",
+                  "長期（数か月から数年）"
+                ],
+                [
+                  "凍結乾燥粉末",
+                  "36-46F (2-8C)",
+                  "数か月"
+                ],
+                [
+                  "凍結乾燥粉末",
+                  "室温",
+                  "数週間（輸送期間）"
+                ],
+                [
+                  "再溶解後（液体）",
+                  "36-46F (2-8C)",
+                  "最長28日間"
+                ],
+                [
+                  "再溶解後、小分けして凍結したもの",
+                  "-4F (-20C)",
+                  "3-4か月"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_statements": [
+            {
+              "section": "Ipamorelinの対象となる方と使用を避けるべき方",
+              "subsection": "使用を避けるべき場合",
+              "excerpt": "活動性のがん、または最近のがんの既往がある場合です。GHとIGF-1は細胞増殖を促進する可能性があります。現在がんがある方、または最近がんを患った方は、GHを上昇させる化合物の使用を避けるべきです。",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelinの対象となる方と使用を避けるべき方",
+              "subsection": "使用を避けるべき場合",
+              "excerpt": "妊娠中または授乳中の場合です。いずれの集団についてもipamorelinの安全性データはありません。",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelinの対象となる方と使用を避けるべき方",
+              "subsection": "特に注意して使用する場合",
+              "excerpt": "がんの濃厚な家族歴がある場合です。",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelinの対象となる方と使用を避けるべき方",
+              "subsection": "特に注意して使用する場合",
+              "excerpt": "糖尿病予備群であるか、空腹時血糖が正常範囲の上限に近い場合です。",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelinの対象となる方と使用を避けるべき方",
+              "subsection": "モニタリングの範囲と限界",
+              "excerpt": "一部の臨床家は、長期間のipamorelinプロトコルの開始前および実施中に空腹時血糖とHbA1cを確認しています。このページは医学的助言ではありません。研究用化合物の使用を開始、継続、または中止するかどうかの判断は、本人と有資格の臨床医との間で行うものです。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Ipamorelin：初の選択的成長ホルモン分泌促進薬。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9849822/"
+          },
+          {
+            "label": "ヒトボランティアにおける成長ホルモン放出ペプチドipamorelinの薬物動態・薬力学モデリング。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/"
+          },
+          {
+            "label": "腸切除患者の術後イレウス管理におけるGhrelin模倣薬ipamorelinの前向きランダム化対照概念実証研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/"
+          },
+          {
+            "label": "成長ホルモン分泌促進薬：歴史、作用機序、臨床開発。",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/rco2.9"
+          },
+          {
+            "label": "新規経口GH分泌促進薬NN703の薬理学的特性評価。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10427163/"
+          },
+          {
+            "label": "消化管機能の回復におけるIpamorelinの安全性および有効性のプラセボとの比較（NCT01280344）。",
+            "url": "https://clinicaltrials.gov/study/NCT01280344"
+          },
+          {
+            "label": "術後イレウスに対するIpamorelin（NCT00672074）。",
+            "url": "https://clinicaltrials.gov/study/NCT00672074"
+          },
+          {
+            "label": "第503A条に基づく原薬を用いた調剤に関する暫定方針 — カテゴリー2リストとPCAC審査の最新情報。",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA概要報告書：Ipamorelin Acetate（PCAC審査資料）。",
+            "url": "https://downloads.regulations.gov/FDA-2015-N-3469-0293/attachment_1.pdf"
+          },
+          {
+            "label": "術後イレウス：薬理学的観点。",
+            "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.15800"
+          },
+          {
+            "label": "成長ホルモン分泌促進薬が体組成と骨の健康に及ぼす影響に関するレビュー。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28526632/"
+          },
+          {
+            "label": "禁止表 — S2 ペプチドホルモン、成長因子、関連物質および模倣物質（ghrelin模倣薬を含みます）。",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "daily_total_table_vs_per_shot_FAQ_conflict",
+          "daily_count_choice",
+          "optional_extension_to_week_16",
+          "exact_clock_times"
+        ],
+        "notes": "出典の参照情報のみで、未審査です。表および独立した参考文献は出典記録に引き続き収載されています。主要な表では日量合計と記載されていますが、FAQでは後の段階の量を注射ごとの量としています。この合計量を、説明なしに各注射の量として扱わないでください。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "45812810-3288-4d83-aa7e-c22dfa354046",
+      "url": "https://www.peptidedosingprotocols.com/protocol/ipamorelin",
+      "title": "Ipamorelin Peptide Dosing Guide: Timing, Protocol & Side Effects (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/ipamorelin",
+      "title": "Ipamorelin Cycle Length: 8, 12 & 16 Week Research Context",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (1999)",
+      "publisher": "Pharmaceutical Research, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cd1441f4-06da-49da-8b9f-f2c7fc4b61ec",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/",
+      "title": "Randomized proof-of-concept study of ipamorelin for postoperative ileus (2014)",
+      "publisher": "International Journal of Colorectal Disease, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "sourceID": "45812810-3288-4d83-aa7e-c22dfa354046",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目が記載されています。一次資料の検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "sourceID": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間と休薬に関する背景エビデンスです。投与量、製品の添付文書、投与経路、または対象集団ごとの指示に代わるものではありません。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "ipamorelin",
+      "sourceID": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "静脈内投与後のGHバイオマーカー反応であり、臨床的有益性を検証する試験ではありません。カテゴリー分類の根拠：成長ホルモン：ヒトでのGH分泌を示す直接的なエビデンスがあり、臨床的有益性は確立されていません。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "ipamorelin",
+      "sourceID": "cd1441f4-06da-49da-8b9f-f2c7fc4b61ec",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "登録者は117人です。主要な有効性比較はp=0.15で、統計学的に有意ではありませんでした。カテゴリー分類の根拠：成長ホルモン：ヒトでのGH分泌を示す直接的なエビデンスがあり、臨床的有益性は確立されていません。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "成長ホルモン"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

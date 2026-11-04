@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dspi",
+      "name": "DSIP (Delta Sleep-Inducing Peptide; 델타 수면 유도 펩타이드)",
+      "aliases": [
+        "DSPI (Delta sleep inducing peptide)",
+        "DSPI",
+        "DSIP",
+        "Emideltide"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": "연구 단계의 수면 및 회복 관련 이점: 서파(델타) 수면과 수면 구조에 대해 연구되었으며, 코르티솔 및 스트레스 조절, 통증 완화와 회복에 관여할 가능성이 제안되었어요. DSIP는 일반적인 진정제보다는 신경조절물질로 설명돼요. 인체 수면 연구 결과는 미미하고 서로 엇갈려요. 일관된 회복성 수면, 만성 통증 완화, 주간 졸림이나 의존성이 없다는 점은 확실히 입증되지 않았어요. 정맥 투여 연구 결과가 모든 투여 방법의 이점을 입증하지는 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "e62b5bbb-408d-4794-b835-1b107cfa022e",
+      "productID": "dspi",
+      "title": "DSIP — 출처 커뮤니티의 저녁 용량 범위",
+      "purpose": "출처에 기술된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티 설명이에요. 독립적인 출처 검증과 앱 기본값 채택은 보류 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "dspi"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+              "locator": "DSIP 재용해 가이드 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "커뮤니티의 저녁 투여 계획 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "total_product",
+              "range_options": [
+                {
+                  "minimum": "100",
+                  "maximum": "200"
+                },
+                {
+                  "minimum": "200",
+                  "maximum": "300"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [
+            {
+              "anchor": "intended_sleep",
+              "relationship": "before",
+              "offset": {
+                "minimum": 60,
+                "maximum": 180,
+                "unit": "minute"
+              }
+            }
+          ],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/dsip",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_tables": [
+            {
+              "section": "DSIP 투여 프로토콜 및 일정",
+              "subsection": "주기 지침",
+              "rows": [
+                [
+                  "접근 방식",
+                  "기간",
+                  "검토 시점",
+                  "일반적인 맥락"
+                ],
+                [
+                  "단기 과정",
+                  "5-7일 밤",
+                  "1주 차 말",
+                  "발표된 인체 시험 기간을 반영해요."
+                ],
+                [
+                  "표준 주기",
+                  "4주",
+                  "4주 차",
+                  "일반적인 연구 계획 수립 맥락이에요."
+                ],
+                [
+                  "연장 주기",
+                  "6-8주",
+                  "6주 차",
+                  "덜 일반적이며, 장기 안전성 자료는 제한적이에요."
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_tables": [
+            {
+              "section": "DSIP 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "보관",
+                  "참고 사항"
+                ],
+                [
+                  "동결건조 상태(분말 형태)",
+                  "-4F (-20C)에서 장기 보관",
+                  "공급업체의 표시 사항과 안정성 자료를 따르고 빛을 피해 보관해요."
+                ],
+                [
+                  "재용해 상태(액체 형태)",
+                  "35.6-46.4F (2-8C)",
+                  "일반적인 연구용 펩타이드의 안정성 유지 기간 내에 사용하고, 공급업체 지침을 참조해요."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_statements": [
+            {
+              "section": "DSIP의 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "",
+              "excerpt": "임신 및 수유: 연구되지 않았으므로 사용을 피해야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "DSIP 부작용 및 안전성",
+              "subsection": "보고된 위험과 이론적 위험",
+              "excerpt": "연구 보고에서 아침에 몸이 나른하거나 꿈이 생생해질 가능성이 기술되었어요.",
+              "truncated": false
+            },
+            {
+              "section": "DSIP 부작용 및 안전성",
+              "subsection": "보고된 위험과 이론적 위험",
+              "excerpt": "HPA축 호르몬과 상호작용할 가능성이 있으며, 최근 임상시험에서는 그 특성이 규명되지 않았어요.",
+              "truncated": false
+            },
+            {
+              "section": "DSIP의 시간 경과와 관찰할 사항",
+              "subsection": "",
+              "excerpt": "이전 시험에서는 투여 첫날 밤이나 둘째 날 밤에 수면다원검사를 사용하여 수면 구조 변화를 측정했어요. 주관적인 수면의 질 변화가 때때로 보고된 시점은",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Delta-sleep-inducing peptide (DSIP): 종설.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6145137/"
+          },
+          {
+            "label": "Delta-sleep-inducing peptide (DSIP): 최신 검토.",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/0149763484900228"
+          },
+          {
+            "label": "Delta sleep-inducing peptide (DSIP): 여전히 풀리지 않은 수수께끼.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1471-4159.2006.03693.x"
+          },
+          {
+            "label": "합성 DSIP (delta-sleep-inducing-peptide)가 사람의 수면 장애에 미치는 영향.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7028502/"
+          },
+          {
+            "label": "Delta-sleep-inducing peptide가 중증 만성 불면증에서 24시간 수면-각성 행동에 미치는 영향.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3622582/"
+          },
+          {
+            "label": "만성 불면증 환자에게 단기간 투여한 delta sleep-inducing peptide의 수면 개선 효능 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3583493/"
+          },
+          {
+            "label": "Delta sleep-inducing peptide는 국소 뇌졸중 후 SD 쥐의 운동 기능을 회복시켜요.",
+            "url": "https://www.mdpi.com/1420-3049/26/17/5173"
+          },
+          {
+            "label": "혈액뇌장벽을 통과하는 Pichia pastoris 분비 펩타이드와 PCPA 유도 불면증 생쥐 모델에서 DSIP 융합 펩타이드의 효능.",
+            "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1439536/full"
+          },
+          {
+            "label": "중대한 안전성 위험을 초래할 수 있는 조제용 특정 원료 의약품(범주 2).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks"
+          },
+          {
+            "label": "Delta sleep-inducing peptide(델타 수면 유도 펩타이드).",
+            "url": "https://journals.lww.com/ejanaesthesiology/fulltext/2001/07000/delta_sleep_inducing_peptide.1.aspx"
+          }
+        ],
+        "unresolved_fields": [
+          "cycle_duration_choice",
+          "range_choice",
+          "human_subcutaneous_validation"
+        ],
+        "notes": "출처 참고용이며, 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "07ef5aae-34be-4471-a48b-8052d34f658a",
+      "url": "https://riteaid.com/peptides/dsip",
+      "title": "DSIP Peptide: Benefits, Dosage & 2026 Legal Status",
+      "publisher": "Rite Aid",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "0b729ba5-232e-48a0-832a-b09e6a3556e1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1299794/",
+      "title": "Effects of delta sleep-inducing peptide on sleep of chronic insomniac patients: a double-blind study (1992)",
+      "publisher": "Neuropsychobiology, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "74c9cc40-9922-40ea-8eac-31b781822052",
+      "url": "https://cenegenics.com/what-is-dsip-delta-sleep-inducing-peptide-benefits-mechanism-and-uses/",
+      "title": "What Is DSIP? Delta Sleep-Inducing Peptide Benefits, Mechanism, and Uses",
+      "publisher": "Cenegenics",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+      "url": "https://www.peptidedosingprotocols.com/protocol/dsip",
+      "title": "DSIP Peptide Dosing Guide: Timing, Protocol & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "e62b5bbb-408d-4794-b835-1b107cfa022e",
+      "sourceID": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에서 이 항목들을 설명하고 있으며, 일차 출처 검증은 보류 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "07ef5aae-34be-4471-a48b-8052d34f658a",
+      "locator": "Research benefits and mechanism sections",
+      "evidenceNote": "소유자 후속 확인 2026-10-15: 소유자가 제공한 이차 개요 자료는 수면, 스트레스 및 통증 연구의 목표를 설명하며, 엄격한 인체 시험이 제한적임을 인정해요. 기전과 신뢰할 수 있는 임상적 이점은 여전히 불확실해요. 범주 분류 근거: 수면 조절과 스트레스 조절은 신경학적 연구 목적이에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "0b729ba5-232e-48a0-832a-b09e6a3556e1",
+      "locator": "Abstract; prior source verification",
+      "evidenceNote": "소유자 후속 확인 2026-10-15: 소규모 맹검 불면증 연구에서 약한 객관적 효과가 보고되었으며, 뚜렷한 단기 치료 이점은 입증되지 않았어요. 이는 근거가 서로 엇갈린다는 단서를 뒷받침하며, 수면, 스트레스, 통증 또는 내약성에 대한 더 강한 주장을 뒷받침하지는 않아요. 범주 분류 근거: 수면 조절과 스트레스 조절은 신경학적 연구 목적이에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "74c9cc40-9922-40ea-8eac-31b781822052",
+      "locator": "Potential benefits and mechanism sections",
+      "evidenceNote": "소유자 후속 확인 2026-10-15: 소유자가 제공한 클리닉 기사는 수면, 스트레스/코르티솔 및 통증에 대한 제안된 활용 방안을 보고해요. 이차 출처의 주장은 제안된 이점으로 기록되며, 이 기사는 임상적 효능이나 부작용이 없다는 점을 입증하지 않아요. 범주 분류 근거: 수면 조절과 스트레스 조절은 신경학적 연구 목적이에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경계"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

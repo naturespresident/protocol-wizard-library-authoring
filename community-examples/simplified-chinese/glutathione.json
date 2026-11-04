@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glutathione",
+      "name": "Glutathione",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "在一项小型安慰剂对照研究中，口服补充剂增加了血液和细胞内的 Glutathione 储备，并改善了部分氧化应激生物标志物。另一项小型脂质体制剂研究报告了类似的生物标志物变化。这些是针对特定制剂的生化发现；它们并不能证实广泛的排毒、疾病预防、抗衰老作用，也不能证实静脉给药方案的益处。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "a94eec42-4085-4299-87ea-6076d46246a5",
+      "productID": "glutathione",
+      "title": "Glutathione — 诊所静脉给药参考范围",
+      "purpose": "来源所述的参考规划",
+      "methodID": "intramuscular",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。尚待独立核实来源，并评估是否提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "source_described_research_or_clinic_context",
+          "indication_context": "Clinic IV reference range",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "clinic_IV_product",
+          "components": [
+            {
+              "library_item_id": "glutathione"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "诊所静脉给药参考范围",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "1200",
+              "unit": "mg",
+              "basis": "per_session"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "week"
+              },
+              "description": "每周1-2次"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": [
+            {
+              "section": "Glutathione 储存与操作",
+              "subsection": "外观",
+              "rows": [
+                [
+                  "",
+                  "口服胶囊／脂质体制剂",
+                  "研究用冻干小瓶",
+                  "复溶后的溶液"
+                ],
+                [
+                  "温度",
+                  "室温、干燥保存",
+                  "-4F（-20C）长期保存",
+                  "35.6-46.4F（2-8C）"
+                ],
+                [
+                  "光照",
+                  "保持密封，避光保存",
+                  "避光保存",
+                  "避光保存"
+                ],
+                [
+                  "外观",
+                  "不适用",
+                  "白色／类白色粉末",
+                  "澄清；若浑浊或有颗粒则丢弃"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_statements": [
+            {
+              "section": "Glutathione 副作用与安全性",
+              "subsection": "质量与无菌风险",
+              "excerpt": "注射剂最大的危险不在于分子本身，而在于产品。2019年一月，一家诊所的七名患者在静脉输注 Glutathione 后数分钟内出现反应，FDA 将此与配制该注射剂所用粉末中的高内毒素水平联系起来。未经监管的注射也存在感染风险（HIV、肝炎），如果",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "口服补充 Glutathione 对体内 Glutathione 储备影响的随机对照试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/"
+          },
+          {
+            "label": "口服补充 Glutathione 对人类志愿者全身氧化应激生物标志物的影响。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710870/"
+          },
+          {
+            "label": "Glutathione 作为口服美白剂：一项随机、双盲、安慰剂对照研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20524875/"
+          },
+          {
+            "label": "Glutathione 含片作为菲律宾女性肤色淡化剂的开放标签、单臂试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26148180/"
+          },
+          {
+            "label": "Glutathione 作为肤色淡化剂及其用于黄褐斑的系统综述。",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.17535"
+          },
+          {
+            "label": "Glutathione 及其抗衰老和抑制黑色素生成的作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28490897/"
+          },
+          {
+            "label": "FDA 强调使用膳食成分 Glutathione 配制无菌注射剂的相关担忧（配制警示）。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables"
+          },
+          {
+            "label": "FDA 第2019-182号通告：将 Glutathione 用作肤色淡化剂的不安全使用。",
+            "url": "https://www.fda.gov.ph/fda-advisory-no-2019-182-unsafe-use-of-glutathione-as-skin-lightening-agent/"
+          },
+          {
+            "label": "Glutathione 治疗非酒精性脂肪性肝病的疗效：一项开放标签、单臂、多中心试点研究。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5549431/"
+          },
+          {
+            "label": "鼻内给予 Glutathione 治疗帕金森病的 IIb 期研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28436395/"
+          },
+          {
+            "label": "鼻内给予 Glutathione 治疗帕金森病的随机、双盲 I/IIa 期研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230671/"
+          },
+          {
+            "label": "口服 Glutathione 在人体内的生物利用度与安全性的靶向代谢组学评估：一项随机交叉临床试验。",
+            "url": "https://www.mdpi.com/2076-3921/15/3/354"
+          },
+          {
+            "label": "N-acetylcysteine 的现有和潜在治疗用途：转化为细胞内 Glutathione 的必要性。",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0163725813001952"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_product",
+          "primary_source_verification"
+        ],
+        "notes": "仅供来源参考；未经审核。表格和独立参考文献仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "b0be692b-9420-4091-bab8-a274ffd220c1",
+      "productID": "glutathione",
+      "title": "Glutathione — 口服胶囊研究范围",
+      "purpose": "来源所述的参考规划",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。尚待独立核实来源，并评估是否提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "source_described_research_or_clinic_context",
+          "indication_context": "Oral capsule research range",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_capsule",
+          "components": [
+            {
+              "library_item_id": "glutathione"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "口服胶囊研究范围",
+            "duration": {
+              "kind": "minimum",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "1000",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted",
+            "basis": "supplement_label_convention_not_proven_requirement"
+          },
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": [
+            {
+              "section": "Glutathione 储存与操作",
+              "subsection": "外观",
+              "rows": [
+                [
+                  "",
+                  "口服胶囊／脂质体制剂",
+                  "研究用冻干小瓶",
+                  "复溶后的溶液"
+                ],
+                [
+                  "温度",
+                  "室温、干燥保存",
+                  "-4F（-20C）长期保存",
+                  "35.6-46.4F（2-8C）"
+                ],
+                [
+                  "光照",
+                  "保持密封，避光保存",
+                  "避光保存",
+                  "避光保存"
+                ],
+                [
+                  "外观",
+                  "不适用",
+                  "白色／类白色粉末",
+                  "澄清；若浑浊或有颗粒则丢弃"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_statements": [
+            {
+              "section": "Glutathione 副作用与安全性",
+              "subsection": "质量与无菌风险",
+              "excerpt": "注射剂最大的危险不在于分子本身，而在于产品。2019年一月，一家诊所的七名患者在静脉输注 Glutathione 后数分钟内出现反应，FDA 将此与配制该注射剂所用粉末中的高内毒素水平联系起来。未经监管的注射也存在感染风险（HIV、肝炎），如果",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "口服补充 Glutathione 对体内 Glutathione 储备影响的随机对照试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/"
+          },
+          {
+            "label": "口服补充 Glutathione 对人类志愿者全身氧化应激生物标志物的影响。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710870/"
+          },
+          {
+            "label": "Glutathione 作为口服美白剂：一项随机、双盲、安慰剂对照研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20524875/"
+          },
+          {
+            "label": "Glutathione 含片作为菲律宾女性肤色淡化剂的开放标签、单臂试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26148180/"
+          },
+          {
+            "label": "Glutathione 作为肤色淡化剂及其用于黄褐斑的系统综述。",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.17535"
+          },
+          {
+            "label": "Glutathione 及其抗衰老和抑制黑色素生成的作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28490897/"
+          },
+          {
+            "label": "FDA 强调使用膳食成分 Glutathione 配制无菌注射剂的相关担忧（配制警示）。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables"
+          },
+          {
+            "label": "FDA 第2019-182号通告：将 Glutathione 用作肤色淡化剂的不安全使用。",
+            "url": "https://www.fda.gov.ph/fda-advisory-no-2019-182-unsafe-use-of-glutathione-as-skin-lightening-agent/"
+          },
+          {
+            "label": "Glutathione 治疗非酒精性脂肪性肝病的疗效：一项开放标签、单臂、多中心试点研究。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5549431/"
+          },
+          {
+            "label": "鼻内给予 Glutathione 治疗帕金森病的 IIb 期研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28436395/"
+          },
+          {
+            "label": "鼻内给予 Glutathione 治疗帕金森病的随机、双盲 I/IIa 期研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230671/"
+          },
+          {
+            "label": "口服 Glutathione 在人体内的生物利用度与安全性的靶向代谢组学评估：一项随机交叉临床试验。",
+            "url": "https://www.mdpi.com/2076-3921/15/3/354"
+          },
+          {
+            "label": "N-acetylcysteine 的现有和潜在治疗用途：转化为细胞内 Glutathione 的必要性。",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0163725813001952"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_product",
+          "primary_source_verification",
+          "calendar_duration_not_converted_to_fixed_days",
+          "daily_administration_count"
+        ],
+        "notes": "仅供来源参考；未经审核。表格和独立参考文献仍可在来源记录中查阅。",
+        "source_calendar_duration": {
+          "value": 6,
+          "unit": "calendar_month",
+          "qualifier": "maximum"
+        }
+      }
+    },
+    {
+      "id": "c73a35d7-498c-4d40-9718-9ee28a3c6c0f",
+      "productID": "glutathione",
+      "title": "Glutathione — 帕金森病鼻内给药试验参考",
+      "purpose": "来源所述的参考规划",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区描述。尚待独立核实来源，并评估是否提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "source_described_research_or_clinic_context",
+          "indication_context": "Parkinson intranasal trial reference",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "nasal_spray",
+          "components": [
+            {
+              "library_item_id": "glutathione"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "帕金森病鼻内给药试验参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "200",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": [
+            {
+              "section": "Glutathione 储存与操作",
+              "subsection": "外观",
+              "rows": [
+                [
+                  "",
+                  "口服胶囊／脂质体制剂",
+                  "研究用冻干小瓶",
+                  "复溶后的溶液"
+                ],
+                [
+                  "温度",
+                  "室温、干燥保存",
+                  "-4F（-20C）长期保存",
+                  "35.6-46.4F（2-8C）"
+                ],
+                [
+                  "光照",
+                  "保持密封，避光保存",
+                  "避光保存",
+                  "避光保存"
+                ],
+                [
+                  "外观",
+                  "不适用",
+                  "白色／类白色粉末",
+                  "澄清；若浑浊或有颗粒则丢弃"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_statements": [
+            {
+              "section": "Glutathione 副作用与安全性",
+              "subsection": "质量与无菌风险",
+              "excerpt": "注射剂最大的危险不在于分子本身，而在于产品。2019年一月，一家诊所的七名患者在静脉输注 Glutathione 后数分钟内出现反应，FDA 将此与配制该注射剂所用粉末中的高内毒素水平联系起来。未经监管的注射也存在感染风险（HIV、肝炎），如果",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "口服补充 Glutathione 对体内 Glutathione 储备影响的随机对照试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/"
+          },
+          {
+            "label": "口服补充 Glutathione 对人类志愿者全身氧化应激生物标志物的影响。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710870/"
+          },
+          {
+            "label": "Glutathione 作为口服美白剂：一项随机、双盲、安慰剂对照研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20524875/"
+          },
+          {
+            "label": "Glutathione 含片作为菲律宾女性肤色淡化剂的开放标签、单臂试验。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26148180/"
+          },
+          {
+            "label": "Glutathione 作为肤色淡化剂及其用于黄褐斑的系统综述。",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.17535"
+          },
+          {
+            "label": "Glutathione 及其抗衰老和抑制黑色素生成的作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28490897/"
+          },
+          {
+            "label": "FDA 强调使用膳食成分 Glutathione 配制无菌注射剂的相关担忧（配制警示）。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables"
+          },
+          {
+            "label": "FDA 第2019-182号通告：将 Glutathione 用作肤色淡化剂的不安全使用。",
+            "url": "https://www.fda.gov.ph/fda-advisory-no-2019-182-unsafe-use-of-glutathione-as-skin-lightening-agent/"
+          },
+          {
+            "label": "Glutathione 治疗非酒精性脂肪性肝病的疗效：一项开放标签、单臂、多中心试点研究。",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5549431/"
+          },
+          {
+            "label": "鼻内给予 Glutathione 治疗帕金森病的 IIb 期研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28436395/"
+          },
+          {
+            "label": "鼻内给予 Glutathione 治疗帕金森病的随机、双盲 I/IIa 期研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230671/"
+          },
+          {
+            "label": "口服 Glutathione 在人体内的生物利用度与安全性的靶向代谢组学评估：一项随机交叉临床试验。",
+            "url": "https://www.mdpi.com/2076-3921/15/3/354"
+          },
+          {
+            "label": "N-acetylcysteine 的现有和潜在治疗用途：转化为细胞内 Glutathione 的必要性。",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0163725813001952"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_product",
+          "primary_source_verification",
+          "calendar_duration_not_converted_to_fixed_days"
+        ],
+        "notes": "仅供来源参考；未经审核。表格和独立参考文献仍可在来源记录中查阅。",
+        "source_calendar_duration": {
+          "value": 3,
+          "unit": "calendar_month",
+          "qualifier": "fixed"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2c42156b-4eef-43d1-9e8a-ed931c07ad18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/",
+      "title": "Randomized controlled trial of oral glutathione supplementation on body stores of glutathione",
+      "publisher": "European Journal of Nutrition / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+      "title": "Glutathione Protocol Guide - Dosing Context, Routes & Safety",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "7603ff34-65e6-46d5-805d-759d5706fc2f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28853742/",
+      "title": "Oral supplementation with liposomal glutathione elevates body stores of glutathione and markers of immune function",
+      "publisher": "European Journal of Clinical Nutrition / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "a94eec42-4085-4299-87ea-6076d46246a5",
+      "sourceID": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；仍有待核实一手来源。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "b0be692b-9420-4091-bab8-a274ffd220c1",
+      "sourceID": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；仍有待核实一手来源。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/source_calendar_duration"
+      ]
+    },
+    {
+      "protocolID": "c73a35d7-498c-4d40-9718-9ee28a3c6c0f",
+      "sourceID": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；仍有待核实一手来源。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/source_calendar_duration"
+      ]
+    },
+    {
+      "productID": "glutathione",
+      "sourceID": "2c42156b-4eef-43d1-9e8a-ed931c07ad18",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始收录摘要。五十四名不吸烟的成年人；为期六个月的安慰剂对照口服研究。主要评估生化终点，而非疾病的临床获益。分类依据：抗氧化生物标志物和特定制剂的临床研究最适合归入“专科与临床”；未据此推断广泛的延寿益处。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glutathione",
+      "sourceID": "7603ff34-65e6-46d5-805d-759d5706fc2f",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始收录摘要。十二人参与的为期一个月的试点研究；无安慰剂组；仅评估生物标志物，且统计效能有限。分类依据：抗氧化生物标志物和特定制剂的临床研究最适合归入“专科与临床”；未据此推断广泛的延寿益处。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "肌内注射"
+    },
+    {
+      "id": "oral",
+      "name": "口服"
+    },
+    {
+      "id": "intranasal",
+      "name": "鼻内给药"
+    }
+  ]
+}

@@ -1,0 +1,537 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cagrisema",
+      "name": "CagriSema 스택",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 2,
+      "benefits": "인체 임상시험에서 입증된 이점: 당뇨병이 없고 생활습관 중재를 받는 과체중 또는 비만 성인에서 cagrilintide와 semaglutide를 피하로 병용 투여했을 때 위약보다 더 큰 체중 감소가 나타났어요. 68주간의 REDEFINE 1 무작위 배정 임상 3상 시험에서 상당한 체중 감소 기준에 도달한 참가자가 더 많았어요. 이 결과는 연구된 병용 요법과 대상 집단에 적용되며, 임의의 혼합물이나 시험되지 않은 투여 경로에 적용되지는 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "4f579164-5cf5-4c69-a529-ec085103cd74",
+      "productID": "cagrisema",
+      "title": "Cagrilintide + Semaglutide — 출처의 16주 동시 증량 일정",
+      "purpose": "출처에 기술된 참고용 계획",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "편집된 이차 출처이며, 자동으로 임상적 타당성을 인정하거나 앱 기본값으로 채택하지 않아요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "cagrilintide"
+            },
+            {
+              "library_item_id": "glp-1"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "성분별 투여 요법",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "성분별 일정"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": {
+            "same_weekday": true,
+            "optional_stagger": "a few hours; no exact interval specified",
+            "separate_syringes": true
+          },
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+          "source_tables": [
+            {
+              "section": "CagriSema 투여 프로토콜 및 일정",
+              "subsection": "주기 지침",
+              "rows": [
+                [
+                  "접근 방식",
+                  "기간",
+                  "휴약 기간",
+                  "주요 용도"
+                ],
+                [
+                  "임상시험을 따르는 주기",
+                  "68주",
+                  "의료진의 지침에 따라요",
+                  "REDEFINE 1 / REDEFINE 2 임상시험 일정에 맞춰요."
+                ],
+                [
+                  "표준 연구 주기",
+                  "12–24주",
+                  "4–8주",
+                  "대부분의 계획 기간에 적합하며, 임상 2상 비만 시험의 결과 평가 시점과 일치해요."
+                ],
+                [
+                  "단기 탐색 주기",
+                  "8–12주",
+                  "4주",
+                  "내약성 및 증량 평가만을 위한 용도예요."
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+          "source_tables": [
+            {
+              "section": "CagriSema 보관 및 취급",
+              "subsection": "재용해 후 안정성",
+              "rows": [
+                [
+                  "",
+                  "Cagrilintide",
+                  "Semaglutide",
+                  "사전 혼합 CagriSema"
+                ],
+                [
+                  "동결건조 상태(분말 형태)",
+                  "-4°F (-20°C)에서 장기 보관해요",
+                  "-4°F (-20°C)에서 장기 보관해요",
+                  "-4°F (-20°C)에서 장기 보관해요"
+                ],
+                [
+                  "재용해 상태(액체 형태)",
+                  "35.6–46.4°F (2–8°C)",
+                  "35.6–46.4°F (2–8°C)",
+                  "35.6–46.4°F (2–8°C)"
+                ],
+                [
+                  "외관",
+                  "재용해 후 맑아요",
+                  "재용해 후 맑아요",
+                  "재용해 후 맑아요"
+                ],
+                [
+                  "재용해 후 안정성",
+                  "냉장 보관 시 최대 약 28일",
+                  "냉장 보관 시 최대 약 28일",
+                  "공급업체의 COA에 따라요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+          "source_statements": [
+            {
+              "section": "CagriSema 부작용 및 안전성",
+              "subsection": "두 임상시험에서 나타난 양상",
+              "excerpt": "오심, 구토, 설사는 용량 증량 중에 가장 두드러졌고 유지 기간에 점차 줄었으며, 변비는 시험 기간 전반에 걸쳐 상대적으로 일정하게 나타났어요. 시험 의뢰자는 안전성 양상이 GLP-1 수용체 작용제 계열 전반과 비슷하다고 설명했어요. GLP-1 사용자를 위한 PepPal의 병용 보충제 가이드는 단백질, 식이섬유, 전해질, 검사 결과에 따른 영양 보충을 다뤄요.",
+              "truncated": false
+            },
+            {
+              "section": "CagriSema 부작용 및 안전성",
+              "subsection": "스택 고유의 불확실성과 품질 위험",
+              "excerpt": "CagriSema와 이에 상응하는 연구용 조제 제품을 직접 비교한 임상시험은 발표된 적이 없어요. CagriSema는 연구 단계에 있으므로, FDA 미승인 제품이나 조제 제품은 모두 사용 전에 정체성, 순도 및 오염 위험을 반드시 평가해야 해요. FDA는 2026년 초에 조제 의약품 내 미승인 GLP-1 유효성분을 대상으로 한 집행 조치를 강조했으며, 이는 품질 관리에 대한 우려를 뒷받침해요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "과체중 또는 비만 성인에서 Cagrilintide와 Semaglutide의 병용 투여(REDEFINE 1).",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502081"
+          },
+          {
+            "label": "과체중 또는 비만과 제2형 당뇨병이 있는 성인에서 Cagrilintide–Semaglutide(REDEFINE 2).",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2502082"
+          },
+          {
+            "label": "Novo Nordisk가 체중 관리를 위한 최초의 매주 한 번 투여하는 GLP-1 및 amylin 유사체 병용제인 CagriSema의 FDA 승인을 신청해요.",
+            "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-the-first-once-weekly-combination-of-glp1-and-amylin-analogues-for-weight-management-302645868.html"
+          },
+          {
+            "label": "체중 관리를 위한 cagrilintide 반복 투여와 semaglutide 2·4 mg 병용 투여의 안전성, 내약성, 약동학 및 약력학: 무작위 배정 대조 임상 1b상 시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/33894838/"
+          },
+          {
+            "label": "제2형 당뇨병에서 매주 한 번 투여하는 cagrilintide 2·4 mg 및 매주 한 번 투여하는 semaglutide 2·4 mg 병용의 유효성 및 안전성: 다기관 무작위 배정 이중 눈가림 활성 대조 임상 2상 시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37364590/"
+          },
+          {
+            "label": "과체중 및 비만인 사람의 체중 관리를 위한 매주 한 번 투여하는 cagrilintide: 다기관 무작위 배정 이중 눈가림 위약 및 활성 대조 용량 탐색 임상 2상 시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34288673/"
+          },
+          {
+            "label": "REDEFINE 3: 심장 및 혈관 질환이 있는 사람에서 CagriSema의 효과를 알아보는 연구.",
+            "url": "https://clinicaltrials.gov/study/NCT05669755"
+          },
+          {
+            "label": "CagriSema는 REIMAGINE 2 시험에서 제2형 당뇨병 성인의 HbA1c를 1.91포인트 낮추고 체중을 14.2% 줄여 우월한 효과를 입증했어요.",
+            "url": "https://www.biospace.com/press-releases/novo-nordisk-a-s-cagrisema-demonstrated-superior-hba1c-reduction-of-1-91-points-and-weight-loss-of-14-2-in-adults-with-type-2-diabetes-in-the-reimagine-2-trial"
+          },
+          {
+            "label": "Eli Lilly와의 비만 치료제 경쟁에서 타격을 안긴 Novo Nordisk의 CagriSema 임상시험.",
+            "url": "https://www.reuters.com/business/healthcare-pharmaceuticals/novo-nordisks-obesity-drug-falls-short-against-eli-lillys-copenhagen-trial-2026-02-23/"
+          },
+          {
+            "label": "FDA는 FDA 미승인 GLP-1 의약품에 대한 조치를 취할 예정이에요.",
+            "url": "https://www.fda.gov/news-events/press-announcements/fda-intends-take-action-against-non-fda-approved-glp-1-drugs"
+          },
+          {
+            "label": "FDA가 만성 체중 관리를 위한 새로운 의약품을 승인해요(tirzepatide / Zepbound).",
+            "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management"
+          },
+          {
+            "label": "Amylin: 약리학, 생리학 및 임상적 가능성.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4861438/"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "exact_optional_stagger_interval",
+          "product_specific_preparation",
+          "trial_eligibility_not_transferred"
+        ],
+        "notes": "출처 참고용일 뿐이며, 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요.",
+        "component_regimens": [
+          {
+            "component_id": "cagrilintide",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "1–4주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.25",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "시작 단계: 위장관 내약성을 최우선으로 고려해요."
+              },
+              {
+                "name": "5–8주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "초기 증량 단계이며, 오심은 일반적으로 이 기간에 가장 두드러져요."
+              },
+              {
+                "name": "9–12주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.0",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "중기 증량 단계예요."
+              },
+              {
+                "name": "13–16주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.7",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "후기 증량 단계예요."
+              },
+              {
+                "name": "17주차+",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "연구 목표 용량을 유지해요."
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+                "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+              }
+            }
+          },
+          {
+            "component_id": "glp-1",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "1–4주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.25",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "시작 단계: 위장관 내약성을 최우선으로 고려해요."
+              },
+              {
+                "name": "5–8주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "0.5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "초기 증량 단계이며, 오심은 일반적으로 이 기간에 가장 두드러져요."
+              },
+              {
+                "name": "9–12주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.0",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "중기 증량 단계예요."
+              },
+              {
+                "name": "13–16주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1.7",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "후기 증량 단계예요."
+              },
+              {
+                "name": "17주차+",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2.4",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                },
+                "condition": "연구 목표 용량을 유지해요."
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+                "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "394943ee-9b3d-48ab-9605-e18e96f72140",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40544433/",
+      "title": "Coadministered Cagrilintide and Semaglutide in Adults with Overweight or Obesity",
+      "publisher": "New England Journal of Medicine / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+      "url": "https://www.peptidedosingprotocols.com/stacks/cagrisema",
+      "title": "CagriSema Dosing Protocol: Cagrilintide 2.4 mg + Semaglutide 2.4 mg (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "4f579164-5cf5-4c69-a529-ec085103cd74",
+      "sourceID": "cb486916-f61f-4885-8c92-bf7c2ac3f77f",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "출처에 해당 필드가 기술되어 있으며, 독립적인 검증은 아직 이루어지지 않았어요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cagrisema",
+      "sourceID": "394943ee-9b3d-48ab-9605-e18e96f72140",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "REDEFINE 1에서는 성인 3,417명을 무작위 배정했으며, 원문 초록은 68주 시점에 위약 대비 유의한 이점을 보고해요. 카테고리 분류 근거: 체중 및 대사: 임상 3상의 직접적인 병용 근거는 체중 감소에 관한 것이에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

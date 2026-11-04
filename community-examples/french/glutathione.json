@@ -1,0 +1,691 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glutathione",
+      "name": "Glutathione",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "La supplémentation orale a augmenté les réserves sanguines et cellulaires de Glutathione et amélioré certains biomarqueurs du stress oxydatif dans une petite étude contrôlée contre placebo. Une autre petite étude sur une formulation liposomale a rapporté des modifications similaires des biomarqueurs. Ces résultats biochimiques sont propres aux formulations étudiées ; ils n'établissent pas d'effets généraux de détoxification, de prévention des maladies ou de lutte contre le vieillissement, ni les bénéfices des schémas d'administration intraveineuse."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "a94eec42-4085-4299-87ea-6076d46246a5",
+      "productID": "glutathione",
+      "title": "Glutathione — Plage de référence IV en clinique",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "intramuscular",
+      "population": "human",
+      "evidenceNotes": "Description secondaire issue de contenus éditoriaux ou communautaires. La validation indépendante de la source et son adoption comme référence par défaut dans l'application sont en attente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "source_described_research_or_clinic_context",
+          "indication_context": "Clinic IV reference range",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "clinic_IV_product",
+          "components": [
+            {
+              "library_item_id": "glutathione"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Plage de référence IV en clinique",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "1200",
+              "unit": "mg",
+              "basis": "per_session"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "week"
+              },
+              "description": "1-2x par semaine"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+            "locator": "Protocole posologique et calendrier ; indications temporelles de la source"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de Glutathione",
+              "subsection": "Aspect",
+              "rows": [
+                [
+                  "",
+                  "Gélule orale/formulation liposomale",
+                  "Flacon lyophilisé destiné à la recherche",
+                  "Solution reconstituée"
+                ],
+                [
+                  "Température",
+                  "À température ambiante, au sec",
+                  "-4F (-20C) à long terme",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "Lumière",
+                  "Conserver fermé, à l'abri de la lumière",
+                  "À l'abri de la lumière",
+                  "À l'abri de la lumière"
+                ],
+                [
+                  "Aspect",
+                  "Sans objet",
+                  "Poudre blanche/blanc cassé",
+                  "Limpide ; jeter si trouble ou contenant des particules"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de Glutathione",
+              "subsection": "Risque lié à la qualité et à la stérilité",
+              "excerpt": "Le principal danger des produits injectables ne vient pas de la molécule — il vient du produit. En janvier 2019, sept patients d'une même clinique ont présenté des réactions dans les minutes suivant une perfusion IV de Glutathione, que la FDA a reliées à des taux élevés d'endotoxines dans la poudre utilisée pour la préparation. Les injections non réglementées comportent aussi des risques d'infection (VIH, hépatite) lorsque",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Essai contrôlé randomisé sur l'effet d'une supplémentation orale en Glutathione sur les réserves corporelles de Glutathione.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/"
+          },
+          {
+            "label": "Effets d'une supplémentation orale en Glutathione sur les biomarqueurs du stress oxydatif systémique chez des volontaires humains.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710870/"
+          },
+          {
+            "label": "Glutathione comme agent éclaircissant par voie orale : étude randomisée, en double aveugle, contrôlée contre placebo.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20524875/"
+          },
+          {
+            "label": "Essai ouvert à bras unique d'une pastille de Glutathione comme agent éclaircissant cutané chez des femmes philippines.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26148180/"
+          },
+          {
+            "label": "Glutathione comme agent éclaircissant cutané et dans le mélasma : revue systématique.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.17535"
+          },
+          {
+            "label": "Glutathione et ses effets contre le vieillissement et la mélanogenèse.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28490897/"
+          },
+          {
+            "label": "La FDA souligne les préoccupations liées à l'utilisation de Glutathione, un ingrédient alimentaire, pour préparer des produits injectables stériles (alerte sur les préparations magistrales).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables"
+          },
+          {
+            "label": "Avis de la FDA n° 2019-182 : utilisation dangereuse de Glutathione comme agent éclaircissant cutané.",
+            "url": "https://www.fda.gov.ph/fda-advisory-no-2019-182-unsafe-use-of-glutathione-as-skin-lightening-agent/"
+          },
+          {
+            "label": "Efficacité de Glutathione dans le traitement de la stéatose hépatique non alcoolique : étude pilote multicentrique ouverte à bras unique.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5549431/"
+          },
+          {
+            "label": "Étude de phase IIb de Glutathione par voie intranasale dans la maladie de Parkinson.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28436395/"
+          },
+          {
+            "label": "Étude randomisée en double aveugle de phase I/IIa de Glutathione par voie intranasale dans la maladie de Parkinson.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230671/"
+          },
+          {
+            "label": "Évaluation métabolomique ciblée de la biodisponibilité et de la sécurité de Glutathione par voie orale chez l'humain : essai clinique croisé randomisé.",
+            "url": "https://www.mdpi.com/2076-3921/15/3/354"
+          },
+          {
+            "label": "Usages thérapeutiques existants et potentiels de N-acetylcysteine : nécessité d'une conversion en Glutathione intracellulaire.",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0163725813001952"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_product",
+          "primary_source_verification"
+        ],
+        "notes": "Référence de la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans la fiche de la source."
+      }
+    },
+    {
+      "id": "b0be692b-9420-4091-bab8-a274ffd220c1",
+      "productID": "glutathione",
+      "title": "Glutathione — Plage étudiée pour les gélules orales",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "Description secondaire issue de contenus éditoriaux ou communautaires. La validation indépendante de la source et son adoption comme référence par défaut dans l'application sont en attente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "source_described_research_or_clinic_context",
+          "indication_context": "Oral capsule research range",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_capsule",
+          "components": [
+            {
+              "library_item_id": "glutathione"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Plage étudiée pour les gélules orales",
+            "duration": {
+              "kind": "minimum",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "1000",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted",
+            "basis": "supplement_label_convention_not_proven_requirement"
+          },
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+            "locator": "Protocole posologique et calendrier ; indications temporelles de la source"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de Glutathione",
+              "subsection": "Aspect",
+              "rows": [
+                [
+                  "",
+                  "Gélule orale/formulation liposomale",
+                  "Flacon lyophilisé destiné à la recherche",
+                  "Solution reconstituée"
+                ],
+                [
+                  "Température",
+                  "À température ambiante, au sec",
+                  "-4F (-20C) à long terme",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "Lumière",
+                  "Conserver fermé, à l'abri de la lumière",
+                  "À l'abri de la lumière",
+                  "À l'abri de la lumière"
+                ],
+                [
+                  "Aspect",
+                  "Sans objet",
+                  "Poudre blanche/blanc cassé",
+                  "Limpide ; jeter si trouble ou contenant des particules"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de Glutathione",
+              "subsection": "Risque lié à la qualité et à la stérilité",
+              "excerpt": "Le principal danger des produits injectables ne vient pas de la molécule — il vient du produit. En janvier 2019, sept patients d'une même clinique ont présenté des réactions dans les minutes suivant une perfusion IV de Glutathione, que la FDA a reliées à des taux élevés d'endotoxines dans la poudre utilisée pour la préparation. Les injections non réglementées comportent aussi des risques d'infection (VIH, hépatite) lorsque",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Essai contrôlé randomisé sur l'effet d'une supplémentation orale en Glutathione sur les réserves corporelles de Glutathione.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/"
+          },
+          {
+            "label": "Effets d'une supplémentation orale en Glutathione sur les biomarqueurs du stress oxydatif systémique chez des volontaires humains.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710870/"
+          },
+          {
+            "label": "Glutathione comme agent éclaircissant par voie orale : étude randomisée, en double aveugle, contrôlée contre placebo.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20524875/"
+          },
+          {
+            "label": "Essai ouvert à bras unique d'une pastille de Glutathione comme agent éclaircissant cutané chez des femmes philippines.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26148180/"
+          },
+          {
+            "label": "Glutathione comme agent éclaircissant cutané et dans le mélasma : revue systématique.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.17535"
+          },
+          {
+            "label": "Glutathione et ses effets contre le vieillissement et la mélanogenèse.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28490897/"
+          },
+          {
+            "label": "La FDA souligne les préoccupations liées à l'utilisation de Glutathione, un ingrédient alimentaire, pour préparer des produits injectables stériles (alerte sur les préparations magistrales).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables"
+          },
+          {
+            "label": "Avis de la FDA n° 2019-182 : utilisation dangereuse de Glutathione comme agent éclaircissant cutané.",
+            "url": "https://www.fda.gov.ph/fda-advisory-no-2019-182-unsafe-use-of-glutathione-as-skin-lightening-agent/"
+          },
+          {
+            "label": "Efficacité de Glutathione dans le traitement de la stéatose hépatique non alcoolique : étude pilote multicentrique ouverte à bras unique.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5549431/"
+          },
+          {
+            "label": "Étude de phase IIb de Glutathione par voie intranasale dans la maladie de Parkinson.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28436395/"
+          },
+          {
+            "label": "Étude randomisée en double aveugle de phase I/IIa de Glutathione par voie intranasale dans la maladie de Parkinson.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230671/"
+          },
+          {
+            "label": "Évaluation métabolomique ciblée de la biodisponibilité et de la sécurité de Glutathione par voie orale chez l'humain : essai clinique croisé randomisé.",
+            "url": "https://www.mdpi.com/2076-3921/15/3/354"
+          },
+          {
+            "label": "Usages thérapeutiques existants et potentiels de N-acetylcysteine : nécessité d'une conversion en Glutathione intracellulaire.",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0163725813001952"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_product",
+          "primary_source_verification",
+          "calendar_duration_not_converted_to_fixed_days",
+          "daily_administration_count"
+        ],
+        "notes": "Référence de la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans la fiche de la source.",
+        "source_calendar_duration": {
+          "value": 6,
+          "unit": "calendar_month",
+          "qualifier": "maximum"
+        }
+      }
+    },
+    {
+      "id": "c73a35d7-498c-4d40-9718-9ee28a3c6c0f",
+      "productID": "glutathione",
+      "title": "Glutathione — Référence d'essai par voie intranasale dans la maladie de Parkinson",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "Description secondaire issue de contenus éditoriaux ou communautaires. La validation indépendante de la source et son adoption comme référence par défaut dans l'application sont en attente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "source_described_research_or_clinic_context",
+          "indication_context": "Parkinson intranasal trial reference",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "nasal_spray",
+          "components": [
+            {
+              "library_item_id": "glutathione"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Référence d'essai par voie intranasale dans la maladie de Parkinson",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "200",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+            "locator": "Protocole posologique et calendrier ; indications temporelles de la source"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de Glutathione",
+              "subsection": "Aspect",
+              "rows": [
+                [
+                  "",
+                  "Gélule orale/formulation liposomale",
+                  "Flacon lyophilisé destiné à la recherche",
+                  "Solution reconstituée"
+                ],
+                [
+                  "Température",
+                  "À température ambiante, au sec",
+                  "-4F (-20C) à long terme",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "Lumière",
+                  "Conserver fermé, à l'abri de la lumière",
+                  "À l'abri de la lumière",
+                  "À l'abri de la lumière"
+                ],
+                [
+                  "Aspect",
+                  "Sans objet",
+                  "Poudre blanche/blanc cassé",
+                  "Limpide ; jeter si trouble ou contenant des particules"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de Glutathione",
+              "subsection": "Risque lié à la qualité et à la stérilité",
+              "excerpt": "Le principal danger des produits injectables ne vient pas de la molécule — il vient du produit. En janvier 2019, sept patients d'une même clinique ont présenté des réactions dans les minutes suivant une perfusion IV de Glutathione, que la FDA a reliées à des taux élevés d'endotoxines dans la poudre utilisée pour la préparation. Les injections non réglementées comportent aussi des risques d'infection (VIH, hépatite) lorsque",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Essai contrôlé randomisé sur l'effet d'une supplémentation orale en Glutathione sur les réserves corporelles de Glutathione.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/"
+          },
+          {
+            "label": "Effets d'une supplémentation orale en Glutathione sur les biomarqueurs du stress oxydatif systémique chez des volontaires humains.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12710870/"
+          },
+          {
+            "label": "Glutathione comme agent éclaircissant par voie orale : étude randomisée, en double aveugle, contrôlée contre placebo.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/20524875/"
+          },
+          {
+            "label": "Essai ouvert à bras unique d'une pastille de Glutathione comme agent éclaircissant cutané chez des femmes philippines.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26148180/"
+          },
+          {
+            "label": "Glutathione comme agent éclaircissant cutané et dans le mélasma : revue systématique.",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/ijd.17535"
+          },
+          {
+            "label": "Glutathione et ses effets contre le vieillissement et la mélanogenèse.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28490897/"
+          },
+          {
+            "label": "La FDA souligne les préoccupations liées à l'utilisation de Glutathione, un ingrédient alimentaire, pour préparer des produits injectables stériles (alerte sur les préparations magistrales).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/fda-highlights-concerns-using-dietary-ingredient-glutathione-compound-sterile-injectables"
+          },
+          {
+            "label": "Avis de la FDA n° 2019-182 : utilisation dangereuse de Glutathione comme agent éclaircissant cutané.",
+            "url": "https://www.fda.gov.ph/fda-advisory-no-2019-182-unsafe-use-of-glutathione-as-skin-lightening-agent/"
+          },
+          {
+            "label": "Efficacité de Glutathione dans le traitement de la stéatose hépatique non alcoolique : étude pilote multicentrique ouverte à bras unique.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5549431/"
+          },
+          {
+            "label": "Étude de phase IIb de Glutathione par voie intranasale dans la maladie de Parkinson.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28436395/"
+          },
+          {
+            "label": "Étude randomisée en double aveugle de phase I/IIa de Glutathione par voie intranasale dans la maladie de Parkinson.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/26230671/"
+          },
+          {
+            "label": "Évaluation métabolomique ciblée de la biodisponibilité et de la sécurité de Glutathione par voie orale chez l'humain : essai clinique croisé randomisé.",
+            "url": "https://www.mdpi.com/2076-3921/15/3/354"
+          },
+          {
+            "label": "Usages thérapeutiques existants et potentiels de N-acetylcysteine : nécessité d'une conversion en Glutathione intracellulaire.",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0163725813001952"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_product",
+          "primary_source_verification",
+          "calendar_duration_not_converted_to_fixed_days"
+        ],
+        "notes": "Référence de la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans la fiche de la source.",
+        "source_calendar_duration": {
+          "value": 3,
+          "unit": "calendar_month",
+          "qualifier": "fixed"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2c42156b-4eef-43d1-9e8a-ed931c07ad18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24791752/",
+      "title": "Randomized controlled trial of oral glutathione supplementation on body stores of glutathione",
+      "publisher": "European Journal of Nutrition / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "url": "https://www.peptidedosingprotocols.com/protocol/glutathione",
+      "title": "Glutathione Protocol Guide - Dosing Context, Routes & Safety",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "7603ff34-65e6-46d5-805d-759d5706fc2f",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28853742/",
+      "title": "Oral supplementation with liposomal glutathione elevates body stores of glutathione and markers of immune function",
+      "publisher": "European Journal of Clinical Nutrition / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "a94eec42-4085-4299-87ea-6076d46246a5",
+      "sourceID": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La source décrit ces champs ; la vérification auprès de la source primaire reste en attente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "b0be692b-9420-4091-bab8-a274ffd220c1",
+      "sourceID": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La source décrit ces champs ; la vérification auprès de la source primaire reste en attente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/source_calendar_duration"
+      ]
+    },
+    {
+      "protocolID": "c73a35d7-498c-4d40-9718-9ee28a3c6c0f",
+      "sourceID": "67537e4b-cd14-4acd-8714-bffbfab22cb0",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La source décrit ces champs ; la vérification auprès de la source primaire reste en attente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/source_calendar_duration"
+      ]
+    },
+    {
+      "productID": "glutathione",
+      "sourceID": "2c42156b-4eef-43d1-9e8a-ed931c07ad18",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Résumé original indexé lu. Cinquante-quatre adultes non-fumeurs ; étude de six mois par voie orale, contrôlée contre placebo. Critères d'évaluation principalement biochimiques, ne portant pas sur un bénéfice clinique sur la maladie. Justification de la catégorie : la recherche clinique sur les biomarqueurs antioxydants et les formulations spécifiques correspond le mieux à la catégorie Spécialisé et clinique ; aucun bénéfice général sur la longévité n'en est déduit.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glutathione",
+      "sourceID": "7603ff34-65e6-46d5-805d-759d5706fc2f",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Résumé original indexé lu. Étude pilote d'un mois menée auprès de douze personnes ; aucun groupe placebo ; uniquement des biomarqueurs et une puissance statistique limitée. Justification de la catégorie : la recherche clinique sur les biomarqueurs antioxydants et les formulations spécifiques correspond le mieux à la catégorie Spécialisé et clinique ; aucun bénéfice général sur la longévité n'en est déduit.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramusculaire"
+    },
+    {
+      "id": "oral",
+      "name": "Orale"
+    },
+    {
+      "id": "intranasal",
+      "name": "Intranasale"
+    }
+  ]
+}

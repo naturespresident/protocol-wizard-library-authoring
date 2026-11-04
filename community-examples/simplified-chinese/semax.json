@@ -1,0 +1,521 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "semax",
+      "name": "Semax",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 5,
+      "benefits": "潜在的辅助神经功能恢复益处：一项俄罗斯小型对照研究报告，在常规急性缺血性脑卒中治疗中加用 Semax 时，神经功能缺损，尤其是运动症状，改善得更快。这一发现受研究规模和设计的限制，不能证明其具有普遍的认知增强作用。不能假定脑卒中治疗中的发现适用于健康人群的专注力、记忆、情绪或神经系统疾病预防，也不能假定其适用于经过化学修饰的 Semax 类似物。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "098b9aac-6128-4b28-babe-423c82c73834",
+      "productID": "semax",
+      "title": "Semax — 健康志愿者单次鼻内给药参考",
+      "purpose": "来源所述的参考规划",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二手编辑性描述／社区描述。独立来源核实及将其设为应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "research_described_by_secondary_source",
+          "indication_context": "healthy-volunteer attention study",
+          "population_eligibility": "healthy volunteers; exact criteria unreported"
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "semax"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "单次给药",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.2",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "单次研究给药"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/semax",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+          "source_tables": [
+            {
+              "section": "Semax 的储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干品（粉末，密封小瓶）",
+                  "长期储存：-4°F（-20°C）；短期储存：冰箱冷藏（35.6-46.4°F／2-8°C）",
+                  "保持密封并避光。核实供应商标签。"
+                ],
+                [
+                  "复溶后（皮下注射溶液）",
+                  "35.6-46.4°F（2-8°C）",
+                  "根据供应商标签及抑菌水的使用期限指引，在数周内使用。"
+                ],
+                [
+                  "鼻内给药溶液",
+                  "多数标签：建议冰箱冷藏（35.6-46.4°F／2-8°C）；部分制造商允许在低于 50°F（10°C）的阴凉干燥处储存",
+                  "英国 NIBSC 参考资料建议约 39°F（4°C）。核实具体瓶身标签。"
+                ],
+                [
+                  "所有剂型",
+                  "避免阳光直射；避免温度反复变化",
+                  "反复冻融或受热会增加聚集风险。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+          "source_statements": [
+            {
+              "section": "Semax 的适用人群及应避免使用的人群",
+              "subsection": "妊娠期或哺乳期人群",
+              "excerpt": "人体研究不足，无法评估对胎儿或婴儿的安全性。ADDF 将妊娠期和哺乳期列为禁忌证。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的适用人群及应避免使用的人群",
+              "subsection": "基线焦虑水平较高的人群",
+              "excerpt": "一项 1996 年研究描述了部分研究受试者中的致焦虑作用，提示 Semax 可加重已有焦虑者的焦虑。对于希望感觉更平静的目标，Selank 通常比 Semax 更适合。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的适用人群及应避免使用的人群",
+              "subsection": "正在服用精神科药物或兴奋剂类药物的人群",
+              "excerpt": "在动物模型中，Semax 与单胺能系统存在相互作用。与 SSRIs、SNRIs、MAOIs、兴奋剂或影响睡眠的药物合用时，应由临床医生监督。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的副作用与安全性",
+              "subsection": "",
+              "excerpt": "可获取的英文文献中，关于 Semax 安全性的报告很少。最清晰的总结来自阿尔茨海默病药物发现基金会（2020），其指出，尽管开展了许多临床前试验，但“关于潜在副作用的人体证据非常有限”。2022 年《Pharmaceutics》关于俄罗斯肽类生物药的综述也支持低毒性这一表述。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的副作用与安全性",
+              "subsection": "焦虑／过度兴奋",
+              "excerpt": "部分使用者描述有“过度兴奋”的感觉，尤其是在与咖啡因、兴奋剂叠加使用，或在一天较晚时使用的情况下。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的作用时间进程与监测事项",
+              "subsection": "",
+              "excerpt": "文献和研究社区讨论中报告的 Semax 作用时间进程",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "用于药品配制且可能存在重大安全风险的某些原料药物质（503A 第 2 类清单）。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks"
+          },
+          {
+            "label": "2026 年七月 23-24 日：药品配制咨询委员会会议 — 用于脑缺血和三叉神经痛的 Semax（游离碱／乙酸盐）。",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          },
+          {
+            "label": "药品配制咨询委员会会议及设立公众案卷通知 — 503A 原料药物质清单的肽类提名。",
+            "url": "https://www.federalregister.gov/documents/2026/04/16/2026-07361/pharmacy-compounding-advisory-committee-notice-of-meeting-establishment-of-a-public-docket-request"
+          },
+          {
+            "label": "认知障碍与促智药：作用机制及效应谱。",
+            "url": "https://link.springer.com/article/10.1134/S1819712423020198"
+          },
+          {
+            "label": "Semax 是具有认知作用的 ACTH(4-10) 类似物，可调节大鼠海马中的 BDNF 和 trkB 表达。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16996037/"
+          },
+          {
+            "label": "Semax 是具有促智特性的 ACTH(4-10) 类似物，可激活啮齿动物脑内的多巴胺能和血清素能系统。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16362768/"
+          },
+          {
+            "label": "药物诱导的炎症神经调控激活：治疗缺氧损伤的新可能性。",
+            "url": "https://doi.org/10.1016/j.ejphar.2012.01.004"
+          },
+          {
+            "label": "Semax 和 selank 可抑制人血清中的脑啡肽降解酶。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+          },
+          {
+            "label": "肽类 semax 影响大鼠局灶性脑缺血中与免疫和血管系统相关的基因表达：全基因组转录分析。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3987924/"
+          },
+          {
+            "label": "从转录组层面认识 ACTH(4-7)PGP（Semax）肽在大鼠脑缺血再灌注后的保护特性的新见解。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350263/"
+          },
+          {
+            "label": "ACTH(4-10) 合成类似物 Semax 和 Melanotan II 对慢性不可预测应激模型雄性大鼠的抗抑郁样和抗应激作用。",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0014299924007581"
+          },
+          {
+            "label": "Semax 在大脑半球缺血性脑卒中急性期的有效性（临床与电生理研究）。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11517472/"
+          },
+          {
+            "label": "俄罗斯肽类生物药的开发。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9030433/"
+          },
+          {
+            "label": "Semax — 面向研究人员的认知活力资料（安全性与证据总结）。",
+            "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Semax-Cognitive-Vitality-For-Researchers.pdf"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_source_verification",
+          "product_concentration",
+          "exact_timing"
+        ],
+        "notes": "仅供来源参考；未经审阅。表格和独立参考资料仍可在来源记录中查阅。"
+      }
+    },
+    {
+      "id": "d09de878-ec6e-4466-97b0-67279fda7db5",
+      "productID": "semax",
+      "title": "Semax — 来源中的认知用途鼻内给药每日总量范围",
+      "purpose": "来源所述的参考规划",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二手编辑性描述／社区描述。独立来源核实及将其设为应用默认方案的工作尚待完成。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "Russian_literature_described_by_secondary_source",
+          "indication_context": "cognitive/nootropic research",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "semax"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "认知／促智用途参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.6",
+              "maximum": "1.5",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "morning_and_early_afternoon",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/semax",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+          "source_tables": [
+            {
+              "section": "Semax 的储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "储存",
+                  "备注"
+                ],
+                [
+                  "冻干品（粉末，密封小瓶）",
+                  "长期储存：-4°F（-20°C）；短期储存：冰箱冷藏（35.6-46.4°F／2-8°C）",
+                  "保持密封并避光。核实供应商标签。"
+                ],
+                [
+                  "复溶后（皮下注射溶液）",
+                  "35.6-46.4°F（2-8°C）",
+                  "根据供应商标签及抑菌水的使用期限指引，在数周内使用。"
+                ],
+                [
+                  "鼻内给药溶液",
+                  "多数标签：建议冰箱冷藏（35.6-46.4°F／2-8°C）；部分制造商允许在低于 50°F（10°C）的阴凉干燥处储存",
+                  "英国 NIBSC 参考资料建议约 39°F（4°C）。核实具体瓶身标签。"
+                ],
+                [
+                  "所有剂型",
+                  "避免阳光直射；避免温度反复变化",
+                  "反复冻融或受热会增加聚集风险。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+          "source_statements": [
+            {
+              "section": "Semax 的适用人群及应避免使用的人群",
+              "subsection": "妊娠期或哺乳期人群",
+              "excerpt": "人体研究不足，无法评估对胎儿或婴儿的安全性。ADDF 将妊娠期和哺乳期列为禁忌证。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的适用人群及应避免使用的人群",
+              "subsection": "基线焦虑水平较高的人群",
+              "excerpt": "一项 1996 年研究描述了部分研究受试者中的致焦虑作用，提示 Semax 可加重已有焦虑者的焦虑。对于希望感觉更平静的目标，Selank 通常比 Semax 更适合。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的适用人群及应避免使用的人群",
+              "subsection": "正在服用精神科药物或兴奋剂类药物的人群",
+              "excerpt": "在动物模型中，Semax 与单胺能系统存在相互作用。与 SSRIs、SNRIs、MAOIs、兴奋剂或影响睡眠的药物合用时，应由临床医生监督。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的副作用与安全性",
+              "subsection": "",
+              "excerpt": "可获取的英文文献中，关于 Semax 安全性的报告很少。最清晰的总结来自阿尔茨海默病药物发现基金会（2020），其指出，尽管开展了许多临床前试验，但“关于潜在副作用的人体证据非常有限”。2022 年《Pharmaceutics》关于俄罗斯肽类生物药的综述也支持低毒性这一表述。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的副作用与安全性",
+              "subsection": "焦虑／过度兴奋",
+              "excerpt": "部分使用者描述有“过度兴奋”的感觉，尤其是在与咖啡因、兴奋剂叠加使用，或在一天较晚时使用的情况下。",
+              "truncated": false
+            },
+            {
+              "section": "Semax 的作用时间进程与监测事项",
+              "subsection": "",
+              "excerpt": "文献和研究社区讨论中报告的 Semax 作用时间进程",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "用于药品配制且可能存在重大安全风险的某些原料药物质（503A 第 2 类清单）。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks"
+          },
+          {
+            "label": "2026 年七月 23-24 日：药品配制咨询委员会会议 — 用于脑缺血和三叉神经痛的 Semax（游离碱／乙酸盐）。",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          },
+          {
+            "label": "药品配制咨询委员会会议及设立公众案卷通知 — 503A 原料药物质清单的肽类提名。",
+            "url": "https://www.federalregister.gov/documents/2026/04/16/2026-07361/pharmacy-compounding-advisory-committee-notice-of-meeting-establishment-of-a-public-docket-request"
+          },
+          {
+            "label": "认知障碍与促智药：作用机制及效应谱。",
+            "url": "https://link.springer.com/article/10.1134/S1819712423020198"
+          },
+          {
+            "label": "Semax 是具有认知作用的 ACTH(4-10) 类似物，可调节大鼠海马中的 BDNF 和 trkB 表达。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16996037/"
+          },
+          {
+            "label": "Semax 是具有促智特性的 ACTH(4-10) 类似物，可激活啮齿动物脑内的多巴胺能和血清素能系统。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16362768/"
+          },
+          {
+            "label": "药物诱导的炎症神经调控激活：治疗缺氧损伤的新可能性。",
+            "url": "https://doi.org/10.1016/j.ejphar.2012.01.004"
+          },
+          {
+            "label": "Semax 和 selank 可抑制人血清中的脑啡肽降解酶。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11443939/"
+          },
+          {
+            "label": "肽类 semax 影响大鼠局灶性脑缺血中与免疫和血管系统相关的基因表达：全基因组转录分析。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3987924/"
+          },
+          {
+            "label": "从转录组层面认识 ACTH(4-7)PGP（Semax）肽在大鼠脑缺血再灌注后的保护特性的新见解。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7350263/"
+          },
+          {
+            "label": "ACTH(4-10) 合成类似物 Semax 和 Melanotan II 对慢性不可预测应激模型雄性大鼠的抗抑郁样和抗应激作用。",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0014299924007581"
+          },
+          {
+            "label": "Semax 在大脑半球缺血性脑卒中急性期的有效性（临床与电生理研究）。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11517472/"
+          },
+          {
+            "label": "俄罗斯肽类生物药的开发。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9030433/"
+          },
+          {
+            "label": "Semax — 面向研究人员的认知活力资料（安全性与证据总结）。",
+            "url": "https://www.alzdiscovery.org/uploads/cognitive_vitality_media/Semax-Cognitive-Vitality-For-Researchers.pdf"
+          }
+        ],
+        "unresolved_fields": [
+          "per_administration_distribution",
+          "product_concentration",
+          "duration_choice",
+          "primary_source_verification"
+        ],
+        "notes": "仅供来源参考；未经审阅。表格和独立参考资料仍可在来源记录中查阅。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+      "url": "https://www.peptidedosingprotocols.com/protocol/semax",
+      "title": "Semax Peptide Dosing Guide: Nasal Spray, SubQ, Protocol & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "aa5d1c26-44a1-40e4-b064-a984c80d4a89",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11517472/",
+      "title": "Effectiveness of Semax in acute hemispheric ischemic stroke (1997)",
+      "publisher": "Zhurnal Nevrologii i Psikhiatrii imeni S. S. Korsakova, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "098b9aac-6128-4b28-babe-423c82c73834",
+      "sourceID": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源核实仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "d09de878-ec6e-4466-97b0-67279fda7db5",
+      "sourceID": "948335a5-6c26-4139-ae6b-55cd732bdb91",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "来源描述了这些字段；一手来源核实仍待完成。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "semax",
+      "sourceID": "aa5d1c26-44a1-40e4-b064-a984c80d4a89",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "30 名接受 Semax 的患者与 80 名常规治疗对照者；英文摘要中的研究设计细节有限。分类依据：认知与神经系统：直接但有限的临床证据涉及脑卒中相关的神经功能恢复。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经系统"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "鼻内给药"
+    }
+  ]
+}

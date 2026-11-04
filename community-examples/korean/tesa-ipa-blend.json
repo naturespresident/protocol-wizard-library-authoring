@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tesa-ipa-blend",
+      "name": "Tesa/Ipa 혼합 제제",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "제안된 성분별 근거: tesamorelin의 GH 축 활성 및 특정 질환의 내장지방에 관한 연구를 ipamorelin의 GH 분비 효과와 결합하는 것이에요. 이러한 사전 혼합 제제의 임상적 이점을 직접 평가한 연구는 찾지 못했어요. HIV 관련 지방이영양증에서 입증된 tesamorelin의 이점은 연구된 단일 약물 제형에 해당하며, tesamorelin/ipamorelin 혼합 제제의 체중 감량, 회복 또는 근육 관련 이점을 입증하지 않아요. 비율이 다른 제제도 서로 대체할 수 있는 연구된 제품이 아니라, 각각 별개로 검증되지 않은 제형이에요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "2bf95513-be27-49bd-96e5-d26680d0abd6",
+      "productID": "tesa-ipa-blend",
+      "title": "Tesamorelin / Ipamorelin 10:3 사전 혼합 제제 — 출처 참고용 취출량",
+      "purpose": "출처에 기술된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료이며, 자동으로 임상 검증을 거치거나 앱 기본값으로 채택되지 않아요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "tesamorelin",
+              "ratio_part": "10"
+            },
+            {
+              "library_item_id": "ipamorelin",
+              "ratio_part": "3"
+            }
+          ],
+          "fixed_component_ratio": "10:3"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "출처 참고용 일일 취출량",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.43",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "0.33",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "0.10",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/tesamorelin-ipamorelin",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": [
+            {
+              "section": "Tesamorelin + Ipamorelin 보관 및 취급",
+              "subsection": "외관",
+              "rows": [
+                [
+                  "",
+                  "Tesamorelin + Ipamorelin 혼합 제제"
+                ],
+                [
+                  "동결 건조 상태(분말 형태)",
+                  "장기 보관은 -4F (-20C), 단기 보관은 2-8C (35.6-46.4F)예요"
+                ],
+                [
+                  "재용해 후(액체 형태)",
+                  "35.6-46.4F (2-8C)에서 차광하여 보관해요"
+                ],
+                [
+                  "외관",
+                  "재용해 후 맑아요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_statements": [
+            {
+              "section": "Tesamorelin + Ipamorelin 부작용 및 안전성",
+              "subsection": "개별 화합물의 안전성",
+              "excerpt": "tesamorelin 임상시험에서 가장 흔하게 보고된 이상반응에는 주사 부위 반응(발적, 가려움), 관절 통증(관절통), 사지 통증, 말초 부종(체액 저류), 근육통이 포함돼요. Tesamorelin은 내당능 장애 및 제2형 당뇨병 위험 증가와도 관련이 있으며, 임신 중에는 금기예요.",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelin 부작용 및 안전성",
+              "subsection": "개별 화합물의 안전성",
+              "excerpt": "Ipamorelin은 동물 연구와 제한적인 인체 자료에서 대체로 내약성이 양호하지만, 일시적인 홍조나 두통이 발생할 수 있어요. ipamorelin은 인체 임상시험을 완료하지 않았으므로 장기 안전성이 확립되지 않았어요.",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelin 부작용 및 안전성",
+              "subsection": "병용 조합에 특유한 미확인 사항",
+              "excerpt": "이 혼합 제제에 특유한 부작용 양상을 규명한 인체 임상시험은 없어요.",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelin 부작용 및 안전성",
+              "subsection": "주사 부위 및 품질 위험",
+              "excerpt": "지방비대증을 피하기 위해 복부, 허벅지, 위팔 사이에서 주사 부위를 번갈아 바꾸는 것이 일반적인 관행이에요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "복부 지방이 축적된 HIV 환자에서의 성장호르몬 방출인자 유사체 Tesamorelin(3상).",
+            "url": "https://jamanetwork.com/journals/jama/fullarticle/186684"
+          },
+          {
+            "label": "HIV 및 지방이영양증이 있는 성인의 과도한 복부 내장지방에 대한 EGRIFTA WR (tesamorelin F8)의 FDA 승인.",
+            "url": "https://www.theratech.com/news-releases/news-release-details/theratechnologies-receives-fda-approval-egrifta-wrtm-tesamorelin/"
+          },
+          {
+            "label": "EGRIFTA(주사용 tesamorelin) 처방 정보 / 제품 라벨.",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/022505s000lbl.pdf"
+          },
+          {
+            "label": "Tesamorelin: 합성 GHRH 유사체이며, HIV 지방이영양증에 매일 2 mg 피하 투여해요.",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548730/"
+          },
+          {
+            "label": "Tesamorelin: HIV 관련 지방이영양증에 사용하는 성장호르몬 방출인자 유사체.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22298602/"
+          },
+          {
+            "label": "Ipamorelin, 최초의 선택적 성장호르몬 분비 촉진제.",
+            "url": "https://academic.oup.com/ejendo/article-abstract/139/5/552/6748390"
+          },
+          {
+            "label": "수술 후 장마비에 대한 그렐린 유사체 ipamorelin의 개념 증명 연구(2상, 중단됨).",
+            "url": "https://link.springer.com/article/10.1007/s00384-014-2030-8"
+          },
+          {
+            "label": "성장호르몬 분비 촉진제의 안전성과 유효성; GHRH + GHRP 상승작용 및 이중 경로 GH 자극.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5632578/"
+          },
+          {
+            "label": "Ipamorelin은 쥐에서 뼈의 길이 성장을 유도해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10373343/"
+          },
+          {
+            "label": "경도 인지장애와 건강한 노화에서 GHRH (tesamorelin)가 뇌 GABA에 미치는 영향.",
+            "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/1688413"
+          },
+          {
+            "label": "Tesamorelin: HIV 관련 지방이영양증에서의 사용에 대한 검토.",
+            "url": "https://doi.org/10.2165/11202240-000000000-00000"
+          }
+        ],
+        "unresolved_fields": [
+          "phase_durations",
+          "titration_progression",
+          "added_diluent_volume_not_captured",
+          "rounded_mass_equivalents",
+          "exact_clock_time"
+        ],
+        "notes": "출처 참고용이며, 검토되지 않았어요. 표와 독립적인 참고 문헌은 출처 기록에 그대로 있어요."
+      }
+    },
+    {
+      "id": "4c22efe7-11a5-4335-9f2b-78cd97a3eb58",
+      "productID": "tesa-ipa-blend",
+      "title": "Tesamorelin / Ipamorelin 1:1 사전 혼합 제제 — 출처의 16주 용량 적정",
+      "purpose": "출처에 기술된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료이며, 자동으로 임상 검증을 거치거나 앱 기본값으로 채택되지 않아요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "tesamorelin",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "ipamorelin",
+              "ratio_part": "1"
+            }
+          ],
+          "fixed_component_ratio": "1:1"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "component_amounts": [
+              {
+                "component_id": "tesamorelin",
+                "value": "5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "ipamorelin",
+                "value": "5",
+                "unit": "mg"
+              }
+            ],
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": null,
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": true
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "1-2주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "334",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "167",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "167",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "3-4주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "666",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "333",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "333",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "5-8주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "9-16주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 56,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1334",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "667",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "667",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/tesamorelin-ipamorelin",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": [
+            {
+              "section": "Tesamorelin + Ipamorelin 보관 및 취급",
+              "subsection": "외관",
+              "rows": [
+                [
+                  "",
+                  "Tesamorelin + Ipamorelin 혼합 제제"
+                ],
+                [
+                  "동결 건조 상태(분말 형태)",
+                  "장기 보관은 -4F (-20C), 단기 보관은 2-8C (35.6-46.4F)예요"
+                ],
+                [
+                  "재용해 후(액체 형태)",
+                  "35.6-46.4F (2-8C)에서 차광하여 보관해요"
+                ],
+                [
+                  "외관",
+                  "재용해 후 맑아요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_statements": [
+            {
+              "section": "Tesamorelin + Ipamorelin 부작용 및 안전성",
+              "subsection": "개별 화합물의 안전성",
+              "excerpt": "tesamorelin 임상시험에서 가장 흔하게 보고된 이상반응에는 주사 부위 반응(발적, 가려움), 관절 통증(관절통), 사지 통증, 말초 부종(체액 저류), 근육통이 포함돼요. Tesamorelin은 내당능 장애 및 제2형 당뇨병 위험 증가와도 관련이 있으며, 임신 중에는 금기예요.",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelin 부작용 및 안전성",
+              "subsection": "개별 화합물의 안전성",
+              "excerpt": "Ipamorelin은 동물 연구와 제한적인 인체 자료에서 대체로 내약성이 양호하지만, 일시적인 홍조나 두통이 발생할 수 있어요. ipamorelin은 인체 임상시험을 완료하지 않았으므로 장기 안전성이 확립되지 않았어요.",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelin 부작용 및 안전성",
+              "subsection": "병용 조합에 특유한 미확인 사항",
+              "excerpt": "이 혼합 제제에 특유한 부작용 양상을 규명한 인체 임상시험은 없어요.",
+              "truncated": false
+            },
+            {
+              "section": "Tesamorelin + Ipamorelin 부작용 및 안전성",
+              "subsection": "주사 부위 및 품질 위험",
+              "excerpt": "지방비대증을 피하기 위해 복부, 허벅지, 위팔 사이에서 주사 부위를 번갈아 바꾸는 것이 일반적인 관행이에요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "복부 지방이 축적된 HIV 환자에서의 성장호르몬 방출인자 유사체 Tesamorelin(3상).",
+            "url": "https://jamanetwork.com/journals/jama/fullarticle/186684"
+          },
+          {
+            "label": "HIV 및 지방이영양증이 있는 성인의 과도한 복부 내장지방에 대한 EGRIFTA WR (tesamorelin F8)의 FDA 승인.",
+            "url": "https://www.theratech.com/news-releases/news-release-details/theratechnologies-receives-fda-approval-egrifta-wrtm-tesamorelin/"
+          },
+          {
+            "label": "EGRIFTA(주사용 tesamorelin) 처방 정보 / 제품 라벨.",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/022505s000lbl.pdf"
+          },
+          {
+            "label": "Tesamorelin: 합성 GHRH 유사체이며, HIV 지방이영양증에 매일 2 mg 피하 투여해요.",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548730/"
+          },
+          {
+            "label": "Tesamorelin: HIV 관련 지방이영양증에 사용하는 성장호르몬 방출인자 유사체.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22298602/"
+          },
+          {
+            "label": "Ipamorelin, 최초의 선택적 성장호르몬 분비 촉진제.",
+            "url": "https://academic.oup.com/ejendo/article-abstract/139/5/552/6748390"
+          },
+          {
+            "label": "수술 후 장마비에 대한 그렐린 유사체 ipamorelin의 개념 증명 연구(2상, 중단됨).",
+            "url": "https://link.springer.com/article/10.1007/s00384-014-2030-8"
+          },
+          {
+            "label": "성장호르몬 분비 촉진제의 안전성과 유효성; GHRH + GHRP 상승작용 및 이중 경로 GH 자극.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5632578/"
+          },
+          {
+            "label": "Ipamorelin은 쥐에서 뼈의 길이 성장을 유도해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10373343/"
+          },
+          {
+            "label": "경도 인지장애와 건강한 노화에서 GHRH (tesamorelin)가 뇌 GABA에 미치는 영향.",
+            "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/1688413"
+          },
+          {
+            "label": "Tesamorelin: HIV 관련 지방이영양증에서의 사용에 대한 검토.",
+            "url": "https://doi.org/10.2165/11202240-000000000-00000"
+          }
+        ],
+        "unresolved_fields": [
+          "added_diluent_volume_not_captured",
+          "rounded_component_dose_conversion",
+          "exact_clock_time"
+        ],
+        "notes": "출처 참고용이며, 검토되지 않았어요. 표와 독립적인 참고 문헌은 출처 기록에 그대로 있어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "632fa60e-d980-4597-b848-d216ab5cfe16",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
+      "title": "Egrifta SV (tesamorelin) prescribing information",
+      "publisher": "Theratechnologies, via NLM DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (1999)",
+      "publisher": "Pharmaceutical Research, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+      "url": "https://www.peptidedosingprotocols.com/stacks/tesamorelin-ipamorelin",
+      "title": "Tesamorelin + Ipamorelin Peptide Stack: Dosing Guide for 10/3 and 5/5 Blends (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "2bf95513-be27-49bd-96e5-d26680d0abd6",
+      "sourceID": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "출처에 해당 필드가 기술되어 있으며, 독립적인 검증은 아직 이루어지지 않았어요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "4c22efe7-11a5-4335-9f2b-78cd97a3eb58",
+      "sourceID": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "출처에 해당 필드가 기술되어 있으며, 독립적인 검증은 아직 이루어지지 않았어요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "tesa-ipa-blend",
+      "sourceID": "632fa60e-d980-4597-b848-d216ab5cfe16",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "특정 질환에서의 단일 약물의 이점이며, ipamorelin 사전 혼합 제제에 대한 평가는 없어요. 분류 근거: 성장호르몬: GH 축 병용 연구를 목적으로 하며, 이 분류가 tesamorelin의 적응증을 혼합 제제에 그대로 적용하는 것은 아니에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "tesa-ipa-blend",
+      "sourceID": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "개별 성분의 GH 반응이며, 혼합 제제의 효능을 보여주는 것은 아니에요. 분류 근거: 성장호르몬: GH 축 병용 연구를 목적으로 하며, 이 분류가 tesamorelin의 적응증을 혼합 제제에 그대로 적용하는 것은 아니에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

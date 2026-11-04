@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dspi",
+      "name": "DSIP（Delta Sleep-Inducing Peptide）",
+      "aliases": [
+        "DSPI (Delta sleep inducing peptide)",
+        "DSPI",
+        "DSIP",
+        "Emideltide"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": "睡眠と回復への効果が研究段階にあります。徐波（デルタ波）睡眠と睡眠構築について研究されており、コルチゾールやストレスの調節、疼痛の緩和、回復に関与する可能性が提唱されています。DSIPは、従来型の鎮静薬ではなく、神経調節物質として説明されています。ヒトの睡眠に関する研究は小規模で、結果は一貫していません。確実に疲労回復につながる睡眠、慢性疼痛の緩和、日中の眠気や依存がないことは、十分に確立されていません。静脈内投与の研究結果だけでは、すべての投与方法における効果は確立されません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "e62b5bbb-408d-4794-b835-1b107cfa022e",
+      "productID": "dspi",
+      "title": "DSIP — 出典に記載されたコミュニティでの夜間投与量の範囲",
+      "purpose": "出典の記述に基づく参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "編集記事・コミュニティによる二次的な記述です。独立した出典検証と、アプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "dspi"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+              "locator": "DSIP 再溶解ガイド / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "コミュニティでの夜間投与計画の範囲",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "total_product",
+              "range_options": [
+                {
+                  "minimum": "100",
+                  "maximum": "200"
+                },
+                {
+                  "minimum": "200",
+                  "maximum": "300"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [
+            {
+              "anchor": "intended_sleep",
+              "relationship": "before",
+              "offset": {
+                "minimum": 60,
+                "maximum": 180,
+                "unit": "minute"
+              }
+            }
+          ],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/dsip",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_tables": [
+            {
+              "section": "DSIP 投与プロトコルとスケジュール",
+              "subsection": "サイクルの指針",
+              "rows": [
+                [
+                  "方法",
+                  "期間",
+                  "評価時点",
+                  "一般的な背景"
+                ],
+                [
+                  "短期コース",
+                  "5-7夜",
+                  "1週目の終了時",
+                  "公表されたヒト試験の実施期間に対応しています。"
+                ],
+                [
+                  "標準サイクル",
+                  "4週間",
+                  "4週目",
+                  "一般的な研究計画を想定しています。"
+                ],
+                [
+                  "延長サイクル",
+                  "6-8週間",
+                  "6週目",
+                  "実施例は少なく、長期安全性データは限られています。"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_tables": [
+            {
+              "section": "DSIP の保存と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "保存",
+                  "備考"
+                ],
+                [
+                  "凍結乾燥（粉末状）",
+                  "-4F（-20C）で長期保存",
+                  "供給元のラベル表示と安定性データに従い、遮光してください。"
+                ],
+                [
+                  "再溶解後（液状）",
+                  "35.6-46.4F（2-8C）",
+                  "研究用ペプチドの一般的な安定性維持期間内に使用し、供給元の指針を参照してください。"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+          "source_statements": [
+            {
+              "section": "DSIP の対象となる方と使用を避けるべき方",
+              "subsection": "",
+              "excerpt": "妊娠中・授乳中：研究されていないため、使用は避けるべきです。",
+              "truncated": false
+            },
+            {
+              "section": "DSIP の副作用と安全性",
+              "subsection": "報告されているリスクと理論上のリスク",
+              "excerpt": "研究の解説には、朝のだるさや鮮明な夢が生じる可能性が記述されています。",
+              "truncated": false
+            },
+            {
+              "section": "DSIP の副作用と安全性",
+              "subsection": "報告されているリスクと理論上のリスク",
+              "excerpt": "HPA軸のホルモンと相互作用する可能性がありますが、現代の試験ではその特性は明らかになっていません。",
+              "truncated": false
+            },
+            {
+              "section": "DSIP の経過と観察項目",
+              "subsection": "",
+              "excerpt": "過去の試験では、投与した最初の夜またはその翌晩に、睡眠ポリグラフ検査を用いて睡眠構築の変化を測定しました。主観的な睡眠の質の変化が報告されることもあり、その時点は",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Delta-sleep-inducing peptide（DSIP）：総説。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/6145137/"
+          },
+          {
+            "label": "Delta-sleep-inducing peptide（DSIP）：最新の知見。",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/0149763484900228"
+          },
+          {
+            "label": "Delta sleep-inducing peptide（DSIP）：いまだ解明されていない謎。",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/j.1471-4159.2006.03693.x"
+          },
+          {
+            "label": "合成DSIP（delta-sleep-inducing-peptide）がヒトの睡眠障害に及ぼす影響。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/7028502/"
+          },
+          {
+            "label": "重度の慢性不眠症における24時間の睡眠・覚醒行動に対するdelta-sleep-inducing peptideの影響。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3622582/"
+          },
+          {
+            "label": "慢性不眠症患者への短期投与による睡眠改善におけるdelta sleep-inducing peptideの有効性の研究。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/3583493/"
+          },
+          {
+            "label": "Delta sleep-inducing peptideは、局所性脳卒中後のSDラットの運動機能を回復させます。",
+            "url": "https://www.mdpi.com/1420-3049/26/17/5173"
+          },
+          {
+            "label": "Pichia pastorisが分泌するペプチドの血液脳関門通過と、PCPA誘発不眠症マウスモデルにおけるDSIP融合ペプチドの有効性。",
+            "url": "https://www.frontiersin.org/journals/pharmacology/articles/10.3389/fphar.2024.1439536/full"
+          },
+          {
+            "label": "調剤への使用において重大な安全性リスクをもたらす可能性のある特定の原薬（カテゴリー2）。",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks"
+          },
+          {
+            "label": "Delta sleep-inducing peptide。",
+            "url": "https://journals.lww.com/ejanaesthesiology/fulltext/2001/07000/delta_sleep_inducing_peptide.1.aspx"
+          }
+        ],
+        "unresolved_fields": [
+          "cycle_duration_choice",
+          "range_choice",
+          "human_subcutaneous_validation"
+        ],
+        "notes": "出典の参考情報のみで、未レビューです。表と独立した参考文献は出典レコードで引き続き参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "07ef5aae-34be-4471-a48b-8052d34f658a",
+      "url": "https://riteaid.com/peptides/dsip",
+      "title": "DSIP Peptide: Benefits, Dosage & 2026 Legal Status",
+      "publisher": "Rite Aid",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "0b729ba5-232e-48a0-832a-b09e6a3556e1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1299794/",
+      "title": "Effects of delta sleep-inducing peptide on sleep of chronic insomniac patients: a double-blind study (1992)",
+      "publisher": "Neuropsychobiology, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "74c9cc40-9922-40ea-8eac-31b781822052",
+      "url": "https://cenegenics.com/what-is-dsip-delta-sleep-inducing-peptide-benefits-mechanism-and-uses/",
+      "title": "What Is DSIP? Delta Sleep-Inducing Peptide Benefits, Mechanism, and Uses",
+      "publisher": "Cenegenics",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+      "url": "https://www.peptidedosingprotocols.com/protocol/dsip",
+      "title": "DSIP Peptide Dosing Guide: Timing, Protocol & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "e62b5bbb-408d-4794-b835-1b107cfa022e",
+      "sourceID": "ad1974b3-756b-4fd2-909d-e8a75c2bc41e",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にはこれらの項目の記述がありますが、一次資料による検証は保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "07ef5aae-34be-4471-a48b-8052d34f658a",
+      "locator": "Research benefits and mechanism sections",
+      "evidenceNote": "オーナーによる追記 2026-10-15：オーナー提供の二次的な概説には、睡眠、ストレス、疼痛に関する研究目的が記載され、厳密なヒト試験が限られていることも認められています。作用機序と確実な臨床的効果は依然として不明です。カテゴリー分類の根拠：睡眠の調節とストレスの調節は、神経学的な研究目的です。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "0b729ba5-232e-48a0-832a-b09e6a3556e1",
+      "locator": "Abstract; prior source verification",
+      "evidenceNote": "オーナーによる追記 2026-10-15：不眠症に関する小規模な盲検試験では、客観的な効果は弱いと報告され、短期的に大きな治療効果があることは確立されませんでした。エビデンスが一貫していないという留保を裏づけますが、睡眠、ストレス、疼痛、忍容性についてのより強い主張を裏づけるものではありません。カテゴリー分類の根拠：睡眠の調節とストレスの調節は、神経学的な研究目的です。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "dspi",
+      "sourceID": "74c9cc40-9922-40ea-8eac-31b781822052",
+      "locator": "Potential benefits and mechanism sections",
+      "evidenceNote": "オーナーによる追記 2026-10-15：オーナー提供のクリニックの記事には、睡眠、ストレス・コルチゾール、疼痛に関して提唱されている用途が記載されています。二次資料の主張は、提唱されている効果として記録されています。この記事は、臨床的有効性や有害作用がないことを確立するものではありません。カテゴリー分類の根拠：睡眠の調節とストレスの調節は、神経学的な研究目的です。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知・神経"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

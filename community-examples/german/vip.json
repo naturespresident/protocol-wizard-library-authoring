@@ -1,0 +1,562 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vip",
+      "name": "VIP (Vasoactive intestinal peptide; vasoaktives intestinales Peptid)",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "In einer kleinen physiologischen Studie bewirkte die experimentelle inhalative Anwendung von VIP/aviptadil eine kurzzeitige Erweiterung der Lungengefäße. Die Evidenz zur Behandlung von Erkrankungen bleibt uneinheitlich und hängt vom Verabreichungsweg ab: Eine größere placebokontrollierte Studie mit intravenösem aviptadil verbesserte die Behandlungsergebnisse bei COVID-19-bedingtem Atemversagen nicht. Daraus lässt sich kein Nutzen für intranasale Wellness-Anwendungen, chronische Erschöpfung oder Protokolle bei unspezifischen Entzündungen ableiten."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "62d8ffb1-9108-480e-9b62-ecc435ff03c0",
+      "productID": "vip",
+      "title": "VIP — quellenbasierte Klinikreferenz für die Anwendung fünfmal wöchentlich",
+      "purpose": "Referenzplanung gemäß Quellenbeschreibung",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Sekundäre Beschreibung aus Redaktion/Community. Die unabhängige Quellenvalidierung und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vip"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+              "locator": "VIP Rekonstitutionsanleitung / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Fortlaufende Anwendung nach klinischem Muster",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 5,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/vip",
+            "locator": "Dosierungsprotokoll und Zeitplan; Zeitangaben aus der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": [
+            {
+              "section": "VIP: Lagerung und Handhabung",
+              "subsection": "Aussehen",
+              "rows": [
+                [
+                  "",
+                  "VIP"
+                ],
+                [
+                  "Lyophilisiert (Pulverform)",
+                  "-4F (-20C) langfristig"
+                ],
+                [
+                  "Rekonstituiert (flüssige Form)",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "Aussehen",
+                  "Klar, farblos"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_statements": [
+            {
+              "section": "Wer VIP meiden sollte",
+              "subsection": "",
+              "excerpt": "Einige Personengruppen sollten VIP nicht ohne engmaschige ärztliche Begleitung anwenden. Da VIP die Bauchspeicheldrüse beeinflussen kann, sollten Personen mit Pankreatitis in der Vorgeschichte oder ansteigenden Lipasewerten auf die Anwendung verzichten oder sie beenden.",
+              "truncated": false
+            },
+            {
+              "section": "Wer VIP meiden sollte",
+              "subsection": "",
+              "excerpt": "Schwangere oder stillende Personen (Sicherheit nicht belegt).",
+              "truncated": false
+            },
+            {
+              "section": "Wer VIP meiden sollte",
+              "subsection": "",
+              "excerpt": "Personen mit aktiver Krebserkrankung sollten die Anwendung zunächst ärztlich besprechen; bei manchen Tumoren sind VIP-Rezeptoren überexprimiert, was theoretisch Anlass zur Sorge gibt.",
+              "truncated": false
+            },
+            {
+              "section": "Häufige Fragen",
+              "subsection": "F10: Wer sollte das Peptid VIP meiden?",
+              "excerpt": "Personen mit Pankreatitis in der Vorgeschichte oder erhöhten Lipasewerten, schwangere oder stillende Personen, Personen mit sehr niedrigem Blutdruck und Personen mit aktiver Krebserkrankung sollten VIP nicht ohne engmaschige ärztliche Begleitung anwenden. Eine Ärztin oder ein Arzt sollte zunächst Ihre vollständige Krankengeschichte prüfen.",
+              "truncated": false
+            },
+            {
+              "section": "VIP: Erwarteter zeitlicher Verlauf und Überwachung",
+              "subsection": "",
+              "excerpt": "Betrachten Sie die nach Wochen gegliederten „Zeitpläne zum Nutzen“ auf Anbieterinformationen mit Skepsis. Es handelt sich um Marketingzusammenfassungen, nicht um Studienendpunkte, und sie führen weit mehr Erkrankungen auf, als die Evidenz stützt.",
+              "truncated": false
+            },
+            {
+              "section": "VIP: Erwarteter zeitlicher Verlauf und Überwachung",
+              "subsection": "",
+              "excerpt": "Wo VIP unter Aufsicht untersucht wurde, ist die Überwachung wichtiger als ein fester Zeitplan. Im klinischen CIRS-Protokoll wird die Lipase nach der ersten Dosis, nach etwa zwei Wochen und nach jeder Erhöhung erneut kontrolliert; Symptome und Laborwerte werden längerfristig verfolgt. Für die meisten beworbenen Anwendungen von VIP gibt es weiterhin keine belastbare Studienevidenz für einen vorhersehbaren Nutzen",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Polypeptid mit breiter biologischer Aktivität: Isolierung aus dem Dünndarm.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5411915/"
+          },
+          {
+            "label": "Intravenöses aviptadil und remdesivir zur Behandlung von COVID-19-assoziiertem hypoxämischem Atemversagen in den USA (TESICO): eine randomisierte, placebokontrollierte Studie.",
+            "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23)00147-9/fulltext"
+          },
+          {
+            "label": "Intravenöses Aviptadil bei kritischem COVID-19 mit Atemversagen (NCT04311697).",
+            "url": "https://clinicaltrials.gov/study/NCT04311697"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide (VIP) korrigiert das chronische inflammatorische Response-Syndrom (CIRS), das nach Exposition gegenüber wassergeschädigten Gebäuden erworben wurde.",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=28586"
+          },
+          {
+            "label": "RNA-Seq bei mit VIP behandelten CIRS-Patienten zeigt eine mit der Heilung einhergehende Veränderung des Stoffwechselzustands und der angeborenen Immunfunktionen.",
+            "url": "https://esmed.org/MRA/mra/article/view/862"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide/phentolamine zur intrakavernösen Injektion bei erektiler Dysfunktion.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18485029/"
+          },
+          {
+            "label": "Intrakavernöse Injektion von aviptadil und phentolamine bei therapierefraktärer erektiler Dysfunktion.",
+            "url": "https://academic.oup.com/jsm/article-abstract/22/5/726/8107665"
+          },
+          {
+            "label": "Arzneistoffe zur Rezepturherstellung gemäß Abschnitt 503A des FD&C Act.",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          },
+          {
+            "label": "Die FDA-Regulierung von Peptiden könnte sich ändern: Kategorien für die Rezepturherstellung von VIP, GHK-Cu und anderen Peptiden.",
+            "url": "https://www.frierlevitt.com/articles/fda-peptide-regulation-rfk-announcement-compounding-pharmacies/"
+          },
+          {
+            "label": "FDA lehnt EUA-Antrag für Zyesami (aviptadil) bei COVID-19 ab.",
+            "url": "https://www.managedhealthcareexecutive.com/view/fda-declines-eua-request-for-zyesami-for-covid-19"
+          },
+          {
+            "label": "Erwartete pharmakologische Rolle von aviptadil (synthetisches VIP): VPAC-Rezeptormechanismus und Lungenbiologie.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630992/"
+          }
+        ],
+        "unresolved_fields": [
+          "weekdays",
+          "exact_clock_times",
+          "clinical_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "Nur als Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar."
+      }
+    },
+    {
+      "id": "66a5942e-d8cc-4557-8423-6f325c80529a",
+      "productID": "vip",
+      "title": "VIP — quellenbasierte subkutane Anfangsdosis und Dosisoptionen für die fortlaufende Anwendung",
+      "purpose": "Referenzplanung gemäß Quellenbeschreibung",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Sekundäre Beschreibung aus Redaktion/Community. Die unabhängige Quellenvalidierung und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vip"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+              "locator": "VIP Rekonstitutionsanleitung / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Vorsichtiger Einstieg",
+            "duration": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Standard-/erweiterte Optionen für die fortlaufende Anwendung",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "100",
+                "200"
+              ],
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "1-2x täglich"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/vip",
+            "locator": "Dosierungsprotokoll und Zeitplan; Zeitangaben aus der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_tables": [
+            {
+              "section": "VIP: Lagerung und Handhabung",
+              "subsection": "Aussehen",
+              "rows": [
+                [
+                  "",
+                  "VIP"
+                ],
+                [
+                  "Lyophilisiert (Pulverform)",
+                  "-4F (-20C) langfristig"
+                ],
+                [
+                  "Rekonstituiert (flüssige Form)",
+                  "35.6-46.4F (2-8C)"
+                ],
+                [
+                  "Aussehen",
+                  "Klar, farblos"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+          "source_statements": [
+            {
+              "section": "Wer VIP meiden sollte",
+              "subsection": "",
+              "excerpt": "Einige Personengruppen sollten VIP nicht ohne engmaschige ärztliche Begleitung anwenden. Da VIP die Bauchspeicheldrüse beeinflussen kann, sollten Personen mit Pankreatitis in der Vorgeschichte oder ansteigenden Lipasewerten auf die Anwendung verzichten oder sie beenden.",
+              "truncated": false
+            },
+            {
+              "section": "Wer VIP meiden sollte",
+              "subsection": "",
+              "excerpt": "Schwangere oder stillende Personen (Sicherheit nicht belegt).",
+              "truncated": false
+            },
+            {
+              "section": "Wer VIP meiden sollte",
+              "subsection": "",
+              "excerpt": "Personen mit aktiver Krebserkrankung sollten die Anwendung zunächst ärztlich besprechen; bei manchen Tumoren sind VIP-Rezeptoren überexprimiert, was theoretisch Anlass zur Sorge gibt.",
+              "truncated": false
+            },
+            {
+              "section": "Häufige Fragen",
+              "subsection": "F10: Wer sollte das Peptid VIP meiden?",
+              "excerpt": "Personen mit Pankreatitis in der Vorgeschichte oder erhöhten Lipasewerten, schwangere oder stillende Personen, Personen mit sehr niedrigem Blutdruck und Personen mit aktiver Krebserkrankung sollten VIP nicht ohne engmaschige ärztliche Begleitung anwenden. Eine Ärztin oder ein Arzt sollte zunächst Ihre vollständige Krankengeschichte prüfen.",
+              "truncated": false
+            },
+            {
+              "section": "VIP: Erwarteter zeitlicher Verlauf und Überwachung",
+              "subsection": "",
+              "excerpt": "Betrachten Sie die nach Wochen gegliederten „Zeitpläne zum Nutzen“ auf Anbieterinformationen mit Skepsis. Es handelt sich um Marketingzusammenfassungen, nicht um Studienendpunkte, und sie führen weit mehr Erkrankungen auf, als die Evidenz stützt.",
+              "truncated": false
+            },
+            {
+              "section": "VIP: Erwarteter zeitlicher Verlauf und Überwachung",
+              "subsection": "",
+              "excerpt": "Wo VIP unter Aufsicht untersucht wurde, ist die Überwachung wichtiger als ein fester Zeitplan. Im klinischen CIRS-Protokoll wird die Lipase nach der ersten Dosis, nach etwa zwei Wochen und nach jeder Erhöhung erneut kontrolliert; Symptome und Laborwerte werden längerfristig verfolgt. Für die meisten beworbenen Anwendungen von VIP gibt es weiterhin keine belastbare Studienevidenz für einen vorhersehbaren Nutzen",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Polypeptid mit breiter biologischer Aktivität: Isolierung aus dem Dünndarm.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/5411915/"
+          },
+          {
+            "label": "Intravenöses aviptadil und remdesivir zur Behandlung von COVID-19-assoziiertem hypoxämischem Atemversagen in den USA (TESICO): eine randomisierte, placebokontrollierte Studie.",
+            "url": "https://www.thelancet.com/journals/lanres/article/PIIS2213-2600(23)00147-9/fulltext"
+          },
+          {
+            "label": "Intravenöses Aviptadil bei kritischem COVID-19 mit Atemversagen (NCT04311697).",
+            "url": "https://clinicaltrials.gov/study/NCT04311697"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide (VIP) korrigiert das chronische inflammatorische Response-Syndrom (CIRS), das nach Exposition gegenüber wassergeschädigten Gebäuden erworben wurde.",
+            "url": "https://www.scirp.org/journal/paperinformation?paperid=28586"
+          },
+          {
+            "label": "RNA-Seq bei mit VIP behandelten CIRS-Patienten zeigt eine mit der Heilung einhergehende Veränderung des Stoffwechselzustands und der angeborenen Immunfunktionen.",
+            "url": "https://esmed.org/MRA/mra/article/view/862"
+          },
+          {
+            "label": "Vasoactive intestinal polypeptide/phentolamine zur intrakavernösen Injektion bei erektiler Dysfunktion.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18485029/"
+          },
+          {
+            "label": "Intrakavernöse Injektion von aviptadil und phentolamine bei therapierefraktärer erektiler Dysfunktion.",
+            "url": "https://academic.oup.com/jsm/article-abstract/22/5/726/8107665"
+          },
+          {
+            "label": "Arzneistoffe zur Rezepturherstellung gemäß Abschnitt 503A des FD&C Act.",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/bulk-drug-substances-used-compounding-under-section-503a-fdc-act"
+          },
+          {
+            "label": "Die FDA-Regulierung von Peptiden könnte sich ändern: Kategorien für die Rezepturherstellung von VIP, GHK-Cu und anderen Peptiden.",
+            "url": "https://www.frierlevitt.com/articles/fda-peptide-regulation-rfk-announcement-compounding-pharmacies/"
+          },
+          {
+            "label": "FDA lehnt EUA-Antrag für Zyesami (aviptadil) bei COVID-19 ab.",
+            "url": "https://www.managedhealthcareexecutive.com/view/fda-declines-eua-request-for-zyesami-for-covid-19"
+          },
+          {
+            "label": "Erwartete pharmakologische Rolle von aviptadil (synthetisches VIP): VPAC-Rezeptormechanismus und Lungenbiologie.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8630992/"
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_dose_and_frequency_choice",
+          "best_time_of_day",
+          "human_subcutaneous_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "Nur als Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "url": "https://www.peptidedosingprotocols.com/protocol/vip",
+      "title": "VIP Peptide Dosing Guide: Vasoactive Intestinal Peptide Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "76e3f0c9-e124-4e82-8139-e68924c35ccf",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10527239/",
+      "title": "Intravenous aviptadil and remdesivir for treatment of COVID-19-associated hypoxaemic respiratory failure in the USA (TESICO): a randomised, placebo-controlled trial",
+      "publisher": "The Lancet Respiratory Medicine",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "bdb7ce6a-a6b4-4c6d-b12f-f5facc092507",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18978135/",
+      "title": "Inhalation of vasoactive intestinal peptide in pulmonary hypertension",
+      "publisher": "European Respiratory Journal / PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "62d8ffb1-9108-480e-9b62-ecc435ff03c0",
+      "sourceID": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "66a5942e-d8cc-4557-8423-6f325c80529a",
+      "sourceID": "305b2a4b-4e50-438d-a06d-6dee99f4f2ae",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "vip",
+      "sourceID": "76e3f0c9-e124-4e82-8139-e68924c35ccf",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Ergebnisse und Schlussfolgerungen der Originalstudie gelesen. 461 erhielten eine verblindete Infusion; aviptadil verbesserte weder die Genesung an Tag 90 noch andere klinische Endpunkte. Begründung der Kategorie: Überprüfte Forschung befasst sich mit der Physiologie der Lungengefäße und schweren Atemwegserkrankungen.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "vip",
+      "sourceID": "bdb7ce6a-a6b4-4c6d-b12f-f5facc092507",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Indexierte Originalzusammenfassung gelesen. Zwanzig Patienten; akute hämodynamische Reaktion nach Inhalation, kein belegter langfristiger klinischer Nutzen. Begründung der Kategorie: Überprüfte Forschung befasst sich mit der Physiologie der Lungengefäße und schweren Atemwegserkrankungen.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert und klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

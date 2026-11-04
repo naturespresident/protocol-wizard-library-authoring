@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bpc-157-tb-500",
+      "name": "BPC-157 + TB-500",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "探索的な併用研究：ラットを用いたある腱修復実験では、BPC-157とTB-500と表示された物質の併用により組織学的スコアの改善が認められましたが、いずれかの単独使用を上回る追加的な効果はありませんでした。この研究は、この事前混合ブレンドの妥当性を裏付けるものではありません。研究で用いられたTB-500の配列と本製品の同一性は未確認であり、処置はヒト用プロトコルではなく実験的なものでした。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "546bdf1b-52ff-4105-b7a6-c2d230a73b86",
+      "productID": "bpc-157-tb-500",
+      "title": "Wolverine / BPC-157 + TB-500 1:1プレミックス — コミュニティの用量範囲",
+      "purpose": "出典に記載された参考計画",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集資料です。自動的な臨床的妥当性の確認や、アプリの初期設定への採用を意味するものではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "bpc-157",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "tb-500",
+              "ratio_part": "1"
+            }
+          ],
+          "fixed_component_ratio": "1:1"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "5",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "5",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "コミュニティでのブレンドの毎日の用量範囲",
+            "duration": {
+              "kind": "range",
+              "minimum": 42,
+              "maximum": 84,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 5,
+                "maximum": 7,
+                "period": "week"
+              },
+              "description": "週5-7日"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Wolverineスタックのサイクル期間：コミュニティの6–12週間のスケジュール",
+              "subsection": "",
+              "rows": [
+                [
+                  "方法",
+                  "導入",
+                  "維持",
+                  "サイクル全体",
+                  "一般的な使用背景"
+                ],
+                [
+                  "事前混合製剤の毎日投与",
+                  "—",
+                  "ブレンドの総量として毎日0.5–2.0 mg",
+                  "6–12週間",
+                  "利便性を優先し、一定の曝露を維持"
+                ],
+                [
+                  "別々のバイアルを用いる標準的な方法",
+                  "第1–4週",
+                  "第5–8週",
+                  "8–12週間",
+                  "損傷に関する計画での導入後の漸減"
+                ],
+                [
+                  "別々のバイアルを用いる延長した方法",
+                  "第1–4週",
+                  "第5–12週",
+                  "12週間",
+                  "治癒の遅い組織に関する研究計画"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Wolverineスタックのサイクル期間表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "サイクル期間",
+                      "通常の説明",
+                      "エビデンスに関する注記"
+                    ],
+                    [
+                      "4–6週間",
+                      "短期集中サイクル、または初期の導入のみの計画",
+                      "コミュニティの議論では一般的ですが、併用の臨床プロトコルとして検証されていません"
+                    ],
+                    [
+                      "6–8週間",
+                      "導入期と維持期を含む、最も一般的な完全なサイクル",
+                      "コミュニティでの標準ですが、ヒトでの対照試験はありません"
+                    ],
+                    [
+                      "8–12週間",
+                      "進行の遅い研究、または長期の研究日程に対応する延長計画",
+                      "一貫性が低く、裏付けとなる安全性データもさらに少ないです"
+                    ],
+                    [
+                      "12週間超",
+                      "長期使用または反復使用",
+                      "この併用スタックについて、ヒトでの安全性の根拠は確立されていません"
+                    ]
+                  ]
+                },
+                {
+                  "section": "導入期と維持期",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "段階",
+                      "典型的な時期",
+                      "コミュニティでの説明"
+                    ],
+                    [
+                      "導入期",
+                      "第1–4週",
+                      "計画の中で投与頻度が最も高い期間です。別々のバイアルを用いるスケジュールでは、BPC-157を毎日、TB-500をそれより低い頻度で使用することがよくあります。"
+                    ],
+                    [
+                      "維持期",
+                      "第5–8週",
+                      "BPC-157は毎日のスケジュールを続ける場合がありますが、TB-500の頻度は減らすことがよくあります。"
+                    ],
+                    [
+                      "延長期",
+                      "第9–12週",
+                      "一部のコミュニティの計画では低頻度のパターンを継続しますが、この延長を裏付けるエビデンスは弱いです。"
+                    ],
+                    [
+                      "休薬期間",
+                      "投与サイクル終了後",
+                      "コミュニティの計画には、いずれの化合物も使用しない期間が含まれることがよくありますが、妥当性が確認されたウォッシュアウト期間はありません。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "事前混合製剤と別々のバイアルを用いるサイクルの比較",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "製剤形態",
+                      "一般的なスケジュールのパターン",
+                      "主な制約"
+                    ],
+                    [
+                      "1:1の事前混合バイアル",
+                      "サイクル全体を通して、定期的なスケジュールで混合液を一度に吸引します",
+                      "用量比が固定されているため、一方の化合物を変更すると、もう一方も変更することになります"
+                    ],
+                    [
+                      "BPC-157とTB-500の別々のバイアル",
+                      "BPC-157を毎日、TB-500をそれより低い頻度で使用し、その後さらに低頻度の段階に移行することがよくあります",
+                      "計算がより複雑になり、スケジュールを誤る機会も増えます"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Wolverineスタックの保管と取り扱い",
+              "subsection": "",
+              "rows": [
+                [
+                  "状態",
+                  "BPC-157",
+                  "TB-500"
+                ],
+                [
+                  "凍結乾燥状態（粉末）",
+                  "長期保管は-4°F (-20°C)；涼しく乾燥した暗所",
+                  "長期保管は-4°F (-20°C)；涼しく乾燥した暗所"
+                ],
+                [
+                  "再溶解後（液体）",
+                  "35.6–46.4°F (2–8°C)；約30日以内に使用してください",
+                  "35.6–46.4°F (2–8°C)；約30日以内に使用してください"
+                ],
+                [
+                  "光への曝露",
+                  "直接光が当たらないようにしてください",
+                  "直接光が当たらないようにしてください"
+                ],
+                [
+                  "外観",
+                  "再溶解後は澄明です",
+                  "澄明、またはごくわずかに着色しています"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_statements": [
+            {
+              "section": "Wolverineスタックの副作用と安全性",
+              "subsection": "理論上の懸念とスタック全体に関する懸念",
+              "excerpt": "両化合物は血管新生を促進します。これは修復のために意図された機序ですが、腫瘍の増殖にも関連する経路です。Chaらによる2003年のJ Natl Cancer Instの論文では、B16-F10マウスモデルにおいてThymosin Beta-4の発現が肺腫瘍の転移を増加させたと報告されています。ヒトにおける外因性のTB-500断片にこの知見がどのように当てはまるかは不明ですが、臨床医の間で最も頻繁に引用される理論的リスクです。",
+              "truncated": true
+            },
+            {
+              "section": "Wolverineスタックの副作用と安全性",
+              "subsection": "スポーツと競技",
+              "excerpt": "BPC-157とTB-500はいずれも、WADAのS0未承認物質カテゴリーで、競技会時および競技会外の両方において禁止されています。WADA、USADA、またはスポーツ統括団体の検査プログラムの対象となる競技者は、検出されなくなるまでの期間を想定すべきではありません。これらの物質は、時期にかかわらず検出可能であり、禁止されています。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "整形外科スポーツ医学におけるBPC-157の新たな利用：システマティックレビュー。",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15563316251355551"
+          },
+          {
+            "label": "ラットにおけるアキレス腱剥離と安定した胃由来ペンタデカペプチドBPC 157：腱と骨の治癒を促進し、コルチコステロイドによる悪化に拮抗しました。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16583442/"
+          },
+          {
+            "label": "ペンタデカペプチドBPC 157による腱治癒促進効果には、腱の伸長、細胞の生存、細胞の遊走が関与します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21164151/"
+          },
+          {
+            "label": "安定した胃由来ペンタデカペプチドBPC 157と創傷治癒。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34267654/"
+          },
+          {
+            "label": "BPC 157ペプチドの多機能性と医療応用の可能性 — 文献および特許レビュー。",
+            "url": "https://www.mdpi.com/1424-8247/18/2/185"
+          },
+          {
+            "label": "Thymosin beta 4は、ヒト臍帯静脈内皮細胞の方向性のある遊走を刺激します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9194528/"
+          },
+          {
+            "label": "Thymosin beta-4と血管新生：作用機序と治療への可能性。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17632766/"
+          },
+          {
+            "label": "Thymosin beta4は、血管新生、創傷治癒、毛包の発達を促進します。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15037013/"
+          },
+          {
+            "label": "Thymosin β4の機能と応用に関する進展。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "腫瘍の転移と血管新生におけるthymosin beta4の役割。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14625258/"
+          },
+          {
+            "label": "2025年世界アンチ・ドーピング規程の国際基準禁止表 — S0（未承認物質）の節。",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "selected_weekdays",
+          "time_of_day",
+          "TB_500_exact_sequence",
+          "range_selection"
+        ],
+        "notes": "出典の参照情報のみであり、未レビューです。表と独立した参考文献は、出典レコードで引き続き参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+      "title": "Wolverine Stack Dosing Guide: BPC-157 + TB-500 Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "url": "https://jointdrs.org/full-text/1851",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study",
+      "publisher": "Joint Diseases and Related Surgery",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+      "title": "Wolverine Stack Cycle Length: 6–12 Week Research Schedules",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "546bdf1b-52ff-4105-b7a6-c2d230a73b86",
+      "sourceID": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "各項目は出典に記載されています。独立した検証は未実施です。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "546bdf1b-52ff-4105-b7a6-c2d230a73b86",
+      "sourceID": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "期間と休薬に関する背景的なエビデンスです。用量、製品ラベル、投与経路、または対象集団に固有の指示に代わるものではありません。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "bpc-157-tb-500",
+      "sourceID": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "原著の全文を確認済みです。ラット三十二匹を対象とし、併用群ではMovinスコアが改善しましたが、強度の改善や、単独使用の効果への上乗せはありませんでした。TB-500の配列は明記されていません。カテゴリー分類の根拠：腱修復研究が意図された効果に該当します。この分類は、ブレンドの有効性が実証されていることを意味しません。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "治癒と回復"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

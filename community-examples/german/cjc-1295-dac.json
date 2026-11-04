@@ -1,0 +1,535 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cjc-1295-dac",
+      "name": "CJC-1295 (DAC)",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "Nachgewiesene biologische Wirkung: anhaltende Anstiege der Wachstumshormon- und IGF-1-Konzentrationen in kurzen randomisierten Studien mit gesunden Erwachsenen. Dabei handelt es sich um Hormonmessungen, nicht um einen Nachweis für bessere Erholung, Muskelaufbau, Fettabbau, besseren Schlaf oder Langlebigkeit. Das untersuchte Material war die lang wirkende DAC-Form, wobei das genaue Salz unvollständig angegeben war. Ein klinischer Nutzen bei Wachstumshormonmangel und langfristiger Anwendung zu Wellnesszwecken wurde durch diese Studien nicht belegt."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "7ff99318-7471-434f-bdc4-40674dbbcf81",
+      "productID": "cjc-1295-dac",
+      "title": "CJC-1295 DAC — Wochenplan aus der Quelle mit höher dosierter/aufgeteilter Alternative",
+      "purpose": "In der Quelle beschriebene Referenzplanung",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Sekundäre redaktionelle/Community-Beschreibung. Eine unabhängige Validierung der Quelle und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "cjc-1295-dac",
+              "variant": "DAC"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+              "locator": "CJC-1295 mit DAC Rekonstitutionsanleitung / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+              "locator": "CJC-1295 mit DAC Rekonstitutionsanleitung / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+              "locator": "CJC-1295 mit DAC Rekonstitutionsanleitung / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Beginn",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "500",
+              "maximum": "1000",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Therapeutischer Bereich",
+            "duration": {
+              "kind": "fixed",
+              "value": 42,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/cjc-1295-dac",
+            "locator": "Dosierungsprotokoll und Zeitplan; Zeitangaben der Quelle"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+          "source_tables": [
+            {
+              "section": "CJC-1295 mit DAC Dosierungsprotokoll und Zeitplan",
+              "subsection": "Zyklusstruktur",
+              "rows": [
+                [
+                  "Ansatz",
+                  "Zyklusdauer",
+                  "Pause",
+                  "Am besten geeignet für"
+                ],
+                [
+                  "Standard",
+                  "8-12 Wochen",
+                  "4-6 Wochen",
+                  "Allgemeine Forschungsplanung zur Begrenzung des Desensibilisierungsrisikos."
+                ],
+                [
+                  "Verlängert",
+                  "12-16 Wochen",
+                  "6-8 Wochen",
+                  "Kontexte mit längerem Forschungszeitraum, in denen ein IGF-1-Spiegel im Fließgleichgewicht das Ziel ist."
+                ],
+                [
+                  "Aufgeteilte Dosis",
+                  "8-12 Wochen",
+                  "4-6 Wochen",
+                  "1 mg zweimal wöchentlich für einen gleichmäßigeren GH/IGF-1-Verlauf."
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "2406a411-ce64-47ef-8b34-39fff9314678",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/cjc-1295-dac",
+              "source_tables": [
+                {
+                  "section": "Was wurde in den Humanstudien tatsächlich gemacht?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Studie",
+                      "Aktiver Zeitraum",
+                      "Gesamter Studien- oder Messzeitraum",
+                      "Pause vor einem Wiederholungszyklus"
+                    ],
+                    [
+                      "Teichman: Studie mit einmaliger Injektion",
+                      "Eine Injektion",
+                      "28-tägige Studie",
+                      "Nicht belegt"
+                    ],
+                    [
+                      "Teichman: Studie mit mehreren Injektionen",
+                      "Tage 0 und 14 oder Tage 0, 7 und 14",
+                      "49-tägige Studie",
+                      "Nicht belegt"
+                    ],
+                    [
+                      "Ionescu und Frohman: Studie zur pulsatilen Hormonausschüttung",
+                      "Eine Injektion",
+                      "Messungen vor und eine Woche nach der Injektion",
+                      "Nicht belegt"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Vier häufig verwechselte Zeitverläufe",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Begriff",
+                      "Einfach erklärte Bedeutung",
+                      "Was sich daraus allein nicht ableiten lässt"
+                    ],
+                    [
+                      "Dosierungszeitraum",
+                      "Die Zeit von der ersten bis zur letzten Injektion",
+                      "Ob die Injektionen täglich oder nur an ausgewählten Tagen erfolgten"
+                    ],
+                    [
+                      "Studiendauer",
+                      "Der gesamte Zeitraum, in dem die Forschenden dem Studienplan folgten",
+                      "An wie vielen Tagen eine Behandlung stattfand"
+                    ],
+                    [
+                      "Gemessene Wirkung",
+                      "Wie lange eine berichtete Veränderung beobachtet wurde",
+                      "Wie lange jede einzelne Person einen Nutzen bemerken wird"
+                    ],
+                    [
+                      "Pause vor einem Wiederholungszyklus",
+                      "Eine Unterbrechung, bevor ein weiterer Zyklus beginnt",
+                      "Ob ein erneuter Beginn untersucht wurde oder sicher ist"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+          "source_tables": [
+            {
+              "section": "CJC-1295 mit DAC Lagerung und Handhabung",
+              "subsection": "",
+              "rows": [
+                [
+                  "Zustand",
+                  "Lagerung",
+                  "Haltbarkeit"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "Langfristig bei -4F (-20C) oder darunter",
+                  "12-24+ Monate gemäß Lieferantenetikett"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "35.6-46.4F (2-8C)",
+                  "Mehrere Monate gemäß Lieferantenetikett"
+                ],
+                [
+                  "Lyophilisiert (Pulver)",
+                  "Raumtemperatur",
+                  "Wochen (nur für den Versandzeitraum)"
+                ],
+                [
+                  "Rekonstituiert (flüssig)",
+                  "35.6-46.4F (2-8C)",
+                  "3-4 Wochen als üblicher Zeitraum für die Forschungsplanung"
+                ],
+                [
+                  "Rekonstituiert (eingefrorene Aliquote)",
+                  "-4F (-20C)",
+                  "Etwa 3-4 Monate"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "c14a3166-152f-4692-aec8-2e8794d53273",
+          "source_statements": [
+            {
+              "section": "Für wen CJC-1295 mit DAC geeignet ist und wer es meiden sollte",
+              "subsection": "",
+              "excerpt": "Aktive oder kürzlich aufgetretene bösartige Erkrankung: Eine Erhöhung von GH/IGF-1 wird im Zusammenhang mit Krebserkrankungen im Allgemeinen vermieden.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen CJC-1295 mit DAC geeignet ist und wer es meiden sollte",
+              "subsection": "",
+              "excerpt": "Schwangerschaft oder Stillzeit: keine Sicherheitsdaten beim Menschen.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen CJC-1295 mit DAC geeignet ist und wer es meiden sollte",
+              "subsection": "Auswirkung der langen Halbwertszeit",
+              "excerpt": "Da CJC-1295 mit DAC 6-8 Tage lang aktiv bleibt, kann jede unerwünschte Wirkung tagelang anhalten, anstatt innerhalb von Stunden abzuklingen. Deshalb ist eine fachliche Überwachung besonders wichtig.",
+              "truncated": false
+            },
+            {
+              "section": "CJC-1295 mit DAC Nebenwirkungen und Sicherheit",
+              "subsection": "",
+              "excerpt": "Daten aus Phase 1 beschrieben CJC-1295 mit DAC in niedrigeren Dosisbereichen als relativ gut verträglich, wobei unerwünschte Ereignisse bei höherer Exposition zunahmen. Das wichtigste Sicherheitssignal in den veröffentlichten Unterlagen stammte aus der abgebrochenen Studie der Phase 2.",
+              "truncated": false
+            },
+            {
+              "section": "CJC-1295 mit DAC Nebenwirkungen und Sicherheit",
+              "subsection": "DAC-spezifischer Aspekt",
+              "excerpt": "Da die Halbwertszeit 6-8 Tage beträgt, können Nebenwirkungen tagelang statt nur minutenlang anhalten. Das ist der wichtigste praktische Unterschied zu kürzer wirkenden GHRH-Analoga.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Anhaltende Stimulation der Sekretion von Wachstumshormon (GH) und insulinähnlichem Wachstumsfaktor I durch CJC-1295, ein lang wirkendes Analogon des Wachstumshormon freisetzenden Hormons, bei gesunden Erwachsenen.",
+            "url": "https://doi.org/10.1210/jc.2005-1536"
+          },
+          {
+            "label": "Die pulsatile Sekretion von Wachstumshormon (GH) bleibt bei kontinuierlicher Stimulation durch CJC-1295, ein lang wirkendes Analogon des Wachstumshormon freisetzenden Hormons, erhalten.",
+            "url": "https://doi.org/10.1210/jc.2006-1702"
+          },
+          {
+            "label": "Biokonjugate aus humanem Wachstumshormon freisetzendem Faktor (hGRF)1-29 und Albumin aktivieren den GRF-Rezeptor im Hypophysenvorderlappen bei Ratten: Identifizierung von CJC-1295 als lang anhaltendes GRF-Analogon.",
+            "url": "https://doi.org/10.1210/en.2004-1286"
+          },
+          {
+            "label": "Die einmal tägliche Verabreichung von CJC-1295, einem lang wirkenden GHRH-Analogon, normalisiert das Wachstum bei der GHRH-Knockout-Maus.",
+            "url": "https://doi.org/10.1152/ajpendo.00201.2006"
+          },
+          {
+            "label": "Die Aktivierung der GH/IGF-1-Achse durch CJC-1295, ein lang wirkendes GHRH-Analogon, führt bei normalen erwachsenen Probanden zu Veränderungen des Serumproteinprofils.",
+            "url": "https://doi.org/10.1016/j.ghir.2009.03.001"
+          },
+          {
+            "label": "Lang wirkende Formen des Wachstumshormon freisetzenden Hormons und des Wachstumshormons: Wirkungen bei normalen Freiwilligen und Erwachsenen mit Wachstumshormonmangel.",
+            "url": "https://doi.org/10.1159/000110620"
+          },
+          {
+            "label": "Identifizierung von CJC-1295, einem Wachstumshormon freisetzenden Peptid, in einer unbekannten pharmazeutischen Zubereitung.",
+            "url": "https://doi.org/10.1002/dta.233"
+          },
+          {
+            "label": "Studie der Phase 2 zu CJC-1295 bei HIV-assoziierter viszeraler Fettansammlung (NCT00267527).",
+            "url": "https://clinicaltrials.gov/study/NCT00267527"
+          },
+          {
+            "label": "Lipodystrophiestudie nach dem Tod eines Patienten abgebrochen.",
+            "url": "https://www.aidsmap.com/news/jul-2006/lipodystrophy-study-halted-after-patient-death"
+          },
+          {
+            "label": "Für die Verwendung in Rezepturarzneimitteln gemäß Abschnitt 503A vorgeschlagene pharmazeutische Ausgangsstoffe - Bewertungsunterlagen zu CJC-1295 (FDA-2024-N-4777-0009, Anhang 6).",
+            "url": "https://downloads.regulations.gov/FDA-2024-N-4777-0009/attachment_6.pdf"
+          }
+        ],
+        "unresolved_fields": [
+          "overlapping_phase_choice",
+          "clinical_trial_ceiling_not_community_default",
+          "eligibility",
+          "preparation"
+        ],
+        "notes": "Nur als Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar.",
+        "phase_alternatives": [
+          {
+            "name": "Höherer überlappender Bereich",
+            "start_week": 3,
+            "phases": [
+              {
+                "name": "Wochen 3–12",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 70,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2000",
+                  "unit": "mcg",
+                  "basis": "total_product"
+                },
+                "schedule": {
+                  "pattern": "every_n_days",
+                  "interval_days": 7,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "split_option": {
+              "dose": {
+                "value": "1",
+                "unit": "mg",
+                "basis": "total_product"
+              },
+              "schedule": {
+                "pattern": "times_per_week",
+                "times_per_week": 2,
+                "doses_per_day": 1,
+                "suggested_times": []
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2406a411-ce64-47ef-8b34-39fff9314678",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/cjc-1295-dac",
+      "title": "CJC-1295 with DAC Cycle Length: Studies, Breaks & Limits",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "2e03bb49-e681-458b-95b8-d36bd625b562",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16352683/",
+      "title": "Prolonged stimulation of GH and IGF-I secretion by CJC-1295 in healthy adults (2006)",
+      "publisher": "Journal of Clinical Endocrinology & Metabolism, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "c14a3166-152f-4692-aec8-2e8794d53273",
+      "url": "https://www.peptidedosingprotocols.com/protocol/cjc-1295-dac",
+      "title": "CJC-1295 with DAC Dosing Guide: Schedule, Half-Life & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "f1352487-f41c-4cee-aab1-3a41263543ca",
+      "url": "https://www.fda.gov/media/183819/download",
+      "title": "FDA PCAC briefing: CJC-1295-related bulk drug substances (December 2024)",
+      "publisher": "US Food and Drug Administration",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "7ff99318-7471-434f-bdc4-40674dbbcf81",
+      "sourceID": "2406a411-ce64-47ef-8b34-39fff9314678",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundbelege zu Dauer/Pausen; kein Ersatz für Anweisungen zu Dosis, Produktetikett, Verabreichungsweg oder spezifischer Population.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "7ff99318-7471-434f-bdc4-40674dbbcf81",
+      "sourceID": "c14a3166-152f-4692-aec8-2e8794d53273",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/phase_alternatives"
+      ]
+    },
+    {
+      "productID": "cjc-1295-dac",
+      "sourceID": "2e03bb49-e681-458b-95b8-d36bd625b562",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Zwei kurze placebokontrollierte Studien maßen Hormone; kein Nachweis klinischer Ergebnisse. Begründung der Kategorie: Wachstumshormon: Die Evidenz beim Menschen belegt direkt eine Stimulation der GH-Achse, während ein klinischer Nutzen unbewiesen bleibt.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "cjc-1295-dac",
+      "sourceID": "f1352487-f41c-4cee-aab1-3a41263543ca",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Unterscheidet DAC von no-DAC und benennt die Grenzen der Evidenz beim Menschen; S.35,49–50. Begründung der Kategorie: Wachstumshormon: Die Evidenz beim Menschen belegt direkt eine Stimulation der GH-Achse, während ein klinischer Nutzen unbewiesen bleibt.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Wachstumshormon"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

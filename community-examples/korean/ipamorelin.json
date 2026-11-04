@@ -1,0 +1,637 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ipamorelin",
+      "name": "Ipamorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "입증된 생물학적 효과: 소규모 인체 자원자 약리학 연구에서 일시적인 성장호르몬 분비가 나타났어요. 이는 생체표지자 반응이며, 근육 증가, 회복, 수면, 체지방 감소 또는 수명 연장에 대한 이점은 입증되지 않았어요. 수술 후 장마비에 대한 무작위 배정 임상시험에서는 주요 평가변수인 식사 내약성에서 통계적으로 유의한 개선이 나타나지 않았어요. 이러한 정맥 투여 연구는 이 라이브러리에 있는 피하 웰니스 투여 요법이나 ipamorelin 함유 병용 조합의 임상적 이점도 입증하지 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "productID": "ipamorelin",
+      "title": "Ipamorelin — 용량 기준이 상충하는 출처의 일일 총용량 적정 계획",
+      "purpose": "출처에 기술된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 아직 진행되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "ipamorelin"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin 재용해 가이드 / mL 및 U-100 주사기 단위로 표시한 Ipamorelin 투여량"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin 재용해 가이드 / mL 및 U-100 주사기 단위로 표시한 Ipamorelin 투여량"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+              "locator": "Ipamorelin 재용해 가이드 / mL 및 U-100 주사기 단위로 표시한 Ipamorelin 투여량"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "평가 단계: 1주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "용량 적정 단계: 2–3주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "하루 1-2회"
+            }
+          },
+          {
+            "name": "표준 단계: 4–8주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 35,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "하루 1-2회"
+            }
+          },
+          {
+            "name": "연장 단계: 9–12주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "frequency_range": {
+                "minimum": 1,
+                "maximum": 2,
+                "period": "day"
+              },
+              "description": "하루 1-2회"
+            }
+          },
+          {
+            "name": "휴약기",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "휴약기"
+            },
+            "status": "rest"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "bedtime",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": {
+            "state": "fasted"
+          },
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/ipamorelin",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          },
+          "optional_split_windows": [
+            "morning",
+            "bedtime"
+          ]
+        },
+        "cycle_guidance": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/ipamorelin",
+              "source_tables": [
+                {
+                  "section": "Ipamorelin 주기 표: 8주, 12주, 16주 비교",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "주기 길이",
+                      "일반적으로 기술되는 방식",
+                      "발표된 Ipamorelin 근거",
+                      "근거 수준"
+                    ],
+                    [
+                      "8주",
+                      "더 짧은 커뮤니티 주기",
+                      "8주 피하 투여 주기를 확립한 인체 임상시험은 없어요",
+                      "커뮤니티 관행"
+                    ],
+                    [
+                      "12주",
+                      "일반적인 커뮤니티 주기 종료 시점",
+                      "12주 피하 투여 주기를 확립한 인체 임상시험은 없어요",
+                      "커뮤니티 관행"
+                    ],
+                    [
+                      "16주",
+                      "더 길거나 연장된 커뮤니티 주기",
+                      "16주 피하 투여 주기를 확립한 인체 임상시험은 없어요",
+                      "커뮤니티 관행"
+                    ],
+                    [
+                      "최대 7일",
+                      "발표된 수술 후 임상시험의 투여 기간",
+                      "수술 후 1일째부터 7일째 또는 퇴원 시점까지 Ipamorelin 정맥 투여",
+                      "인체 임상 연구"
+                    ],
+                    [
+                      "최대 10일",
+                      "II상 결과 평가 기간",
+                      "최대 10일 동안 결과를 측정한 반복 정맥 투여군",
+                      "인체 임상 연구"
+                    ]
+                  ]
+                },
+                {
+                  "section": "인체 Ipamorelin 연구에서 실제로 평가한 내용",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "연구",
+                      "연구 대상",
+                      "투여 경로",
+                      "기간",
+                      "이 연구에서 알 수 있는 점"
+                    ],
+                    [
+                      "Gobburu 외 1999",
+                      "건강한 남성 자원자",
+                      "정맥 주입",
+                      "15분간 단회 주입",
+                      "약동학/약력학 특성을 규명했고 말기 반감기가 약 2시간인 것으로 확인했어요. 여러 주에 걸친 주기를 평가하지는 않았어요."
+                    ],
+                    [
+                      "Beck 외 2014 / NCT00672074",
+                      "장 절제술 환자",
+                      "정맥 주입",
+                      "수술 후 1-7일째 또는 퇴원 시점까지",
+                      "수술 후 장마비에 대해 단기간 반복 투여를 평가했어요. 장기 피하 투여 주기를 검증하지는 않았어요."
+                    ],
+                    [
+                      "NCT01280344",
+                      "장 절제술 환자",
+                      "정맥 주입",
+                      "최대 10일 동안 결과 측정",
+                      "반복 정맥 투여군들을 비교했어요. 8주, 12주 또는 16주 주기를 확립하지는 않았어요."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Ipamorelin 반감기와 주기 길이 비교",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "용어",
+                      "의미",
+                      "근거가 보여 주는 내용"
+                    ],
+                    [
+                      "반감기",
+                      "약물 제거와 관련된 시간",
+                      "1999년 인체 약동학/약력학 연구에서 정맥 주입 후 약 2시간"
+                    ],
+                    [
+                      "GH 반응 시간대",
+                      "투여 후 짧은 호르몬 반응",
+                      "1999년 정맥 투여 연구에서 GH는 약 0.67시간에 최고치에 도달했어요"
+                    ],
+                    [
+                      "주기 길이",
+                      "반복 투여 일정의 총 주수",
+                      "8주, 12주 또는 16주의 피하 투여 기간은 검증되지 않았어요"
+                    ],
+                    [
+                      "휴약기",
+                      "투여하지 않도록 계획한 기간",
+                      "인체 Ipamorelin 임상시험에서 4주 휴약 규칙은 검증되지 않았어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "발표된 근거와 커뮤니티 주기 일정 비교",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "주장",
+                      "근거 현황",
+                      "제시 방식"
+                    ],
+                    [
+                      "Ipamorelin에는 인체 약동학/약력학 자료가 있어요",
+                      "근거가 있어요",
+                      "발표된 인체 정맥 투여 연구"
+                    ],
+                    [
+                      "장 수술 후 반복 투여한 Ipamorelin이 연구되었어요",
+                      "근거가 있어요",
+                      "발표된 II상 정맥 투여 연구"
+                    ],
+                    [
+                      "8주가 가장 좋은 주기 길이예요",
+                      "확립되지 않았어요",
+                      "커뮤니티 관행에 불과해요"
+                    ],
+                    [
+                      "12주가 표준 임상 주기예요",
+                      "확립되지 않았어요",
+                      "커뮤니티 관행에 불과해요"
+                    ],
+                    [
+                      "16주가 안전하거나 더 효과적이라고 입증되었어요",
+                      "확립되지 않았어요",
+                      "입증된 주장으로 제시하면 안 돼요"
+                    ],
+                    [
+                      "민감성을 회복하려면 4주 휴약이 필요해요",
+                      "확립되지 않았어요",
+                      "커뮤니티의 설명 근거이며, 인체에서 검증된 규칙은 아니에요"
+                    ],
+                    [
+                      "2시간의 반감기가 여러 주에 걸친 주기 길이를 입증해요",
+                      "잘못된 추론이에요",
+                      "반감기와 주기 기간은 별개의 개념이에요"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_tables": [
+            {
+              "section": "Ipamorelin 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "온도",
+                  "기간"
+                ],
+                [
+                  "동결건조 분말",
+                  "-4F (-20C)",
+                  "장기(수개월~수년)"
+                ],
+                [
+                  "동결건조 분말",
+                  "36-46F (2-8C)",
+                  "수개월"
+                ],
+                [
+                  "동결건조 분말",
+                  "실온",
+                  "수주(배송 기간)"
+                ],
+                [
+                  "재용해 후(액체)",
+                  "36-46F (2-8C)",
+                  "최대 28일"
+                ],
+                [
+                  "재용해 후 소분하여 냉동한 시료",
+                  "-4F (-20C)",
+                  "3-4개월"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "45812810-3288-4d83-aa7e-c22dfa354046",
+          "source_statements": [
+            {
+              "section": "Ipamorelin 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "사용을 피해야 하는 경우",
+              "excerpt": "활동성 암 또는 최근 암 병력이 있는 경우예요. GH와 IGF-1은 세포 성장을 촉진할 수 있어요. 현재 암이 있거나 최근 암 병력이 있는 사람은 GH를 높이는 화합물의 사용을 피해야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelin 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "사용을 피해야 하는 경우",
+              "excerpt": "임신 또는 모유 수유 중인 경우예요. 어느 집단에서도 ipamorelin의 안전성 자료는 없어요.",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelin 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "더욱 주의해야 하는 경우",
+              "excerpt": "암 가족력이 강한 경우예요.",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelin 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "더욱 주의해야 하는 경우",
+              "excerpt": "당뇨병 전단계이거나 공복 혈당이 정상 범위의 상한에 가까운 경우예요.",
+              "truncated": false
+            },
+            {
+              "section": "Ipamorelin 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "모니터링의 범위와 한계",
+              "excerpt": "일부 임상의는 장기 ipamorelin 프로토콜을 시작하기 전과 진행하는 동안 공복 혈당과 HbA1c를 검토해요. 이 페이지는 의학적 조언이 아니에요. 연구용 화합물의 사용을 시작하거나 계속하거나 중단하는 결정은 개인과 면허를 갖춘 담당 임상의가 함께 내려요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "최초의 선택적 성장호르몬 분비 촉진제, Ipamorelin.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9849822/"
+          },
+          {
+            "label": "인체 자원자에서 성장호르몬 분비 펩타이드인 ipamorelin의 약동학-약력학 모델링.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/"
+          },
+          {
+            "label": "장 절제술 환자의 수술 후 장마비 관리를 위한 Ghrelin 유사체 ipamorelin의 전향적 무작위 배정 대조 개념 증명 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/"
+          },
+          {
+            "label": "성장호르몬 분비 촉진제: 역사, 작용 기전 및 임상 개발.",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/rco2.9"
+          },
+          {
+            "label": "새로운 경구 GH 분비 촉진제 NN703의 약리학적 특성 규명.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10427163/"
+          },
+          {
+            "label": "위장관 기능 회복에 대한 Ipamorelin의 안전성 및 유효성: 위약과의 비교 (NCT01280344).",
+            "url": "https://clinicaltrials.gov/study/NCT01280344"
+          },
+          {
+            "label": "수술 후 장마비에서의 Ipamorelin (NCT00672074).",
+            "url": "https://clinicaltrials.gov/study/NCT00672074"
+          },
+          {
+            "label": "제503A조에 따른 원료의약품 사용 조제에 관한 임시 정책 — 범주 2 목록 및 PCAC 검토 업데이트.",
+            "url": "https://www.fda.gov/media/94155/download"
+          },
+          {
+            "label": "FDA 요약 보고서: Ipamorelin Acetate (PCAC 검토 자료).",
+            "url": "https://downloads.regulations.gov/FDA-2015-N-3469-0293/attachment_1.pdf"
+          },
+          {
+            "label": "수술 후 장마비: 약리학적 관점.",
+            "url": "https://bpspubs.onlinelibrary.wiley.com/doi/10.1111/bph.15800"
+          },
+          {
+            "label": "성장호르몬 분비 촉진제가 체성분과 뼈 건강에 미치는 영향에 대한 검토.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/28526632/"
+          },
+          {
+            "label": "금지 목록 — S2 펩타이드 호르몬, 성장인자, 관련 물질 및 유사체(ghrelin 유사체 포함).",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "daily_total_table_vs_per_shot_FAQ_conflict",
+          "daily_count_choice",
+          "optional_extension_to_week_16",
+          "exact_clock_times"
+        ],
+        "notes": "출처 참고용이며, 검토되지 않았어요. 표와 독립적인 참고 문헌은 출처 기록에 그대로 있어요. 주요 표는 일일 총용량이라고 명시하지만, 자주 묻는 질문에서는 후반 단계의 용량을 주사당 용량이라고 해요. 총용량을 별다른 설명 없이 각 주사의 용량으로 취급하면 안 돼요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "45812810-3288-4d83-aa7e-c22dfa354046",
+      "url": "https://www.peptidedosingprotocols.com/protocol/ipamorelin",
+      "title": "Ipamorelin Peptide Dosing Guide: Timing, Protocol & Side Effects (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/ipamorelin",
+      "title": "Ipamorelin Cycle Length: 8, 12 & 16 Week Research Context",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (1999)",
+      "publisher": "Pharmaceutical Research, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cd1441f4-06da-49da-8b9f-f2c7fc4b61ec",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25331030/",
+      "title": "Randomized proof-of-concept study of ipamorelin for postoperative ileus (2014)",
+      "publisher": "International Journal of Colorectal Disease, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "sourceID": "45812810-3288-4d83-aa7e-c22dfa354046",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에 이러한 필드가 기술되어 있어요. 일차 출처 검증은 아직 진행되지 않았어요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "639ba2a0-5699-4299-bee0-8b3ca994f472",
+      "sourceID": "906f0153-38cc-42cd-aa86-b4ea6a740dd3",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴약에 관한 배경 근거예요. 용량, 제품 라벨, 투여 경로 또는 대상 집단별 지침을 대신하지 않아요.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "ipamorelin",
+      "sourceID": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "정맥 투여 후 GH 생체표지자 반응이며, 임상적 이점을 평가한 시험은 아니에요. 범주 분류 근거: 성장호르몬: 인체에서 GH 분비에 대한 직접적인 근거가 있지만 임상적 이점은 확립되지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "ipamorelin",
+      "sourceID": "cd1441f4-06da-49da-8b9f-f2c7fc4b61ec",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "117명이 등록되었어요. 주요 유효성 비교에서 p=0.15로, 통계적으로 유의하지 않았어요. 범주 분류 근거: 성장호르몬: 인체에서 GH 분비에 대한 직접적인 근거가 있지만 임상적 이점은 확립되지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

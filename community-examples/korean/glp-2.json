@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-2",
+      "name": "Tirzepatide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "승인된 tirzepatide 피하주사 제품의 확립된 이점에는 적격 성인의 체중 감소 및 장기적인 체중 유지, 2형 당뇨병의 혈당 조절 개선, 비만 성인의 중등도에서 중증에 이르는 폐쇄성 수면 무호흡증 치료가 포함돼요. 현재 Mounjaro 허가사항에는 고위험 2형 당뇨병 성인의 주요 심혈관 사건 감소도 포함돼요. 이러한 이점은 특정 제품 및 대상 집단에 해당해요. tirzepatide 단독 사용에 대한 근거만으로는 이를 포함하는 병용 조합의 이점이 확립되지 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "productID": "glp-2",
+      "title": "Zepbound — 허가사항에 따른 조건부 증량 및 유지",
+      "purpose": "성인의 체중 관리 또는 비만 성인의 폐쇄성 수면 무호흡증",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "검토되지 않은 참고 자료 발췌본이며, 완전한 처방 지침은 아니에요.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Zepbound",
+          "components": [
+            {
+              "name": "Tirzepatide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "비만 성인 또는 적격 과체중 성인; 폐쇄성 수면 무호흡증 적응증에는 비만이 필수예요"
+        },
+        "preparation_options": [
+          {
+            "form": "ready_solution",
+            "reconstitution_required": false
+          }
+        ],
+        "phases": [
+          {
+            "name": "시작",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "개별 증량 및 유지",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "5",
+                "7.5",
+                "10",
+                "12.5",
+                "15"
+              ],
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "conditional_escalation": {
+          "post_initiation_start": {
+            "value": "5",
+            "unit": "mg"
+          },
+          "increment": {
+            "value": "2.5",
+            "unit": "mg"
+          },
+          "minimum_days_at_each_dose": 28,
+          "maximum": {
+            "value": "15",
+            "unit": "mg"
+          },
+          "maintenance_options": {
+            "weight_management": [
+              "5",
+              "10",
+              "15"
+            ],
+            "obstructive_sleep_apnea": [
+              "10",
+              "15"
+            ]
+          }
+        },
+        "unresolved_fields": [
+          "individual_escalation_sequence",
+          "maintenance_dose_selection"
+        ],
+        "notes": "출처에서 정의한 선택지를 함께 보관해요. 모든 경우에 적용되는 고정 용량 적정이나 조제 의약품 바이알의 준비를 뜻하지는 않아요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "26300ca9-06c5-4823-9c57-73e1855a6568",
+      "url": "https://pi.lilly.com/us/zepbound-uspi.pdf",
+      "title": "Zepbound prescribing information, revised August 2026",
+      "publisher": "Eli Lilly and Company",
+      "type": "regulatory_label",
+      "publishedAt": "2026-08"
+    },
+    {
+      "id": "7ca78315-a75d-4264-befa-32abf53435dc",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=487cd7e7-434c-4925-99fa-aa80b1cc776b",
+      "title": "ZEPBOUND (tirzepatide) prescribing information",
+      "publisher": "Eli Lilly / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "a4479d54-db30-4d64-9fc6-4ccb1a6518e7",
+      "url": "https://www.peptidedosingprotocols.com/protocol/tirzepatide",
+      "title": "Tirzepatide Dosing Chart: 2.5-15 mg Weekly Titration, Reconstitution & Side Effects",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "e9db8ee4-bcfb-4ea8-9db1-9356f789ed52",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/fda/fdaDrugXsl.cfm?setid=d2d7da5d-ad07-4228-955f-cf7e355c8cc0",
+      "title": "MOUNJARO (tirzepatide) prescribing information",
+      "publisher": "Eli Lilly / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "fffa6144-803b-46e6-be70-a2ea566c8b45",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/tirzepatide",
+      "title": "Tirzepatide Cycle Length: Treatment, Maintenance & Stopping",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "sourceID": "26300ca9-06c5-4823-9c57-73e1855a6568",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "매주 한 번 투여로 시작한 뒤 개별적으로 선택한 증량 폭과 적응증별 유지 선택지를 따라요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "sourceID": "a4479d54-db30-4d64-9fc6-4ccb1a6518e7",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "이 예시는 기존 Zepbound의 단계별 용량을 따라요. 최대 용량에 이르는 경로는 새로운 프로토콜이 아니며 모든 환자에게 필수인 것도 아니에요.",
+      "supports": [
+        "/conditional_escalation"
+      ]
+    },
+    {
+      "protocolID": "a7db75d1-36d2-4938-8323-4b00822a846e",
+      "sourceID": "fffa6144-803b-46e6-be70-a2ea566c8b45",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간과 휴지기에 관한 배경 근거이며, 용량, 제품 허가사항, 투여 경로 또는 대상 집단별 지침을 대체하지는 않아요.",
+      "supports": []
+    },
+    {
+      "productID": "glp-2",
+      "sourceID": "7ca78315-a75d-4264-befa-32abf53435dc",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "2026년 팔월 허가사항은 체중 감소/유지와 비만 관련 중등도에서 중증에 이르는 폐쇄성 수면 무호흡증을 뒷받침해요. 범주 분류 근거: 체중 및 대사: 비만과 당뇨병이 확립된 핵심 용도예요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glp-2",
+      "sourceID": "e9db8ee4-bcfb-4ea8-9db1-9356f789ed52",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "현재 허가사항은 2형 당뇨병이 있는 성인 및 10세 이상 소아의 혈당 조절과 고위험 2형 당뇨병 성인의 심혈관 사건 위험 감소를 뒷받침해요. 범주 분류 근거: 체중 및 대사: 비만과 당뇨병이 확립된 핵심 용도예요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

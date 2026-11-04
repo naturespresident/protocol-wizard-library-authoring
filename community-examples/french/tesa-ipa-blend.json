@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tesa-ipa-blend",
+      "name": "Mélange Tesa/Ipa",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 4,
+      "benefits": "Justification proposée fondée sur les composants : associer l’activité de tesamorelin sur l’axe de l’hormone de croissance (GH) et les recherches sur la graisse viscérale dans des affections spécifiques à l’effet d’ipamorelin sur la libération de GH. Aucune étude clinique directe sur les bénéfices de ces prémélanges n’a été trouvée. Le bénéfice établi de tesamorelin dans la lipodystrophie associée au VIH concerne sa formulation étudiée en monothérapie ; il n’établit aucun bénéfice en matière de perte de poids, de récupération ou de masse musculaire pour un mélange de tesamorelin/ipamorelin. Les différents rapports restent également des formulations distinctes et non validées, et ne sont pas des produits étudiés interchangeables."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "2bf95513-be27-49bd-96e5-d26680d0abd6",
+      "productID": "tesa-ipa-blend",
+      "title": "Prémélange Tesamorelin / Ipamorelin 10:3 — prélèvement de référence selon la source",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Source éditoriale secondaire ; aucune validation clinique automatique ni inclusion par défaut dans l’application.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "tesamorelin",
+              "ratio_part": "10"
+            },
+            {
+              "library_item_id": "ipamorelin",
+              "ratio_part": "3"
+            }
+          ],
+          "fixed_component_ratio": "10:3"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Prélèvement quotidien de référence selon la source",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.43",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "0.33",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "0.10",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/tesamorelin-ipamorelin",
+            "locator": "Protocole posologique et calendrier ; indications de la source sur le moment d’administration"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de Tesamorelin + Ipamorelin",
+              "subsection": "Aspect",
+              "rows": [
+                [
+                  "",
+                  "Mélange Tesamorelin + Ipamorelin"
+                ],
+                [
+                  "Lyophilisé (forme en poudre)",
+                  "-4F (-20C) à long terme ; 2-8C (35.6-46.4F) à court terme"
+                ],
+                [
+                  "Reconstitué (forme liquide)",
+                  "35.6-46.4F (2-8C), à l’abri de la lumière"
+                ],
+                [
+                  "Aspect",
+                  "Limpide après reconstitution"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de Tesamorelin + Ipamorelin",
+              "subsection": "Sécurité des composés",
+              "excerpt": "Dans les essais sur tesamorelin, les événements indésirables les plus fréquemment rapportés comprennent les réactions au site d’injection (rougeurs, démangeaisons), les douleurs articulaires (arthralgies), les douleurs aux extrémités, l’œdème périphérique (rétention d’eau) et les douleurs musculaires. Tesamorelin a également été associé à une intolérance au glucose et à un risque accru de diabète de type 2, et est contre-indiqué pendant la grossesse.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de Tesamorelin + Ipamorelin",
+              "subsection": "Sécurité des composés",
+              "excerpt": "Ipamorelin est généralement bien toléré dans les études animales et selon les données limitées disponibles chez l’humain ; des bouffées vasomotrices ou des maux de tête transitoires peuvent survenir. Les essais chez l’humain sur ipamorelin n’étant pas achevés, sa sécurité à long terme n’est pas établie.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de Tesamorelin + Ipamorelin",
+              "subsection": "Inconnues propres à l’association",
+              "excerpt": "Aucun essai chez l’humain n’a caractérisé spécifiquement le profil des effets indésirables du mélange.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de Tesamorelin + Ipamorelin",
+              "subsection": "Risques liés au site d’injection et à la qualité",
+              "excerpt": "L’alternance des sites entre l’abdomen, la cuisse et la partie supérieure du bras est une pratique courante pour éviter la lipohypertrophie.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Tesamorelin, un analogue du facteur de libération de l’hormone de croissance, chez les patients atteints du VIH présentant une accumulation de graisse abdominale (phase 3).",
+            "url": "https://jamanetwork.com/journals/jama/fullarticle/186684"
+          },
+          {
+            "label": "Approbation par la FDA d’EGRIFTA WR (tesamorelin F8) pour l’excès de graisse viscérale abdominale chez les adultes atteints du VIH et de lipodystrophie.",
+            "url": "https://www.theratech.com/news-releases/news-release-details/theratechnologies-receives-fda-approval-egrifta-wrtm-tesamorelin/"
+          },
+          {
+            "label": "Informations de prescription / notice d’EGRIFTA (tesamorelin pour injection).",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/022505s000lbl.pdf"
+          },
+          {
+            "label": "Tesamorelin : analogue synthétique de la GHRH ; 2 mg par voie sous-cutanée chaque jour pour la lipodystrophie liée au VIH.",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548730/"
+          },
+          {
+            "label": "Tesamorelin : un analogue du facteur de libération de l’hormone de croissance pour la lipodystrophie associée au VIH.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22298602/"
+          },
+          {
+            "label": "Ipamorelin, le premier sécrétagogue sélectif de l’hormone de croissance.",
+            "url": "https://academic.oup.com/ejendo/article-abstract/139/5/552/6748390"
+          },
+          {
+            "label": "Étude de preuve de concept d’ipamorelin, un mimétique de la ghréline, pour l’iléus postopératoire (phase 2, interrompue).",
+            "url": "https://link.springer.com/article/10.1007/s00384-014-2030-8"
+          },
+          {
+            "label": "Sécurité et efficacité des sécrétagogues de l’hormone de croissance ; synergie GHRH + GHRP et stimulation de la GH par deux voies.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5632578/"
+          },
+          {
+            "label": "Ipamorelin induit la croissance osseuse longitudinale chez le rat.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10373343/"
+          },
+          {
+            "label": "Effets de la GHRH (tesamorelin) sur le GABA cérébral dans les troubles cognitifs légers et le vieillissement en bonne santé.",
+            "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/1688413"
+          },
+          {
+            "label": "Tesamorelin : revue de son utilisation dans la lipodystrophie associée au VIH.",
+            "url": "https://doi.org/10.2165/11202240-000000000-00000"
+          }
+        ],
+        "unresolved_fields": [
+          "phase_durations",
+          "titration_progression",
+          "added_diluent_volume_not_captured",
+          "rounded_mass_equivalents",
+          "exact_clock_time"
+        ],
+        "notes": "Référence de la source uniquement ; non évaluée. Les tableaux et les références indépendantes restent disponibles dans la fiche source."
+      }
+    },
+    {
+      "id": "4c22efe7-11a5-4335-9f2b-78cd97a3eb58",
+      "productID": "tesa-ipa-blend",
+      "title": "Prémélange Tesamorelin / Ipamorelin 1:1 — titration sur 16 semaines selon la source",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Source éditoriale secondaire ; aucune validation clinique automatique ni inclusion par défaut dans l’application.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "tesamorelin",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "ipamorelin",
+              "ratio_part": "1"
+            }
+          ],
+          "fixed_component_ratio": "1:1"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "component_amounts": [
+              {
+                "component_id": "tesamorelin",
+                "value": "5",
+                "unit": "mg"
+              },
+              {
+                "component_id": "ipamorelin",
+                "value": "5",
+                "unit": "mg"
+              }
+            ],
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": null,
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": true
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Semaines 1-2",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "334",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "167",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "167",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "Semaines 3-4",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "666",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "333",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "333",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "Semaines 5-8",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          },
+          {
+            "name": "Semaines 9-16",
+            "duration": {
+              "kind": "fixed",
+              "value": 56,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1334",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "tesamorelin",
+                "dose": {
+                  "value": "667",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "667",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ]
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "evening",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/tesamorelin-ipamorelin",
+            "locator": "Protocole posologique et calendrier ; indications de la source sur le moment d’administration"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de Tesamorelin + Ipamorelin",
+              "subsection": "Aspect",
+              "rows": [
+                [
+                  "",
+                  "Mélange Tesamorelin + Ipamorelin"
+                ],
+                [
+                  "Lyophilisé (forme en poudre)",
+                  "-4F (-20C) à long terme ; 2-8C (35.6-46.4F) à court terme"
+                ],
+                [
+                  "Reconstitué (forme liquide)",
+                  "35.6-46.4F (2-8C), à l’abri de la lumière"
+                ],
+                [
+                  "Aspect",
+                  "Limpide après reconstitution"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+          "source_statements": [
+            {
+              "section": "Effets indésirables et sécurité de Tesamorelin + Ipamorelin",
+              "subsection": "Sécurité des composés",
+              "excerpt": "Dans les essais sur tesamorelin, les événements indésirables les plus fréquemment rapportés comprennent les réactions au site d’injection (rougeurs, démangeaisons), les douleurs articulaires (arthralgies), les douleurs aux extrémités, l’œdème périphérique (rétention d’eau) et les douleurs musculaires. Tesamorelin a également été associé à une intolérance au glucose et à un risque accru de diabète de type 2, et est contre-indiqué pendant la grossesse.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de Tesamorelin + Ipamorelin",
+              "subsection": "Sécurité des composés",
+              "excerpt": "Ipamorelin est généralement bien toléré dans les études animales et selon les données limitées disponibles chez l’humain ; des bouffées vasomotrices ou des maux de tête transitoires peuvent survenir. Les essais chez l’humain sur ipamorelin n’étant pas achevés, sa sécurité à long terme n’est pas établie.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de Tesamorelin + Ipamorelin",
+              "subsection": "Inconnues propres à l’association",
+              "excerpt": "Aucun essai chez l’humain n’a caractérisé spécifiquement le profil des effets indésirables du mélange.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de Tesamorelin + Ipamorelin",
+              "subsection": "Risques liés au site d’injection et à la qualité",
+              "excerpt": "L’alternance des sites entre l’abdomen, la cuisse et la partie supérieure du bras est une pratique courante pour éviter la lipohypertrophie.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Tesamorelin, un analogue du facteur de libération de l’hormone de croissance, chez les patients atteints du VIH présentant une accumulation de graisse abdominale (phase 3).",
+            "url": "https://jamanetwork.com/journals/jama/fullarticle/186684"
+          },
+          {
+            "label": "Approbation par la FDA d’EGRIFTA WR (tesamorelin F8) pour l’excès de graisse viscérale abdominale chez les adultes atteints du VIH et de lipodystrophie.",
+            "url": "https://www.theratech.com/news-releases/news-release-details/theratechnologies-receives-fda-approval-egrifta-wrtm-tesamorelin/"
+          },
+          {
+            "label": "Informations de prescription / notice d’EGRIFTA (tesamorelin pour injection).",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2010/022505s000lbl.pdf"
+          },
+          {
+            "label": "Tesamorelin : analogue synthétique de la GHRH ; 2 mg par voie sous-cutanée chaque jour pour la lipodystrophie liée au VIH.",
+            "url": "https://www.ncbi.nlm.nih.gov/books/NBK548730/"
+          },
+          {
+            "label": "Tesamorelin : un analogue du facteur de libération de l’hormone de croissance pour la lipodystrophie associée au VIH.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/22298602/"
+          },
+          {
+            "label": "Ipamorelin, le premier sécrétagogue sélectif de l’hormone de croissance.",
+            "url": "https://academic.oup.com/ejendo/article-abstract/139/5/552/6748390"
+          },
+          {
+            "label": "Étude de preuve de concept d’ipamorelin, un mimétique de la ghréline, pour l’iléus postopératoire (phase 2, interrompue).",
+            "url": "https://link.springer.com/article/10.1007/s00384-014-2030-8"
+          },
+          {
+            "label": "Sécurité et efficacité des sécrétagogues de l’hormone de croissance ; synergie GHRH + GHRP et stimulation de la GH par deux voies.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5632578/"
+          },
+          {
+            "label": "Ipamorelin induit la croissance osseuse longitudinale chez le rat.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/10373343/"
+          },
+          {
+            "label": "Effets de la GHRH (tesamorelin) sur le GABA cérébral dans les troubles cognitifs légers et le vieillissement en bonne santé.",
+            "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/1688413"
+          },
+          {
+            "label": "Tesamorelin : revue de son utilisation dans la lipodystrophie associée au VIH.",
+            "url": "https://doi.org/10.2165/11202240-000000000-00000"
+          }
+        ],
+        "unresolved_fields": [
+          "added_diluent_volume_not_captured",
+          "rounded_component_dose_conversion",
+          "exact_clock_time"
+        ],
+        "notes": "Référence de la source uniquement ; non évaluée. Les tableaux et les références indépendantes restent disponibles dans la fiche source."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "632fa60e-d980-4597-b848-d216ab5cfe16",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d783378-b02d-4f19-99dd-0fc91a042224",
+      "title": "Egrifta SV (tesamorelin) prescribing information",
+      "publisher": "Theratechnologies, via NLM DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (1999)",
+      "publisher": "Pharmaceutical Research, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+      "url": "https://www.peptidedosingprotocols.com/stacks/tesamorelin-ipamorelin",
+      "title": "Tesamorelin + Ipamorelin Peptide Stack: Dosing Guide for 10/3 and 5/5 Blends (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "2bf95513-be27-49bd-96e5-d26680d0abd6",
+      "sourceID": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "La source décrit les champs ; vérification indépendante en attente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "4c22efe7-11a5-4335-9f2b-78cd97a3eb58",
+      "sourceID": "d7553c26-f802-491d-945a-dd36ccc1f1bc",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "La source décrit les champs ; vérification indépendante en attente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "tesa-ipa-blend",
+      "sourceID": "632fa60e-d980-4597-b848-d216ab5cfe16",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Bénéfice d’un médicament seul dans une affection spécifique ; aucune évaluation d’un prémélange d’ipamorelin. Justification de la catégorie « Hormone de croissance » : recherches combinées envisagées sur l’axe de la GH ; la classification ne transfère pas l’indication de tesamorelin au mélange.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "tesa-ipa-blend",
+      "sourceID": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Réponse de la GH à un composant isolé, et non efficacité du mélange. Justification de la catégorie « Hormone de croissance » : recherches combinées envisagées sur l’axe de la GH ; la classification ne transfère pas l’indication de tesamorelin au mélange.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormone de croissance"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

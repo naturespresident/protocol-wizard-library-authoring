@@ -1,0 +1,705 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-3",
+      "name": "Retatrutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "Evidenz aus klinischen Studien am Menschen: Subkutan verabreichtes Retatrutide als Prüfpräparat führte bei Erwachsenen mit Adipositas ohne Diabetes zu einer signifikanten Gewichtsreduktion. Die Phase-3-Studie TRIUMPH-1 zeigte in den jeweils betroffenen Untergruppen außerdem eine Verringerung der Schmerzen bei Kniearthrose und weniger Apnoe-Hypopnoe-Ereignisse. Diese Ergebnisse beziehen sich auf das untersuchte Arzneimittel, den Verabreichungsweg und die Patientenpopulationen und belegen keinen Nutzen von Kombinationen mit Retatrutide."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "productID": "glp-3",
+      "title": "Retatrutide — Phase-2-Adipositasstudie mit zugewiesenen Dosisarmen",
+      "purpose": "Dosisfindungsstudie mit einem Prüfpräparat bei Adipositas",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Ungeprüfte Extraktion aus einer Referenzquelle; keine vollständigen Verordnungshinweise.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Investigational study product — NCT04881760",
+          "components": [
+            {
+              "name": "Retatrutide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "Studienteilnehmer mit Adipositas oder Übergewicht, das die Einschlusskriterien erfüllt; Typ-2-Diabetes ausgeschlossen",
+          "study_id": "NCT04881760",
+          "study_phase": "2"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Zugewiesener Studienarm, gegebenenfalls mit Dosissteigerung",
+            "duration": {
+              "kind": "fixed",
+              "value": 336,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "1",
+                "4",
+                "8",
+                "12"
+              ],
+              "unit": "mg",
+              "basis": "total_product",
+              "kind": "target_dose_choices"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "trial_arms": [
+          {
+            "target_dose": "1",
+            "initial_dose": null
+          },
+          {
+            "target_dose": "4",
+            "initial_dose": "2"
+          },
+          {
+            "target_dose": "4",
+            "initial_dose": "4"
+          },
+          {
+            "target_dose": "8",
+            "initial_dose": "2"
+          },
+          {
+            "target_dose": "8",
+            "initial_dose": "4"
+          },
+          {
+            "target_dose": "12",
+            "initial_dose": "2"
+          }
+        ],
+        "unresolved_fields": [
+          "arm_specific_intermediate_doses_and_escalation_durations",
+          "formulation_and_preparation"
+        ],
+        "notes": "Ein Studienprotokoll mit den in der Quelle angegebenen Studienarmen, keine sechs separaten Bibliothekseinträge. Zieldosen sind keine Dosen für jede einzelne Woche. Die Studienzusammenfassung des Herstellers enthält keine vollständigen Dosissteigerungsabfolgen."
+      }
+    },
+    {
+      "id": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "productID": "glp-3",
+      "title": "Retatrutide — TRIUMPH-Dosissteigerungsschema laut Quelle",
+      "purpose": "Referenzplanung gemäß Quellenbeschreibung",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Sekundäre redaktionelle Beschreibung bzw. Beschreibung aus der Community. Eine unabhängige Quellenvalidierung und die Übernahme als App-Standard stehen noch aus.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "phase_3_trials_described_by_secondary_source",
+          "indication_context": "TRIUMPH trial program",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "glp-3"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide-Rekonstitutionsleitfaden / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide-Rekonstitutionsleitfaden / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "12",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1.2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide-Rekonstitutionsleitfaden / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide-Rekonstitutionsleitfaden / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "30",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "10",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+              "locator": "Retatrutide-Rekonstitutionsleitfaden / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Vierwöchige Dosissteigerung 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Vierwöchige Dosissteigerung 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Vierwöchige Dosissteigerung 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "6",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Vierwöchige Dosissteigerung 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "9",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Woche 17+",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "12",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/retatrutide",
+            "locator": "Dosierungsprotokoll & Zeitplan; Angaben der Quelle zu Anwendungszeitpunkten"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/retatrutide",
+              "source_tables": [
+                {
+                  "section": "Retatrutide: Tabelle zur Zyklusdauer",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Dauer",
+                      "Studie",
+                      "Bedeutung der Dauer"
+                    ],
+                    [
+                      "12 Wochen",
+                      "Phase 1b bei Erwachsenen mit Typ-2-Diabetes",
+                      "Frühe Machbarkeitsstudie mit Schwerpunkt auf Sicherheit, Verträglichkeit, Pharmakokinetik und Pharmakodynamik. Sie begründete keinen Standard für einen 12-wöchigen Zyklus."
+                    ],
+                    [
+                      "36 Wochen",
+                      "Phase-2-Studie bei Typ-2-Diabetes",
+                      "Spätere Wirksamkeits- und Sicherheitsergebnisse der Phase 2 wurden bis Woche 36 bewertet."
+                    ],
+                    [
+                      "40 Wochen",
+                      "TRANSCEND-T2D-1 Phase 3",
+                      "Behandlungszeitraum der Phase 3 bei Erwachsenen mit Typ-2-Diabetes, der durch Ernährung und Bewegung unzureichend kontrolliert wird."
+                    ],
+                    [
+                      "48 Wochen",
+                      "Phase-2-Adipositasstudie",
+                      "Die Behandlung wurde 48 Wochen lang fortgesetzt, obwohl der primäre Gewichts-Endpunkt bereits in Woche 24 gemessen wurde."
+                    ],
+                    [
+                      "68 Wochen",
+                      "TRIUMPH-4 Phase 3",
+                      "Primärer Auswertungszeitraum der Phase 3 bei Erwachsenen mit Adipositas oder Übergewicht und Kniearthrose ohne Diabetes."
+                    ],
+                    [
+                      "80 Wochen",
+                      "TRIUMPH-1, TRIUMPH-2 und TRIUMPH-3",
+                      "Primärer Zeitraum zur Erfassung der Ergebnisse in Phase 3, der in mehreren großen Adipositasstudien mit unterschiedlichen Teilnehmergruppen verwendet wurde."
+                    ],
+                    [
+                      "104 Wochen",
+                      "TRIUMPH-1-Verlängerung",
+                      "In einer vorab festgelegten verblindeten Verlängerung wurde eine Untergruppe mit einem Ausgangs-BMI von mindestens 35 über zwei Behandlungsjahre nachbeobachtet."
+                    ],
+                    [
+                      "80 + 36 Wochen",
+                      "TRIUMPH-6-Erhaltungsstudie",
+                      "Laufende Studie mit einer 80-wöchigen Einleitungsphase mit Retatrutide, gefolgt von 36 Wochen mit fortgesetzter Retatrutide-Gabe, einer anderen Retatrutide-Dosis oder Placebo. Ergebnisse liegen noch nicht vor."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Retatrutide: Zyklusdauer im Vergleich zur Titration",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "Frage",
+                      "Passendste Seite",
+                      "Was dorthin gehört"
+                    ],
+                    [
+                      "Wie lange wurde Retatrutide untersucht?",
+                      "Dieser Zyklusleitfaden",
+                      "Forschungszeiträume von 12, 36, 40, 48, 68, 80 und 104 Wochen"
+                    ],
+                    [
+                      "Ist ein 12-wöchiger Zyklus durch Evidenz gestützt?",
+                      "Dieser Zyklusleitfaden",
+                      "Was die 12-wöchige Phase-1b-Studie belegen kann und was nicht"
+                    ],
+                    [
+                      "Welche Dauer einer Behandlungspause ist durch Evidenz gestützt?",
+                      "Dieser Zyklusleitfaden",
+                      "Erhaltung, Absetzen und das Fehlen einer validierten Behandlungspause zwischen Zyklen"
+                    ],
+                    [
+                      "Wie hoch war die Anfangsdosis in Phase 3?",
+                      "Retatrutide-Protokollleitfaden",
+                      "Anfangsdosis und studienspezifische Dosierungsgestaltung"
+                    ],
+                    [
+                      "Wie sieht der Titrationsplan aus?",
+                      "Retatrutide-Protokollleitfaden",
+                      "Dosissteigerung und Studienarme mit Zieldosen"
+                    ],
+                    [
+                      "Wie funktionieren Berechnungen für Durchstechflaschen und Spritzen?",
+                      "Retatrutide-Protokollleitfaden",
+                      "Rekonstitution, Konzentration und U-100-Berechnungsbeispiele"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_tables": [
+            {
+              "section": "Retatrutide: Lagerung & Handhabung",
+              "subsection": "",
+              "rows": [
+                [
+                  "Zustand",
+                  "Lagerung",
+                  "Hinweise"
+                ],
+                [
+                  "Lyophilisiert (Pulverform), versiegelt",
+                  "-4F (-20C) oder kälter (Gefrierschrank)",
+                  "Langfristig, bis zu 12+ Monate"
+                ],
+                [
+                  "Lyophilisiert (Pulverform), versiegelt",
+                  "35.6-46.4F (2-8C) (Kühlschrank)",
+                  "Mehrere Monate"
+                ],
+                [
+                  "Lyophilisiert (Pulverform), Versand",
+                  "Kurzfristig bei Raumtemperatur",
+                  "Mehrere Wochen stabil; Pulver verträgt kurzfristige Temperaturschwankungen"
+                ],
+                [
+                  "Rekonstituiert (flüssige Form)",
+                  "35.6-46.4F (2-8C) (Kühlschrank)",
+                  "Innerhalb von 2-4 Wochen verwenden; vor Licht schützen"
+                ],
+                [
+                  "Rekonstituiert (flüssige Form)",
+                  "-4F (-20C) (eingefrorene Aliquots)",
+                  "Bis zu 3-4 Monate; wiederholtes Einfrieren und Auftauen vermeiden"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+          "source_statements": [
+            {
+              "section": "Für wen Retatrutide infrage kommt und wer es meiden sollte",
+              "subsection": "",
+              "excerpt": "Retatrutide wird derzeit bei Erwachsenen mit Adipositas, Erwachsenen mit Typ-2-Diabetes und Erwachsenen mit gewichtsbedingten Erkrankungen wie Kniearthrose, Schlafapnoe und metabolischer Dysfunktion-assoziierter steatotischer Lebererkrankung (MASLD) untersucht. Mit Stand August 2026 ist es für keine Anwendung zugelassen; die Eignung für eine Teilnahme wird daher durch die Studien und nicht durch eine Fachinformation festgelegt.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen Retatrutide infrage kommt und wer es meiden sollte",
+              "subsection": "Typische Ausschlusskriterien der Studien",
+              "excerpt": "In Phase-2- und Phase-3-Studien zu Retatrutide wurden häufig Teilnehmer mit Pankreatitis in der Vorgeschichte, medullärem Schilddrüsenkarzinom, multiplem endokrinem Neoplasiesyndrom Typ 2 (MEN 2), schwerer Gastroparese, kürzlich aufgetretenen schwerwiegenden kardiovaskulären Ereignissen, schwerer Nierenfunktionsstörung, Typ-1-Diabetes (in den Adipositasstudien) sowie Schwangere oder Stillende ausgeschlossen. Diese Ausschlüsse folgen demselben allgemeinen Muster wie in Studien zu Semaglutide und Tirzepatide.",
+              "truncated": false
+            },
+            {
+              "section": "Für wen Retatrutide infrage kommt und wer es meiden sollte",
+              "subsection": "Schwangerschaft, Stillzeit und Kinderwunsch",
+              "excerpt": "Retatrutide wurde nicht bei schwangeren oder stillenden Personen untersucht. Die Studien verlangen eine wirksame Empfängnisverhütung. Personen in diesen Situationen sollten Retatrutide außerhalb qualifizierter medizinischer Betreuung nicht in Betracht ziehen.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Retatrutide als Agonist an drei Hormonrezeptoren bei Adipositas - eine Phase-2-Studie.",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972"
+          },
+          {
+            "label": "Retatrutide, ein GIP-, GLP-1- und Glucagonrezeptor-Agonist, bei Menschen mit Typ-2-Diabetes: eine randomisierte, doppelblinde, placebo- und aktiv kontrollierte Phase-2-Studie mit parallelen Gruppen.",
+            "url": "https://doi.org/10.1016/S0140-6736(23)01053-X"
+          },
+          {
+            "label": "Retatrutide als Agonist an drei Hormonrezeptoren bei metabolischer Dysfunktion-assoziierter steatotischer Lebererkrankung: eine randomisierte Phase-2a-Studie.",
+            "url": "https://www.nature.com/articles/s41591-024-03018-2"
+          },
+          {
+            "label": "LY3437943, ein neuartiger dreifacher Glucagon-, GIP- und GLP-1-Rezeptor-Agonist zur Blutzuckerkontrolle und Gewichtsabnahme: von der Entdeckung zum klinischen Machbarkeitsnachweis.",
+            "url": "https://doi.org/10.1016/j.cmet.2022.07.013"
+          },
+          {
+            "label": "Lillys dreifacher Agonist Retatrutide erzielte in der ersten erfolgreichen Phase-3-Studie eine Gewichtsabnahme von bis zu durchschnittlich 71.2 lbs und zugleich eine erhebliche Linderung von Arthroseschmerzen.",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-delivered-weight-loss-average"
+          },
+          {
+            "label": "Lillys dreifacher Agonist Retatrutide erzielte in einer zulassungsrelevanten Phase-3-Adipositasstudie eine starke Gewichtsabnahme.",
+            "url": "https://www.prnewswire.com/news-releases/lillys-triple-agonist-retatrutide-delivered-powerful-weight-loss-in-pivotal-phase-3-obesity-trial-302778859.html"
+          },
+          {
+            "label": "Lillys dreifacher Agonist Retatrutide war in zwei weiteren Phase-3-Adipositasstudien erfolgreich und erzielte signifikante Verbesserungen bei Gewicht und A1C.",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-successful-two-additional"
+          },
+          {
+            "label": "Lillys dreifacher Agonist Retatrutide zeigte in der ersten Phase-3-Studie zur Behandlung von Typ-2-Diabetes signifikante Senkungen von A1C und Gewicht.",
+            "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-triple-agonist-retatrutide-demonstrated-significant"
+          },
+          {
+            "label": "Wissenswertes über Retatrutide.",
+            "url": "https://www.lilly.com/news/stories/what-to-know-about-retatrutide"
+          },
+          {
+            "label": "TRANSCEND-T2D-1: Eine Studie zu Retatrutide (LY3437943) bei erwachsenen Teilnehmern mit Typ-2-Diabetes (NCT06354660).",
+            "url": "https://clinicaltrials.gov/study/NCT06354660"
+          },
+          {
+            "label": "TRIUMPH-4: Eine Studie zu Retatrutide (LY3437943) bei Teilnehmern mit Adipositas und Kniearthrose (NCT05929066).",
+            "url": "https://clinicaltrials.gov/study/NCT05929066"
+          },
+          {
+            "label": "Dreifacher Agonist Retatrutide senkt A1c und Gewicht bei T2D.",
+            "url": "https://www.medscape.com/viewarticle/triple-agonist-retatrutide-reduces-a1c-weight-t2d-2026a10008vn"
+          },
+          {
+            "label": "Stellungnahme zur Prüfung von als Rezeptur hergestellten Versionen von GLP-1-Markenmedikamenten durch die FDA und zu Berichten über Onlinehändler, die nicht zugelassene Peptide vermarkten.",
+            "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers"
+          }
+        ],
+        "unresolved_fields": [
+          "specific_trial_population_and_duration",
+          "product_identity",
+          "primary_registry_verification",
+          "exact_clock_time"
+        ],
+        "notes": "Nur als Quellenreferenz; ungeprüft. Tabellen und unabhängige Referenzen bleiben im Quelldatensatz verfügbar.",
+        "trial_target_options": {
+          "options": [
+            "4",
+            "9",
+            "12"
+          ],
+          "unit": "mg",
+          "basis": "total_product"
+        },
+        "target_rule": "Lower target arms stop escalating at their assigned target; full ladder describes the 12 mg target."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "570a7d56-5e97-44d7-ac45-7e30476d4676",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42814954/",
+      "title": "Retatrutide, a Triple Hormone Receptor Agonist, for Treatment of Obesity",
+      "publisher": "New England Journal of Medicine / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "url": "https://www.peptidedosingprotocols.com/protocol/retatrutide",
+      "title": "Retatrutide Protocol Guide: Starting Dose, Titration & Reconstitution",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "dfaf75c2-88f8-4271-8572-38af724691ae",
+      "url": "https://investor.lilly.com/news-releases/news-release-details/lillys-phase-2-retatrutide-results-published-new-england-journal",
+      "title": "Lilly phase 2 retatrutide obesity trial results",
+      "publisher": "Eli Lilly and Company",
+      "type": "manufacturer",
+      "publishedAt": "2023-06-26"
+    },
+    {
+      "id": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/retatrutide",
+      "title": "Retatrutide Cycle Length: What Clinical Trials Actually Studied",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "Dieselben Dosisarme der Phase 2; unvollständige Angaben zu Zwischenschritten der Dosissteigerung bleiben ungeklärt.",
+      "supports": [
+        "/trial_arms"
+      ]
+    },
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "dfaf75c2-88f8-4271-8572-38af724691ae",
+      "locator": "About The Study (NCT04881760)",
+      "evidenceNote": "Studienarme und Behandlungsdauer sind ausdrücklich angegeben; Zwischenschritte der Dosissteigerung fehlen.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "5aa48674-e9fd-4042-b63e-c705f5dbdca9",
+      "sourceID": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundevidenz zu Dauer und Behandlungspausen; kein Ersatz für dosis-, produktinformations-, verabreichungsweg- oder populationsspezifische Anweisungen.",
+      "supports": []
+    },
+    {
+      "protocolID": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "sourceID": "71a9ad92-b568-4b39-be90-a58551f6b6d2",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "Die Quelle beschreibt diese Felder; die Überprüfung anhand von Primärquellen steht noch aus.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/trial_target_options",
+        "/target_rule"
+      ]
+    },
+    {
+      "protocolID": "d3f2cb62-a6e0-4b3e-aca3-6e4c33bdcb03",
+      "sourceID": "f81a91e3-74b5-488c-aaec-471af49bb9d6",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "Hintergrundevidenz zu Dauer und Behandlungspausen; kein Ersatz für dosis-, produktinformations-, verabreichungsweg- oder populationsspezifische Anweisungen.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "glp-3",
+      "sourceID": "570a7d56-5e97-44d7-ac45-7e30476d4676",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "Veröffentlichung vom 29. September 2026; TRIUMPH-1 randomisierte 2,339 Teilnehmer für 80 Wochen und berichtet über Ergebnisse zu Gewicht, Arthroseschmerzen und Schlafapnoe. Begründung der Kategorie: Gewicht & Stoffwechsel: Die Behandlung von Adipositas ist der hauptsächlich untersuchte Nutzen, ergänzt um einige Ergebnisse zu adipositasbedingten Symptomen.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Gewicht & Stoffwechsel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

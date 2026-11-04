@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tesofensine",
+      "name": "Tesofensine",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 2,
+      "benefits": "경구 tesofensine의 인체 체중 감량 효과를 시사하는 결과가 보고되었어요. 비만 성인을 대상으로 한 무작위 배정 2상 연구에서 에너지 제한 식단을 병행했을 때 위약보다 더 큰 체중 감량이 나타났어요. 그러나 이후 The Lancet은 해당 시험에 대해 우려 표명을 발표했어요. 이 결과는 한계가 있는 예비 근거로 다뤄야 하며, 효능이나 안전성이 확립되었다는 주장으로 받아들이면 안 돼요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "20ca545e-5978-49b8-8d56-59aec5267f4a",
+      "productID": "tesofensine",
+      "title": "Tesofensine — 아침 투여 시점을 포함한 출처 시험의 용량군",
+      "purpose": "출처에 기술된 참고용 계획",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "편집 자료/커뮤니티 기반의 이차적 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 보류 중이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trials_described_by_secondary_source",
+          "indication_context": "Phase 2 obesity dose arms",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "oral_tablet",
+          "components": [
+            {
+              "library_item_id": "tesofensine"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "식단 안정화 도입기",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "약물을 사용하지 않아요"
+            },
+            "status": "run_in"
+          },
+          {
+            "name": "배정된 치료군",
+            "duration": {
+              "kind": "fixed",
+              "value": 168,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "0.25",
+                "0.5",
+                "1"
+              ],
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "morning",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/tesofensine",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+          "source_tables": [
+            {
+              "section": "Tesofensine 투여 프로토콜 및 일정",
+              "subsection": "시험에서 사용된 주기 구조",
+              "rows": [
+                [
+                  "단계",
+                  "기간",
+                  "참고사항"
+                ],
+                [
+                  "도입기",
+                  "2주",
+                  "식단을 안정화하고 tesofensine은 사용하지 않아요. 체중과 검사 수치의 기저값을 설정하는 데 사용해요"
+                ],
+                [
+                  "치료",
+                  "24주",
+                  "칼로리 제한 식단과 함께 배정된 용량의 정제를 매일 한 번 복용해요"
+                ],
+                [
+                  "공개 연장시험 (TIPO-4)",
+                  "추가로 최대 48주",
+                  "0.5 mg 투여를 계속하며, 일부 환자에서는 선택적으로 1.0 mg 용량까지 증량해요"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+          "source_tables": [
+            {
+              "section": "Tesofensine 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "제형",
+                  "보관",
+                  "참고사항"
+                ],
+                [
+                  "밀봉된 정제 용기",
+                  "59-77F (15-25C), 건조하고 어두운 곳",
+                  "별도로 다른 조건이 명시되어 있는지 공급업체 라벨을 확인하세요"
+                ],
+                [
+                  "용기에서 꺼내 약 정리함에 넣은 정제",
+                  "동일한 온도 범위를 유지하고 습기를 최소화해요",
+                  "장기 보관에는 덜 적합해요. 매주 다시 채우세요"
+                ],
+                [
+                  "분말 제형 (분석 용도로만 사용)",
+                  "공급업체 지침을 따르며, 대개 냉장 또는 냉동 보관해요",
+                  "분말 형태는 시험의 투여 맥락과 맞지 않아요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+          "source_statements": [
+            {
+              "section": "Tesofensine 연구 대상과 사용을 피해야 하는 대상",
+              "subsection": "가장 높은 수준의 주의가 필요한 집단",
+              "excerpt": "SSRI, SNRI 또는 기타 세로토닌성 약물을 복용하는 사람이에요. 정식 상호작용 연구가 없더라도 세로토닌계에 가해지는 복합적인 부담은 실질적인 우려 사항이에요.",
+              "truncated": false
+            },
+            {
+              "section": "Tesofensine 연구 대상과 사용을 피해야 하는 대상",
+              "subsection": "가장 높은 수준의 주의가 필요한 집단",
+              "excerpt": "임신 중이거나 임신을 계획 중이거나 수유 중인 사람이에요. Tesofensine은 이 집단에서 연구되지 않았어요.",
+              "truncated": false
+            },
+            {
+              "section": "Tesofensine 부작용 및 안전성",
+              "subsection": "심혈관계 관련 신호",
+              "excerpt": "가장 많이 논의되는 안전성 주제예요. 2상 시험에서 0.5 mg 투여군의 심박수는 위약군에 비해 분당 평균 7.4회 증가했어요. 혈압은 0.25 mg 또는 0.5 mg 투여 시에는 의미 있게 상승하지 않았지만, 1.0 mg 투여 시에는 상승했어요. 이러한 양상 때문에 3상에서 1.0 mg 용량이 제외되었으며, 또 미국이",
+              "truncated": true
+            },
+            {
+              "section": "Tesofensine 부작용 및 안전성",
+              "subsection": "정신과적 신호",
+              "excerpt": "tesofensine은 세로토닌, 도파민, 노르에피네프린을 증가시키기 때문에 생물학적으로 기분과 수면에 영향을 미칠 것으로 예상돼요. 불면증은 복용을 중단하는 비교적 흔한 이유 중 하나예요. 불안, 과민성, 기분 변화가",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "비만 환자의 체중 감량, 체성분 및 삶의 질에 대한 tesofensine의 효과: 무작위 배정, 이중 눈가림, 위약 대조 시험.",
+            "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(08)61525-1/abstract"
+          },
+          {
+            "label": "Tesofensine — 강력한 새로운 체중 감량 약물. Astrup 등의 연구(Lancet 2008)에 대한 평가.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/19548858/"
+          },
+          {
+            "label": "우려 표명 — 비만 환자의 체중 감량, 체성분 및 삶의 질에 대한 tesofensine의 효과.",
+            "url": "https://discovery.researcher.life/article/expression-of-concerneffect-of-tesofensine-on-bodyweight-loss-body-composition-and-quality-of-life-in-obese-patients-a-randomised-doubleblind-placebocontrolled-trial/d59aea67bd283da49a348b416e472d50"
+          },
+          {
+            "label": "tesofensine의 생체 내 약리 활성에 대한 활성 대사체 M1의 기여: 약동학-약력학 모델링 접근법.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2199391/"
+          },
+          {
+            "label": "항비만 효과가 있는 새로운 삼중 모노아민 재흡수 억제제 Tesofensine: PET로 측정한 도파민 수송체 점유율.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24239329/"
+          },
+          {
+            "label": "Saniona의 tesofensine이 비만 적응증 허가를 위한 3상 시험(Viking 연구)에서 일차 및 이차 평가변수를 충족했어요.",
+            "url": "https://tools.eurolandir.com/tools/Pressreleases/GetPressRelease/?ID=3548001&companycode=s-sanion&v="
+          },
+          {
+            "label": "Saniona의 협력사 Medix가 멕시코에서 비만 치료용 tesofensine에 대한 긍정적인 의견을 받았어요.",
+            "url": "https://view.news.eu.nasdaq.com/view?id=ba550ce87a36abef56b065cec259b71ec&lang=en"
+          },
+          {
+            "label": "멕시코의 tesofensine 신청은 아직 승인되지 않았어요 — Saniona 업데이트.",
+            "url": "https://inderes.fi/releases/mexican-application-for-tesofensine-not-yet-approved"
+          },
+          {
+            "label": "새로운 항비만 약물 Tesofensine은 시상하부의 GABA성 뉴런 활동을 억제해요.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11042726/"
+          },
+          {
+            "label": "중추 작용 항비만 약물의 신경정신과적 이상반응: 무작위 대조 시험의 체계적 문헌고찰.",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6493804/"
+          },
+          {
+            "label": "Tesofensine 파이프라인 페이지.",
+            "url": "https://saniona.com/pipeline/tesofensine/"
+          },
+          {
+            "label": "2026년 신약 승인.",
+            "url": "https://www.fda.gov/drugs/novel-drug-approvals-fda/novel-drug-approvals-2026"
+          }
+        ],
+        "unresolved_fields": [
+          "exact_trial_eligibility",
+          "optional_extension_conditions",
+          "primary_verification"
+        ],
+        "notes": "출처 참고용이며 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요.",
+        "optional_extension": {
+          "duration": {
+            "kind": "maximum",
+            "value": 336,
+            "unit": "day"
+          },
+          "starting_dose": {
+            "value": "0.5",
+            "unit": "mg"
+          },
+          "optional_increase": {
+            "value": "1",
+            "unit": "mg"
+          }
+        },
+        "dose_arm_context": {
+          "1": "Phase 2 only; not later Phase 3",
+          "0.25": "Phase 2 and Mexico Phase 3",
+          "0.5": "Phase 2 and Mexico Phase 3"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "167be03a-7288-4c7d-acb1-d0e8e151ad4c",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23561987/",
+      "title": "Expression of concern—Effect of tesofensine on bodyweight loss, body composition, and quality of life in obese patients",
+      "publisher": "The Lancet / bibliographic notice in PubMed",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "622e3569-35ec-4a5e-b3b7-499997314789",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18950853/",
+      "title": "Effect of tesofensine on bodyweight loss, body composition, and quality of life in obese patients: a randomised, double-blind, placebo-controlled trial",
+      "publisher": "The Lancet / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "bedc2a82-df95-4434-908d-c41f464b33bb",
+      "url": "https://www.peptidedosingprotocols.com/protocol/tesofensine",
+      "title": "Tesofensine Dosing Guide: Oral Protocol, Half-Life & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "20ca545e-5978-49b8-8d56-59aec5267f4a",
+      "sourceID": "bedc2a82-df95-4434-908d-c41f464b33bb",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에 이 필드들이 기술되어 있어요. 일차 출처 검증은 여전히 보류 중이에요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/optional_extension",
+        "/dose_arm_context"
+      ]
+    },
+    {
+      "productID": "tesofensine",
+      "sourceID": "167be03a-7288-4c7d-acb1-d0e8e151ad4c",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "일차 시험의 PubMed 페이지와 색인된 공지에서 우려 표명을 확인할 수 있어요. 해당 우려가 해소되었는지에 대해서는 추론하지 않아요. 분류 근거: 체중 및 대사: 보고된 시험 결과와 의도된 용도는 비만과 체중에 관한 것이에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "tesofensine",
+      "sourceID": "622e3569-35ec-4a5e-b3b7-499997314789",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "무작위 배정된 참가자 203명, 24주, 제한 식단을 병행한 경구 치료예요. PubMed는 해당 학술지의 2013년 우려 표명에 대한 링크를 명시적으로 제공해요. 분류 근거: 체중 및 대사: 보고된 시험 결과와 의도된 용도는 비만과 체중에 관한 것이에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

@@ -1,0 +1,988 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bpc-157",
+      "name": "BPC-157",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "전임상 조직 복구 연구: BPC-157은 쥐의 피부 절개 및 장 문합 실험에서 콜라겐 형성과 인장 강도를 포함한 상처 치유 지표를 개선했어요. 이러한 동물 실험 결과는 치유와 회복에 관한 연구의 관심 대상을 보여주지만, 사람의 부상 회복에 신뢰할 수 있는 이점이 있음을 입증하지는 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "68e9a366-13ea-4aec-be9b-006df3cd5436",
+      "productID": "bpc-157",
+      "title": "BPC-157 — 하루 두 번 고용량 범위",
+      "purpose": "출처에 기술된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료이며, 자동으로 임상적 타당성이 검증되거나 앱 기본값으로 채택되는 것은 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "acute injury planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 재용해 가이드 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 재용해 가이드 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "하루 두 번 고용량 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+              "source_tables": [
+                {
+                  "section": "인체 보고에서는 어떤 기간을 사용했나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "보고 및 투여 경로",
+                      "치료를 받은 기간",
+                      "관찰",
+                      "주요 한계"
+                    ],
+                    [
+                      "무릎 통증, 2021: 관절 주사",
+                      "대개 한 차례 치료했으며, 일부는 재부상 후 반복 주사를 받았어요",
+                      "추적 관찰 기간은 다양했으며, 대부분 6–12개월이었어요",
+                      "증상을 후향적으로 살펴봤으며, 비교군은 없었어요"
+                    ],
+                    [
+                      "방광 증상, 2024: 방광벽 주사",
+                      "방광 내부의 내시경으로 유도한 한 차례 시술",
+                      "6주 시점에 방광 내시경 검사를 했으며, 설문은 대부분 4–6개월 후에 실시했어요",
+                      "비교군이 없는 소규모 보고이며, 평가 시점이 서로 달랐어요"
+                    ],
+                    [
+                      "소규모 안전성 연구, 2025: 정맥 내 주입(IV)",
+                      "2일 연속으로 주입했어요",
+                      "3일째까지 모니터링했어요",
+                      "성인 2명뿐이었으며, 장기 안전성에 대한 결론은 없어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "한 투여 경로의 결과로 다른 경로의 주기를 정할 수 있나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "투여 경로",
+                      "의미",
+                      "근거의 적용 한계"
+                    ],
+                    [
+                      "관절 내",
+                      "관절 안에 투여해요",
+                      "통상적인 피하 주사 투여 과정을 확립하지는 않아요"
+                    ],
+                    [
+                      "정맥 내",
+                      "정맥 안에 투여해요",
+                      "삼킨 제품이 체내로 어떻게 들어가는지 보여주거나 가정에서의 주사 계획을 정해주지는 않아요"
+                    ],
+                    [
+                      "피하",
+                      "피부 아래에 투여해요",
+                      "해당 투여 경로와 제안된 기간에 대한 근거가 필요해요"
+                    ],
+                    [
+                      "경구 또는 직장",
+                      "삼키거나 하부 장관에 투여해요",
+                      "바로 그 제품과 투여 방식에 대한 결과가 필요해요"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [
+            {
+              "section": "BPC-157 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "보관",
+                  "참고 사항"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "장기 보관은 -4F (-20C); 단기 보관은 냉장고",
+                  "공급업체의 라벨을 따르세요. 분말은 재용해한 용액보다 더 안정적이에요."
+                ],
+                [
+                  "재용해 상태(액체)",
+                  "35.6-46.4F (2-8C)",
+                  "일반적인 커뮤니티 계획에 따라 대략 3-4주 이내에 사용하세요. 재용해한 바이알을 냉동하지 마세요."
+                ],
+                [
+                  "재용해 후 외관",
+                  "투명한 무색 용액",
+                  "혼탁하거나 입자가 있는 용액은 사용하지 않아야 해요."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_statements": [
+            {
+              "section": "BPC-157 부작용 및 안전성",
+              "subsection": "작용 기전의 이론적 위험",
+              "excerpt": "조직 복구를 돕는 동일한 경로(혈관신생)는 종양 성장도 도와요. 종설들은 이를 특히 현재 암이 있거나 암 병력이 있는 환자에서 해결되지 않은 문제로 지적해요(Sehgal et al., Pharmaceuticals, 2025).",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "펜타데카펩타이드 BPC 157의 힘줄 치유 촉진 효과에는 힘줄의 외향 성장, 세포 생존 및 세포 이동이 관여해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21030672"
+          },
+          {
+            "label": "혈관신생을 촉진하는 BPC157의 치료 잠재력은 VEGFR2 활성화 및 발현 증가와 관련이 있어요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27847966"
+          },
+          {
+            "label": "쥐에서 BPC 157이 혈관 운동 긴장도와 Src-Cav-1-eNOS 신호 전달 경로에 미치는 조절 효과.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555539"
+          },
+          {
+            "label": "쥐와 개에서 body-protective compound 157의 약동학, 분포, 대사 및 배설.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587"
+          },
+          {
+            "label": "안정적인 위 유래 펜타데카펩타이드 BPC 157: 위장관의 새로운 치료법.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21548867"
+          },
+          {
+            "label": "펜타데카펩타이드 BPC 157과 중추신경계.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8504390"
+          },
+          {
+            "label": "정형외과 스포츠 의학에서 새롭게 대두되는 BPC-157의 사용: 체계적 문헌고찰.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605"
+          },
+          {
+            "label": "다양한 유형의 무릎 통증에 대한 BPC 157 관절 내 주사.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34324435"
+          },
+          {
+            "label": "간질성 방광염 환자의 증상에 대한 BPC-157의 효과: 예비 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39325560"
+          },
+          {
+            "label": "인체에서 BPC157 정맥 내 주입의 안전성: 예비 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40131143"
+          },
+          {
+            "label": "다양한 상처 치료를 위한 잠재적 약물인 body protective compound-157의 전임상 안전성 평가.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32334036"
+          },
+          {
+            "label": "BPC 157: 세포 보호 및 조직 복구를 위한 유망한 후보 물질.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134"
+          },
+          {
+            "label": "개정된 503A 벌크 의약품 원료 목록(범주 2 개정, 2026년 사월 22일부터 시행).",
+            "url": "https://www.fda.gov/media/94155/download"
+          }
+        ],
+        "unresolved_fields": [
+          "course_duration_choice",
+          "time_of_day",
+          "product_preparation",
+          "human_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "출처 참고용으로만 제공되며, 검토되지 않았어요. 표와 독립적인 참고 문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    },
+    {
+      "id": "788a458e-9095-46a8-8dd9-00018ca373ba",
+      "productID": "bpc-157",
+      "title": "BPC-157 — 하루 한 번 저용량 범위",
+      "purpose": "출처에 기술된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료이며, 자동으로 임상적 타당성이 검증되거나 앱 기본값으로 채택되는 것은 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "maintenance/general planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 재용해 가이드 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 재용해 가이드 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "하루 한 번 저용량 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "250",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+              "source_tables": [
+                {
+                  "section": "인체 보고에서는 어떤 기간을 사용했나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "보고 및 투여 경로",
+                      "치료를 받은 기간",
+                      "관찰",
+                      "주요 한계"
+                    ],
+                    [
+                      "무릎 통증, 2021: 관절 주사",
+                      "대개 한 차례 치료했으며, 일부는 재부상 후 반복 주사를 받았어요",
+                      "추적 관찰 기간은 다양했으며, 대부분 6–12개월이었어요",
+                      "증상을 후향적으로 살펴봤으며, 비교군은 없었어요"
+                    ],
+                    [
+                      "방광 증상, 2024: 방광벽 주사",
+                      "방광 내부의 내시경으로 유도한 한 차례 시술",
+                      "6주 시점에 방광 내시경 검사를 했으며, 설문은 대부분 4–6개월 후에 실시했어요",
+                      "비교군이 없는 소규모 보고이며, 평가 시점이 서로 달랐어요"
+                    ],
+                    [
+                      "소규모 안전성 연구, 2025: 정맥 내 주입(IV)",
+                      "2일 연속으로 주입했어요",
+                      "3일째까지 모니터링했어요",
+                      "성인 2명뿐이었으며, 장기 안전성에 대한 결론은 없어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "한 투여 경로의 결과로 다른 경로의 주기를 정할 수 있나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "투여 경로",
+                      "의미",
+                      "근거의 적용 한계"
+                    ],
+                    [
+                      "관절 내",
+                      "관절 안에 투여해요",
+                      "통상적인 피하 주사 투여 과정을 확립하지는 않아요"
+                    ],
+                    [
+                      "정맥 내",
+                      "정맥 안에 투여해요",
+                      "삼킨 제품이 체내로 어떻게 들어가는지 보여주거나 가정에서의 주사 계획을 정해주지는 않아요"
+                    ],
+                    [
+                      "피하",
+                      "피부 아래에 투여해요",
+                      "해당 투여 경로와 제안된 기간에 대한 근거가 필요해요"
+                    ],
+                    [
+                      "경구 또는 직장",
+                      "삼키거나 하부 장관에 투여해요",
+                      "바로 그 제품과 투여 방식에 대한 결과가 필요해요"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [
+            {
+              "section": "BPC-157 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "보관",
+                  "참고 사항"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "장기 보관은 -4F (-20C); 단기 보관은 냉장고",
+                  "공급업체의 라벨을 따르세요. 분말은 재용해한 용액보다 더 안정적이에요."
+                ],
+                [
+                  "재용해 상태(액체)",
+                  "35.6-46.4F (2-8C)",
+                  "일반적인 커뮤니티 계획에 따라 대략 3-4주 이내에 사용하세요. 재용해한 바이알을 냉동하지 마세요."
+                ],
+                [
+                  "재용해 후 외관",
+                  "투명한 무색 용액",
+                  "혼탁하거나 입자가 있는 용액은 사용하지 않아야 해요."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_statements": [
+            {
+              "section": "BPC-157 부작용 및 안전성",
+              "subsection": "작용 기전의 이론적 위험",
+              "excerpt": "조직 복구를 돕는 동일한 경로(혈관신생)는 종양 성장도 도와요. 종설들은 이를 특히 현재 암이 있거나 암 병력이 있는 환자에서 해결되지 않은 문제로 지적해요(Sehgal et al., Pharmaceuticals, 2025).",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "펜타데카펩타이드 BPC 157의 힘줄 치유 촉진 효과에는 힘줄의 외향 성장, 세포 생존 및 세포 이동이 관여해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21030672"
+          },
+          {
+            "label": "혈관신생을 촉진하는 BPC157의 치료 잠재력은 VEGFR2 활성화 및 발현 증가와 관련이 있어요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27847966"
+          },
+          {
+            "label": "쥐에서 BPC 157이 혈관 운동 긴장도와 Src-Cav-1-eNOS 신호 전달 경로에 미치는 조절 효과.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555539"
+          },
+          {
+            "label": "쥐와 개에서 body-protective compound 157의 약동학, 분포, 대사 및 배설.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587"
+          },
+          {
+            "label": "안정적인 위 유래 펜타데카펩타이드 BPC 157: 위장관의 새로운 치료법.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21548867"
+          },
+          {
+            "label": "펜타데카펩타이드 BPC 157과 중추신경계.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8504390"
+          },
+          {
+            "label": "정형외과 스포츠 의학에서 새롭게 대두되는 BPC-157의 사용: 체계적 문헌고찰.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605"
+          },
+          {
+            "label": "다양한 유형의 무릎 통증에 대한 BPC 157 관절 내 주사.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34324435"
+          },
+          {
+            "label": "간질성 방광염 환자의 증상에 대한 BPC-157의 효과: 예비 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39325560"
+          },
+          {
+            "label": "인체에서 BPC157 정맥 내 주입의 안전성: 예비 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40131143"
+          },
+          {
+            "label": "다양한 상처 치료를 위한 잠재적 약물인 body protective compound-157의 전임상 안전성 평가.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32334036"
+          },
+          {
+            "label": "BPC 157: 세포 보호 및 조직 복구를 위한 유망한 후보 물질.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134"
+          },
+          {
+            "label": "개정된 503A 벌크 의약품 원료 목록(범주 2 개정, 2026년 사월 22일부터 시행).",
+            "url": "https://www.fda.gov/media/94155/download"
+          }
+        ],
+        "unresolved_fields": [
+          "course_duration_choice",
+          "time_of_day",
+          "product_preparation",
+          "human_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "출처 참고용으로만 제공되며, 검토되지 않았어요. 표와 독립적인 참고 문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    },
+    {
+      "id": "d481c7f1-95a5-4c77-8af3-5f7c344e01ae",
+      "productID": "bpc-157",
+      "title": "BPC-157 — 하루 두 번 표준 용량 범위",
+      "purpose": "출처에 기술된 참고용 계획 수립",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료이며, 자동으로 임상적 타당성이 검증되거나 앱 기본값으로 채택되는 것은 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "community general planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 재용해 가이드 / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": null,
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3333",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+              "locator": "BPC-157 재용해 가이드 / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "하루 두 번 표준 용량 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "250",
+              "unit": "mcg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+              "source_tables": [
+                {
+                  "section": "인체 보고에서는 어떤 기간을 사용했나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "보고 및 투여 경로",
+                      "치료를 받은 기간",
+                      "관찰",
+                      "주요 한계"
+                    ],
+                    [
+                      "무릎 통증, 2021: 관절 주사",
+                      "대개 한 차례 치료했으며, 일부는 재부상 후 반복 주사를 받았어요",
+                      "추적 관찰 기간은 다양했으며, 대부분 6–12개월이었어요",
+                      "증상을 후향적으로 살펴봤으며, 비교군은 없었어요"
+                    ],
+                    [
+                      "방광 증상, 2024: 방광벽 주사",
+                      "방광 내부의 내시경으로 유도한 한 차례 시술",
+                      "6주 시점에 방광 내시경 검사를 했으며, 설문은 대부분 4–6개월 후에 실시했어요",
+                      "비교군이 없는 소규모 보고이며, 평가 시점이 서로 달랐어요"
+                    ],
+                    [
+                      "소규모 안전성 연구, 2025: 정맥 내 주입(IV)",
+                      "2일 연속으로 주입했어요",
+                      "3일째까지 모니터링했어요",
+                      "성인 2명뿐이었으며, 장기 안전성에 대한 결론은 없어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "한 투여 경로의 결과로 다른 경로의 주기를 정할 수 있나요?",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "투여 경로",
+                      "의미",
+                      "근거의 적용 한계"
+                    ],
+                    [
+                      "관절 내",
+                      "관절 안에 투여해요",
+                      "통상적인 피하 주사 투여 과정을 확립하지는 않아요"
+                    ],
+                    [
+                      "정맥 내",
+                      "정맥 안에 투여해요",
+                      "삼킨 제품이 체내로 어떻게 들어가는지 보여주거나 가정에서의 주사 계획을 정해주지는 않아요"
+                    ],
+                    [
+                      "피하",
+                      "피부 아래에 투여해요",
+                      "해당 투여 경로와 제안된 기간에 대한 근거가 필요해요"
+                    ],
+                    [
+                      "경구 또는 직장",
+                      "삼키거나 하부 장관에 투여해요",
+                      "바로 그 제품과 투여 방식에 대한 결과가 필요해요"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_tables": [
+            {
+              "section": "BPC-157 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "보관",
+                  "참고 사항"
+                ],
+                [
+                  "동결건조 상태(분말)",
+                  "장기 보관은 -4F (-20C); 단기 보관은 냉장고",
+                  "공급업체의 라벨을 따르세요. 분말은 재용해한 용액보다 더 안정적이에요."
+                ],
+                [
+                  "재용해 상태(액체)",
+                  "35.6-46.4F (2-8C)",
+                  "일반적인 커뮤니티 계획에 따라 대략 3-4주 이내에 사용하세요. 재용해한 바이알을 냉동하지 마세요."
+                ],
+                [
+                  "재용해 후 외관",
+                  "투명한 무색 용액",
+                  "혼탁하거나 입자가 있는 용액은 사용하지 않아야 해요."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+          "source_statements": [
+            {
+              "section": "BPC-157 부작용 및 안전성",
+              "subsection": "작용 기전의 이론적 위험",
+              "excerpt": "조직 복구를 돕는 동일한 경로(혈관신생)는 종양 성장도 도와요. 종설들은 이를 특히 현재 암이 있거나 암 병력이 있는 환자에서 해결되지 않은 문제로 지적해요(Sehgal et al., Pharmaceuticals, 2025).",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "펜타데카펩타이드 BPC 157의 힘줄 치유 촉진 효과에는 힘줄의 외향 성장, 세포 생존 및 세포 이동이 관여해요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21030672"
+          },
+          {
+            "label": "혈관신생을 촉진하는 BPC157의 치료 잠재력은 VEGFR2 활성화 및 발현 증가와 관련이 있어요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27847966"
+          },
+          {
+            "label": "쥐에서 BPC 157이 혈관 운동 긴장도와 Src-Cav-1-eNOS 신호 전달 경로에 미치는 조절 효과.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7555539"
+          },
+          {
+            "label": "쥐와 개에서 body-protective compound 157의 약동학, 분포, 대사 및 배설.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9794587"
+          },
+          {
+            "label": "안정적인 위 유래 펜타데카펩타이드 BPC 157: 위장관의 새로운 치료법.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21548867"
+          },
+          {
+            "label": "펜타데카펩타이드 BPC 157과 중추신경계.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8504390"
+          },
+          {
+            "label": "정형외과 스포츠 의학에서 새롭게 대두되는 BPC-157의 사용: 체계적 문헌고찰.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12313605"
+          },
+          {
+            "label": "다양한 유형의 무릎 통증에 대한 BPC 157 관절 내 주사.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34324435"
+          },
+          {
+            "label": "간질성 방광염 환자의 증상에 대한 BPC-157의 효과: 예비 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39325560"
+          },
+          {
+            "label": "인체에서 BPC157 정맥 내 주입의 안전성: 예비 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40131143"
+          },
+          {
+            "label": "다양한 상처 치료를 위한 잠재적 약물인 body protective compound-157의 전임상 안전성 평가.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32334036"
+          },
+          {
+            "label": "BPC 157: 세포 보호 및 조직 복구를 위한 유망한 후보 물질.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11859134"
+          },
+          {
+            "label": "개정된 503A 벌크 의약품 원료 목록(범주 2 개정, 2026년 사월 22일부터 시행).",
+            "url": "https://www.fda.gov/media/94155/download"
+          }
+        ],
+        "unresolved_fields": [
+          "course_duration_choice",
+          "time_of_day",
+          "product_preparation",
+          "human_validation",
+          "preparation_vial_mass_not_explicit_in_archived_table"
+        ],
+        "notes": "출처 참고용으로만 제공되며, 검토되지 않았어요. 표와 독립적인 참고 문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/bpc-157",
+      "title": "BPC-157 Cycle Length: Human Studies, Breaks & Limits",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "url": "https://www.peptidedosingprotocols.com/protocol/bpc-157",
+      "title": "BPC-157 Dosing Guide: Protocol, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9403790/",
+      "title": "BPC 157's effect on healing",
+      "publisher": "Journal of Physiology, Paris / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "68e9a366-13ea-4aec-be9b-006df3cd5436",
+      "sourceID": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴지기에 대한 배경 근거이며, 용량, 제품 라벨, 투여 경로 또는 특정 집단에 대한 지침을 대체하지 않아요.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "68e9a366-13ea-4aec-be9b-006df3cd5436",
+      "sourceID": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "출처에 해당 항목이 기술되어 있으며, 독립적인 검증은 아직 이루어지지 않았어요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "788a458e-9095-46a8-8dd9-00018ca373ba",
+      "sourceID": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴지기에 대한 배경 근거이며, 용량, 제품 라벨, 투여 경로 또는 특정 집단에 대한 지침을 대체하지 않아요.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "788a458e-9095-46a8-8dd9-00018ca373ba",
+      "sourceID": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "출처에 해당 항목이 기술되어 있으며, 독립적인 검증은 아직 이루어지지 않았어요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "d481c7f1-95a5-4c77-8af3-5f7c344e01ae",
+      "sourceID": "2bdfc98d-677d-42df-8c2b-9500c5f0eaec",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴지기에 대한 배경 근거이며, 용량, 제품 라벨, 투여 경로 또는 특정 집단에 대한 지침을 대체하지 않아요.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "d481c7f1-95a5-4c77-8af3-5f7c344e01ae",
+      "sourceID": "487d0563-89d6-4a8b-bab8-b76f1c5636ec",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "출처에 해당 항목이 기술되어 있으며, 독립적인 검증은 아직 이루어지지 않았어요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "bpc-157",
+      "sourceID": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "쥐를 대상으로 한 원저 실험이며, 색인된 초록을 읽었어요. 피부 절개, 결장 문합 및 스펀지 혈관신생 모델을 다뤄요. 인체 유효성을 추론하지 않아요. 범주 선정 근거: 직접 연구된 이점은 동물 모델에서의 조직 복구예요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "치유 및 회복"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

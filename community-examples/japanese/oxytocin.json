@@ -1,0 +1,1247 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "oxytocin",
+      "name": "Oxytocin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "確立された有益性は産科領域のものであり、臨床診療において規制当局の承認を受けた注射用oxytocinを用いる、医学的適応に基づく分娩誘発または陣痛促進、および産後出血を抑えるための子宮収縮です。これらの適応は、このライブラリの社会的認知を対象とする鼻腔内投与プロトコルやコミュニティ由来の皮下投与プロトコルの有益性を示すものではありません。神経精神医学的用途のoxytocin鼻腔内投与は、依然として研究段階です。大規模な24週間の自閉症試験では、社会的機能または認知機能についてプラセボと比べて有意な改善は認められませんでした。一般的な信頼感、絆、性欲に対する有益性は、ここでは確立されていません。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "0971c083-2678-47ca-8fec-9de32e0f7bf5",
+      "productID": "oxytocin",
+      "title": "Oxytocin — 社会的認知を対象とする単回投与",
+      "purpose": "出典の記述を参考にした計画作成",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事・コミュニティの記述です。独立した出典の検証およびアプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trial_described_by_secondary_source",
+          "indication_context": "single-dose research",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "社会的認知を対象とする単回投与",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "24",
+              "unit": "IU",
+              "basis": "biological_activity"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "研究における単回投与です。"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocinの保管と取り扱い",
+              "subsection": "避ける事項",
+              "rows": [
+                [
+                  "",
+                  "凍結乾燥品（粉末）",
+                  "再溶解後（液状）"
+                ],
+                [
+                  "温度",
+                  "長期保管は-4°F（-20°C）",
+                  "35.6～46.4°F（2～8°C）"
+                ],
+                [
+                  "実用上の保存期間",
+                  "表示された使用期限まで",
+                  "BAC水で再溶解後、約2-4週間"
+                ],
+                [
+                  "外観",
+                  "白色の凍結乾燥ケーキ",
+                  "無色透明の溶液"
+                ],
+                [
+                  "避ける事項",
+                  "凍結と融解の繰り返し、直射日光",
+                  "再溶解した溶液の凍結"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "",
+              "excerpt": "妊娠：病院で承認された医学的な分娩誘発を行う場合を除き、妊娠中にoxytocinを使用することは絶対に避けるべきです。不適切な使用は、子宮破裂、胎児機能不全、またはそれ以上に深刻な事態を引き起こす可能性があります。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "医療従事者による監督が重要です",
+              "excerpt": "研究用途のoxytocinの鼻腔内投与または皮下投与を検討している方は、まず資格を有する医療従事者に相談すべきです。特に心血管疾患や低ナトリウム血症の既往がある場合、妊娠している場合、または精神科薬を使用している場合は重要です。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの副作用と安全性",
+              "subsection": "静脈内投与／筋肉内投与の産科用添付文書の安全性情報（FDA）",
+              "excerpt": "子宮過剰刺激、子宮破裂、産後出血です。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin注射液、USP（合成）- 現行のFDA添付文書（NDA 018261 / 018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin注射液、USP）- 処方情報（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自閉スペクトラム症の小児および青年に対するOxytocin鼻腔内投与。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocinはヒトの信頼を高めます。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "oxytocin鼻腔内投与研究の進歩：得られた教訓と臨床研究の今後の方向性。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "「少ないほど効果的」：ヒト脳におけるoxytocin鼻腔内投与の薬力学の用量反応に基づく説明。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人におけるoxytocin静脈内投与および鼻腔内投与の血漿薬物動態。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "自閉症の社会的行動および定型的な反復行動に対するoxytocin投与の影響：事前登録されたシステマティックレビューおよびメタ解析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocinと自閉スペクトラム症：ランダム化比較試験のシステマティックレビューおよびメタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "oxytocin鼻腔内投与、社会的認知および神経発達症：メタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物CID 439302）- 構造と特性。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "ヒトoxytocin受容体の結晶構造。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：相互的な社会的行動の改善を目指す、自閉症におけるOxytocinの研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "product_concentration",
+          "IU_not_U100_units"
+        ],
+        "notes": "出典の参照情報のみで、未審査です。表および独立した参考文献は出典レコードで引き続き参照できます。"
+      }
+    },
+    {
+      "id": "2302113d-9aef-4c21-8375-114998c62215",
+      "productID": "oxytocin",
+      "title": "Oxytocin — 成人のASD試験",
+      "purpose": "出典の記述を参考にした計画作成",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事・コミュニティの記述です。独立した出典の検証およびアプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trial_described_by_secondary_source",
+          "indication_context": "adults with ASD",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "成人のASD試験",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "24",
+              "maximum": "48",
+              "unit": "IU",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocinの保管と取り扱い",
+              "subsection": "避ける事項",
+              "rows": [
+                [
+                  "",
+                  "凍結乾燥品（粉末）",
+                  "再溶解後（液状）"
+                ],
+                [
+                  "温度",
+                  "長期保管は-4°F（-20°C）",
+                  "35.6～46.4°F（2～8°C）"
+                ],
+                [
+                  "実用上の保存期間",
+                  "表示された使用期限まで",
+                  "BAC水で再溶解後、約2-4週間"
+                ],
+                [
+                  "外観",
+                  "白色の凍結乾燥ケーキ",
+                  "無色透明の溶液"
+                ],
+                [
+                  "避ける事項",
+                  "凍結と融解の繰り返し、直射日光",
+                  "再溶解した溶液の凍結"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "",
+              "excerpt": "妊娠：病院で承認された医学的な分娩誘発を行う場合を除き、妊娠中にoxytocinを使用することは絶対に避けるべきです。不適切な使用は、子宮破裂、胎児機能不全、またはそれ以上に深刻な事態を引き起こす可能性があります。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "医療従事者による監督が重要です",
+              "excerpt": "研究用途のoxytocinの鼻腔内投与または皮下投与を検討している方は、まず資格を有する医療従事者に相談すべきです。特に心血管疾患や低ナトリウム血症の既往がある場合、妊娠している場合、または精神科薬を使用している場合は重要です。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの副作用と安全性",
+              "subsection": "静脈内投与／筋肉内投与の産科用添付文書の安全性情報（FDA）",
+              "excerpt": "子宮過剰刺激、子宮破裂、産後出血です。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin注射液、USP（合成）- 現行のFDA添付文書（NDA 018261 / 018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin注射液、USP）- 処方情報（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自閉スペクトラム症の小児および青年に対するOxytocin鼻腔内投与。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocinはヒトの信頼を高めます。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "oxytocin鼻腔内投与研究の進歩：得られた教訓と臨床研究の今後の方向性。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "「少ないほど効果的」：ヒト脳におけるoxytocin鼻腔内投与の薬力学の用量反応に基づく説明。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人におけるoxytocin静脈内投与および鼻腔内投与の血漿薬物動態。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "自閉症の社会的行動および定型的な反復行動に対するoxytocin投与の影響：事前登録されたシステマティックレビューおよびメタ解析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocinと自閉スペクトラム症：ランダム化比較試験のシステマティックレビューおよびメタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "oxytocin鼻腔内投与、社会的認知および神経発達症：メタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物CID 439302）- 構造と特性。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "ヒトoxytocin受容体の結晶構造。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：相互的な社会的行動の改善を目指す、自閉症におけるOxytocinの研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "product_concentration",
+          "IU_not_U100_units",
+          "daily_total_distribution_per_administration"
+        ],
+        "notes": "出典の参照情報のみで、未審査です。表および独立した参考文献は出典レコードで引き続き参照できます。"
+      }
+    },
+    {
+      "id": "544db95b-0310-4163-86fc-0d697065047c",
+      "productID": "oxytocin",
+      "title": "Oxytocin — SOARS-B自閉症ランダム化比較試験",
+      "purpose": "出典の記述を参考にした計画作成",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事・コミュニティの記述です。独立した出典の検証およびアプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trial_described_by_secondary_source",
+          "indication_context": "autism trial; exact cohort eligibility unreported",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "SOARS-B自閉症ランダム化比較試験",
+            "duration": {
+              "kind": "fixed",
+              "value": 168,
+              "unit": "day"
+            },
+            "dose": {
+              "kind": "maximum",
+              "maximum": "48",
+              "minimum": null,
+              "unit": "IU",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocinの保管と取り扱い",
+              "subsection": "避ける事項",
+              "rows": [
+                [
+                  "",
+                  "凍結乾燥品（粉末）",
+                  "再溶解後（液状）"
+                ],
+                [
+                  "温度",
+                  "長期保管は-4°F（-20°C）",
+                  "35.6～46.4°F（2～8°C）"
+                ],
+                [
+                  "実用上の保存期間",
+                  "表示された使用期限まで",
+                  "BAC水で再溶解後、約2-4週間"
+                ],
+                [
+                  "外観",
+                  "白色の凍結乾燥ケーキ",
+                  "無色透明の溶液"
+                ],
+                [
+                  "避ける事項",
+                  "凍結と融解の繰り返し、直射日光",
+                  "再溶解した溶液の凍結"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "",
+              "excerpt": "妊娠：病院で承認された医学的な分娩誘発を行う場合を除き、妊娠中にoxytocinを使用することは絶対に避けるべきです。不適切な使用は、子宮破裂、胎児機能不全、またはそれ以上に深刻な事態を引き起こす可能性があります。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "医療従事者による監督が重要です",
+              "excerpt": "研究用途のoxytocinの鼻腔内投与または皮下投与を検討している方は、まず資格を有する医療従事者に相談すべきです。特に心血管疾患や低ナトリウム血症の既往がある場合、妊娠している場合、または精神科薬を使用している場合は重要です。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの副作用と安全性",
+              "subsection": "静脈内投与／筋肉内投与の産科用添付文書の安全性情報（FDA）",
+              "excerpt": "子宮過剰刺激、子宮破裂、産後出血です。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin注射液、USP（合成）- 現行のFDA添付文書（NDA 018261 / 018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin注射液、USP）- 処方情報（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自閉スペクトラム症の小児および青年に対するOxytocin鼻腔内投与。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocinはヒトの信頼を高めます。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "oxytocin鼻腔内投与研究の進歩：得られた教訓と臨床研究の今後の方向性。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "「少ないほど効果的」：ヒト脳におけるoxytocin鼻腔内投与の薬力学の用量反応に基づく説明。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人におけるoxytocin静脈内投与および鼻腔内投与の血漿薬物動態。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "自閉症の社会的行動および定型的な反復行動に対するoxytocin投与の影響：事前登録されたシステマティックレビューおよびメタ解析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocinと自閉スペクトラム症：ランダム化比較試験のシステマティックレビューおよびメタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "oxytocin鼻腔内投与、社会的認知および神経発達症：メタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物CID 439302）- 構造と特性。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "ヒトoxytocin受容体の結晶構造。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：相互的な社会的行動の改善を目指す、自閉症におけるOxytocinの研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "product_concentration",
+          "IU_not_U100_units",
+          "daily_total_distribution_per_administration"
+        ],
+        "notes": "出典の参照情報のみで、未審査です。表および独立した参考文献は出典レコードで引き続き参照できます。"
+      }
+    },
+    {
+      "id": "6b2321c1-896c-41f5-8299-1030efa67923",
+      "productID": "oxytocin",
+      "title": "Oxytocin — 用量反応を調べる脳画像検査",
+      "purpose": "出典の記述を参考にした計画作成",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事・コミュニティの記述です。独立した出典の検証およびアプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "trial_described_by_secondary_source",
+          "indication_context": "brain imaging dose arms",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_product",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "用量反応を調べる脳画像検査",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "9",
+                "18",
+                "36"
+              ],
+              "unit": "IU",
+              "basis": "biological_activity"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "研究における単回投与です。"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocinの保管と取り扱い",
+              "subsection": "避ける事項",
+              "rows": [
+                [
+                  "",
+                  "凍結乾燥品（粉末）",
+                  "再溶解後（液状）"
+                ],
+                [
+                  "温度",
+                  "長期保管は-4°F（-20°C）",
+                  "35.6～46.4°F（2～8°C）"
+                ],
+                [
+                  "実用上の保存期間",
+                  "表示された使用期限まで",
+                  "BAC水で再溶解後、約2-4週間"
+                ],
+                [
+                  "外観",
+                  "白色の凍結乾燥ケーキ",
+                  "無色透明の溶液"
+                ],
+                [
+                  "避ける事項",
+                  "凍結と融解の繰り返し、直射日光",
+                  "再溶解した溶液の凍結"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "",
+              "excerpt": "妊娠：病院で承認された医学的な分娩誘発を行う場合を除き、妊娠中にoxytocinを使用することは絶対に避けるべきです。不適切な使用は、子宮破裂、胎児機能不全、またはそれ以上に深刻な事態を引き起こす可能性があります。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "医療従事者による監督が重要です",
+              "excerpt": "研究用途のoxytocinの鼻腔内投与または皮下投与を検討している方は、まず資格を有する医療従事者に相談すべきです。特に心血管疾患や低ナトリウム血症の既往がある場合、妊娠している場合、または精神科薬を使用している場合は重要です。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの副作用と安全性",
+              "subsection": "静脈内投与／筋肉内投与の産科用添付文書の安全性情報（FDA）",
+              "excerpt": "子宮過剰刺激、子宮破裂、産後出血です。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin注射液、USP（合成）- 現行のFDA添付文書（NDA 018261 / 018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin注射液、USP）- 処方情報（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自閉スペクトラム症の小児および青年に対するOxytocin鼻腔内投与。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocinはヒトの信頼を高めます。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "oxytocin鼻腔内投与研究の進歩：得られた教訓と臨床研究の今後の方向性。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "「少ないほど効果的」：ヒト脳におけるoxytocin鼻腔内投与の薬力学の用量反応に基づく説明。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人におけるoxytocin静脈内投与および鼻腔内投与の血漿薬物動態。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "自閉症の社会的行動および定型的な反復行動に対するoxytocin投与の影響：事前登録されたシステマティックレビューおよびメタ解析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocinと自閉スペクトラム症：ランダム化比較試験のシステマティックレビューおよびメタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "oxytocin鼻腔内投与、社会的認知および神経発達症：メタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物CID 439302）- 構造と特性。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "ヒトoxytocin受容体の結晶構造。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：相互的な社会的行動の改善を目指す、自閉症におけるOxytocinの研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "product_concentration",
+          "IU_not_U100_units"
+        ],
+        "notes": "出典の参照情報のみで、未審査です。表および独立した参考文献は出典レコードで引き続き参照できます。"
+      }
+    },
+    {
+      "id": "8e4b4049-763c-4347-82d1-e7470168db15",
+      "productID": "oxytocin",
+      "title": "Oxytocin — 出典に記載されたコミュニティ由来の皮下投与量範囲",
+      "purpose": "出典の記述を参考にした計画作成",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二次的な編集記事・コミュニティの記述です。独立した出典の検証およびアプリの既定設定への採用は保留中です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "oxytocin"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1.0",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin再溶解ガイド / IUからmcgへの換算（oxytocin固有）"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "0.67",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin再溶解ガイド / IUからmcgへの換算（oxytocin固有）"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1.67",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin再溶解ガイド / IUからmcgへの換算（oxytocin固有）"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1.0",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin再溶解ガイド / IUからmcgへの換算（oxytocin固有）"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2.0",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+              "locator": "Oxytocin再溶解ガイド / IUからmcgへの換算（oxytocin固有）"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "コミュニティ由来の投与量範囲",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "unit": "mcg",
+              "basis": "total_product",
+              "range_options": [
+                {
+                  "minimum": "100",
+                  "maximum": "100"
+                },
+                {
+                  "minimum": "200",
+                  "maximum": "300"
+                },
+                {
+                  "minimum": "400",
+                  "maximum": "500"
+                }
+              ]
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+            "locator": "投与プロトコルとスケジュール；出典の投与時期に関する記述"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_tables": [
+            {
+              "section": "Oxytocinの保管と取り扱い",
+              "subsection": "避ける事項",
+              "rows": [
+                [
+                  "",
+                  "凍結乾燥品（粉末）",
+                  "再溶解後（液状）"
+                ],
+                [
+                  "温度",
+                  "長期保管は-4°F（-20°C）",
+                  "35.6～46.4°F（2～8°C）"
+                ],
+                [
+                  "実用上の保存期間",
+                  "表示された使用期限まで",
+                  "BAC水で再溶解後、約2-4週間"
+                ],
+                [
+                  "外観",
+                  "白色の凍結乾燥ケーキ",
+                  "無色透明の溶液"
+                ],
+                [
+                  "避ける事項",
+                  "凍結と融解の繰り返し、直射日光",
+                  "再溶解した溶液の凍結"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+          "source_statements": [
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "",
+              "excerpt": "妊娠：病院で承認された医学的な分娩誘発を行う場合を除き、妊娠中にoxytocinを使用することは絶対に避けるべきです。不適切な使用は、子宮破裂、胎児機能不全、またはそれ以上に深刻な事態を引き起こす可能性があります。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの対象者と使用を避けるべき方",
+              "subsection": "医療従事者による監督が重要です",
+              "excerpt": "研究用途のoxytocinの鼻腔内投与または皮下投与を検討している方は、まず資格を有する医療従事者に相談すべきです。特に心血管疾患や低ナトリウム血症の既往がある場合、妊娠している場合、または精神科薬を使用している場合は重要です。",
+              "truncated": false
+            },
+            {
+              "section": "Oxytocinの副作用と安全性",
+              "subsection": "静脈内投与／筋肉内投与の産科用添付文書の安全性情報（FDA）",
+              "excerpt": "子宮過剰刺激、子宮破裂、産後出血です。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Oxytocin注射液、USP（合成）- 現行のFDA添付文書（NDA 018261 / 018248）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/018248s049lbl.pdf"
+          },
+          {
+            "label": "Pitocin（oxytocin注射液、USP）- 処方情報（NDA 018261）。",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2021/018261Orig1s041lbl.pdf"
+          },
+          {
+            "label": "自閉スペクトラム症の小児および青年に対するOxytocin鼻腔内投与。",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2103583"
+          },
+          {
+            "label": "Oxytocinはヒトの信頼を高めます。",
+            "url": "https://www.nature.com/articles/nature03701"
+          },
+          {
+            "label": "oxytocin鼻腔内投与研究の進歩：得られた教訓と臨床研究の今後の方向性。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7815514/"
+          },
+          {
+            "label": "「少ないほど効果的」：ヒト脳におけるoxytocin鼻腔内投与の薬力学の用量反応に基づく説明。",
+            "url": "https://www.biorxiv.org/content/10.1101/2021.01.18.427062v2.full"
+          },
+          {
+            "label": "非妊娠成人におけるoxytocin静脈内投与および鼻腔内投与の血漿薬物動態。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/40121179/"
+          },
+          {
+            "label": "自閉症の社会的行動および定型的な反復行動に対するoxytocin投与の影響：事前登録されたシステマティックレビューおよびメタ解析。",
+            "url": "https://www.sciencedirect.com/science/article/pii/S0306453024001112"
+          },
+          {
+            "label": "Oxytocinと自閉スペクトラム症：ランダム化比較試験のシステマティックレビューおよびメタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27574438/"
+          },
+          {
+            "label": "oxytocin鼻腔内投与、社会的認知および神経発達症：メタ解析。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29032324/"
+          },
+          {
+            "label": "Oxytocin（化合物CID 439302）- 構造と特性。",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Oxytocin"
+          },
+          {
+            "label": "ヒトoxytocin受容体の結晶構造。",
+            "url": "https://www.biorxiv.org/content/10.1101/2020.02.21.958090.full.pdf"
+          },
+          {
+            "label": "SOARS-B：相互的な社会的行動の改善を目指す、自閉症におけるOxytocinの研究（NCT01944046）。",
+            "url": "https://clinicaltrials.gov/study/NCT01944046"
+          }
+        ],
+        "unresolved_fields": [
+          "cycle_duration",
+          "time_of_day",
+          "human_subcutaneous_validation",
+          "mass_to_IU_conversion_not_assumed"
+        ],
+        "notes": "出典の参照情報のみで、未審査です。表および独立した参考文献は出典レコードで引き続き参照できます。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "078952e5-a8d5-46a5-9d20-7cbe6690bc78",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6d4b2c25-2e5d-49b5-93bc-2ae8a20916d1",
+      "title": "Pitocin (oxytocin injection) prescribing information",
+      "publisher": "Par Pharmaceutical, via NLM DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "url": "https://www.peptidedosingprotocols.com/protocol/oxytocin",
+      "title": "Oxytocin Peptide Dosing Guide: Routes, Reconstitution & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "a38cc9f6-c997-4193-90f0-82b9da148288",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34644471/",
+      "title": "Intranasal oxytocin in children and adolescents with autism spectrum disorder (2021)",
+      "publisher": "New England Journal of Medicine, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "0971c083-2678-47ca-8fec-9de32e0f7bf5",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目の記述があります。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "2302113d-9aef-4c21-8375-114998c62215",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目の記述があります。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "544db95b-0310-4163-86fc-0d697065047c",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目の記述があります。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "6b2321c1-896c-41f5-8299-1030efa67923",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目の記述があります。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "protocolID": "8e4b4049-763c-4347-82d1-e7470168db15",
+      "sourceID": "311a219e-5e62-4134-a0a5-55136636d8ea",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "出典にこれらの項目の記述があります。一次資料による検証は引き続き保留中です。",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "oxytocin",
+      "sourceID": "078952e5-a8d5-46a5-9d20-7cbe6690bc78",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "産科領域の適応は確立されていますが、鼻腔内投与による社会性または性欲への効果に関する主張を裏付けるものはありません。カテゴリーの根拠：専門・臨床：確立された臨床的有益性は産科領域のものです。神経精神医学的用途は研究段階で、結果は一貫していません。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "oxytocin",
+      "sourceID": "a38cc9f6-c997-4193-90f0-82b9da148288",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "24週間のプラセボ対照試験では、社会的機能／認知機能への有効性は示されませんでした。カテゴリーの根拠：専門・臨床：確立された臨床的有益性は産科領域のものです。神経精神医学的用途は研究段階で、結果は一貫していません。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門・臨床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    },
+    {
+      "id": "intranasal",
+      "name": "鼻腔内投与"
+    }
+  ]
+}

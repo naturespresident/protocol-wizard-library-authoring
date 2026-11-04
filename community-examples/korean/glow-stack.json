@@ -1,0 +1,669 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glow-stack",
+      "name": "GLOW Stack",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": "제안된 회복 및 피부 재형성 목적의 근거: 이 개별 제품 병용 조합에는 BPC-157, TB-500 및 GHK-Cu가 포함돼요. BPC-157에는 동물의 상처 회복에 관한 연구 결과가 있고, GHK-Cu에는 동물의 결합조직에 관한 연구 결과와 외용 미용 효과에 관한 제한적인 근거가 있어요. 이러한 성분별 결과는 제안된 목적을 설명하지만, 세 성분을 함께 사용하거나 이 병용 조합의 주사 일정에 따라 투여할 때의 이점을 입증하지는 않아요. 병용 효능을 직접 평가한 연구는 찾지 못했어요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ff09b94f-2209-4f62-b7ce-cb8b52db98ac",
+      "productID": "glow-stack",
+      "title": "GLOW 개별 제품 병용 조합 — 로딩 및 유지",
+      "purpose": "커뮤니티의 조직 회복 및 피부 재형성 계획",
+      "methodID": "other",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티 프로토콜이며, 독립적으로 임상 검증을 받지 않았어요. 출처에 기술된 모든 주의사항, 준비, 보관 및 투여 시점은 검토가 필요해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "tissue_repair_and_skin_remodeling",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "ghk-cu",
+              "name": "GHK-Cu"
+            },
+            {
+              "library_item_id": "tb-500",
+              "name": "TB-500",
+              "exact_sequence": null
+            },
+            {
+              "library_item_id": "bpc-157",
+              "name": "BPC-157"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "로딩",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "성분별 매일 및 주 두 차례 투여 일정",
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "유지",
+            "duration": {
+              "kind": "minimum",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "성분별 매일 및 주 두 차례 투여 일정",
+              "suggested_times": []
+            }
+          }
+        ],
+        "component_regimens": [
+          {
+            "component_id": "bpc-157",
+            "route": "unspecified",
+            "route_options": [
+              "subcutaneous",
+              "oral"
+            ],
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "bpc-157",
+                "dry_amount": {
+                  "value": "5",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "2",
+                  "unit": "mL"
+                }
+              },
+              {
+                "form": "dry",
+                "component_id": "bpc-157",
+                "dry_amount": {
+                  "value": "10",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "2",
+                  "unit": "mL"
+                }
+              }
+            ],
+            "preparation_applies_to_routes": [
+              "subcutaneous"
+            ],
+            "phases": [
+              {
+                "name": "1–4주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "250",
+                  "maximum": "500",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "5–8주차+",
+                "duration": {
+                  "kind": "minimum",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing": null,
+              "basis": "not_reported",
+              "provenance": {
+                "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+                "locator": "투여 프로토콜 및 일정; 자주 묻는 질문"
+              }
+            }
+          },
+          {
+            "component_id": "tb-500",
+            "route": "subcutaneous",
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "tb-500",
+                "dry_amount": {
+                  "value": "5",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "1",
+                  "unit": "mL"
+                }
+              },
+              {
+                "form": "dry",
+                "component_id": "tb-500",
+                "dry_amount": {
+                  "value": "10",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "2",
+                  "unit": "mL"
+                }
+              }
+            ],
+            "phases": [
+              {
+                "name": "1–4주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "2.5",
+                  "maximum": "5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "times_per_week",
+                  "times_per_week": 2,
+                  "doses_per_day": 1,
+                  "suggested_times": [],
+                  "example_iso_weekdays": [
+                    1,
+                    4
+                  ]
+                }
+              },
+              {
+                "name": "5–8주차+",
+                "duration": {
+                  "kind": "minimum",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "times_per_week",
+                  "times_per_week": 2,
+                  "doses_per_day": 1,
+                  "suggested_times": [],
+                  "example_iso_weekdays": [
+                    1,
+                    4
+                  ]
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing": null,
+              "basis": "not_reported",
+              "provenance": {
+                "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+                "locator": "투여 프로토콜 및 일정; 자주 묻는 질문"
+              }
+            }
+          },
+          {
+            "component_id": "ghk-cu",
+            "route": "subcutaneous",
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "ghk-cu",
+                "dry_amount": {
+                  "value": "50",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "5",
+                  "unit": "mL"
+                }
+              },
+              {
+                "form": "dry",
+                "component_id": "ghk-cu",
+                "dry_amount": {
+                  "value": "100",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "10",
+                  "unit": "mL"
+                }
+              }
+            ],
+            "phases": [
+              {
+                "name": "1–4주차",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "1",
+                  "maximum": "2",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "5–8주차+",
+                "duration": {
+                  "kind": "minimum",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "1",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing": null,
+              "basis": "not_reported",
+              "provenance": {
+                "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+                "locator": "투여 프로토콜 및 일정; 자주 묻는 질문"
+              }
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing": null,
+          "basis": "not_reported",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "투여 프로토콜 및 일정; 자주 묻는 질문"
+          }
+        },
+        "cycle_guidance": {
+          "options": [
+            {
+              "label": "표준",
+              "on": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 42,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 14,
+                "maximum": 28,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "연장",
+              "on": {
+                "kind": "range",
+                "minimum": 56,
+                "maximum": 84,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 56,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "피부 중심",
+              "on": {
+                "kind": "fixed",
+                "value": 28,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 14,
+                "maximum": 28,
+                "unit": "day"
+              }
+            }
+          ],
+          "conflicting_guidance": {
+            "on": {
+              "kind": "range",
+              "minimum": 30,
+              "maximum": 60,
+              "unit": "day"
+            },
+            "off": "equal_time_off"
+          },
+          "repeat_rule": null,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "주기 지침; 프로토콜 참고 사항"
+          }
+        },
+        "storage": {
+          "dry": {
+            "temperature_c": "-20",
+            "protect_from_light": true,
+            "expiry": null
+          },
+          "reconstituted": {
+            "temperature_c": {
+              "minimum": "2",
+              "maximum": "8"
+            },
+            "premix_use_within": {
+              "kind": "range",
+              "minimum": 7,
+              "maximum": 14,
+              "unit": "day"
+            },
+            "component_use_within": [
+              {
+                "component_id": "bpc-157",
+                "duration": {
+                  "kind": "maximum",
+                  "value": 30,
+                  "unit": "day"
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "duration": {
+                  "kind": "range",
+                  "minimum": 7,
+                  "maximum": 14,
+                  "unit": "day"
+                }
+              },
+              {
+                "component_id": "ghk-cu",
+                "duration": {
+                  "kind": "maximum",
+                  "value": 30,
+                  "unit": "day"
+                }
+              }
+            ]
+          },
+          "notes": "출처의 안정성 주장은 바로 이 제품들에 대해 독립적으로 검증되지 않았어요.",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "재용해 가이드; 보관 및 취급"
+          }
+        },
+        "cautions": {
+          "exclusions": [
+            "active_or_prior_malignancy",
+            "pregnancy_or_breastfeeding",
+            "copper_metabolism_disorder",
+            "retinal_vascular_disease",
+            "drug_tested_sport"
+          ],
+          "reported_effects": [
+            "local_irritation",
+            "fatigue",
+            "headache"
+          ],
+          "monitoring": [
+            {
+              "markers": [
+                "CBC",
+                "CMP"
+              ],
+              "time": "baseline"
+            },
+            {
+              "markers": [
+                "CRP",
+                "copper",
+                "ceruloplasmin"
+              ],
+              "time": "optional"
+            },
+            {
+              "markers": [
+                "broad_markers"
+              ],
+              "after_start_days": {
+                "minimum": 42,
+                "maximum": 84
+              },
+              "condition": "전신 사용을 지속하거나 증상이 변하는 경우"
+            }
+          ],
+          "clinical_standard_established": false,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "사용을 피해야 하는 대상; 부작용 및 안전성; 혈액검사 및 모니터링"
+          }
+        },
+        "handling_guidance": {
+          "separate_syringes": true,
+          "same_session_allowed": true,
+          "mix_in_one_syringe": false,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "5957a962-1c02-42f4-949e-880179d4c994",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+            "locator": "프로토콜 참고 사항; 자주 묻는 질문 Q9"
+          }
+        },
+        "evidence_context": {
+          "regimen_basis": "community_derived",
+          "direct_combination_trial_reported": false,
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "BPC_route_and_formulation_choice",
+          "maintenance_end_date",
+          "exact_clock_time",
+          "best_time_of_day",
+          "food_timing",
+          "exact_TB_500_sequence",
+          "cycle_break_conflict",
+          "component_cycle_coordination"
+        ],
+        "notes": "첫 네 주와 종료 시점이 정해지지 않은 유지 단계가 그대로 유지되어 있어요. 더 짧은 일반 주기 지침은 이 단계 구조와 상충하므로 검토가 필요해요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "16c875f6-9c6f-4e79-b429-be73327791c6",
+      "url": "https://so09.tci-thaijo.org/index.php/PMR/article/view/9318",
+      "title": "The efficacy of 2% copper peptide (GHK-Cu) serum for eyebrow hypotrichosis: a randomized, double-blind, vehicle-controlled, split-face comparative study",
+      "publisher": "Procedia of Multidisciplinary Research, 2026",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8227353/",
+      "title": "In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds",
+      "publisher": "Journal of Clinical Investigation / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "5957a962-1c02-42f4-949e-880179d4c994",
+      "url": "https://www.peptidedosingprotocols.com/stacks/glow-stack",
+      "title": "GLOW Peptide Guide: BPC-157 + TB-500 + GHK-Cu Stack Dosing Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9403790/",
+      "title": "BPC 157's effect on healing",
+      "publisher": "Journal of Physiology, Paris / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ff09b94f-2209-4f62-b7ce-cb8b52db98ac",
+      "sourceID": "5957a962-1c02-42f4-949e-880179d4c994",
+      "locator": "Separate-vial workflow; Weekly Schedule Example; Protocol Notes; BPC-157/TB-500/GHK-Cu Reconstitution",
+      "evidenceNote": "나열된 커뮤니티 기술 항목을 뒷받침해요. 병용 임상시험을 통한 직접적인 검증은 없어요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/handling_guidance"
+      ]
+    },
+    {
+      "productID": "glow-stack",
+      "sourceID": "16c875f6-9c6f-4e79-b429-be73327791c6",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "원문 초록을 읽었어요. 외용 GHK-Cu의 미용 효과에 관한 소규모 연구이며, 주사용 GHK-Cu 또는 GLOW 병용 조합의 효능을 뒷받침하지 않아요. 분류 근거: 해당 병용 조합에 기술된 잠정적인 피부 재형성 목적이며, 효능은 검증되지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glow-stack",
+      "sourceID": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "쥐 연구의 원문 초록을 읽었어요. 성분별 근거일 뿐이며, 세 제품의 병용 조합은 시험하지 않았어요. 분류 근거: 해당 병용 조합에 기술된 잠정적인 피부 재형성 목적이며, 효능은 검증되지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glow-stack",
+      "sourceID": "5957a962-1c02-42f4-949e-880179d4c994",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "효능이 아니라 개별 제품 구성과 명시된 목적만 확인하기 위해 읽었어요. 성분별 연구는 병용 조합의 이점을 입증하지 않아요. 분류 근거: 해당 병용 조합에 기술된 잠정적인 피부 재형성 목적이며, 효능은 검증되지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glow-stack",
+      "sourceID": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "쥐 연구의 원문 초록을 읽었어요. 성분별 근거일 뿐이며, 세 제품의 병용 조합은 시험하지 않았어요. 분류 근거: 해당 병용 조합에 기술된 잠정적인 피부 재형성 목적이며, 효능은 검증되지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "노화 방지 및 피부"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "기타"
+    }
+  ]
+}

@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cjc-1295-ipamorelin-gh-pulse-stack",
+      "name": "CJC-1295 + Ipamorelin GH 박동 스택",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": "제안된 근거: GHRH 유사체와 또 다른 성장호르몬 분비 촉진제를 병용해 GH 축을 자극한다는 것이에요. Ipamorelin 단독으로 인체 자원자에게서 단기적인 GH 분비가 나타난 바 있어요. 이와 정확히 같은 DAC가 없는 CJC-1295와 ipamorelin 스택의 임상적 이점을 직접 평가한 연구는 찾지 못했어요. 각 성분의 약리학적 특성은 체성분, 회복, 수면 또는 노화에 대한 병용의 이점을 입증하지 못하며, DAC CJC-1295의 결과로는 DAC가 없는 성분을 검증할 수 없어요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "3224aaed-b308-4a9f-a962-c220c3db42c8",
+      "productID": "cjc-1295-ipamorelin-gh-pulse-stack",
+      "title": "CJC-1295(DAC 없음) + Ipamorelin 개별 제품 스택",
+      "purpose": "커뮤니티 GH 축 계획",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티 프로토콜이며, 독립적인 임상 검증을 거치지 않았어요. 출처에 기술된 모든 주의 사항, 준비, 보관 및 투여 시점은 검토가 필요해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "GH_axis_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "cjc-1295-no-dac",
+              "name": "CJC-1295",
+              "variant": "no_DAC"
+            },
+            {
+              "library_item_id": "ipamorelin",
+              "name": "Ipamorelin"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "로딩",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "각 성분을 매일 한 번 투여해요",
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "유지",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "각 성분을 매일 한 번 투여해요",
+              "suggested_times": []
+            }
+          }
+        ],
+        "component_regimens": [
+          {
+            "component_id": "cjc-1295-no-dac",
+            "route": "subcutaneous",
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "cjc-1295-no-dac",
+                "dry_amount": {
+                  "value": "10",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "3",
+                  "unit": "mL"
+                }
+              }
+            ],
+            "phases": [
+              {
+                "name": "로딩",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "100",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "유지",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "200",
+                  "maximum": "300",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": "bedtime",
+              "suggested_clock_times": [],
+              "food_guidance": {
+                "state": "fasted"
+              },
+              "relative_events": [
+                {
+                  "anchor": "bedtime",
+                  "relationship": "before",
+                  "offset": null
+                },
+                {
+                  "anchor": "last_meal",
+                  "relationship": "after",
+                  "offset": {
+                    "minimum": 120,
+                    "maximum": 180,
+                    "unit": "minute"
+                  }
+                },
+                {
+                  "anchor": "next_meal",
+                  "relationship": "before",
+                  "offset": {
+                    "minimum": 20,
+                    "maximum": 30,
+                    "unit": "minute"
+                  }
+                }
+              ],
+              "spacing_between_components": null,
+              "certainty": "source_preference_not_proven_optimum",
+              "basis": "secondary_editorial_claim",
+              "provenance": {
+                "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+                "locator": "주사 시점"
+              }
+            }
+          },
+          {
+            "component_id": "ipamorelin",
+            "route": "subcutaneous",
+            "preparation_options": [
+              {
+                "form": "dry",
+                "component_id": "ipamorelin",
+                "dry_amount": {
+                  "value": "10",
+                  "unit": "mg"
+                },
+                "diluent": "bacteriostatic_water",
+                "diluent_volume": {
+                  "value": "3",
+                  "unit": "mL"
+                }
+              }
+            ],
+            "phases": [
+              {
+                "name": "로딩",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "100",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "유지",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "200",
+                  "maximum": "300",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": "bedtime",
+              "suggested_clock_times": [],
+              "food_guidance": {
+                "state": "fasted"
+              },
+              "relative_events": [
+                {
+                  "anchor": "bedtime",
+                  "relationship": "before",
+                  "offset": null
+                },
+                {
+                  "anchor": "last_meal",
+                  "relationship": "after",
+                  "offset": {
+                    "minimum": 120,
+                    "maximum": 180,
+                    "unit": "minute"
+                  }
+                },
+                {
+                  "anchor": "next_meal",
+                  "relationship": "before",
+                  "offset": {
+                    "minimum": 20,
+                    "maximum": 30,
+                    "unit": "minute"
+                  }
+                }
+              ],
+              "spacing_between_components": null,
+              "certainty": "source_preference_not_proven_optimum",
+              "basis": "secondary_editorial_claim",
+              "provenance": {
+                "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+                "locator": "주사 시점"
+              }
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "bedtime",
+          "suggested_clock_times": [],
+          "food_guidance": {
+            "state": "fasted"
+          },
+          "relative_events": [
+            {
+              "anchor": "bedtime",
+              "relationship": "before",
+              "offset": null
+            },
+            {
+              "anchor": "last_meal",
+              "relationship": "after",
+              "offset": {
+                "minimum": 120,
+                "maximum": 180,
+                "unit": "minute"
+              }
+            },
+            {
+              "anchor": "next_meal",
+              "relationship": "before",
+              "offset": {
+                "minimum": 20,
+                "maximum": 30,
+                "unit": "minute"
+              }
+            }
+          ],
+          "spacing_between_components": null,
+          "certainty": "source_preference_not_proven_optimum",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+            "locator": "주사 시점"
+          }
+        },
+        "cycle_guidance": {
+          "options": [
+            {
+              "label": "표준",
+              "on": {
+                "kind": "range",
+                "minimum": 56,
+                "maximum": 84,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "fixed",
+                "value": 28,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "연장",
+              "on": {
+                "kind": "fixed",
+                "value": 112,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "fixed",
+                "value": 56,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "단기 시험",
+              "on": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 42,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "fixed",
+                "value": 28,
+                "unit": "day"
+              }
+            }
+          ],
+          "repeat_rule": null,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+            "locator": "주기 지침"
+          }
+        },
+        "storage": {
+          "dry": {
+            "temperature_c": "-20",
+            "protect_from_light": true,
+            "expiry": null,
+            "supplier_label_controls_expiry": true
+          },
+          "reconstituted": {
+            "temperature_c": {
+              "minimum": "2",
+              "maximum": "8"
+            },
+            "protect_from_light": true,
+            "use_within": {
+              "kind": "range",
+              "minimum": 28,
+              "maximum": 30,
+              "unit": "day"
+            },
+            "avoid_repeated_freeze_thaw": true
+          },
+          "discard_if": [
+            "cloudy",
+            "discolored",
+            "contaminated"
+          ],
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+            "locator": "보관 및 취급"
+          }
+        },
+        "cautions": {
+          "exclusions": [
+            "active_or_prior_malignancy",
+            "pituitary_disease",
+            "diabetic_retinopathy",
+            "severe_kidney_disease",
+            "pregnancy_or_breastfeeding"
+          ],
+          "reported_effects": [
+            "flushing",
+            "fluid_retention",
+            "joint_pain",
+            "paresthesia",
+            "glucose_changes"
+          ],
+          "monitoring": [
+            {
+              "markers": [
+                "IGF-1"
+              ],
+              "time": "baseline"
+            },
+            {
+              "markers": [
+                "IGF-1"
+              ],
+              "after_start_days": {
+                "minimum": 42,
+                "maximum": 56
+              }
+            },
+            {
+              "markers": [
+                "IGF-1"
+              ],
+              "after_cycle_days": 28
+            },
+            {
+              "markers": [
+                "fasting_glucose",
+                "HbA1c"
+              ],
+              "condition": "대사 위험 요인"
+            },
+            {
+              "markers": [
+                "thyroid_panel"
+              ],
+              "time": "optional",
+              "condition": "여러 달에 걸친 계획"
+            }
+          ],
+          "monitoring_basis": "GH-axis physiology extrapolation",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+            "locator": "면책 고지; 부작용 및 안전성; 일정 및 모니터링; 혈액 검사 및 모니터링"
+          }
+        },
+        "handling_guidance": {
+          "source_allows_same_syringe": true,
+          "independent_product_compatibility_verified": false,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+            "locator": "별도 바이알 작업 절차"
+          }
+        },
+        "evidence_context": {
+          "regimen_basis": "community_derived",
+          "direct_combination_trial_reported": false,
+          "independent_primary_source_verification": false,
+          "citation_variant_warning": "The cited Teichman 2006 trial studied CJC-1295 with DAC; it does not validate the no-DAC titration."
+        },
+        "unresolved_fields": [
+          "loading_duration",
+          "maintenance_duration",
+          "exact_clock_time",
+          "primary_validation_of_timing_and_dose",
+          "same_syringe_compatibility",
+          "product_specific_stability_validation"
+        ],
+        "notes": "별도 바이알 표에는 로딩 및 유지 용량이 제시되어 있지만, 단계별 시작과 종료 시점은 없어요. 사전 혼합 제제의 단계별 기간을 개별 제품에 적용하지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+      "url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+      "title": "CJC-1295 No DAC + Ipamorelin Dosing Guide: Protocol & Timing (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (1999)",
+      "publisher": "Pharmaceutical Research, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f1352487-f41c-4cee-aab1-3a41263543ca",
+      "url": "https://www.fda.gov/media/183819/download",
+      "title": "FDA PCAC briefing: CJC-1295-related bulk drug substances (December 2024)",
+      "publisher": "US Food and Drug Administration",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "3224aaed-b308-4a9f-a962-c220c3db42c8",
+      "sourceID": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+      "locator": "Separate-vial workflow; Separate-Vial Reconstitution; Injection Timing; Cycle Guidelines",
+      "evidenceNote": "나열된 커뮤니티 기술 항목을 뒷받침해요. 병용 시험을 통한 직접적인 검증은 없어요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/handling_guidance"
+      ]
+    },
+    {
+      "productID": "cjc-1295-ipamorelin-gh-pulse-stack",
+      "sourceID": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "ipamorelin 단독으로 GH 분비를 유도했어요. 병용이나 임상 결과를 평가한 시험은 아니에요. 분류 근거: 성장호르몬: 승인된 제제에는 DAC가 없는 CJC-1295와 ipamorelin이 명시되어 있으며, 의도된 목적은 GH 축 연구예요. 효능은 확립되지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "cjc-1295-ipamorelin-gh-pulse-stack",
+      "sourceID": "f1352487-f41c-4cee-aab1-3a41263543ca",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "GHRH 유사체의 정체성과 DAC 유무의 구분에 관한 근거이며, 스택의 효능에 관한 근거는 아니에요. 분류 근거: 성장호르몬: 승인된 제제에는 DAC가 없는 CJC-1295와 ipamorelin이 명시되어 있으며, 의도된 목적은 GH 축 연구예요. 효능은 확립되지 않았어요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

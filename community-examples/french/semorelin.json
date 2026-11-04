@@ -1,0 +1,453 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "semorelin",
+      "name": "Sermorelin",
+      "aliases": [
+        "Semorelin"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": "Effet clinique démontré dans une population précise : augmentation de la vitesse de croissance chez des enfants prépubères présentant un déficit en hormone de croissance au cours d’une étude ouverte d’un an sur sermorelin/GHRH-(1-29). Ce résultat sur la croissance pédiatrique se distingue des allégations de bien-être chez l’adulte. Il ne démontre aucune amélioration de la force, de la récupération, du sommeil, de la perte de graisse ou de la longévité chez les adultes en bonne santé, et il ne devrait pas être présenté comme une preuve que les schémas communautaires pour adultes de la bibliothèque procurent ces bénéfices."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "f687f1b6-9974-4dab-a19b-e69c537c782a",
+      "productID": "semorelin",
+      "title": "Sermorelin — titration chaque soir et jours de repos facultatifs selon la source",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Description éditoriale/communautaire secondaire. La validation indépendante de la source et l’adoption comme option par défaut dans l’application sont en attente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "semorelin"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "2",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "1",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+              "locator": "Guide de reconstitution de Sermorelin / Autres tailles courantes de flacons"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2500",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+              "locator": "Guide de reconstitution de Sermorelin / Autres tailles courantes de flacons"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "9",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+              "locator": "Guide de reconstitution de Sermorelin / Autres tailles courantes de flacons"
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "15",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "5",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3000",
+              "unit": "mcg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+              "locator": "Guide de reconstitution de Sermorelin / Autres tailles courantes de flacons"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Semaines 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaines 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaines 5–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaine 9+",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "400",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "bedtime",
+          "suggested_clock_times": [],
+          "relative_events": [
+            {
+              "anchor": "sleep",
+              "relationship": "before",
+              "offset": {
+                "minimum": 30,
+                "maximum": 60,
+                "unit": "minute"
+              }
+            },
+            {
+              "anchor": "last_meal",
+              "relationship": "after",
+              "offset": {
+                "minimum": 60,
+                "maximum": 90,
+                "unit": "minute"
+              }
+            }
+          ],
+          "food_guidance": {
+            "state": "fasted"
+          },
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference",
+          "provenance": {
+            "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/sermorelin",
+            "locator": "Protocole posologique et calendrier ; indications de la source sur le moment d’administration"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+          "source_tables": []
+        },
+        "storage": {
+          "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de Sermorelin",
+              "subsection": "",
+              "rows": [
+                [
+                  "Forme",
+                  "Température",
+                  "Durée"
+                ],
+                [
+                  "Lyophilisé (poudre)",
+                  "-4°F (-20°C)",
+                  "Long terme (années)"
+                ],
+                [
+                  "Lyophilisé (poudre)",
+                  "36-46°F (2-8°C)",
+                  "Mois"
+                ],
+                [
+                  "Lyophilisé (poudre)",
+                  "59-77°F (15-25°C)",
+                  "Semaines (tolérance au transport)"
+                ],
+                [
+                  "Reconstitué",
+                  "36-46°F (2-8°C)",
+                  "Jusqu’à 28 jours"
+                ],
+                [
+                  "Reconstitué (congelé)",
+                  "-4°F (-20°C)",
+                  "Non recommandé"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+          "source_statements": [
+            {
+              "section": "À qui Sermorelin s’adresse et qui devrait l’éviter",
+              "subsection": "",
+              "excerpt": "Sermorelin est généralement évoqué dans deux contextes : le déficit pédiatrique en GH dans l’ancienne information de prescription approuvée par la FDA, et l’utilisation hors indication chez l’adulte par l’intermédiaire de pharmacies de préparation magistrale relevant des dispositions 503A ou 503B pour l’optimisation de la GH, du sommeil et de la composition corporelle. Dans les deux cas, un clinicien habilité devrait intervenir.",
+              "truncated": false
+            },
+            {
+              "section": "À qui Sermorelin s’adresse et qui devrait l’éviter",
+              "subsection": "Personnes qui évitent généralement Sermorelin",
+              "excerpt": "Grossesse ou allaitement. L’ancienne information de prescription approuvée par la FDA classait sermorelin en catégorie C pour la grossesse. Il n’existe aucune étude contrôlée chez les femmes enceintes, et on ignore si sermorelin passe dans le lait maternel.",
+              "truncated": false
+            },
+            {
+              "section": "À qui Sermorelin s’adresse et qui devrait l’éviter",
+              "subsection": "Personnes qui évitent généralement Sermorelin",
+              "excerpt": "Cancer actif. La GH et l’IGF-1 peuvent agir comme signaux de croissance sur les cellules existantes. La plupart des protocoles prévoient un dépistage de cancer actif avant de commencer.",
+              "truncated": false
+            },
+            {
+              "section": "À qui Sermorelin s’adresse et qui devrait l’éviter",
+              "subsection": "Personnes qui évitent généralement Sermorelin",
+              "excerpt": "Déficit en hormone de croissance dû à une lésion intracrânienne - l’ancienne information de prescription approuvée par la FDA indiquait expressément que ces patients n’avaient pas été étudiés et que le traitement par sermorelin n’était pas recommandé chez eux.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de Sermorelin",
+              "subsection": "Éléments à surveiller",
+              "excerpt": "Hypothyroïdie. Environ 6.5% des participants aux essais ont développé une hypothyroïdie. Une hypothyroïdie non traitée réduit la réponse de l’organisme à la stimulation de la GH ; les bilans thyroïdiens initiaux et de suivi font donc partie des pratiques habituelles.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Sécrétagogues de l’hormone de croissance : histoire, mécanisme d’action et développement clinique.",
+            "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/rco2.9"
+          },
+          {
+            "label": "Sermorelin : une meilleure approche de la prise en charge de l’insuffisance en hormone de croissance apparue à l’âge adulte ?",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2699646/"
+          },
+          {
+            "label": "Information de prescription de l’acétate de Sermorelin.",
+            "url": "https://www.rxlist.com/sermorelin-acetate-drug.htm"
+          },
+          {
+            "label": "Certaines substances médicamenteuses en vrac destinées à la préparation magistrale pouvant présenter des risques importants pour la sécurité (liste 503A, catégorie 1 / catégorie 2).",
+            "url": "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks"
+          },
+          {
+            "label": "Réunion des 23-24 juillet 2026 du comité consultatif sur la préparation magistrale en pharmacie (examen de la liste 503A des substances en vrac).",
+            "url": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+          },
+          {
+            "label": "Sermorelin (voie injectable) - effets indésirables et posologie.",
+            "url": "https://www.mayoclinic.org/drugs-supplements/sermorelin-injection-route/description/drg-20065923"
+          },
+          {
+            "label": "Profil pharmacologique de Sermorelin (DB00010).",
+            "url": "https://go.drugbank.com/drugs/DB00010"
+          },
+          {
+            "label": "Sermorelin (CID 16132413).",
+            "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sermorelin"
+          },
+          {
+            "label": "Pharmacocinétique de l’hormone de libération de l’hormone de croissance(1-29)-NH2 et stimulation de la sécrétion d’hormone de croissance chez des sujets en bonne santé après administration intraveineuse ou intranasale.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/8219485/"
+          },
+          {
+            "label": "Statut réglementaire de la préparation magistrale de peptides en 2025 (sermorelin et NAD+ comme exemples de catégorie 1).",
+            "url": "https://www.frierlevitt.com/articles/regulatory-status-of-peptide-compounding-in-2025/"
+          },
+          {
+            "label": "Synthèse et références sur Sermorelin.",
+            "url": "https://www.sciencedirect.com/topics/medicine-and-dentistry/sermorelin"
+          }
+        ],
+        "unresolved_fields": [
+          "schedule_alternative_selection",
+          "target_duration_3_to_6_calendar_months",
+          "primary_validation",
+          "maintenance_dose_choice"
+        ],
+        "notes": "Référence à la source uniquement ; non examinée. Les tableaux et les références indépendantes restent disponibles dans l’enregistrement de la source.",
+        "schedule_alternative": {
+          "pattern": "weekdays",
+          "iso_weekdays": [
+            7,
+            1,
+            2,
+            3,
+            4
+          ],
+          "doses_per_day": 1,
+          "suggested_times": [],
+          "source_description": "Sunday through Thursday; Friday/Saturday off"
+        }
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "2bdc2611-3488-4006-a0d2-fc8e81698389",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8772599/",
+      "title": "Daily GHRH therapy accelerates growth in GH-deficient children: Geref International Study Group (1996)",
+      "publisher": "Journal of Clinical Endocrinology & Metabolism, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+      "url": "https://www.peptidedosingprotocols.com/protocol/sermorelin",
+      "title": "Sermorelin Peptide Dosing Guide: Protocol, Timing & Side Effects (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "f687f1b6-9974-4dab-a19b-e69c537c782a",
+      "sourceID": "ae08de8a-7d40-4f1c-8a04-500de05bcba9",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La source décrit ces champs ; la vérification à partir de sources primaires reste en attente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/schedule_alternative"
+      ]
+    },
+    {
+      "productID": "semorelin",
+      "sourceID": "2bdc2611-3488-4006-a0d2-fc8e81698389",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "110 participants inclus, 86 évaluables pour l’efficacité ; la vitesse de croissance pédiatrique a augmenté dans une étude ouverte. Justification de la catégorie : hormone de croissance : résultat vérifié sur la croissance pédiatrique en cas de déficit en GH ; l’identité affichée dans la bibliothèque est confirmée comme étant Sermorelin.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormone de croissance"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

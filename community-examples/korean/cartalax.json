@@ -1,0 +1,838 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cartalax",
+      "name": "Cartalax",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "실험실 연골 연구: Cartalax와 관련된 AED 트리펩타이드는 어린 쥐와 늙은 쥐에서 얻은 배양 연골 세포의 증식을 증가시켰어요. 이는 세포 배양에서 얻은 결과로, 연골 복구에 관한 연구를 뒷받침해요. 사람에서 연골 재생, 통증 완화 또는 골관절염 개선을 입증하는 것은 아니에요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "c6cac17f-7090-4ec6-b127-5c38f24d78a3",
+      "productID": "cartalax",
+      "title": "Cartalax — 출처에 제시된 커뮤니티의 12주간 일일 투여량 증량 일정",
+      "purpose": "출처에 기술된 참고용 계획",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 아직 완료되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "cartalax"
+            }
+          ],
+          "sequence_as_reported": "Ala-Glu-Asp"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "1–2주",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3–4주",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "5–8주",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "9–12주",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "c73f6041-3727-43c4-8c03-50c56283c25e",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/cartalax",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "c73f6041-3727-43c4-8c03-50c56283c25e",
+          "source_tables": [],
+          "references": [
+            {
+              "source_id": "5ddcd0b3-dcc2-4b6b-beb1-d3611b9cf93e",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/cartalax-cycle",
+              "source_tables": [
+                {
+                  "section": "Cartalax 주기 개요",
+                  "subsection": "핵심 내용",
+                  "rows": [
+                    [
+                      "주기 길이",
+                      "커뮤니티 일정",
+                      "Cartalax 총량",
+                      "20 mg 바이알"
+                    ],
+                    [
+                      "8주",
+                      "매일 2 mg, 3 mg, 이후 4 mg",
+                      "182 mg",
+                      "바이알 10개"
+                    ],
+                    [
+                      "12주",
+                      "매일 2 mg, 3 mg, 4 mg, 이후 5 mg",
+                      "322 mg",
+                      "바이알 17개"
+                    ],
+                    [
+                      "16주",
+                      "12주 일정 후 4주간 추가로 매일 5 mg",
+                      "462 mg",
+                      "바이알 24개"
+                    ],
+                    [
+                      "20일",
+                      "매일 10 mg",
+                      "200 mg",
+                      "바이알 10개"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 주기 표",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "주",
+                      "일일 투여량",
+                      "일수",
+                      "단계별 총량",
+                      "누적 총량"
+                    ],
+                    [
+                      "1–2",
+                      "2 mg",
+                      "14",
+                      "28 mg",
+                      "28 mg"
+                    ],
+                    [
+                      "3–4",
+                      "3 mg",
+                      "14",
+                      "42 mg",
+                      "70 mg"
+                    ],
+                    [
+                      "5–8",
+                      "4 mg",
+                      "28",
+                      "112 mg",
+                      "182 mg"
+                    ],
+                    [
+                      "9–12",
+                      "5 mg",
+                      "28",
+                      "140 mg",
+                      "322 mg"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 주기 표",
+                  "subsection": "용량 증량은 커뮤니티 관행이에요",
+                  "rows": [
+                    [
+                      "확인 시점",
+                      "현재 단계",
+                      "지난 확인 시점 이후의 투여량",
+                      "누적 총량"
+                    ],
+                    [
+                      "2주 종료 시점",
+                      "매일 2 mg",
+                      "28 mg",
+                      "28 mg"
+                    ],
+                    [
+                      "4주 종료 시점",
+                      "매일 3 mg",
+                      "42 mg",
+                      "70 mg"
+                    ],
+                    [
+                      "6주 종료 시점",
+                      "매일 4 mg",
+                      "56 mg",
+                      "126 mg"
+                    ],
+                    [
+                      "8주 종료 시점",
+                      "매일 4 mg",
+                      "56 mg",
+                      "182 mg"
+                    ],
+                    [
+                      "10주 종료 시점",
+                      "매일 5 mg",
+                      "70 mg",
+                      "252 mg"
+                    ],
+                    [
+                      "12주 종료 시점",
+                      "매일 5 mg",
+                      "70 mg",
+                      "322 mg"
+                    ],
+                    [
+                      "16주 종료 시점",
+                      "매일 5 mg 투여 연장",
+                      "140 mg",
+                      "462 mg"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 주기 달력",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "주기 내 일차",
+                      "주",
+                      "커뮤니티 일정의 주요 시점",
+                      "일일 투여량"
+                    ],
+                    [
+                      "1일차",
+                      "1주",
+                      "첫 단계 시작",
+                      "2 mg"
+                    ],
+                    [
+                      "15일차",
+                      "3주",
+                      "두 번째 단계 시작",
+                      "3 mg"
+                    ],
+                    [
+                      "29일차",
+                      "5주",
+                      "세 번째 단계 시작",
+                      "4 mg"
+                    ],
+                    [
+                      "57일차",
+                      "9주",
+                      "네 번째 단계 시작",
+                      "5 mg"
+                    ],
+                    [
+                      "84일차",
+                      "12주 종료 시점",
+                      "기본 일정의 마지막 날",
+                      "5 mg"
+                    ],
+                    [
+                      "85일차",
+                      "13주",
+                      "포함하는 경우, 계산에 따른 연장 기간 시작",
+                      "5 mg"
+                    ],
+                    [
+                      "112일차",
+                      "16주 종료 시점",
+                      "연장 일정의 마지막 날",
+                      "5 mg"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 8주 주기",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "주",
+                      "일일 투여량",
+                      "주간 투여량",
+                      "단계별 총량"
+                    ],
+                    [
+                      "1–2",
+                      "2 mg",
+                      "14 mg",
+                      "28 mg"
+                    ],
+                    [
+                      "3–4",
+                      "3 mg",
+                      "21 mg",
+                      "42 mg"
+                    ],
+                    [
+                      "5–8",
+                      "4 mg",
+                      "28 mg",
+                      "112 mg"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 12주 주기",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "주",
+                      "일일 투여량",
+                      "주간 투여량",
+                      "단계별 총량"
+                    ],
+                    [
+                      "1–2",
+                      "2 mg",
+                      "14 mg",
+                      "28 mg"
+                    ],
+                    [
+                      "3–4",
+                      "3 mg",
+                      "21 mg",
+                      "42 mg"
+                    ],
+                    [
+                      "5–8",
+                      "4 mg",
+                      "28 mg",
+                      "112 mg"
+                    ],
+                    [
+                      "9–12",
+                      "5 mg",
+                      "35 mg",
+                      "140 mg"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 16주 주기",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "주",
+                      "일일 투여량",
+                      "주간 투여량",
+                      "단계별 총량"
+                    ],
+                    [
+                      "1–2",
+                      "2 mg",
+                      "14 mg",
+                      "28 mg"
+                    ],
+                    [
+                      "3–4",
+                      "3 mg",
+                      "21 mg",
+                      "42 mg"
+                    ],
+                    [
+                      "5–8",
+                      "4 mg",
+                      "28 mg",
+                      "112 mg"
+                    ],
+                    [
+                      "9–12",
+                      "5 mg",
+                      "35 mg",
+                      "140 mg"
+                    ],
+                    [
+                      "13–16",
+                      "5 mg",
+                      "35 mg",
+                      "140 mg"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 20일간 10 mg",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "일일 투여량",
+                      "기간",
+                      "총투여량",
+                      "20 mg 바이알"
+                    ],
+                    [
+                      "10 mg",
+                      "20일",
+                      "200 mg",
+                      "바이알 10개"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 주기 길이 비교",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "주기",
+                      "총노출량",
+                      "차이",
+                      "근거 현황"
+                    ],
+                    [
+                      "8주",
+                      "182 mg",
+                      "4 mg 단계 후 종료해요",
+                      "커뮤니티 보고"
+                    ],
+                    [
+                      "12주",
+                      "322 mg",
+                      "매일 5 mg 투여를 네 주 추가해요",
+                      "커뮤니티 보고"
+                    ],
+                    [
+                      "16주",
+                      "462 mg",
+                      "5 mg 단계를 네 주 더 연장해요",
+                      "계산에 따른 커뮤니티 일정 연장"
+                    ],
+                    [
+                      "20일간 10 mg",
+                      "200 mg",
+                      "더 짧은 기간에 더 높은 고정 용량을 사용해요",
+                      "상업적 주장 및 커뮤니티 주장"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 주기 사이 휴지기, 일시 중단 및 일정 변경",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "질문",
+                      "현재 답변"
+                    ],
+                    [
+                      "여덟 주 후 휴지기가 필요한가요?",
+                      "필수 휴지기를 제시하는 발표된 연구는 없어요."
+                    ],
+                    [
+                      "바로 다음 주기를 시작할 수 있나요?",
+                      "인체 안전성 자료로는 명확한 답을 제시할 수 없어요."
+                    ],
+                    [
+                      "Cartalax는 시간이 지나면서 축적되나요?",
+                      "인체 약동학과 조직 축적 여부는 알려져 있지 않아요."
+                    ],
+                    [
+                      "주기적으로 사용하는 것이 지속적인 노출보다 더 나은가요?",
+                      "두 방법을 비교한 연구는 없어요."
+                    ],
+                    [
+                      "휴지기가 길어지면 내성이 초기화되나요?",
+                      "Cartalax에 대한 내성은 확인되지 않았어요."
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 주기 사이 휴지기, 일시 중단 및 일정 변경",
+                  "subsection": "커뮤니티의 휴지기 길이는 입증되지 않았어요",
+                  "rows": [
+                    [
+                      "단계",
+                      "하루 투여를 건너뛸 때마다 줄어드는 양",
+                      "중단 예시",
+                      "총량 변화"
+                    ],
+                    [
+                      "2 mg 단계",
+                      "2 mg",
+                      "1일 투여 누락",
+                      "2 mg 감소"
+                    ],
+                    [
+                      "3 mg 단계",
+                      "3 mg",
+                      "2일 투여 누락",
+                      "6 mg 감소"
+                    ],
+                    [
+                      "4 mg 단계",
+                      "4 mg",
+                      "3일간 일시 중단",
+                      "12 mg 감소"
+                    ],
+                    [
+                      "5 mg 단계",
+                      "5 mg",
+                      "5일간 일시 중단",
+                      "25 mg 감소"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 주기 사이 휴지기, 일시 중단 및 일정 변경",
+                  "subsection": "커뮤니티의 휴지기 길이는 입증되지 않았어요",
+                  "rows": [
+                    [
+                      "계획 선택",
+                      "총노출량",
+                      "달력상 기간",
+                      "근거의 한계"
+                    ],
+                    [
+                      "원래 종료일 유지",
+                      "원래 계획보다 적어요",
+                      "변경 없음",
+                      "총량 감소가 결과에 미치는 영향을 보여주는 연구는 없어요"
+                    ],
+                    [
+                      "중단한 일수를 마지막에 추가",
+                      "해당 단계와 동일한 용량을 사용하면 원래 계획한 총량이 돼요",
+                      "더 길어져요",
+                      "주기 연장의 타당성을 입증하는 연구는 없어요"
+                    ]
+                  ]
+                },
+                {
+                  "section": "Cartalax 주기 사이 휴지기, 일시 중단 및 일정 변경",
+                  "subsection": "커뮤니티의 휴지기 길이는 입증되지 않았어요",
+                  "rows": [
+                    [
+                      "종료 시점",
+                      "포함된 일정",
+                      "총투여량",
+                      "20 mg 바이알"
+                    ],
+                    [
+                      "4주 종료 시점",
+                      "2 mg 및 3 mg 단계",
+                      "70 mg",
+                      "바이알 4개"
+                    ],
+                    [
+                      "6주 종료 시점",
+                      "4 mg 단계 두 주 추가",
+                      "126 mg",
+                      "바이알 7개"
+                    ],
+                    [
+                      "8주 종료 시점",
+                      "4 mg 단계 전체 완료",
+                      "182 mg",
+                      "바이알 10개"
+                    ],
+                    [
+                      "10주 종료 시점",
+                      "5 mg 단계 두 주 추가",
+                      "252 mg",
+                      "바이알 13개"
+                    ],
+                    [
+                      "12주 종료 시점",
+                      "단계별 일정 전체 완료",
+                      "322 mg",
+                      "바이알 17개"
+                    ],
+                    [
+                      "14주 종료 시점",
+                      "5 mg 투여를 두 주 연장",
+                      "392 mg",
+                      "바이알 20개"
+                    ],
+                    [
+                      "16주 종료 시점",
+                      "5 mg 투여를 네 주 연장",
+                      "462 mg",
+                      "바이알 24개"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "c73f6041-3727-43c4-8c03-50c56283c25e",
+          "source_tables": [
+            {
+              "section": "Cartalax 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "단계",
+                  "취급 시 확인 사항",
+                  "중요한 이유"
+                ],
+                [
+                  "재구성 전",
+                  "온도 및 차광에 관한 라벨 지침을 따라요",
+                  "열, 습기 및 부적절한 보관은 펩타이드 안정성에 영향을 줄 수 있어요"
+                ],
+                [
+                  "재구성 중",
+                  "바이알의 함량과 정확한 액체 부피를 확인해요",
+                  "부피 오류는 농도와 모든 주사기 용량 계산을 바꿔요"
+                ],
+                [
+                  "재구성 후",
+                  "제품에 명시된 냉장 보관 및 사용기한 지침을 따라요",
+                  "모든 Cartalax 제품에 공통으로 적용되는 입증된 보관 기간은 없어요"
+                ],
+                [
+                  "온도 관리",
+                  "불필요하게 온도를 높였다 낮추는 일을 제한해요",
+                  "반복적인 온도 변화는 안정성에 영향을 줄 수 있어요"
+                ],
+                [
+                  "육안 검사",
+                  "예상치 못한 색상, 혼탁, 입자 또는 바이알 손상이 있는지 확인해요",
+                  "눈에 보이는 변화는 제품이나 취급에 문제가 있다는 신호일 수 있어요"
+                ],
+                [
+                  "라벨 표시",
+                  "혼합 날짜, 농도 및 보관 세부 사항을 기록해요",
+                  "명확한 라벨은 농도와 경과 기간에 관한 실수를 줄여요"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "c73f6041-3727-43c4-8c03-50c56283c25e",
+          "source_statements": [
+            {
+              "section": "Cartalax 펩타이드 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "Cartalax의 인체 부작용 양상은 충분히 확립되어 있지 않아요. 발표된 연구 대부분은 통제된 인체 노출이 아닌 배양 세포를 대상으로 하므로, 발생 가능한 이상반응의 빈도와 중증도는 알려져 있지 않아요.",
+              "truncated": false
+            },
+            {
+              "section": "Cartalax 펩타이드 부작용 및 안전성",
+              "subsection": "신뢰할 만한 이상반응 발생률이 없어요",
+              "excerpt": "Cartalax 부작용이 얼마나 자주 발생하는지 보여주는 대규모 대조 시험은 없어요.",
+              "truncated": false
+            },
+            {
+              "section": "Cartalax 펩타이드 부작용 및 안전성",
+              "subsection": "장기 영향은 알려져 있지 않아요",
+              "excerpt": "반복적인 주사 투여 주기의 장기 위험을 규명할 만큼 충분한 연구가 이루어지지 않았어요.",
+              "truncated": false
+            },
+            {
+              "section": "Cartalax 펩타이드 부작용 및 안전성",
+              "subsection": "근거가 제한적이라고 해서 위험이 없다는 뜻은 아니에요",
+              "excerpt": "Cartalax를 누가 안전하게 사용할 수 있는지 규명할 만큼 충분한 연구가 이루어지지 않았어요. 아래 집단을 나열한 이유는 신뢰할 만한 인체 안전성 자료가 없기 때문이며, 각 집단에서 Cartalax의 금기가 입증되었기 때문은 아니에요.",
+              "truncated": false
+            },
+            {
+              "section": "Cartalax 펩타이드 부작용 및 안전성",
+              "subsection": "임신 및 모유 수유",
+              "excerpt": "임신 또는 모유 수유 중 Cartalax의 안전성에 관한 신뢰할 만한 연구는 확인되지 않았어요.",
+              "truncated": false
+            },
+            {
+              "section": "Cartalax 펩타이드 부작용 및 안전성",
+              "subsection": "이는 예방적 제한 사항이에요",
+              "excerpt": "인체 자료가 없어 신뢰할 만한 위험 평가를 할 수 없어요. 이를 연구되지 않은 집단에서 Cartalax가 안전하다는 증거로 해석해서는 안 돼요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "복제 노화 과정에서 인간 중간엽 줄기세포의 연골 분화에 미치는 펩타이드의 영향",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/37782646/"
+          },
+          {
+            "label": "연골 조직의 펩타이드: 연골 세포 증식 조절, 노화 보호 및 골관절염에서의 활용 전망",
+            "url": "https://journals.eco-vector.com/0236-3054/article/view/117604/en_US"
+          },
+          {
+            "label": "노화 배양 중인 인간 중간엽 줄기세포의 유전자 발현: 짧은 펩타이드에 의한 조절",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/32399807/"
+          },
+          {
+            "label": "시험관 내 노화 과정에서 피부 섬유아세포 기능의 펩타이드 조절",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27259496/"
+          },
+          {
+            "label": "줄기세포의 연골 분화에 대한 펩타이드 조절",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10179481/"
+          },
+          {
+            "label": "연부조직 및 근골격계 질환에 대한 국소 및 전신 펩타이드 치료",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39351323/"
+          }
+        ],
+        "unresolved_fields": [
+          "best_time_of_day_unknown_in_humans",
+          "no_controlled_human_injection_validation",
+          "product_preparation"
+        ],
+        "notes": "출처 참고용이며 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "5ddcd0b3-dcc2-4b6b-beb1-d3611b9cf93e",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/cartalax-cycle",
+      "title": "Cartalax Cycle Length: 8, 12 & 16-Week Schedules",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "bdd57014-4bb2-4295-91b9-155a84314acb",
+      "url": "https://vrachjournal.ru/sites/default/files/fulltext-pdf/25877305-2023-10-08.pdf",
+      "title": "Peptides of cartilage tissue: regulation of chondrocyte proliferation, geroprotection and prospects for use in osteoarthrosis",
+      "publisher": "Vrach, 2023;34(10):46-49",
+      "type": "lab_study",
+      "publishedAt": null
+    },
+    {
+      "id": "c73f6041-3727-43c4-8c03-50c56283c25e",
+      "url": "https://www.peptidedosingprotocols.com/protocol/cartalax",
+      "title": "Cartalax Peptide Dosage Guide: 20 mg Protocol, Benefits & Side Effects",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "c6cac17f-7090-4ec6-b127-5c38f24d78a3",
+      "sourceID": "5ddcd0b3-dcc2-4b6b-beb1-d3611b9cf93e",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "기간/휴지기에 관한 배경 근거이며, 용량, 제품 라벨, 투여 경로 또는 특정 대상군에 관한 지침을 대체하지 않아요.",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "protocolID": "c6cac17f-7090-4ec6-b127-5c38f24d78a3",
+      "sourceID": "c73f6041-3727-43c4-8c03-50c56283c25e",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에서 이 항목들을 기술하고 있으며, 일차 출처 검증은 아직 완료되지 않았어요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "cartalax",
+      "sourceID": "bdd57014-4bb2-4295-91b9-155a84314acb",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "방법과 결과를 포함하여 러시아어 원문 논문을 읽었어요. AED/Ala-Glu-Asp는 쥐의 일차 연골 세포 배양에서 시험되었으며, 인체 임상 결과는 없어요. DOI 10.29296/25877305-2023-10-08. 범주 분류 근거: 직접 연구된 대상은 연골 세포의 복구와 증식이에요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "치유 및 회복"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

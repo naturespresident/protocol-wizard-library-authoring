@@ -1,0 +1,633 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cagrilintide",
+      "name": "Cagrilintide",
+      "aliases": [
+        "AM833"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "Les données d’essais chez l’humain étayent une réduction du poids avec le cagrilintide administré par voie sous-cutanée chez les adultes en surpoids ou obèses sans diabète. Un essai randomisé de phase 2 a mis en évidence une perte de poids plus importante qu’avec le placebo sur 26 semaines. Ces données concernent une prise en charge du poids à l’étude et n’établissent pas de bénéfices pour toutes les formulations, voies d’administration ou associations vendues comme un ensemble de produits."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "50341030-68c1-4dea-982b-374428eaf2ee",
+      "productID": "cagrilintide",
+      "title": "Cagrilintide — protocole de recherche de dose en monothérapie de phase 2",
+      "purpose": "Essai de monothérapie à l’étude pour la prise en charge du poids",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Extraction de référence non vérifiée ; ne constitue pas des instructions de prescription complètes.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Investigational AM833 monotherapy study product",
+          "components": [
+            {
+              "name": "Cagrilintide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "Adultes obèses ou en surpoids présentant une comorbidité liée au poids répondant aux critères d’inclusion",
+          "study": "Phase 2 monotherapy dose-finding study"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Bras à dose cible attribuée avec augmentation progressive non précisée par la source",
+            "duration": {
+              "kind": "fixed",
+              "value": 182,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "0.3",
+                "0.6",
+                "1.2",
+                "2.4",
+                "4.5"
+              ],
+              "unit": "mg",
+              "basis": "total_product",
+              "kind": "target_dose_choices"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "arm_specific_dose_escalation",
+          "formulation_and_preparation"
+        ],
+        "notes": "Un protocole d’étude avec cinq choix de dose cible ; la dose cible n’est pas supposée s’appliquer dès la première injection. Une intervention sur le mode de vie accompagnait le traitement."
+      }
+    },
+    {
+      "id": "6bc1e900-0c29-488c-a127-2968aeb6b15f",
+      "productID": "cagrilintide",
+      "title": "Cagrilintide — comparateur en monothérapie de phase 2 dans le diabète de type 2",
+      "purpose": "Résultats glycémiques et pondéraux à l’étude dans le diabète de type 2",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Extraction de référence non vérifiée ; ne constitue pas des instructions de prescription complètes.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Investigational monotherapy comparator in CagriSema phase 2 study",
+          "components": [
+            {
+              "name": "Cagrilintide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "Personnes atteintes de diabète de type 2 et en surpoids",
+          "study": "Phase 2 study with separate cagrilintide, semaglutide, and combination arms"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Bras comparateur en monothérapie ; augmentation progressive non précisée dans la source",
+            "duration": {
+              "kind": "fixed",
+              "value": 224,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.4",
+              "unit": "mg",
+              "basis": "total_product",
+              "kind": "target_dose"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "dose_escalation_steps",
+          "formulation_and_preparation"
+        ],
+        "notes": "Cette fiche couvre le comparateur utilisant le cagrilintide seul. L’association coadministrée nécessite le semaglutide et n’est pas présentée comme une monothérapie interchangeable."
+      }
+    },
+    {
+      "id": "a13f9519-18e5-4a9b-a550-84ea508351eb",
+      "productID": "cagrilintide",
+      "title": "Cagrilintide — augmentation progressive sur 16 semaines jusqu’à la dose d’entretien selon la source",
+      "purpose": "Planification de référence décrite par la source",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Source éditoriale secondaire ; aucune validation clinique automatique ni adoption automatique comme option par défaut dans l’application.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "cagrilintide"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2.5",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+              "locator": "Guide de reconstitution de Cagrilintide / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "5",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "1.67",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+              "locator": "Guide de reconstitution de Cagrilintide / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "5.0",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+              "locator": "Guide de reconstitution de Cagrilintide / "
+            }
+          },
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "10",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "3.33",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+              "locator": "Guide de reconstitution de Cagrilintide / "
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Initiation",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.25",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "Adaptation gastro-intestinale ; dose la plus faible tolérée"
+          },
+          {
+            "name": "Étape 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "Augmentation de la dose"
+          },
+          {
+            "name": "Étape 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.0",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "Les effets indésirables gastro-intestinaux atteignent souvent leur maximum à ce stade"
+          },
+          {
+            "name": "Étape 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.7",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "À l’approche de la dose d’entretien"
+          },
+          {
+            "name": "Entretien",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 7,
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "condition": "Dose cible utilisée dans les protocoles d’études de stade avancé"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/cagrilintide",
+            "locator": "Protocole posologique et calendrier ; indications de la source concernant le moment d’administration"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+          "source_tables": [
+            {
+              "section": "Protocole posologique et calendrier de Cagrilintide",
+              "subsection": "Recommandations relatives aux cycles",
+              "rows": [
+                [
+                  "Approche",
+                  "Durée",
+                  "Moment de réévaluation",
+                  "Remarques"
+                ],
+                [
+                  "Cycle court",
+                  "16 semaines",
+                  "Semaine 16",
+                  "Atteint la dose d’entretien au moment où l’augmentation progressive se termine"
+                ],
+                [
+                  "Cycle standard",
+                  "26-32 semaines",
+                  "Semaine 26 / 32",
+                  "Correspond aux durées des essais de phase 2"
+                ],
+                [
+                  "Cycle long",
+                  "68 semaines",
+                  "Semaine 68",
+                  "Correspond aux échéances d’évaluation de REDEFINE 1 et REDEFINE 2"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+          "source_tables": [
+            {
+              "section": "Conservation et manipulation de Cagrilintide",
+              "subsection": "",
+              "rows": [
+                [
+                  "État",
+                  "Conservation",
+                  "Durée"
+                ],
+                [
+                  "Lyophilisé (poudre)",
+                  "Congélateur à -4F (-20C)",
+                  "Jusqu’à 24 mois"
+                ],
+                [
+                  "Lyophilisé (court terme)",
+                  "Réfrigérateur à 35.6-46.4F (2-8C)",
+                  "Acceptable pour l’expédition ou une conservation de courte durée"
+                ],
+                [
+                  "Reconstitué (liquide)",
+                  "Réfrigérateur à 35.6-46.4F (2-8C)",
+                  "28-30 jours ; ne pas congeler"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+          "source_statements": [
+            {
+              "section": "À qui s’adresse Cagrilintide et qui devrait l’éviter",
+              "subsection": "Populations exclues ou faisant l’objet de précautions dans les essais de phase 3",
+              "excerpt": "Les protocoles de phase 3 REDEFINE/REIMAGINE excluaient généralement les participants présentant les situations suivantes : diabète de type 1 ; antécédents de pancréatite ; gastroparésie sévère ; grossesse ou allaitement ; événements cardiovasculaires majeurs récents ; cancer actif ; insuffisance rénale ou hépatique sévère ; antécédents personnels ou familiaux de carcinome médullaire de la thyroïde ou de MEN2 (une précaution concernant la classe des GLP-1 qui peut s’étendre aux produits combinés).",
+              "truncated": false
+            },
+            {
+              "section": "À qui s’adresse Cagrilintide et qui devrait l’éviter",
+              "subsection": "Interactions médicamenteuses",
+              "excerpt": "Comme le cagrilintide ralentit la vidange gastrique, il peut modifier l’absorption des médicaments pris par voie orale. Les médicaments à marge thérapeutique étroite (warfarin, levothyroxine, contraceptifs oraux, certains antiépileptiques) justifient une surveillance par un clinicien. L’insuline et les autres médicaments hypoglycémiants peuvent nécessiter un ajustement afin de réduire le risque d’hypoglycémie.",
+              "truncated": false
+            },
+            {
+              "section": "À qui s’adresse Cagrilintide et qui devrait l’éviter",
+              "subsection": "Surveillance par un clinicien",
+              "excerpt": "Cagrilintide n’est pas approuvé pour l’auto-administration individuelle. Toute personne atteinte d’une maladie métabolique, cardiaque, gastro-intestinale, hépatique ou rénale — ou qui est enceinte, allaite ou prévoit une grossesse — ne devrait pas l’envisager sans une prise en charge par un professionnel de santé habilité.",
+              "truncated": false
+            },
+            {
+              "section": "Effets indésirables et sécurité de Cagrilintide",
+              "subsection": "Risques théoriques et liés à la classe",
+              "excerpt": "Ces risques n’ont pas été confirmés dans les essais sur le cagrilintide, mais sont signalés parce qu’ils apparaissent dans des données connexes sur l’amyline ou la classe des GLP-1 : pancréatite, maladie de la vésicule biliaire, hypoglycémie sévère (principalement en association avec l’insuline ou des sulfamides hypoglycémiants) et atteinte rénale aiguë secondaire à une déshydratation due à des nausées ou vomissements sévères.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Cagrilintide et Semaglutide coadministrés chez les adultes en surpoids ou obèses (REDEFINE 1).",
+            "url": "https://doi.org/10.1056/NEJMoa2502081"
+          },
+          {
+            "label": "Cagrilintide-Semaglutide chez les adultes en surpoids ou obèses atteints de diabète de type 2 (REDEFINE 2).",
+            "url": "https://doi.org/10.1056/NEJMoa2502082"
+          },
+          {
+            "label": "Cagrilintide une fois par semaine pour la prise en charge du poids chez les personnes en surpoids et obèses : un essai de phase 2.",
+            "url": "https://doi.org/10.1016/S0140-6736(21)01751-7"
+          },
+          {
+            "label": "Sécurité, tolérance, pharmacocinétique et pharmacodynamie du cagrilintide avec le semaglutide pour la prise en charge du poids : un essai de phase 1b.",
+            "url": "https://doi.org/10.1016/S0140-6736(21)00845-X"
+          },
+          {
+            "label": "Efficacité et sécurité du cagrilintide 2.4 mg coadministré une fois par semaine avec le semaglutide 2.4 mg dans le diabète de type 2 : un essai de phase 2.",
+            "url": "https://doi.org/10.1016/S0140-6736(23)01163-7"
+          },
+          {
+            "label": "Développement de Cagrilintide, un analogue de l’amyline à action prolongée.",
+            "url": "https://doi.org/10.1021/acs.jmedchem.1c00565"
+          },
+          {
+            "label": "Caractéristiques structurales et dynamiques de la liaison du cagrilintide aux récepteurs de la calcitonine et de l’amyline.",
+            "url": "https://doi.org/10.1038/s41467-025-58680-y"
+          },
+          {
+            "label": "L’amyline comme futur traitement de l’obésité.",
+            "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8735818/"
+          },
+          {
+            "label": "Efficacité et sécurité de Cagrilintide seul et en association avec Semaglutide (CagriSema) comme médicaments contre l’obésité : revue systématique et méta-analyse.",
+            "url": "https://doi.org/10.4103/ijem.ijem_45_24"
+          },
+          {
+            "label": "Cagrilintide : un analogue de l’amyline à action prolongée pour le traitement de l’obésité.",
+            "url": "https://doi.org/10.1097/CRD.0000000000000513"
+          },
+          {
+            "label": "CagriSema 2.4 mg / 2.4 mg a démontré une réduction moyenne du poids de 22.7% chez les adultes en surpoids ou obèses dans REDEFINE 1, publié dans le NEJM.",
+            "url": "https://www.prnewswire.com/news-releases/cagrisema-2-4-mg--2-4-mg-demonstrated-22-7-mean-weight-reduction-in-adults-with-overweight-or-obesity-in-redefine-1--published-in-nejm-302487770.html"
+          },
+          {
+            "label": "Novo Nordisk dépose une demande d’approbation de CagriSema auprès de la FDA (18 décembre 2025).",
+            "url": "https://www.prnewswire.com/news-releases/novo-nordisk-files-for-fda-approval-of-cagrisema-302645862.html"
+          },
+          {
+            "label": "REDEFINE 1 (NCT05567796), REDEFINE 2 (NCT05394519), REDEFINE 3 (NCT05669755), REDEFINE 4 (NCT06131437), REDEFINE 11 (NCT07011667) et REIMAGINE 2 (NCT06065540).",
+            "url": "https://clinicaltrials.gov/study/NCT05567796"
+          }
+        ],
+        "unresolved_fields": [
+          "time_of_day",
+          "study_vs_community_formulation",
+          "eligibility_and_preparation"
+        ],
+        "notes": "Référence de la source uniquement ; non vérifiée. Les tableaux et les références indépendantes restent disponibles dans la fiche source."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "436b7273-1078-43fd-aa63-35982e700ed2",
+      "url": "https://www.novonordisk.com/content/dam/nncorp/global/en/investors/pdfs/financial-results/2021/investor-presentation-Q3-2021.pdf",
+      "title": "Novo Nordisk investor presentation: first nine months of 2021",
+      "publisher": "Novo Nordisk",
+      "type": "manufacturer",
+      "publishedAt": "2021"
+    },
+    {
+      "id": "55131326-4e4b-4ba4-801e-c9be930c366b",
+      "url": "https://www.peptidedosingprotocols.com/protocol/cagrilintide",
+      "title": "Cagrilintide Peptide Dosing Guide: Titration, Schedule & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "90fd0b3b-8002-48e7-ab04-e94eefad6368",
+      "url": "https://www.novonordisk.com/content/nncorp/global/en/news-and-media/news-and-ir-materials/news-details.html?id=274",
+      "title": "Novo Nordisk AM833 phase 2 and combination-trial results, June 2020",
+      "publisher": "Novo Nordisk",
+      "type": "manufacturer",
+      "publishedAt": "2020-06-18"
+    },
+    {
+      "id": "ae36bc9d-5660-4220-8a3a-8ee3a8dd8923",
+      "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=131155",
+      "title": "Novo Nordisk phase 2 CagriSema trial results in type 2 diabetes",
+      "publisher": "Novo Nordisk",
+      "type": "manufacturer",
+      "publishedAt": "2022-08-22"
+    },
+    {
+      "id": "e7233ef3-7487-4bd7-8242-368cee37e6b6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34798060/?dopt=Abstract",
+      "title": "Once-weekly cagrilintide for weight management in people with overweight and obesity: a dose-finding phase 2 trial",
+      "publisher": "The Lancet / authors, abstract in PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "50341030-68c1-4dea-982b-374428eaf2ee",
+      "sourceID": "436b7273-1078-43fd-aa63-35982e700ed2",
+      "locator": "Slide 64, phase 2 monotherapy panel",
+      "evidenceNote": "Même étude et mêmes choix de dose cible ; la source utilise conjointement les noms Cagrilintide et AM833.",
+      "supports": [
+        "/formulation",
+        "/phases/0/dose",
+        "/phases/0/duration"
+      ]
+    },
+    {
+      "protocolID": "50341030-68c1-4dea-982b-374428eaf2ee",
+      "sourceID": "90fd0b3b-8002-48e7-ab04-e94eefad6368",
+      "locator": "AM833 phase 2 monotherapy trial",
+      "evidenceNote": "Cinq doses cibles administrées une fois par semaine ont été comparées au cours d’une étude de traitement de vingt-six semaines.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "6bc1e900-0c29-488c-a127-2968aeb6b15f",
+      "sourceID": "ae36bc9d-5660-4220-8a3a-8ee3a8dd8923",
+      "locator": "Trial description, paragraphs 2–3",
+      "evidenceNote": "Le promoteur décrit un comparateur distinct utilisant le cagrilintide une fois par semaine et une étude de traitement de trente-deux semaines.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "a13f9519-18e5-4a9b-a550-84ea508351eb",
+      "sourceID": "55131326-4e4b-4ba4-801e-c9be930c366b",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "La source décrit les champs ; vérification indépendante en attente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cagrilintide",
+      "sourceID": "e7233ef3-7487-4bd7-8242-368cee37e6b6",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "706 adultes randomisés ; tous les groupes recevant le cagrilintide aux doses testées ont perdu davantage de poids que le groupe placebo. Résumé lu. Justification de la catégorie : Poids et métabolisme : le résultat clinique direct est une réduction du poids.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Poids et métabolisme"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

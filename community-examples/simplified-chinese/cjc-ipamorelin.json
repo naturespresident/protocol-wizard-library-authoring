@@ -1,0 +1,604 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cjc-ipamorelin",
+      "name": "CJC-Ipamorelin",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": "拟议依据：将不含 DAC 的 CJC-1295 与 ipamorelin 制成预混制剂，旨在刺激生长激素轴。人体 ipamorelin 研究支持该组分单独使用时具有促进激素释放的作用。未找到针对这种预混产品的直接疗效研究，因此不能将改善恢复、睡眠、增肌、减脂或延长寿命作为已证实的混合制剂获益。含 DAC 的 CJC-1295 的研究结果不能确立其不含 DAC 的对应物的作用。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "c0066608-4848-4ff2-a5e5-3f93297aface",
+      "productID": "cjc-ipamorelin",
+      "title": "CJC-1295（不含 DAC）／Ipamorelin 1:1 预混制剂——84 天剂量滴定",
+      "purpose": "社区生长激素轴方案规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区方案，尚未经独立临床验证。来源所述的所有注意事项、配制、储存及时间安排均需审查。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "GH_axis_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "cjc-1295-no-dac",
+              "name": "CJC-1295",
+              "variant": "no_DAC",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "ipamorelin",
+              "name": "Ipamorelin",
+              "ratio_part": "1"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "cjc-1295-no-dac",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "ipamorelin",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "cjc-1295-no-dac",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "ipamorelin",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2.5",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "cjc-1295-no-dac",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "ipamorelin",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "第 1–2 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "cjc-1295-no-dac",
+                "dose": {
+                  "value": "100",
+                  "unit": "mcg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "100",
+                  "unit": "mcg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.03",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "3",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            },
+            "source_dose_basis": "each_component"
+          },
+          {
+            "name": "第 3–4 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "cjc-1295-no-dac",
+                "dose": {
+                  "value": "150",
+                  "unit": "mcg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "150",
+                  "unit": "mcg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.045",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "4.5",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            },
+            "source_dose_basis": "each_component"
+          },
+          {
+            "name": "第 5–8 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "cjc-1295-no-dac",
+                "dose": {
+                  "value": "200",
+                  "unit": "mcg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "value": "200",
+                  "unit": "mcg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.06",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "6",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            },
+            "source_dose_basis": "each_component"
+          },
+          {
+            "name": "第 9–12 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "400",
+              "maximum": "600",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "cjc-1295-no-dac",
+                "dose": {
+                  "minimum": "200",
+                  "maximum": "300",
+                  "unit": "mcg",
+                  "basis": "component"
+                }
+              },
+              {
+                "component_id": "ipamorelin",
+                "dose": {
+                  "minimum": "200",
+                  "maximum": "300",
+                  "unit": "mcg",
+                  "basis": "component"
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "minimum": "0.06",
+                "maximum": "0.09",
+                "unit": "mL"
+              },
+              "syringe": {
+                "minimum": "6",
+                "maximum": "9",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            },
+            "source_dose_basis": "each_component"
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": "bedtime",
+          "suggested_clock_times": [],
+          "food_guidance": {
+            "state": "fasted"
+          },
+          "relative_events": [
+            {
+              "anchor": "bedtime",
+              "relationship": "before",
+              "offset": null
+            },
+            {
+              "anchor": "last_meal",
+              "relationship": "after",
+              "offset": {
+                "minimum": 120,
+                "maximum": 180,
+                "unit": "minute"
+              }
+            },
+            {
+              "anchor": "next_meal",
+              "relationship": "before",
+              "offset": {
+                "minimum": 20,
+                "maximum": 30,
+                "unit": "minute"
+              }
+            }
+          ],
+          "spacing_between_components": null,
+          "certainty": "source_preference_not_proven_optimum",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+            "locator": "注射时间安排"
+          }
+        },
+        "cycle_guidance": {
+          "options": [
+            {
+              "label": "标准",
+              "on": {
+                "kind": "range",
+                "minimum": 56,
+                "maximum": 84,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "fixed",
+                "value": 28,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "延长",
+              "on": {
+                "kind": "fixed",
+                "value": 112,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "fixed",
+                "value": 56,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "短期试用",
+              "on": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 42,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "fixed",
+                "value": 28,
+                "unit": "day"
+              }
+            }
+          ],
+          "repeat_rule": null,
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+            "locator": "周期指南"
+          }
+        },
+        "storage": {
+          "dry": {
+            "temperature_c": "-20",
+            "protect_from_light": true,
+            "expiry": null,
+            "supplier_label_controls_expiry": true
+          },
+          "reconstituted": {
+            "temperature_c": {
+              "minimum": "2",
+              "maximum": "8"
+            },
+            "protect_from_light": true,
+            "use_within": {
+              "kind": "range",
+              "minimum": 28,
+              "maximum": 30,
+              "unit": "day"
+            },
+            "avoid_repeated_freeze_thaw": true
+          },
+          "discard_if": [
+            "cloudy",
+            "discolored",
+            "contaminated"
+          ],
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+            "locator": "储存与处理"
+          }
+        },
+        "cautions": {
+          "exclusions": [
+            "active_or_prior_malignancy",
+            "pituitary_disease",
+            "diabetic_retinopathy",
+            "severe_kidney_disease",
+            "pregnancy_or_breastfeeding"
+          ],
+          "reported_effects": [
+            "flushing",
+            "fluid_retention",
+            "joint_pain",
+            "paresthesia",
+            "glucose_changes"
+          ],
+          "monitoring": [
+            {
+              "markers": [
+                "IGF-1"
+              ],
+              "time": "baseline"
+            },
+            {
+              "markers": [
+                "IGF-1"
+              ],
+              "after_start_days": {
+                "minimum": 42,
+                "maximum": 56
+              }
+            },
+            {
+              "markers": [
+                "IGF-1"
+              ],
+              "after_cycle_days": 28
+            },
+            {
+              "markers": [
+                "fasting_glucose",
+                "HbA1c"
+              ],
+              "condition": "代谢风险因素"
+            },
+            {
+              "markers": [
+                "thyroid_panel"
+              ],
+              "time": "optional",
+              "condition": "持续数月的方案"
+            }
+          ],
+          "monitoring_basis": "GH-axis physiology extrapolation",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+            "locator": "免责声明；副作用与安全性；时间线与监测；血液检查与监测"
+          }
+        },
+        "evidence_context": {
+          "regimen_basis": "community_derived",
+          "direct_combination_trial_reported": false,
+          "independent_primary_source_verification": false,
+          "citation_variant_warning": "The cited Teichman 2006 trial studied CJC-1295 with DAC; it does not validate the no-DAC titration."
+        },
+        "unresolved_fields": [
+          "exact_clock_time",
+          "primary_validation_of_timing_and_dose",
+          "product_specific_stability_validation"
+        ],
+        "notes": "混合制剂的总量为来源所述各组分剂量之和；切勿将单个组分的剂量视为混合制剂的总剂量。每日两次给药的方案提到了早晨加睡前给药，但此处未提供完整的每日两次给药方案。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+      "url": "https://www.peptidedosingprotocols.com/stacks/cjc-1295-ipamorelin-gh-pulse-stack",
+      "title": "CJC-1295 No DAC + Ipamorelin Dosing Guide: Protocol & Timing (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10496658/",
+      "title": "Pharmacokinetic-pharmacodynamic modeling of ipamorelin in human volunteers (1999)",
+      "publisher": "Pharmaceutical Research, via NLM PubMed",
+      "type": "human_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f1352487-f41c-4cee-aab1-3a41263543ca",
+      "url": "https://www.fda.gov/media/183819/download",
+      "title": "FDA PCAC briefing: CJC-1295-related bulk drug substances (December 2024)",
+      "publisher": "US Food and Drug Administration",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "c0066608-4848-4ff2-a5e5-3f93297aface",
+      "sourceID": "667956c1-c18d-4eda-b7e3-80a2d1bee877",
+      "locator": "Titration Plan (Once Daily); Injection Timing; Cycle Guidelines; Reconstitution Guide; Storage & Handling; Timeline & Monitoring",
+      "evidenceNote": "支持所列的社区描述字段；未经直接的联合用药试验验证。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cjc-ipamorelin",
+      "sourceID": "bb235ad2-26df-48ce-aecc-d4a4a9b6f2a4",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "仅有单个组分的激素反应证据，未经预混制剂测试。分类依据：生长激素：已批准的方案将不含 DAC 的 CJC-1295/ipamorelin 1:1 预混制剂列为生长激素轴研究用制剂，但混合制剂的疗效尚未得到验证。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "cjc-ipamorelin",
+      "sourceID": "f1352487-f41c-4cee-aab1-3a41263543ca",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "变体区分；商业组合产品的列示不构成疗效证据。分类依据：生长激素：已批准的方案将不含 DAC 的 CJC-1295/ipamorelin 1:1 预混制剂列为生长激素轴研究用制剂，但混合制剂的疗效尚未得到验证。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

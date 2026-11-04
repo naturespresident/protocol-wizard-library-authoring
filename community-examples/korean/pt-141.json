@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pt-141",
+      "name": "Bremelanotide",
+      "aliases": [
+        "PT-141"
+      ],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": "승인된 피하 투여용 bremelanotide 제품에서 입증된 사람 대상 이점은 다음과 같아요. 허가사항의 기준을 충족하는 폐경 전 여성의 후천성 전반적 성욕저하장애에서 성욕을 높이고 이 장애와 관련된 고통을 줄여요. 이 근거는 남성이나 폐경 후 여성에서의 이점 또는 전반적인 성적 수행 능력 향상을 입증하지는 않아요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "productID": "pt-141",
+      "title": "Vyleesi — 허가사항에 따른 필요시 bremelanotide 투여 요법",
+      "purpose": "적격 폐경 전 여성의 후천성 전반적 성욕저하장애",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "검토되지 않은 참고용 발췌 자료이며, 완전한 처방 지침은 아니에요.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Vyleesi single-dose autoinjector",
+          "components": [
+            {
+              "name": "Bremelanotide"
+            }
+          ]
+        },
+        "clinical_context": {
+          "population": "후천성 전반적 성욕저하장애가 있는 폐경 전 여성으로, 남성이나 폐경 후 여성은 해당하지 않아요"
+        },
+        "preparation_options": [
+          {
+            "form": "prefilled_device",
+            "reconstitution_required": false,
+            "container_amount": {
+              "value": "1.75",
+              "unit": "mg"
+            },
+            "container_volume": {
+              "value": "0.3",
+              "unit": "mL"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "필요시 치료",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.75",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "as_needed",
+              "doses_per_day": null,
+              "minimum_minutes_before_event": 45,
+              "maximum_doses_per_24_hours": 1,
+              "maximum_doses_per_month": 8,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [],
+        "notes": "쉰여섯 일 동안 증상이 개선되지 않으면 중단하세요. 필요시 사용에는 고정된 일일 주사 횟수가 없으며, 금기사항과 모니터링 내용은 전체 허가사항에 제시되어 있어요."
+      }
+    },
+    {
+      "id": "e02fe941-a3b7-4171-8cea-810d3d4c7134",
+      "productID": "pt-141",
+      "title": "Bremelanotide — 출처의 남성 발기부전 임상시험 비강 투여 용량 범위",
+      "purpose": "출처에 기술된 참고용 계획",
+      "methodID": "intranasal",
+      "population": "human",
+      "evidenceNotes": "이차 편집 자료/커뮤니티 설명이에요. 독립적인 출처 검증과 앱 기본값으로의 채택은 아직 진행되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "phase_2_trial_described_by_secondary_source",
+          "indication_context": "men with erectile dysfunction",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "intranasal_trial_product",
+          "components": [
+            {
+              "library_item_id": "pt-141"
+            }
+          ]
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "임상시험 투여군의 용량 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "7.5",
+              "maximum": "20",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "임상시험 투여 일정이 제공되지 않았어요"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/bremelanotide-pt-141",
+            "locator": "투여 프로토콜 및 일정; 출처의 투여 시점 관련 설명"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_tables": [
+            {
+              "section": "PT-141 투여 프로토콜 및 일정",
+              "subsection": "주기 지침",
+              "rows": [
+                [
+                  "접근 방식",
+                  "투여 패턴",
+                  "참고 출처"
+                ],
+                [
+                  "FDA 승인 필요시 투여(Vyleesi)",
+                  "성행위 ≥45분 전에 1.75 mg 피하 투여, 24시간당 ≤1회, 월 ≤8회",
+                  "Vyleesi 허가사항(Mayo Clinic 요약)"
+                ],
+                [
+                  "3상 임상시험 일정",
+                  "24주 동안 필요시 1.75 mg 피하 투여",
+                  "Kingsberg 2019 (RECONNECT)"
+                ],
+                [
+                  "장기 안전성 연장 연구",
+                  "추가 52주 동안 필요시 1.75 mg 피하 투여",
+                  "Simon 2019 (공개 연장 연구)"
+                ],
+                [
+                  "2상 비강 투여(발기부전이 있는 남성)",
+                  "연구된 임상시험 투여군에서 7.5-20 mg 비강 투여",
+                  "Diamond 2006"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_tables": [
+            {
+              "section": "PT-141 보관 및 취급",
+              "subsection": "",
+              "rows": [
+                [
+                  "상태",
+                  "보관",
+                  "참고사항"
+                ],
+                [
+                  "동결건조 상태(분말 형태)",
+                  "장기 보관은 -4°F (-20°C), 단기 보관은 냉장도 가능해요",
+                  "공급업체의 안정성 자료가 있으면 사용하세요."
+                ],
+                [
+                  "재용해 상태(액체 형태)",
+                  "35.6-46.4°F (2-8°C)",
+                  "주사기로 뽑을 때마다 투명한지 확인하고, 혼탁하거나 변색되었으면 폐기하세요."
+                ],
+                [
+                  "Vyleesi 자동주사기",
+                  "열, 습기, 직사광선을 피해 실온에 보관하고, 얼리지 마세요",
+                  "FDA 승인 허가사항에 따라요."
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+          "source_statements": [
+            {
+              "section": "PT-141의 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "사용해서는 안 되는 경우",
+              "excerpt": "Vyleesi 허가사항과 Mayo Clinic의 약물 요약에서는 투여 후 일시적인 혈압 상승 때문에 조절되지 않는 고혈압이나 알려진 심혈관 질환이 있는 사람은 PT-141을 사용해서는 안 된다고 명시하고 있어요. 임신 중이거나 임신을 계획 중인 경우에도 권장되지 않으며, 수유에 관한 충분한 안전성 자료는 없어요.",
+              "truncated": false
+            },
+            {
+              "section": "PT-141의 사용 대상과 사용을 피해야 하는 대상",
+              "subsection": "주의해서 사용해야 하는 경우",
+              "excerpt": "중증 신장 또는 간 질환은 약물의 체내 제거를 늦출 수 있어요. 멜라노코르틴 작용이 위 배출을 늦추기 때문에, 위 배출을 지연시키는 질환은 PT-141 사용으로 악화될 수 있어요. Naltrexone은 주목할 만한 상호작용 약물로 기재되어 있어요(두 약물을 병용하면 PT-141이 naltrexone 노출을 줄일 수 있어요). 수용체가 겹치기 때문에 PT-141을 Melanotan II 같은 다른 멜라노코르틴 작용제와 병용해서는 안 되며, 병용 노출의 안전성이 아직",
+              "truncated": true
+            },
+            {
+              "section": "PT-141 부작용 및 안전성",
+              "subsection": "",
+              "excerpt": "아래 부작용 발생률은 FDA 승인 Vyleesi 허가사항과 3상 RECONNECT 임상시험 논문(Kingsberg 2019)에서 가져왔어요. 가장 흔한 이상반응은 오심으로, 1.75 mg 용량의 bremelanotide 사용자 중 약 40%가 보고했어요. 대부분의 이상반응은 경증에서 중등도였고, 반복 사용 시 시간이 지나면서 감소했으며, 대부분의 참여자에서 투여 중단으로 이어지지 않았어요.",
+              "truncated": false
+            },
+            {
+              "section": "PT-141 부작용 및 안전성",
+              "subsection": "오심",
+              "excerpt": "대부분",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Bremelanotide(피하 투여) — 설명 및 투여량.",
+            "url": "https://www.mayoclinic.org/drugs-supplements/bremelanotide-subcutaneous-route/description/drg-20466805"
+          },
+          {
+            "label": "성욕저하장애 치료를 위한 Bremelanotide: 무작위 배정 3상 임상시험 두 건.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31599840/"
+          },
+          {
+            "label": "성욕저하장애에 대한 Bremelanotide의 장기 안전성 및 유효성.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/31599841/"
+          },
+          {
+            "label": "폐경 전 여성의 성기능장애에 대한 Bremelanotide: 무작위 배정, 위약 대조 용량 탐색 임상시험.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/27333087/"
+          },
+          {
+            "label": "건강한 남성과 경증에서 중등도 발기부전 환자에서 멜라노코르틴 수용체 작용제인 비강 투여 PT-141의 안전성, 약동학적 특성 및 약력학적 효과에 대한 이중 눈가림, 위약 대조 평가.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16034466/"
+          },
+          {
+            "label": "성적 흥분 장애가 있는 여성 대상자에서 멜라노코르틴 수용체 작용제인 bremelanotide의 안전성 및 유효성 평가: 이중 눈가림, 위약 대조, 고정 용량, 무작위 배정 연구.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/18331256/"
+          },
+          {
+            "label": "멜라노코르틴 수용체 작용제에 의한 암컷 쥐의 성적 구애 행동 선택적 촉진.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15226502/"
+          },
+          {
+            "label": "Bremelanotide의 RECONNECT 3상 연구에서 사전에 명시된 하위군 분석 및 통합 하위군 분석.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35230162/"
+          },
+          {
+            "label": "Bremelanotide: 여성 성기능에 대한 중추신경계 효과의 전임상 연구 개요.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17958602/"
+          },
+          {
+            "label": "PT-141 (Bremelanotide): 멜라노코르틴 수용체 작용제 연구 가이드.",
+            "url": "https://lotilabs.com/resources/pt-141-bremelanotide-melanocortin-receptor-agonist-research-guide/"
+          }
+        ],
+        "unresolved_fields": [
+          "primary_trial_verification",
+          "actual_dose_arms",
+          "frequency",
+          "duration",
+          "product_concentration"
+        ],
+        "notes": "출처 참고용으로만 제공되며, 검토되지 않았어요. 표와 독립적인 참고문헌은 출처 기록에서 계속 확인할 수 있어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "url": "https://www.peptidedosingprotocols.com/protocol/bremelanotide-pt-141",
+      "title": "PT-141 (Bremelanotide) Dosage Guide: Timing, Protocol & Side Effects",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "63d43aa8-5a5c-4f89-b699-f5e44da04d47",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/210557Orig1s000Lbl.pdf",
+      "title": "Vyleesi original FDA-approved labeling, June 2019",
+      "publisher": "U.S. Food and Drug Administration / AMAG Pharmaceuticals",
+      "type": "regulatory_label",
+      "publishedAt": "2019-06"
+    },
+    {
+      "id": "7a673c9c-4e5e-4132-a3cf-57c5a0e491f9",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1d0c1b5-2f39-4bad-a6a4-0066e3ad5dcf",
+      "title": "VYLEESI (bremelanotide injection) prescribing information",
+      "publisher": "Manufacturer prescribing information / DailyMed",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "e0952025-c4ab-4f1f-9f35-6a64b315515c",
+      "url": "https://vyleesi.com/docs/Vyleesi-Full-Prescribing-Information.pdf",
+      "title": "Vyleesi prescribing information, revised March 2024",
+      "publisher": "Vyleesi manufacturer prescribing information",
+      "type": "regulatory_label",
+      "publishedAt": "2024-03"
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "Vyleesi 용량, 필요시 투여 시점, 상한 및 허가된 대상군이 동일해요. 중복 기재 대신 인용을 추가했어요.",
+      "supports": [
+        "/phases/0/dose",
+        "/phases/0/schedule"
+      ]
+    },
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "63d43aa8-5a5c-4f89-b699-f5e44da04d47",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "용량, 성행위에 따른 투여 시점, 상한 및 재평가 기준이 이후 허가사항과 일치해요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "558c6ff6-6684-4028-8809-98c5d25c845b",
+      "sourceID": "e0952025-c4ab-4f1f-9f35-6a64b315515c",
+      "locator": "Sections 1, 2.1–2.2 and 3",
+      "evidenceNote": "허가사항에는 성행위에 따른 투여 시점, 일일/월별 상한 및 제품 전용의 즉시 사용 가능한 기기가 기술되어 있어요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "e02fe941-a3b7-4171-8cea-810d3d4c7134",
+      "sourceID": "1541657c-6751-491d-9e46-307fa8ef15ce",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "출처에 이러한 항목이 기술되어 있으며, 일차 출처를 통한 검증은 아직 진행되지 않았어요.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls"
+      ]
+    },
+    {
+      "productID": "pt-141",
+      "sourceID": "7a673c9c-4e5e-4132-a3cf-57c5a0e491f9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "1절과 14절에는 대상군과 위약 대비 성욕 및 관련 고통의 개선을 보인 두 건의 3상 연구가 명시되어 있어요. 허가사항의 제한 범위에서는 성적 수행 능력 향상이 제외돼요. 분류 근거: 전문 및 임상: 특정 환자군에서 명확히 정의된 성욕장애의 치료예요.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    },
+    {
+      "id": "intranasal",
+      "name": "비강"
+    }
+  ]
+}

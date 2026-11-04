@@ -1,0 +1,795 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "klow-blend",
+      "name": "KLOW 混合制剂",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": "拟议的恢复、皮肤重塑及抗炎依据：KLOW 将 BPC-157、TB-500、GHK-Cu 和 KPV 组合使用。单独成分的实验报告了 BPC-157 对大鼠伤口修复的作用、GHK-Cu 对大鼠伤口中结缔组织的作用，以及 KPV 对小鼠和培养细胞中实验性肠道炎症的减轻作用。这些成分研究结果并未证实四组分混合制剂的益处、其配比的益处或协同作用。未发现直接研究该组合疗效的研究。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "8621ca60-0df4-43fc-b478-10ba66639aac",
+      "productID": "klow-blend",
+      "title": "KLOW 5:1:1:1 预混制剂——代表性 84 天剂量滴定方案",
+      "purpose": "社区组织修复、皮肤重塑与炎症方案规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性／社区方案，未经独立临床验证。来源所述的所有注意事项、配制、储存和用药时间安排均需审查。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "tissue_repair_skin_remodeling_and_inflammation",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "premixed_blend",
+          "components": [
+            {
+              "library_item_id": "ghk-cu",
+              "name": "GHK-Cu",
+              "ratio_part": "5"
+            },
+            {
+              "library_item_id": "kpv",
+              "name": "KPV",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "bpc-157",
+              "name": "BPC-157",
+              "ratio_part": "1"
+            },
+            {
+              "library_item_id": "tb-500",
+              "name": "TB-500",
+              "ratio_part": "1",
+              "exact_sequence": null
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "80",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "ghk-cu",
+                "value": "50",
+                "unit": "mg"
+              },
+              {
+                "component_id": "kpv",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "80",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "2",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "ghk-cu",
+                "value": "50",
+                "unit": "mg"
+              },
+              {
+                "component_id": "kpv",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          },
+          {
+            "form": "dry",
+            "component_id": null,
+            "dry_amount": {
+              "value": "80",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "4",
+              "unit": "mL"
+            },
+            "component_amounts": [
+              {
+                "component_id": "ghk-cu",
+                "value": "50",
+                "unit": "mg"
+              },
+              {
+                "component_id": "kpv",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "bpc-157",
+                "value": "10",
+                "unit": "mg"
+              },
+              {
+                "component_id": "tb-500",
+                "value": "10",
+                "unit": "mg"
+              }
+            ]
+          }
+        ],
+        "phases": [
+          {
+            "name": "第 1–2 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "ghk-cu",
+                "dose": {
+                  "value": "1.25",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "kpv",
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "bpc-157",
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.075",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "7.5",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "第 3–4 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "ghk-cu",
+                "dose": {
+                  "value": "2.5",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "kpv",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "bpc-157",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.15",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "15",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "第 5–8 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "6",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "ghk-cu",
+                "dose": {
+                  "value": "3.75",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "kpv",
+                "dose": {
+                  "value": "750",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "bpc-157",
+                "dose": {
+                  "value": "750",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "dose": {
+                  "value": "750",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.225",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "22.5",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          },
+          {
+            "name": "第 9–12 周逐渐减量",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product",
+              "approximate": true
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            },
+            "component_doses": [
+              {
+                "component_id": "ghk-cu",
+                "dose": {
+                  "value": "2.5",
+                  "unit": "mg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "kpv",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "bpc-157",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              },
+              {
+                "component_id": "tb-500",
+                "dose": {
+                  "value": "500",
+                  "unit": "mcg",
+                  "basis": "component",
+                  "approximate": true
+                }
+              }
+            ],
+            "source_measurement": {
+              "preparation_option_index": 0,
+              "volume": {
+                "value": "0.15",
+                "unit": "mL"
+              },
+              "syringe": {
+                "value": "15",
+                "unit": "U-100_unit",
+                "calibration_units_per_mL": "100"
+              }
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing": null,
+          "basis": "not_reported",
+          "provenance": {
+            "source_id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+            "locator": "给药方案与时间安排；常见问题"
+          }
+        },
+        "cycle_guidance": {
+          "options": [
+            {
+              "label": "常规",
+              "on": {
+                "kind": "range",
+                "minimum": 28,
+                "maximum": 42,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "range",
+                "minimum": 14,
+                "maximum": 28,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "延长",
+              "on": {
+                "kind": "range",
+                "minimum": 56,
+                "maximum": 84,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "fixed",
+                "value": 28,
+                "unit": "day"
+              }
+            },
+            {
+              "label": "轶事报告中的最长延长期限",
+              "on": {
+                "kind": "maximum",
+                "value": 112,
+                "unit": "day"
+              },
+              "off": {
+                "kind": "minimum",
+                "value": 28,
+                "unit": "day"
+              }
+            }
+          ],
+          "repeat_rule": null,
+          "notes": "通常采用的较短周期与代表性 84 天剂量滴定方案不同。最长延长期限是来源中的轶事性说法。",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+            "locator": "快速入门；周期指南"
+          },
+          "references": [
+            {
+              "source_id": "fd6a5cf9-7a30-4f19-8365-13e6bc4cb6d3",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/klow-peptide-cycle-length",
+              "source_tables": [
+                {
+                  "section": "KLOW 周期长度表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "社区做法",
+                      "报告的持续时间",
+                      "报告的间歇期",
+                      "证据水平"
+                    ],
+                    [
+                      "较短周期",
+                      "4-6 周",
+                      "2-4 周",
+                      "研究社区中的常见模式；无 KLOW 试验"
+                    ],
+                    [
+                      "延长周期",
+                      "8-12 周",
+                      "约 4 周",
+                      "社区方案中有报告；无 KLOW 试验"
+                    ],
+                    [
+                      "长时间延长",
+                      "最长 16 周",
+                      "4+ 周",
+                      "轶事性报告；有关长期暴露于该混合制剂的证据非常有限"
+                    ]
+                  ]
+                },
+                {
+                  "section": "社区 KLOW 周期与科研研究持续时间的比较",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "来源",
+                      "持续时间示例",
+                      "研究内容",
+                      "对 KLOW 的启示"
+                    ],
+                    [
+                      "KLOW 研究社区",
+                      "4-6 周",
+                      "由四种肽组成的 KLOW 混合制剂",
+                      "常见报告中的周期结构，并非对照研究"
+                    ],
+                    [
+                      "延长的 KLOW 社区方案",
+                      "8-12 周",
+                      "由四种肽组成的 KLOW 混合制剂",
+                      "展示了对较长周期的讨论方式，并不证明这些周期已获证实"
+                    ],
+                    [
+                      "较长的轶事性 KLOW 方案",
+                      "最长 16 周",
+                      "由四种肽组成的 KLOW 混合制剂",
+                      "仅为轶事性报告；缺乏该混合制剂的长期数据"
+                    ],
+                    [
+                      "GHK-Cu 研究",
+                      "人体局部外用研究中最长约 12 周",
+                      "在皮肤上使用 GHK-Cu",
+                      "支持 GHK-Cu 研究，不能支持注射用 KLOW 周期"
+                    ],
+                    [
+                      "KPV 研究",
+                      "数天至数周，取决于模型",
+                      "主要为细胞和动物炎症模型",
+                      "不能据此确定 KLOW 的周期长度"
+                    ],
+                    [
+                      "BPC-157 研究",
+                      "研究之间差异很大",
+                      "主要为动物研究",
+                      "不能从这类研究中得出标准的人体使用周期"
+                    ],
+                    [
+                      "Thymosin beta-4 研究",
+                      "数天至数周，取决于模型",
+                      "许多研究使用全长 thymosin beta-4",
+                      "不能据此确定 TB-500 或 KLOW 的使用周期"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "dry": {
+            "temperature_c": "-20",
+            "short_term_refrigeration": true,
+            "protect_from_light": true,
+            "expiry": null
+          },
+          "reconstituted": {
+            "temperature_c": {
+              "minimum": "2",
+              "maximum": "8"
+            },
+            "use_within": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 28,
+              "unit": "day"
+            },
+            "freeze": false,
+            "protect_from_light": true
+          },
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+            "locator": "储存与处理"
+          }
+        },
+        "cautions": {
+          "exclusions": [
+            "active_or_recent_malignancy",
+            "copper_metabolism_disorder",
+            "pregnancy_or_breastfeeding",
+            "drug_tested_sport"
+          ],
+          "interaction_cautions": [
+            "anticoagulants"
+          ],
+          "reported_effects": [
+            "local_redness_swelling_sensitivity",
+            "fatigue",
+            "digestive_changes",
+            "headache",
+            "lightheadedness"
+          ],
+          "interaction_studies_reported": false,
+          "monitoring_basis": "component-pathway extrapolation; no established blend-specific clinical standard",
+          "basis": "secondary_editorial_claim",
+          "provenance": {
+            "source_id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+            "locator": "副作用与安全性；血液检查与监测"
+          }
+        },
+        "evidence_context": {
+          "regimen_basis": "community_derived",
+          "direct_combination_trial_reported": false,
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "exact_clock_time",
+          "best_time_of_day",
+          "food_timing",
+          "exact_TB_500_sequence",
+          "typical_cycle_vs_titration_duration",
+          "product_specific_stability_validation"
+        ],
+        "notes": "将四个剂量滴定阶段保留在同一方案中。不同水量属于配制选项。该页面未确立使用独立产品组成 KLOW 的给药时间安排。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+      "url": "https://www.peptidedosingprotocols.com/stacks/klow-stack",
+      "title": "KLOW Peptide Dosing Guide: GHK-Cu, KPV, BPC-157 & TB-500 Blend Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8227353/",
+      "title": "In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds",
+      "publisher": "Journal of Clinical Investigation / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/",
+      "title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation",
+      "publisher": "Gastroenterology / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9403790/",
+      "title": "BPC 157's effect on healing",
+      "publisher": "Journal of Physiology, Paris / PubMed",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "fd6a5cf9-7a30-4f19-8365-13e6bc4cb6d3",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/klow-peptide-cycle-length",
+      "title": "KLOW Peptide Cycle Length: How Long Is a KLOW Cycle? (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "8621ca60-0df4-43fc-b478-10ba66639aac",
+      "sourceID": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+      "locator": "Common Research-Context Titration; Cycle Guidelines; Reconstitution Guide; Side Effects & Safety; Storage & Handling",
+      "evidenceNote": "支持所列的社区描述字段；未经直接组合试验验证。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "8621ca60-0df4-43fc-b478-10ba66639aac",
+      "sourceID": "fd6a5cf9-7a30-4f19-8365-13e6bc4cb6d3",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "有关持续时间和间歇期的背景证据；不能替代剂量、产品标签、给药途径或特定人群的用药说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "klow-blend",
+      "sourceID": "1315447e-46c7-4ce6-a4a1-a45c5c9749bc",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始资料库参考来源，以核对所列成分及预期用途。这是一份社区指南，并非证明组合益处的研究。分类依据：根据来源中组织修复与炎症研究的用途暂作分类，不据此推断疗效。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "klow-blend",
+      "sourceID": "18ed22fb-a180-465a-8e30-2391d6146495",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始大鼠研究摘要。仅作为成分层面的依据；未测试 KLOW 混合制剂。分类依据：根据来源中组织修复与炎症研究的用途暂作分类，不据此推断疗效。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "klow-blend",
+      "sourceID": "acba292b-9ab0-425a-8bed-0ee558baf2b9",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始索引摘要。KPV 的细胞及小鼠实验说明了其抗炎研究目的；未测试 KLOW 混合制剂。分类依据：根据来源中组织修复与炎症研究的用途暂作分类，不据此推断疗效。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "klow-blend",
+      "sourceID": "cf877a65-b45f-4fda-9a42-4a95c1c8bea3",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始大鼠研究摘要。仅作为成分层面的依据；未测试 KLOW 混合制剂。分类依据：根据来源中组织修复与炎症研究的用途暂作分类，不据此推断疗效。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "愈合与恢复"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

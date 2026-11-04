@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "glp-1",
+      "name": "Semaglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": "Se han establecido beneficios en seres humanos para las formulaciones aprobadas de semaglutide: pérdida de peso y mantenimiento del peso a largo plazo; mejor control de la glucosa en sangre en adultos con diabetes tipo 2; y menos eventos cardiovasculares mayores en determinadas poblaciones de alto riesgo. Ozempic también reduce la progresión de la enfermedad renal y el riesgo de muerte cardiovascular en adultos con diabetes tipo 2 y enfermedad renal crónica. Wegovy inyectable cuenta con aprobación acelerada para la MASH no cirrótica con fibrosis de moderada a avanzada. Los beneficios dependen del producto, la vía de administración, la indicación y la población; no establecen la equivalencia de todas las formulaciones de preparación magistral."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "1fbbbb02-1311-4cbe-9a30-3fc2708d2638",
+      "productID": "glp-1",
+      "title": "Wegovy en tabletas — aumento escalonado diario según la ficha técnica",
+      "purpose": "Reducción del peso o del riesgo cardiovascular en adultos",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "Ficha técnica de prescripción como fuente primaria; los registros extraídos no se han revisado y no constituyen instrucciones completas de prescripción.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Wegovy tablets",
+          "components": [
+            {
+              "name": "Semaglutide"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "tablet",
+            "reconstitution_required": false
+          }
+        ],
+        "phases": [
+          {
+            "name": "Aumento escalonado 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Aumento escalonado 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "4",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Aumento escalonado 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "9",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Mantenimiento",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "25",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [],
+        "notes": "Contexto de reducción del peso o del riesgo cardiovascular en adultos. La administración matutina en ayunas y los ajustes por tolerabilidad requieren consultar la ficha técnica completa; solo para archivo."
+      }
+    },
+    {
+      "id": "3ef32ceb-f434-4474-9dc4-7d5265f57036",
+      "productID": "glp-1",
+      "title": "Rybelsus — secuencia histórica de dosis de tabletas descrita por la fuente",
+      "purpose": "Planificación de referencia descrita por la fuente",
+      "methodID": "oral",
+      "population": "human",
+      "evidenceNotes": "Descripción editorial/comunitaria secundaria. Están pendientes la validación independiente de la fuente y su adopción como opción predeterminada en la aplicación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "clinical_context": {
+          "setting": "label_described_by_secondary_source",
+          "indication_context": "type 2 diabetes",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "branded_oral_tablet",
+          "components": [
+            {
+              "library_item_id": "glp-1"
+            }
+          ],
+          "product": "Rybelsus legacy 3/7/14 mg tablet formulation"
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "Semanas 1–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 5–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "7",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semana 9+ si se necesita una dosis mayor",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "14",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "174872a5-d822-4659-87fa-e00501696134",
+            "source_url": "https://www.peptidedosingprotocols.com/protocol/semaglutide",
+            "locator": "Protocolo de dosificación y calendario; declaraciones de la fuente sobre el momento de administración"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "174872a5-d822-4659-87fa-e00501696134",
+          "source_tables": [
+            {
+              "section": "Protocolo de dosificación y calendario de Semaglutide",
+              "subsection": "Pautas del ciclo",
+              "rows": [
+                [
+                  "Enfoque",
+                  "Duración",
+                  "Fase de mantenimiento",
+                  "Más adecuado para"
+                ],
+                [
+                  "Titulación estándar para la obesidad",
+                  "Aproximadamente 16 semanas hasta alcanzar 2.4 mg",
+                  "Mantenimiento semanal continuo",
+                  "Investigación sobre obesidad al estilo de Wegovy"
+                ],
+                [
+                  "Titulación estándar para T2D",
+                  "Aproximadamente 8-16 semanas hasta alcanzar 1.0 o 2.0 mg",
+                  "Mantenimiento semanal continuo",
+                  "Investigación sobre diabetes al estilo de Ozempic"
+                ],
+                [
+                  "Aumento escalonado diferido",
+                  "Añadir 4 semanas en cualquier escalón que no se tolere",
+                  "Misma dosis objetivo de mantenimiento",
+                  "Cuando los efectos secundarios ralentizan el aumento previsto"
+                ]
+              ]
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "174872a5-d822-4659-87fa-e00501696134",
+          "source_tables": [
+            {
+              "section": "Conservación y manipulación de Semaglutide",
+              "subsection": "",
+              "rows": [
+                [
+                  "Formato",
+                  "Conservación",
+                  "Vida útil"
+                ],
+                [
+                  "Liofilizado (polvo, sellado)",
+                  "Congelador a -4F (-20C)",
+                  "Hasta 12+ meses"
+                ],
+                [
+                  "Liofilizado (polvo, sellado)",
+                  "Refrigerador a 35.6-46.4F (2-8C)",
+                  "Varios meses"
+                ],
+                [
+                  "Liofilizado (polvo, sellado)",
+                  "Temperatura ambiente (envío)",
+                  "Estable durante varias semanas"
+                ],
+                [
+                  "Reconstituido (solución)",
+                  "Refrigerador a 35.6-46.4F (2-8C)",
+                  "Usar en un plazo de 28 días"
+                ],
+                [
+                  "Reconstituido (solución)",
+                  "Congelador a -4F (-20C)",
+                  "No se recomienda - no congelar"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "174872a5-d822-4659-87fa-e00501696134",
+          "source_statements": [
+            {
+              "section": "Para quién es Semaglutide y quién debe evitarlo",
+              "subsection": "",
+              "excerpt": "Semaglutide está aprobado por la FDA para varias afecciones, pero no es adecuado para todas las personas. Algunas personas deben evitarlo por completo y otras necesitan una supervisión médica estrecha antes de comenzar.",
+              "truncated": false
+            },
+            {
+              "section": "Para quién es Semaglutide y quién debe evitarlo",
+              "subsection": "Contraindicaciones",
+              "excerpt": "Antecedentes personales o familiares de carcinoma medular de tiroides (MTC) . Semaglutide incluye una advertencia en recuadro basada en tumores de células C tiroideas observados en estudios con roedores.",
+              "truncated": false
+            },
+            {
+              "section": "Para quién es Semaglutide y quién debe evitarlo",
+              "subsection": "Usar con precaución",
+              "excerpt": "Embarazo y lactancia. Semaglutide no está aprobado para su uso durante el embarazo. La ficha técnica recomienda suspenderlo al menos 2 meses antes de un embarazo planificado debido a su larga semivida.",
+              "truncated": false
+            },
+            {
+              "section": "Para quién es Semaglutide y quién debe evitarlo",
+              "subsection": "Usar con precaución",
+              "excerpt": "Retinopatía diabética preexistente. En SUSTAIN-6, las complicaciones de la retinopatía fueron más frecuentes (3.0% frente a 1.8% con placebo), probablemente relacionadas con la rápida mejoría de la glucosa en sangre en personas que ya tenían retinopatía.",
+              "truncated": false
+            },
+            {
+              "section": "Efectos secundarios y seguridad de Semaglutide",
+              "subsection": "",
+              "excerpt": "Los efectos secundarios más comunes de semaglutide son gastrointestinales: náuseas, diarrea, vómitos y estreñimiento. Suelen ser más intensos durante los primeros meses a medida que aumenta la dosis, y la mayoría de las personas observa que mejoran o desaparecen con el tiempo. El perfil de seguridad que se presenta a continuación proviene de decenas de miles de participantes de los programas de ensayos STEP, SUSTAIN y SELECT.",
+              "truncated": false
+            },
+            {
+              "section": "Efectos secundarios y seguridad de Semaglutide",
+              "subsection": "Efectos gastrointestinales comunes",
+              "excerpt": "En los datos agrupados de STEP 1-3 sobre la dosis de 2.4 mg, se presentaron náuseas en el 43.9% de los participantes (frente al 16.1% con placebo), diarrea en",
+              "truncated": true
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "Semaglutide una vez por semana en adultos con sobrepeso u obesidad (STEP 1).",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2032183"
+          },
+          {
+            "label": "Semaglutide y resultados cardiovasculares en la obesidad sin diabetes (SELECT).",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2307563"
+          },
+          {
+            "label": "Semaglutide y resultados cardiovasculares en pacientes con diabetes tipo 2 (SUSTAIN-6).",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1607141"
+          },
+          {
+            "label": "Efectos de Semaglutide sobre la enfermedad renal crónica en pacientes con diabetes tipo 2 (FLOW).",
+            "url": "https://www.nejm.org/doi/10.1056/NEJMoa2403347"
+          },
+          {
+            "label": "Ensayo de fase 3 de Semaglutide en la esteatohepatitis asociada a disfunción metabólica (ESSENCE).",
+            "url": "https://www.nejm.org/doi/10.1056/NEJMoa2413258"
+          },
+          {
+            "label": "Tolerabilidad gastrointestinal de Semaglutide 2.4 mg una vez por semana en adultos con sobrepeso u obesidad.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34514682/"
+          },
+          {
+            "label": "Semaglutide una vez por semana en adolescentes con obesidad (STEP TEENS).",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2208601"
+          },
+          {
+            "label": "Semaglutide oral y resultados cardiovasculares en la diabetes tipo 2 de alto riesgo (SOUL).",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2501006"
+          },
+          {
+            "label": "Semaglutide 2.4 mg una vez por semana en adultos con sobrepeso u obesidad y diabetes tipo 2 (STEP 2).",
+            "url": "https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(21)00213-0/fulltext"
+          },
+          {
+            "label": "Wegovy (semaglutide) inyectable - Información de prescripción.",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/215256s024lbl.pdf"
+          },
+          {
+            "label": "Ozempic (semaglutide) inyectable - Información de prescripción.",
+            "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf"
+          },
+          {
+            "label": "STEP 1: Estudio de investigación sobre la eficacia de Semaglutide en personas con sobrepeso u obesidad (NCT03548935).",
+            "url": "https://clinicaltrials.gov/study/NCT03548935"
+          }
+        ],
+        "unresolved_fields": [
+          "source_four_weeks_vs_label_month_duration",
+          "current_formulation_label_verification",
+          "oral_administration_and_food_instructions",
+          "higher_dose_selection"
+        ],
+        "notes": "Solo como referencia de la fuente; sin revisar. Las tablas y las referencias independientes siguen disponibles en el registro de la fuente.",
+        "maintenance_option": {
+          "value": "7",
+          "unit": "mg",
+          "condition": "puede mantenerse esta dosis para el control continuo según la tabla de la fuente"
+        }
+      }
+    },
+    {
+      "id": "851c96e9-b7bf-4b1a-bde9-72e15232843d",
+      "productID": "glp-1",
+      "title": "Wegovy inyectable — opciones de aumento escalonado y mantenimiento según la ficha técnica",
+      "purpose": "Tratamiento específico para cada indicación descrito en la ficha técnica",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "Ficha técnica de prescripción como fuente primaria; los registros extraídos no se han revisado y no constituyen instrucciones completas de prescripción.",
+      "regimen": {
+        "version": 1,
+        "formulation": {
+          "product": "Wegovy injection",
+          "components": [
+            {
+              "name": "Semaglutide"
+            }
+          ]
+        },
+        "preparation_options": [
+          {
+            "form": "prefilled_device",
+            "reconstitution_required": false
+          }
+        ],
+        "phases": [
+          {
+            "name": "Aumento escalonado 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.25",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Aumento escalonado 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Aumento escalonado 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Aumento escalonado 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.7",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Mantenimiento",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": null,
+              "options": [
+                "1.7",
+                "2.4"
+              ],
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_dose_selection",
+          "conditional_dose_adjustments"
+        ],
+        "notes": "La indicación y la tolerancia determinan la selección de la dosis de mantenimiento. El aumento escalonado de la dosis puede retrasarse. La ficha técnica para la reducción del peso también describe un aumento escalonado condicionado a 7.2 mg después de al menos cuatro semanas con 2.4 mg. Solo para archivo; no es una plantilla universal ejecutable."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "174872a5-d822-4659-87fa-e00501696134",
+      "url": "https://www.peptidedosingprotocols.com/protocol/semaglutide",
+      "title": "Semaglutide Dosing Guide: Titration, Dosing, Schedule & Safety (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "1b73e823-1674-46aa-9c11-e057a42520a4",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215256s025lbl.pdf",
+      "title": "Wegovy prescribing information, revised June 2026",
+      "publisher": "U.S. Food and Drug Administration / Novo Nordisk",
+      "type": "regulatory_label",
+      "publishedAt": "2026-06"
+    },
+    {
+      "id": "32625991-9e7a-4338-9239-18bfa683aa1d",
+      "url": "https://www.novo-pi.com/wegovy.pdf",
+      "title": "WEGOVY (semaglutide injection and tablets) prescribing information",
+      "publisher": "Novo Nordisk",
+      "type": "regulatory_label",
+      "publishedAt": null
+    },
+    {
+      "id": "65675b5f-3b70-47b8-bba3-1bba50b85641",
+      "url": "https://www.novo-pi.com/ozempic.pdf",
+      "title": "OZEMPIC (semaglutide injection) prescribing information",
+      "publisher": "Novo Nordisk",
+      "type": "regulatory_label",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "1fbbbb02-1311-4cbe-9a30-3fc2708d2638",
+      "sourceID": "174872a5-d822-4659-87fa-e00501696134",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "Misma secuencia de dosis de Wegovy en tabletas. La fuente indica cuatro semanas; la ficha técnica utiliza treinta días. Citar solo las dosis y señalar la discrepancia en la duración.",
+      "supports": [
+        "/phases/0/dose",
+        "/phases/1/dose",
+        "/phases/2/dose",
+        "/phases/3/dose"
+      ]
+    },
+    {
+      "protocolID": "1fbbbb02-1311-4cbe-9a30-3fc2708d2638",
+      "sourceID": "1b73e823-1674-46aa-9c11-e057a42520a4",
+      "locator": "Sections 2.1 and 2.3, Table 2",
+      "evidenceNote": "Tres etapas de 30 días preceden al mantenimiento diario continuo.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "3ef32ceb-f434-4474-9dc4-7d5265f57036",
+      "sourceID": "174872a5-d822-4659-87fa-e00501696134",
+      "locator": "Source dosing, timing, cycle and formulation sections; archived table and claim locators retained",
+      "evidenceNote": "La fuente describe estos campos; la verificación con fuentes primarias sigue pendiente.",
+      "supports": [
+        "/regimen_type",
+        "/clinical_context",
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context",
+        "/reference_urls",
+        "/maintenance_option"
+      ]
+    },
+    {
+      "protocolID": "851c96e9-b7bf-4b1a-bde9-72e15232843d",
+      "sourceID": "174872a5-d822-4659-87fa-e00501696134",
+      "locator": "Dosing Protocol & Schedule; formulation-specific tables",
+      "evidenceNote": "Mismo aumento escalonado estándar para la formulación inyectable y opción de mantenimiento de 2.4 mg. La fuente no abarca todas las opciones más recientes de la ficha técnica.",
+      "supports": [
+        "/phases"
+      ]
+    },
+    {
+      "protocolID": "851c96e9-b7bf-4b1a-bde9-72e15232843d",
+      "sourceID": "1b73e823-1674-46aa-9c11-e057a42520a4",
+      "locator": "Sections 2.1–2.2, Table 1",
+      "evidenceNote": "Cuatro etapas de aumento escalonado conducen a las opciones de mantenimiento; las condiciones clínicas influyen en la selección.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases"
+      ]
+    },
+    {
+      "productID": "glp-1",
+      "sourceID": "32625991-9e7a-4338-9239-18bfa683aa1d",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "La ficha técnica actual distingue las poblaciones para la formulación inyectable y en tabletas, las indicaciones relacionadas con el peso y cardiovasculares, y la aprobación acelerada para MASH de la formulación inyectable. Justificación de la categoría: Peso y metabolismo: el control del peso y la diabetes/enfermedad metabólica son los principales usos establecidos.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "productID": "glp-1",
+      "sourceID": "65675b5f-3b70-47b8-bba3-1bba50b85641",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "La ficha técnica de mayo de 2026 especifica las indicaciones relacionadas con la glucosa y los resultados cardiovasculares y renales, así como las poblaciones elegibles para cada una. Justificación de la categoría: Peso y metabolismo: el control del peso y la diabetes/enfermedad metabólica son los principales usos establecidos.",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    },
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

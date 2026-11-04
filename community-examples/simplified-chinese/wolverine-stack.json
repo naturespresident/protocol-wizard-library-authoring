@@ -1,0 +1,518 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "wolverine-stack",
+      "name": "Wolverine Stack",
+      "aliases": [],
+      "kind": "other",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 1,
+      "benefits": "一项针对这两种具名成分的探索性大鼠研究报告了肌腱组织学方面的信号，但联合使用没有额外获益。该研究并不能确立具名 Wolverine 方案、其分别使用独立产品的给药安排的疗效，也不能确认其 TB-500 的身份。未发现该组合在人体中有经验证的获益。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "40e26259-2ba0-400e-bc43-ff9bd6fbc884",
+      "productID": "wolverine-stack",
+      "title": "Wolverine——独立的负荷与维持产品",
+      "purpose": "来源所述的参考规划",
+      "methodID": "subcutaneous",
+      "population": "human",
+      "evidenceNotes": "二手编辑性来源；不自动视为已获临床验证，也不自动提升为应用默认方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "stack",
+        "clinical_context": {
+          "setting": "community_research_planning",
+          "indication_context": "source_described_reference_planning",
+          "population_eligibility": null
+        },
+        "formulation": {
+          "format": "separate_products",
+          "components": [
+            {
+              "library_item_id": "bpc-157"
+            },
+            {
+              "library_item_id": "tb-500"
+            }
+          ],
+          "fixed_component_ratio": null
+        },
+        "preparation_options": [],
+        "phases": [
+          {
+            "name": "各成分专属给药方案",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "各成分专属给药安排"
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields",
+          "provenance": {
+            "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+            "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+            "locator": "给药方案与时间安排；来源中的给药时间说明"
+          }
+        },
+        "cycle_guidance": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Wolverine Stack 周期长度：6–12 周的社区给药安排",
+              "subsection": "",
+              "rows": [
+                [
+                  "方式",
+                  "负荷期",
+                  "维持期",
+                  "总周期",
+                  "常见情境"
+                ],
+                [
+                  "每日使用预混制剂",
+                  "—",
+                  "每日预混制剂总量为 0.5–2.0 mg",
+                  "6–12 周",
+                  "优先考虑便利性，维持稳定暴露"
+                ],
+                [
+                  "独立药瓶标准方案",
+                  "第 1–4 周",
+                  "第 5–8 周",
+                  "8–12 周",
+                  "用于损伤规划，先负荷给药，再逐渐减量"
+                ],
+                [
+                  "独立药瓶延长方案",
+                  "第 1–4 周",
+                  "第 5–12 周",
+                  "12 周",
+                  "针对愈合较慢组织的研究规划"
+                ]
+              ]
+            }
+          ],
+          "references": [
+            {
+              "source_id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+              "source_url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+              "source_tables": [
+                {
+                  "section": "Wolverine Stack 周期长度表",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "周期长度",
+                      "通常如何描述",
+                      "证据说明"
+                    ],
+                    [
+                      "4–6 周",
+                      "短期集中周期，或早期仅含负荷阶段的计划",
+                      "常见于社区讨论；尚未作为联合临床方案进行试验"
+                    ],
+                    [
+                      "6–8 周",
+                      "最常见的完整周期，包含负荷与维持阶段",
+                      "社区标准；没有人体对照试验"
+                    ],
+                    [
+                      "8–12 周",
+                      "适用于进展较慢或时间更长的研究的延长计划",
+                      "一致性较差，支持其安全性的数据更少"
+                    ],
+                    [
+                      "超过 12 周",
+                      "长期或重复使用",
+                      "该联合组合尚无已确立的人体安全性依据"
+                    ]
+                  ]
+                },
+                {
+                  "section": "负荷与维持阶段",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "阶段",
+                      "典型时间安排",
+                      "社区描述"
+                    ],
+                    [
+                      "负荷阶段",
+                      "第 1–4 周",
+                      "计划中给药频率最高的部分。独立药瓶的给药安排通常为每日使用 BPC-157，而 TB-500 的使用频率较低。"
+                    ],
+                    [
+                      "维持阶段",
+                      "第 5–8 周",
+                      "BPC-157 可能继续每日使用，而 TB-500 的使用频率通常会降低。"
+                    ],
+                    [
+                      "延长阶段",
+                      "第 9–12 周",
+                      "部分社区计划继续采用较低频率的模式，但支持这种延长使用的证据薄弱。"
+                    ],
+                    [
+                      "停药期",
+                      "用药周期结束后",
+                      "社区计划通常包括两种化合物均不使用的时段，但尚无经验证的洗脱期。"
+                    ]
+                  ]
+                },
+                {
+                  "section": "预混制剂与独立药瓶的周期对比",
+                  "subsection": "",
+                  "rows": [
+                    [
+                      "形式",
+                      "常见给药安排模式",
+                      "主要局限"
+                    ],
+                    [
+                      "1:1 预混药瓶",
+                      "整个周期按固定时间安排，每次一并抽取两种成分",
+                      "剂量比例保持固定，因此无法仅调整一种化合物而不改变另一种"
+                    ],
+                    [
+                      "独立的 BPC-157 和 TB-500 药瓶",
+                      "每日使用 BPC-157，TB-500 的使用频率较低，之后通常进入频率更低的阶段",
+                      "计算更复杂，给药安排出错的机会更多"
+                    ]
+                  ]
+                }
+              ],
+              "scope": "Contextual cycle evidence; route/formulation/population must be reviewed before applying any duration or break."
+            }
+          ]
+        },
+        "storage": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_tables": [
+            {
+              "section": "Wolverine Stack 储存与处理",
+              "subsection": "",
+              "rows": [
+                [
+                  "状态",
+                  "BPC-157",
+                  "TB-500"
+                ],
+                [
+                  "冻干状态（粉末）",
+                  "长期储存温度为 -4°F（-20°C）；阴凉、干燥、避光",
+                  "长期储存温度为 -4°F（-20°C）；阴凉、干燥、避光"
+                ],
+                [
+                  "复溶后（液体）",
+                  "35.6–46.4°F（2–8°C）；约 30 天内使用",
+                  "35.6–46.4°F（2–8°C）；约 30 天内使用"
+                ],
+                [
+                  "光照暴露",
+                  "避免直接光照",
+                  "避免直接光照"
+                ],
+                [
+                  "外观",
+                  "复溶后澄清",
+                  "澄清或带有极淡颜色"
+                ]
+              ]
+            }
+          ]
+        },
+        "cautions": {
+          "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+          "source_statements": [
+            {
+              "section": "Wolverine Stack 副作用与安全性",
+              "subsection": "理论性及组合层面的顾虑",
+              "excerpt": "这两种化合物均促进血管生成，这是修复所期望的作用机制，但也是肿瘤生长中的相关通路。Cha 等人于 2003 年在《美国国家癌症研究所杂志》发表的论文报告称，在 B16-F10 小鼠模型中，Thymosin Beta-4 表达增加了肺部肿瘤转移。对于人体中外源性 TB-500 片段而言，这一结果的转化意义尚不明确，但它是临床医生中被引用最多的理论风险",
+              "truncated": true
+            },
+            {
+              "section": "Wolverine Stack 副作用与安全性",
+              "subsection": "体育与竞赛",
+              "excerpt": "BPC-157 和 TB-500 均被列入 WADA 的 S0 未获批准物质类别，赛内与赛外均禁止使用。接受 WADA、USADA 或任何体育管理机构检测计划的运动员不应假定存在可免于检出的清除时间窗口——无论时间安排如何，这些物质均可被检测到，且均属禁用物质。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "reference_urls": [
+          {
+            "label": "BPC-157 在骨科运动医学中的新兴应用：系统综述。",
+            "url": "https://journals.sagepub.com/doi/abs/10.1177/15563316251355551"
+          },
+          {
+            "label": "大鼠跟腱剥离与稳定胃十五肽 BPC 157：促进肌腱与骨愈合，并抵抗皮质类固醇导致的恶化。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/16583442/"
+          },
+          {
+            "label": "十五肽 BPC 157 促进肌腱愈合的作用涉及肌腱向外生长、细胞存活和细胞迁移。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/21164151/"
+          },
+          {
+            "label": "稳定胃十五肽 BPC 157 与伤口愈合。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/34267654/"
+          },
+          {
+            "label": "BPC 157 肽的多功能性及潜在医学应用——文献与专利综述。",
+            "url": "https://www.mdpi.com/1424-8247/18/2/185"
+          },
+          {
+            "label": "Thymosin beta 4 促进人脐静脉内皮细胞的定向迁移。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/9194528/"
+          },
+          {
+            "label": "Thymosin beta-4 与血管生成：作用方式与治疗潜力。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/17632766/"
+          },
+          {
+            "label": "Thymosin beta4 促进血管生成、伤口愈合和毛囊发育。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/15037013/"
+          },
+          {
+            "label": "Thymosin β4 功能与应用的研究进展。",
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8724243/"
+          },
+          {
+            "label": "thymosin beta4 在肿瘤转移与血管生成中的作用。",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/14625258/"
+          },
+          {
+            "label": "2025 年《世界反兴奋剂条例》国际标准禁用清单——S0 节（未获批准物质）。",
+            "url": "https://www.wada-ama.org/en/prohibited-list"
+          }
+        ],
+        "unresolved_fields": [
+          "maintenance_duration_choice",
+          "time_of_day",
+          "TB_500_exact_sequence",
+          "source_total_cycle_vs_phase_endpoint"
+        ],
+        "notes": "仅作来源参考；未经审阅。表格和独立参考文献仍可在来源记录中查阅。",
+        "component_regimens": [
+          {
+            "component_id": "bpc-157",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "负荷期",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "250",
+                  "maximum": "500",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "维持期",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "250",
+                  "unit": "mcg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "daily",
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+                "locator": "给药方案与时间安排；来源中的给药时间说明"
+              }
+            }
+          },
+          {
+            "component_id": "tb-500",
+            "route": "subcutaneous",
+            "phases": [
+              {
+                "name": "负荷期",
+                "duration": {
+                  "kind": "fixed",
+                  "value": 28,
+                  "unit": "day"
+                },
+                "dose": {
+                  "minimum": "2",
+                  "maximum": "5",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "times_per_week",
+                  "times_per_week": 2,
+                  "doses_per_day": 1,
+                  "suggested_times": []
+                }
+              },
+              {
+                "name": "维持期",
+                "duration": {
+                  "kind": "unreported",
+                  "value": null,
+                  "unit": "day"
+                },
+                "dose": {
+                  "value": "2",
+                  "unit": "mg",
+                  "basis": "component"
+                },
+                "schedule": {
+                  "pattern": "source_described",
+                  "doses_per_day": null,
+                  "suggested_times": [],
+                  "frequency_range": {
+                    "minimum": 1,
+                    "maximum": 2,
+                    "period": "week"
+                  },
+                  "description": "每周 1-2 次"
+                }
+              }
+            ],
+            "timing_guidance": {
+              "preferred_time_of_day": null,
+              "suggested_clock_times": [],
+              "relative_events": [],
+              "food_guidance": null,
+              "spacing_between_components": null,
+              "basis": "unreported_in_captured_fields",
+              "provenance": {
+                "source_id": "4d3caf84-2975-4664-90e9-041672b6732c",
+                "source_url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+                "locator": "给药方案与时间安排；来源中的给药时间说明"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "url": "https://www.peptidedosingprotocols.com/stacks/wolverine-stack",
+      "title": "Wolverine Stack Dosing Guide: BPC-157 + TB-500 Protocol (2026)",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "url": "https://jointdrs.org/full-text/1851",
+      "title": "Effects of BPC-157 and TB-500 on Achilles tendon healing in rats: A histopathological and biomechanical study",
+      "publisher": "Joint Diseases and Related Surgery",
+      "type": "animal_study",
+      "publishedAt": null
+    },
+    {
+      "id": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "url": "https://www.peptidedosingprotocols.com/peptide-cycles/wolverine-stack-cycle-length",
+      "title": "Wolverine Stack Cycle Length: 6–12 Week Research Schedules",
+      "publisher": "Peptide Dosing Protocols",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "40e26259-2ba0-400e-bc43-ff9bd6fbc884",
+      "sourceID": "4d3caf84-2975-4664-90e9-041672b6732c",
+      "locator": "Dosing Protocol & Schedule; referenced source table/definition labels retained in regimen and source facts",
+      "evidenceNote": "来源描述了这些字段；有待独立核实。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/component_regimens",
+        "/timing_guidance",
+        "/cycle_guidance",
+        "/storage",
+        "/cautions",
+        "/reference_urls",
+        "/evidence_context"
+      ]
+    },
+    {
+      "protocolID": "40e26259-2ba0-400e-bc43-ff9bd6fbc884",
+      "sourceID": "f52352c4-e0be-4fda-97f4-c3917281d7ff",
+      "locator": "Cycle-guide section and table labels retained in source facts",
+      "evidenceNote": "有关持续时间／停药间隔的背景证据；不能替代有关剂量、产品标签、给药途径或特定人群的说明。",
+      "supports": [
+        "/cycle_guidance/references/0"
+      ]
+    },
+    {
+      "productID": "wolverine-stack",
+      "sourceID": "cc8d85aa-21e4-4b24-9967-57c33049f845",
+      "locator": "Benefits research; see cited study/label",
+      "evidenceNote": "已阅读原始全文；这是一项大鼠成分联合实验，并非对具名商业组合或其给药安排的验证。分类理由：预期用途为肌腱和组织修复研究，但没有证据表明该具名方案有效。",
+      "supports": [
+        "/benefits",
+        "/category_id"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "愈合与恢复"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下给药"
+    }
+  ]
+}
