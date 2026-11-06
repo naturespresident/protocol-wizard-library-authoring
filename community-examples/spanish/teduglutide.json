@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "teduglutide",
+      "name": "Teduglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "teduglutide-catalog-entry",
+      "productID": "teduglutide",
+      "title": "Protocolo de dosificación de Teduglutide (5 mg) — referencia de la fuente",
+      "purpose": "Pauta y detalles de manejo de una página individual, transcritos como referencia de investigación y educación",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Afirmaciones de una página de protocolo individual de una fuente secundaria; no se verificaron de forma independiente como orientación médica. Pauta de la ficha técnica aprobada indicada por la página: 0.05 mg/kg por vía subcutánea una vez al día, como tratamiento continuo, para el síndrome del intestino corto con dependencia del soporte parenteral; en caso de insuficiencia renal (TFGe <60), se usa 0.025 mg/kg. Vial comercial de 5 mg reconstituido con exactamente 0.5 mL de agua estéril para obtener 10 mg/mL; solo se pueden extraer 3.8 mg (0.38 mL). Es un producto de prescripción bajo supervisión de un especialista; no es una recomendación para un vial de investigación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de la ficha técnica aprobada",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.05",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Producto de prescripción para el síndrome del intestino corto con dependencia del soporte parenteral. La fuente indica la mitad de la dosis (0.025 mg/kg) para una TFGe <60; la ficha técnica del producto utiliza el diluyente correspondiente, no una mezcla para viales de investigación."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La pauta del producto aprobado por la FDA se aplica solo a pacientes que cumplen los criterios, bajo supervisión de un especialista; el vial de 5 mg de grado de investigación no es la presentación aprobada."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "teduglutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/teduglutide-5mg-vial-dosage-protocol/",
+      "title": "Teduglutide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "teduglutide-catalog-entry",
+      "sourceID": "teduglutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "Se revisó la página del protocolo individual. La entrada conserva los detalles y límites indicados por la fuente; no es una guía clínica de dosificación.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado y clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

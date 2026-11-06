@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ovagen",
+      "name": "Ovagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ovagen-catalog-entry",
+      "productID": "ovagen",
+      "title": "Protocolo de dosagem de Ovagen (frasco de 20mg) — referência da fonte",
+      "purpose": "Cronograma individual da página e detalhes de manuseio, transcritos como referência de pesquisa/educação",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; estas são as afirmações da página, não orientações clínicas verificadas de forma independente. Biorregulador hepático/gastrointestinal do EDL; titulação subcutânea uma vez ao dia, segundo a fonte: 800 mcg semanas 1–2, 1,200 mcg semanas 3–4, 1,600 mcg semanas 5–6, 2,000 mcg semanas 7–12. 20 mg + 3 mL de água bacteriostática (~6.67 mg/mL). Apenas referência de pesquisa; não há ensaios independentes de eficácia em humanos. Este é o produto EDL, não o FSH ovino também chamado Ovagen.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semanas 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "800",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 5–6",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1600",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 7–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "2000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Biorregulador hepático/gastrointestinal do EDL; titulação subcutânea uma vez ao dia, segundo a fonte: 800 mcg semanas 1–2, 1,200 mcg semanas 3–4, 1,600 mcg semanas 5–6, 2,000 mcg semanas 7–12. 20 mg + 3 mL de água bacteriostática (~6.67 mg/mL). Apenas referência de pesquisa; não há ensaios independentes de eficácia em humanos. Este é o produto EDL, não o FSH ovino também chamado Ovagen."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ovagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ovagen-20mg-vial-dosage-protocol/",
+      "title": "Ovagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ovagen-catalog-entry",
+      "sourceID": "ovagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página da fonte consultada. Estas são afirmações da fonte, não orientações clínicas verificadas de forma independente; nenhum regime humano é estabelecido, a menos que a fonte diga o contrário.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado e Clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

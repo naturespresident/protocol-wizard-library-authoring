@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "crystagen",
+      "name": "Crystagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "crystagen-catalog-entry",
+      "productID": "crystagen",
+      "title": "Crystagen (20mg Vial) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; these are the page's statements, not independently verified clinical guidance. Source-reported daily SC titration: 1,000 mcg week 1; 1,500 mcg week 2; 2,000 mcg weeks 3–12. 20 mg + 3 mL bacteriostatic water (~6.67 mg/mL). Research-only, unapproved, benefits unproven.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Week 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Week 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Weeks 3–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "2000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Source-reported daily SC titration: 1,000 mcg week 1; 1,500 mcg week 2; 2,000 mcg weeks 3–12. 20 mg + 3 mL bacteriostatic water (~6.67 mg/mL). Research-only, unapproved, benefits unproven."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "crystagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/crystagen-20mg-vial-dosage-protocol/",
+      "title": "Crystagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "crystagen-catalog-entry",
+      "sourceID": "crystagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. These are source statements and not independently verified clinical guidance; no human regimen is established unless the source says otherwise.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Specialized & Clinical"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

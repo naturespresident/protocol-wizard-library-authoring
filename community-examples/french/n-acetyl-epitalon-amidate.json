@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-epitalon-amidate",
+      "name": "N-Acetyl Epitalon Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-epitalon-amidate-catalog-entry",
+      "productID": "n-acetyl-epitalon-amidate",
+      "title": "N-Acetyl Epitalon Amidate (flacon de 5mg) — protocole posologique, référence de la source",
+      "purpose": "Calendrier et détails de manipulation de la page individuelle, retranscrits à titre de référence pour la recherche et l’éducation",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les déclarations de la source, et ne constituent pas des conseils cliniques vérifiés de manière indépendante. Aucun schéma posologique validé pour cet analogue modifié ni pour le composé parent. La page distingue les études chez les rongeurs (~30–40 mcg/kg pendant cinq jours consécutifs par mois) des pratiques commerciales pour l’Epitalon non modifié (5–10 mg par jour pendant 10–20 jours) ; aucune des deux ne valide cet amidate. 5 mg + 2 mL donnent 2.5 mg/mL. Réservé à la recherche.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Référence à une étude chez les rongeurs",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "30",
+              "maximum": "40",
+              "unit": "mcg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Les études chez les rongeurs rapportent une administration pendant cinq jours consécutifs par mois ; il ne s’agit pas d’un schéma posologique humain. La pratique de 5–10 mg d’Epitalon concerne un peptide différent, non modifié."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Aucun schéma posologique validé pour cet amidate. La quantité structurée correspond uniquement à une exposition pondérale chez les rongeurs, et non à une dose humaine."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-epitalon-amidate-5mg-vial-dosage-protocol/",
+      "title": "N-Acetyl Epitalon Amidate (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-epitalon-amidate-catalog-entry",
+      "sourceID": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page de la source individuelle a été examinée. Ce JSON conserve le calendrier et le contexte de formulation indiqués par la page, ainsi que ses réserves ; il n’établit pas de schéma posologique cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-âge et peau"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "Autre"
+    }
+  ]
+}

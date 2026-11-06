@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ahk-cu",
+      "name": "AHK-Cu",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ahk-cu-catalog-entry",
+      "productID": "ahk-cu",
+      "title": "AHK-Cu（50 mg）给药方案——来源参考",
+      "purpose": "单独页面中的给药安排和操作细节，转录为研究/教育参考",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，并非经过独立验证的临床指导。没有经验证的注射剂量，也没有人体试验。供应商/社区指南给出的范围集中在 100–200 mcg 皮下注射；唯一的主要来源数值是专利所述的动物皮内注射剂量 100–500 mcg/0.1 mL。50 mg + 2 mL 的稀释是参考计算。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "供应商/社区惯例",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "社区/供应商给出的范围；无人体试验，也无经验证的注射剂量。另有动物专利描述了 100–500 mcg/0.1 mL 的皮内注射剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "剂量范围未经临床验证。不要将供应商惯例与动物专利中的浓度混为一谈。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ahk-cu-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ahk-cu-50mg-vial-dosage-protocol/",
+      "title": "AHK-Cu (50 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ahk-cu-catalog-entry",
+      "sourceID": "ahk-cu-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留该页面所述的给药安排/制剂背景及其注意事项；这并不能确立经临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "抗衰老与皮肤护理"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下给药"
+    }
+  ]
+}

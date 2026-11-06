@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "davunetide",
+      "name": "Davunetide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "davunetide-catalog-entry",
+      "productID": "davunetide",
+      "title": "Davunetide（5 mg）剂量方案——来源参考",
+      "purpose": "单页中的给药安排和操作细节，作为研究／教育参考转录",
+      "methodID": "intranasal",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是来源自身的陈述，未经独立核实，不能视为临床指导。尚无已确立的注射剂量；所有人体试验均为鼻内给药，包括结果阴性的 PSP 2/3 期试验中的 30 mg、每日两次给药。5 mg 药瓶 + 2 mL 抑菌水仅作为复溶参考，并非注射给药方案。仅供研究；未经 FDA 批准。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "关键性 PSP 试验",
+            "duration": {
+              "kind": "fixed",
+              "value": 52,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "30",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "鼻内给药，并非注射；关键性 PSP 试验未显示相较安慰剂的获益。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "所有人体试验均为鼻内给药。每日两次、每次 30 mg、持续 52 周的方案属于一项结果阴性的 PSP 试验；目前没有经验证的注射剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "davunetide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/davunetide-5mg-vial-dosage-protocol/",
+      "title": "Davunetide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "davunetide-catalog-entry",
+      "sourceID": "davunetide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留了页面所述的给药安排／制剂背景及其注意事项；这并不确立经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经系统"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "鼻内给药"
+    }
+  ]
+}

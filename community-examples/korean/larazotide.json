@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "larazotide",
+      "name": "Larazotide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "larazotide-catalog-entry",
+      "productID": "larazotide",
+      "title": "Larazotide (0.5mg) 투여 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부사항을 연구 및 교육 참고 자료로 옮겼어요.",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "간접 상업 출처예요. 이는 해당 페이지의 진술이며, 독립적으로 검증된 임상 지침이 아니에요. 페이지에는 경구 연구 일정이 식사 전에 0.5 mg (500 mcg) 하루 세 번 정도로 보고되어 있어요. 페이지는 더 높은 용량이 아니라 이 2b상 시험군이 평가변수를 충족했다고 밝혀요. 경구 펩타이드이며, 재구성이나 주사는 필요하지 않아요. 승인되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "2b상 참고 시험군",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "description": "식사 전에 하루 세 번 투여해요. 페이지는 이 0.5 mg 시험군이 평가변수를 충족했다고 밝혀요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "연구 시험 참고 자료에 한정돼요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "larazotide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/larazotide-0-5mg-dosage-protocol/",
+      "title": "Larazotide (0.5mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "larazotide-catalog-entry",
+      "sourceID": "larazotide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 출처가 달리 밝히지 않는 한 확립된 인체 투여 요법은 없어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "특수 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

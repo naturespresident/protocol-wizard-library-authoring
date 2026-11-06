@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "humanin",
+      "name": "Humanin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "humanin-catalog-entry",
+      "productID": "humanin",
+      "title": "Humanin (5 mg) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. No established human dose. The page reports research-community HNG conventions of about 500–1,000 mcg SC 2–3 times weekly in short cycles; HNG is an analog and far more potent than native Humanin. Preclinical only; no human trials.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "HNG community convention",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "500",
+              "maximum": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "Source says 2–3 times weekly in short cycles; this refers to HNG analog conventions, not a validated native Humanin dose."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "HNG is an analog, not native Humanin, and is described as substantially more potent. No human trials or validated dose."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "humanin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/humanin-5mg-vial-dosage-protocol/",
+      "title": "Humanin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "humanin-catalog-entry",
+      "sourceID": "humanin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Skin"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

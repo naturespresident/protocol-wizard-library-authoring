@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-semax-amidate",
+      "name": "N-Acetyl Semax Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-semax-amidate-catalog-entry",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate 비강 내 참고 일정",
+      "purpose": "출처에 보고된 비강 내 연구 일정이며, 독립적으로 검증된 임상 지침은 아니에요.",
+      "methodID": "intranasal",
+      "population": "Research reference; the source notes limited amidate-specific clinical research",
+      "evidenceNotes": "Peptides.org의 표와 용량 섹션은 하루 600 mcg/day로 시작해 필요에 따라 조정하고, 최대 900 mcg/day까지 최대 30일간 사용하는 비강 내 연구 참고 일정을 설명해요. 표에는 하루 2–3회 펌프 분사로 표시되어 있어요. 대안으로 하루 600 mcg/day를 최대 60일간 사용하는 일정도 나와 있어요. 해당 페이지는 Amidate에 특화된 임상 연구가 부족하다고 밝히며 Semax 관련 참고 자료를 활용해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "비강 내 표준 참고 일정",
+            "duration": {
+              "kind": "maximum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "출처에 따르면 600 mcg/day로 시작해 필요에 따라 조정하며, 최대 900 mcg/day까지 사용할 수 있어요. 표에는 이를 하루 2–3회 펌프 분사로 표시해요. 기재된 분무제 농도는 10 mg/10 mL (0.1%)와 30 mg/10 mL (0.3%)이며, 각각 각 투여에서 300 mcg/회를 전달한다고 해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "출처에서는 연구 기간과 같은 기간 동안 휴약하는 주기를 설명해요. 대안 일정은 별도로 기록되어 있어요. 이는 출처에 보고된 연구 참고 자료이며 N-Acetyl Semax Amidate에 대해 확립된 임상 프로토콜은 아니에요."
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-intranasal-extended",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate 비강 내 연장 참고 일정",
+      "purpose": "출처에 별도로 보고된 대안 연구 일정이에요.",
+      "methodID": "intranasal",
+      "population": "Research reference; amidate-specific clinical validation not established",
+      "evidenceNotes": "Peptides.org는 이를 대안 연구 일정으로 제시해요. 해당 페이지는 Amidate에 특화된 임상 투여 자료가 부족하다고 설명하며, 출처의 주장은 독립적으로 검증되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "비강 내 연장 대안 일정",
+            "duration": {
+              "kind": "maximum",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "출처가 대안으로 기재한 하루 600 mcg 투여를 최대 60일간 시행하는 일정이에요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "출처에는 600 mcg/day를 최대 60일간 투여한 뒤 연구 기간과 같은 기간 동안 휴약하는 것으로 나와 있어요. 검증된 인체 프로토콜은 아니에요."
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-injectable-reference",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate 주사형 참고 일정",
+      "purpose": "출처에 별도로 보고된 대안 연구 일정이에요.",
+      "methodID": "other",
+      "population": "Research reference; source does not specify injection route",
+      "evidenceNotes": "Peptides.org는 이를 대안 연구 일정으로 제시해요. 해당 페이지는 Amidate에 특화된 임상 투여 자료가 부족하다고 설명하며, 출처의 주장은 독립적으로 검증되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "주사형 표준 참고 일정",
+            "duration": {
+              "kind": "maximum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "500",
+                "1000"
+              ],
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "출처에 따르면 500 mcg/회로 하루 한 번 시작해 1,000 mcg/회로 하루 한 번 또는 두 번까지 증량해요. 언제 또는 어떻게 증량하는지는 명시되어 있지 않아요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "주사 투여 경로는 명시되어 있지 않아요. 페이지는 이를 최대 연구 기간 30일, 연구 기간과 같은 기간의 휴약이 포함된 연구 참고 자료로 제시해요. 투여 경로나 적정 일정을 추론하지 마세요."
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-injectable-extended",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate 주사형 연장 참고 일정",
+      "purpose": "출처에 별도로 보고된 대안 연구 일정이에요.",
+      "methodID": "other",
+      "population": "Research reference; source does not specify injection route",
+      "evidenceNotes": "Peptides.org는 이를 대안 연구 일정으로 제시해요. 해당 페이지는 Amidate에 특화된 임상 투여 자료가 부족하다고 설명하며, 출처의 주장은 독립적으로 검증되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "주사형 연장 대안 일정",
+            "duration": {
+              "kind": "maximum",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "출처의 대안 일정 행에 기재된 하루 600 mcg 투여를 최대 60일간 시행하는 일정이에요. 해당 행에는 투여 경로가 명시되어 있지 않아요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "출처의 대안 일정 행에는 주사 제형에도 이 일정이 기재되어 있어요. 투여 경로와 투여 방법은 제공되어 있지 않아요. 휴약 기간은 연구 기간과 같아요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-semax-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-semax-amidate-nasal-spray-dosage-protocol/",
+      "title": "N-Acetyl Semax Amidate (Nasal Spray) Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "n-acetyl-semax-amidate-peptides-org",
+      "url": "https://www.peptides.org/n-acetyl-semax-amidate-dosage-calculator/",
+      "title": "N-Acetyl Semax Amidate Dosage Calculator and Chart",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-semax-amidate-catalog-entry",
+      "sourceID": "n-acetyl-semax-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "원 출처는 제형에 관한 맥락을 제공해요. Peptides.org 출처는 비강 내 및 주사 연구 일정을 별도로 보고해요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-intranasal-extended",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "페이지에서 보고한 대안 일정이며, 해당 페이지는 Amidate에 특화된 임상 연구가 제한적이라고 설명해요.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-injectable-reference",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "페이지에서 보고한 대안 일정이며, 해당 페이지는 Amidate에 특화된 임상 연구가 제한적이라고 설명해요.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-injectable-extended",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "페이지에서 보고한 대안 일정이며, 해당 페이지는 Amidate에 특화된 임상 연구가 제한적이라고 설명해요.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경계"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "비강 내"
+    },
+    {
+      "id": "other",
+      "name": "주사 (경로 미지정)"
+    }
+  ]
+}

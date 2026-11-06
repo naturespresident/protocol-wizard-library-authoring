@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "noopept",
+      "name": "Noopept",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "noopept-catalog-entry",
+      "productID": "noopept",
+      "title": "Noopept (20 mg) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Auf der Einzelseite beschriebener Zeitplan und Angaben zur Handhabung, als Forschungs- und Bildungsreferenz transkribiert",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die folgenden Angaben sind Aussagen der Quelle und keine unabhängig überprüfte klinische Leitlinie. Die Seite berichtet eine Dosis aus einer offenen klinischen Studie: 20 mg/Tag oral, üblicherweise aufgeteilt in 10 mg zweimal täglich über zwei Monate, bei 60 Schlaganfallpatienten. Keine Rekonstitution oder Injektion. Die Evidenz ist auf kleine offene Berichte in russischer Sprache begrenzt; die FDA behandelt es als nicht zugelassenes neues Arzneimittel, nicht als Nahrungsbestandteil.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referenz auf eine offene Studie",
+            "duration": {
+              "kind": "fixed",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "20 mg/Tag, aufgeteilt in 10 mg zweimal täglich."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Die Quelle berichtet für eine kleine offene Studie an Schlaganfallpatienten eine Dosis von 20 mg/Tag oral, aufgeteilt in 10 mg zweimal täglich über zwei Monate. Dies ist ein Studienplan, keine etablierte Empfehlung."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "noopept-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/noopept-20mg-dosage-protocol/",
+      "title": "Noopept (20 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "noopept-catalog-entry",
+      "sourceID": "noopept-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON gibt den dort angegebenen Zeitplan, den Formulierungskontext und die Einschränkungen wieder; es begründet kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Kognition und Neurologie"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

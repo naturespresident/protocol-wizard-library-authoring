@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "b7-33",
+      "name": "B7-33",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "b7-33-catalog-entry",
+      "productID": "b7-33",
+      "title": "B7-33 (10 mg) — protocolo de dosagem — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Declarações da página individual provenientes de uma fonte secundária; não são orientações médicas verificadas de forma independente. Não há dose humana estabelecida; a página não informa nenhuma. Os achados publicados se limitam a células e roedores, e não existe ensaio clínico em humanos nem estudo farmacocinético humano. Um frasco de 10 mg + 2 mL de água bacteriostática (5 mg/mL) serve apenas como referência de reconstituição/concentração; a página menciona uma meia-vida sérica in vitro de aproximadamente seis minutos, portanto não há um cronograma de injeções periódicas estabelecido.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência da página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Não há dose humana estabelecida; a página não informa nenhuma. Os achados publicados se limitam a células e roedores, e não existe ensaio clínico em humanos nem estudo farmacocinético humano. Um frasco de 10 mg + 2 mL de água bacteriostática (5 mg/mL) serve apenas como referência de reconstituição/concentração; a página menciona uma meia-vida sérica in vitro de aproximadamente seis minutos, portanto não há um cronograma de injeções periódicas estabelecido."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Não há dose humana estabelecida; a página não informa nenhuma. Os achados publicados se limitam a células e roedores, e não existe ensaio clínico em humanos nem estudo farmacocinético humano. Um frasco de 10 mg + 2 mL de água bacteriostática (5 mg/mL) serve apenas como referência de reconstituição/concentração; a página menciona uma meia-vida sérica in vitro de aproximadamente seis minutos, portanto não há um cronograma de injeções periódicas estabelecido. AVISO: a página da fonte individual não informa uma dose administrada numérica; concentrações da formulação ou cronogramas qualitativos, quando declarados, são mantidos nas notas e não são convertidos em doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "b7-33-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/b7-33-10mg-vial-dosage-protocol/",
+      "title": "B7-33 (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "b7-33-catalog-entry",
+      "sourceID": "b7-33-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "Página individual do protocolo consultada. A entrada preserva os detalhes informados pela fonte e os limites indicados na página; não constitui orientação clínica de dosagem.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cura e recuperação"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vesugen",
+      "name": "Vesugen",
+      "aliases": [
+        "KED",
+        "Lys-Glu-Asp"
+      ],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "출처들은 Vesugen (Lys-Glu-Asp / KED)을 혈관 생체조절제로 설명하고 내피 유전자 발현에 영향을 줄 가능성을 제시해요. 또한 혈압 및 기타 심혈관 효과를 주장하지만, 이러한 출처만으로 사람에서의 효능이나 안전성이 입증되지는 않아요. Dosage Peptide는 기초 근거가 대부분 세포 배양 연구와 한 연구 계통의 소규모 비무작위 보고로 이루어져 있으며, 이점은 입증되지 않았다고 설명해요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vesugen-mypeptidematch-reference",
+      "productID": "vesugen",
+      "title": "Vesugen — MyPeptideMatch 출처의 10일 과정",
+      "purpose": "출처에 기술된 참고 계획",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; the source describes this as educational information and recommends provider review.",
+      "evidenceNotes": "이차 편집 출처예요. 페이지에는 10일 프로토콜과 유지 일정이 나와 있지만, 해당 용량이 사람에게 안전하거나 효과적이라는 연구 수준의 근거는 제시하지 않아요. 재구성 세부 정보는 서로 상충해요. 빠른 시작 안내에는 20 mg 바이알에 정균수를 10 mL 넣으라고 되어 있지만, 준비물 목록에는 “2 mL”라고 적혀 있어요. 10 mL 부피는 명시된 2 mg/mL 농도와 일치하지만, 이 불일치는 해결되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vesugen"
+            }
+          ],
+          "sequence_as_reported": "Lys-Glu-Asp (KED)"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "10",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "vesugen-mypeptidematch",
+              "source_url": "https://www.mypeptidematch.com/protocols/vesugen-dosing-20mg",
+              "locator": "빠른 시작 안내의 주요 내용; 재구성 단계"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "10일 과정",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "maintenance_alternatives": [
+          {
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "격일로; 출처에는 유지 기간이 명시되어 있지 않아요."
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 4,
+          "maximum": 6,
+          "unit": "calendar_month"
+        },
+        "timing_guidance": {
+          "preferred_time_of_day": "morning",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference"
+        },
+        "storage": {
+          "source_id": "vesugen-mypeptidematch",
+          "notes": "출처는 동결 건조된 물질을 25 °C 미만에서 보관한다고 설명해요. 재구성한 용액은 2–8 °C에서 냉장 보관하고 28일 이내에 사용하라고 해요."
+        },
+        "cautions": {
+          "source_id": "vesugen-mypeptidematch",
+          "source_statements": [
+            {
+              "section": "용량 표",
+              "subsection": "교육 참고용",
+              "excerpt": "교육 참고용일 뿐이에요. 처방 의료진은 임상 프로필과 반응에 따라 용량을 조정할 수 있어요.",
+              "truncated": false
+            },
+            {
+              "section": "자주 묻는 질문",
+              "subsection": "Vesugen은 혈압을 낮출 수 있나요?",
+              "excerpt": "이는 약물 항고혈압제를 대체하지 않지만 보조적인 도움을 줄 수 있어요.",
+              "truncated": false
+            },
+            {
+              "section": "면책 고지",
+              "subsection": "",
+              "excerpt": "이 콘텐츠는 정보 제공만을 목적으로 하며 의학적 조언을 구성하지 않아요. 펩타이드 요법을 시작하기 전에 면허를 보유한 의료 제공자와 상담하세요. 용량과 프로토콜은 제형과 처방자에 따라 달라질 수 있어요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established_by_this_source",
+          "conflicting_reconstitution_volume_in_source",
+          "maintenance_duration_not_specified",
+          "primary_study_details_not_provided"
+        ],
+        "notes": "출처 참고용이에요. 페이지에는 10일 과정과 격일 유지 대안이 설명되어 있지만, 유지 기간은 명시되어 있지 않아요."
+      }
+    },
+    {
+      "id": "vesugen-dosage-peptide-reference",
+      "productID": "vesugen",
+      "title": "Vesugen — Dosage Peptide 출처의 일일 적정 일정 (미검증)",
+      "purpose": "출처에 기술된 참고 계획",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; source describes this as research and educational information, not human dosing guidance.",
+      "evidenceNotes": "상업적 이차 출처예요. 이 출처의 일일 용량 일정 (500–2,000 mcg)은 MyPeptideMatch의 10일 과정인 200 mcg 및 격일 유지 대안의 200 mcg 용량과 크게 달라요. 이 파일에는 출처별 일정을 따로 기록하며, 어느 일정도 사람에게 안전하거나 효과적인 요법임을 입증하지 않아요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vesugen"
+            }
+          ],
+          "sequence_as_reported": "Lys-Glu-Asp (KED)"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "6.67",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "vesugen-dosage-peptide",
+              "source_url": "https://www.dosagepeptide.com/single-peptide-dosages/vesugen-20mg-vial-dosage-protocol/",
+              "locator": "용량 및 재구성 안내; 표준 / 점진적 접근법"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "1주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "2주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "4–8주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 35,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1500",
+              "maximum": "2000",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "optional_extension": {
+          "dose": {
+            "minimum": "1500",
+            "maximum": "2000",
+            "unit": "mcg",
+            "basis": "total_product"
+          },
+          "notes": "출처는 일부 참고 자료에서 과정을 약 16주까지 연장한다고 설명하지만, 그 연장에 대한 별도의 적정 일정은 제시하지 않아요."
+        },
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "source_reported"
+        },
+        "storage": {
+          "source_id": "vesugen-dosage-peptide",
+          "notes": "출처는 동결 건조 바이알을 −20 °C (−4 °F)에 보관한다고 설명해요. 재구성한 용액은 2–8 °C에서 냉장 보관하고 빛을 차단하며 얼리지 말라고 해요."
+        },
+        "cautions": {
+          "source_id": "vesugen-dosage-peptide",
+          "source_statements": [
+            {
+              "section": "빠른 시작 안내의 주요 내용",
+              "subsection": "연구용 제한 사항",
+              "excerpt": "이 수치는 보고된 실험적 취급 방법만 설명하며, 사람 사용이 아닌 연구용으로 제공돼요.",
+              "truncated": false
+            },
+            {
+              "section": "작용 방식",
+              "subsection": "근거 관련 주의 사항",
+              "excerpt": "존재하는 사람 대상 연구는 규모가 작고, 무작위 배정되지 않았으며, 위약 대조도 하지 않았어요.",
+              "truncated": false
+            },
+            {
+              "section": "중요 면책 고지",
+              "subsection": "",
+              "excerpt": "여기에 언급된 연구용 화합물은 실험실 및 연구 목적으로만 사용해야 하며 — 사람이 섭취하면 안 되고 — 사람 사용을 위해 FDA 승인을 받지 않았어요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established",
+          "conflicting_source_dose_schedules",
+          "source_course_length_varies_from_8_to_12_weeks_with_some_references_to_16",
+          "optional_extension_schedule_not_fully_specified"
+        ],
+        "notes": "출처 참고용이에요. 페이지는 8–12주를 일반적인 기간으로 설명하며, 일부 참고 자료에서는 약 16주까지 연장해요. 세부 표는 1–8주를 다루고 4–8주차 이상에 대한 용량 범위를 제시해요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vesugen-mypeptidematch",
+      "url": "https://www.mypeptidematch.com/protocols/vesugen-dosing-20mg",
+      "title": "Vesugen Dosing Protocol: 20 mg Vial — Vascular Bioregulator & Cardiovascular Guide",
+      "publisher": "MyPeptideMatch",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "vesugen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vesugen-20mg-vial-dosage-protocol/",
+      "title": "Vesugen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": "2025-11-27"
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vesugen-mypeptidematch-reference",
+      "sourceID": "vesugen-mypeptidematch",
+      "locator": "Quickstart highlights; Dosing table; Reconstitution steps; Protocol overview & cycle notes; Storage & handling",
+      "evidenceNote": "출처에 기술된 참고 일정이에요. 페이지의 재구성 부피가 일관되지 않고, 독립적인 주요 출처 검증은 아직 진행 중이에요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/maintenance_alternatives",
+        "/off_period",
+        "/timing_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "vesugen",
+      "sourceID": "vesugen-mypeptidematch",
+      "locator": "Quickstart highlights; How this works & references",
+      "evidenceNote": "페이지는 Vesugen을 Lys-Glu-Asp (KED)로 밝히고 제안된 혈관 효과를 설명하지만, 인용된 참고 자료와 주장은 여기서 독립적으로 검증하지 않았어요.",
+      "supports": [
+        "/name",
+        "/aliases",
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "protocolID": "vesugen-dosage-peptide-reference",
+      "sourceID": "vesugen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; Quickstart Highlights; Protocol Overview; Storage Instructions; Important Disclaimer",
+      "evidenceNote": "상업적 이차 출처예요. 이 출처는 해당 일정을 연구용으로만 표시하고 사람 대상 용량으로 검증되지 않았다고 해요. 이 파일에 함께 기록된 MyPeptideMatch 일정과는 용량 일정이 크게 달라요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/optional_extension",
+        "/timing_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

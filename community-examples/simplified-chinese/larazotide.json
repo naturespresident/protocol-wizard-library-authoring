@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "larazotide",
+      "name": "Larazotide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "larazotide-catalog-entry",
+      "productID": "larazotide",
+      "title": "Larazotide（0.5mg）剂量方案——来源参考",
+      "purpose": "单个页面中的方案安排与处理细节，转录为研究／教育参考资料",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下为该页面所述内容，并非经独立核实的临床指导。该页面报告的口服研究方案约为 0.5 mg（500 mcg），每日三次，餐前服用；页面称，达到试验终点的是该 2b 期组，而非更高剂量组。口服肽类，无需复溶／注射；尚未获批。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "2b 期参考组",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "description": "每日三次，餐前服用；页面称，0.5 mg 这一组达到了试验终点。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "仅供研究试验参考。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "larazotide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/larazotide-0-5mg-dosage-protocol/",
+      "title": "Larazotide (0.5mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "larazotide-catalog-entry",
+      "sourceID": "larazotide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单个来源页面。以下为来源所述内容，并非经独立核实的临床指导；除非来源另有说明，否则尚无已确立的人体用药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "口服"
+    }
+  ]
+}

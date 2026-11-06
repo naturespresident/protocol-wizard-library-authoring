@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cjc-1295-ghrp-2",
+      "name": "CJC-1295 + GHRP-2",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cjc-1295-ghrp-2-catalog-entry",
+      "productID": "cjc-1295-ghrp-2",
+      "title": "CJC-1295 + GHRP-2 (10mg 혼합물) 용량 프로토콜 — 출처 참조",
+      "purpose": "연구 및 교육 참고 자료로 옮긴 개별 페이지의 일정 및 취급 세부 정보",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "상업적 보조 출처이며, 이는 해당 페이지의 설명으로 독립적으로 검증된 임상 지침이 아니에요. 전체 혼합물만 해당하며, 각 성분의 비율은 공개되지 않았어요. 페이지 참조: 총 혼합물 10 mg + 정균수 3 mL(~3.33 mg/mL), 총 혼합물 기준 용량 150 mcg. 임상적으로 검증되지 않았으며 연구용으로만 사용하세요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "전체 혼합물 기준 용량",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "150",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "양은 전체 혼합물에 적용되며, 출처는 수집된 요약에서 성분 비율이나 투여 빈도를 공개하지 않았어요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "각 성분의 용량과 완전한 투여 일정은 혼합물 페이지에서 확립되지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cjc-1295-ghrp-2-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/cjc-1295-ghrp-2-10mg-blend-vial-dosage-protocol/",
+      "title": "CJC-1295 + GHRP-2 (10mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cjc-1295-ghrp-2-catalog-entry",
+      "sourceID": "cjc-1295-ghrp-2-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 설명이며 독립적으로 검증된 임상 지침이 아니에요. 출처에서 달리 밝히지 않는 한 인간 대상 투여 요법은 확립되어 있지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장 호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

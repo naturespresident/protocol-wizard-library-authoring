@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ovagen",
+      "name": "Ovagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ovagen-catalog-entry",
+      "productID": "ovagen",
+      "title": "Ovagen (20mg 바이알) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지에 실린 일정 및 취급 세부 정보로, 연구/교육 참고용으로 옮겨 적은 내용이에요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "이차 상업 출처예요. 아래 내용은 해당 페이지의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. EDL 간/위장관 생물조절제예요. 출처에 보고된 매일 한 차례 피하 용량 증량 일정: 800 mcg (1–2주차), 1,200 mcg (3–4주차), 1,600 mcg (5–6주차), 2,000 mcg (7–12주차)예요. 20 mg + 3 mL 정균수 (~6.67 mg/mL). 연구 참고용일 뿐이며, 독립적인 인체 효능 시험은 없어요. 이는 EDL 제품이며, Ovagen이라는 이름을 함께 사용하는 양 FSH는 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "1–2주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "800",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3–4주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "5–6주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1600",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "7–12주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "2000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "EDL 간/위장관 생물조절제예요. 출처에 보고된 매일 한 차례 피하 용량 증량 일정: 800 mcg (1–2주차), 1,200 mcg (3–4주차), 1,600 mcg (5–6주차), 2,000 mcg (7–12주차)예요. 20 mg + 3 mL 정균수 (~6.67 mg/mL). 연구 참고용일 뿐이며, 독립적인 인체 효능 시험은 없어요. 이는 EDL 제품이며, Ovagen이라는 이름을 함께 사용하는 양 FSH는 아니에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ovagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ovagen-20mg-vial-dosage-protocol/",
+      "title": "Ovagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ovagen-catalog-entry",
+      "sourceID": "ovagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 내용은 출처의 진술이며 독립적으로 검증된 임상 지침이 아니에요. 출처에서 달리 말하지 않는 한, 확립된 인체 투여 요법은 없어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

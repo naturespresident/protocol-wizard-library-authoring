@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-selank-amidate",
+      "name": "N-Acetyl Selank Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-selank-amidate-catalog-entry",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "N-Acetyl Selank Amidate 비강 투여 일정 — 출처 참고",
+      "purpose": "출처에 보고된 비강 투여 연구 일정이에요. amidate 전용 임상 용량은 확립되지 않았어요.",
+      "methodID": "intranasal",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.org는 공식적인 N-Acetyl Selank Amidate 용량 지침이 없다고 밝히며 Selank 자료를 바탕으로 추정해요. 해당 참고 일정은 300 mcg 펌프를 하루 2–3회 사용해 비강으로 600–900 mcg/day를 투여하며, 최대 14일간 진행하는 방식이에요. 도표에는 한 주간 휴약한 뒤 두 주 과정을 반복하는 일정이 나와 있어요. 하루 9회 펌프를 초과하지 말라고 하며 EEG와 임상 상태를 모니터링할 것을 권고해요. 이는 검증된 임상 요법이 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "1–2주차 비강 투여 과정",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "출처에 보고된 방식은 매회 300 mcg 펌프 한 번을 사용해 하루 2–3회, 총 600–900 mcg/day를 투여하는 거예요. 해당 페이지에는 하루 최대 9회 펌프 사용이라고도 명시되어 있고, 참고 과정에서는 연속 14일을 초과하지 말라고 권고해요."
+            }
+          },
+          {
+            "name": "3주차 휴약",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "출처의 도표에 표시된 것처럼 투여 과정 사이에 한 주간 휴약해요."
+            }
+          },
+          {
+            "name": "4–5주차 비강 투여 과정 반복",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "도표에는 총 600–900 mcg/day 용량으로 300 mcg 펌프 1회분을 하루 2–3회 반복한다고 나와 있어요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Peptides.org는 amidate 전용 용량 지침과 주기 길이 데이터가 없으며 권고는 Selank에서 외삽했다고 밝혀요. 참고 일정은 2주 투여, 1주 휴약 후 선택적으로 반복하는 2주 과정이에요. EEG와 임상 상태를 모니터링하라고 권고해요. 출처에 보고된 연구 참고용일 뿐이에요."
+      }
+    },
+    {
+      "id": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "N-Acetyl Selank Amidate 피하 투여 일정 — 출처 참고",
+      "purpose": "출처에 보고된 별도의 피하 투여 연구 일정이에요. amidate 전용 임상 용량은 확립되지 않았어요.",
+      "methodID": "subcutaneous",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.org는 보수적인 피하 투여 참고 용량으로 하루 150–300 mcg 용량을 최대 두 주간 투여한 뒤 한 주간 휴약하고, 두 주 과정을 반복할 수 있다고 설명해요. 해당 페이지는 amidate 전용 용량 및 안전성 자료가 부족하다고 밝혀요. 이는 검증된 임상 요법이 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "1–2주차 피하 투여 과정",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "페이지의 보수적인 피하 투여 참고 용량으로, 하루 총량 150–300 mcg 범위로 최대 두 주간 투여해요."
+            }
+          },
+          {
+            "name": "3주차 휴약",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "출처의 도표에 표시된 것처럼 투여 과정 사이에 한 주간 휴약해요."
+            }
+          },
+          {
+            "name": "4–5주차 피하 투여 과정 반복",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "도표에는 4–5주차에 하루 150–300 mcg 용량을 참고해 반복한다고 나와 있어요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처에는 보수적으로 하루 150–300 mcg 용량으로 최대 두 주간 투여하고, 한 주간 휴약한 뒤 두 주 과정을 반복할 수 있다고 나와 있어요. 피하 주사와 amidate 전용 자료의 부족도 언급해요. 연구 참고용일 뿐이에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-selank-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-selank-amidate-nasal-spray-dosage-protocol/",
+      "title": "N-Acetyl Selank Amidate (Nasal Spray) Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "n-acetyl-selank-amidate-peptides-org",
+      "url": "https://www.peptides.org/n-acetyl-selank-amidate-dosage-calculator/",
+      "title": "N-Acetyl Selank Amidate Dosage Calculator and Chart",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Dosage Peptide 페이지는 제형 관련 맥락을 제공하지만 정량화된 용량은 제시하지 않아요. Peptides.org는 비강 투여와 피하 투여의 별도 참고 일정을 제공해요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Reference N-Acetyl Selank Amidate Dosing Protocol; Cycle Length; Microdosing",
+      "evidenceNote": "페이지에서 제안한 amidate 일정은 Selank 자료에서 외삽한 것이며 확립된 임상 용량 지침은 아니에요.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Microdosing N-Acetyl Selank Amidate; Reference dosing protocol",
+      "evidenceNote": "페이지는 확립된 용량 및 안전성 정보가 없다고 밝히면서 이를 보수적인 연구 참고 자료로 제시해요.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경계"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "비강 투여"
+    },
+    {
+      "id": "subcutaneous",
+      "name": "피하 투여"
+    }
+  ]
+}

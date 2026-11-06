@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "libidon",
+      "name": "Libidon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "libidon-catalog-entry",
+      "productID": "libidon",
+      "title": "Libidon (Prostata-Bioregulator) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf einer Einzelseite, als Forschungs-/Bildungsreferenz transkribiert",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die nachstehenden Angaben sind Aussagen der Quelle und keine unabhängig verifizierten klinischen Empfehlungen. Übliche Konvention für orale Kapseln: 20 mg: täglich 1–2 Kapseln über 10–30 Tage, häufig vor den Mahlzeiten, 2–3 Mal pro Jahr wiederholt. Proprietärer tierischer Prostataextrakt, der sich von Prostatilen/Prostamax unterscheidet; keine validierte therapeutische Dosis beim Menschen.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Orale Kur",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Üblicherweise vor einer Mahlzeit; 2–3 Kuren pro Jahr wiederholen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Auf der Seite werden Kapseln zu 20 mg angegeben; täglich 1–2 Kapseln über 10–30 Tage, 2–3 Mal pro Jahr wiederholt. Der Extrakt ist proprietär; diese Konvention ist klinisch nicht validiert."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "libidon-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/libidon-prostate-bioregulator-dosage-protocol/",
+      "title": "Libidon (Prostate Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "libidon-catalog-entry",
+      "sourceID": "libidon-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON bewahrt den dort angegebenen Zeitplan, den Formulierungskontext und die Vorbehalte; es belegt kein klinisch validiertes Regime.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert & klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

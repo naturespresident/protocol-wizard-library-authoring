@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "p21",
+      "name": "P21",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "p21-catalog-entry",
+      "productID": "p21",
+      "title": "P21 (10 mg) Dosierungsprotokoll – Quellenreferenz",
+      "purpose": "Individueller Zeitplan und Angaben zur Handhabung, als Forschungs-/Bildungsreferenz transkribiert",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben sind Aussagen der Quelle selbst und keine unabhängig verifizierten klinischen Empfehlungen. Keine etablierte Humandosis. In veröffentlichten Wirksamkeitsstudien an Mäusen wurden 60 nmol/g Futter verabreicht (~94 mcg/Maus/Tag bei der berichteten Futteraufnahme). In der Community verbreitete injizierbare Mengen von 500–1,000 mcg täglich werden nicht durch veröffentlichte Humanstudien gestützt. Die Seite nennt 10 mg + 2 mL zur Rekonstitution ausschließlich als Referenzrechnung.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Exposition von Mäusen über das Futter",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "94",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Ungefähre tägliche Menge pro Maus, die in veröffentlichten Mausstudien über das Futter verabreicht wurde; keine injizierbare Dosis und keine Humandosis."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Keine etablierte Humandosis. Laut Seite wurde P21 in Wirksamkeitsexperimenten über das Futter verabreicht; für in der Community übliche injizierbare Mengen gibt es keine veröffentlichte Grundlage."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "p21-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/p21-10mg-vial-dosage-protocol/",
+      "title": "P21 (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "p21-catalog-entry",
+      "sourceID": "p21-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON bewahrt den dort angegebenen Zeitplan und Formulierungskontext sowie die Einschränkungen; es legt kein klinisch validiertes Behandlungsschema fest.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Kognition und Neurologie"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Orale Einnahme"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cerebrolysin",
+      "name": "Cerebrolysin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cerebrolysin-catalog-entry",
+      "productID": "cerebrolysin",
+      "title": "Cerebrolysin（60 mg バイアル）の投与量プロトコル — 出典参照",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育目的の参考情報として転記したものです",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は情報源自身の記述であり、独立して検証された臨床上の指針ではありません。ページに記載された参考スケジュール：60 mg バイアルを3 mL で再構成し、その後、1週目は20 mg/日、2週目は24 mg/日を午前・午後に分けて投与、3週目は28 mg/日を午前・午後に分けて投与、4週目以降は32 mg/日を午前・午後に分けて投与します。これは商業的な研究参考情報であり、ヒトへの使用に関する指針ではありません。本製品はブタ脳由来の混合物であり、米国ではFDA承認されていません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "1週目",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "2週目",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "24",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3週目",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "28",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "4週目以降",
+            "duration": {
+              "kind": "ongoing",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "32",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "ページに記載された参考スケジュール：60 mg バイアルを3 mL で再構成し、その後、1週目は20 mg/日、2週目は24 mg/日を午前・午後に分けて投与、3週目は28 mg/日を午前・午後に分けて投与、4週目以降は32 mg/日を午前・午後に分けて投与します。これは商業的な研究参考情報であり、ヒトへの使用に関する指針ではありません。本製品はブタ脳由来の混合物であり、米国ではFDA承認されていません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cerebrolysin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cerebrolysin-60mg-vial-dosage-protocol/",
+      "title": "Cerebrolysin (60mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cerebrolysin-catalog-entry",
+      "sourceID": "cerebrolysin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤の背景、および注意事項を保持していますが、臨床的に検証されたレジメンを確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知機能・神経"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "筋肉内"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "teriparatide",
+      "name": "Teriparatide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "teriparatide-catalog-entry",
+      "productID": "teriparatide",
+      "title": "Protocolo de dosificación de Teriparatide (10 mg) — referencia de la fuente",
+      "purpose": "Cronograma y detalles de manejo de la página individual, transcritos como referencia de investigación y educativa",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; estas son las afirmaciones de la página, no orientación clínica verificada de forma independiente. El medicamento de prescripción PTH(1–34) se dosifica en microgramos, no miligramos; la página presenta el vial de investigación solo como referencia y no como recomendación de dosis. Siga el etiquetado del producto aprobado y la atención de especialistas; no convierta un vial de investigación en un régimen.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia del etiquetado aprobado",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Dosis de la pluma precargada aprobada. El ensayo también estudió 40 mcg/día, con más efectos adversos; no es un esquema para vial de investigación."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Esta fuente indica explícitamente que la página no proporciona ninguna dosis para administrar el vial de investigación. 20 mcg/día corresponde únicamente al contexto del etiquetado del producto aprobado; el cálculo de concentración del vial no constituye una recomendación de administración."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "teriparatide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/teriparatide-10mg-vial-dosage-protocol/",
+      "title": "Teriparatide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "teriparatide-catalog-entry",
+      "sourceID": "teriparatide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Estas son afirmaciones de la fuente y no orientación clínica verificada de forma independiente; no se ha establecido ningún régimen para humanos salvo que la fuente indique lo contrario.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Curación y recuperación"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

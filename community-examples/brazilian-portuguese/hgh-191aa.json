@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hgh-191aa",
+      "name": "HGH 191AA",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hgh-191aa-catalog-entry",
+      "productID": "hgh-191aa",
+      "title": "Protocolo de dosagem de HGH 191AA (frasco de 10IU) — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; estas são afirmações da página, não orientações clínicas verificadas de forma independente. A página relata uma referência conservadora de reposição de 150–500 mcg/dia, começando perto de 200 mcg e aumentando cerca de 100 mcg/semana; também menciona quantidades avançadas de pesquisa de até 1,000–2,000 mcg/dia. Frasco de 10 IU + 3 mL é um cálculo de concentração. Somatropina é um medicamento sujeito a prescrição; use somente sob orientação de um profissional de saúde.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência conservadora de reposição",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "range_options": [
+                {
+                  "minimum": "150",
+                  "maximum": "500"
+                },
+                {
+                  "minimum": "1000",
+                  "maximum": "2000"
+                }
+              ],
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "A fonte distingue referências conservadoras de reposição (150–500 mcg/dia) de quantidades avançadas de pesquisa (1,000–2,000 mcg/dia); começa perto de 200 mcg e descreve incrementos semanais de cerca de 100 mcg."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "A fonte descreve o contexto de bula da somatropina sob prescrição e faixas de pesquisa. Um frasco para pesquisa não é um produto aprovado; a dose não deve ser tratada como orientação para autoadministração."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hgh-191aa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hgh-191aa-10iu-vial-dosage-protocol/",
+      "title": "HGH 191AA (10IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hgh-191aa-catalog-entry",
+      "sourceID": "hgh-191aa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página da fonte individual revisada. Estas são afirmações da fonte e não orientações clínicas verificadas de forma independente; nenhum regime em humanos está estabelecido, a menos que a fonte diga o contrário.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormônio do crescimento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

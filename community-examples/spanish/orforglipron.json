@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "orforglipron",
+      "name": "Orforglipron",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "orforglipron-catalog-entry",
+      "productID": "orforglipron",
+      "title": "Orforglipron (6mg) Protocolo de dosificación — referencia de la fuente",
+      "purpose": "Calendario de la página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son declaraciones propias de la fuente, no orientación clínica verificada de forma independiente. Molécula pequeña oral, no es un péptido. En los brazos del ensayo se usaron dosis una vez al día con intervalos de escalada de 4 semanas (3, 12, 36 mg). La página afirma que Foundayo recibió la aprobación de la FDA en 2026, pero el material de grado de investigación no es el producto aprobado; no requiere reconstitución.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Brazos de dosis del ensayo de fase 3",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "3",
+                "12",
+                "36"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Por vía oral una vez al día, con intervalos de escalada de 4 semanas en los ensayos."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Los brazos de dosis del ensayo son distintos de una receta para material de investigación. La fuente señala que hay un producto aprobado, pero el material de investigación no es ese producto."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "orforglipron-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/orforglipron-6mg-dosage-protocol/",
+      "title": "Orforglipron (6mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "orforglipron-catalog-entry",
+      "sourceID": "orforglipron-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el calendario y el contexto de formulación indicados por la página, así como sus advertencias; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

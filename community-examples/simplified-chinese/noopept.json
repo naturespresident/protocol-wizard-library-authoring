@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "noopept",
+      "name": "Noopept",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "noopept-catalog-entry",
+      "productID": "noopept",
+      "title": "Noopept（20 mg）剂量方案——来源参考",
+      "purpose": "作为研究／教育参考，转录单页方案安排和处理细节",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节为来源本身的陈述，未经独立核实，不构成临床指导。页面报告了一项开放性临床研究中的用量：60 名卒中患者每日口服 20 mg，通常分为每日两次、每次 10 mg，持续两个月。无需复溶或注射。证据仅限于少量俄语开放性报告；FDA 将其视为未经批准的新药，而非膳食成分。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "开放性研究参考",
+            "duration": {
+              "kind": "fixed",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "每日 20 mg，分为每日两次、每次 10 mg。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源报告称，一项针对少量卒中患者的开放性研究中，每日口服 20 mg，分为每日两次、每次 10 mg，持续两个月。这是研究中的给药安排，并非已确立的建议。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "noopept-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/noopept-20mg-dosage-protocol/",
+      "title": "Noopept (20 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "noopept-catalog-entry",
+      "sourceID": "noopept-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单页来源。此 JSON 保留了页面所述的给药安排、剂型背景及其注意事项；这并不能确立经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经系统"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "口服"
+    }
+  ]
+}

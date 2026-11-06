@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pramlintide",
+      "name": "Pramlintide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pramlintide-catalog-entry",
+      "productID": "pramlintide",
+      "title": "Pramlintide（5 mg）用量プロトコル — 出典参考資料",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育用の参考情報として転記したものです",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は出典ページの記載内容であり、臨床上の指針として独立に検証されたものではありません。同ページでは、食事前に60–120 mcg を使用するなど、表示上の用量をmcg単位で報告しています。これは食事時インスリンへの追加投与であり、医療従事者による用量調整が必要です。5 mg のバイアルに2.5 mL を加えると、濃度は2,000 mcg/mLです（60 mcg = 0.03 mL です）。FDA承認薬は存在しますが、研究用バイアルはその製品ではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "食事時の表示用量範囲",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "60",
+              "maximum": "120",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "食事時インスリンへの追加投与として食事前に投与します。正確な用量は適応症と食事内容によって異なります。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "出典ページには、食事前に60–120 mcg と記載されています。Pramlintideでは食事時インスリンの減量と医療従事者の監督が必要です。この範囲は個人向けのスケジュールではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pramlintide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pramlintide-5mg-vial-dosage-protocol/",
+      "title": "Pramlintide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pramlintide-catalog-entry",
+      "sourceID": "pramlintide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤の文脈、および注意事項を保持していますが、臨床的に検証された投与計画を示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重と代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

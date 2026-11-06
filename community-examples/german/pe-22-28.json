@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pe-22-28",
+      "name": "PE-22-28",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pe-22-28-catalog-entry",
+      "productID": "pe-22-28",
+      "title": "PE-22-28 (10mg-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs- und Bildungsreferenz übertragen",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben sind Aussagen der Quelle selbst und keine unabhängig verifizierte klinische Anleitung. Die Seitentabelle nennt 50 mcg täglich in den Wochen 1–2, 100 mcg täglich in den Wochen 3–8, optional 150 mcg täglich in den Wochen 9–12 und optional 200 mcg täglich in den Wochen 13–16. Referenz zur Rekonstitution: 10 mg + 3 mL bakteriostatisches Wasser (~3.33 mg/mL). Ausschließlich Nagetierdaten; keine zugelassene Humandosis.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Wochen 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Wochen 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Wochen 5–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Optionale Wochen 9–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "150",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Optionale Wochen 13–16",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Die Seitentabelle nennt 50 mcg täglich in den Wochen 1–2, 100 mcg täglich in den Wochen 3–8, optional 150 mcg täglich in den Wochen 9–12 und optional 200 mcg täglich in den Wochen 13–16. Referenz zur Rekonstitution: 10 mg + 3 mL bakteriostatisches Wasser (~3.33 mg/mL). Ausschließlich Nagetierdaten; keine zugelassene Humandosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pe-22-28-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pe-22-28-10mg-vial-dosage-protocol/",
+      "title": "PE-22-28 (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pe-22-28-catalog-entry",
+      "sourceID": "pe-22-28-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON bewahrt den auf der Seite angegebenen Kontext zu Zeitplan und Formulierung sowie die dortigen Einschränkungen; es belegt kein klinisch validiertes Dosierungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Kognition und Neurologie"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "testoluten",
+      "name": "Testoluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "testoluten-catalog-entry",
+      "productID": "testoluten",
+      "title": "Testoluten (Testes Bioregulator) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs-/Bildungsreferenz wiedergegeben",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben sind eigene Aussagen der Quelle und keine unabhängig überprüfte klinische Anleitung. Übliche Konvention für orale Kapseln, meist 20 mg: 1–2 Kapseln täglich über 10–30 Tage, oft vor den Mahlzeiten; 2–3 Mal pro Jahr wiederholt. Die verwandte, untersuchte Zubereitung ist Testilin aus Tierversuchen; für Testoluten gibt es keine kontrollierte Evidenz am Menschen zu Testosteron oder Fruchtbarkeit.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Orale Einnahmekur",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Üblicherweise vor einer Mahlzeit; 2–3 Kuren pro Jahr wiederholen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Die Seite nennt Kapseln zu 20 mg; 1–2 Kapseln täglich über 10–30 Tage, 2–3 Mal pro Jahr wiederholt. Der Extrakt ist proprietär; die Evidenz zu verwandtem Testilin stammt ausschließlich aus Tierversuchen."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "testoluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/testoluten-testes-bioregulator-dosage-protocol/",
+      "title": "Testoluten (Testes Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "testoluten-catalog-entry",
+      "sourceID": "testoluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dieses JSON gibt den angegebenen Zeitplan und den Kontext zur Darreichungsform sowie die Einschränkungen der Seite wieder; es belegt kein klinisch validiertes Schema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert & klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

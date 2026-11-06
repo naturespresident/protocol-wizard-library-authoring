@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ptd-dbm",
+      "name": "PTD-DBM",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ptd-dbm-catalog-entry",
+      "productID": "ptd-dbm",
+      "title": "PTD-DBM（5mg 小瓶）剂量方案——来源参考",
+      "purpose": "逐页安排和操作细节，转录为研究/教育参考资料",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，并非经过独立核实的临床指导。没有人体剂量。所有报告的疗效均来自在小鼠中使用外用 100 μM 的研究；尚无注册的人体试验。该页面侧重于外用应用/参考，而非注射方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "单页参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "没有人体剂量。所有报告的疗效均来自在小鼠中使用外用 100 μM 的研究；尚无注册的人体试验。该页面侧重于外用应用/参考，而非注射方案。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "没有人体剂量。所有报告的疗效均来自在小鼠中使用外用 100 μM 的研究；尚无注册的人体试验。该页面侧重于外用应用/参考，而非注射方案。标记：该单独来源页面未提供数值化的给药剂量；如有说明，制剂浓度或定性方案会保留在备注中，不会换算为剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ptd-dbm-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ptd-dbm-5mg-vial-dosage-protocol/",
+      "title": "PTD-DBM (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ptd-dbm-catalog-entry",
+      "sourceID": "ptd-dbm-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单独的来源页面。此 JSON 保留了该页面所述的方案/制剂背景及其注意事项；它不能确立经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "抗衰老与皮肤"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

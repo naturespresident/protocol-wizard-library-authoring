@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hgh-191aa",
+      "name": "HGH 191AA",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hgh-191aa-catalog-entry",
+      "productID": "hgh-191aa",
+      "title": "Protocolo de dosificación de HGH 191AA (vial de 10IU) — referencia de la fuente",
+      "purpose": "Calendario de una página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; estas son afirmaciones de la página, no orientación clínica verificada de forma independiente. La página informa una referencia conservadora de reemplazo de 150–500 mcg por día, comenzando cerca de 200 mcg y aumentando aproximadamente 100 mcg por semana; también menciona cantidades de investigación avanzadas de hasta 1,000–2,000 mcg por día. El vial de 10 IU + 3 mL es un cálculo de concentración. Somatropin es un medicamento de venta con receta; úsese solo bajo la indicación de un profesional clínico.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia conservadora de reemplazo",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "range_options": [
+                {
+                  "minimum": "150",
+                  "maximum": "500"
+                },
+                {
+                  "minimum": "1000",
+                  "maximum": "2000"
+                }
+              ],
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "La fuente distingue las referencias conservadoras de reemplazo (150–500 mcg por día) de las cantidades de investigación avanzadas (1,000–2,000 mcg por día); comienza cerca de 200 mcg y describe incrementos semanales de ~100 mcg."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La fuente describe el contexto de la etiqueta de somatropina de venta con receta y los rangos de investigación. Un vial de investigación no es un producto aprobado; la dosis no debe considerarse una indicación para la autoadministración."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hgh-191aa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hgh-191aa-10iu-vial-dosage-protocol/",
+      "title": "HGH 191AA (10IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hgh-191aa-catalog-entry",
+      "sourceID": "hgh-191aa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó una página de fuente individual. Estas son afirmaciones de la fuente y no orientación clínica verificada de forma independiente; no se establece ningún régimen para seres humanos, salvo que la fuente lo indique.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormona del crecimiento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

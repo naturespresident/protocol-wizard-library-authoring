@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "slu-pp-332-catalog-entry",
+      "productID": "slu-pp-332",
+      "title": "SLU-PP-332（5mg 小瓶）剂量方案 — 来源参考",
+      "purpose": "转录自单独页面的日程安排与操作细节，作为研究／教育参考资料",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节为该来源自身的陈述，并未经过独立核实为临床指导。仅限小鼠当量方案：第1–2周每日两次，每次625 mcg（1,250 mcg/天），随后第3–8周每日两次，每次1,250 mcg（2,500 mcg/天）。基于约25 g的小鼠，并非人类剂量。5 mg + 3 mL 为参考计算；这是小分子，不是肽，仅限临床前研究。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第1–2周，小鼠当量",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "625",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "每次给药625 mcg，每日两次（1,250 mcg/天），适用于约25 g的小鼠；并非人类剂量。"
+            }
+          },
+          {
+            "name": "第3–8周，小鼠当量",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1250",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "每次给药1,250 mcg，每日两次（2,500 mcg/天），适用于约25 g的小鼠；并非人类剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "仅限临床前小鼠当量方案；SLU-PP-332是小分子，不是肽。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "slu-pp-332-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/slu-pp-332-5mg-vial-dosage-protocol/",
+      "title": "SLU-PP-332 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "slu-pp-332-catalog-entry",
+      "sourceID": "slu-pp-332-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单独的来源页面。此 JSON 保留了该页面所述的方案／制剂背景及其注意事项；这并不能确立经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "其他"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "l-carnitine",
+      "name": "L-Carnitine",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "l-carnitine-catalog-entry",
+      "productID": "l-carnitine",
+      "title": "L-Carnitine (200mg 바이알) 용량 투여 프로토콜 — 출처 참조",
+      "purpose": "개별 페이지의 일정 및 취급 세부 정보를 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "이차 상업 출처예요. 아래 세부 정보는 출처 자체의 설명이며, 독립적으로 검증된 임상 지침은 아니에요. 이 페이지는 200 mg 바이알과 정균수 2 mL, 연구용 용량(50 mg)을 언급해요. 이는 연구상 취급 수치이지 의학적 조언이 아니며, 피하 지방 감소 목적의 사용은 허가 외 사용이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "연구 용량 참고",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "페이지에는 투여당 용량(50 mg)이 보고되어 있으며, 캡처된 요약에는 빈도/투여 기간이 명시되어 있지 않아요. 피하 지방 감소 목적의 사용은 허가 외 사용이에요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "용량은 의학적 지침이 아니라 연구상 취급 참고 자료예요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "l-carnitine-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/l-carnitine-200mg-vial-dosage-protocol/",
+      "title": "L-Carnitine (200mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "l-carnitine-catalog-entry",
+      "sourceID": "l-carnitine-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정/제형 맥락과 주의 사항을 보존하지만, 임상적으로 검증된 투여 요법을 입증하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

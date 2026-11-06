@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pentadeca-arginate-pda",
+      "name": "Pentadeca Arginate / PDA (펜타데카 아르기네이트)",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pentadeca-arginate-pda-catalog-entry",
+      "productID": "pentadeca-arginate-pda",
+      "title": "Pentadeca Arginate / PDA (10mg 바이알) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 정보를 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "상업적 이차 자료예요. 아래 세부 사항은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침이 아니에요. 검증된 사람 대상 요법은 없고 아르기네이트 염 자체에 관한 발표된 연구도 없어요. 페이지는 BPC-157을 본뜬 커뮤니티 관행을 설명해요: 매일 250–500 mcg 피하 투여; 10 mg + 3 mL 조합으로 3.33 mg/mL 농도가 나와요. 연구용이며, 규제 위원회의 권고는 FDA 승인이 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "BPC-157을 본뜬 커뮤니티 관행",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "아르기네이트 형태 자체의 발표된 용량 연구는 없으며, 관행은 BPC-157을 본떠요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "검증된 사람 대상 요법은 없고, 보고된 용량은 다른 염/제형에서 외삽한 커뮤니티 관행이에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pentadeca-arginate-pda-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pentadeca-arginate-pda-10mg-vial-dosage-protocol/",
+      "title": "Pentadeca Arginate / PDA (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pentadeca-arginate-pda-catalog-entry",
+      "sourceID": "pentadeca-arginate-pda-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정/제형 관련 맥락과 주의 사항을 보존해요. 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "치유 및 회복"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

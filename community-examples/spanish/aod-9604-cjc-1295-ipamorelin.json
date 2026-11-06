@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "aod-9604-cjc-1295-ipamorelin",
+      "name": "Mezcla de AOD-9604 + CJC-1295 + Ipamorelin",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "aod-9604-cjc-1295-ipamorelin-catalog-entry",
+      "productID": "aod-9604-cjc-1295-ipamorelin",
+      "title": "AOD-9604 + CJC-1295 + Ipamorelin (mezcla de 12mg) — protocolo de dosificación, referencia de la fuente",
+      "purpose": "Esquema de administración y detalles de manejo de la página individual, transcritos como referencia de investigación/educativa",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; estas son afirmaciones de la página, no orientación clínica verificada de forma independiente. Mezcla fija: 6 mg de AOD-9604 + 3 mg de CJC-1295 + 3 mg de ipamorelin; todas las extracciones conservan la proporción, por lo que los componentes no pueden dosificarse por separado. Referencia de la fuente: 12 mg en total + 3 mL de agua bacteriostática y aproximadamente 400 mcg de la mezcla total por dosis. Solo para uso en investigación; la mezcla no está validada clínicamente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "Dosis de referencia de la mezcla total",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Solo la dosis de la mezcla total; la proporción fija de 6:3:3 mg de los componentes no permite dosificarlos por separado."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La fuente indica que la mezcla de 12 mg se reconstituye con 3 mL y describe aproximadamente 400 mcg de la mezcla total por dosis. La combinación no está validada clínicamente."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "aod-9604-cjc-1295-ipamorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/aod-9604-cjc-1295-ipamorelin-12mg-blend-vial-dosage-protocol/",
+      "title": "AOD-9604 + CJC-1295 + Ipamorelin (12mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "aod-9604-cjc-1295-ipamorelin-catalog-entry",
+      "sourceID": "aod-9604-cjc-1295-ipamorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Estas son afirmaciones de la fuente y no orientación clínica verificada de forma independiente; no se ha establecido ningún régimen en humanos, salvo que la fuente indique lo contrario.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormona del crecimiento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutáneo"
+    }
+  ]
+}

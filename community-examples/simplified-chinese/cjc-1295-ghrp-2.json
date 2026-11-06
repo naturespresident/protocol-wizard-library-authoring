@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cjc-1295-ghrp-2",
+      "name": "CJC-1295 + GHRP-2",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cjc-1295-ghrp-2-catalog-entry",
+      "productID": "cjc-1295-ghrp-2",
+      "title": "CJC-1295 + GHRP-2（10mg 混合制剂）剂量方案——来源参考",
+      "purpose": "逐页转录的给药安排与处理细节，作为研究／教育参考",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下为该页面的陈述，并非经过独立核实的临床指导。仅涉及混合物总量；未披露各组分比例。页面记载：总量 10 mg 混合物 + 3 mL 抑菌水（约 3.33 mg/mL），总混合物参考剂量为 150 mcg。未经临床验证；仅供研究使用。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "混合物总量参考剂量",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "150",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "剂量适用于混合物总量；来源未披露各组分比例或所捕获摘要中的给药频率。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "各组分剂量及完整给药方案尚未确立。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cjc-1295-ghrp-2-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/cjc-1295-ghrp-2-10mg-blend-vial-dosage-protocol/",
+      "title": "CJC-1295 + GHRP-2 (10mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cjc-1295-ghrp-2-catalog-entry",
+      "sourceID": "cjc-1295-ghrp-2-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单个来源页面。以下为来源中的陈述，并非经过独立核实的临床指导；除非来源另有说明，否则未确立人体给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

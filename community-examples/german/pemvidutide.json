@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pemvidutide",
+      "name": "Pemvidutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pemvidutide-catalog-entry",
+      "productID": "pemvidutide",
+      "title": "Pemvidutide (5 mg) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs- und Bildungsreferenz übernommen",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Sekundäre kommerzielle Quelle; die folgenden Angaben sind Aussagen der Quelle selbst und keine unabhängig bestätigte klinische Empfehlung. In Studien berichtete Dosen: 1.2, 1.8 oder 2.4 mg subkutan einmal wöchentlich. Im MASH-Programm wurden 1.2 und 1.8 mg ohne Titration verwendet; 2.4 mg wurde wegen der Verträglichkeit und ohne zusätzlichen Nutzen für den Leberfettgehalt abgesetzt. In der Prüfung und nicht zugelassen.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Dosisoptionen aus Studien",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "1.2",
+                "1.8",
+                "2.4"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "description": "In Studien einmal wöchentlich. Im MASH-Programm wurden 1.2 oder 1.8 mg ohne Titration verwendet; 2.4 mg wurde abgesetzt."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Dosisoptionen aus Studien sind kein persönlicher Zeitplan. Angaben zur Entwicklung und Verträglichkeit entsprechen der Beschreibung in der Quelle."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pemvidutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pemvidutide-5mg-vial-dosage-protocol/",
+      "title": "Pemvidutide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pemvidutide-catalog-entry",
+      "sourceID": "pemvidutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON gibt den dort angegebenen Kontext zu Zeitplan und Formulierung sowie die Einschränkungen wieder; es belegt kein klinisch validiertes Dosierungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Gewicht & Stoffwechsel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

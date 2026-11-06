@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "noopept",
+      "name": "Noopept",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "noopept-catalog-entry",
+      "productID": "noopept",
+      "title": "Noopept (20 mg) — Protocolo de dosagem — referência da fonte",
+      "purpose": "Esquema da página individual e detalhes de manuseio, transcritos como referência para pesquisa/educação",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. A página relata uma quantidade de um estudo clínico aberto: 20 mg/dia por via oral, convencionalmente divididos em 10 mg duas vezes ao dia por dois meses, em 60 pacientes com AVC. Não há reconstituição/injeção. As evidências se limitam a pequenos relatos abertos em russo; a FDA o considera um medicamento novo não aprovado, não um ingrediente dietético.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência de estudo aberto",
+            "duration": {
+              "kind": "fixed",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "20 mg/dia divididos em 10 mg duas vezes ao dia."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "A fonte relata 20 mg/dia por via oral, divididos em 10 mg duas vezes ao dia, durante dois meses, em um pequeno estudo aberto com pacientes com AVC. Este é um esquema de estudo, não uma recomendação estabelecida."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "noopept-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/noopept-20mg-dosage-protocol/",
+      "title": "Noopept (20 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "noopept-catalog-entry",
+      "sourceID": "noopept-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A página da fonte individual foi revisada. Este JSON preserva o esquema/formulação declarado na página e suas ressalvas; não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo e neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

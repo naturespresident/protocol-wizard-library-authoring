@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pramlintide",
+      "name": "Pramlintide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pramlintide-catalog-entry",
+      "productID": "pramlintide",
+      "title": "Pramlintide（5 mg）剂量方案——来源参考",
+      "purpose": "单独页面中的用药安排和处理细节，转录为研究／教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的表述，并非经过独立核实的临床指导。该页面报告的标签用法以微克为单位，例如餐前 60–120 mcg；该药作为餐时胰岛素的辅助用药，且需要由医生调整剂量。5 mg 药瓶加 2.5 mL 后浓度为 2,000 mcg/mL（60 mcg = 0.03 mL）。已有 FDA 批准的药物；研究用药瓶并非该产品。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "标签规定的餐时剂量范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "60",
+              "maximum": "120",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "作为餐时胰岛素的辅助用药，于餐前给药；具体剂量取决于适应证和餐食。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源页面列出餐前 60–120 mcg。使用 Pramlintide 需要减少餐时胰岛素剂量并接受临床医生监督；此范围并非个体化用药安排。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pramlintide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pramlintide-5mg-vial-dosage-protocol/",
+      "title": "Pramlintide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pramlintide-catalog-entry",
+      "sourceID": "pramlintide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单独的来源页面。此 JSON 保留了页面所述的用药安排／制剂背景及其注意事项；它并不能证明某种方案已获临床验证。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

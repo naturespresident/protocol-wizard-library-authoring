@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "p21",
+      "name": "P21",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "p21-catalog-entry",
+      "productID": "p21",
+      "title": "P21 (10 mg) 용량 프로토콜 — 출처 참조",
+      "purpose": "개별 페이지의 일정 및 취급 세부사항을 연구/교육 참고용으로 옮겨 적었어요.",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "상업적 이차 출처예요. 아래 세부사항은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 확립된 사람 용량은 없어요. 발표된 마우스 효능 연구에서는 사료 기준 60 nmol/g을 투여했어요(~보고된 섭취량 기준 약 94 mcg/마우스/일). 커뮤니티의 매일 500–1,000 mcg 주사 관행은 발표된 사람 대상 연구로 뒷받침되지 않아요. 페이지는 10 mg + 2 mL 재구성을 참고 계산으로만 제시해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "마우스 사료 노출",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "94",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "발표된 마우스 연구에서 사료에 섞어 투여한 마우스 개체당 대략적인 일일 용량이에요. 주사 용량이나 사람 용량이 아니에요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "확립된 사람 용량은 없어요. 페이지에는 효능 실험에서 P21을 사료에 섞어 먹였다고 적혀 있어요. 커뮤니티의 주사 용량에는 발표된 근거가 없어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "p21-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/p21-10mg-vial-dosage-protocol/",
+      "title": "P21 (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "p21-catalog-entry",
+      "sourceID": "p21-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정/제형 맥락과 주의사항을 보존하며, 임상적으로 검증된 요법을 확립하지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경계"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "argireline",
+      "name": "Argireline",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "argireline-catalog-entry",
+      "productID": "argireline",
+      "title": "Protocolo de aplicación tópica de Argireline — referencia de la fuente",
+      "purpose": "Calendario de aplicación cosmética tópica y referencias de formulación de las fuentes citadas",
+      "methodID": "topical",
+      "population": "Topical cosmetic or research-formulation references",
+      "evidenceNotes": "Peptides.org describe la aplicación tópica sobre piel intacta dos veces al día durante al menos 30 días; su ejemplo de referencia usa una emulsión al 10% e informa aproximadamente 2 mg/cm². Por separado, Dosage Peptide describe el uso del 5–10% de su solución acuosa suministrada en un producto sin enjuague, una o dos veces al día. Las dos formulaciones son específicas de cada fuente y no deben considerarse intercambiables ni un régimen médico validado.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Calendario de referencia para aplicación tópica",
+            "duration": {
+              "kind": "minimum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "Aplicar una capa fina sobre la piel intacta de la zona objetivo dos veces al día durante al menos 30 días, según lo descrito por Peptides.org. Su ejemplo de referencia es una emulsión al 10% a aproximadamente 2 mg/cm²; estas unidades de porcentaje y masa por área se conservan en las notas, no se representan como una dosis estructurada."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_units_not_supported_by_schema"
+        ],
+        "notes": "Ejemplo de referencia de Peptides.org: emulsión al 10%, aproximadamente 2 mg/cm², aplicada dos veces al día sobre la piel intacta de la zona objetivo durante 30 días o hasta obtener el resultado deseado. El cuadro resumido del artículo indica al menos 30 días. Por separado, Dosage Peptide describe el uso del 5–10% de su solución acuosa de Argireline suministrada en un producto sin enjuague una o dos veces al día; esta es una referencia de formulación diferente. La dosis permanece como null porque el esquema no puede codificar la concentración porcentual ni mg/cm²."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "argireline-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/argireline-10-topical-solution-dosage-protocol/",
+      "title": "Argireline (10% Topical) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "argireline-peptides-org",
+      "url": "https://www.peptides.org/argireline-dosage-calculator/",
+      "title": "Argireline Dosage Calculator and Chart | A-Z Guide",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el calendario y el contexto de formulación indicados en la página, así como sus advertencias; no establece un régimen validado clínicamente.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-peptides-org",
+      "locator": "Argireline Dosage Chart; Sample Argireline Dosage Protocol; Argireline Administration Notes",
+      "evidenceNote": "La página describe una referencia de investigación de aplicación tópica: sobre piel intacta, dos veces al día, durante al menos 30 días; el ejemplo usa una emulsión al 10% e informa aproximadamente 2 mg/cm².",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Antienvejecimiento y cuidado de la piel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "topical",
+      "name": "Tópica"
+    }
+  ]
+}

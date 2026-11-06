@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vilon",
+      "name": "Vilon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vilon-catalog-entry",
+      "productID": "vilon",
+      "title": "Vilon (20mg Vial) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; these are the page's statements, not independently verified clinical guidance. Pulsed schedule reported: 5 consecutive daily SC doses per 4-week cycle, repeated monthly. Cycle 1 days 1–5: 67, 133, 200, 267, 333 mcg; later cycles: 333–667 mcg daily for 5 days. 20 mg + 3 mL; source says 2–8°C after mixing and ~1 week use window. Research only.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Cycle 1, day 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "67",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "First of five consecutive daily doses in cycle 1; cycle repeats monthly."
+            }
+          },
+          {
+            "name": "Cycle 1, day 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "133",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Cycle 1, day 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Cycle 1, day 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "267",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Cycle 1, day 5",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "333",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Cycles 2–4, days 1–5",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "333",
+              "maximum": "667",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "Five consecutive daily doses per four-week cycle; repeat monthly for 2–4 cycles. Later-cycle dose range applies each on-day."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Source-adapted pulse schedule, not approved human dosing. The exact first-cycle doses rise daily; later cycles use a range."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vilon-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vilon-20mg-vial-dosage-protocol/",
+      "title": "Vilon (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vilon-catalog-entry",
+      "sourceID": "vilon-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. These are source statements and not independently verified clinical guidance; no human regimen is established unless the source says otherwise.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Specialized & Clinical"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

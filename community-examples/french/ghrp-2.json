@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghrp-2",
+      "name": "GHRP-2",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ghrp-2-catalog-entry",
+      "productID": "ghrp-2",
+      "title": "GHRP-2 (flacon de 5mg) — protocole posologique de référence de la source",
+      "purpose": "Détails du calendrier et de la manipulation propres à cette page, transcrits à titre de référence de recherche et d’éducation",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s’agit des affirmations de la page, et non de conseils cliniques vérifiés indépendamment. Référence de la page : titration quotidienne SC de 100–300 mcg une fois par jour à jeun sur une cure de 8–16 semaines ; 5 mg + 3 mL d’eau bactériostatique (~1.67 mg/mL). Explicitement réservé à la recherche, sans application humaine/clinique.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Fourchette de référence quotidienne pour la recherche",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "La source décrit une administration à jeun et une cure de 8–16 semaines."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Référence de la page : titration quotidienne SC de 100–300 mcg une fois par jour à jeun sur une cure de 8–16 semaines ; 5 mg + 3 mL d’eau bactériostatique (~1.67 mg/mL). Explicitement réservé à la recherche, sans application humaine/clinique."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ghrp-2-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ghrp-2-5mg-vial-dosage-protocol/",
+      "title": "GHRP-2 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ghrp-2-catalog-entry",
+      "sourceID": "ghrp-2-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle consultée. Il s’agit des affirmations de la source et non de conseils cliniques vérifiés indépendamment ; aucun schéma posologique humain n’est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormone de croissance"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

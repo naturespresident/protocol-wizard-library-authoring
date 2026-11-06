@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pnc-27",
+      "name": "PNC-27",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pnc-27-catalog-entry",
+      "productID": "pnc-27",
+      "title": "PNC-27 (30mg Vial) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. Page's research/educational table: 100 mcg daily weeks 1–2; 200 mcg weeks 3–4; 300 mcg weeks 5–8; 400 mcg weeks 9–12; 500 mcg weeks 13–16. 30 mg + 3 mL bacteriostatic water (10 mg/mL). No human trials; FDA warning against marketed cancer-treatment products.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Weeks 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Weeks 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Weeks 5–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Weeks 9–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Weeks 13–16",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Page's research/educational table: 100 mcg daily weeks 1–2; 200 mcg weeks 3–4; 300 mcg weeks 5–8; 400 mcg weeks 9–12; 500 mcg weeks 13–16. 30 mg + 3 mL bacteriostatic water (10 mg/mL). No human trials; FDA warning against marketed cancer-treatment products."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pnc-27-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pnc-27-30-mg-vial-dosage-protocol/",
+      "title": "PNC-27 (30mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pnc-27-catalog-entry",
+      "sourceID": "pnc-27-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Skin"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

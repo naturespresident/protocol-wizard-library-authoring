@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "amycretin",
+      "name": "Amycretin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "amycretin-catalog-entry",
+      "productID": "amycretin",
+      "title": "Amycretin (5 mg): protocolo de dosificación — referencia de la fuente",
+      "purpose": "Esquema de una página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones de la propia fuente, no orientación clínica verificada de forma independiente. Esquema de un ensayo de investigación con administración subcutánea una vez por semana y titulación gradual desde aproximadamente 0.3 mg; la página indica que también se está desarrollando o evaluando en ensayos una formulación separada en comprimidos orales. El estado en las fases 1b/2a y 3 varía según la formulación; no hay un producto aprobado ni una dosis validada para viales de investigación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Dosis inicial de los primeros ensayos",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.3",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "description": "Referencia de inicio para administración subcutánea una vez por semana; la fuente indica una titulación gradual, pero este resumen de la página no especifica todos los pasos de aumento de dosis."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Referencia exclusiva de ensayos de investigación; la página de la fuente también analiza por separado una formulación oral."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "amycretin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/amycretin-5mg-vial-dosage-protocol/",
+      "title": "Amycretin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "amycretin-catalog-entry",
+      "sourceID": "amycretin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el esquema y el contexto de formulación indicados en la página, junto con sus salvedades; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

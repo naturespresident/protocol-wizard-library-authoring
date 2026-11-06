@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "matrixyl-3000",
+      "name": "Matrixyl 3000",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "matrixyl-3000-catalog-entry",
+      "productID": "matrixyl-3000",
+      "title": "Protocolo de dosificación de Matrixyl 3000 — referencia de la fuente",
+      "purpose": "Calendario y detalles de uso de la página individual, transcritos como referencia de investigación y educación",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones de la propia fuente, no orientación clínica verificada de forma independiente. Mezcla cosmética de uso tópico (palmitoyl tripeptide-1 + palmitoyl tetrapeptide-7), formulada alrededor de 3–10% en el sérum final y aplicada sobre la piel limpia. No hay dosis inyectables ni orales; la evidencia es modesta y está impulsada en gran medida por el fabricante.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de la página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Mezcla cosmética de uso tópico (palmitoyl tripeptide-1 + palmitoyl tetrapeptide-7), formulada alrededor de 3–10% en el sérum final y aplicada sobre la piel limpia. No hay dosis inyectables ni orales; la evidencia es modesta y está impulsada en gran medida por el fabricante."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Mezcla cosmética de uso tópico (palmitoyl tripeptide-1 + palmitoyl tetrapeptide-7), formulada alrededor de 3–10% en el sérum final y aplicada sobre la piel limpia. No hay dosis inyectables ni orales; la evidencia es modesta y está impulsada en gran medida por el fabricante. AVISO: la página individual de la fuente no proporciona una dosis administrada numérica; las concentraciones de formulación o los esquemas cualitativos, cuando se indican, se conservan en las notas y no se convierten en dosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "matrixyl-3000-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/matrixyl-3000-topical-serum-dosage-protocol/",
+      "title": "Matrixyl 3000 Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "matrixyl-3000-catalog-entry",
+      "sourceID": "matrixyl-3000-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el contexto del esquema o la formulación indicados por la página y sus salvedades; no establece un régimen validado clínicamente.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Antienvejecimiento y cuidado de la piel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

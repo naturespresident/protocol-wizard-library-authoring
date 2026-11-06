@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "aicar",
+      "name": "AICAR",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "aicar-catalog-entry",
+      "productID": "aicar",
+      "title": "AICAR（50mg 小瓶）剂量方案——来源参考",
+      "purpose": "单个页面中的给药安排和处理细节，转录为研究／教育参考资料",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是来源自身的表述，未经独立核实，不能视为临床指导。页面将 3 mL 抑菌水复溶列为处理参考，并将每次给药约 1 mg 描述为研究参考，明确指出这不是针对人类或动物的给药指导。该化合物未经批准；其对人类的益处尚未得到证实，且被 WADA 禁用。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "研究用途用量",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "每次给药约 1 mg 是操作参考用量；未说明给药频率。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源报告每次给药约 1 mg，但这不是针对人类或动物的给药建议；给药安排未知。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "aicar-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/aicar-50-mg-vial-dosage-protocol/",
+      "title": "AICAR (50mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "aicar-catalog-entry",
+      "sourceID": "aicar-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单个来源页面。本 JSON 保留页面所述给药安排、制剂背景及其注意事项；这并不能证明该方案已获临床验证。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

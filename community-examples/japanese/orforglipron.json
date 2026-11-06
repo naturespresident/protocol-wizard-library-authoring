@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "orforglipron",
+      "name": "Orforglipron",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "orforglipron-catalog-entry",
+      "productID": "orforglipron",
+      "title": "Orforglipron（6mg）用量プロトコル — 出典資料",
+      "purpose": "個別ページに記載されたスケジュールおよび取り扱いの詳細を、研究・教育用の参考資料として転記しています",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は出典自身の記述であり、独立して検証された臨床上の指針ではありません。経口投与の低分子化合物であり、ペプチドではありません。試験群では毎日投与し、4週間隔で増量しました（3, 12, 36 mg）。ページにはFoundayoが2026年にFDA承認を受けたと記載されていますが、研究用グレードの原料は承認製品ではありません。再構成は行いません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第3相試験の用量群",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "3",
+                "12",
+                "36"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "試験では経口で毎日投与し、4週間隔で増量しました。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "試験の用量群は、研究用グレードの原料に対する処方とは異なります。出典では承認済み製品に言及していますが、研究用原料はその製品ではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "orforglipron-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/orforglipron-6mg-dosage-protocol/",
+      "title": "Orforglipron (6mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "orforglipron-catalog-entry",
+      "sourceID": "orforglipron-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤の文脈、および注意書きを保持しています。臨床的に妥当性が確認された投与計画を示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重・代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "経口投与"
+    }
+  ]
+}

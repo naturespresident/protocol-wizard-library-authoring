@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "lipo-c",
+      "name": "Lipo-C",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "lipo-c-catalog-entry",
+      "productID": "lipo-c",
+      "title": "Lipo-C (frasco de 10 mL) — protocolo de dosagem — referência da fonte",
+      "purpose": "Cronograma específico desta página e detalhes de manuseio, transcritos como referência de pesquisa/educacional",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Mistura manipulada de MIC + B12, não um peptídeo. Referências de clínicas e farmácias de manipulação descrevem 0.5–1 mL por via intramuscular uma ou duas vezes por semana; nenhum ensaio controlado estabelece a dose ou a eficácia na perda de gordura. Fornecido pré-misturado; sem reconstituição; o armazenamento e o prazo de uso devem seguir as orientações da farmácia de manipulação.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Faixa de referência de farmácias de manipulação/clínicas",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "1",
+              "unit": "mL",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "Referências de clínicas descrevem injeções intramusculares uma ou duas vezes por semana; nenhum ensaio controlado estabelece a dosagem da mistura."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Lipo-C é uma mistura manipulada de MIC + B12, não um peptídeo. Siga as orientações específicas da farmácia de manipulação/prescritor; não há evidências controladas sobre a dose."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "lipo-c-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/lipo-c-10ml-vial-dosage-protocol/",
+      "title": "Lipo-C (10 mL Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "lipo-c-catalog-entry",
+      "sourceID": "lipo-c-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página individual da fonte consultada. Este JSON preserva o cronograma e o contexto da formulação declarados na página, bem como suas ressalvas; não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso e metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuscular"
+    }
+  ]
+}

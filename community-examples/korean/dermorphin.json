@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dermorphin",
+      "name": "Dermorphin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dermorphin-catalog-entry",
+      "productID": "dermorphin",
+      "title": "Dermorphin (5 mg) 투여 프로토콜 — 출처 참고용",
+      "purpose": "개별 페이지의 일정 및 취급 세부 정보를 연구·교육 참고 자료로 옮겨 적었어요.",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "간접 상업 출처예요. 아래 세부 정보는 출처 자체의 진술이며, 독립적으로 검증된 임상 지침이 아니에요. 사람 또는 수의학적 용량은 제시되지 않았고, 해당 페이지는 투여 프로토콜을 제공하지 않는다고 명시해요. 발표된 약리학 자료는 동물에 한정돼요(극소량의 뇌내 나노몰 양 또는 설치류의 체중 기준 용량). 강력한 μ-오피오이드 작용제이며, 실험실 연구용 시약으로만 사용해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "개별 페이지 참고 자료",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "사람 또는 수의학적 용량은 제시되지 않았고, 해당 페이지는 투여 프로토콜을 제공하지 않는다고 명시해요. 발표된 약리학 자료는 동물에 한정돼요(극소량의 뇌내 나노몰 양 또는 설치류의 체중 기준 용량). 강력한 μ-오피오이드 작용제이며, 실험실 연구용 시약으로만 사용해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "사람 또는 수의학적 용량은 제시되지 않았고, 해당 페이지는 투여 프로토콜을 제공하지 않는다고 명시해요. 발표된 약리학 자료는 동물에 한정돼요(극소량의 뇌내 나노몰 양 또는 설치류의 체중 기준 용량). 강력한 μ-오피오이드 작용제이며, 실험실 연구용 시약으로만 사용해요. 표시: 개별 출처 페이지에는 숫자로 표시된 투여 용량이 없어요. 제형 농도나 정성적 일정이 언급된 경우 메모에 그대로 보존하며, 용량으로 환산하지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dermorphin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dermorphin-5mg-vial-dosage-protocol/",
+      "title": "Dermorphin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dermorphin-catalog-entry",
+      "sourceID": "dermorphin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON에는 페이지에 명시된 일정 및 제형 맥락과 주의사항을 보존했으며, 임상적으로 검증된 요법을 확립하는 것은 아니에요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경계"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "미지정"
+    }
+  ]
+}

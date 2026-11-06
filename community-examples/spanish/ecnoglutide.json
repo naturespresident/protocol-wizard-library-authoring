@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ecnoglutide",
+      "name": "Ecnoglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ecnoglutide-catalog-entry",
+      "productID": "ecnoglutide",
+      "title": "Protocolo de dosificación de Ecnoglutide (10 mg) — referencia de la fuente",
+      "purpose": "Calendario de la página individual y detalles de manejo, transcritos como referencia de investigación y educativa",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones propias de la fuente, no una guía clínica verificada de forma independiente. Calendario de ensayos reportado como administración semanal por vía SC: 0.6–1.2 mg/semana en ensayos sobre diabetes tipo 2; 1.2, 1.8 o 2.4 mg/semana en el ensayo de fase 3 sobre obesidad. Se indica 10 mg en vial + 2 mL como cálculo de reconstitución. La página describe la aprobación en China, pero el producto de grado de investigación no es el medicamento aprobado.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Rango de dosis de ensayos clínicos",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.6",
+              "maximum": "2.4",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "description": "La fuente reporta 0.6–1.2 mg/semana en ensayos sobre diabetes y 1.2, 1.8 o 2.4 mg/semana en los grupos del ensayo sobre obesidad."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "El rango de dosis combina contextos de ensayos distintos; no es una instrucción de titulación. Los viales de investigación no son un producto aprobado."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ecnoglutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ecnoglutide-10mg-vial-dosage-protocol/",
+      "title": "Ecnoglutide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ecnoglutide-catalog-entry",
+      "sourceID": "ecnoglutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el calendario y el contexto de formulación indicados por la página, así como sus salvedades; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

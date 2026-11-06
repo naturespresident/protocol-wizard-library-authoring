@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "syn-ake",
+      "name": "SYN-AKE",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "syn-ake-catalog-entry",
+      "productID": "syn-ake",
+      "title": "SYN-AKE (200mg Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Terminplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs- und Bildungsreferenz transkribiert",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die folgenden Angaben sind Aussagen der Quelle selbst und keine unabhängig überprüfte klinische Anleitung. Kosmetische Formulierung zur äußerlichen Anwendung, keine Dosierung: Die angegebenen 1–4% beziehen sich auf eine vorverdünnte Handelslösung mit 0.1–1% Peptid und ergeben ungefähr 10–400 ppm aktives Peptid im fertigen Produkt. Das Pulver in der Durchstechflasche ist nicht zur Injektion bestimmt.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referenz der Einzelseite",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Kosmetische Formulierung zur äußerlichen Anwendung, keine Dosierung: Die angegebenen 1–4% beziehen sich auf eine vorverdünnte Handelslösung mit 0.1–1% Peptid und ergeben ungefähr 10–400 ppm aktives Peptid im fertigen Produkt. Das Pulver in der Durchstechflasche ist nicht zur Injektion bestimmt."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Kosmetische Formulierung zur äußerlichen Anwendung, keine Dosierung: Die angegebenen 1–4% beziehen sich auf eine vorverdünnte Handelslösung mit 0.1–1% Peptid und ergeben ungefähr 10–400 ppm aktives Peptid im fertigen Produkt. Das Pulver in der Durchstechflasche ist nicht zur Injektion bestimmt. HINWEIS: Die einzelne Quellenseite enthält keine numerische verabreichte Dosis; Formulierungskonzentrationen oder qualitative Zeitpläne, sofern angegeben, bleiben in den Anmerkungen erhalten und werden nicht in Dosen umgerechnet."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "syn-ake-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/syn-ake-200mg-vial-dosage-protocol/",
+      "title": "SYN-AKE (200mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "syn-ake-catalog-entry",
+      "sourceID": "syn-ake-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON gibt den dort genannten Kontext zu Zeitplan und Formulierung sowie die Einschränkungen wieder; es begründet kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Hautpflege"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Nicht angegeben"
+    }
+  ]
+}

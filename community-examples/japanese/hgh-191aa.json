@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hgh-191aa",
+      "name": "HGH 191AA",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hgh-191aa-catalog-entry",
+      "productID": "hgh-191aa",
+      "title": "HGH 191AA (10IU バイアル) 用量プロトコル — 出典参照",
+      "purpose": "個別ページのスケジュールおよび取り扱い情報を、研究・教育用の参考情報として転記したものです。",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下はページ上の記載であり、独立に検証された臨床指針ではありません。ページには、保守的な補充療法の参考値として150–500 mcg/day、約200 mcg から開始し週ごとに~100 mcg 増やす方法が記載されています。上級研究向けの量として最大1,000–2,000 mcg/dayも記載されています。10 IU バイアル + 3 mL は濃度の計算値です。Somatropinは処方薬です。臨床医の指示のもとでのみ使用してください。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "保守的な補充療法の参考値",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "range_options": [
+                {
+                  "minimum": "150",
+                  "maximum": "500"
+                },
+                {
+                  "minimum": "1000",
+                  "maximum": "2000"
+                }
+              ],
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "出典では、保守的な補充療法の参考値（150–500 mcg/day）と上級研究向けの量（1,000–2,000 mcg/day）を区別しています。200 mcg 付近から開始し、週ごとに~100 mcg 増やすと記載しています。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "出典では、処方薬であるSomatropinの添付文書および補充療法の文脈と、研究向けの範囲を説明しています。研究用バイアルは承認済み製品ではありません。用量を自己投与の指針として扱ってはいけません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hgh-191aa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hgh-191aa-10iu-vial-dosage-protocol/",
+      "title": "HGH 191AA (10IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hgh-191aa-catalog-entry",
+      "sourceID": "hgh-191aa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。これらは出典上の記載であり、独立に検証された臨床指針ではありません。出典に明記されていない限り、ヒトで確立された用法・用量はありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "成長ホルモン"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "特定なし"
+    }
+  ]
+}

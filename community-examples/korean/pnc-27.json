@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pnc-27",
+      "name": "PNC-27",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pnc-27-catalog-entry",
+      "productID": "pnc-27",
+      "title": "PNC-27 (30mg 바이알) 투여 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "상업 출처를 바탕으로 한 간접 자료예요. 아래 세부 내용은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 페이지의 연구/교육용 표: 100 mcg(매일, 1–2주차), 200 mcg(3–4주차), 300 mcg(5–8주차), 400 mcg(9–12주차), 500 mcg(13–16주차). 30 mg + 3 mL 정균수 (10 mg/mL). 인체 시험은 없어요. FDA는 시판되는 암 치료 제품에 대해 경고했어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "1–2주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3–4주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "5–8주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "9–12주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "13–16주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "페이지의 연구/교육용 표: 100 mcg(매일, 1–2주차), 200 mcg(3–4주차), 300 mcg(5–8주차), 400 mcg(9–12주차), 500 mcg(13–16주차). 30 mg + 3 mL 정균수 (10 mg/mL). 인체 시험은 없어요. FDA는 시판되는 암 치료 제품에 대해 경고했어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pnc-27-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pnc-27-30-mg-vial-dosage-protocol/",
+      "title": "PNC-27 (30mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pnc-27-catalog-entry",
+      "sourceID": "pnc-27-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 기재된 일정/제형 맥락과 주의 사항을 보존하지만, 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "노화 방지 및 피부"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

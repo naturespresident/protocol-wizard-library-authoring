@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dihexa",
+      "name": "Dihexa",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dihexa-catalog-entry",
+      "productID": "dihexa",
+      "title": "Dihexa（10 mg）投与プロトコル — 出典資料",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育用の参考情報として転記したもの",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は情報源自身の記述であり、独立して検証された臨床指針ではありません。ヒトでの用量はなく、ヒト試験もありません。動物のみで報告されたマウスの用量範囲は、経口で約1.44–2.88 mg/kgです。このページには経口/舌下/経皮での研究上の取り扱いが記載され、注射/再構成はありません。主要な作用機序に関する論文は2025年に撤回されました。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "マウス試験での経口曝露範囲",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1.44",
+              "maximum": "2.88",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "動物のみを対象としたマウスの用量範囲です。ヒトでの用量は確立されていません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "前臨床段階での曝露に限られます。主要な作用機序に関する論文は2025年に撤回されました。ユーザー提供の別のRedditコミュニティスケジュールは、未検証の別プロトコルとして記録されています。"
+      }
+    },
+    {
+      "id": "dihexa-reddit-community-schedule",
+      "productID": "dihexa",
+      "title": "Dihexaの経口スケジュール — Redditコミュニティ報告（未検証）",
+      "purpose": "コミュニティで報告された経口スケジュールを、未検証の参考情報として転記したもの",
+      "methodID": "oral",
+      "population": "Community report; not a clinical study population",
+      "evidenceNotes": "ユーザー作成のRedditガイドでは、10 mg の経口投与、2週間投与/2週間休薬のサイクル、および最初の週の隔日投与が報告されています。この投稿には、このスケジュールを検証する臨床試験の引用がありません。ヒトでの安全性と有効性は確立されていません。これは医療上の指針ではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "初週",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 2,
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "最初の週は10 mg を隔日で経口投与します。投稿では朝の投与が提案されています。"
+            }
+          },
+          {
+            "name": "標準的な投与サイクルの残り",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "10 mg を毎日一度経口投与します。投稿では朝の投与を提案し、標準的な二週間の投与サイクルを説明しています。"
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 2,
+          "maximum": 2,
+          "unit": "week"
+        },
+        "unresolved_fields": [
+          "community_anecdote_only",
+          "human_safety_or_efficacy_not_established"
+        ],
+        "notes": "注意：スケジュールは、臨床的検証のない単一のユーザー作成Reddit投稿に基づいています。このページでは、より長いサイクルにも触れていますが、ここでは構造化していません。このJSONは報告内容を記録するものであり、その使用を推奨するものではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dihexa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dihexa-10mg-dosage-protocol/",
+      "title": "Dihexa (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "dihexa-reddit-community",
+      "url": "https://www.reddit.com/r/LAPeptidesGuide/comments/1t2hi5k/dihexa_capsules_research_guide/",
+      "title": "Dihexa Capsules: Research Guide",
+      "publisher": "Reddit, r/LAPeptidesGuide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dihexa-catalog-entry",
+      "sourceID": "dihexa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュール/製剤の文脈と注意事項を保持しています。臨床的に検証されたレジメンを確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "dihexa-reddit-community-schedule",
+      "sourceID": "dihexa-reddit-community",
+      "locator": "Dosing; Cycle guidance; First use protocol",
+      "evidenceNote": "ユーザー作成のReddit投稿ではこのスケジュールが報告されていますが、安全性または有効性について臨床的検証は示されていません。",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/off_period",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知・神経"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "経口"
+    }
+  ]
+}

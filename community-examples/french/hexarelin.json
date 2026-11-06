@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hexarelin",
+      "name": "Hexarelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hexarelin-catalog-entry",
+      "productID": "hexarelin",
+      "title": "Hexarelin (flacon de 5 mg) — protocole posologique — référence de la source",
+      "purpose": "Calendrier propre à la page et détails de manipulation, transcrits à titre de référence de recherche et d’information",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s’agit des déclarations de la page, et non de recommandations cliniques vérifiées de manière indépendante. Référence d’étude humaine : environ 1–2 mcg/kg IV et environ 1.5 mcg/kg SC (~100 mcg pour 70 kg). Un flacon de 5 mg + 2 mL d’eau bactériostatique donne 2.5 mg/mL. Données de référence uniquement, pas une recommandation d’utilisation.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Plage étudiée en pharmacologie humaine",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "mcg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "La source rapporte 1–2 mcg/kg IV et environ 1.5 mcg/kg SC ; environ 100 mcg pour un participant de 70 kg."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Quantités historiques étudiées chez l’humain, dépendantes de la voie ; ne constituent pas un protocole de traitement."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hexarelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hexarelin-5mg-vial-dosage-protocol/",
+      "title": "Hexarelin (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hexarelin-catalog-entry",
+      "sourceID": "hexarelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page de la source examinée. Il s’agit des déclarations de la source et non de recommandations cliniques vérifiées de manière indépendante ; aucun schéma posologique humain n’est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormone de croissance"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

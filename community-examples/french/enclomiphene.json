@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "enclomiphene",
+      "name": "Enclomiphene",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "enclomiphene-catalog-entry",
+      "productID": "enclomiphene",
+      "title": "Enclomiphene (25mg) — protocole posologique, référence de la source",
+      "purpose": "Calendrier et détails de manipulation de la page individuelle, transcrits comme référence de recherche et d’information",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s’agit des déclarations de la page, et non de recommandations cliniques vérifiées indépendamment. Les quantités utilisées dans des essais humains publiés comprennent 12.5 mg ou 25 mg par voie orale une fois par jour ; voie orale, sans reconstitution. Référence à la source uniquement ; non approuvé aux États-Unis, et une surveillance médicale est nécessaire.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Options posologiques étudiées chez l’humain",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "12.5",
+              "maximum": "25",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Les quantités utilisées dans des essais humains publiés comprennent 12.5 mg ou 25 mg par voie orale une fois par jour ; voie orale, sans reconstitution. Référence à la source uniquement ; non approuvé aux États-Unis, et une surveillance médicale est nécessaire."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "enclomiphene-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/enclomiphene-25mg-dosage-protocol/",
+      "title": "Enclomiphene (25mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "enclomiphene-catalog-entry",
+      "sourceID": "enclomiphene-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle examinée. Il s’agit des déclarations de la source, et non de recommandations cliniques vérifiées indépendamment ; aucun schéma posologique chez l’humain n’est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Orale"
+    }
+  ]
+}

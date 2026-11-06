@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cortexin",
+      "name": "Cortexin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cortexin-catalog-entry",
+      "productID": "cortexin",
+      "title": "Cortexin (10 mg) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung von der Einzelseite, als Forschungs-/Bildungsreferenz transkribiert",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die nachstehenden Angaben sind Aussagen der Quelle selbst und keine unabhängig verifizierte klinische Empfehlung. In Russland gemeldetes registriertes Schema: gesamtes 10 mg Fläschchen einmal täglich über 10 aufeinanderfolgende Tage; in 1–2 mL Verdünnungsmittel rekonstituiert; nur nach 3–6 Monaten wiederholen. Verschreibungspflichtiges Produkt in Russland, nicht von der FDA zugelassen; die Evidenz beim Menschen ist überwiegend russischsprachig und häufig unkontrolliert.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Registrierter russischer Kurs",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Gesamtes 10 mg Fläschchen pro Tag; laut Quelle in 1–2 mL Verdünnungsmittel auflösen. Bei Verschreibung nach 3–6 Monaten wiederholen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Zeitplan des in Russland registrierten Produkts; nicht von der FDA zugelassen und keine Empfehlung zur Anwendung am Menschen von Forschungsfläschchen."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortexin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cortexin-10mg-vial-dosage-protocol/",
+      "title": "Cortexin (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cortexin-catalog-entry",
+      "sourceID": "cortexin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelseite der Quelle geprüft. Dieses JSON bewahrt den dort angegebenen Zeitplan und Formulierungskontext sowie die Vorbehalte; es begründet kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Kognition & Neurologie"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuskulär"
+    }
+  ]
+}

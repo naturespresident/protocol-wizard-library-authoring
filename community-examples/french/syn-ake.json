@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "syn-ake",
+      "name": "SYN-AKE",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "syn-ake-catalog-entry",
+      "productID": "syn-ake",
+      "title": "SYN-AKE (flacon de 200mg) — protocole posologique, référence de la source",
+      "purpose": "Calendrier de la page individuelle et détails de manipulation, retranscrits à titre de référence de recherche et d’information",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les déclarations de la source elle-même et ne constituent pas des recommandations cliniques vérifiées indépendamment. Formulation cosmétique topique, et non dosage : la concentration indiquée de 1–4% concerne une solution commerciale prédiluée contenant 0.1–1% de peptide, ce qui donne environ 10–400 ppm de peptide actif dans le produit fini. Le flacon de poudre n’est pas destiné à l’injection.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Référence de la page individuelle",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Formulation cosmétique topique, et non dosage : la concentration indiquée de 1–4% concerne une solution commerciale prédiluée contenant 0.1–1% de peptide, ce qui donne environ 10–400 ppm de peptide actif dans le produit fini. Le flacon de poudre n’est pas destiné à l’injection."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Formulation cosmétique topique, et non dosage : la concentration indiquée de 1–4% concerne une solution commerciale prédiluée contenant 0.1–1% de peptide, ce qui donne environ 10–400 ppm de peptide actif dans le produit fini. Le flacon de poudre n’est pas destiné à l’injection. À NOTER : la page source individuelle ne fournit pas de dose administrée numérique ; les concentrations de formulation ou les calendriers qualitatifs, lorsqu’ils sont indiqués, sont conservés dans les notes et ne sont pas convertis en doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "syn-ake-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/syn-ake-200mg-vial-dosage-protocol/",
+      "title": "SYN-AKE (200mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "syn-ake-catalog-entry",
+      "sourceID": "syn-ake-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page source individuelle a été examinée. Ce JSON conserve le calendrier et le contexte de formulation indiqués par la page, ainsi que ses réserves ; il n’établit pas de protocole cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-âge et peau"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Non précisée"
+    }
+  ]
+}

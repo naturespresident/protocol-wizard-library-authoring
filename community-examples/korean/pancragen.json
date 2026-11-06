@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pancragen",
+      "name": "Pancragen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pancragen-catalog-entry",
+      "productID": "pancragen",
+      "title": "Pancragen (20mg 바이알) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "이차 상업적 출처이며, 아래 세부 사항은 출처 자체의 진술로 독립적으로 검증된 임상 지침이 아니에요. 확립된 인체 용량은 없어요. 해당 페이지에는 붉은털원숭이에 대한 오래된 용량만 보고되어 있어요: 동물당 하루 투여량은 50 mcg(용량)였으며, 10일간 근육 내 주사했어요. 확인 가능한 인체 논문에는 용량, 투여 경로 또는 투여 기간이 제시되어 있지 않아요. 20 mg 용량과 3 mL 정균수는 재구성 참고 정보일 뿐이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "붉은털원숭이 연구 투여 과정",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "붉은털원숭이에서 동물당 보고된 내용이며, 인체 용량은 아니에요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "이 페이지가 보고한 유일한 발표된 생체 내 일일 투여량은 붉은털원숭이당 50 mcg(투여량)을 10일간 하루 한 번 근육 내 주사한 것이에요. 인체 논문에는 용량, 투여 경로 또는 투여 기간이 공개되어 있지 않아요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pancragen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pancragen-20mg-vial-dosage-protocol/",
+      "title": "Pancragen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pancragen-catalog-entry",
+      "sourceID": "pancragen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 기재된 일정/제형의 맥락과 주의사항을 보존하며, 임상적으로 검증된 투여 요법을 확립하는 것은 아니에요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "근육 내"
+    }
+  ]
+}

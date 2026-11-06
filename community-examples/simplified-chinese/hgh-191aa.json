@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hgh-191aa",
+      "name": "HGH 191AA",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hgh-191aa-catalog-entry",
+      "productID": "hgh-191aa",
+      "title": "HGH 191AA（10 IU 药瓶）剂量方案——来源参考",
+      "purpose": "逐页方案与操作细节，按原文转录，供研究／教育参考",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；这些是页面上的陈述，未经独立验证。页面报告的保守性替代治疗参考剂量为 150–500 mcg/day，起始剂量接近 200 mcg，并每周增加约 100 mcg；页面还提及高阶研究剂量最高可达 1,000–2,000 mcg/day。10 IU 药瓶加 3 mL 的表述属于浓度计算。Somatropin 是处方药；仅可遵医嘱使用。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "保守性替代治疗参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "range_options": [
+                {
+                  "minimum": "150",
+                  "maximum": "500"
+                },
+                {
+                  "minimum": "1000",
+                  "maximum": "2000"
+                }
+              ],
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "来源将保守性替代治疗参考剂量（150–500 mcg/day）与高阶研究剂量（1,000–2,000 mcg/day）区分开；起始剂量接近 200 mcg，并说明每周递增约 100 mcg。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源描述了处方 Somatropin 标签／替代治疗背景及研究剂量范围。研究用药瓶并非获批产品；不得将剂量视为自行用药指导。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hgh-191aa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hgh-191aa-10iu-vial-dosage-protocol/",
+      "title": "HGH 191AA (10IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hgh-191aa-catalog-entry",
+      "sourceID": "hgh-191aa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。这些是来源陈述，未经独立验证的临床指导；除非来源另有说明，否则不代表已确立的人体用药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

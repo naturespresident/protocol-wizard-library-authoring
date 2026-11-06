@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "eloralintide",
+      "name": "Eloralintide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "eloralintide-catalog-entry",
+      "productID": "eloralintide",
+      "title": "Eloralintide (10 mg) — protocolo de dosagem — referência da fonte",
+      "purpose": "Cronograma da página individual e detalhes de manuseio, transcritos como referência de pesquisa e educação",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Referência ao ensaio de fase 2: grupos com doses-alvo semanais por via subcutânea de 1, 3, 6 ou 9 mg, além de grupos de titulação lenta. Um frasco de 10 mg reconstituído com 1 mL é apenas um cálculo de concentração. Em investigação; não aprovado pela FDA.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Grupos de dose do ensaio de fase 2",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "1",
+                "3",
+                "6",
+                "9"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "description": "Uma vez por semana; a fonte descreve grupos de dose fixa e de titulação lenta."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Grupos de ensaio separados; em investigação, não é um regime aprovado."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "eloralintide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/eloralintide-10mg-vial-dosage-protocol/",
+      "title": "Eloralintide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "eloralintide-catalog-entry",
+      "sourceID": "eloralintide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página da fonte analisada individualmente. Este JSON preserva o cronograma e o contexto da formulação declarados na página, bem como suas ressalvas; não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso e metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pramlintide",
+      "name": "Pramlintide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pramlintide-catalog-entry",
+      "productID": "pramlintide",
+      "title": "Pramlintide (5 mg) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 정보를 연구 및 교육 참고용으로 옮겼어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "보조 상업 출처예요. 아래 세부 내용은 출처 자체의 설명이며, 독립적으로 검증된 임상 지침이 아니에요. 페이지에는 식사 전 60–120 mcg 등 마이크로그램 단위의 허가사항에 따른 사용이 보고되어 있어요. 식사 시 투여하는 인슐린에 보조적으로 사용되며, 의학적 용량 조절이 필요해요. 5 mg 바이알 + 2.5 mL = 2,000 mcg/mL예요(60 mcg = 0.03 mL). FDA 승인 의약품이 있지만, 연구용 바이알은 그 제품이 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "식사 전 허가 용량 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "60",
+              "maximum": "120",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "식사 전에 식사 시 투여하는 인슐린의 보조제로 투여해요. 정확한 용량은 적응증과 식사에 따라 달라져요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처 페이지에는 식사 전 용량이 (60–120 mcg)라고 나와 있어요. Pramlintide는 식사 시 투여하는 인슐린 용량을 줄이고 임상의의 감독을 받아야 해요. 이 범위는 개인별 일정이 아니에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pramlintide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pramlintide-5mg-vial-dosage-protocol/",
+      "title": "Pramlintide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pramlintide-catalog-entry",
+      "sourceID": "pramlintide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 해당 페이지에 명시된 일정 및 제형 관련 맥락과 주의 사항을 보존하며, 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

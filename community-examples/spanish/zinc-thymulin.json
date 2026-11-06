@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "zinc-thymulin",
+      "name": "Zinc Thymulin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "zinc-thymulin-catalog-entry",
+      "productID": "zinc-thymulin",
+      "title": "Zinc Thymulin (Vial de 10mg) Protocolo de dosificación — referencia de la fuente",
+      "purpose": "Esquema y detalles de manejo de la página individual, transcritos como referencia de investigación y educativa",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles a continuación son declaraciones propias de la fuente, no orientación clínica verificada de forma independiente. No hay una concentración tópica publicada; solo se cita un experimento ex vivo en folículos pilosos con 10 pg/mL y una serie de casos no controlada de 18 personas. El zinc aparece como excipiente en las especificaciones del proveedor, no como un complejo de zinc y péptido demostrado. No hay una dosis validada.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de la página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "No hay una concentración tópica publicada; solo se cita un experimento ex vivo en folículos pilosos con 10 pg/mL y una serie de casos no controlada de 18 personas. El zinc aparece como excipiente en las especificaciones del proveedor, no como un complejo de zinc y péptido demostrado. No hay una dosis validada."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "No hay una concentración tópica publicada; solo se cita un experimento ex vivo en folículos pilosos con 10 pg/mL y una serie de casos no controlada de 18 personas. El zinc aparece como excipiente en las especificaciones del proveedor, no como un complejo de zinc y péptido demostrado. No hay una dosis validada. AVISO: la página individual de la fuente no proporciona una dosis administrada numérica; las concentraciones de formulación o los esquemas cualitativos, cuando se indican, se conservan en las notas y no se convierten en dosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "zinc-thymulin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/zinc-thymulin-10mg-vial-dosage-protocol/",
+      "title": "Zinc Thymulin (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "zinc-thymulin-catalog-entry",
+      "sourceID": "zinc-thymulin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página individual de la fuente. Este JSON conserva el esquema y el contexto de formulación indicados en la página, junto con sus salvedades; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Antienvejecimiento y piel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Sin especificar"
+    }
+  ]
+}

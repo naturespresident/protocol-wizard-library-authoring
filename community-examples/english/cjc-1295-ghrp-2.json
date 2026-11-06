@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cjc-1295-ghrp-2",
+      "name": "CJC-1295 + GHRP-2",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cjc-1295-ghrp-2-catalog-entry",
+      "productID": "cjc-1295-ghrp-2",
+      "title": "CJC-1295 + GHRP-2 (10mg Blend) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; these are the page's statements, not independently verified clinical guidance. Total blend only; per-component ratio is not disclosed. Page reference: 10 mg total blend + 3 mL bacteriostatic water (~3.33 mg/mL), with a 150 mcg total-blend reference dose. Not clinically validated; research use only.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "Total blend reference dose",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "150",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Amount applies to total blend; source does not disclose component ratio or frequency in the captured summary."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Per-component dose and a complete dosing schedule are not established by the blend page."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cjc-1295-ghrp-2-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/cjc-1295-ghrp-2-10mg-blend-vial-dosage-protocol/",
+      "title": "CJC-1295 + GHRP-2 (10mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cjc-1295-ghrp-2-catalog-entry",
+      "sourceID": "cjc-1295-ghrp-2-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. These are source statements and not independently verified clinical guidance; no human regimen is established unless the source says otherwise.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Growth Hormone"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

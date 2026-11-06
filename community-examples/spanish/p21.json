@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "p21",
+      "name": "P21",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "p21-catalog-entry",
+      "productID": "p21",
+      "title": "P21 (10 mg) Protocolo de dosificación — referencia de la fuente",
+      "purpose": "Calendario de una página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles a continuación son declaraciones de la propia fuente, no una guía clínica verificada de forma independiente. No existe una dosis humana establecida. Los estudios publicados de eficacia en ratones administraron 60 nmol/g de alimento (~94 mcg/ratón/día según la ingesta de alimento reportada). Las convenciones comunitarias de administración inyectable de 500–1,000 mcg diarios no están respaldadas por estudios publicados en humanos. La página indica 10 mg + 2 mL de reconstitución solo como cálculo de referencia.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Exposición a P21 en alimento para ratones",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "94",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Cantidad diaria aproximada por ratón administrada en el alimento en estudios publicados con ratones; no es una dosis inyectable ni humana."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "No existe una dosis humana establecida. La página indica que los experimentos de eficacia administraron P21 en alimento; las cantidades inyectables usadas por la comunidad carecen de respaldo publicado."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "p21-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/p21-10mg-vial-dosage-protocol/",
+      "title": "P21 (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "p21-catalog-entry",
+      "sourceID": "p21-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página individual de la fuente. Este JSON conserva el contexto del calendario y la formulación indicados por la página y sus salvedades; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo y neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

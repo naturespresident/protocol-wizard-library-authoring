@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cardiogen",
+      "name": "Cardiogen",
+      "aliases": [
+        "AEDR",
+        "Ala-Glu-Asp-Arg"
+      ],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "Cardiogen 被描述为一种合成四肽（Ala-Glu-Asp-Arg / AEDR），拟用于心脏组织研究。来源总结了培养的大鼠心肌组织、小鼠成纤维细胞和大鼠肉瘤模型中的临床前研究结果。这些结果并未证实其对人体有益、安全或具有有效剂量；来源指出，尚无人体临床试验确定最佳剂量。"
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cardiogen-pep-pedia-reference",
+      "productID": "cardiogen",
+      "title": "Cardiogen — Pep-Pedia 社区整理参考",
+      "purpose": "来源所述参考规划",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; the source identifies these doses as community-derived and says human clinical trials have not established optimal dosing.",
+      "evidenceNotes": "Pep-Pedia 将注射方案标记为社区整理。其指出，临床前研究采用的是体外浓度，而非人体注射剂量。其每 3–7 天 10–20 mg 的方案与 Dosage Peptide 上每日 200–500 mcg 的方案存在显著差异；这些来源分别保留，二者均不能作为人体方案安全有效的证据。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "社区整理的参考范围",
+            "duration": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "10",
+              "maximum": "20",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "每 3–7 天一次；来源称其为社区整理，尚未经过临床确立。"
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 3,
+          "maximum": 6,
+          "unit": "calendar_month"
+        },
+        "timing_guidance": {
+          "preferred_time_of_day": "morning",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "source_reported"
+        },
+        "cautions": {
+          "source_id": "cardiogen-pep-pedia",
+          "source_statements": [
+            {
+              "section": "研究方案",
+              "subsection": "免责声明",
+              "excerpt": "注射给药方案由社区整理。尚无人体临床试验确定 Cardiogen 的最佳剂量。所有临床前研究均采用体外浓度（ng/ml 范围），而非人体注射剂量。",
+              "truncated": false
+            },
+            {
+              "section": "副作用与安全性",
+              "subsection": "副作用",
+              "excerpt": "由于对成纤维细胞有增殖作用，活动性癌症患者不建议使用。",
+              "truncated": false
+            },
+            {
+              "section": "副作用与安全性",
+              "subsection": "副作用",
+              "excerpt": "由于缺乏安全性数据，妊娠期和哺乳期禁用。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established",
+          "community_protocol_not_supported_by_human_trials"
+        ],
+        "notes": "仅作来源参考。来源描述了 2–4 周的周期，以及周期之间间隔 3–6 个月；该时间安排仍未得到人体给药证据的验证。"
+      }
+    },
+    {
+      "id": "cardiogen-dosage-peptide-reference",
+      "productID": "cardiogen",
+      "title": "Cardiogen — Dosage Peptide 来源的每日剂量递增方案（未经验证）",
+      "purpose": "来源所述参考规划",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; the source identifies this as research-only information and says the schedule is not approved human dosing.",
+      "evidenceNotes": "商业二手来源；尚待独立验证。该来源每日 200–500 mcg 的剂量递增方案与 Pep-Pedia 每 3–7 天 10–20 mg 的社区整理方案存在显著冲突。在该页面内，正文称每两周增加约 100 mcg，而表格则从第 5 周的 400 mcg 增至第 6–12 周的 500 mcg。保留这些差异，不将其调和；两种方案均未确立可用于人体。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "cardiogen"
+            }
+          ],
+          "sequence_as_reported": "Ala-Glu-Asp-Arg (AEDR)"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "6.67",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "cardiogen-dosage-peptide",
+              "source_url": "https://www.dosagepeptide.com/single-peptide-dosages/cardiogen-20-mg-vial-dosage-protocol/",
+              "locator": "给药与复溶指南；标准／渐进方案"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "第 1–2 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 3–4 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 5 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 6–12 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 49,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields"
+        },
+        "storage": {
+          "source_id": "cardiogen-dosage-peptide",
+          "notes": "来源称，冻干小瓶应储存在 −20 °C（−4 °F）；复溶后的溶液应在避光、不冷冻的条件下冷藏于 2–8 °C（35.6–46.4 °F）。来源称，混合后的溶液应在约 28 天内使用。"
+        },
+        "cautions": {
+          "source_id": "cardiogen-dosage-peptide",
+          "source_statements": [
+            {
+              "section": "给药方案",
+              "subsection": "免责声明",
+              "excerpt": "DosagePeptide.com 上的所有信息仅供研究和教育之用。此处提及的研究用化合物仅供实验室和研究使用，不供人体使用，且未经 FDA 批准用于人体。",
+              "truncated": false
+            },
+            {
+              "section": "其作用原理",
+              "subsection": "证据方面的限制",
+              "excerpt": "目前没有 Cardiogen 高质量、独立开展的人体随机试验。与 Khavinson 生物调节剂相关的心脏保护、“基因修复”和恢复活力等说法，依据的是提出者的临床前研究，应视为尚未证实的假设，而非已确立的益处。",
+              "truncated": false
+            },
+            {
+              "section": "给药方案",
+              "subsection": "剂量递增说明",
+              "excerpt": "视耐受情况，每两周增加约 100 mcg。",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established",
+          "conflicting_source_dose_schedules",
+          "source_mentions_extensions_to_16_weeks_without_a_matching_titration_phase",
+          "titration_narrative_and_table_timing_differ"
+        ],
+        "notes": "仅作来源参考。该页面称，通常为 8–12 周，部分参考资料延长至约 16 周。其详细表格涵盖 12 周；每两周增加剂量的说明与表格中第 5 周至第 6–12 周的转换并不完全一致。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cardiogen-pep-pedia",
+      "url": "https://pep-pedia.org/peptides/cardiogen",
+      "title": "Cardiogen - Research, Dosing & Protocols | Pep-Pedia",
+      "publisher": "Pep-Pedia",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cardiogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cardiogen-20-mg-vial-dosage-protocol/",
+      "title": "Cardiogen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": "2025-11-25"
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cardiogen-pep-pedia-reference",
+      "sourceID": "cardiogen-pep-pedia",
+      "locator": "Research Protocols; Quick start guide; Side Effects & Safety",
+      "evidenceNote": "方案详情由社区整理，且来源指出，人体临床试验尚未确定最佳剂量。",
+      "supports": [
+        "/phases",
+        "/off_period",
+        "/timing_guidance",
+        "/cautions",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cardiogen",
+      "sourceID": "cardiogen-pep-pedia",
+      "locator": "Overview; Molecular Information; Research Indications; References",
+      "evidenceNote": "Pep-Pedia 将 Cardiogen 描述为 AEDR，并总结了临床前研究；其报告称，尚无人体临床试验确立其疗效或最佳剂量。",
+      "supports": [
+        "/name",
+        "/aliases",
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "protocolID": "cardiogen-dosage-peptide-reference",
+      "sourceID": "cardiogen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; Dosing Protocol; Storage Instructions; How This Works; Important Disclaimer",
+      "evidenceNote": "商业二手来源。该网站将其内容标注为仅供研究使用，并明确说明不供人体使用。其每日方案与 Pep-Pedia 的社区整理方案存在显著冲突，而且页面中的剂量递增说明与表格在第 5 周至第 6–12 周的转换处不一致。",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专项与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

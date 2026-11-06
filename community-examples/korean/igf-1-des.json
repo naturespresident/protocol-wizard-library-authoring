@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "igf-1-des",
+      "name": "IGF-1 DES",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "igf-1-des-catalog-entry",
+      "productID": "igf-1-des",
+      "title": "IGF-1 DES (1 mg) 용량 프로토콜 — 출처 참고용",
+      "purpose": "개별 페이지의 일정 및 취급 세부사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "이차 상업 출처예요. 이는 해당 페이지의 진술이며 독립적으로 검증된 임상 지침이 아니에요. 연구 관행에서는 20–50 mcg SC 매일, 흔히 훈련한 근육 근처에 투여하고 짧은 4–6주 주기를 적용한다고 해요. 전임상 자료만 있어요. 인체 근육 성장 시험은 없고 FDA 승인도 받지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "연구 관행",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "20",
+              "maximum": "50",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "출처에서는 짧은 4–6주 주기를 설명해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "연구 관행에서는 20–50 mcg SC 매일, 흔히 훈련한 근육 근처에 투여하고 짧은 4–6주 주기를 적용한다고 해요. 전임상 자료만 있어요. 인체 근육 성장 시험은 없고 FDA 승인도 받지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "igf-1-des-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/igf-1-des-1mg-vial-dosage-protocol/",
+      "title": "IGF-1 DES (1 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "igf-1-des-catalog-entry",
+      "sourceID": "igf-1-des-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 진술이며 독립적으로 검증된 임상 지침이 아니에요. 출처에서 별도로 밝히지 않는 한 확립된 인체 투여 요법은 없어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장 호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghrp-2",
+      "name": "GHRP-2",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ghrp-2-catalog-entry",
+      "productID": "ghrp-2",
+      "title": "GHRP-2（5mg バイアル）用量プロトコル — 出典参照",
+      "purpose": "個別ページに記載されたスケジュールおよび取り扱いの詳細を、研究・教育目的の参考情報として転記しています。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下は当該ページの記載内容であり、独立して検証された臨床指針ではありません。ページの記載：空腹時に毎日単回、100–300 mcg を皮下投与し、8–16週間継続する用量調整；5 mg + 3 mL の静菌水（約1.67 mg/mL）。明確に研究目的のみとされており、ヒトへの適用または臨床応用を目的としていません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "毎日の研究参考用範囲",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "出典には空腹時の投与と8–16週間のコースが記載されています。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "ページの記載：空腹時に毎日単回、100–300 mcg を皮下投与し、8–16週間継続する用量調整；5 mg + 3 mL の静菌水（約1.67 mg/mL）。明確に研究目的のみとされており、ヒトへの適用または臨床応用を目的としていません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ghrp-2-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ghrp-2-5mg-vial-dosage-protocol/",
+      "title": "GHRP-2 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ghrp-2-catalog-entry",
+      "sourceID": "ghrp-2-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。これらは出典の記載内容であり、独立して検証された臨床指針ではありません。出典に別途記載がない限り、ヒト向けの用法は確立されていません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "成長ホルモン"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tuftsin",
+      "name": "Tuftsin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "tuftsin-catalog-entry",
+      "productID": "tuftsin",
+      "title": "Tuftsin (frasco de 5mg) — Protocolo de dosagem — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; estas são declarações da página, não orientações clínicas verificadas de forma independente. Não há dose estabelecida nem ensaio moderno de eficácia em humanos. A página caracteriza frascos de miligramas como reagentes analíticos para trabalho com células/animais, não como produtos para consumidores; não há esquema de uso humano.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência da página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Não há dose estabelecida nem ensaio moderno de eficácia em humanos. A página caracteriza frascos de miligramas como reagentes analíticos para trabalho com células/animais, não como produtos para consumidores; não há esquema de uso humano."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Não há dose estabelecida nem ensaio moderno de eficácia em humanos. A página caracteriza frascos de miligramas como reagentes analíticos para trabalho com células/animais, não como produtos para consumidores; não há esquema de uso humano. SINALIZAÇÃO: a página individual da fonte não informa uma dose administrada numérica; as concentrações da formulação ou os cronogramas qualitativos, quando mencionados, são mantidos nas notas e não são convertidos em doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "tuftsin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/tuftsin-5mg-vial-dosage-protocol/",
+      "title": "Tuftsin (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "tuftsin-catalog-entry",
+      "sourceID": "tuftsin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página individual da fonte analisada. Estas são declarações da fonte, não orientações clínicas verificadas de forma independente; nenhum esquema para humanos foi estabelecido, salvo indicação em contrário pela fonte.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado e clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

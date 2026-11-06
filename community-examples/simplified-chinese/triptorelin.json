@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "triptorelin",
+      "name": "Triptorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "triptorelin-catalog-entry",
+      "productID": "triptorelin",
+      "title": "Triptorelin Acetate（2 mg）给药方案——来源参考",
+      "purpose": "单页来源中的时间安排和处理细节，转录为研究／教育参考资料",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节为来源自身陈述，并非经独立核实的临床指导。该页面不建议自行给药。Triptorelin 是一种强效处方 GnRH 激动剂，其长效制剂在专科医生指导下使用；它起初会引发激素激增，随后抑制 LH/FSH 和性激素。研究用小瓶页面不适合作为给药指南。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "长效制剂标签剂量选项",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "3.75",
+                "11.25",
+                "22.5"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "不同获批的长效缓释制剂：3.75 mg 每月一次、11.25 mg 每 3 个月一次，或 22.5 mg 每 6 个月一次，均由临床医生给药。普通的 2 mg 研究用小瓶并非长效制剂。"
+            }
+          },
+          {
+            "name": "既往即释制剂背景",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "既往有监督的方案为最初一周使用，随后采用较低的维持剂量；页面未说明维持剂量的具体数值。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "处方激素，需在专科医生监督下使用；来源明确指出，其研究用小瓶无法复现长效制剂的药代动力学，且未提供自行给药方案。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "triptorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/triptorelin-2mg-vial-dosage-protocol/",
+      "title": "Triptorelin Acetate (2 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "triptorelin-catalog-entry",
+      "sourceID": "triptorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单页来源。此 JSON 保留该页面所述的时间安排／制剂背景及其注意事项；这并不能确立经临床验证的给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "肌内注射"
+    }
+  ]
+}

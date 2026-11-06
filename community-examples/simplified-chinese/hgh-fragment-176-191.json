@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hgh-fragment-176-191",
+      "name": "HGH 片段 176-191",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hgh-fragment-176-191-catalog-entry",
+      "productID": "hgh-fragment-176-191",
+      "title": "HGH 片段 176-191（5 mg）剂量方案——来源参考",
+      "purpose": "单页给药时间表及处理细节，转录为研究／教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节为来源自身的陈述，未经独立验证，不能视为临床指导。尚无经验证的人体剂量。研究／灰色市场惯例提及 250–500 mcg，每日皮下注射一次或两次，通常空腹进行。5 mg + 2 mL 抑菌水可配成 2.5 mg/mL。人体证据针对的是改良类似物 AOD-9604，而非此片段。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "研究／社区使用范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "来源称每日一次或两次，通常空腹使用。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "尚无经验证的人体剂量。研究／灰色市场惯例提及 250–500 mcg，每日皮下注射一次或两次，通常空腹进行。5 mg + 2 mL 抑菌水可配成 2.5 mg/mL。人体证据针对的是改良类似物 AOD-9604，而非此片段。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hgh-fragment-176-191-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hgh-fragment-176-191-5mg-vial-dosage-protocol/",
+      "title": "HGH Fragment 176-191 (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hgh-fragment-176-191-catalog-entry",
+      "sourceID": "hgh-fragment-176-191-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅该来源的单页内容。此 JSON 保留了页面所述的给药时间表／制剂背景及其注意事项；这并不能确立经临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

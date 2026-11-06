@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cortagen",
+      "name": "Cortagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cortagen-catalog-entry",
+      "productID": "cortagen",
+      "title": "Cortagen — modellbasiertes Szenario A (nicht validiert)",
+      "purpose": "Quellenberichtete, modellbasierte Übertragung einer Tierdosis, nur als Referenz dokumentiert",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "Die Quelle nennt zwei ausschließlich modellbasierte direkte Übertragungen von Nagetierdosen, ausdrücklich keine validierten Humanprotokolle und ohne allometrische Skalierung: 0.01 mg/kg/day für etwa 10 Tage (Rechenbeispiel für 70 kg: 0.70 mg/day) oder 0.03 mg/kg/day für 5 Tage (Rechenbeispiel für 70 kg: 2.10 mg/day). Die Verabreichungswege bei Nagetieren unterscheiden sich. Nur zu Forschungszwecken.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Quellenszenario A",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.01",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Direkte Übertragung der Nagetierdosis aus der Quelle; etwa 10 Tage. Nicht validiert und nicht als Humandosis vorgesehen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Quellenszenario A: 0.01 mg/kg/day für etwa 10 Tage. Die Quelle beschreibt außerdem ein separates Szenario mit 0.03 mg/kg/day für 5 Tage. Diese direkten Übertragungen von Nagetierdosen sind nicht allometrisch skaliert und keine validierten Humanprotokolle."
+      }
+    },
+    {
+      "id": "cortagen-alternative-rodent-transposition",
+      "productID": "cortagen",
+      "title": "Cortagen — modellbasiertes Szenario B (nicht validiert)",
+      "purpose": "Separate, quellenberichtete, modellbasierte Übertragung einer Tierdosis, nur als Referenz dokumentiert",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "Die Quelle nennt 0.03 mg/kg/day für 5 Tage als alternative direkte Übertragung einer Nagetierdosis, ohne allometrische Skalierung. Dies ist kein validiertes Humanprotokoll; die Verabreichungswege bei Nagetieren unterscheiden sich.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Quellenszenario B",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.03",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Direkte Übertragung der Nagetierdosis aus der Quelle. Nicht validiert und nicht als Humandosis vorgesehen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Separate Alternative zu Szenario A: 0.03 mg/kg/day für 5 Tage. Die direkte Übertragung der Nagetierdosis aus der Quelle ist nicht allometrisch skaliert und kein validiertes Humanprotokoll."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cortagen-20mg-vial-dosage-protocol/",
+      "title": "Cortagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cortagen-catalog-entry",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dies sind Angaben aus der Quelle und keine unabhängig verifizierten klinischen Leitlinien; ein Humanregime ist nicht etabliert, sofern die Quelle nichts anderes angibt.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "cortagen-alternative-rodent-transposition",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; alternative model-based schedule",
+      "evidenceNote": "Zweite, ausschließlich modellbasierte direkte Übertragung einer Nagetierdosis, die von der Quelle berichtet wird; kein validiertes Humanprotokoll.",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert & klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Nicht angegeben"
+    }
+  ]
+}

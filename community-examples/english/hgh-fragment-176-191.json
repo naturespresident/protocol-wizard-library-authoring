@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hgh-fragment-176-191",
+      "name": "HGH Fragment 176-191",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hgh-fragment-176-191-catalog-entry",
+      "productID": "hgh-fragment-176-191",
+      "title": "HGH Fragment 176-191 (5 mg) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. No validated human dose. Research/grey-market conventions cite 250–500 mcg SC once or twice daily, often fasted. 5 mg + 2 mL bacteriostatic water gives 2.5 mg/mL. Human evidence belongs to modified analog AOD-9604, not this fragment.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Research/community range",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Source reports once or twice daily, often fasted."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "No validated human dose. Research/grey-market conventions cite 250–500 mcg SC once or twice daily, often fasted. 5 mg + 2 mL bacteriostatic water gives 2.5 mg/mL. Human evidence belongs to modified analog AOD-9604, not this fragment."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hgh-fragment-176-191-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hgh-fragment-176-191-5mg-vial-dosage-protocol/",
+      "title": "HGH Fragment 176-191 (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hgh-fragment-176-191-catalog-entry",
+      "sourceID": "hgh-fragment-176-191-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Weight & Metabolism"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

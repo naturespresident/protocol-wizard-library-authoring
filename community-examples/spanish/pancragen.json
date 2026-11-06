@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pancragen",
+      "name": "Pancragen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pancragen-catalog-entry",
+      "productID": "pancragen",
+      "title": "Pancragen (Vial de 20mg) — Protocolo de dosificación — referencia de la fuente",
+      "purpose": "Calendario y detalles de manejo de la página individual, transcritos como referencia de investigación y educación",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones de la propia fuente, no orientación clínica verificada de forma independiente. No existe una dosis humana establecida. La página solo informa una cantidad antigua en monos rhesus: 50 mcg por animal al día mediante inyección IM durante 10 días. El artículo humano accesible no indica dosis, vía ni duración del tratamiento. 20 mg con 3 mL de agua bacteriostática es solo una referencia de reconstitución.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Curso del estudio en monos rhesus",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Reportado por animal en monos rhesus; no es una dosis para humanos."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La única cantidad diaria in vivo publicada que informa esta página es 50 mcg por mono rhesus una vez al día por vía IM durante 10 días. El artículo humano no revela la dosis, la vía ni la duración del tratamiento."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pancragen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pancragen-20mg-vial-dosage-protocol/",
+      "title": "Pancragen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pancragen-catalog-entry",
+      "sourceID": "pancragen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el calendario y el contexto de formulación indicados en la página y sus advertencias; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado y clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuscular"
+    }
+  ]
+}

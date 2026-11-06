@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "liraglutide",
+      "name": "Liraglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "liraglutide-catalog-entry",
+      "productID": "liraglutide",
+      "title": "Liraglutide（10 mg）剂量方案——来源参考",
+      "purpose": "单页中的给药时间表和处理细节，转录为研究／教育参考",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，并非经独立验证的临床指导。页面报告的已批准产品方案为 Victoza 每日皮下注射 0.6–1.8 mg，或将 Saxenda 递增至每日 3.0 mg。这些指的是说明书标示的商业药品，并非研究用小瓶。10 mg + 2 mL 抑菌水仅为参考计算；不得将研究级小瓶等同于已批准的注射笔。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "说明书标示的每日剂量范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.6",
+              "maximum": "3.0",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Victoza 使用剂量为每日 0.6–1.8 mg；Saxenda 递增至每日 3.0 mg。具体递增方案因产品／适应证而异。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "这些数值指已批准的商业产品，并非研究级小瓶。剂量因适应证／产品而异。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "liraglutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/liraglutide-10mg-vial-dosage-protocol/",
+      "title": "Liraglutide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "liraglutide-catalog-entry",
+      "sourceID": "liraglutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留了页面所述的给药方案／制剂背景及其注意事项；这并不能证明该方案已获临床验证。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

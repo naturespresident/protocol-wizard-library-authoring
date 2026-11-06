@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "acetyl-tetrapeptide-3",
+      "name": "Acetyl Tetrapeptide-3",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "acetyl-tetrapeptide-3-catalog-entry",
+      "productID": "acetyl-tetrapeptide-3",
+      "title": "Acetyl Tetrapeptide-3 (topisch) Dosierungsprotokoll – Quellenreferenz",
+      "purpose": "Von der Quelle berichtete Hinweise zur topischen kosmetischen Formulierung, als Forschungs- und Bildungsreferenz dokumentiert",
+      "methodID": "topical",
+      "population": "Topical cosmetic formulations",
+      "evidenceNotes": "Das Identitätsprofil von Typology nennt kosmetische Formulierungskonzentrationen von 0.5–2.5% für die vorbeugende Pflege und 2.5–5% für Intensivbehandlungen. Es beschreibt die topische Verwendung in Gesichtspflegeprodukten (einschließlich Wimpern- und Augenbrauenseren sowie Augencremes), Haarpflegeprodukten (einschließlich stärkender Shampoos und Haarseren) und Mascaras. Dies sind Formulierungskonzentrationen, keine Masse oder Dosis pro Anwendung.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Bereiche für kosmetische Formulierungen zur topischen Anwendung",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Typology nennt 0.5–2.5% für vorbeugende kosmetische Formulierungen und 2.5–5% für Formulierungen zur Intensivbehandlung. Beispiele für topische Produkte umfassen Gesichtspflege, Wimpern- und Augenbrauenseren, Augencremes, stärkende Shampoos, Haarseren und Mascara. Dies sind Formulierungskonzentrationen, keine verabreichte Masse pro Anwendung."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_percent_formulation_levels_not_supported_by_dose_unit"
+        ],
+        "notes": "Typology nennt 0.5–2.5% für vorbeugende kosmetische Formulierungen und 2.5–5% für Formulierungen zur Intensivbehandlung. Diese Prozentsätze für topische Formulierungen lassen sich nicht mit den Dosierungseinheiten des Schemas darstellen; daher bleibt die Dosis null. Es handelt sich nicht um eine Masse pro Anwendung."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "acetyl-tetrapeptide-3-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/acetyl-tetrapeptide-3-topical-dosage-protocol/",
+      "title": "Acetyl Tetrapeptide-3 (Topical) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "acetyl-tetrapeptide-3-typology",
+      "url": "https://us.typology.com/library/fiche-didentite-acetyl-tetrapeptide-3",
+      "title": "Acetyl Tetrapeptide-3 identity profile",
+      "publisher": "Typology",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "acetyl-tetrapeptide-3-catalog-entry",
+      "sourceID": "acetyl-tetrapeptide-3-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON hält den dort angegebenen Zeitplan- und Formulierungskontext sowie die Vorbehalte fest; es belegt kein klinisch validiertes Dosierungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "acetyl-tetrapeptide-3-catalog-entry",
+      "sourceID": "acetyl-tetrapeptide-3-typology",
+      "locator": "Identity profile: Required dosage in cosmetic products; Usage",
+      "evidenceNote": "Die Seite nennt 0.5–2.5% für vorbeugende kosmetische Produkte und 2.5–5% für Intensivbehandlungen sowie Beispiele für topische Gesichts- und Haarpflegeprodukte und Mascara.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging und Haut"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Nicht angegeben"
+    },
+    {
+      "id": "topical",
+      "name": "Topisch"
+    }
+  ]
+}

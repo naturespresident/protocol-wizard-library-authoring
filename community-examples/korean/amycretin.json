@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "amycretin",
+      "name": "Amycretin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "amycretin-catalog-entry",
+      "productID": "amycretin",
+      "title": "Amycretin (5 mg) 투여 프로토콜 — 출처 참고자료",
+      "purpose": "개별 페이지의 일정 및 취급 세부 정보를 연구·교육용 참고자료로 옮겼어요",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "상업 출처의 간접 자료이며, 아래 세부 정보는 출처 자체의 진술로 독립적으로 검증된 임상 지침이 아니에요. 약 0.3 mg 수준부터 천천히 적정하는 매주 피하 투여 임상시험 일정이에요. 페이지에는 별도의 경구 정제 제형도 개발 및 시험 중이라고 적혀 있어요. 1b/2a상 및 3상 상태는 제형에 따라 달라요. 승인된 제품이나 검증된 연구용 바이알 용량은 없어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "초기 임상시험 시작 용량",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.3",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "description": "매주 피하 투여 시작 참고 용량이에요. 출처에서는 천천히 증량한다고 하지만, 이 페이지 요약에는 모든 증량 단계가 명시되어 있지 않아요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "임상시험 중인 물질에 관한 참고자료예요. 출처 페이지에서는 경구 제형도 별도로 다뤄요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "amycretin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/amycretin-5mg-vial-dosage-protocol/",
+      "title": "Amycretin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "amycretin-catalog-entry",
+      "sourceID": "amycretin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정과 제형의 맥락 및 주의사항을 보존하며, 임상적으로 검증된 용법을 확립하지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하 투여"
+    }
+  ]
+}

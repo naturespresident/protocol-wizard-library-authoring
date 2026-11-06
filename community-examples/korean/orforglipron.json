@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "orforglipron",
+      "name": "Orforglipron",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "orforglipron-catalog-entry",
+      "productID": "orforglipron",
+      "title": "Orforglipron (6mg) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고용으로 옮긴 내용이에요.",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "상업적 이차 출처예요. 아래 세부 사항은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 경구용 저분자 화합물이며 펩타이드는 아니에요. 임상시험군은 4주 간격으로 증량하는 매일 한 차례 투여 용량(3, 12, 36 mg)을 사용했어요. 해당 페이지에는 Foundayo가 2026년에 FDA 승인을 받았다고 명시되어 있지만, 연구용 등급 물질은 승인된 제품이 아니에요. 재구성은 없어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "3상 임상시험 용량군",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "3",
+                "12",
+                "36"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "임상시험에서 4주 간격으로 증량하며 매일 한 차례 경구 투여해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "임상시험 용량군은 연구용 등급 물질의 처방과는 달라요. 출처에는 승인된 제품이 언급되어 있지만, 연구용 물질은 그 제품이 아니에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "orforglipron-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/orforglipron-6mg-dosage-protocol/",
+      "title": "Orforglipron (6mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "orforglipron-catalog-entry",
+      "sourceID": "orforglipron-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 해당 페이지에 명시된 일정/제형 관련 맥락과 주의사항을 보존하며, 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

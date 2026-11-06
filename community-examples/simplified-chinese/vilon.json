@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vilon",
+      "name": "Vilon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vilon-catalog-entry",
+      "productID": "vilon",
+      "title": "Vilon（20mg 瓶）剂量方案——来源参考",
+      "purpose": "单页给药安排和操作细节，转录为研究／教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；这些是页面上的陈述，未经独立核实，不构成临床指导。报道的脉冲给药安排：每个4周周期连续5天每日皮下注射，每月重复。周期1第1–5天：67, 133, 200, 267, 333 mcg；后续周期：每日333–667 mcg，连续5天。20 mg + 3 mL；来源称混合后在2–8°C保存，并建议约1周内用完。仅供研究。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "周期1，第1天",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "67",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "周期1连续五天每日给药中的首次；每月重复一个周期。"
+            }
+          },
+          {
+            "name": "周期1，第2天",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "133",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "周期1，第3天",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "周期1，第4天",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "267",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "周期1，第5天",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "333",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "周期2–4，第1–5天",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "333",
+              "maximum": "667",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "每个四周周期连续五天每日给药；每月重复，共2–4个周期。后续周期的剂量范围适用于每个给药日。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "依据来源改写的脉冲给药方案，未获批用于人体。首个周期的确切剂量逐日递增；后续周期采用一个范围。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vilon-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vilon-20mg-vial-dosage-protocol/",
+      "title": "Vilon (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vilon-catalog-entry",
+      "sourceID": "vilon-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单个来源页面。这些是来源中的陈述，未经独立核实，不构成临床指导；除非来源另有说明，否则尚无确定的人体给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

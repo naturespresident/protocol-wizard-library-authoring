@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "mk-677",
+      "name": "MK-677",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "mk-677-catalog-entry",
+      "productID": "mk-677",
+      "title": "MK-677 (Ibutamoren, 25 mg) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. Human trials used oral doses of 5–25 mg once daily; most body-composition data use 25 mg/day. Orally active, no reconstitution. Never approved; research chemical.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Human-trial dose range",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "5",
+              "maximum": "25",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Human trials used oral doses of 5–25 mg once daily; most body-composition data use 25 mg/day. Orally active, no reconstitution. Never approved; research chemical."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "mk-677-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/mk-677-25mg-dosage-protocol/",
+      "title": "MK-677 (Ibutamoren, 25 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "mk-677-catalog-entry",
+      "sourceID": "mk-677-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Growth Hormone"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

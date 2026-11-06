@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "thymogen",
+      "name": "Thymogen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "thymogen-catalog-entry",
+      "productID": "thymogen",
+      "title": "Thymogen (10 mg) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Handhabungsdetails aus der Einzelseite, übertragen als Referenz für Forschung und Lehre",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Angaben aus einer einzelnen Seite einer Sekundärquelle; keine unabhängig verifizierte medizinische Anleitung. Von der Seite berichteter Zeitplan für das registrierte Produkt: etwa 100 mcg intramuskulär einmal täglich über einen kurzen Zeitraum von 3–10 Tagen; auch die intranasale Anwendung wird beschrieben. 10 mg + 2 mL bakteriostatisches Wasser ergeben 5 mg/mL, die Quelle warnt jedoch, dass diese Forschungsdurchstechflasche etwa 100 Referenzdosen enthält. In Russland registriert, nicht von der FDA zugelassen; verwechseln Sie alpha-L-Glu-Trp nicht mit Golotimod/SCV-07.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Kurzer Behandlungszyklus",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 3,
+              "maximum": 10
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Die Quelle beschreibt auch die intranasale Anwendung; unterscheiden Sie alpha-L-Glu-Trp von Golotimod/SCV-07."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Der von der Seite berichtete Zeitplan für das registrierte Produkt; nicht von der FDA zugelassen und keine Empfehlung zur Verwendung einer Forschungsdurchstechflasche."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "thymogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/thymogen-10mg-vial-dosage-protocol/",
+      "title": "Thymogen (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "thymogen-catalog-entry",
+      "sourceID": "thymogen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "Die einzelne Protokollseite wurde geprüft. Der Eintrag bewahrt die von der Quelle berichteten Einzelheiten und die Grenzen der Seite; er ist keine klinische Dosierungsanleitung.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert & klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuskulär"
+    }
+  ]
+}

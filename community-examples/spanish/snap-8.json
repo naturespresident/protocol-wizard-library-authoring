@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "snap-8",
+      "name": "SNAP-8",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "snap-8-catalog-entry",
+      "productID": "snap-8",
+      "title": "Protocolo de dosificación de SNAP-8 (vial de 10 mg) — referencia de la fuente",
+      "purpose": "Detalles del esquema y del manejo de la página individual, transcritos como referencia de investigación y educación",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles que siguen son declaraciones de la propia fuente y no se han verificado de forma independiente como orientación clínica. SNAP-8 es un ingrediente cosmético tópico. La página informa de una dilución de 10 mg más 3 mL y de 330 mcg únicamente como referencia para el manejo en investigación; no es un fármaco inyectable aprobado ni hay un esquema de inyección para humanos.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de la página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "SNAP-8 es un ingrediente cosmético tópico. La página informa de una dilución de 10 mg más 3 mL y de 330 mcg únicamente como referencia para el manejo en investigación; no es un fármaco inyectable aprobado ni hay un esquema de inyección para humanos."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "SNAP-8 es un ingrediente cosmético tópico. La página informa de una dilución de 10 mg más 3 mL y de 330 mcg únicamente como referencia para el manejo en investigación; no es un fármaco inyectable aprobado ni hay un esquema de inyección para humanos. AVISO: la página de la fuente individual no proporciona una dosis administrada numérica; las concentraciones de la formulación o las pautas cualitativas, cuando se indican, se conservan en las notas y no se convierten en dosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "snap-8-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/snap-8-10mg-vial-dosage-protocol/",
+      "title": "SNAP-8 (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "snap-8-catalog-entry",
+      "sourceID": "snap-8-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el contexto del esquema o la formulación que indica la página y sus advertencias; no establece una pauta clínicamente validada.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializados y clínicos"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "liraglutide",
+      "name": "Liraglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "liraglutide-catalog-entry",
+      "productID": "liraglutide",
+      "title": "Protocolo de dosagem de Liraglutide (10 mg) — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são afirmações da própria fonte, não orientações clínicas verificadas de forma independente. A página informa cronogramas dos produtos aprovados de 0.6–1.8 mg por via subcutânea ao dia para Victoza ou titulação até 3.0 mg ao dia para Saxenda. Eles se referem a medicamentos comerciais aprovados, não ao frasco de pesquisa. 10 mg + 2 mL de água bacteriostática é um cálculo de referência; não equipare o frasco de grau de pesquisa às canetas aprovadas.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Faixa de dose diária indicada na bula",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.6",
+              "maximum": "3.0",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Victoza usa 0.6–1.8 mg/dia; Saxenda é titulada até 3.0 mg/dia. A titulação exata varia conforme o produto/indicação."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Os valores se referem a produtos comerciais aprovados, não a um frasco de grau de pesquisa. As doses variam conforme a indicação/o produto."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "liraglutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/liraglutide-10mg-vial-dosage-protocol/",
+      "title": "Liraglutide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "liraglutide-catalog-entry",
+      "sourceID": "liraglutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página individual da fonte consultada. Este JSON preserva o cronograma declarado na página, o contexto da formulação e suas ressalvas; não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso e metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

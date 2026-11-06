@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "melanotan-i",
+      "name": "Melanotan I",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "melanotan-i-catalog-entry",
+      "productID": "melanotan-i",
+      "title": "Melanotan I (10 mg): protocolo de dosificación — referencia de la fuente",
+      "purpose": "Calendario de una página individual y detalles de manejo, transcritos como referencia de investigación y educativa",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones de la propia fuente, no recomendaciones clínicas verificadas de forma independiente. Convención de investigación descrita en la página: 0.5–1 mg por vía subcutánea una vez al día durante la fase de carga hasta que se desarrolle la pigmentación; luego, 1 mg una o dos veces por semana como mantenimiento. 10 mg + 2 mL equivalen a 5 mg/mL. La aprobación de Afamelanotide se aplica únicamente al implante de 16 mg para EPP colocado por un profesional clínico, no al péptido de investigación autoinyectado.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Convención de carga en investigación",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Una vez al día hasta que aumente la pigmentación; la fuente describe una convención de investigación común, no una recomendación clínica."
+            }
+          },
+          {
+            "name": "Convención de mantenimiento en investigación",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "Una o dos veces por semana después de la carga; la fuente indica que Afamelanotide aprobado es un implante colocado por un profesional clínico, no este material autoinyectado."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Solo es una convención de la fuente. La aprobación de la FDA se aplica únicamente al implante de Afamelanotide colocado por un profesional clínico para la EPP, no al péptido de investigación autoinyectado."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "melanotan-i-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/melanotan-1-10mg-vial-dosage-protocol/",
+      "title": "Melanotan I (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "melanotan-i-catalog-entry",
+      "sourceID": "melanotan-i-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página individual de la fuente. Este JSON conserva el calendario y el contexto de formulación indicados en la página, así como sus advertencias; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado y clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutáneo"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "mazdutide",
+      "name": "Mazdutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "mazdutide-catalog-entry",
+      "productID": "mazdutide",
+      "title": "Mazdutide (5mg 바이알) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "상업적 이차 출처예요. 아래 세부 사항은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침이 아니에요. 해당 페이지의 연구 참고 자료에는 용량당 (2.5 mg)을 사용하며, 5 mg 바이알을 정균수 (3 mL)로 재구성한다고 설명되어 있어요. 이는 인체 사용 지침이 아니에요. 해석하기 전에 임상 출처에서 시험 용량 일정을 확인하세요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "출처에 보고된 참고 용량",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "페이지에서는 이를 연구 참고 용량이라고 부르지만, 빈도나 투여 기간은 명시하지 않아요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "해당 페이지의 연구 참고 자료에는 용량당 (2.5 mg)을 사용하며, 5 mg 바이알을 정균수 (3 mL)로 재구성한다고 설명되어 있어요. 이는 인체 사용 지침이 아니에요. 해석하기 전에 임상 출처에서 시험 용량 일정을 확인하세요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "mazdutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/mazdutide-5mg-vial-dosage-protocol/",
+      "title": "Mazdutide (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "mazdutide-catalog-entry",
+      "sourceID": "mazdutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 해당 페이지에 기재된 일정/제형 맥락과 주의 사항을 보존하며, 임상적으로 검증된 요법을 확립하지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "지정되지 않음"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "melanotan-i",
+      "name": "Melanotan I",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "melanotan-i-catalog-entry",
+      "productID": "melanotan-i",
+      "title": "Melanotan I（10 mg）剂量方案——来源参考",
+      "purpose": "单个页面中的用药安排和操作细节，转录为研究/教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是来源自身的表述，并非经过独立核实的临床指导。页面研究惯例：0.5–1 mg 皮下注射，每日一次负荷给药，直至出现色素沉着；之后以 1 mg 每周一次或两次维持。10 mg + 2 mL 可配成 5 mg/mL。Afamelanotide 获批仅适用于由临床医生植入的 16 mg EPP 植入剂，不适用于自行注射的研究肽。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "研究用负荷期惯例",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "每日一次，直至色素沉着逐渐形成；来源将其描述为常见的研究惯例，并非临床指导。"
+            }
+          },
+          {
+            "name": "研究用维持期惯例",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "负荷期后每周一次或两次；来源称获批的 Afamelanotide 为由临床医生植入的植入剂，并非这种自行注射的材料。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "仅为来源所述惯例。FDA 批准仅适用于由临床医生植入、用于 EPP 的 afamelanotide 植入剂，不适用于自行注射的研究肽。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "melanotan-i-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/melanotan-1-10mg-vial-dosage-protocol/",
+      "title": "Melanotan I (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "melanotan-i-catalog-entry",
+      "sourceID": "melanotan-i-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留该页面所述的用药安排/剂型背景及其注意事项；这并不能确立经临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "sermorelin-ipamorelin",
+      "name": "Sermorelin + Ipamorelin",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "sermorelin-ipamorelin-catalog-entry",
+      "productID": "sermorelin-ipamorelin",
+      "title": "Sermorelin + Ipamorelin (10mg Blend) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; these are the page's statements, not independently verified clinical guidance. Page reference: 10 mg total blend in 3 mL bacteriostatic water (~3,333 mcg/mL); starts near 300 mcg total blend once daily. Page says source convention for 1:1 blends; component proportions and human safety/efficacy not established by the blend page.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "Total blend starting reference",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Total blend amount; page describes a 1:1, 10 mg total blend."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Source-described research convention only; mixture composition and human validity are not established."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "sermorelin-ipamorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/sermorelin-ipamorelin-10mg-blend-vial-dosage-protocol/",
+      "title": "Sermorelin + Ipamorelin (10mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "sermorelin-ipamorelin-catalog-entry",
+      "sourceID": "sermorelin-ipamorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. These are source statements and not independently verified clinical guidance; no human regimen is established unless the source says otherwise.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Growth Hormone"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

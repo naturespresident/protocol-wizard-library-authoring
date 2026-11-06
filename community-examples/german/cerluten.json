@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cerluten",
+      "name": "Cerluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cerluten-catalog-entry",
+      "productID": "cerluten",
+      "title": "Cerluten (Gehirn-Bioregulator) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung von der Einzelseite, als Forschungs-/Bildungsreferenz transkribiert",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die nachstehenden Angaben sind Aussagen der Quelle selbst und keine unabhängig verifizierte klinische Empfehlung. Übliche orale Kapselform, häufig 20 mg: 1–2 Kapseln täglich über 10–30 Tage, häufig vor den Mahlzeiten, 2–3-mal/Jahr wiederholt. Proprietärer tierischer Gehirn-/ZNS-Extrakt, der sich von Cortexin/Cortagen unterscheidet; keine validierte therapeutische Dosis.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Orale Kur",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Üblicherweise vor einer Mahlzeit; 2–3 Kuren/Jahr wiederholen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Auf der Seite werden Kapseln zu 20 mg angegeben; 1–2 Kapseln täglich über 10–30 Tage, 2–3-mal/Jahr wiederholt. Die Dosis wird als Kapselanzahl angegeben; 20 mg pro Kapsel bezeichnet die Wirkstärke der Formulierung, nicht die Kapselanzahl."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cerluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cerluten-brain-bioregulator-dosage-protocol/",
+      "title": "Cerluten (Brain Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cerluten-catalog-entry",
+      "sourceID": "cerluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die Einzelseite der Quelle wurde geprüft. Dieses JSON gibt den dort genannten Zeitplan und Formulierungskontext sowie die Einschränkungen wieder; es belegt kein klinisch validiertes Schema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert & klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

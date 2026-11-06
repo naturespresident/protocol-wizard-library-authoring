@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vilon",
+      "name": "Vilon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vilon-catalog-entry",
+      "productID": "vilon",
+      "title": "Vilon (flacon de 20mg) — protocole posologique, référence de la source",
+      "purpose": "Calendrier et détails de manipulation de la page individuelle, transcrits à titre de référence de recherche et d’information",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s’agit des affirmations de la page, et non de directives cliniques vérifiées indépendamment. Schéma pulsé rapporté : 5 doses quotidiennes consécutives par cycle de 4 semaines, répété chaque mois. Cycle 1, jours 1–5 : 67, 133, 200, 267, 333 mcg ; cycles suivants : 333–667 mcg par jour pendant 5 jours. 20 mg + 3 mL ; la source indique 2–8°C après mélange et une durée d’utilisation d’environ 1 semaine. Réservé à la recherche.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Cycle 1, jour 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "67",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "Première des cinq doses quotidiennes consécutives du cycle 1 ; le cycle se répète chaque mois."
+            }
+          },
+          {
+            "name": "Cycle 1, jour 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "133",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Cycle 1, jour 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Cycle 1, jour 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "267",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Cycle 1, jour 5",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "333",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Cycles 2–4, jours 1–5",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "333",
+              "maximum": "667",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "Cinq doses quotidiennes consécutives par cycle de quatre semaines ; répéter chaque mois pendant 2–4 cycles. La plage de doses des cycles suivants s’applique à chaque jour d’administration."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Schéma pulsé adapté de la source, non approuvé pour une posologie humaine. Les doses exactes du premier cycle augmentent chaque jour ; les cycles suivants utilisent une plage."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vilon-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vilon-20mg-vial-dosage-protocol/",
+      "title": "Vilon (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vilon-catalog-entry",
+      "sourceID": "vilon-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle examinée. Il s’agit des affirmations de la source, et non de directives cliniques vérifiées indépendamment ; aucun schéma posologique humain n’est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

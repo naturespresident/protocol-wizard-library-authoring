@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "peg-mgf",
+      "name": "PEG-MGF",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "peg-mgf-catalog-entry",
+      "productID": "peg-mgf",
+      "title": "PEG-MGF（2mg 药瓶）给药方案——来源参考",
+      "purpose": "单页中的日程安排与处理详情，转录为研究／教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下内容为该页面的陈述，并非经过独立验证的临床指导。研究惯例中提及每周皮下注射 200–400 mcg，进行 4–6 周的短周期。仅有临床前研究；没有人体试验，也未获批准使用。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "研究惯例周期",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week",
+              "minimum": 4,
+              "maximum": 6
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "来源描述每周注射 2–3 次；没有人体试验。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "仅属临床前／供应商惯例；未经 FDA 批准，且没有人体试验。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "peg-mgf-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/peg-mgf-2mg-vial-dosage-protocol/",
+      "title": "PEG-MGF (2mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "peg-mgf-catalog-entry",
+      "sourceID": "peg-mgf-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。以下内容为来源陈述，并非经过独立验证的临床指导；除非来源另有说明，否则尚未确立任何人体给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

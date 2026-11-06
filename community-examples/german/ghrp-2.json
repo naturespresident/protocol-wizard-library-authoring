@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghrp-2",
+      "name": "GHRP-2",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ghrp-2-catalog-entry",
+      "productID": "ghrp-2",
+      "title": "GHRP-2 (5mg-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs- und Bildungsreferenz transkribiert",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Sekundäre kommerzielle Quelle; dies sind Aussagen der Seite und keine unabhängig überprüften klinischen Empfehlungen. Seitenreferenz: tägliche subkutane Titration von 100–300 mcg einmal täglich auf nüchternen Magen über einen Zeitraum von 8–16 Wochen; 5 mg + 3 mL bakteriostatisches Wasser (~1.67 mg/mL). Ausdrücklich nur zu Forschungszwecken, keine Anwendung am Menschen oder in der Klinik.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Täglicher Bereich als Forschungsreferenz",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Die Quelle beschreibt die Verabreichung auf nüchternen Magen und einen Zeitraum von 8–16 Wochen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Seitenreferenz: tägliche subkutane Titration von 100–300 mcg einmal täglich auf nüchternen Magen über einen Zeitraum von 8–16 Wochen; 5 mg + 3 mL bakteriostatisches Wasser (~1.67 mg/mL). Ausdrücklich nur zu Forschungszwecken, keine Anwendung am Menschen oder in der Klinik."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ghrp-2-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ghrp-2-5mg-vial-dosage-protocol/",
+      "title": "GHRP-2 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ghrp-2-catalog-entry",
+      "sourceID": "ghrp-2-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellseite wurde geprüft. Dies sind Aussagen der Quelle und keine unabhängig überprüften klinischen Empfehlungen; ein Dosierungsschema für Menschen ist nicht festgelegt, sofern die Quelle nichts anderes angibt.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Wachstumshormon"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

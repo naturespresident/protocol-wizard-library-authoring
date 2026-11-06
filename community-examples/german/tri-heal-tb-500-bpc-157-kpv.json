@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tri-heal-tb-500-bpc-157-kpv",
+      "name": "Dreifach-Heilung (TB-500 + BPC-157 + KPV)",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "tri-heal-tb-500-bpc-157-kpv-catalog-entry",
+      "productID": "tri-heal-tb-500-bpc-157-kpv",
+      "title": "Tri-Heal (TB-500 + BPC-157 + KPV)-Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs- und Bildungsreferenz abgeschrieben",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die folgenden Angaben stammen aus der Quelle selbst und sind keine unabhängig geprüfte klinische Anleitung. Festes Gemisch aus 25:10:10 mg (Verhältnis 5:2:2); die Bestandteile lassen sich nicht unabhängig dosieren. Seitenangabe: insgesamt 45 mg plus 3 mL bakteriostatisches Wasser und 1.5 mg des Gesamtgemischs pro Dosis. Die Kombination ist klinisch nicht validiert; nur für Forschungszwecke.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "Referenzdosis des Gesamtgemischs",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Nur die Gesamtmenge des Gemischs; das Verhältnis von 25:10:10 mg ist fest, sodass die Bestandteile nicht unabhängig angepasst werden können."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Die Seite nennt 1.5 mg des Gesamtgemischs pro Dosis, aber die Häufigkeit ist in der erfassten Referenz nicht angegeben. Die Kombination ist klinisch nicht validiert."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "tri-heal-tb-500-bpc-157-kpv-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/tri-heal-tb-500-25-mg-bpc-157-10-mg-kpv-10-mg-vial-dosage-protocol/",
+      "title": "Tri-Heal (TB-500 + BPC-157 + KPV) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "tri-heal-tb-500-bpc-157-kpv-catalog-entry",
+      "sourceID": "tri-heal-tb-500-bpc-157-kpv-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON bewahrt den dort angegebenen Zeitplan- und Formulierungskontext sowie die Einschränkungen; es belegt kein klinisch validiertes Schema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Heilung und Genesung"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "slu-pp-332-catalog-entry",
+      "productID": "slu-pp-332",
+      "title": "SLU-PP-332 (5mg frasco) Protocolo de dosagem — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Somente cronograma equivalente para camundongos: 625 mcg duas vezes ao dia (1,250 mcg/dia) nas semanas 1–2, depois 1,250 mcg duas vezes ao dia (2,500 mcg/dia) nas semanas 3–8. Baseado em um camundongo de ~25 g, não em uma dose humana. 5 mg + 3 mL são cálculos de referência; molécula pequena, não um peptídeo, apenas pré-clínico.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semanas 1–2, equivalente para camundongos",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "625",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "625 mcg por administração duas vezes ao dia (1,250 mcg/dia), para um camundongo de ~25 g; não é uma dose humana."
+            }
+          },
+          {
+            "name": "Semanas 3–8, equivalente para camundongos",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1250",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "1,250 mcg por administração duas vezes ao dia (2,500 mcg/dia), para um camundongo de ~25 g; não é uma dose humana."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Somente cronograma pré-clínico equivalente para camundongos; SLU-PP-332 é uma molécula pequena, não um peptídeo."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "slu-pp-332-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/slu-pp-332-5mg-vial-dosage-protocol/",
+      "title": "SLU-PP-332 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "slu-pp-332-catalog-entry",
+      "sourceID": "slu-pp-332-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página individual da fonte analisada. Este JSON preserva o cronograma e o contexto de formulação declarados na página, bem como suas ressalvas; não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso e metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "Outro"
+    }
+  ]
+}

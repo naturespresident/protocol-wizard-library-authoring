@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ace-031",
+      "name": "ACE-031",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ace-031-catalog-entry",
+      "productID": "ace-031",
+      "title": "Protocolo de dosificación de ACE-031 (1 mg) — referencia de la fuente",
+      "purpose": "Calendario y detalles de manipulación de la página individual, transcritos como referencia de investigación y educación",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones de la propia fuente y no se verificaron de forma independiente como orientación clínica. No existe una dosis humana establecida ni recomendada. En estudios clínicos se utilizaron dosis SC únicas de 0.02–3 mg/kg; un ensayo de distrofia muscular de Duchenne (DMD) se suspendió después de casos de epistaxis y telangiectasias. La dilución de 1 mg/mL indicada en la página solo corresponde al cálculo de concentración; es un producto biológico en investigación cuyo desarrollo se interrumpió, no un protocolo.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Rango de dosis única en un estudio de fase 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.02",
+              "maximum": "3",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Rango de dosis SC única en un ensayo clínico; un ensayo posterior de DMD se suspendió por casos de epistaxis y telangiectasias."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Exposición histórica en ensayos únicamente; el programa se interrumpió por motivos de seguridad. Este no es un régimen recomendado."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ace-031-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ace-031-1mg-vial-dosage-protocol/",
+      "title": "ACE-031 (1 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ace-031-catalog-entry",
+      "sourceID": "ace-031-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el calendario y el contexto de formulación indicados en la página, junto con sus advertencias; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Curación y recuperación"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

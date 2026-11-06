@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dihexa",
+      "name": "Dihexa",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dihexa-catalog-entry",
+      "productID": "dihexa",
+      "title": "Dihexa (10 mg) 투여 프로토콜 — 출처 참고자료",
+      "purpose": "개별 페이지의 일정 및 취급 세부 정보를 연구·교육 참고자료로 옮겨 적었어요",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "간접적인 상업 출처예요. 아래 세부 내용은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침이 아니에요. 사람 대상 용량은 없고 사람 대상 임상시험도 없어요. 보고된 동물 전용 용량 범위는 생쥐에서 경구로 약 1.44–2.88 mg/kg이에요. 해당 페이지는 경구/설하/경피 연구 취급을 설명하며, 주사/재구성은 설명하지 않아요. 주요 작용 기전 논문은 2025년에 철회됐어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "생쥐 연구 경구 노출 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1.44",
+              "maximum": "2.88",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "동물(생쥐)만의 용량 범위예요. 사람 용량은 확립되지 않았어요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "전임상 노출만 있어요. 주요 작용 기전 논문은 2025년에 철회됐어요. 사용자가 제공한 별도의 Reddit 커뮤니티 일정은 검증되지 않은 별도 프로토콜로 기록되어 있어요."
+      }
+    },
+    {
+      "id": "dihexa-reddit-community-schedule",
+      "productID": "dihexa",
+      "title": "Dihexa 경구 일정 — Reddit 커뮤니티 보고(미검증)",
+      "purpose": "커뮤니티에서 보고된 경구 일정을 미검증 참고자료로 옮겨 적었어요",
+      "methodID": "oral",
+      "population": "Community report; not a clinical study population",
+      "evidenceNotes": "사용자 생성 Reddit 안내문은 경구 10 mg 투여, 2주 투여/2주 휴지기 주기, 첫 주 격일 투여를 보고해요. 게시글은 이 일정을 검증하는 임상시험을 인용하지 않아요. 사람에서의 안전성과 효능은 확립되지 않았어요. 이는 의학적 지침이 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "첫 사용 주",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 2,
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "첫 주 동안 격일로 경구 10 mg 투여해요. 게시글은 아침 투여를 제안해요."
+            }
+          },
+          {
+            "name": "표준 투여 주기의 나머지 기간",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "하루 한 번 경구로 10 mg 복용해요. 게시글은 아침 투여를 제안하며, 표준 두 주 투여 주기를 설명해요."
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 2,
+          "maximum": 2,
+          "unit": "week"
+        },
+        "unresolved_fields": [
+          "community_anecdote_only",
+          "human_safety_or_efficacy_not_established"
+        ],
+        "notes": "주의: 이 일정은 임상적 검증 없이 단일 사용자 생성 Reddit 게시글에서 나온 내용이에요. 페이지에는 더 긴 일부 주기도 언급되어 있지만, 여기서는 구조화하지 않았어요. 이 JSON은 해당 보고를 기록하며 사용을 권고하지 않아요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dihexa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dihexa-10mg-dosage-protocol/",
+      "title": "Dihexa (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "dihexa-reddit-community",
+      "url": "https://www.reddit.com/r/LAPeptidesGuide/comments/1t2hi5k/dihexa_capsules_research_guide/",
+      "title": "Dihexa Capsules: Research Guide",
+      "publisher": "Reddit, r/LAPeptidesGuide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dihexa-catalog-entry",
+      "sourceID": "dihexa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정 및 제형 맥락과 주의 사항을 보존하지만, 임상적으로 검증된 요법을 확립하지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "dihexa-reddit-community-schedule",
+      "sourceID": "dihexa-reddit-community",
+      "locator": "Dosing; Cycle guidance; First use protocol",
+      "evidenceNote": "사용자 생성 Reddit 게시글에 이 일정이 보고되어 있지만, 안전성이나 효능에 대한 임상적 검증은 제공하지 않아요.",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/off_period",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경계"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

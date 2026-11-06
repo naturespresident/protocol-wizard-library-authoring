@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dermorphin",
+      "name": "Dermorphin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dermorphin-catalog-entry",
+      "productID": "dermorphin",
+      "title": "Dermorphin (5 mg) — protocolo de dosagem, referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Não há dose para humanos ou uso veterinário; a página declara explicitamente que não fornece um protocolo de dosagem. A farmacologia publicada é exclusivamente em animais (quantidades ínfimas em nanomoles por via intracerebral ou quantidades calculadas pelo peso corporal em roedores). Agonista opioide mu potente, reagente exclusivamente para pesquisa laboratorial.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência da página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Não há dose para humanos ou uso veterinário; a página declara explicitamente que não fornece um protocolo de dosagem. A farmacologia publicada é exclusivamente em animais (quantidades ínfimas em nanomoles por via intracerebral ou quantidades calculadas pelo peso corporal em roedores). Agonista opioide mu potente, reagente exclusivamente para pesquisa laboratorial."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Não há dose para humanos ou uso veterinário; a página declara explicitamente que não fornece um protocolo de dosagem. A farmacologia publicada é exclusivamente em animais (quantidades ínfimas em nanomoles por via intracerebral ou quantidades calculadas pelo peso corporal em roedores). Agonista opioide mu potente, reagente exclusivamente para pesquisa laboratorial. ATENÇÃO: a página da fonte individual não informa uma dose numérica administrada; concentrações da formulação ou cronogramas qualitativos, quando informados, são mantidos nas notas e não são convertidos em doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dermorphin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dermorphin-5mg-vial-dosage-protocol/",
+      "title": "Dermorphin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dermorphin-catalog-entry",
+      "sourceID": "dermorphin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A página da fonte individual foi revisada. Este JSON preserva o cronograma e o contexto da formulação informados na página, bem como suas ressalvas; não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo e neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

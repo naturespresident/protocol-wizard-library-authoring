@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "survodutide",
+      "name": "Survodutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "survodutide-catalog-entry",
+      "productID": "survodutide",
+      "title": "Survodutide (10mg Vial) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; these are the page's statements, not independently verified clinical guidance. The quick answer reports 600 mcg per dose as a research-use-only reconstitution example: 10 mg vial + 2 mL bacteriostatic water. Investigational dual GLP-1/glucagon agonist; not approved and not human-use guidance.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Reference amount only",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Source gives 600 mcg as a reconstitution example but the captured summary does not state its dosing frequency or course."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "A dose quantity is mentioned without a usable schedule in the reviewed passage; no human schedule is encoded."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "survodutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/survodutide-10mg-vial-dosage-protocol/",
+      "title": "Survodutide (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "survodutide-catalog-entry",
+      "sourceID": "survodutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. These are source statements and not independently verified clinical guidance; no human regimen is established unless the source says otherwise.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Weight & Metabolism"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Unspecified"
+    }
+  ]
+}

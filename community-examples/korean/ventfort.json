@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ventfort",
+      "name": "Ventfort",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ventfort-catalog-entry",
+      "productID": "ventfort",
+      "title": "Ventfort (혈관 생체조절제) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정과 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "상업적 이차 출처예요. 아래 세부 사항은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 일반적인 경구 캡슐은 20 mg 용량이에요. 하루 1–2캡슐을 10–30일간 복용하고, 식전에 복용하는 경우가 많으며, 연간 2–3회 반복해요. 합성 Vesugen과는 다른 독점 동물성 혈관 추출물이에요. 검증된 치료 용량은 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "경구 복용 과정",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "보통 식전에 복용해요. 연간 2–3회 과정을 반복해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "페이지에는 20 mg 캡슐을 하루 1–2개씩 10–30일간 복용하고, 연간 2–3회 반복한다고 나와 있어요. 이 추출물은 독점 제품이에요. 이 사용 방식은 임상적으로 검증되지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ventfort-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ventfort-vascular-bioregulator-dosage-protocol/",
+      "title": "Ventfort (Vascular Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ventfort-catalog-entry",
+      "sourceID": "ventfort-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정과 제형의 맥락 및 주의 사항을 보존하며, 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

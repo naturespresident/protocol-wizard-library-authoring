@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ace-031",
+      "name": "ACE-031",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ace-031-catalog-entry",
+      "productID": "ace-031",
+      "title": "ACE-031 (1 mg) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. No established or recommended human dose. Clinical studies used single SC doses of 0.02–3 mg/kg; a DMD trial was halted after epistaxis and telangiectasias. Page's 1 mg/mL dilution is concentration math only; discontinued investigational biologic, not a protocol.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Single-dose phase 1 study range",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.02",
+              "maximum": "3",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Single SC dose range in a clinical trial; later DMD trial halted for epistaxis and telangiectasias."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Historical trial exposure only; program discontinued for safety. This is not a recommended regimen."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ace-031-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ace-031-1mg-vial-dosage-protocol/",
+      "title": "ACE-031 (1 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ace-031-catalog-entry",
+      "sourceID": "ace-031-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Healing & Recovery"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

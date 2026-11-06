@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dihexa",
+      "name": "Dihexa",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dihexa-catalog-entry",
+      "productID": "dihexa",
+      "title": "Dihexa (10 mg) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. No human dose; no human trials. Animal-only reported dose range about 1.44–2.88 mg/kg orally in mice. Page describes oral/sublingual/transdermal research handling, no injection/reconstitution; key mechanism papers were retracted in 2025.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Mouse-study oral exposure range",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1.44",
+              "maximum": "2.88",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Animal-only mouse dose range; no human dose established."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Preclinical exposure only. Key mechanism papers were retracted in 2025. A separate user-supplied Reddit community schedule is recorded as a separate, unverified protocol."
+      }
+    },
+    {
+      "id": "dihexa-reddit-community-schedule",
+      "productID": "dihexa",
+      "title": "Dihexa oral schedule — Reddit community report (unverified)",
+      "purpose": "Community-reported oral schedule transcribed as an unverified reference",
+      "methodID": "oral",
+      "population": "Community report; not a clinical study population",
+      "evidenceNotes": "A user-generated Reddit guide reports 10 mg oral dosing, a 2-weeks-on/2-weeks-off cycle, and an every-other-day first week. The post does not cite clinical trials validating this schedule. Human safety and efficacy are not established; this is not medical guidance.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "First-use week",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 2,
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "10 mg oral every other day during the first week; the post suggests morning administration."
+            }
+          },
+          {
+            "name": "Remainder of standard on-cycle",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "10 mg oral once daily; the post suggests morning administration and describes a standard two-weeks-on cycle."
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 2,
+          "maximum": 2,
+          "unit": "week"
+        },
+        "unresolved_fields": [
+          "community_anecdote_only",
+          "human_safety_or_efficacy_not_established"
+        ],
+        "notes": "FLAG: schedule comes from a single user-generated Reddit post, without clinical validation. The page also mentions some longer cycles; those are not structured here. This JSON records the report and does not recommend its use."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dihexa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dihexa-10mg-dosage-protocol/",
+      "title": "Dihexa (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "dihexa-reddit-community",
+      "url": "https://www.reddit.com/r/LAPeptidesGuide/comments/1t2hi5k/dihexa_capsules_research_guide/",
+      "title": "Dihexa Capsules: Research Guide",
+      "publisher": "Reddit, r/LAPeptidesGuide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dihexa-catalog-entry",
+      "sourceID": "dihexa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "dihexa-reddit-community-schedule",
+      "sourceID": "dihexa-reddit-community",
+      "locator": "Dosing; Cycle guidance; First use protocol",
+      "evidenceNote": "User-generated Reddit post reports this schedule; it provides no clinical validation for safety or efficacy.",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/off_period",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitive & Neurological"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

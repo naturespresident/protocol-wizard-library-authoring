@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vitamin-b12",
+      "name": "Vitamina B12",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vitamin-b12-catalog-entry",
+      "productID": "vitamin-b12",
+      "title": "Protocolo de dosagem de B12 (frasco de 10mg) — referência da fonte",
+      "purpose": "Cronograma de página individual e detalhes de manuseio, transcritos como referência de pesquisa/educacional",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; estas são as declarações da página, não orientações clínicas verificadas de forma independente. Referência da página: frasco de 10 mg + 2 mL de água bacteriostática (5 mg/mL), com 1,000 mcg por administração descritos como referência de pesquisa, não como aconselhamento médico.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência de dose de pesquisa",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "A página relata cerca de 1,000 mcg por dose; nenhum cronograma é informado no resumo capturado."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "A fonte descreve uma referência para uso em pesquisa; este não é um plano personalizado de tratamento com B12."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vitamin-b12-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/b12-10mg-vial-dosage-protocol/",
+      "title": "B12 (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vitamin-b12-catalog-entry",
+      "sourceID": "vitamin-b12-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página individual da fonte consultada. Estas são declarações da fonte e não orientações clínicas verificadas de forma independente; nenhum esquema de uso em humanos é estabelecido, a menos que a fonte o informe.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Antienvelhecimento e pele"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

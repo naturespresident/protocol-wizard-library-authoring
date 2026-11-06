@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bronchogen",
+      "name": "Bronchogen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "bronchogen-catalog-entry",
+      "productID": "bronchogen",
+      "title": "Bronchogen (20mg-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs-/Bildungsreferenz übertragen",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben stammen von der Quelle selbst und wurden nicht unabhängig als klinische Anleitung verifiziert. Es gibt keine etablierte Humandosis. Veröffentlichte Dosierungsnachweise beziehen sich auf Konzentrationen in Zellkulturen und Injektionen bei Ratten; diese lassen sich nicht in ein Dosierungsschema für Menschen in mg oder mcg übertragen. Die Rekonstitution einer 20mg-Durchstechflasche mit 3 mL bakteriostatischem Wasser wird nur als Konzentrationsberechnung (6.67 mg/mL) dargestellt.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referenz der Einzelseite",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Es gibt keine etablierte Humandosis. Veröffentlichte Dosierungsnachweise beziehen sich auf Konzentrationen in Zellkulturen und Injektionen bei Ratten; diese lassen sich nicht in ein Dosierungsschema für Menschen in mg oder mcg übertragen. Die Rekonstitution einer 20mg-Durchstechflasche mit 3 mL bakteriostatischem Wasser wird nur als Konzentrationsberechnung (6.67 mg/mL) dargestellt."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Es gibt keine etablierte Humandosis. Veröffentlichte Dosierungsnachweise beziehen sich auf Konzentrationen in Zellkulturen und Injektionen bei Ratten; diese lassen sich nicht in ein Dosierungsschema für Menschen in mg oder mcg übertragen. Die Rekonstitution einer 20mg-Durchstechflasche mit 3 mL bakteriostatischem Wasser wird nur als Konzentrationsberechnung (6.67 mg/mL) dargestellt. HINWEIS: Die einzelne Quellenseite gibt keine numerische verabreichte Dosis an; Formulierungskonzentrationen oder qualitative Zeitpläne bleiben, sofern angegeben, in den Anmerkungen erhalten und werden nicht in Dosen umgerechnet."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "bronchogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/bronchogen-20mg-vial-dosage-protocol/",
+      "title": "Bronchogen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "bronchogen-catalog-entry",
+      "sourceID": "bronchogen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON bewahrt den von der Seite angegebenen Zeitplan- und Formulierungskontext sowie die zugehörigen Einschränkungen; es begründet kein klinisch validiertes Dosierungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert & klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Nicht angegeben"
+    }
+  ]
+}

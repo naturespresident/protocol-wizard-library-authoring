@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-semax-amidate",
+      "name": "N-Acetyl Semax Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-semax-amidate-catalog-entry",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate 鼻内参考方案",
+      "purpose": "来源报告的鼻内研究方案；未经独立验证的临床指导",
+      "methodID": "intranasal",
+      "population": "Research reference; the source notes limited amidate-specific clinical research",
+      "evidenceNotes": "Peptides.org 的图表和剂量部分描述了一种鼻内研究参考方案：起始剂量为 600 mcg/天，可按需调整，最高为 900 mcg/天，最长 30 天。图表显示每天使用 2–3 喷。另列出一种替代方案：600 mcg/天，最长 60 天。页面称，缺乏针对 amidate 的临床研究，并参考 Semax 资料。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "鼻内标准参考方案",
+            "duration": {
+              "kind": "maximum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "来源称起始剂量为 600 mcg/天，并按需调整，最高为 900 mcg/天；图表将其表示为每天 2–3 喷。所列喷雾规格为 10 mg/10 mL（0.1%）和 30 mg/10 mL（0.3%），据称每剂可提供 300 mcg。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "来源描述了停用周期，其持续时间等于研究持续时间。替代方案单独记录。这是来源报告的研究参考方案，并非 N-Acetyl Semax Amidate 的既定临床方案。"
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-intranasal-extended",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate 鼻内延长参考方案",
+      "purpose": "来源报告的另一种研究方案",
+      "methodID": "intranasal",
+      "population": "Research reference; amidate-specific clinical validation not established",
+      "evidenceNotes": "Peptides.org 将其列为另一种研究方案。页面称，缺乏针对 amidate 的临床给药数据；来源中的说法未经独立验证。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "鼻内延长替代方案",
+            "duration": {
+              "kind": "maximum",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "来源将 600 mcg/天、最长 60 天列为一种替代方案。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "来源列出的方案为 600 mcg/天、最长 60 天，之后停用与研究持续时间相同的一段时间。这不是经过验证的人体方案。"
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-injectable-reference",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate 注射剂参考方案",
+      "purpose": "来源报告的另一种研究方案",
+      "methodID": "other",
+      "population": "Research reference; source does not specify injection route",
+      "evidenceNotes": "Peptides.org 将其列为另一种研究方案。页面称，缺乏针对 amidate 的临床给药数据；来源中的说法未经独立验证。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "注射剂标准参考方案",
+            "duration": {
+              "kind": "maximum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "500",
+                "1000"
+              ],
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "来源称起始剂量为 500 mcg，每日一次，并增加至 1,000 mcg，每日一次或两次。未说明何时或如何增加剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "未指定注射途径。页面将其列为研究参考方案，最长研究持续时间为 30 天，停用期与研究持续时间相同。不要推断给药途径或滴定方案。"
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-injectable-extended",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate 注射剂延长参考方案",
+      "purpose": "来源报告的另一种研究方案",
+      "methodID": "other",
+      "population": "Research reference; source does not specify injection route",
+      "evidenceNotes": "Peptides.org 将其列为另一种研究方案。页面称，缺乏针对 amidate 的临床给药数据；来源中的说法未经独立验证。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "注射剂延长替代方案",
+            "duration": {
+              "kind": "maximum",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "来源的替代方案行将 600 mcg/天、最长 60 天列为一种方案；该处未指定给药途径。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "来源的替代方案行也将此方案列用于注射剂型。未提供给药途径和给药细节。停用期与研究持续时间相同。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-semax-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-semax-amidate-nasal-spray-dosage-protocol/",
+      "title": "N-Acetyl Semax Amidate (Nasal Spray) Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "n-acetyl-semax-amidate-peptides-org",
+      "url": "https://www.peptides.org/n-acetyl-semax-amidate-dosage-calculator/",
+      "title": "N-Acetyl Semax Amidate Dosage Calculator and Chart",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-semax-amidate-catalog-entry",
+      "sourceID": "n-acetyl-semax-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "原始来源提供了制剂背景信息。Peptides.org 来源另行报告了鼻内和注射剂研究方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-intranasal-extended",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "页面报告的替代方案；页面指出，针对 amidate 的临床研究有限。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-injectable-reference",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "页面报告的替代方案；页面指出，针对 amidate 的临床研究有限。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-injectable-extended",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "页面报告的替代方案；页面指出，针对 amidate 的临床研究有限。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经系统"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "鼻内"
+    },
+    {
+      "id": "other",
+      "name": "注射（途径未指定）"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "triptorelin",
+      "name": "Triptorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "triptorelin-catalog-entry",
+      "productID": "triptorelin",
+      "title": "Protocole posologique de l’acétate de Triptorelin (2 mg) — référence de la source",
+      "purpose": "Calendrier et détails de manipulation propres à cette page, transcrits à titre de référence pour la recherche et l’information",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous reprennent les déclarations de la source, sans vérification indépendante à titre de recommandations cliniques. La page ne recommande pas l’auto-administration. Triptorelin est un puissant agoniste de la GnRH soumis à prescription ; ses formulations dépôt sont utilisées sous la supervision d’un spécialiste. Il provoque d’abord une poussée hormonale, puis supprime la LH/FSH et les hormones sexuelles. La page du flacon de recherche ne constitue pas un guide posologique adapté.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Options de doses indiquées sur l’étiquette des formulations dépôt",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "3.75",
+                "11.25",
+                "22.5"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Différentes formulations dépôt à libération prolongée approuvées : 3.75 mg par mois, 11.25 mg tous les 3 mois, ou 22.5 mg tous les 6 mois, administrées par un clinicien. Un simple flacon de recherche de 2 mg n’est pas une formulation dépôt."
+            }
+          },
+          {
+            "name": "Contexte historique des formulations à libération immédiate",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Schéma historique sous supervision pendant la première semaine, puis dose d’entretien plus faible ; la page ne précise pas le montant de cette dose."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Hormone sur ordonnance utilisée sous la supervision d’un spécialiste ; la source précise explicitement que son flacon de recherche ne reproduit pas la pharmacocinétique d’une formulation dépôt et ne fournit aucun schéma d’auto-administration."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "triptorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/triptorelin-2mg-vial-dosage-protocol/",
+      "title": "Triptorelin Acetate (2 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "triptorelin-catalog-entry",
+      "sourceID": "triptorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page de la source consacrée à ce produit examinée. Ce JSON conserve le calendrier et le contexte de formulation indiqués par la page ainsi que ses mises en garde ; il n’établit pas de schéma posologique cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Voie intramusculaire"
+    }
+  ]
+}

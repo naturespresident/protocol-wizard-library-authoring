@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ptd-dbm",
+      "name": "PTD-DBM",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ptd-dbm-catalog-entry",
+      "productID": "ptd-dbm",
+      "title": "PTD-DBM (flacon de 5mg) — protocole posologique — référence de la source",
+      "purpose": "Calendrier et détails de manipulation de la page individuelle, transcrits à titre de référence de recherche et d’information",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les propres déclarations de la source et ne constituent pas des conseils cliniques vérifiés de manière indépendante. Aucune dose humaine. Toutes les données d’efficacité rapportées proviennent de travaux sur des souris utilisant une application topique de 100 μM ; aucun essai chez l’humain n’est enregistré. La page porte principalement sur l’application topique et les références, et non sur un calendrier injectable.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Référence de la page individuelle",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Aucune dose humaine. Toutes les données d’efficacité rapportées proviennent de travaux sur des souris utilisant une application topique de 100 μM ; aucun essai chez l’humain n’est enregistré. La page porte principalement sur l’application topique et les références, et non sur un calendrier injectable."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Aucune dose humaine. Toutes les données d’efficacité rapportées proviennent de travaux sur des souris utilisant une application topique de 100 μM ; aucun essai chez l’humain n’est enregistré. La page porte principalement sur l’application topique et les références, et non sur un calendrier injectable. INDICATEUR : la page source individuelle ne fournit pas de dose administrée numérique ; les concentrations de formulation ou les calendriers qualitatifs, lorsqu’ils sont indiqués, sont conservés dans les notes et ne sont pas convertis en doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ptd-dbm-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ptd-dbm-5mg-vial-dosage-protocol/",
+      "title": "PTD-DBM (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ptd-dbm-catalog-entry",
+      "sourceID": "ptd-dbm-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page source individuelle a été examinée. Ce JSON conserve le calendrier et le contexte de formulation indiqués par la page, ainsi que ses réserves ; il n’établit pas de protocole cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-âge et peau"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Non précisée"
+    }
+  ]
+}

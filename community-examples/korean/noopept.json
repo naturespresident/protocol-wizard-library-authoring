@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "noopept",
+      "name": "Noopept",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "noopept-catalog-entry",
+      "productID": "noopept",
+      "title": "Noopept (20 mg) 용량 프로토콜 — 출처 참고용",
+      "purpose": "개별 출처 페이지에 기재된 일정 및 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "이차 상업 출처예요. 아래 세부 사항은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 페이지에는 뇌졸중 환자 60명을 대상으로 한 공개 임상 연구의 용량이 보고되어 있어요: 경구 20 mg/day를 통상 10 mg, 하루 두 번으로 나누어 두 달간 복용했어요. 재구성/주사는 없어요. 근거는 소규모 러시아어 공개 보고에 한정되어 있어요. FDA는 이를 식이 성분이 아닌 미승인 신약으로 취급해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "공개 연구 참고 일정",
+            "duration": {
+              "kind": "fixed",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "20 mg/day를 10 mg, 하루 두 번으로 나누어 복용해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처는 소규모 공개 뇌졸중 환자 연구에서 20 mg/day를 경구로, 10 mg, 하루 두 번 복용하도록 나누었다고 보고해요. 이는 연구 일정이며 확립된 권고가 아니에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "noopept-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/noopept-20mg-dosage-protocol/",
+      "title": "Noopept (20 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "noopept-catalog-entry",
+      "sourceID": "noopept-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정/제형 맥락과 주의사항을 보존하지만, 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경계"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "teriparatide",
+      "name": "Teriparatide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "teriparatide-catalog-entry",
+      "productID": "teriparatide",
+      "title": "Teriparatide（10 mg）用量プロトコル — 出典参照",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育用の参考情報として転記したものです",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下はページに記載された内容であり、独立に検証された臨床上の指針ではありません。処方薬のPTH(1–34)は、ミリグラムではなくマイクログラム単位で投与されます。このページでは研究用バイアルはあくまで参考として示されており、投与量の推奨ではありません。承認済み製品の添付文書に従い、専門医の診療を受けてください。研究用バイアルの記載を投与レジメンに読み替えないでください。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "承認済み添付文書の参考",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "承認済みプレフィルドペンの用量です。試験では40 mcg/dayも検討されましたが、有害事象が増加しました。研究用バイアルの投与スケジュールではありません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "この情報源は、研究用バイアルから投与する用量をページに記載していないと明示しています。20 mcg/dayは承認製品の添付文書に関する情報に限られます。バイアルの濃度計算は投与の推奨ではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "teriparatide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/teriparatide-10mg-vial-dosage-protocol/",
+      "title": "Teriparatide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "teriparatide-catalog-entry",
+      "sourceID": "teriparatide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の情報源ページを確認しました。以下は情報源に記載された内容であり、独立に検証された臨床上の指針ではありません。情報源に明記されていない限り、ヒトでの投与レジメンは確立されていません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "治癒と回復"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

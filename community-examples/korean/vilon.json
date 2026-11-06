@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vilon",
+      "name": "Vilon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vilon-catalog-entry",
+      "productID": "vilon",
+      "title": "Vilon (20mg 바이알) 용량 프로토콜 — 출처 참조",
+      "purpose": "개별 페이지의 일정 및 취급 세부사항을 연구/교육 참고 자료로 옮겨 적었어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "상업적 보조 출처예요. 이는 페이지의 진술이며 독립적으로 검증된 임상 지침은 아니에요. 보고된 펄스 일정은 5일 연속 매일 피하 투여하고, 4주 주기마다 매월 반복하는 방식이에요. 주기 1의 1–5일 차 용량으로 보고된 값: 67, 133, 200, 267, 333 mcg; 이후 주기의 일일 용량은 333–667 mcg, 기간은 5일이에요. 혼합량: 20 mg + 3 mL; 혼합 후 2–8°C에서 보관하고 약 1주 이내에 사용해야 한다고 출처에 기재되어 있어요. 연구 전용이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "주기 1, 1일 차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "67",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "주기 1에서 닷새 연속 매일 투여하는 용량 중 첫 번째예요. 주기는 매월 반복돼요."
+            }
+          },
+          {
+            "name": "주기 1, 2일 차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "133",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "주기 1, 3일 차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "주기 1, 4일 차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "267",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "주기 1, 5일 차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "333",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "주기 2–4, 1–5일 차",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "333",
+              "maximum": "667",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "네 주 주기마다 닷새 연속 매일 투여하고, 2–4주기 동안 매월 반복해요. 이후 주기의 용량 범위는 투여하는 날마다 적용돼요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처에 맞춘 펄스 일정이며, 승인된 인체 투여량은 아니에요. 첫 주기의 정확한 용량은 매일 증가하고, 이후 주기에는 범위가 사용돼요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vilon-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vilon-20mg-vial-dosage-protocol/",
+      "title": "Vilon (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vilon-catalog-entry",
+      "sourceID": "vilon-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 진술이며 독립적으로 검증된 임상 지침은 아니에요. 출처에 달리 명시되지 않는 한 확립된 인체 투여 요법은 없어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

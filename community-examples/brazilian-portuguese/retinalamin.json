@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "retinalamin",
+      "name": "Retinalamin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "retinalamin-catalog-entry",
+      "productID": "retinalamin",
+      "title": "Retinalamin (5 mg) — protocolo posológico de referência da fonte",
+      "purpose": "Cronograma da página individual e detalhes de administração, transcritos como referência de pesquisa/educação",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são afirmações da própria fonte, não orientações clínicas verificadas de forma independente. A página informa um esquema registrado na Rússia: 5 mg por via intramuscular (IM) uma vez ao dia por 10 dias, repetido a cada 3–6 meses. Frasco de 5 mg com 1 mL de água para injeção ou solução salina; o frasco inteiro corresponde a uma dose. Não é para uso subcutâneo; não aprovado pela FDA; evidências em sua maioria russas e de estudos abertos.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Curso registrado",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Todo o conteúdo do frasco por via IM uma vez ao dia; repetir após 3–6 meses, segundo a fonte."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Esquema de produto registrado na Rússia/CEI; evidências em grande parte russas e de estudos abertos."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "retinalamin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/retinalamin-5mg-vial-dosage-protocol/",
+      "title": "Retinalamin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "retinalamin-catalog-entry",
+      "sourceID": "retinalamin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A página individual da fonte foi analisada. Este JSON preserva o cronograma e o contexto de formulação informados na página, bem como suas ressalvas; não estabelece um esquema clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo e neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuscular"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "lipo-c",
+      "name": "Lipo-C",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "lipo-c-catalog-entry",
+      "productID": "lipo-c",
+      "title": "Lipo-C (10 mL Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Individueller Zeitplan und Angaben zur Handhabung, als Forschungs-/Bildungsreferenz transkribiert",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben sind Aussagen der Quelle selbst und wurden nicht unabhängig als klinische Empfehlungen überprüft. Zusammengesetzte MIC + B12-Mischung, kein Peptid. Klinik- und Rezepturquellen beschreiben 0.5–1 mL intramuskulär einmal oder zweimal wöchentlich; keine kontrollierte Studie belegt eine Dosierung oder Wirksamkeit hinsichtlich Fettverlust. Wird vorgemischt geliefert; keine Rekonstitution; Lagerung und Verwendbarkeitsfrist richten sich nach dem Rezepturhersteller.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referenzbereich aus Rezeptur- und Klinikangaben",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "1",
+              "unit": "mL",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "Klinische Quellen beschreiben intramuskuläre Injektionen einmal oder zweimal wöchentlich; keine kontrollierte Studie belegt eine Dosierung für die Mischung."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Lipo-C ist eine Rezepturmischung aus MIC+B12, kein Peptid. Bitte richten Sie sich nach den Angaben des jeweiligen Rezepturherstellers oder der verschreibenden Fachperson; es gibt keine belastbaren Nachweise für eine Dosierung."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "lipo-c-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/lipo-c-10ml-vial-dosage-protocol/",
+      "title": "Lipo-C (10 mL Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "lipo-c-catalog-entry",
+      "sourceID": "lipo-c-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dieses JSON gibt den dort genannten Zeitplan und Formulierungskontext sowie die Einschränkungen wieder; es belegt kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Gewicht & Stoffwechsel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuskulär"
+    }
+  ]
+}

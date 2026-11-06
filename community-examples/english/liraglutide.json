@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "liraglutide",
+      "name": "Liraglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "liraglutide-catalog-entry",
+      "productID": "liraglutide",
+      "title": "Liraglutide (10 mg) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. Page reports approved-product schedules of 0.6–1.8 mg SC daily for Victoza or titration to 3.0 mg daily for Saxenda. These refer to labeled commercial medicines, not the research vial. 10 mg + 2 mL bacteriostatic water is reference math; do not equate research-grade vial with approved pens.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Labeled daily dose range",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.6",
+              "maximum": "3.0",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Victoza uses 0.6–1.8 mg/day; Saxenda titrates to 3.0 mg/day. Exact titration differs by product/indication."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Values refer to approved commercial products, not a research-grade vial. Doses differ by indication/product."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "liraglutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/liraglutide-10mg-vial-dosage-protocol/",
+      "title": "Liraglutide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "liraglutide-catalog-entry",
+      "sourceID": "liraglutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Weight & Metabolism"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

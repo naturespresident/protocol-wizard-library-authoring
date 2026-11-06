@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cjc-1295-ghrp-2",
+      "name": "CJC-1295 + GHRP-2",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cjc-1295-ghrp-2-catalog-entry",
+      "productID": "cjc-1295-ghrp-2",
+      "title": "CJC-1295 + GHRP-2（10mg ブレンド）用量プロトコル — 出典の参考情報",
+      "purpose": "研究・教育目的の参考資料として書き起こした、個別ページのスケジュールと取り扱いの詳細です。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下はページ上の記載であり、臨床ガイダンスとして独自に検証されたものではありません。ブレンド全体のみが対象です。各成分の比率は開示されていません。ページの記載：合計10 mg のブレンド + 3 mL の静菌水（約3.33 mg/mL）、参考用量はブレンド全体で150 mcg です。臨床的に検証されていません。研究用途に限ります。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "ブレンド全体の参考用量",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "150",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "この量はブレンド全体に適用されます。出典の記録された要約では、各成分の比率も投与頻度も開示されていません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "成分ごとの用量と完全な投与スケジュールは、ブレンドのページでは確立されていません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cjc-1295-ghrp-2-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/cjc-1295-ghrp-2-10mg-blend-vial-dosage-protocol/",
+      "title": "CJC-1295 + GHRP-2 (10mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cjc-1295-ghrp-2-catalog-entry",
+      "sourceID": "cjc-1295-ghrp-2-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。これらは出典の記載であり、臨床ガイダンスとして独自に検証されたものではありません。出典に別段の記載がない限り、ヒト向けの投与レジメンは確立されていません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "成長ホルモン"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

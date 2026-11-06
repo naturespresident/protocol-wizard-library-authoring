@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tuftsin",
+      "name": "Tuftsin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "tuftsin-catalog-entry",
+      "productID": "tuftsin",
+      "title": "Tuftsin (Vial de 5mg) — protocolo de dosificación, referencia de la fuente",
+      "purpose": "Cronograma y detalles de manipulación de la página individual, transcritos como referencia de investigación y educación",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; estas son afirmaciones de la página, no orientación clínica verificada de forma independiente. No hay una dosis establecida ni un ensayo moderno de eficacia en humanos. La página caracteriza los viales con cantidades en miligramos como reactivos analíticos para trabajo con células/animales, no como productos de consumo; no hay un esquema de uso en humanos.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de la página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "No hay una dosis establecida ni un ensayo moderno de eficacia en humanos. La página caracteriza los viales con cantidades en miligramos como reactivos analíticos para trabajo con células/animales, no como productos de consumo; no hay un esquema de uso en humanos."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "No hay una dosis establecida ni un ensayo moderno de eficacia en humanos. La página caracteriza los viales con cantidades en miligramos como reactivos analíticos para trabajo con células/animales, no como productos de consumo; no hay un esquema de uso en humanos. AVISO: la página de la fuente individual no proporciona una dosis administrada numérica; las concentraciones de la formulación o los esquemas cualitativos, cuando se indican, se conservan en las notas y no se convierten en dosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "tuftsin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/tuftsin-5mg-vial-dosage-protocol/",
+      "title": "Tuftsin (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "tuftsin-catalog-entry",
+      "sourceID": "tuftsin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Estas son afirmaciones de la fuente y no orientación clínica verificada de forma independiente; no se establece ningún régimen para humanos, salvo que la fuente indique lo contrario.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado y clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

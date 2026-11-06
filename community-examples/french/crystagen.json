@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "crystagen",
+      "name": "Crystagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "crystagen-catalog-entry",
+      "productID": "crystagen",
+      "title": "Protocole posologique de Crystagen (flacon de 20mg) — référence de la source",
+      "purpose": "Programme et détails de manipulation propres à la page, retranscrits comme référence de recherche et d'éducation",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s'agit des affirmations de la page, et non de recommandations cliniques vérifiées de manière indépendante. Titration quotidienne par voie sous-cutanée rapportée par la source : 1,000 mcg en semaine 1 ; 1,500 mcg en semaine 2 ; 2,000 mcg des semaines 3–12. 20 mg + 3 mL d'eau bactériostatique (~6.67 mg/mL). Réservé à la recherche, non approuvé, bénéfices non démontrés.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semaine 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaine 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaines 3–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "2000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Titration quotidienne par voie sous-cutanée rapportée par la source : 1,000 mcg en semaine 1 ; 1,500 mcg en semaine 2 ; 2,000 mcg des semaines 3–12. 20 mg + 3 mL d'eau bactériostatique (~6.67 mg/mL). Réservé à la recherche, non approuvé, bénéfices non démontrés."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "crystagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/crystagen-20mg-vial-dosage-protocol/",
+      "title": "Crystagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "crystagen-catalog-entry",
+      "sourceID": "crystagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page de la source examinée. Il s'agit des affirmations de la source, et non de recommandations cliniques vérifiées de manière indépendante ; aucun schéma posologique humain n'est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

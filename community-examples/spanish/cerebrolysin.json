@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cerebrolysin",
+      "name": "Cerebrolysin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cerebrolysin-catalog-entry",
+      "productID": "cerebrolysin",
+      "title": "Protocolo de dosificación de Cerebrolysin (vial de 60 mg) — referencia de la fuente",
+      "purpose": "Detalles del esquema y la manipulación de la página individual, transcritos como referencia educativa y de investigación",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones propias de la fuente y no se han verificado clínicamente de forma independiente. Esquema de referencia de la página: vial reconstituido de 60 mg con 3 mL, luego 20 mg/día en la semana 1; 24 mg/día divididos entre la mañana y la tarde en la semana 2; 28 mg/día divididos entre la mañana y la tarde en la semana 3; 32 mg/día divididos entre la mañana y la tarde desde la semana 4 en adelante. Esta es una referencia comercial de investigación, no una guía para uso en humanos; el producto es una mezcla derivada del cerebro porcino y no está aprobado por la FDA en EE. UU.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semana 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semana 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "24",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semana 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "28",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Desde la semana 4 en adelante",
+            "duration": {
+              "kind": "ongoing",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "32",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Esquema de referencia de la página: vial reconstituido de 60 mg con 3 mL, luego 20 mg/día en la semana 1; 24 mg/día divididos entre la mañana y la tarde en la semana 2; 28 mg/día divididos entre la mañana y la tarde en la semana 3; 32 mg/día divididos entre la mañana y la tarde desde la semana 4 en adelante. Esta es una referencia comercial de investigación, no una guía para uso en humanos; el producto es una mezcla derivada del cerebro porcino y no está aprobado por la FDA en EE. UU."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cerebrolysin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cerebrolysin-60mg-vial-dosage-protocol/",
+      "title": "Cerebrolysin (60mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cerebrolysin-catalog-entry",
+      "sourceID": "cerebrolysin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el esquema y el contexto de formulación indicados en la página, así como sus salvedades; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo y neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuscular"
+    }
+  ]
+}

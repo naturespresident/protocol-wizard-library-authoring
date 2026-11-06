@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "aod-9604-cjc-1295-ipamorelin",
+      "name": "AOD-9604 + CJC-1295 + Ipamorelin 혼합 제제",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "aod-9604-cjc-1295-ipamorelin-catalog-entry",
+      "productID": "aod-9604-cjc-1295-ipamorelin",
+      "title": "AOD-9604 + CJC-1295 + Ipamorelin (12mg 혼합 제제) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정과 취급 세부 정보를 연구/교육 참고 자료로 옮겨 적었어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "간접 상업 자료예요. 이는 해당 페이지에 기재된 내용이며, 독립적으로 검증된 임상 지침은 아니에요. 고정 혼합 제제: AOD-9604 6 mg + CJC-1295 3 mg + ipamorelin 3 mg. 매번 뽑아 사용하는 양에도 비율이 유지되므로 각 성분을 따로 용량 조절할 수 없어요. 출처 참고: 혼합 제제 총량 12 mg, 재구성용 정균수 3 mL; 투여당 혼합 제제 총량 약 400 mcg. 연구용으로만 사용해야 해요. 혼합 제제는 임상적으로 검증되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "혼합 제제 총량 참고 용량",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "혼합 제제 총량만을 나타내는 용량이에요. 고정된 6:3:3 mg 성분 비율이므로 각 성분을 따로 용량 조절할 수 없어요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처에 따르면 혼합 제제는 정균수로 재구성돼요. 재구성 기준: 혼합 제제 총량 12 mg, 정균수 3 mL. 투여당 혼합 제제 총량은 약 400 mcg. 이 조합은 임상적으로 검증되지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "aod-9604-cjc-1295-ipamorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/aod-9604-cjc-1295-ipamorelin-12mg-blend-vial-dosage-protocol/",
+      "title": "AOD-9604 + CJC-1295 + Ipamorelin (12mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "aod-9604-cjc-1295-ipamorelin-catalog-entry",
+      "sourceID": "aod-9604-cjc-1295-ipamorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처에 기재된 내용이며 독립적으로 검증된 임상 지침은 아니에요. 출처에 명시된 경우를 제외하면 확립된 인체 투여 요법은 없어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장 호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

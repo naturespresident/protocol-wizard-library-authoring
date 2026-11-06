@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "davunetide",
+      "name": "Davunetide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "davunetide-catalog-entry",
+      "productID": "davunetide",
+      "title": "Davunetide (5 mg) — protocole posologique, référence de la source",
+      "purpose": "Calendrier figurant sur la page individuelle et détails de manipulation, transcrits à titre de référence de recherche et d’éducation",
+      "methodID": "intranasal",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les déclarations de la source elle-même, et non des recommandations cliniques vérifiées de manière indépendante. Aucune dose injectable établie ; tous les essais chez l’humain étaient intranasaux, y compris 30 mg deux fois par jour dans l’essai négatif de phase 2/3 sur la PSP. Un flacon de 5 mg + 2 mL d’eau bactériostatique constitue uniquement une référence de reconstitution et non un schéma injectable. Réservé à la recherche ; non approuvé par la FDA.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Essai pivot sur la PSP",
+            "duration": {
+              "kind": "fixed",
+              "value": 52,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "30",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "Administration intranasale, et non injectable ; l’essai pivot sur la PSP n’a montré aucun bénéfice par rapport au placebo."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Tous les essais chez l’humain étaient intranasaux. Le schéma de 30 mg deux fois par jour pendant 52 semaines correspond à un essai négatif sur la PSP ; aucune dose injectable n’a été validée."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "davunetide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/davunetide-5mg-vial-dosage-protocol/",
+      "title": "Davunetide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "davunetide-catalog-entry",
+      "sourceID": "davunetide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page de la source individuelle a été examinée. Ce fichier JSON conserve le contexte du calendrier et de la formulation indiqué par la page, ainsi que ses réserves ; il n’établit pas de schéma posologique cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognition et neurologie"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "Intranasal"
+    }
+  ]
+}

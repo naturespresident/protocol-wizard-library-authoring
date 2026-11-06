@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "thymogen",
+      "name": "Thymogen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "thymogen-catalog-entry",
+      "productID": "thymogen",
+      "title": "Thymogen（10 mg）投与プロトコル — 出典参照",
+      "purpose": "研究・教育用の参考資料として転記した、個別ページの投与スケジュールおよび取り扱いの詳細です。",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "二次資料の個別ページに記載された内容であり、独立して検証された医療上の指針ではありません。ページに記載された登録製品の投与スケジュール：約100 mcg を筋肉内に毎日、短期の3–10日間投与します。鼻腔内投与についても記載されています。10 mg + 2 mL の静菌水で5 mg/mLになりますが、この研究用バイアルは約100回分の参考用量に相当すると出典が警告しています。ロシアで登録されていますが、FDA承認はありません。alpha-L-Glu-Trpをgolotimod/SCV-07と混同しないでください。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "短期投与",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 3,
+              "maximum": 10
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "出典には鼻腔内投与についても記載されています。alpha-L-Glu-Trpとgolotimod/SCV-07を区別してください。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "登録製品についてページが報告する投与スケジュールです。FDA承認はなく、研究用バイアルの使用を推奨するものではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "thymogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/thymogen-10mg-vial-dosage-protocol/",
+      "title": "Thymogen (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "thymogen-catalog-entry",
+      "sourceID": "thymogen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "個別の投与プロトコルページを確認しました。この項目は出典に記載された詳細とページ上の制限を保持しており、臨床上の投与指針ではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門・臨床領域"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "筋肉内投与"
+    }
+  ]
+}

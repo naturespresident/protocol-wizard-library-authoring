@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "larazotide",
+      "name": "Larazotide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "larazotide-catalog-entry",
+      "productID": "larazotide",
+      "title": "Protocole posologique du larazotide (0.5mg) — référence de la source",
+      "purpose": "Calendrier et détails de manipulation de la page individuelle, transcrits à titre de référence de recherche et d'éducation",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s'agit des affirmations de la page, et non de recommandations cliniques vérifiées de manière indépendante. Schéma de recherche oral rapporté autour de 0.5 mg (500 mcg) trois fois par jour avant les repas ; la page indique que ce groupe de phase 2b, et non les doses supérieures, a atteint son critère d'évaluation. Peptide oral, sans reconstitution ni injection ; non approuvé.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Groupe de référence de phase 2b",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 3,
+              "description": "Trois fois par jour avant les repas ; la page indique que ce groupe à 0.5 mg a atteint le critère d'évaluation."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Référence à un essai de recherche uniquement."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "larazotide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/larazotide-0-5mg-dosage-protocol/",
+      "title": "Larazotide (0.5mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "larazotide-catalog-entry",
+      "sourceID": "larazotide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page de la source individuelle consultée. Il s'agit des affirmations de la source, et non de recommandations cliniques vérifiées de manière indépendante ; aucun schéma thérapeutique humain n'est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Orale"
+    }
+  ]
+}

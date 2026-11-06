@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "mgf",
+      "name": "MGF",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "mgf-catalog-entry",
+      "productID": "mgf",
+      "title": "MGF (5mg Frasco-ampola) Protocolo de Dosagem — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são afirmações da própria fonte, não orientações clínicas verificadas de forma independente. Titulação ilustrativa uma vez ao dia por via subcutânea da página: 200 mcg nas semanas 1–2; 300 mcg nas semanas 3–4; 400 mcg nas semanas 5–6; 500 mcg nas semanas 7–12. Extensão opcional mencionada até ~16 semanas. 5 mg + 3 mL de água bacteriostática (~1.67 mg/mL). Não aprovado; não há eficácia ou segurança estabelecidas em humanos.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semanas 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 5–6",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 7–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Titulação ilustrativa uma vez ao dia por via subcutânea da página: 200 mcg nas semanas 1–2; 300 mcg nas semanas 3–4; 400 mcg nas semanas 5–6; 500 mcg nas semanas 7–12. Extensão opcional mencionada até ~16 semanas. 5 mg + 3 mL de água bacteriostática (~1.67 mg/mL). Não aprovado; não há eficácia ou segurança estabelecidas em humanos."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "mgf-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/mgf-5mg-vial-dosage-protocol/",
+      "title": "MGF (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "mgf-catalog-entry",
+      "sourceID": "mgf-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página individual da fonte consultada. Este JSON preserva o contexto de cronograma/formulação declarado pela página e suas ressalvas; não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormônio do Crescimento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

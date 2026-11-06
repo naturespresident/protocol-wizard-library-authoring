@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "slu-pp-332-catalog-entry",
+      "productID": "slu-pp-332",
+      "title": "SLU-PP-332 (flacon de 5 mg) — protocole posologique, référence à la source",
+      "purpose": "Calendrier propre à la page et détails de manipulation, transcrits à titre de référence de recherche et d’information",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous reprennent les propres déclarations de la source et ne constituent pas des recommandations cliniques vérifiées de manière indépendante. Schéma uniquement équivalent chez la souris : 625 mcg deux fois par jour (1,250 mcg/jour) pendant les semaines 1–2, puis 1,250 mcg deux fois par jour (2,500 mcg/jour) pendant les semaines 3–8. Basé sur une souris d’environ 25 g, et non sur une dose humaine. 5 mg + 3 mL correspond à un calcul de référence ; petite molécule, pas un peptide, uniquement préclinique.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semaines 1–2, équivalent souris",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "625",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "625 mcg par administration deux fois par jour (1,250 mcg/jour), pour une souris d’environ 25 g ; ce n’est pas une dose humaine."
+            }
+          },
+          {
+            "name": "Semaines 3–8, équivalent souris",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1250",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "1,250 mcg par administration deux fois par jour (2,500 mcg/jour), pour une souris d’environ 25 g ; ce n’est pas une dose humaine."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Schéma uniquement équivalent chez la souris en phase préclinique ; SLU-PP-332 est une petite molécule, pas un peptide."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "slu-pp-332-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/slu-pp-332-5mg-vial-dosage-protocol/",
+      "title": "SLU-PP-332 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "slu-pp-332-catalog-entry",
+      "sourceID": "slu-pp-332-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle consultée. Ce JSON conserve le schéma posologique et le contexte de formulation indiqués par la page, ainsi que ses réserves ; il n’établit pas de schéma posologique validé cliniquement.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Poids et métabolisme"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "Autre"
+    }
+  ]
+}

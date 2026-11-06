@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vk2735",
+      "name": "VK2735",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vk2735-catalog-entry",
+      "productID": "vk2735",
+      "title": "Protocole posologique VK2735 (10 mg) — référence de la source",
+      "purpose": "Calendrier d’administration et détails de manipulation de la page individuelle, transcrits à titre de référence de recherche et d’éducation",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous reprennent les déclarations de la source et ne constituent pas des recommandations cliniques vérifiées de façon indépendante. La référence à l’essai décrit une administration sous-cutanée hebdomadaire dans des bras de 2.5–15 mg, avec titration hebdomadaire dans VENTURE. Agoniste double du GIP/GLP-1 à l’étude ; la page précise que le flacon de qualité recherche n’est ni le produit de l’essai ni un médicament soumis à prescription.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Bras posologiques de l’essai VENTURE",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2.5",
+              "maximum": "15",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "description": "Une fois par semaine avec titration hebdomadaire ; les doses correspondent à des bras d’essai distincts."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Les bras de l’essai ne constituent pas un schéma posologique pour le flacon de recherche ; produit expérimental et non approuvé."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vk2735-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vk2735-10mg-vial-dosage-protocol/",
+      "title": "VK2735 (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vk2735-catalog-entry",
+      "sourceID": "vk2735-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Cette page source a été consultée individuellement. Ce fichier JSON conserve le calendrier et le contexte de formulation indiqués par la page ainsi que ses mises en garde ; il n’établit pas l’existence d’un schéma posologique validé cliniquement.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Poids et métabolisme"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

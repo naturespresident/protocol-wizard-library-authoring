@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "crystagen",
+      "name": "Crystagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "crystagen-catalog-entry",
+      "productID": "crystagen",
+      "title": "Crystagen (20mg 바이알) 용량 투여 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고 자료로 전사했어요",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "상업적 이차 출처이며, 이는 해당 페이지의 진술이지 독립적으로 검증된 임상 지침은 아니에요. 출처에 보고된 매일 피하 투여 용량 적정: 1주차 1,000 mcg; 2주차 1,500 mcg; 3–12주차 2,000 mcg. 20 mg + 3 mL 정균수(~6.67 mg/mL). 연구용으로만 사용해야 하며, 승인되지 않았고, 효능은 입증되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "1주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "2주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3–12주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "2000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처에 보고된 매일 피하 투여 용량 적정: 1주차 1,000 mcg; 2주차 1,500 mcg; 3–12주차 2,000 mcg. 20 mg + 3 mL 정균수(~6.67 mg/mL). 연구용으로만 사용해야 하며, 승인되지 않았고, 효능은 입증되지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "crystagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/crystagen-20mg-vial-dosage-protocol/",
+      "title": "Crystagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "crystagen-catalog-entry",
+      "sourceID": "crystagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 진술이며 독립적으로 검증된 임상 지침은 아니에요. 출처에 달리 명시되어 있지 않은 한, 확립된 인체 투여 요법은 없어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

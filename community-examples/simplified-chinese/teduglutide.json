@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "teduglutide",
+      "name": "Teduglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "teduglutide-catalog-entry",
+      "productID": "teduglutide",
+      "title": "Teduglutide（5 mg）剂量方案——来源参考",
+      "purpose": "单独页面中的给药方案和处理细节，转录为研究／教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "来自单独页面的陈述，源自二手资料，未经独立核实，并非医疗指导。该页面报告的获批说明书给药方案为：针对依赖肠外营养支持的短肠综合征，每日皮下注射 0.05 mg/kg，持续给药；肾功能受损者（eGFR <60）使用 0.025 mg/kg。商业化 5 mg 小瓶以恰好 0.5 mL 无菌水复溶至 10 mg/mL；仅可抽取 3.8 mg（0.38 mL）。该处方药品须在专科医生监督下使用，不是研究用小瓶的使用建议。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "获批说明书参考",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.05",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "用于依赖肠外营养支持的短肠综合征的处方药品。来源报告称，eGFR <60 时使用半剂量 0.025 mg/kg；产品说明书规定使用配套稀释剂，而非研究用小瓶混合。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "FDA 获批产品的给药方案仅适用于在专科医生监督下接受治疗的合格患者；研究级 5 mg 小瓶并非获批剂型。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "teduglutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/teduglutide-5mg-vial-dosage-protocol/",
+      "title": "Teduglutide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "teduglutide-catalog-entry",
+      "sourceID": "teduglutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "已查阅单独的方案页面。此条目保留了来源报告的细节及页面所述限制；它不是临床给药指导。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

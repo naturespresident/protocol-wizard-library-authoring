@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hcg",
+      "name": "HCG",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hcg-catalog-entry",
+      "productID": "hcg",
+      "title": "Protocole posologique HCG (flacon de 5000IU) — référence de la source",
+      "purpose": "Calendrier détaillé et informations de manipulation figurant sur la page individuelle, transcrits à titre de référence de recherche et d’éducation",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les propres déclarations de la source et n’ont pas été vérifiés de manière indépendante comme des recommandations cliniques. Référence de la page : flacon de 5,000 IU plus 2 mL d’eau bactériostatique, environ 500 IU par administration. hCG est un médicament sur ordonnance ; la posologie dépend de l’indication et nécessite l’avis d’un clinicien. La valeur indiquée pour le flacon de recherche n’est pas une prescription.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Référence posologique",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "IU",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "La page indique 500 IU par dose, mais cela dépend de l’indication et aucun calendrier n’est consigné ici."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Médicament sur ordonnance nécessitant une posologie déterminée par un clinicien en fonction de l’indication."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hcg-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hcg-5000iu-vial-dosage-protocol/",
+      "title": "HCG (5000IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hcg-catalog-entry",
+      "sourceID": "hcg-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page source a été examinée individuellement. Ce JSON conserve le calendrier et le contexte de formulation indiqués par la page, ainsi que ses réserves ; il n’établit pas un protocole cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Non spécifié"
+    }
+  ]
+}

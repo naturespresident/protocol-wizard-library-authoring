@@ -1,0 +1,184 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vilon",
+      "name": "Vilon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vilon-catalog-entry",
+      "productID": "vilon",
+      "title": "Dosierungsprotokoll für Vilon (20mg Durchstechflasche) — Quellenreferenz",
+      "purpose": "Zeitplan und Handhabungsdetails der Einzelseite, als Forschungs-/Bildungsreferenz übertragen",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; dies sind Aussagen der Seite, keine unabhängig verifizierten klinischen Empfehlungen. Berichtet wird ein intermittierender Zeitplan: 5 aufeinanderfolgende tägliche SC-Dosen pro 4-Wochen-Zyklus, monatlich wiederholt. Zyklus 1, Tage 1–5: 67, 133, 200, 267, 333 mcg; spätere Zyklen: täglich 333–667 mcg über 5 Tage. 20 mg + 3 mL; laut Quelle nach dem Anmischen bei 2–8°C aufbewahren und innerhalb von etwa 1 Woche verwenden. Nur für Forschungszwecke.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Zyklus 1, Tag 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "67",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "Erste von fünf aufeinanderfolgenden täglichen Dosen in Zyklus 1; Zyklus monatlich wiederholen."
+            }
+          },
+          {
+            "name": "Zyklus 1, Tag 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "133",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Zyklus 1, Tag 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Zyklus 1, Tag 4",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "267",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Zyklus 1, Tag 5",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "333",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1
+            }
+          },
+          {
+            "name": "Zyklen 2–4, Tage 1–5",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "333",
+              "maximum": "667",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": 1,
+              "description": "Fünf aufeinanderfolgende tägliche Dosen pro vierwöchigem Zyklus; monatlich über 2–4 Zyklen wiederholen. Der Dosisbereich für spätere Zyklen gilt für jeden Dosierungstag."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Quellenbasierter intermittierender Zeitplan, kein zugelassenes Dosierungsschema für Menschen. Die genauen Dosen im ersten Zyklus steigen täglich an; in späteren Zyklen wird ein Bereich verwendet."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vilon-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vilon-20mg-vial-dosage-protocol/",
+      "title": "Vilon (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vilon-catalog-entry",
+      "sourceID": "vilon-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dies sind Aussagen der Quelle und keine unabhängig verifizierten klinischen Empfehlungen; ein Dosierungsschema für Menschen ist nicht etabliert, sofern die Quelle nichts anderes angibt.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert & klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

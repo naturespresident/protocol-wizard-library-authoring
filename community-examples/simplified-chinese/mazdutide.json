@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "mazdutide",
+      "name": "Mazdutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "mazdutide-catalog-entry",
+      "productID": "mazdutide",
+      "title": "Mazdutide（5mg 小瓶）给药方案——来源参考",
+      "purpose": "单页中列出的日程安排和处理细节，转录自研究/教育参考资料",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，未经独立核实的临床指导。该页面的研究参考资料描述了每剂2.5 mg，取自一瓶以3 mL 抑菌水复溶的5 mg 制剂。这不是人体使用指导；在解读前，请根据临床来源核实试验剂量安排。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "来源报告的参考剂量",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "该页面将其称为研究参考剂量，但未说明频率或疗程。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "该页面的研究参考资料描述了每剂2.5 mg，取自一瓶以3 mL 抑菌水复溶的5 mg 制剂。这不是人体使用指导；在解读前，请根据临床来源核实试验剂量安排。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "mazdutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/mazdutide-5mg-vial-dosage-protocol/",
+      "title": "Mazdutide (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "mazdutide-catalog-entry",
+      "sourceID": "mazdutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此JSON保留了该页面所述的日程安排/制剂背景及其注意事项；它并不能确立经临床验证的给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

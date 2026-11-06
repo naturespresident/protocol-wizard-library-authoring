@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "zinc-thymulin",
+      "name": "Zinc Thymulin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "zinc-thymulin-catalog-entry",
+      "productID": "zinc-thymulin",
+      "title": "Zinc Thymulin (10mg-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung von einer Einzelseite, als Forschungs- und Bildungsreferenz transkribiert",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben sind Aussagen der Quelle selbst und keine unabhängig überprüfte klinische Anleitung. Keine veröffentlichte topische Konzentration; zitiert werden nur ein Ex-vivo-Haarfollikelexperiment mit 10 pg/mL und eine unkontrollierte Fallserie mit 18 Personen. Zink erscheint in den Anbieterspezifikationen als Hilfsstoff, nicht als nachgewiesener Zink-Peptid-Komplex. Keine validierte Dosis.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referenz zur Einzelseite",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Keine veröffentlichte topische Konzentration; zitiert werden nur ein Ex-vivo-Haarfollikelexperiment mit 10 pg/mL und eine unkontrollierte Fallserie mit 18 Personen. Zink erscheint in den Anbieterspezifikationen als Hilfsstoff, nicht als nachgewiesener Zink-Peptid-Komplex. Keine validierte Dosis."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Keine veröffentlichte topische Konzentration; zitiert werden nur ein Ex-vivo-Haarfollikelexperiment mit 10 pg/mL und eine unkontrollierte Fallserie mit 18 Personen. Zink erscheint in den Anbieterspezifikationen als Hilfsstoff, nicht als nachgewiesener Zink-Peptid-Komplex. Keine validierte Dosis. HINWEIS: Die einzelne Quellenseite nennt keine numerische verabreichte Dosis; Formulierungskonzentrationen oder qualitative Zeitpläne werden, sofern angegeben, in den Anmerkungen beibehalten und nicht in Dosen umgerechnet."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "zinc-thymulin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/zinc-thymulin-10mg-vial-dosage-protocol/",
+      "title": "Zinc Thymulin (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "zinc-thymulin-catalog-entry",
+      "sourceID": "zinc-thymulin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dieses JSON bewahrt den angegebenen Zeitplan- und Formulierungskontext sowie die Vorbehalte der Seite; es belegt kein klinisch validiertes Schema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Haut"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Nicht spezifiziert"
+    }
+  ]
+}

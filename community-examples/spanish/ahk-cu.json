@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ahk-cu",
+      "name": "AHK-Cu",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ahk-cu-catalog-entry",
+      "productID": "ahk-cu",
+      "title": "Protocolo de dosificación de AHK-Cu (50 mg) — referencia de la fuente",
+      "purpose": "Cronograma de la página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles a continuación son afirmaciones propias de la fuente, no orientación clínica verificada de forma independiente. No existe una dosis inyectable validada ni un ensayo en humanos. Las guías de proveedores y de la comunidad se agrupan en torno a 100–200 mcg SC; la única cifra numérica de una fuente primaria es la dosis intradérmica en animales de 100–500 mcg por 0.1 mL descrita en una patente. La dilución de 50 mg + 2 mL es un cálculo de referencia.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Convención de proveedores y de la comunidad",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Rango de la comunidad y de proveedores; no hay ensayo en humanos ni dosis inyectable validada. Una patente aparte describe una dosis intradérmica en animales de 100–500 mcg por 0.1 mL."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "El rango de dosis no está validado clínicamente. No confunda la convención de proveedores con las concentraciones de la patente en animales."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ahk-cu-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ahk-cu-50mg-vial-dosage-protocol/",
+      "title": "AHK-Cu (50 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ahk-cu-catalog-entry",
+      "sourceID": "ahk-cu-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el cronograma y el contexto de formulación indicados en la página, así como sus advertencias; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Antienvejecimiento y piel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

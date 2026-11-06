@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "testagen",
+      "name": "Testagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "testagen-catalog-entry",
+      "productID": "testagen",
+      "title": "Testagen（20 mg 小瓶）给药方案——来源参考",
+      "purpose": "逐页转录的给药安排和处理细节，供研究和教育参考",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下内容为该页面所述，并非经过独立核实的临床指导。来源报告的每日皮下给药安排：第 1–2 周 100 mcg；第 3–4 周 150 mcg；第 5–8 周 200 mcg；可选的第 9–12 周 250–300 mcg。20 mg + 3 mL 抑菌注射用水（约 6.67 mg/mL）。身份／证据存在不确定性；仅供研究参考。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第 1–2 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 3–4 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "150",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 5–8 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "可选的第 9–12 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源报告的每日皮下给药安排：第 1–2 周 100 mcg；第 3–4 周 150 mcg；第 5–8 周 200 mcg；可选的第 9–12 周 250–300 mcg。20 mg + 3 mL 抑菌注射用水（约 6.67 mg/mL）。身份／证据存在不确定性；仅供研究参考。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "testagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/testagen-20mg-vial-dosage-protocol/",
+      "title": "Testagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "testagen-catalog-entry",
+      "sourceID": "testagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。以下内容为来源所述，并非经过独立核实的临床指导；除非来源另有说明，否则尚无已确立的人体给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

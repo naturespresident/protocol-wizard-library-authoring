@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cortagen",
+      "name": "Cortagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cortagen-catalog-entry",
+      "productID": "cortagen",
+      "title": "Cortagen — escenario A derivado de un modelo (no validado)",
+      "purpose": "Transposición de dosis animal derivada de un modelo, según la fuente; se registra solo como referencia",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "La fuente ofrece dos transposiciones brutas de dosis en roedores, basadas únicamente en modelos, y señala explícitamente que no son protocolos humanos validados ni tienen ajuste alométrico: 0.01 mg/kg/day durante unos 10 días (ejemplo aritmético para 70 kg: 0.70 mg/day), o 0.03 mg/kg/day durante 5 días (ejemplo aritmético para 70 kg: 2.10 mg/day). Las vías de administración en roedores difieren. Solo para investigación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Escenario A de la fuente",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.01",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Transposición bruta de la dosis en roedores indicada por la fuente; aproximadamente 10 días. No está validada ni destinada a ser una dosis humana."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Escenario A de la fuente: 0.01 mg/kg/day durante unos 10 días. La fuente también describe un escenario separado de 0.03 mg/kg/day durante 5 días. Estas transposiciones brutas de dosis en roedores no tienen ajuste alométrico ni son protocolos humanos validados."
+      }
+    },
+    {
+      "id": "cortagen-alternative-rodent-transposition",
+      "productID": "cortagen",
+      "title": "Cortagen — escenario B derivado de un modelo (no validado)",
+      "purpose": "Transposición separada de dosis animal derivada de un modelo, según la fuente; se registra solo como referencia",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "La fuente ofrece 0.03 mg/kg/day durante 5 días como transposición alternativa bruta de la dosis en roedores, sin ajuste alométrico. No es un protocolo humano validado; las vías de administración en roedores difieren.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Escenario B de la fuente",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.03",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Transposición bruta de la dosis en roedores indicada por la fuente. No está validada ni destinada a ser una dosis humana."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Alternativa separada del escenario A: 0.03 mg/kg/day durante 5 días. La transposición bruta de la dosis en roedores indicada por la fuente no tiene ajuste alométrico ni es un protocolo humano validado."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cortagen-20mg-vial-dosage-protocol/",
+      "title": "Cortagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cortagen-catalog-entry",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página individual de la fuente. Estas son afirmaciones de la fuente y no recomendaciones clínicas verificadas de forma independiente; no se ha establecido una pauta para humanos, salvo que la fuente indique lo contrario.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "cortagen-alternative-rodent-transposition",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; alternative model-based schedule",
+      "evidenceNote": "Segunda transposición bruta de dosis en roedores, basada únicamente en modelos, según la fuente; no es un protocolo humano validado.",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado y clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pe-22-28",
+      "name": "PE-22-28",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pe-22-28-catalog-entry",
+      "productID": "pe-22-28",
+      "title": "PE-22-28（10mg バイアル）の用量プロトコル — 出典参照用",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育用の参考資料として転記したものです。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は出典自身の記述であり、臨床指針として独立に検証されたものではありません。ページの表には次のとおり記載されています。1～2週目は毎日50 mcg、3～8週目は毎日100 mcg、任意で9～12週目は毎日150 mcg、任意で13～16週目は毎日200 mcg。再溶解の参考：10 mg + 3 mL（静菌水）（約3.33 mg/mL）。エビデンスはげっ歯類のみで、承認されたヒト用量はありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第1～2週",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第3～4週",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第5～8週",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "任意：第9～12週",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "150",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "任意：第13～16週",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "ページの表には次のとおり記載されています。1～2週目は毎日50 mcg、3～8週目は毎日100 mcg、任意で9～12週目は毎日150 mcg、任意で13～16週目は毎日200 mcg。再溶解の参考：10 mg + 3 mL（静菌水）（約3.33 mg/mL）。エビデンスはげっ歯類のみで、承認されたヒト用量はありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pe-22-28-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pe-22-28-10mg-vial-dosage-protocol/",
+      "title": "PE-22-28 (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pe-22-28-catalog-entry",
+      "sourceID": "pe-22-28-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤に関する情報、および注意事項を保持していますが、臨床的に検証された投与計画を確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知・神経系"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

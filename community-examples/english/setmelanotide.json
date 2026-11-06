@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "setmelanotide",
+      "name": "Setmelanotide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "setmelanotide-catalog-entry",
+      "productID": "setmelanotide",
+      "title": "Setmelanotide (10 mg) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. Approved-product label schedule reported by page: start 2 mg SC daily for genetic obesity age 12+ or 0.5 mg daily for acquired hypothalamic obesity for 2 weeks, then 3 mg each morning (maximum). Approved product is ready-to-use 10 mg/mL and is not reconstituted. Indications are limited; research vial is not approved medicine.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Initial label period",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Approved-product label reference for genetic obesity age 12+; acquired hypothalamic obesity starts at 0.5 mg/day."
+            }
+          },
+          {
+            "name": "Maintenance label dose",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Approved product maximum/maintenance; only specific rare-disease indications."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "These are approved-product label doses, not an endorsement of research-grade vial use. The source distinguishes genetic from acquired hypothalamic obesity."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "setmelanotide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/setmelanotide-10mg-vial-dosage-protocol/",
+      "title": "Setmelanotide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "setmelanotide-catalog-entry",
+      "sourceID": "setmelanotide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Weight & Metabolism"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

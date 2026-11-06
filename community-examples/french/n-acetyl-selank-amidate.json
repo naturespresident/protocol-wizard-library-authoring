@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-selank-amidate",
+      "name": "N-Acetyl Selank Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-selank-amidate-catalog-entry",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "Calendrier intranasal de N-Acetyl Selank Amidate — référence de la source",
+      "purpose": "Calendrier de recherche intranasal rapporté par la source ; la posologie clinique propre à l’amidate n’est pas établie",
+      "methodID": "intranasal",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.org indique qu’il n’existe pas de directives officielles de posologie pour N-Acetyl Selank Amidate et extrapole à partir de Selank. Son calendrier de référence est de 600–900 mcg/jour par voie intranasale, à raison de 300 mcg par pulvérisation 2–3 fois par jour, pendant jusqu’à 14 jours ; son tableau présente une pause d’une semaine, suivie d’une nouvelle cure de deux semaines. Il indique de ne pas dépasser 9 pulvérisations/jour et recommande de surveiller l’EEG et l’état clinique. Il ne s’agit pas d’un protocole clinique validé.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Cure intranasale des semaines 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Une pulvérisation de 300 mcg par administration, 2–3 fois par jour (600–900 mcg au total par jour), selon la source. La page indique également un plafond de 9 pulvérisations/jour ; le protocole de référence conseille de ne pas dépasser 14 jours consécutifs."
+            }
+          },
+          {
+            "name": "Pause de la semaine 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Pause d’une semaine entre les cures, comme indiqué dans le tableau de la source."
+            }
+          },
+          {
+            "name": "Nouvelle cure intranasale des semaines 4–5",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Le tableau reprend 1 pulvérisation (300 mcg) 2–3 fois par jour, pour un total de 600–900 mcg par jour."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Peptides.org indique qu’il manque des directives de posologie propres à l’amidate ainsi que des données sur la durée des cycles ; les recommandations sont extrapolées à partir de Selank. Son calendrier de référence prévoit 2 semaines de traitement, 1 semaine de pause, puis une nouvelle cure de 2 semaines, facultative ou répétée. Il recommande de surveiller l’EEG et l’état clinique. Il s’agit uniquement d’une référence de recherche rapportée par la source."
+      }
+    },
+    {
+      "id": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "Calendrier sous-cutané de N-Acetyl Selank Amidate — référence de la source",
+      "purpose": "Calendrier de recherche sous-cutané distinct rapporté par la source ; la posologie clinique propre à l’amidate n’est pas établie",
+      "methodID": "subcutaneous",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.org décrit une référence prudente par voie sous-cutanée de 150–300 mcg par jour, pendant jusqu’à deux semaines, suivie d’une pause d’une semaine et de la possibilité d’une nouvelle cure de deux semaines. La page indique que les données de posologie et de sécurité propres à l’amidate sont absentes ; il ne s’agit pas d’un protocole clinique validé.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Cure sous-cutanée des semaines 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "150–300 mcg au total par jour pendant jusqu’à deux semaines, selon la référence prudente de la page pour la voie sous-cutanée."
+            }
+          },
+          {
+            "name": "Pause de la semaine 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Pause d’une semaine entre les cures, comme indiqué dans le tableau de la source."
+            }
+          },
+          {
+            "name": "Nouvelle cure sous-cutanée des semaines 4–5",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Le tableau reprend la référence de 150–300 mcg par jour pour les semaines 4–5."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La source décrit une dose prudente de 150–300 mcg/jour pendant jusqu’à deux semaines, avec une pause d’une semaine et la possibilité de répéter une cure de deux semaines. Elle mentionne l’injection sous-cutanée et le peu de données propres à l’amidate. Référence de recherche uniquement."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-selank-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-selank-amidate-nasal-spray-dosage-protocol/",
+      "title": "N-Acetyl Selank Amidate (Nasal Spray) Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "n-acetyl-selank-amidate-peptides-org",
+      "url": "https://www.peptides.org/n-acetyl-selank-amidate-dosage-calculator/",
+      "title": "N-Acetyl Selank Amidate Dosage Calculator and Chart",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page de Dosage Peptide fournit un contexte de formulation, mais aucune quantité étalonnée ; Peptides.org fournit des calendriers de référence distincts pour les voies intranasale et sous-cutanée.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Reference N-Acetyl Selank Amidate Dosing Protocol; Cycle Length; Microdosing",
+      "evidenceNote": "Le calendrier proposé par la page pour l’amidate est extrapolé à partir des données sur Selank et ne constitue pas une directive de posologie clinique établie.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Microdosing N-Acetyl Selank Amidate; Reference dosing protocol",
+      "evidenceNote": "La page présente ceci comme une référence prudente de recherche tout en signalant l’absence d’informations établies sur la posologie et la sécurité.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognition et neurologie"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "Voie intranasale"
+    },
+    {
+      "id": "subcutaneous",
+      "name": "Voie sous-cutanée"
+    }
+  ]
+}

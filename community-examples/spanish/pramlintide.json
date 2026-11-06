@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pramlintide",
+      "name": "Pramlintide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pramlintide-catalog-entry",
+      "productID": "pramlintide",
+      "title": "Pramlintide (5 mg) Protocolo de dosificación — referencia de la fuente",
+      "purpose": "Programa de una página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones propias de la fuente, no orientación clínica verificada de forma independiente. La página informa un uso indicado en microgramos, p. ej., 60–120 mcg antes de las comidas; es un complemento de la insulina prandial y requiere ajuste médico de la dosis. Un vial de 5 mg + 2.5 mL proporciona 2,000 mcg/mL (60 mcg = 0.03 mL). Existe un medicamento aprobado por la FDA; el vial de investigación no es ese producto.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Rango de dosis indicado para las comidas",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "60",
+              "maximum": "120",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Se administra antes de las comidas como complemento de la insulina prandial; la dosis exacta depende de la indicación y de la comida."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La página de la fuente cita 60–120 mcg antes de las comidas. Pramlintide requiere reducir la dosis de insulina prandial y supervisión clínica; este rango no es una pauta personalizada."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pramlintide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pramlintide-5mg-vial-dosage-protocol/",
+      "title": "Pramlintide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pramlintide-catalog-entry",
+      "sourceID": "pramlintide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página individual de la fuente. Este JSON conserva el contexto de la pauta y la formulación indicadas por la página, así como sus advertencias; no establece una pauta clínicamente validada.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

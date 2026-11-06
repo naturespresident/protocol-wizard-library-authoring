@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "mazdutide",
+      "name": "Mazdutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "mazdutide-catalog-entry",
+      "productID": "mazdutide",
+      "title": "Mazdutide (vial de 5mg) — protocolo de dosificación, referencia de la fuente",
+      "purpose": "Calendario de una página específica y detalles de manipulación, transcritos como referencia de investigación y educativa",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles que siguen son afirmaciones de la propia fuente, no orientación clínica verificada de forma independiente. La referencia de investigación de la página describe 2.5 mg por dosis de un vial de 5 mg reconstituido con 3 mL de agua bacteriostática. Esto no es orientación para uso en seres humanos; verifique el esquema de dosis del ensayo en una fuente clínica antes de interpretarlo.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Cantidad de referencia informada por la fuente",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "La página la denomina dosis de referencia para investigación, pero no indica la frecuencia ni la duración del tratamiento."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La referencia de investigación de la página describe 2.5 mg por dosis de un vial de 5 mg reconstituido con 3 mL de agua bacteriostática. Esto no es orientación para uso en seres humanos; verifique el esquema de dosis del ensayo en una fuente clínica antes de interpretarlo."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "mazdutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/mazdutide-5mg-vial-dosage-protocol/",
+      "title": "Mazdutide (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "mazdutide-catalog-entry",
+      "sourceID": "mazdutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente específica. Este JSON conserva el contexto del esquema y la formulación que indica la página, así como sus advertencias; no establece un régimen validado clínicamente.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "survodutide",
+      "name": "Survodutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "survodutide-catalog-entry",
+      "productID": "survodutide",
+      "title": "Survodutide (10mg 바이알) 용량 프로토콜 — 출처 참고용",
+      "purpose": "개별 페이지에 나온 일정과 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "보조 상업 출처예요. 이는 해당 페이지에 기재된 내용이며, 독립적으로 검증된 임상 지침은 아니에요. 간단한 답변에는 연구 목적으로만 사용하는 재구성 예시로 600 mcg 용량이 제시돼요: 10 mg 바이알 + 2 mL 정균수. 임상시험 중인 GLP-1/글루카곤 이중 작용제예요. 승인되지 않았으며 인체 사용 지침도 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "참고 용량만 있어요.",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "출처에는 재구성 예시로 600 mcg 용량이 제시돼 있지만, 수집된 요약에는 투여 빈도나 투여 기간이 나와 있지 않아요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "검토한 부분에는 활용 가능한 일정 없이 용량 수치만 언급돼요. 인체 투여 일정은 기재하지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "survodutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/survodutide-10mg-vial-dosage-protocol/",
+      "title": "Survodutide (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "survodutide-catalog-entry",
+      "sourceID": "survodutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 출처에서 달리 밝히지 않는 한 인체 투여 요법은 확립된 것이 아니에요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "명시되지 않았어요."
+    }
+  ]
+}

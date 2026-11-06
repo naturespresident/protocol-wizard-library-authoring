@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghk-copper-free",
+      "name": "GHK (sans cuivre)",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ghk-copper-free-catalog-entry",
+      "productID": "ghk-copper-free",
+      "title": "Protocole posologique de GHK (sans cuivre, 50 mg) — référence source",
+      "purpose": "Calendrier et détails de manipulation de la page individuelle, transcrits comme référence de recherche et d’information",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source secondaire commerciale ; les détails ci-dessous reprennent les affirmations de la source et ne sont pas des recommandations cliniques vérifiées de manière indépendante. Aucune dose clinique. Conventions des fournisseurs et des communautés : flacon de 50 mg + environ 2 mL d’eau bactériostatique et environ 1–2 mg/jour par voie sous-cutanée pendant 4–8 semaines. Non confirmé par des essais randomisés chez l’humain ; recherche uniquement.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Convention des fournisseurs et des communautés",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week",
+              "minimum": 4,
+              "maximum": 8
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Convention des fournisseurs et des communautés, non confirmée par des essais randomisés chez l’humain."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La source décrit environ 1–2 mg/jour par voie sous-cutanée pendant 4–8 semaines comme une convention des fournisseurs et des communautés ; aucune dose clinique n’est établie."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ghk-copper-free-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ghk-50mg-vial-dosage-protocol/",
+      "title": "GHK (Copper-Free, 50 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ghk-copper-free-catalog-entry",
+      "sourceID": "ghk-copper-free-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page de la source a été examinée. Ce fichier JSON conserve le calendrier indiqué sur la page, le contexte de formulation et les réserves ; il n’établit pas de schéma thérapeutique validé cliniquement.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-âge et peau"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

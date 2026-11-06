@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hmg",
+      "name": "HMG",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hmg-catalog-entry",
+      "productID": "hmg",
+      "title": "Protocolo de dosagem de HMG (frasco de 75IU) — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência para pesquisa e educação",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Referência da página: frasco de 75 IU mais 3 mL de água bacteriostática e cerca de 75 IU por administração. Menotropinas são gonadotrofinas sujeitas a prescrição; o uso para fertilidade masculina pode ser off-label e deve ser orientado por um profissional de saúde.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência de dose",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "75",
+              "unit": "IU",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "A página informa cerca de 75 IU por administração; a frequência não está incluída no resumo capturado."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Gonadotrofina sujeita a prescrição; é necessário um esquema definido por profissional de saúde para a indicação específica."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hmg-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hmg-75iu-vial-dosage-protocol/",
+      "title": "HMG (75IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hmg-catalog-entry",
+      "sourceID": "hmg-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página da fonte consultada individualmente. Este JSON preserva o cronograma e o contexto da formulação declarados pela página, assim como suas ressalvas; ele não estabelece um esquema clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado e clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

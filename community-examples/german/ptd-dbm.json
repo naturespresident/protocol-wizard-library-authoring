@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ptd-dbm",
+      "name": "PTD-DBM",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ptd-dbm-catalog-entry",
+      "productID": "ptd-dbm",
+      "title": "PTD-DBM (5mg-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Anwendungsdetails der Einzelseite, als Forschungs-/Bildungsreferenz transkribiert",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben sind Aussagen der Quelle selbst und keine unabhängig überprüfte klinische Anleitung. Keine Humandosis. Alle berichteten Wirksamkeitsdaten stammen aus Mausstudien mit topischer Anwendung von 100 μM; keine Humanstudie registriert. Die Seite konzentriert sich auf die topische Anwendung/Referenz, nicht auf ein injizierbares Schema.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referenz der Einzelseite",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Keine Humandosis. Alle berichteten Wirksamkeitsdaten stammen aus Mausstudien mit topischer Anwendung von 100 μM; keine Humanstudie registriert. Die Seite konzentriert sich auf die topische Anwendung/Referenz, nicht auf ein injizierbares Schema."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Keine Humandosis. Alle berichteten Wirksamkeitsdaten stammen aus Mausstudien mit topischer Anwendung von 100 μM; keine Humanstudie registriert. Die Seite konzentriert sich auf die topische Anwendung/Referenz, nicht auf ein injizierbares Schema. HINWEIS: Die einzelne Quellenseite nennt keine numerische verabreichte Dosis; Formulierungskonzentrationen oder qualitative Schemata, sofern angegeben, werden in den Anmerkungen beibehalten und nicht in Dosierungen umgerechnet."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ptd-dbm-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ptd-dbm-5mg-vial-dosage-protocol/",
+      "title": "PTD-DBM (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ptd-dbm-catalog-entry",
+      "sourceID": "ptd-dbm-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON bewahrt den auf der Seite angegebenen Kontext zu Zeitplan/Formulierung und die dazugehörigen Einschränkungen; es begründet kein klinisch validiertes Schema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Haut"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Nicht spezifiziert"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "mazdutide",
+      "name": "Mazdutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "mazdutide-catalog-entry",
+      "productID": "mazdutide",
+      "title": "Dosierungsprotokoll für Mazdutide (5 mg-Durchstechflasche) — Quellenreferenz",
+      "purpose": "Individueller Zeitplan und Angaben zur Handhabung, wie transkribiert; eine Forschungs- und Bildungsreferenz",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die folgenden Angaben sind Aussagen der Quelle und keine unabhängig verifizierte klinische Anleitung. Die Forschungsreferenz der Seite beschreibt 2.5 mg pro Dosis aus einer 5 mg-Durchstechflasche, rekonstituiert mit 3 mL bakteriostatischem Wasser. Dies ist keine Anleitung zur Anwendung beim Menschen; überprüfen Sie den Dosierungsplan der Studie anhand einer klinischen Quelle, bevor Sie ihn interpretieren.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Als Quelle angegebene Referenzmenge",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Die Seite bezeichnet dies als Forschungsreferenzdosis, nennt jedoch weder Häufigkeit noch Behandlungsdauer."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Die Forschungsreferenz der Seite beschreibt 2.5 mg pro Dosis aus einer 5 mg-Durchstechflasche, rekonstituiert mit 3 mL bakteriostatischem Wasser. Dies ist keine Anleitung zur Anwendung beim Menschen; überprüfen Sie den Dosierungsplan der Studie anhand einer klinischen Quelle, bevor Sie ihn interpretieren."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "mazdutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/mazdutide-5mg-vial-dosage-protocol/",
+      "title": "Mazdutide (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "mazdutide-catalog-entry",
+      "sourceID": "mazdutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dieses JSON bewahrt den angegebenen Zeitplan/Formulierungskontext und die zugehörigen Vorbehalte der Seite; es begründet kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Gewicht & Stoffwechsel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Nicht angegeben"
+    }
+  ]
+}

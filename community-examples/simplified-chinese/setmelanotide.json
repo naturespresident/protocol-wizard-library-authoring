@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "setmelanotide",
+      "name": "Setmelanotide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "setmelanotide-catalog-entry",
+      "productID": "setmelanotide",
+      "title": "Setmelanotide（10 mg）剂量方案——来源参考",
+      "purpose": "单页给药日程与处理细节，转录为研究／教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "次级商业来源；以下细节为来源自身陈述，并非经独立核实的临床指导。该页面报告的获批产品标签方案：遗传性肥胖（年龄 12+）每日皮下注射 2 mg，或获得性下丘脑性肥胖每日 0.5 mg，持续 2 周，然后每日上午 3 mg（最大剂量）。获批产品为即用型 10 mg/mL，无需复溶。适应症有限；研究用药瓶并非获批药品。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "初始标签阶段",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "遗传性肥胖（年龄 12+）的获批产品标签参考；获得性下丘脑性肥胖的起始剂量为 0.5 mg／日。"
+            }
+          },
+          {
+            "name": "标签维持剂量",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "获批产品的最大剂量／维持剂量；仅限特定罕见病适应症。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "这些是获批产品标签剂量，并非对使用研究级药瓶的认可。来源区分遗传性肥胖与获得性下丘脑性肥胖。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "setmelanotide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/setmelanotide-10mg-vial-dosage-protocol/",
+      "title": "Setmelanotide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "setmelanotide-catalog-entry",
+      "sourceID": "setmelanotide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留该页面所述的给药日程／制剂背景及其注意事项；这并不能确立经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

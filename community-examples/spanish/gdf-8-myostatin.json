@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "gdf-8-myostatin",
+      "name": "GDF-8 / Myostatin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "gdf-8-myostatin-catalog-entry",
+      "productID": "gdf-8-myostatin",
+      "title": "GDF-8 / Myostatin (1 mg) Protocolo de dosificación — referencia de la fuente",
+      "purpose": "Cronograma y detalles de manejo de la página individual, transcritos como referencia de investigación y educación",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; estas son afirmaciones de la página, no orientación clínica verificada de forma independiente. Proteína de referencia para laboratorio y advertencia explícita; no es una recomendación de dosificación. Myostatin es un regulador negativo del crecimiento muscular; la página advierte que no debe considerarse como un potenciador del desarrollo muscular. No existe un esquema para uso en humanos.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de la página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Proteína de referencia para laboratorio y advertencia explícita; no es una recomendación de dosificación. Myostatin es un regulador negativo del crecimiento muscular; la página advierte que no debe considerarse como un potenciador del desarrollo muscular. No existe un esquema para uso en humanos."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Proteína de referencia para laboratorio y advertencia explícita; no es una recomendación de dosificación. Myostatin es un regulador negativo del crecimiento muscular; la página advierte que no debe considerarse como un potenciador del desarrollo muscular. No existe un esquema para uso en humanos. AVISO: la página de la fuente individual no proporciona una dosis administrada numérica; las concentraciones de la formulación o los esquemas cualitativos, cuando se indican, se conservan en las notas y no se convierten en dosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "gdf-8-myostatin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/gdf-8-myostatin-1mg-vial-dosage-protocol/",
+      "title": "GDF-8 / Myostatin (1 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "gdf-8-myostatin-catalog-entry",
+      "sourceID": "gdf-8-myostatin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Estas son afirmaciones de la fuente y no orientación clínica verificada de forma independiente; no se establece un régimen para humanos salvo que la fuente indique lo contrario.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Sanación y recuperación"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

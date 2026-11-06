@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "p21",
+      "name": "P21",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "p21-catalog-entry",
+      "productID": "p21",
+      "title": "P21 (10 mg) — protocole posologique, référence de la source",
+      "purpose": "Calendrier et détails de manipulation de la page individuelle, transcrits à titre de référence de recherche et d’information",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous reprennent les déclarations de la source et ne constituent pas des recommandations cliniques vérifiées de manière indépendante. Aucune dose humaine établie. Les études publiées sur l’efficacité chez la souris ont administré 60 nmol/g d’aliment (~94 mcg/souris/jour, selon la consommation alimentaire rapportée). Les pratiques communautaires d’injection de 500–1,000 mcg par jour ne sont étayées par aucune étude publiée chez l’humain. La page indique 10 mg + 2 mL de reconstitution uniquement à titre de calcul de référence.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Exposition par l’alimentation chez la souris",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "94",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Quantité quotidienne approximative administrée à chaque souris dans l’alimentation des études publiées chez la souris ; il ne s’agit ni d’une dose injectable ni d’une dose humaine."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Aucune dose humaine établie. La page indique que les expériences d’efficacité administraient P21 dans l’alimentation ; les quantités injectables utilisées dans la communauté ne reposent pas sur des données publiées."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "p21-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/p21-10mg-vial-dosage-protocol/",
+      "title": "P21 (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "p21-catalog-entry",
+      "sourceID": "p21-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle consultée. Ce fichier JSON conserve le contexte de calendrier et de formulation indiqué sur la page, ainsi que ses réserves ; il n’établit pas de protocole cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognition et neurologie"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Orale"
+    }
+  ]
+}

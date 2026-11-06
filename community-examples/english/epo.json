@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "epo",
+      "name": "EPO",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "epo-catalog-entry",
+      "productID": "epo",
+      "title": "EPO (Erythropoietin, 3000 IU) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; these are the page's statements, not independently verified clinical guidance. No administration dose is provided. Clinical recombinant EPO is individualized and titrated by a clinician to the lowest hemoglobin avoiding transfusion; misuse carries serious risks. Page's 3000 IU in 1 mL is concentration math only.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Individual-page reference",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "No administration dose is provided. Clinical recombinant EPO is individualized and titrated by a clinician to the lowest hemoglobin avoiding transfusion; misuse carries serious risks. Page's 3000 IU in 1 mL is concentration math only."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "No administration dose is provided. Clinical recombinant EPO is individualized and titrated by a clinician to the lowest hemoglobin avoiding transfusion; misuse carries serious risks. Page's 3000 IU in 1 mL is concentration math only. FLAG: the individual source page does not provide a numeric administered dose; formulation concentrations or qualitative schedules, where stated, are retained in notes and are not converted into doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "epo-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/epo-3000iu-vial-dosage-protocol/",
+      "title": "EPO (Erythropoietin, 3000 IU) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "epo-catalog-entry",
+      "sourceID": "epo-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. These are source statements and not independently verified clinical guidance; no human regimen is established unless the source says otherwise.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Growth Hormone"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Unspecified"
+    }
+  ]
+}

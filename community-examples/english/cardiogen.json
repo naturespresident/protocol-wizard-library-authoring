@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cardiogen",
+      "name": "Cardiogen",
+      "aliases": [
+        "AEDR",
+        "Ala-Glu-Asp-Arg"
+      ],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "Cardiogen is described as a synthetic tetrapeptide (Ala-Glu-Asp-Arg / AEDR) proposed for cardiac tissue research. The source summarizes preclinical findings in cultured rat myocardial tissue, mouse fibroblasts, and a rat sarcoma model. These findings do not establish benefit, safety, or effective dosing in people; the source states that no human clinical trials have established an optimal dose."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cardiogen-pep-pedia-reference",
+      "productID": "cardiogen",
+      "title": "Cardiogen — Pep-Pedia community-derived reference",
+      "purpose": "Source-described reference planning",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; the source identifies these doses as community-derived and says human clinical trials have not established optimal dosing.",
+      "evidenceNotes": "Pep-Pedia labels the injectable protocols community-derived. It states that preclinical studies used in vitro concentrations, not injectable human doses. Its 10–20 mg every 3–7 days schedule differs substantially from the 200–500 mcg daily schedule on Dosage Peptide; the sources are kept separate and neither is evidence of a safe or effective human regimen.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Community-derived reference range",
+            "duration": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "10",
+              "maximum": "20",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Every 3–7 days; source-described as community-derived, not clinically established."
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 3,
+          "maximum": 6,
+          "unit": "calendar_month"
+        },
+        "timing_guidance": {
+          "preferred_time_of_day": "morning",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "source_reported"
+        },
+        "cautions": {
+          "source_id": "cardiogen-pep-pedia",
+          "source_statements": [
+            {
+              "section": "Research Protocols",
+              "subsection": "Disclaimer",
+              "excerpt": "Injectable dosing protocols are community-derived. No human clinical trials have established optimal dosing for Cardiogen. All preclinical studies used in vitro concentrations (ng/ml range), not injectable human doses.",
+              "truncated": false
+            },
+            {
+              "section": "Side Effects & Safety",
+              "subsection": "Side Effects",
+              "excerpt": "Not recommended during active cancer due to proliferative effects on fibroblasts",
+              "truncated": false
+            },
+            {
+              "section": "Side Effects & Safety",
+              "subsection": "Side Effects",
+              "excerpt": "Contraindicated in pregnancy and lactation due to absence of safety data",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established",
+          "community_protocol_not_supported_by_human_trials"
+        ],
+        "notes": "Source reference only. The source describes 2–4 week cycles and a 3–6 month break between cycles; the schedule remains unverified as human dosing."
+      }
+    },
+    {
+      "id": "cardiogen-dosage-peptide-reference",
+      "productID": "cardiogen",
+      "title": "Cardiogen — Dosage Peptide source daily titration (unverified)",
+      "purpose": "Source-described reference planning",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; the source identifies this as research-only information and says the schedule is not approved human dosing.",
+      "evidenceNotes": "Commercial secondary source; independent verification is pending. This source's 200–500 mcg daily titration conflicts substantially with Pep-Pedia's 10–20 mg every 3–7 days community-derived schedule. Within this page, the narrative says to increase by about 100 mcg every two weeks, while the table advances from 400 mcg for Week 5 to 500 mcg for Weeks 6–12. The differences are preserved rather than reconciled; neither schedule is established for human use.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "cardiogen"
+            }
+          ],
+          "sequence_as_reported": "Ala-Glu-Asp-Arg (AEDR)"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "6.67",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "cardiogen-dosage-peptide",
+              "source_url": "https://www.dosagepeptide.com/single-peptide-dosages/cardiogen-20-mg-vial-dosage-protocol/",
+              "locator": "Dosing & Reconstitution Guide; Standard / Gradual Approach"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Weeks 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Weeks 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Week 5",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Weeks 6–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 49,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields"
+        },
+        "storage": {
+          "source_id": "cardiogen-dosage-peptide",
+          "notes": "The source reports storing lyophilized vials at −20 °C (−4 °F), and refrigerating reconstituted solution at 2–8 °C (35.6–46.4 °F), protected from light, without freezing. It says to use the mixed solution within about 28 days."
+        },
+        "cautions": {
+          "source_id": "cardiogen-dosage-peptide",
+          "source_statements": [
+            {
+              "section": "Dosing Protocol",
+              "subsection": "Disclaimer",
+              "excerpt": "All information on DosagePeptide.com is for research and educational purposes only. Research compounds referenced here are intended for laboratory and research use only — not for human consumption — and are not FDA-approved for human use.",
+              "truncated": false
+            },
+            {
+              "section": "How This Works",
+              "subsection": "Evidence caveat",
+              "excerpt": "there are no high-quality independent human randomized trials of Cardiogen. The cardioprotective, “genetic-repair” and rejuvenation claims associated with the Khavinson bioregulators rest on the originators’ preclinical work and should be read as unproven hypotheses, not established benefits.",
+              "truncated": false
+            },
+            {
+              "section": "Dosing Protocol",
+              "subsection": "Titration note",
+              "excerpt": "Increase by roughly 100 mcg every two weeks as tolerated.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established",
+          "conflicting_source_dose_schedules",
+          "source_mentions_extensions_to_16_weeks_without_a_matching_titration_phase",
+          "titration_narrative_and_table_timing_differ"
+        ],
+        "notes": "Source reference only. The page describes 8–12 weeks as typical, with some references extending to about 16 weeks. Its detailed table covers 12 weeks, and its every-two-weeks titration note does not exactly match the Week 5 to Weeks 6–12 table transition."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cardiogen-pep-pedia",
+      "url": "https://pep-pedia.org/peptides/cardiogen",
+      "title": "Cardiogen - Research, Dosing & Protocols | Pep-Pedia",
+      "publisher": "Pep-Pedia",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cardiogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cardiogen-20-mg-vial-dosage-protocol/",
+      "title": "Cardiogen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": "2025-11-25"
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cardiogen-pep-pedia-reference",
+      "sourceID": "cardiogen-pep-pedia",
+      "locator": "Research Protocols; Quick start guide; Side Effects & Safety",
+      "evidenceNote": "Protocol details are community-derived, and the source states that optimal dosing has not been established in human clinical trials.",
+      "supports": [
+        "/phases",
+        "/off_period",
+        "/timing_guidance",
+        "/cautions",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cardiogen",
+      "sourceID": "cardiogen-pep-pedia",
+      "locator": "Overview; Molecular Information; Research Indications; References",
+      "evidenceNote": "Pep-Pedia describes Cardiogen as AEDR and summarizes preclinical research; it reports no human clinical trials establishing efficacy or optimal dosing.",
+      "supports": [
+        "/name",
+        "/aliases",
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "protocolID": "cardiogen-dosage-peptide-reference",
+      "sourceID": "cardiogen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; Dosing Protocol; Storage Instructions; How This Works; Important Disclaimer",
+      "evidenceNote": "Commercial secondary source. The site labels its material research-only and explicitly says it is not for human consumption. Its daily schedule conflicts substantially with Pep-Pedia's community-derived schedule, and the page's titration narrative differs from its table at the Week 5 to Weeks 6–12 transition.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Specialized & Clinical"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

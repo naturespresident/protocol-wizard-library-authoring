@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hgh-191aa",
+      "name": "HGH 191AA",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hgh-191aa-catalog-entry",
+      "productID": "hgh-191aa",
+      "title": "HGH 191AA (10IU 바이알) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정과 취급 세부사항을 연구/교육 참고 자료로 옮겨 적었어요.",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "이차 상업 출처이며, 이는 해당 페이지의 진술이지 독립적으로 검증된 임상 지침은 아니에요. 페이지는 보수적 대체 요법 참고 범위로 150–500 mcg/day를 보고하고, 200 mcg 부근에서 시작해 매주 ~100 mcg 정도 늘린다고 설명해요. 고급 연구 용량으로 최대 1,000–2,000 mcg/day도 언급해요. 10 IU 바이알 + 3 mL 표기는 농도 계산을 뜻해요. Somatropin은 처방약이므로 의료진의 지시에 따라서만 사용하세요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "보수적 대체 요법 참고",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "range_options": [
+                {
+                  "minimum": "150",
+                  "maximum": "500"
+                },
+                {
+                  "minimum": "1000",
+                  "maximum": "2000"
+                }
+              ],
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "출처는 보수적 대체 요법 참고 범위(150–500 mcg/day)와 고급 연구 용량(1,000–2,000 mcg/day)을 구분해요. 200 mcg 부근에서 시작하고 매주 ~100 mcg 정도 증량한다고 설명해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처는 처방 Somatropin의 허가사항/대체 요법 맥락과 연구 범위를 설명해요. 연구용 바이알은 승인된 제품이 아니에요. 용량을 자가 투여 지침으로 간주해서는 안 돼요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hgh-191aa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hgh-191aa-10iu-vial-dosage-protocol/",
+      "title": "HGH 191AA (10IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hgh-191aa-catalog-entry",
+      "sourceID": "hgh-191aa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 진술이며 독립적으로 검증된 임상 지침이 아니에요. 출처에서 달리 언급하지 않는 한 사람 대상 요법은 확립되지 않았어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장 호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "미지정"
+    }
+  ]
+}

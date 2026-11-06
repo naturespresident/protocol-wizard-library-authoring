@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pancragen",
+      "name": "Pancragen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pancragen-catalog-entry",
+      "productID": "pancragen",
+      "title": "Pancragen（20mg 小瓶）给药方案——来源参考",
+      "purpose": "单独页面中的给药安排和操作细节，转录为研究／教育参考资料",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，并非经过独立验证的临床指导。尚无确立的人体剂量。该页面仅报告了一项较早的恒河猴用量：每只动物每日通过肌内注射给予 50 mcg，持续 10 天。可查阅的人体论文未给出剂量、给药途径或疗程。20 mg 加 3 mL 抑菌水仅作为复溶参考。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "恒河猴研究疗程",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "据报道用于恒河猴，每只动物给药；并非人体剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "该页面报告的唯一已发表体内每日用量为：每只恒河猴每日一次肌内注射 50 mcg，持续 10 天。人体论文未披露剂量、给药途径或疗程。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pancragen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pancragen-20mg-vial-dosage-protocol/",
+      "title": "Pancragen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pancragen-catalog-entry",
+      "sourceID": "pancragen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单独的来源页面。此 JSON 保留了该页面所述的给药安排／制剂背景及其注意事项；这并不能确立经临床验证的给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "肌内注射"
+    }
+  ]
+}

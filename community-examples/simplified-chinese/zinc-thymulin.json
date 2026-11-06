@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "zinc-thymulin",
+      "name": "Zinc Thymulin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "zinc-thymulin-catalog-entry",
+      "productID": "zinc-thymulin",
+      "title": "Zinc Thymulin（10mg）剂量方案 — 来源参考",
+      "purpose": "个人页面中的用药时间表和操作细节，转录为研究/教育参考资料",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，并非经过独立核实的临床指导。尚无已发表的外用浓度；仅有一项离体毛囊实验引用了 10 pg/mL，以及一项未设对照的 18 人病例系列。供应商规格中将锌列为辅料，并未证明其为锌-肽复合物。尚无经过验证的剂量。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "单页参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "尚无已发表的外用浓度；仅有一项离体毛囊实验引用了 10 pg/mL，以及一项未设对照的 18 人病例系列。供应商规格中将锌列为辅料，并未证明其为锌-肽复合物。尚无经过验证的剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "尚无已发表的外用浓度；仅有一项离体毛囊实验引用了 10 pg/mL，以及一项未设对照的 18 人病例系列。供应商规格中将锌列为辅料，并未证明其为锌-肽复合物。尚无经过验证的剂量。标记：单个来源页面未提供数值型给药剂量；配方浓度或定性时间表（如有说明）保留在备注中，且不会换算为剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "zinc-thymulin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/zinc-thymulin-10mg-vial-dosage-protocol/",
+      "title": "Zinc Thymulin (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "zinc-thymulin-catalog-entry",
+      "sourceID": "zinc-thymulin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留页面所述的时间表/配方背景及其注意事项；这并不能证明存在经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "抗衰老与皮肤"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

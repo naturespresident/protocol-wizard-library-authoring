@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dihexa",
+      "name": "Dihexa",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dihexa-catalog-entry",
+      "productID": "dihexa",
+      "title": "Dihexa (10 mg) — protocole posologique, référence de la source",
+      "purpose": "Calendrier et détails de manipulation de la page individuelle, retranscrits à titre de référence de recherche et d’information",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les propres déclarations de la source et n’ont pas été vérifiés indépendamment comme recommandations cliniques. Aucune dose humaine ; aucun essai chez l’humain. Plage de doses rapportée uniquement chez l’animal : environ 1.44–2.88 mg/kg par voie orale chez la souris. La page décrit des modalités de recherche par voie orale, sublinguale et transdermique, sans injection ni reconstitution ; des articles clés sur le mécanisme ont été rétractés en 2025.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Plage d’exposition orale dans l’étude chez la souris",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1.44",
+              "maximum": "2.88",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Plage de doses chez la souris uniquement ; aucune dose humaine n’a été établie."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Exposition préclinique uniquement. Des articles clés sur le mécanisme ont été rétractés en 2025. Un calendrier communautaire distinct fourni par un utilisateur sur Reddit est consigné dans un protocole séparé et non vérifié."
+      }
+    },
+    {
+      "id": "dihexa-reddit-community-schedule",
+      "productID": "dihexa",
+      "title": "Dihexa — calendrier oral rapporté par la communauté Reddit (non vérifié)",
+      "purpose": "Calendrier oral rapporté par la communauté, retranscrit comme référence non vérifiée",
+      "methodID": "oral",
+      "population": "Community report; not a clinical study population",
+      "evidenceNotes": "Un guide Reddit créé par un utilisateur rapporte une dose orale de 10 mg, un cycle de 2 semaines de prise/2 semaines d’arrêt et une prise un jour sur deux pendant la première semaine. La publication ne cite aucun essai clinique validant ce calendrier. La sécurité et l’efficacité chez l’humain ne sont pas établies ; ceci ne constitue pas un avis médical.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Première semaine d’utilisation",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 2,
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "10 mg par voie orale un jour sur deux pendant la première semaine ; la publication suggère une prise le matin."
+            }
+          },
+          {
+            "name": "Suite du cycle standard de prise",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "10 mg par voie orale une fois par jour ; la publication suggère une prise le matin et décrit un cycle standard de deux semaines de prise."
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 2,
+          "maximum": 2,
+          "unit": "week"
+        },
+        "unresolved_fields": [
+          "community_anecdote_only",
+          "human_safety_or_efficacy_not_established"
+        ],
+        "notes": "AVERTISSEMENT : le calendrier provient d’une seule publication Reddit créée par un utilisateur, sans validation clinique. La page mentionne également des cycles plus longs, qui ne sont pas structurés ici. Ce fichier JSON consigne le rapport et ne recommande pas son utilisation."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dihexa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dihexa-10mg-dosage-protocol/",
+      "title": "Dihexa (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "dihexa-reddit-community",
+      "url": "https://www.reddit.com/r/LAPeptidesGuide/comments/1t2hi5k/dihexa_capsules_research_guide/",
+      "title": "Dihexa Capsules: Research Guide",
+      "publisher": "Reddit, r/LAPeptidesGuide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dihexa-catalog-entry",
+      "sourceID": "dihexa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page de la source individuelle a été examinée. Ce fichier JSON conserve le calendrier et le contexte de formulation indiqués par la page, ainsi que ses réserves ; il n’établit pas de protocole validé cliniquement.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "dihexa-reddit-community-schedule",
+      "sourceID": "dihexa-reddit-community",
+      "locator": "Dosing; Cycle guidance; First use protocol",
+      "evidenceNote": "Une publication Reddit créée par un utilisateur rapporte ce calendrier ; elle ne fournit aucune validation clinique de la sécurité ou de l’efficacité.",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/off_period",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognition et neurologie"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Voie orale"
+    }
+  ]
+}

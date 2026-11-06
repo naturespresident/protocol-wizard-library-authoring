@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "teriparatide",
+      "name": "Teriparatide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "teriparatide-catalog-entry",
+      "productID": "teriparatide",
+      "title": "Protocole posologique de Teriparatide (10 mg) — référence de la source",
+      "purpose": "Calendrier présenté sur la page individuelle et détails de manipulation, transcrits à titre de référence de recherche et d’information",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s’agit des déclarations de la page, et non de recommandations cliniques vérifiées indépendamment. Le médicament sur ordonnance PTH(1–34) se dose en mcg, et non en mg ; la page présente le flacon de recherche comme une simple référence, et non comme une recommandation posologique. Suivez l’étiquetage du produit approuvé et les conseils d’un spécialiste ; ne convertissez pas le contenu d’un flacon de recherche en schéma posologique.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Référence à l’étiquetage du produit approuvé",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Dose du stylo prérempli du produit approuvé. L’essai a également étudié 40 mcg/jour, avec davantage d’effets indésirables ; il ne s’agit pas d’un schéma pour flacon de recherche."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Cette source indique explicitement que la page ne fournit aucune dose à administrer à partir du flacon de recherche. 20 mcg/jour est mentionné uniquement dans le contexte de l’étiquetage du produit approuvé ; le calcul de concentration du flacon ne constitue pas une recommandation d’administration."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "teriparatide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/teriparatide-10mg-vial-dosage-protocol/",
+      "title": "Teriparatide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "teriparatide-catalog-entry",
+      "sourceID": "teriparatide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle consultée. Il s’agit des déclarations de la source, et non de recommandations cliniques vérifiées indépendamment ; aucun schéma posologique humain n’est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Guérison et récupération"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

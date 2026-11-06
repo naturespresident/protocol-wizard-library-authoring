@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cortagen",
+      "name": "Cortagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cortagen-catalog-entry",
+      "productID": "cortagen",
+      "title": "Cortagen — scénario A dérivé d’un modèle (non validé)",
+      "purpose": "Transposition de dose animale dérivée d’un modèle, rapportée par la source et consignée à titre de référence uniquement",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "La source présente deux transpositions brutes de doses chez les rongeurs, issues uniquement de modèles et explicitement non validées comme protocoles humains, sans mise à l’échelle allométrique : 0.01 mg/kg/jour pendant environ 10 jours (exemple arithmétique pour 70 kg : 0.70 mg/jour), ou 0.03 mg/kg/jour pendant 5 jours (exemple arithmétique pour 70 kg : 2.10 mg/jour). Les voies d’administration diffèrent selon les rongeurs. Réservé à la recherche.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Scénario A de la source",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.01",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Transposition brute de dose chez les rongeurs rapportée par la source ; environ 10 jours. Non validée ni destinée à être utilisée comme dose humaine."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Scénario A de la source : 0.01 mg/kg/jour pendant environ 10 jours. La source décrit également un scénario distinct à 0.03 mg/kg/jour pendant 5 jours. Ces transpositions brutes de doses chez les rongeurs ne sont pas mises à l’échelle allométrique et ne constituent pas des protocoles humains validés."
+      }
+    },
+    {
+      "id": "cortagen-alternative-rodent-transposition",
+      "productID": "cortagen",
+      "title": "Cortagen — scénario B dérivé d’un modèle (non validé)",
+      "purpose": "Transposition distincte de dose animale dérivée d’un modèle, rapportée par la source et consignée à titre de référence uniquement",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "La source présente 0.03 mg/kg/jour pendant 5 jours comme une autre transposition brute de dose chez les rongeurs, sans mise à l’échelle allométrique. Il ne s’agit pas d’un protocole humain validé ; les voies d’administration diffèrent selon les rongeurs.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Scénario B de la source",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.03",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Transposition brute de dose chez les rongeurs rapportée par la source. Non validée ni destinée à être utilisée comme dose humaine."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Autre scénario, distinct du scénario A : 0.03 mg/kg/jour pendant 5 jours. La transposition brute de dose chez les rongeurs rapportée par la source n’est pas mise à l’échelle allométrique et ne constitue pas un protocole humain validé."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cortagen-20mg-vial-dosage-protocol/",
+      "title": "Cortagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cortagen-catalog-entry",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page de la source individuelle a été examinée. Il s’agit de déclarations de la source, qui ne constituent pas des recommandations cliniques vérifiées de manière indépendante ; aucun schéma posologique humain n’est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "cortagen-alternative-rodent-transposition",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; alternative model-based schedule",
+      "evidenceNote": "Deuxième transposition brute de dose chez les rongeurs, issue uniquement d’un modèle et rapportée par la source ; il ne s’agit pas d’un protocole humain validé.",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Non précisée"
+    }
+  ]
+}

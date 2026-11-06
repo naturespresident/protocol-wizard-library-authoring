@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "teduglutide",
+      "name": "Teduglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "teduglutide-catalog-entry",
+      "productID": "teduglutide",
+      "title": "Teduglutide（5 mg）用量プロトコル — 出典参照",
+      "purpose": "個別ページに記載された投与スケジュールと取り扱いの詳細を、研究・教育用の参考情報として転記したものです",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次資料である出典の個別ページに記載された内容であり、医学的指針として独立に検証されたものではありません。ページに記載された承認製品の添付文書上の投与スケジュール：非経口栄養の継続を要する短腸症候群に対し、0.05 mg/kg を毎日単回皮下投与し、継続します。腎機能障害（eGFR <60）では0.025 mg/kg を使用します。市販の5 mg バイアルは、滅菌水0.5 mL を正確に加えて10 mg/mL に再構成します。採取可能量は3.8 mg (0.38 mL) のみです。専門医の監督下で使用する処方製品であり、研究用バイアルの使用を推奨するものではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "承認製品の添付文書に基づく参考情報",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.05",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "非経口栄養の継続を要する短腸症候群に対する処方製品です。出典によると、eGFR <60では半量の0.025 mg/kgを使用します。製品の添付文書では対応する希釈液を使用し、研究用バイアルでの混合は行いません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "FDA承認製品の投与スケジュールは、専門医の監督下にある適格患者にのみ適用されます。研究用グレードの5 mg バイアルは承認製剤ではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "teduglutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/teduglutide-5mg-vial-dosage-protocol/",
+      "title": "Teduglutide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "teduglutide-catalog-entry",
+      "sourceID": "teduglutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "個別のプロトコルページを確認しました。この項目には出典に記載された詳細とページ上の制限事項を反映しており、臨床上の投与指針ではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門・臨床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "sermorelin-ipamorelin",
+      "name": "Sermorelin + Ipamorelin",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "sermorelin-ipamorelin-catalog-entry",
+      "productID": "sermorelin-ipamorelin",
+      "title": "Protocolo de dosificación de Sermorelin + Ipamorelin (mezcla de 10mg) — referencia de la fuente",
+      "purpose": "Calendario de una página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; estas son afirmaciones de la página, no orientación clínica verificada de forma independiente. Referencia de la página: mezcla total de 10 mg en 3 mL de agua bacteriostática (~3,333 mcg/mL); comienza cerca de 300 mcg de mezcla total una vez al día. La página indica la convención de la fuente para mezclas 1:1; las proporciones de los componentes y la seguridad/eficacia en seres humanos no están establecidas por la página de la mezcla.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "Referencia inicial de mezcla total",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Cantidad de mezcla total; la página describe una mezcla 1:1 de 10 mg en total."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Solo es una convención de investigación descrita por la fuente; la composición de la mezcla y su validez en seres humanos no están establecidas."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "sermorelin-ipamorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/sermorelin-ipamorelin-10mg-blend-vial-dosage-protocol/",
+      "title": "Sermorelin + Ipamorelin (10mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "sermorelin-ipamorelin-catalog-entry",
+      "sourceID": "sermorelin-ipamorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Estas son afirmaciones de la fuente y no orientación clínica verificada de forma independiente; no se establece ningún régimen para seres humanos, salvo que la fuente lo indique.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormona del crecimiento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

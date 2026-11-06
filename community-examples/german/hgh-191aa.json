@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hgh-191aa",
+      "name": "HGH 191AA",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hgh-191aa-catalog-entry",
+      "productID": "hgh-191aa",
+      "title": "HGH 191AA (10IU-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Auf einer einzelnen Seite aufgeführter Zeitplan und Angaben zur Handhabung, als Forschungs-/Bildungsreferenz transkribiert",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Sekundäre kommerzielle Quelle; dies sind Aussagen der Seite und keine unabhängig verifizierte klinische Anleitung. Die Seite nennt als konservative Ersatztherapie-Referenz 150–500 mcg/Tag, beginnend bei etwa 200 mcg und mit einer Steigerung um ~100 mcg/Woche; außerdem werden fortgeschrittene Forschungsdosierungen von bis zu 1,000–2,000 mcg/Tag erwähnt. 10 IU Durchstechflasche + 3 mL ist eine Konzentrationsberechnung. Somatropin ist ein verschreibungspflichtiges Arzneimittel; Anwendung nur unter ärztlicher Anleitung.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Konservative Referenz zur Ersatztherapie",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "range_options": [
+                {
+                  "minimum": "150",
+                  "maximum": "500"
+                },
+                {
+                  "minimum": "1000",
+                  "maximum": "2000"
+                }
+              ],
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Die Quelle unterscheidet zwischen konservativen Referenzwerten für eine Ersatztherapie (150–500 mcg/Tag) und fortgeschrittenen Forschungsdosierungen (1,000–2,000 mcg/Tag); sie beginnt bei etwa 200 mcg und beschreibt wöchentliche Steigerungen um ~100 mcg."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Die Quelle beschreibt den Kontext der Kennzeichnung von verschreibungspflichtigem Somatropin und Forschungsdosierungsbereiche. Eine Forschungs-Durchstechflasche ist kein zugelassenes Produkt; die Dosis darf nicht als Anleitung zur Selbstverabreichung verstanden werden."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hgh-191aa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hgh-191aa-10iu-vial-dosage-protocol/",
+      "title": "HGH 191AA (10IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hgh-191aa-catalog-entry",
+      "sourceID": "hgh-191aa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dies sind Aussagen der Quelle und keine unabhängig verifizierte klinische Anleitung; ein Behandlungsschema für Menschen ist nicht belegt, sofern die Quelle nichts anderes angibt.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Wachstumshormon"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Nicht angegeben"
+    }
+  ]
+}

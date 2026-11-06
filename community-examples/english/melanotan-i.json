@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "melanotan-i",
+      "name": "Melanotan I",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "melanotan-i-catalog-entry",
+      "productID": "melanotan-i",
+      "title": "Melanotan I (10 mg) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. Page research convention: 0.5–1 mg SC once daily loading until pigmentation, then 1 mg once or twice weekly maintenance. 10 mg + 2 mL gives 5 mg/mL. Afamelanotide approval applies only to clinician-placed 16 mg EPP implant, not self-injected research peptide.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Research loading convention",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Once daily until pigmentation builds; source describes a common research convention, not clinical guidance."
+            }
+          },
+          {
+            "name": "Research maintenance convention",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "Once or twice weekly after loading; source says approved afamelanotide is a clinician-placed implant, not this self-injected material."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Source convention only. FDA approval applies only to clinician-placed afamelanotide implant for EPP, not self-injected research peptide."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "melanotan-i-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/melanotan-1-10mg-vial-dosage-protocol/",
+      "title": "Melanotan I (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "melanotan-i-catalog-entry",
+      "sourceID": "melanotan-i-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Specialized & Clinical"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutaneous"
+    }
+  ]
+}

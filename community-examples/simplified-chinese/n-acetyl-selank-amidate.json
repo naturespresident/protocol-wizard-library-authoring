@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-selank-amidate",
+      "name": "N-Acetyl Selank Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-selank-amidate-catalog-entry",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "N-Acetyl Selank Amidate 鼻内给药时间安排——来源参考",
+      "purpose": "来源报告的鼻内给药研究方案；尚未确立 N-Acetyl Selank Amidate 的临床剂量",
+      "methodID": "intranasal",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.org 指出，目前缺乏 N-Acetyl Selank Amidate 的官方剂量指南，并根据 Selank 的资料进行推断。其参考方案为每日鼻内给药 600–900 mcg，每次按压给药器泵头 300 mcg，每日 2–3 次，最长 14 天；其图表显示，洗脱一周后重复两周疗程。页面称每日泵送次数不得超过 9 次，并建议监测脑电图和临床状态。这不是经过验证的临床方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第 1–2 周鼻内给药疗程",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "每次给药按压一次泵头（300 mcg），每日 2–3 次（每日总量为 600–900 mcg），据来源所述。页面还指出每日上限为 9 次按压；其参考疗程建议连续使用不超过 14 天。"
+            }
+          },
+          {
+            "name": "第 3 周洗脱期",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "如来源图表所示，疗程间洗脱一周。"
+            }
+          },
+          {
+            "name": "第 4–5 周重复鼻内给药疗程",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "图表重复列出每次按压 1 次泵头（300 mcg）、每日 2–3 次，总量为每日 600–900 mcg。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Peptides.org 表示，尚无针对 N-Acetyl Selank Amidate 的剂量指南和疗程时长数据；相关建议是根据 Selank 的资料推断得出。其参考方案为使用 2 周、洗脱 1 周，然后可选择／重复进行 2 周疗程。页面建议监测脑电图和临床状态。仅供研究参考，内容据来源所述。"
+      }
+    },
+    {
+      "id": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "N-Acetyl Selank Amidate 皮下给药时间安排——来源参考",
+      "purpose": "单独的来源报告皮下给药研究方案；尚未确立 N-Acetyl Selank Amidate 的临床剂量",
+      "methodID": "subcutaneous",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.org 描述了一种保守的皮下给药参考方案：每日 150–300 mcg，最长两周，随后洗脱一周，并可考虑重复两周疗程。页面指出，尚无针对 N-Acetyl Selank Amidate 的剂量和安全性数据；这不是经过验证的临床方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第 1–2 周皮下给药疗程",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "每日总量为 150–300 mcg，最长两周，据页面所述的保守皮下给药参考方案。"
+            }
+          },
+          {
+            "name": "第 3 周洗脱期",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "如来源图表所示，疗程间洗脱一周。"
+            }
+          },
+          {
+            "name": "第 4–5 周重复皮下给药疗程",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "图表为第 4–5 周重复列出每日 150–300 mcg 的参考剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源保守地描述了每日 150–300 mcg、最长两周的方案，随后洗脱一周，并可考虑重复两周疗程。来源提及皮下注射，并指出针对 N-Acetyl Selank Amidate 的数据有限。仅供研究参考。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-selank-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-selank-amidate-nasal-spray-dosage-protocol/",
+      "title": "N-Acetyl Selank Amidate (Nasal Spray) Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "n-acetyl-selank-amidate-peptides-org",
+      "url": "https://www.peptides.org/n-acetyl-selank-amidate-dosage-calculator/",
+      "title": "N-Acetyl Selank Amidate Dosage Calculator and Chart",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Dosage Peptide 页面提供了制剂背景信息，但未提供经校准的剂量；Peptides.org 提供了分别针对鼻内给药和皮下给药的参考方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Reference N-Acetyl Selank Amidate Dosing Protocol; Cycle Length; Microdosing",
+      "evidenceNote": "页面提出的 N-Acetyl Selank Amidate 方案是根据 Selank 的数据推断得出的，并非已确立的临床剂量指南。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Microdosing N-Acetyl Selank Amidate; Reference dosing protocol",
+      "evidenceNote": "页面将此方案作为保守的研究参考，同时指出目前缺乏已确立的剂量和安全性信息。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经系统"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "鼻内给药"
+    },
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

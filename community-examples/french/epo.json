@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "epo",
+      "name": "EPO",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "epo-catalog-entry",
+      "productID": "epo",
+      "title": "Protocole posologique EPO (Erythropoietin, 3000 IU) — référence de la source",
+      "purpose": "Calendrier de la page individuelle et détails de manipulation, retranscrits à titre de référence de recherche et d’information",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s’agit des affirmations de la page, et non de recommandations cliniques vérifiées de manière indépendante. Aucune dose d’administration n’est indiquée. L’EPO recombinante utilisée en clinique est individualisée et titrée par un clinicien jusqu’à obtenir le taux d’hémoglobine le plus bas permettant d’éviter une transfusion ; le mésusage comporte des risques graves. Les 3000 IU dans 1 mL indiqués par la page relèvent uniquement d’un calcul de concentration.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Référence de la page individuelle",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Aucune dose d’administration n’est indiquée. L’EPO recombinante utilisée en clinique est individualisée et titrée par un clinicien jusqu’à obtenir le taux d’hémoglobine le plus bas permettant d’éviter une transfusion ; le mésusage comporte des risques graves. Les 3000 IU dans 1 mL indiqués par la page relèvent uniquement d’un calcul de concentration."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Aucune dose d’administration n’est indiquée. L’EPO recombinante utilisée en clinique est individualisée et titrée par un clinicien jusqu’à obtenir le taux d’hémoglobine le plus bas permettant d’éviter une transfusion ; le mésusage comporte des risques graves. Les 3000 IU dans 1 mL indiqués par la page relèvent uniquement d’un calcul de concentration. AVERTISSEMENT : la page source individuelle ne fournit aucune dose administrée chiffrée ; les concentrations de formulation ou les calendriers qualitatifs, lorsqu’ils sont indiqués, sont conservés dans les notes et ne sont pas convertis en doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "epo-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/epo-3000iu-vial-dosage-protocol/",
+      "title": "EPO (Erythropoietin, 3000 IU) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "epo-catalog-entry",
+      "sourceID": "epo-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page source individuelle a été examinée. Il s’agit d’affirmations de la source et non de recommandations cliniques vérifiées de manière indépendante ; aucun schéma posologique humain n’est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormone de croissance"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Non précisé"
+    }
+  ]
+}

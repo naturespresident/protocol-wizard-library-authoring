@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hmg",
+      "name": "HMG",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hmg-catalog-entry",
+      "productID": "hmg",
+      "title": "Protocolo de dosificación de HMG (vial de 75IU) — referencia de la fuente",
+      "purpose": "Calendario de la página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones de la propia fuente, no orientación clínica verificada de manera independiente. Referencia de la página: vial de 75 IU más 3 mL de agua bacteriostática y aproximadamente 75 IU por administración. Las menotropinas son gonadotropinas de prescripción; el uso para la fertilidad masculina puede ser fuera de indicación y debe estar dirigido por un profesional clínico.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de dosis",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "75",
+              "unit": "IU",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "La página informa aproximadamente 75 IU por administración; la frecuencia no se incluye en el resumen capturado."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Gonadotropina de prescripción; se requiere un calendario clínico específico para la indicación."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hmg-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hmg-75iu-vial-dosage-protocol/",
+      "title": "HMG (75IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hmg-catalog-entry",
+      "sourceID": "hmg-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página individual de la fuente. Este JSON conserva el calendario indicado por la página, el contexto de la formulación y sus advertencias; no establece un régimen validado clínicamente.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializados y clínicos"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

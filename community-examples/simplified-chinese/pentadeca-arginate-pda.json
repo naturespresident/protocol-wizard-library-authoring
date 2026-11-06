@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pentadeca-arginate-pda",
+      "name": "十五肽精氨酸盐（Pentadeca Arginate / PDA）",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pentadeca-arginate-pda-catalog-entry",
+      "productID": "pentadeca-arginate-pda",
+      "title": "Pentadeca Arginate / PDA（10mg 瓶装）剂量方案——来源参考",
+      "purpose": "将单页中的安排和操作细节转录为研究／教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "商业二手来源；以下细节是来源自身的说法，并非经过独立验证的临床指导。尚无经过验证的人体用药方案；精氨酸盐本身没有已发表的研究。该页面描述了仿照 BPC-157 的社区惯例：每日皮下注射 250–500 mcg；10 mg + 3 mL 可配成 3.33 mg/mL。仅供研究；监管委员会的建议不等于 FDA 批准。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "仿照 BPC-157 的社区惯例",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "精氨酸盐形式本身没有已发表的剂量研究；该惯例仿照 BPC-157。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "尚无经过验证的人体用药方案；所报告的剂量是从不同盐型／形式外推而来的社区实践。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pentadeca-arginate-pda-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pentadeca-arginate-pda-10mg-vial-dosage-protocol/",
+      "title": "Pentadeca Arginate / PDA (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pentadeca-arginate-pda-catalog-entry",
+      "sourceID": "pentadeca-arginate-pda-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留了页面所述的给药安排、制剂背景及相关注意事项；这并不能确立经过临床验证的用药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "愈合与恢复"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

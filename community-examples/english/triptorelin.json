@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "triptorelin",
+      "name": "Triptorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "triptorelin-catalog-entry",
+      "productID": "triptorelin",
+      "title": "Triptorelin Acetate (2 mg) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. The page does not recommend self-administration. Triptorelin is a potent prescription GnRH agonist with depot formulations used under specialist care; it initially causes a hormone flare then suppresses LH/FSH and sex hormones. Research vial page is not an appropriate dosing guide.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Depot label dose options",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "3.75",
+                "11.25",
+                "22.5"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Different approved sustained-release depot formulations: 3.75 mg monthly, 11.25 mg every 3 months, or 22.5 mg every 6 months, clinician-administered. A plain 2 mg research vial is not a depot."
+            }
+          },
+          {
+            "name": "Historical immediate-release context",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Historical supervised regimen for first week, then lower maintenance; page does not specify the maintenance amount."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Prescription hormone used under specialist supervision; source explicitly says its research vial does not reproduce depot pharmacokinetics and provides no self-administration regimen."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "triptorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/triptorelin-2mg-vial-dosage-protocol/",
+      "title": "Triptorelin Acetate (2 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "triptorelin-catalog-entry",
+      "sourceID": "triptorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Specialized & Clinical"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuscular"
+    }
+  ]
+}

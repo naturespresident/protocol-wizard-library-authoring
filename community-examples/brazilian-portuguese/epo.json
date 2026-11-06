@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "epo",
+      "name": "EPO",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "epo-catalog-entry",
+      "productID": "epo",
+      "title": "Protocolo de dosagem de EPO (Erythropoietin, 3000 IU) — referência da fonte",
+      "purpose": "Cronograma da página individual e detalhes de manuseio, transcritos como referência de pesquisa/educação",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; estas são afirmações da página, não orientações clínicas verificadas de forma independente. Não é fornecida dose de administração. A EPO recombinante de uso clínico é individualizada e titulada por um profissional de saúde até o menor nível de hemoglobina que evite transfusão; o uso indevido traz riscos graves. A indicação de 3000 IU em 1 mL na página corresponde apenas ao cálculo da concentração.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência da página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Não é fornecida dose de administração. A EPO recombinante de uso clínico é individualizada e titulada por um profissional de saúde até o menor nível de hemoglobina que evite transfusão; o uso indevido traz riscos graves. A indicação de 3000 IU em 1 mL na página corresponde apenas ao cálculo da concentração."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Não é fornecida dose de administração. A EPO recombinante de uso clínico é individualizada e titulada por um profissional de saúde até o menor nível de hemoglobina que evite transfusão; o uso indevido traz riscos graves. A indicação de 3000 IU em 1 mL na página corresponde apenas ao cálculo da concentração. SINALIZAÇÃO: a página da fonte individual não fornece uma dose numérica administrada; as concentrações da formulação ou os cronogramas qualitativos, quando declarados, são mantidos nas notas e não são convertidos em doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "epo-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/epo-3000iu-vial-dosage-protocol/",
+      "title": "EPO (Erythropoietin, 3000 IU) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "epo-catalog-entry",
+      "sourceID": "epo-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A página da fonte individual foi revisada. Estas são declarações da fonte e não orientações clínicas verificadas de forma independente; não há um regime humano estabelecido, a menos que a fonte diga o contrário.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormônio do Crescimento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

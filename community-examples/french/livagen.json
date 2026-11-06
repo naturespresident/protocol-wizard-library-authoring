@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "livagen",
+      "name": "Livagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "livagen-catalog-entry",
+      "productID": "livagen",
+      "title": "Protocole posologique de Livagen (flacon de 20mg) — référence de la source",
+      "purpose": "Calendrier propre à cette page et détails de manipulation, transcrits à titre de référence pour la recherche et l’enseignement",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s’agit des déclarations de la page, et non de recommandations cliniques vérifiées de manière indépendante. Titration quotidienne par voie SC rapportée par la source : 500 mcg semaines 1–2 ; 1,000 mcg semaines 3–4 ; 1,500 mcg semaines 5–6 ; 2,000 mcg semaines 7–12. 20 mg + 3 mL d’eau bactériostatique (~6.67 mg/mL). Réservé à la recherche ; aucune dose humaine standardisée n’est établie.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semaines 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaines 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaines 5–6",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaines 7–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "2000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Titration quotidienne par voie SC rapportée par la source : 500 mcg semaines 1–2 ; 1,000 mcg semaines 3–4 ; 1,500 mcg semaines 5–6 ; 2,000 mcg semaines 7–12. 20 mg + 3 mL d’eau bactériostatique (~6.67 mg/mL). Réservé à la recherche ; aucune dose humaine standardisée n’est établie."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "livagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/livagen-20mg-vial-dosage-protocol/",
+      "title": "Livagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "livagen-catalog-entry",
+      "sourceID": "livagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page source a été examinée individuellement. Il s’agit des déclarations de la source, qui n’ont pas été vérifiées de manière indépendante comme recommandations cliniques ; aucun schéma posologique humain n’est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

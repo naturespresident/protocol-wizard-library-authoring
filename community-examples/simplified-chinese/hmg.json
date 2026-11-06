@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hmg",
+      "name": "HMG",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hmg-catalog-entry",
+      "productID": "hmg",
+      "title": "HMG（75IU 瓶）剂量方案——来源参考",
+      "purpose": "单独页面中的给药安排和处理细节，转录为研究/教育参考资料",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节为来源自身陈述，未经独立核实。页面参考：75 IU 瓶加 3 mL 抑菌水，每次给药约 75 IU。Menotropins 是处方促性腺激素；男性生育用途可能属于超说明书使用，且必须由临床医生指导。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "剂量参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "75",
+              "unit": "IU",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "页面报告每次给药约 75 IU；所捕获的摘要中未包含给药频率。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "处方促性腺激素；需由临床医生针对具体适应症制定给药方案。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hmg-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hmg-75iu-vial-dosage-protocol/",
+      "title": "HMG (75IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hmg-catalog-entry",
+      "sourceID": "hmg-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单独的来源页面。此 JSON 保留页面所述的给药安排、制剂背景及其注意事项；这并未据此确立经临床验证的给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

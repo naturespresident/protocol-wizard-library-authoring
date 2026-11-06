@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "sermorelin-ipamorelin",
+      "name": "Sermorelin + Ipamorelin",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "sermorelin-ipamorelin-catalog-entry",
+      "productID": "sermorelin-ipamorelin",
+      "title": "Sermorelin + Ipamorelin（10mg 混合製剤）用量プロトコル — 出典参照",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育目的の参考情報として転記しています。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下はページの記述であり、独立して検証された臨床指針ではありません。ページの記載：合計10 mg の混合製剤を3 mL の静菌水に溶解し（約3,333 mcg/mL）、合計300 mcg 程度の混合製剤を毎日単回投与するところから開始します。ページでは、1:1混合製剤に関する出典の慣例が記載されています。各成分の割合、およびヒトにおける安全性と有効性は、混合製剤のページでは確立されていません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "合計混合製剤の開始時の参考用量",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "混合製剤の総量です。ページでは合計10 mg の1:1混合製剤と記載されています。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "出典に記載された研究上の慣例のみです。混合製剤の組成およびヒトにおける妥当性は確立されていません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "sermorelin-ipamorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/sermorelin-ipamorelin-10mg-blend-vial-dosage-protocol/",
+      "title": "Sermorelin + Ipamorelin (10mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "sermorelin-ipamorelin-catalog-entry",
+      "sourceID": "sermorelin-ipamorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。記載内容は出典の記述であり、独立して検証された臨床指針ではありません。出典に別段の記載がない限り、ヒトでのレジメンは確立されていません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "成長ホルモン"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

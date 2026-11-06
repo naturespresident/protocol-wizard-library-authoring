@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-epitalon-amidate",
+      "name": "N-Acetyl Epitalon Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-epitalon-amidate-catalog-entry",
+      "productID": "n-acetyl-epitalon-amidate",
+      "title": "N-Acetyl Epitalon Amidate（5mg 药瓶）给药方案——来源参考",
+      "purpose": "单页方案安排及操作细节，转录为研究／教育参考资料",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是来源自身的说法，未经独立验证，不能视为临床指导。该修饰类似物或其母体均无经过验证的方案。该页面区分了啮齿动物研究（约 30–40 mcg/kg，连续五天／月）与普通 Epitalon 的市场惯例（每日 5–10 mg，持续 10–20 天）；两者均不能验证这种酰胺化物。5 mg + 2 mL 可配成 2.5 mg/mL。仅供研究。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "啮齿动物研究参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "30",
+              "maximum": "40",
+              "unit": "mcg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "据报道，啮齿动物研究每月连续五天进行；这不是人类用药方案。5–10 mg 的 Epitalon 惯例针对的是另一种未修饰肽。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "该酰胺化物没有经过验证的方案。结构化剂量仅表示啮齿动物的按体重暴露量，不是人类剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-epitalon-amidate-5mg-vial-dosage-protocol/",
+      "title": "N-Acetyl Epitalon Amidate (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-epitalon-amidate-catalog-entry",
+      "sourceID": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留了页面所述的给药安排／配方背景及其限制；这并不能确立经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "抗衰老与皮肤"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "其他"
+    }
+  ]
+}

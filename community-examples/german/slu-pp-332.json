@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "slu-pp-332-catalog-entry",
+      "productID": "slu-pp-332",
+      "title": "SLU-PP-332 (5mg Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs- und Bildungsreferenz transkribiert",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben sind Aussagen der Quelle selbst und keine unabhängig verifizierte klinische Anleitung. Nur ein mausäquivalenter Zeitplan: 625 mcg zweimal täglich (1,250 mcg/Tag) in den Wochen 1–2, danach 1,250 mcg zweimal täglich (2,500 mcg/Tag) in den Wochen 3–8. Basierend auf einer ~25 g schweren Maus, keine Humandosis. 5 mg + 3 mL ist eine rechnerische Referenz; niedermolekulare Verbindung, kein Peptid, nur präklinisch.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Wochen 1–2, mausäquivalent",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "625",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "625 mcg pro Verabreichung zweimal täglich (1,250 mcg/Tag), für eine ~25 g schwere Maus; keine Humandosis."
+            }
+          },
+          {
+            "name": "Wochen 3–8, mausäquivalent",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1250",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "1,250 mcg pro Verabreichung zweimal täglich (2,500 mcg/Tag), für eine ~25 g schwere Maus; keine Humandosis."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Nur ein präklinischer, mausäquivalenter Zeitplan; SLU-PP-332 ist eine niedermolekulare Verbindung, kein Peptid."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "slu-pp-332-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/slu-pp-332-5mg-vial-dosage-protocol/",
+      "title": "SLU-PP-332 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "slu-pp-332-catalog-entry",
+      "sourceID": "slu-pp-332-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON bewahrt den dort angegebenen Zeitplan und den Formulierungskontext sowie die Einschränkungen; es belegt kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Gewicht und Stoffwechsel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "Sonstiges"
+    }
+  ]
+}

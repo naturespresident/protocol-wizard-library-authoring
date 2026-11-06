@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hexarelin",
+      "name": "Hexarelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hexarelin-catalog-entry",
+      "productID": "hexarelin",
+      "title": "Hexarelin（5mg 瓶）剂量方案——来源参考",
+      "purpose": "单个页面所述的给药安排与操作细节，转录为研究/教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下内容为该页面的陈述，未经独立验证，不构成临床指导。人体研究参考：约 1–2 mcg/kg IV，约 1.5 mcg/kg SC（70 kg 时约 100 mcg）。5 mg 瓶加 2 mL 抑菌水可得到 2.5 mg/mL。仅供参考，不构成使用建议。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "人体药理学研究范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "mcg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "来源报告 1–2 mcg/kg IV 和约 1.5 mcg/kg SC；70 kg 参与者约为 100 mcg。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "历史人体研究用量，因给药途径而异；并非治疗方案。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hexarelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hexarelin-5mg-vial-dosage-protocol/",
+      "title": "Hexarelin (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hexarelin-catalog-entry",
+      "sourceID": "hexarelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。这些内容为来源陈述，未经独立验证，不构成临床指导；除非来源另有说明，否则尚无确立的人体给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

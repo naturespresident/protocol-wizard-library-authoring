@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghk-copper-free",
+      "name": "GHK (구리 무함유)",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ghk-copper-free-catalog-entry",
+      "productID": "ghk-copper-free",
+      "title": "GHK (구리 무함유, 50 mg) 용량 프로토콜 — 출처 참고 자료",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "부차적 상업 출처예요. 아래 세부 사항은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침이 아니에요. 임상 용량은 없어요. 공급업체/커뮤니티 관행: 50 mg 바이알 + 정균수 약 2 mL, 피하(SC)로 약 1–2 mg/day를 4–8주 동안 사용해요. 무작위 인체 시험으로 확인되지 않았으며 연구용으로만 다뤄요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "공급업체/커뮤니티 관행",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week",
+              "minimum": 4,
+              "maximum": 8
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "공급업체/커뮤니티 관행이며, 무작위 인체 시험으로 확인되지 않았어요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처는 약 1–2 mg/day를 피하(SC)로 4–8주 동안 사용하는 것을 공급업체/커뮤니티 관행으로 설명해요. 확립된 임상 용량은 없어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ghk-copper-free-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ghk-50mg-vial-dosage-protocol/",
+      "title": "GHK (Copper-Free, 50 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ghk-copper-free-catalog-entry",
+      "sourceID": "ghk-copper-free-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 해당 페이지에 명시된 일정/제형 맥락과 주의 사항을 보존하며, 임상적으로 검증된 요법을 확립하지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "노화 방지 및 피부"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

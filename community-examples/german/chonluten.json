@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "chonluten",
+      "name": "Chonluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "chonluten-catalog-entry",
+      "productID": "chonluten",
+      "title": "Chonluten (20mg-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs-/Bildungsreferenz übertragen",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; dies sind Angaben der Seite und keine unabhängig verifizierte klinische Anleitung. Tägliche subkutane Titration laut Quelle: 250 mcg in Woche 1–2; 500 mcg in Woche 3–4; 1,000 mcg in Woche 5–8; 1,500 mcg in Woche 9–16. 20 mg + 3 mL bakteriostatisches Wasser (~6.67 mg/mL). Nur zu Forschungszwecken; schwache Evidenz, überwiegend präklinisch und keine zugelassene Humandosis.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Wochen 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "250",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Wochen 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Wochen 5–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Wochen 9–16",
+            "duration": {
+              "kind": "fixed",
+              "value": 8,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Tägliche subkutane Titration laut Quelle: 250 mcg in Woche 1–2; 500 mcg in Woche 3–4; 1,000 mcg in Woche 5–8; 1,500 mcg in Woche 9–16. 20 mg + 3 mL bakteriostatisches Wasser (~6.67 mg/mL). Nur zu Forschungszwecken; schwache Evidenz, überwiegend präklinisch und keine zugelassene Humandosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "chonluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/chonluten-20mg-vial-dosage-protocol/",
+      "title": "Chonluten (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "chonluten-catalog-entry",
+      "sourceID": "chonluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dies sind Angaben der Quelle und keine unabhängig verifizierte klinische Anleitung; es gibt kein etabliertes Behandlungsschema für Menschen, sofern die Quelle nichts anderes angibt.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert & klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

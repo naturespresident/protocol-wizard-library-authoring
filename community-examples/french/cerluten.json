@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cerluten",
+      "name": "Cerluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cerluten-catalog-entry",
+      "productID": "cerluten",
+      "title": "Cerluten (bioregulateur cérébral) — protocole posologique, référence de la source",
+      "purpose": "Calendrier et détails de manipulation figurant sur la page individuelle, retranscrits à titre de référence pour la recherche et l’éducation",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les affirmations propres à la source, et non des recommandations cliniques vérifiées de manière indépendante. Convention pour les gélules orales, généralement 20 mg : 1–2 gélules par jour pendant 10–30 jours, souvent avant les repas, à répéter 2–3 fois/an. Extrait exclusif de cerveau/SNC d’origine animale, distinct de Cortexin/Cortagen ; dose thérapeutique non validée.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Cure orale",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Généralement avant un repas ; répéter 2–3 cures/an."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La page mentionne des gélules de 20 mg ; 1–2 gélules par jour pendant 10–30 jours, à répéter 2–3 fois/an. La dose correspond au nombre de gélules ; 20 mg par gélule est le dosage de la formulation, et non le nombre de gélules."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cerluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cerluten-brain-bioregulator-dosage-protocol/",
+      "title": "Cerluten (Brain Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cerluten-catalog-entry",
+      "sourceID": "cerluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle examinée. Ce fichier JSON conserve le calendrier indiqué par la page, le contexte de la formulation et ses réserves ; il n’établit pas de schéma posologique cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Orale"
+    }
+  ]
+}

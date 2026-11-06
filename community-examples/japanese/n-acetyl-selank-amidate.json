@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-selank-amidate",
+      "name": "N-Acetyl Selank Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-selank-amidate-catalog-entry",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "N-Acetyl Selank Amidateの経鼻投与スケジュール — 出典資料",
+      "purpose": "出典に記載された経鼻投与の研究スケジュールです。アミド化体に特化した臨床用量は確立されていません。",
+      "methodID": "intranasal",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.orgによると、N-Acetyl Selank Amidateの公式な投与ガイドラインはなく、Selankの情報から推定されています。参考スケジュールは、経鼻で日量600–900 mcg を使用し、一回あたり300 mcg を毎日2–3回、最長14日間投与するものです。掲載されている表では、一週間の休薬期間の後に二週間のコースを繰り返します。9ポンプ/日を超えないよう記載されており、EEGと臨床状態のモニタリングが推奨されています。これは臨床的に検証された投与レジメンではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第1〜2週の経鼻投与コース",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "出典の記載では、一回の投与につき300 mcg のポンプを一回、毎日2–3回使用します（日量600–900 mcg）。掲載ページには9ポンプ/日を上限とする記載もあり、参考コースでは連続14日を超えないよう推奨されています。"
+            }
+          },
+          {
+            "name": "第3週の休薬期間",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "出典の表に示されている、コース間の一週間の休薬期間です。"
+            }
+          },
+          {
+            "name": "第4〜5週の経鼻投与コース再実施",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "表では、300 mcg のポンプを1回、毎日2–3回（日合計600–900 mcg）使用する方法を繰り返しています。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Peptides.orgによると、アミド化体に特化した投与ガイドラインとサイクル期間のデータはなく、推奨内容はSelankから推定されています。参考スケジュールは、2週間の使用、1週間の休薬期間、その後の任意の2週間コース再実施です。EEGと臨床状態のモニタリングが推奨されています。出典に記載された研究上の参考情報です。"
+      }
+    },
+    {
+      "id": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "N-Acetyl Selank Amidateの皮下投与スケジュール — 出典資料",
+      "purpose": "出典に記載された別個の皮下投与研究スケジュールです。アミド化体に特化した臨床用量は確立されていません。",
+      "methodID": "subcutaneous",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.orgは、日量150–300 mcg を最長二週間使用し、その後一週間の休薬期間を設け、さらに二週間のコースを繰り返す可能性があるという、保守的な皮下投与の参考スケジュールを説明しています。掲載ページには、アミド化体に特化した投与量と安全性のデータが不足していると記載されています。これは臨床的に検証された投与レジメンではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第1〜2週の皮下投与コース",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "掲載ページの保守的な皮下投与の参考スケジュールでは、日合計150–300 mcg を最長二週間使用します。"
+            }
+          },
+          {
+            "name": "第3週の休薬期間",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "出典の表に示されている、コース間の一週間の休薬期間です。"
+            }
+          },
+          {
+            "name": "第4〜5週の皮下投与コース再実施",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "表では、第4〜5週に日量150–300 mcg の参考用量を繰り返しています。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "出典では、慎重な参考用量として日量150–300 mcg を最長二週間使用し、一週間の休薬期間を設けた後、二週間のコースを繰り返す可能性があると説明しています。皮下注射について記載し、アミド化体に特化したデータが限られているとしています。研究上の参考情報です。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-selank-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-selank-amidate-nasal-spray-dosage-protocol/",
+      "title": "N-Acetyl Selank Amidate (Nasal Spray) Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "n-acetyl-selank-amidate-peptides-org",
+      "url": "https://www.peptides.org/n-acetyl-selank-amidate-dosage-calculator/",
+      "title": "N-Acetyl Selank Amidate Dosage Calculator and Chart",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Dosage Peptideのページには製剤に関する情報がありますが、定量化された投与量はありません。Peptides.orgには、経鼻投与と皮下投与それぞれの参考スケジュールが記載されています。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Reference N-Acetyl Selank Amidate Dosing Protocol; Cycle Length; Microdosing",
+      "evidenceNote": "掲載ページのアミド化体スケジュール案はSelankのデータから推定されたもので、確立された臨床投与ガイドラインではありません。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Microdosing N-Acetyl Selank Amidate; Reference dosing protocol",
+      "evidenceNote": "掲載ページは、確立された投与量と安全性情報がないことを明記したうえで、慎重な研究上の参考情報として提示しています。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知・神経系"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "経鼻"
+    },
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

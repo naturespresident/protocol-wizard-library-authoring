@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "sermorelin-ipamorelin",
+      "name": "Sermorelin + Ipamorelin",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "sermorelin-ipamorelin-catalog-entry",
+      "productID": "sermorelin-ipamorelin",
+      "title": "Sermorelin + Ipamorelin（10mg 混合制剂）剂量方案——来源参考",
+      "purpose": "逐页方案与处理细节，转录为研究／教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下内容为页面陈述，并非经独立核实的临床指导。页面参考：总量 10 mg 的混合制剂加入 3 mL 抑菌水（约 3,333 mcg/mL）；起始量接近每日一次 300 mcg 混合制剂总量。页面称这是 1:1 混合制剂的来源惯例；该混合制剂页面并未确立各成分比例，也未确立人体安全性／疗效。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "混合制剂总量起始参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "混合制剂总量；页面描述的是 1:1、总量 10 mg 的混合制剂。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "仅为来源所述的研究惯例；混合物组成及其对人体的适用性尚未确立。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "sermorelin-ipamorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/sermorelin-ipamorelin-10mg-blend-vial-dosage-protocol/",
+      "title": "Sermorelin + Ipamorelin (10mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "sermorelin-ipamorelin-catalog-entry",
+      "sourceID": "sermorelin-ipamorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。以下为来源陈述，并非经独立核实的临床指导；除来源另有说明外，尚无已确立的人体用药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

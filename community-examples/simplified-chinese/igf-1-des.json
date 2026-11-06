@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "igf-1-des",
+      "name": "IGF-1 DES",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "igf-1-des-catalog-entry",
+      "productID": "igf-1-des",
+      "title": "IGF-1 DES（1 mg）剂量方案——来源参考",
+      "purpose": "单页所述时间安排和操作细节，转录为研究/教育参考",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下为该页面所述内容，未经独立验证，不构成临床指导。研究惯例中提及每日一次皮下注射 20–50 mcg，通常在训练肌肉附近注射，采用较短的 4–6 周周期。仅有临床前研究；没有人体肌肉增长试验，且未获 FDA 批准。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "研究惯例",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "20",
+              "maximum": "50",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "来源描述了较短的 4–6 周周期。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "研究惯例中提及每日一次皮下注射 20–50 mcg，通常在训练肌肉附近注射，采用较短的 4–6 周周期。仅有临床前研究；没有人体肌肉增长试验，且未获 FDA 批准。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "igf-1-des-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/igf-1-des-1mg-vial-dosage-protocol/",
+      "title": "IGF-1 DES (1 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "igf-1-des-catalog-entry",
+      "sourceID": "igf-1-des-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。以下为来源所述内容，未经独立验证，不构成临床指导；除非来源另有说明，否则尚未确立人体给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "生长激素"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

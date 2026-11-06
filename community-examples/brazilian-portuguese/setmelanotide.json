@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "setmelanotide",
+      "name": "Setmelanotide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "setmelanotide-catalog-entry",
+      "productID": "setmelanotide",
+      "title": "Protocolo de dosagem de Setmelanotide (10 mg) — referência da fonte",
+      "purpose": "Cronograma de página individual e detalhes de manuseio, transcritos como referência de pesquisa/educacional",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Cronograma da bula do produto aprovado informado pela página: iniciar com 2 mg por via subcutânea diariamente para obesidade genética a partir dos 12 anos ou 0.5 mg diariamente para obesidade hipotalâmica adquirida por 2 semanas, depois 3 mg todas as manhãs (máximo). O produto aprovado está pronto para uso, a 10 mg/mL, e não é reconstituído. As indicações são limitadas; o frasco para pesquisa não é medicamento aprovado.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Período inicial da bula",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Referência da bula do produto aprovado para obesidade genética a partir dos 12 anos; a obesidade hipotalâmica adquirida começa em 0.5 mg/dia."
+            }
+          },
+          {
+            "name": "Dose de manutenção da bula",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Dose máxima/de manutenção do produto aprovado; apenas para indicações específicas de doenças raras."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Estas são doses da bula do produto aprovado, não um endosso ao uso de frasco de grau de pesquisa. A fonte distingue obesidade hipotalâmica genética da adquirida."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "setmelanotide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/setmelanotide-10mg-vial-dosage-protocol/",
+      "title": "Setmelanotide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "setmelanotide-catalog-entry",
+      "sourceID": "setmelanotide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página da fonte individual revisada. Este JSON preserva o cronograma/formulação declarados na página e suas ressalvas; ele não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso e metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

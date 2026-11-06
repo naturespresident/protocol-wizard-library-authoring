@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "livagen",
+      "name": "Livagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "livagen-catalog-entry",
+      "productID": "livagen",
+      "title": "Livagen (20mg 바이알) 용량 프로토콜 — 출처 참고용",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고용으로 옮겨 적었어요",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "간접 상업 출처예요. 아래 내용은 해당 페이지의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 출처에 보고된 일일 피하 적정 용량: 1–2주차 500 mcg; 3–4주차 1,000 mcg; 5–6주차 1,500 mcg; 7–12주차 2,000 mcg. 20 mg + 3 mL 정균수(~6.67 mg/mL). 연구용이며, 확립된 표준 인체 용량은 없어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "1–2주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3–4주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "5–6주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "7–12주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "2000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처에 보고된 일일 피하 적정 용량: 1–2주차 500 mcg; 3–4주차 1,000 mcg; 5–6주차 1,500 mcg; 7–12주차 2,000 mcg. 20 mg + 3 mL 정균수(~6.67 mg/mL). 연구용이며, 확립된 표준 인체 용량은 없어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "livagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/livagen-20mg-vial-dosage-protocol/",
+      "title": "Livagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "livagen-catalog-entry",
+      "sourceID": "livagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 아래 내용은 출처의 진술이며 독립적으로 검증된 임상 지침은 아니에요. 출처에 달리 명시되지 않는 한, 확립된 인체 투여 요법은 없어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

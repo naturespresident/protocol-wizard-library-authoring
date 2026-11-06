@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "argireline",
+      "name": "Argireline",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "argireline-catalog-entry",
+      "productID": "argireline",
+      "title": "Argireline 국소 도포 프로토콜 — 출처 참고",
+      "purpose": "인용된 출처의 국소 화장품 도포 일정 및 제형 참고 정보",
+      "methodID": "topical",
+      "population": "Topical cosmetic or research-formulation references",
+      "evidenceNotes": "Peptides.org는 손상되지 않은 피부에 하루 두 차례, 최소 30일 동안 국소 도포한다고 설명해요. 해당 출처의 예시 참고 정보는 10% 에멀전을 사용하며 약 2 mg/cm²를 보고해요. Dosage Peptide는 별도로 자사에서 제공하는 수용액을 5–10% 함유한 바르는 제품을 하루 한 번 또는 두 번 사용하는 방법을 설명해요. 두 제형은 각 출처에 한정된 정보이므로 서로 대체 가능한 것으로 보거나 검증된 의학적 요법으로 간주해서는 안 돼요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "국소 도포 참고 일정",
+            "duration": {
+              "kind": "minimum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "Peptides.org의 설명에 따라 손상되지 않은 대상 피부에 얇게 펴 바르는 것을 하루 두 차례, 최소 30일 동안 적용해요. 해당 출처의 예시 참고 정보는 약 2 mg/cm²의 10% 에멀전이에요. 이 백분율 및 면적당 질량 단위는 참고 사항에 유지하고 구조화된 용량으로 표시하지 않아요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_units_not_supported_by_schema"
+        ],
+        "notes": "Peptides.org 예시 참고 정보: 10% 에멀전을 손상되지 않은 대상 피부에 하루 두 차례, 30일 또는 원하는 결과에 도달할 때까지 적용하며 약 2 mg/cm²를 사용해요. 해당 문서의 간단 표에는 최소 30일이라고 적혀 있어요. Dosage Peptide는 별도로 자사에서 제공하는 Argireline 수용액을 5–10% 함유한 바르는 제품을 하루 한 번 또는 두 번 사용하는 방법을 설명해요. 이는 다른 제형 참고 정보예요. 스키마에서 백분율 농도 또는 mg/cm²를 표현할 수 없으므로 용량은 null로 유지돼요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "argireline-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/argireline-10-topical-solution-dosage-protocol/",
+      "title": "Argireline (10% Topical) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "argireline-peptides-org",
+      "url": "https://www.peptides.org/argireline-dosage-calculator/",
+      "title": "Argireline Dosage Calculator and Chart | A-Z Guide",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 해당 페이지에 명시된 일정과 제형 맥락 및 주의 사항을 보존해요. 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-peptides-org",
+      "locator": "Argireline Dosage Chart; Sample Argireline Dosage Protocol; Argireline Administration Notes",
+      "evidenceNote": "이 페이지는 국소 연구 참고 정보를 설명해요: 손상되지 않은 피부, 하루 두 차례, 최소 30일. 예시에서는 10% 에멀전을 사용하고 약 2 mg/cm²를 보고해요.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "항노화 및 피부"
+    }
+  ],
+  "methods": [
+    {
+      "id": "topical",
+      "name": "국소"
+    }
+  ]
+}

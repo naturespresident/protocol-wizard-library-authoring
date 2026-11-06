@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cortagen",
+      "name": "Cortagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cortagen-catalog-entry",
+      "productID": "cortagen",
+      "title": "Cortagen — 模型推导的情景 A（未经验证）",
+      "purpose": "来源报告的模型推导动物剂量转用，仅作为参考记录",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "来源给出了两种仅基于模型的啮齿动物原始剂量转用方式，并明确指出它们不是经验证的人体方案，且未进行异速生长换算：0.01 mg/kg/day，约 10 天（以 70 kg 为例的算术结果为 0.70 mg/day）；或 0.03 mg/kg/day，5 天（以 70 kg 为例的算术结果为 2.10 mg/day）。啮齿动物的给药途径各不相同。仅供研究。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "来源情景 A",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.01",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "来源所述未经换算的啮齿动物剂量转用；约 10 天。未经验证，也非供人体使用的剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源情景 A：0.01 mg/kg/day，约 10 天。来源还描述了另一种情景：0.03 mg/kg/day，5 天。这些未经异速生长换算的啮齿动物原始剂量转用方式，并非经验证的人体方案。"
+      }
+    },
+    {
+      "id": "cortagen-alternative-rodent-transposition",
+      "productID": "cortagen",
+      "title": "Cortagen — 模型推导的情景 B（未经验证）",
+      "purpose": "来源报告的另一种模型推导动物剂量转用，仅作为参考记录",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "来源将 0.03 mg/kg/day、5 天列为另一种未经异速生长换算的啮齿动物原始剂量转用方式。这不是经验证的人体方案；啮齿动物的给药途径各不相同。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "来源情景 B",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.03",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "来源所述未经换算的啮齿动物剂量转用。未经验证，也非供人体使用的剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "情景 A 的另一种方案：0.03 mg/kg/day，5 天。来源所述的啮齿动物原始剂量转用未经异速生长换算，也不是经验证的人体方案。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cortagen-20mg-vial-dosage-protocol/",
+      "title": "Cortagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cortagen-catalog-entry",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单个来源页面。这些内容是来源中的陈述，未经独立核实，也不是临床指导；除非来源另有说明，否则尚未确立人体用药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "cortagen-alternative-rodent-transposition",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; alternative model-based schedule",
+      "evidenceNote": "来源报告的第二种仅基于模型的啮齿动物原始剂量转用方式；不是经验证的人体方案。",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

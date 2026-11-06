@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "p21",
+      "name": "P21",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "p21-catalog-entry",
+      "productID": "p21",
+      "title": "Protocolo de dosagem de P21 (10 mg) — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Não há dose estabelecida para humanos. Estudos publicados de eficácia em camundongos administraram 60 nmol/g de ração (~94 mcg/camundongo/dia com a ingestão alimentar relatada). As práticas comunitárias de uso injetável de 500–1,000 mcg ao dia não são respaldadas por estudos publicados em humanos. A página apresenta a reconstituição de 10 mg + 2 mL apenas como um cálculo de referência.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Exposição oral pela ração em camundongos",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "94",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Quantidade diária aproximada por camundongo fornecida na ração em estudos publicados com camundongos; não é uma dose injetável nem para humanos."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Não há dose estabelecida para humanos. A página afirma que os experimentos de eficácia forneceram P21 na ração; as quantidades injetáveis usadas pela comunidade não têm respaldo em estudos publicados."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "p21-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/p21-10mg-vial-dosage-protocol/",
+      "title": "P21 (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "p21-catalog-entry",
+      "sourceID": "p21-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A página individual da fonte foi revisada. Este JSON preserva o cronograma e o contexto da formulação declarados pela página, bem como suas ressalvas; ele não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo e neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

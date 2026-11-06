@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pramlintide",
+      "name": "Pramlintide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pramlintide-catalog-entry",
+      "productID": "pramlintide",
+      "title": "Protocole de posologie pour Pramlintide (5 mg) — référence de la source",
+      "purpose": "Calendrier propre à cette page et détails de manipulation, transcrits à titre de référence de recherche et d’éducation",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les affirmations de la source elle-même, et non des conseils cliniques vérifiés de manière indépendante. La page rapporte une utilisation indiquée en microgrammes, par exemple 60–120 mcg avant les repas ; il s’agit d’un traitement d’appoint à l’insuline des repas et un ajustement médical de la dose est nécessaire. Un flacon de 5 mg + 2.5 mL donne 2,000 mcg/mL (60 mcg = 0.03 mL). Il existe un médicament approuvé par la FDA ; le flacon destiné à la recherche n’est pas ce produit.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Plage posologique indiquée avant les repas",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "60",
+              "maximum": "120",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Administré avant les repas en complément de l’insuline des repas ; la dose exacte dépend de l’indication et du repas."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La page source cite 60–120 mcg avant les repas. Pramlintide nécessite une réduction de la dose d’insuline des repas et la supervision d’un professionnel de santé ; cette plage ne constitue pas un calendrier personnalisé."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pramlintide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pramlintide-5mg-vial-dosage-protocol/",
+      "title": "Pramlintide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pramlintide-catalog-entry",
+      "sourceID": "pramlintide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle examinée. Ce fichier JSON conserve le calendrier et le contexte de formulation indiqués par la page, ainsi que ses mises en garde ; il n’établit pas de schéma thérapeutique cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Poids et métabolisme"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

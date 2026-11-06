@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghrp-2",
+      "name": "GHRP-2",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ghrp-2-catalog-entry",
+      "productID": "ghrp-2",
+      "title": "Protocolo de dosificación de GHRP-2 (vial de 5mg) — referencia de la fuente",
+      "purpose": "Calendario y detalles de manejo de la página individual, transcritos como referencia de investigación y educativa",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; estas son afirmaciones de la página, no orientación clínica verificada de forma independiente. Referencia de la página: titulación subcutánea diaria de 100–300 mcg una vez al día en ayunas durante un ciclo de 8–16 semanas; 5 mg + 3 mL de agua bacteriostática (~1.67 mg/mL). Se indica expresamente que es solo para investigación, no para aplicación humana o clínica.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Rango diario de referencia para investigación",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "La fuente describe la administración en ayunas y un ciclo de 8–16 semanas."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Referencia de la página: titulación subcutánea diaria de 100–300 mcg una vez al día en ayunas durante un ciclo de 8–16 semanas; 5 mg + 3 mL de agua bacteriostática (~1.67 mg/mL). Se indica expresamente que es solo para investigación, no para aplicación humana o clínica."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ghrp-2-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ghrp-2-5mg-vial-dosage-protocol/",
+      "title": "GHRP-2 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ghrp-2-catalog-entry",
+      "sourceID": "ghrp-2-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Estas son afirmaciones de la fuente y no orientación clínica verificada de forma independiente; no se ha establecido ningún régimen humano, salvo que la fuente indique lo contrario.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormona del crecimiento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

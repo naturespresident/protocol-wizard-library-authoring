@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "prostamax",
+      "name": "Prostamax",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "prostamax-catalog-entry",
+      "productID": "prostamax",
+      "title": "Prostamax (flacon de 20mg) — protocole posologique — référence de la source",
+      "purpose": "Schéma posologique et détails de manipulation de la page individuelle, retranscrits à titre de référence de recherche et d’éducation",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s'agit des déclarations figurant sur la page, qui ne constituent pas des recommandations cliniques vérifiées indépendamment. Titration sous-cutanée quotidienne rapportée par la source : 500 mcg, semaines 1–2 ; 1,000 mcg, semaines 3–4 ; 2,000 mcg, semaines 5–6 ; 3,000 mcg, semaines 7–12. 20 mg + 3 mL d’eau bactériostatique (~6.67 mg/mL). Réservé à la recherche ; preuves faibles ou précliniques, aucune posologie approuvée.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semaines 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaines 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaines 5–6",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "2000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semaines 7–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "3000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Titration sous-cutanée quotidienne rapportée par la source : 500 mcg, semaines 1–2 ; 1,000 mcg, semaines 3–4 ; 2,000 mcg, semaines 5–6 ; 3,000 mcg, semaines 7–12. 20 mg + 3 mL d’eau bactériostatique (~6.67 mg/mL). Réservé à la recherche ; preuves faibles ou précliniques, aucune posologie approuvée."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "prostamax-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/prostamax-20mg-vial-dosage-protocol/",
+      "title": "Prostamax (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "prostamax-catalog-entry",
+      "sourceID": "prostamax-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page de la source individuelle consultée. Ces éléments sont des déclarations de la source et ne constituent pas des recommandations cliniques vérifiées indépendamment ; aucun schéma posologique chez l’humain n’est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Voie sous-cutanée"
+    }
+  ]
+}

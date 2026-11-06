@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cortexin",
+      "name": "Cortexin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cortexin-catalog-entry",
+      "productID": "cortexin",
+      "title": "Cortexin（10 mg）剂量方案——来源参考",
+      "purpose": "转录自单页的用药安排和处理细节，作为研究/教育参考资料",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节为该来源自身的陈述，并非经独立验证的临床指导。该页面报告的俄罗斯注册用法：连续 10 天每日一次肌内注射完整的 10 mg 小瓶内容；用 1–2 mL 稀释液复溶；仅在 3–6 个月后重复使用。该产品在俄罗斯为处方药，未获 FDA 批准；人体证据主要为俄语资料，且常为非对照研究。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "俄罗斯注册疗程",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "每日使用完整的 10 mg 小瓶；来源称用 1–2 mL 稀释液溶解。如经处方，3–6 个月后重复使用。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "俄罗斯注册产品的用药安排；未获 FDA 批准，也不构成将研究用小瓶用于人体的建议。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortexin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cortexin-10mg-vial-dosage-protocol/",
+      "title": "Cortexin (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cortexin-catalog-entry",
+      "sourceID": "cortexin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单个来源页面。此 JSON 保留了该页面所述的用药安排/制剂背景及其注意事项；这并不能确立经临床验证的用药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经系统"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "肌内注射"
+    }
+  ]
+}

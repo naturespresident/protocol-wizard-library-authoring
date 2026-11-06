@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "epo",
+      "name": "EPO",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "epo-catalog-entry",
+      "productID": "epo",
+      "title": "EPO (Erythropoietin, 3000 IU) 투여 프로토콜 — 출처 참고",
+      "purpose": "개별 출처 페이지의 일정 및 취급 세부 사항을 연구/교육용 참고 자료로 옮겼어요.",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "원자료가 아닌 상업 출처에 실린 내용이며, 독립적으로 검증된 임상 지침이 아니라 해당 페이지의 설명이에요. 투여 용량은 제시되지 않았어요. 임상에서 재조합 EPO의 용량은 의료진이 수혈을 피할 수 있는 가장 낮은 헤모글로빈 수치에 맞춰 개별적으로 조정해요. 오용하면 심각한 위험이 있어요. 페이지의 3000 IU / 1 mL 표기는 농도 계산일 뿐이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "개별 출처 페이지 참고",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "투여 용량은 제시되지 않았어요. 임상에서 재조합 EPO의 용량은 의료진이 수혈을 피할 수 있는 가장 낮은 헤모글로빈 수치에 맞춰 개별적으로 조정해요. 오용하면 심각한 위험이 있어요. 페이지의 3000 IU / 1 mL 표기는 농도 계산일 뿐이에요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "투여 용량은 제시되지 않았어요. 임상에서 재조합 EPO의 용량은 의료진이 수혈을 피할 수 있는 가장 낮은 헤모글로빈 수치에 맞춰 개별적으로 조정해요. 오용하면 심각한 위험이 있어요. 페이지의 3000 IU / 1 mL 표기는 농도 계산일 뿐이에요. 표시: 개별 출처 페이지에는 숫자로 된 투여 용량이 없어요. 제형의 농도나 페이지에 명시된 정성적 일정은 노트에 그대로 남겼으며, 투여 용량으로 환산하지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "epo-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/epo-3000iu-vial-dosage-protocol/",
+      "title": "EPO (Erythropoietin, 3000 IU) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "epo-catalog-entry",
+      "sourceID": "epo-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 설명이며 독립적으로 검증된 임상 지침이 아니에요. 출처에서 달리 밝히지 않는 한, 인체 용법은 확립되지 않았어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "미지정"
+    }
+  ]
+}

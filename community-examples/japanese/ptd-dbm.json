@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ptd-dbm",
+      "name": "PTD-DBM",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ptd-dbm-catalog-entry",
+      "productID": "ptd-dbm",
+      "title": "PTD-DBM（5mg バイアル）用量プロトコル — 出典参照",
+      "purpose": "研究・教育用参考資料として転記した、個別ページのスケジュールと取り扱いの詳細です。",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は出典自身の記述であり、独立して検証された臨床指針ではありません。ヒトでの用量はありません。報告された有効性はすべて、100 μMを局所塗布したマウスでの研究に基づいています。ヒト試験は登録されていません。このページは局所塗布・参考情報に焦点を当てており、注射スケジュールを示すものではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "個別ページの参考情報",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "ヒトでの用量はありません。報告された有効性はすべて、100 μMを局所塗布したマウスでの研究に基づいています。ヒト試験は登録されていません。このページは局所塗布・参考情報に焦点を当てており、注射スケジュールを示すものではありません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "ヒトでの用量はありません。報告された有効性はすべて、100 μMを局所塗布したマウスでの研究に基づいています。ヒト試験は登録されていません。このページは局所塗布・参考情報に焦点を当てており、注射スケジュールを示すものではありません。注意：個別の出典ページには数値で示された投与量が記載されていません。記載のある製剤濃度や定性的なスケジュールは注記に残しており、投与量に換算していません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ptd-dbm-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ptd-dbm-5mg-vial-dosage-protocol/",
+      "title": "PTD-DBM (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ptd-dbm-catalog-entry",
+      "sourceID": "ptd-dbm-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、同ページに記載されたスケジュール／製剤の背景情報と注意事項を保持したものであり、臨床的に検証されたレジメンを確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "アンチエイジングと肌"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

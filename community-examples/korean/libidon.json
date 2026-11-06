@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "libidon",
+      "name": "Libidon",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "libidon-catalog-entry",
+      "productID": "libidon",
+      "title": "Libidon (전립선 생체조절제) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "간접적인 상업 출처이며, 아래 세부사항은 출처 자체의 설명으로 독립적으로 검증된 임상 지침이 아니에요. 일반적인 경구 캡슐 관행은 20 mg 기준으로 매일 1–2캡슐을 10–30일간 복용하고, 보통 식전에 복용하며, 연간 2–3회 반복하는 것이에요. 독점 동물성 전립선 추출물로 Prostatilen/Prostamax와는 구별되며, 검증된 인체 치료 용량은 없어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "경구 투여 과정",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "보통 식전에 복용하고, 연간 2–3회 과정을 반복해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "페이지에는 20 mg 캡슐을 매일 1–2캡슐씩 10–30일간 복용하고 연간 2–3회 반복한다고 나와 있어요. 추출물은 독점 제품이며, 이 관행은 임상적으로 검증되지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "libidon-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/libidon-prostate-bioregulator-dosage-protocol/",
+      "title": "Libidon (Prostate Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "libidon-catalog-entry",
+      "sourceID": "libidon-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 임상적으로 검증된 요법을 확립하지 않으며, 페이지에 기재된 일정 및 제형 맥락과 주의사항을 보존해요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

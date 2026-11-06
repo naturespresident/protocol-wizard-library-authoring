@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "davunetide",
+      "name": "Davunetide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "davunetide-catalog-entry",
+      "productID": "davunetide",
+      "title": "Davunetide（5 mg）投与プロトコル — 出典参照",
+      "purpose": "研究・教育用の参考資料として転記した、個別ページのスケジュールと取り扱いの詳細です",
+      "methodID": "intranasal",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は出典自体の記述であり、独立して検証された臨床指針ではありません。確立された注射用量はありません。陰性結果となった第2/3相PSP試験での30 mg を朝夕に投与する方法を含め、ヒト試験はすべて経鼻投与でした。5 mg のバイアルと2 mL の静菌水は参考用の再溶解情報にすぎず、注射スケジュールではありません。研究目的のみであり、FDAの承認を受けていません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "主要なPSP試験",
+            "duration": {
+              "kind": "fixed",
+              "value": 52,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "30",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "注射ではなく経鼻投与です。主要なPSP試験ではプラセボを上回る有益性は示されませんでした。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "ヒト試験はすべて経鼻投与でした。30 mg を朝夕に52週間投与するレジメンは、陰性結果となったPSP試験のものです。検証済みの注射用量はありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "davunetide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/davunetide-5mg-vial-dosage-protocol/",
+      "title": "Davunetide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "davunetide-catalog-entry",
+      "sourceID": "davunetide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤の文脈、および注意事項を保持していますが、臨床的に検証されたレジメンを確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知・神経系"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "経鼻"
+    }
+  ]
+}

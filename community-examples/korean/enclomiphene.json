@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "enclomiphene",
+      "name": "Enclomiphene",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "enclomiphene-catalog-entry",
+      "productID": "enclomiphene",
+      "title": "Enclomiphene (25mg) 용량 프로토콜 — 출처 참고",
+      "purpose": "연구 및 교육 참고용으로 옮긴 개별 페이지의 일정과 취급 세부 정보예요.",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "상업 출처예요. 이는 해당 페이지의 설명이며 독립적으로 검증된 임상 지침은 아니에요. 발표된 인체 시험에서는 12.5 mg 또는 25 mg 용량을 하루 한 번 경구 투여했어요. 경구 투여이며 재구성은 필요하지 않아요. 출처 참고용이며, 미국에서 승인되지 않았고 의료진의 모니터링이 필요해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "인체 시험 용량 선택지",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "12.5",
+              "maximum": "25",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "발표된 인체 시험에서는 12.5 mg 또는 25 mg 용량을 하루 한 번 경구 투여했어요. 경구 투여이며 재구성은 필요하지 않아요. 출처 참고용이며, 미국에서 승인되지 않았고 의료진의 모니터링이 필요해요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "enclomiphene-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/enclomiphene-25mg-dosage-protocol/",
+      "title": "Enclomiphene (25mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "enclomiphene-catalog-entry",
+      "sourceID": "enclomiphene-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 설명이며 독립적으로 검증된 임상 지침은 아니에요. 출처에서 별도로 명시하지 않는 한 확립된 인체 투여 요법은 없어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

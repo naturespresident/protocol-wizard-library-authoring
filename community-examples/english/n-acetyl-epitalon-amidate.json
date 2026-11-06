@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-epitalon-amidate",
+      "name": "N-Acetyl Epitalon Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-epitalon-amidate-catalog-entry",
+      "productID": "n-acetyl-epitalon-amidate",
+      "title": "N-Acetyl Epitalon Amidate (5mg Vial) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. No validated regimen for this modified analog or parent. Page distinguishes rodent studies (~30–40 mcg/kg on five consecutive days/month) from market conventions for plain Epitalon (5–10 mg daily for 10–20 days); neither validates this amidate. 5 mg + 2 mL gives 2.5 mg/mL. Research only.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Rodent study reference",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "30",
+              "maximum": "40",
+              "unit": "mcg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Rodent work reported on five consecutive days per month; not a human regimen. The 5–10 mg Epitalon convention is for a different, unmodified peptide."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "No validated regimen for this amidate. The structured amount is a rodent weight-based exposure only, not a human dose."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-epitalon-amidate-5mg-vial-dosage-protocol/",
+      "title": "N-Acetyl Epitalon Amidate (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-epitalon-amidate-catalog-entry",
+      "sourceID": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Skin"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "Other"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hexarelin",
+      "name": "Hexarelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hexarelin-catalog-entry",
+      "productID": "hexarelin",
+      "title": "Hexarelin (5mg-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung der Einzelseite, als Forschungs-/Bildungsreferenz übertragen",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle eines kommerziellen Anbieters; dies sind Angaben der Seite und keine unabhängig verifizierte klinische Anleitung. Referenz zu einer Humanstudie: etwa 1–2 mcg/kg intravenös und ungefähr 1.5 mcg/kg subkutan (~100 mcg bei 70 kg). Eine 5 mg-Durchstechflasche + 2 mL bakteriostatisches Wasser ergibt 2.5 mg/mL. Nur Referenzdaten, keine Anwendungsempfehlung.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Dosisbereich aus Humanstudien",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "mcg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Die Quelle nennt 1–2 mcg/kg intravenös und ungefähr 1.5 mcg/kg subkutan; etwa 100 mcg bei einer Person mit 70 kg."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Historische Dosen aus Humanstudien, abhängig vom Verabreichungsweg; kein Behandlungsprotokoll."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hexarelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hexarelin-5mg-vial-dosage-protocol/",
+      "title": "Hexarelin (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hexarelin-catalog-entry",
+      "sourceID": "hexarelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dies sind Angaben der Quelle und keine unabhängig verifizierte klinische Anleitung; ein Dosierungsschema beim Menschen ist nicht etabliert, sofern die Quelle nichts anderes angibt.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Wachstumshormon"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

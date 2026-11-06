@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghk-copper-free",
+      "name": "GHK（不含铜）",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ghk-copper-free-catalog-entry",
+      "productID": "ghk-copper-free",
+      "title": "GHK（不含铜，50 mg）剂量方案——来源参考",
+      "purpose": "独立页面中的时间安排与处理细节，转录为研究／教育参考",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，并非经过独立核实的临床指导。尚无临床剂量。供应商／社区惯例：50 mg 小瓶加约 2 mL 抑菌水，每日约 1–2 mg 皮下注射，持续 4–8 周。尚未通过随机人体试验确认；仅供研究。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "供应商／社区惯例",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week",
+              "minimum": 4,
+              "maximum": 8
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "供应商／社区惯例，尚未通过随机人体试验确认。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源将每日约 1–2 mg 皮下注射、持续 4–8 周描述为供应商／社区惯例；尚未确立临床剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ghk-copper-free-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ghk-50mg-vial-dosage-protocol/",
+      "title": "GHK (Copper-Free, 50 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ghk-copper-free-catalog-entry",
+      "sourceID": "ghk-copper-free-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单独来源页面。此 JSON 保留该页面所述的时间安排／配方背景及其限制说明；这并不能确立经临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "抗衰老与皮肤"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

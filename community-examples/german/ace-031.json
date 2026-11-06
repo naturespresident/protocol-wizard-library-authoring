@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ace-031",
+      "name": "ACE-031",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ace-031-catalog-entry",
+      "productID": "ace-031",
+      "title": "ACE-031 (1 mg) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Produktseite, als Forschungs- und Bildungsreferenz transkribiert",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die nachfolgenden Details sind eigene Angaben der Quelle und keine unabhängig verifizierte klinische Anleitung. Es gibt keine etablierte oder empfohlene Dosis für Menschen. In klinischen Studien wurden einzelne subkutane Dosen von 0.02–3 mg/kg verwendet; eine DMD-Studie wurde nach Epistaxis und Teleangiektasien abgebrochen. Die Verdünnung auf 1 mg/mL auf der Seite ist lediglich eine Konzentrationsberechnung; es handelt sich um ein abgesetztes Prüfbiologikum, nicht um ein Protokoll.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Dosisbereich einer Phase-1-Studie mit Einzeldosis",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.02",
+              "maximum": "3",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Dosisbereich einer einzelnen subkutanen Gabe in einer klinischen Studie; die spätere DMD-Studie wurde wegen Epistaxis und Teleangiektasien abgebrochen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Nur historische Studienexposition; das Programm wurde aus Sicherheitsgründen eingestellt. Dies ist kein empfohlenes Behandlungsschema."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ace-031-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ace-031-1mg-vial-dosage-protocol/",
+      "title": "ACE-031 (1 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ace-031-catalog-entry",
+      "sourceID": "ace-031-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dieses JSON bewahrt den auf der Seite angegebenen Zeitplan- und Formulierungskontext sowie die dort genannten Einschränkungen; es begründet kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Heilung & Erholung"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

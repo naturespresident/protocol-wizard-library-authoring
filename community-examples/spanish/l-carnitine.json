@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "l-carnitine",
+      "name": "L-Carnitine",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "l-carnitine-catalog-entry",
+      "productID": "l-carnitine",
+      "title": "Protocolo de dosificación de L-Carnitine (vial de 200mg) — referencia de la fuente",
+      "purpose": "Esquema de una página individual y detalles de manipulación, transcritos como referencia de investigación y educativa",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles a continuación son declaraciones propias de la fuente, no orientación clínica verificada de forma independiente. La página hace referencia a un vial de 200 mg más 2 mL de agua bacteriostática y a una dosis de 50 mg para uso de investigación. Estas son cantidades de manipulación para investigación, no consejos médicos; el uso subcutáneo para la pérdida de grasa es fuera de indicación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de dosis de investigación",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "La página informa 50 mg por dosis; en el resumen capturado no se indica frecuencia ni duración del tratamiento. El uso subcutáneo para la pérdida de grasa es fuera de indicación."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La cantidad de la dosis es una referencia para la manipulación en investigación, no orientación médica."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "l-carnitine-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/l-carnitine-200mg-vial-dosage-protocol/",
+      "title": "L-Carnitine (200mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "l-carnitine-catalog-entry",
+      "sourceID": "l-carnitine-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el contexto del esquema y la formulación indicados por la página, así como sus advertencias; no establece un esquema clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

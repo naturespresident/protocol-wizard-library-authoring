@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "l-carnitine",
+      "name": "L-Carnitine",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "l-carnitine-catalog-entry",
+      "productID": "l-carnitine",
+      "title": "L-Carnitine（200mg バイアル）投与プロトコル — 出典参照",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育目的の参考情報として転記しています",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は情報源自身の記述であり、臨床的指針として独立に検証されたものではありません。ページには200 mg のバイアルと2 mL の静菌水、50 mg の研究用途の用量が記載されています。これらは研究目的の取り扱いに関する数値であり、医療上の助言ではありません。皮下脂肪減少を目的とする使用は適応外です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "研究用量の参考値",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "ページには用量ごとに50 mg と記載されています。取得した要約には頻度やコースの記載がありません。皮下脂肪減少を目的とする使用は適応外です。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "用量は研究目的の取り扱いに関する参考情報であり、医療上の指針ではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "l-carnitine-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/l-carnitine-200mg-vial-dosage-protocol/",
+      "title": "L-Carnitine (200mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "l-carnitine-catalog-entry",
+      "sourceID": "l-carnitine-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールや製剤の文脈と注意事項を保持していますが、臨床的に妥当性が確認された投与計画を示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重・代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "noopept",
+      "name": "Noopept",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "noopept-catalog-entry",
+      "productID": "noopept",
+      "title": "Noopept（20 mg）の投与プロトコル — 出典資料",
+      "purpose": "個別ページの投与スケジュールと取り扱いの詳細を、研究・教育用の参考資料として転記しています",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二次的な商業資料です。以下の詳細は出典自身の記述であり、独立して検証された臨床上の指針ではありません。このページでは、脳卒中患者60人を対象とした一件の非盲検臨床研究における投与量として、20 mg/dayを経口投与し、通常は10 mg を毎日二回に分けて二か月間投与したと報告しています。再溶解や注射はありません。エビデンスは小規模なロシア語の非盲検報告に限られます。FDAはこれを未承認の新薬として扱っており、栄養成分とはみなしていません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "非盲検試験の参考情報",
+            "duration": {
+              "kind": "fixed",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "20 mg/dayを10 mg ずつ毎日二回に分けて投与します。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "出典では、小規模な脳卒中患者を対象とした非盲検試験で、20 mg/dayを経口投与し、10 mg ずつ毎日二回に分けて二か月間投与したと報告しています。これは試験で用いられたスケジュールであり、確立された推奨ではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "noopept-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/noopept-20mg-dosage-protocol/",
+      "title": "Noopept (20 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "noopept-catalog-entry",
+      "sourceID": "noopept-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載された投与スケジュール、製剤に関する背景情報、および注意事項を保持したものであり、臨床的に検証された投与法を確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知・神経"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "経口"
+    }
+  ]
+}

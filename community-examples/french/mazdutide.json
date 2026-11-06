@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "mazdutide",
+      "name": "Mazdutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "mazdutide-catalog-entry",
+      "productID": "mazdutide",
+      "title": "Mazdutide (flacon de 5mg) — protocole posologique — référence de la source",
+      "purpose": "Calendrier propre à cette page et détails de manipulation, retranscrits à titre de référence de recherche et pédagogique",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les déclarations de la source elle-même et n'ont pas été vérifiés de manière indépendante. La référence de recherche de la page décrit 2.5 mg par dose à partir d'un flacon de 5 mg reconstitué avec 3 mL d'eau bactériostatique. Il ne s'agit pas d'indications pour un usage chez l'humain ; vérifiez le calendrier posologique de l'essai auprès d'une source clinique avant toute interprétation.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Quantité de référence rapportée par la source",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "La page présente cela comme une dose de référence pour la recherche, mais ne précise ni la fréquence ni la durée du traitement."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La référence de recherche de la page décrit 2.5 mg par dose à partir d'un flacon de 5 mg reconstitué avec 3 mL d'eau bactériostatique. Il ne s'agit pas d'indications pour un usage chez l'humain ; vérifiez le calendrier posologique de l'essai auprès d'une source clinique avant toute interprétation."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "mazdutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/mazdutide-5mg-vial-dosage-protocol/",
+      "title": "Mazdutide (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "mazdutide-catalog-entry",
+      "sourceID": "mazdutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle examinée. Ce fichier JSON conserve le calendrier et le contexte de formulation indiqués sur la page, ainsi que ses réserves ; cela ne permet pas d'établir un schéma posologique validé cliniquement.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Poids et métabolisme"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Non précisée"
+    }
+  ]
+}

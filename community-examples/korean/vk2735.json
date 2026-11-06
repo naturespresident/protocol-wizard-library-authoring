@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vk2735",
+      "name": "VK2735",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vk2735-catalog-entry",
+      "productID": "vk2735",
+      "title": "VK2735 (10 mg) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지에 나온 일정과 취급 세부정보를 연구/교육 참고용으로 옮겨 적었어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "보조 상업 출처이며, 아래 세부 사항은 출처 자체의 진술로 독립적으로 검증된 임상 지침이 아니에요. VENTURE 임상시험 참고 정보는 2.5–15 mg 용량군에서 매주 피하(SC) 투여하고 매주 용량을 적정하는 내용이에요. 임상시험 중인 이중 GIP/GLP-1 작용제이며, 해당 페이지는 연구용 등급 바이알이 임상시험 제품이 아니고 처방약도 아니라고 표시해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "VENTURE 임상시험 용량군",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2.5",
+              "maximum": "15",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "description": "매주 투여하며 매주 용량을 적정해요. 각 용량은 별도의 임상시험군을 나타내요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "임상시험 용량군은 연구용 바이알을 위한 투여 요법이 아니며, 연구 단계이고 승인되지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vk2735-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vk2735-10mg-vial-dosage-protocol/",
+      "title": "VK2735 (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vk2735-catalog-entry",
+      "sourceID": "vk2735-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정/제형 맥락과 주의사항을 보존하지만, 임상적으로 검증된 투여 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

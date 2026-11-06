@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-epitalon-amidate",
+      "name": "N-Acetyl Epitalon Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-epitalon-amidate-catalog-entry",
+      "productID": "n-acetyl-epitalon-amidate",
+      "title": "N-Acetyl Epitalon Amidate（5mg バイアル）の投与プロトコル — 出典参照",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育目的の参考情報として転記しています。",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は情報源自身の記述であり、独立して検証された臨床指針ではありません。この修飾アナログまたは親化合物について、検証済みの投与計画はありません。ページでは、げっ歯類研究（約30–40 mcg/kgを月に五日連続で投与）と、未修飾のEpitalonに関する市場慣例（10–20日間、毎日5–10 mg）を区別しています。いずれもこのアミデートの有効性を裏付けるものではありません。5 mg + 2 mL で2.5 mg/mL になります。研究目的のみです。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "げっ歯類研究の参考情報",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "30",
+              "maximum": "40",
+              "unit": "mcg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "げっ歯類を用いた研究では、月に五日連続で実施したと報告されています。これはヒト向けの投与計画ではありません。5–10 mg というEpitalonの慣例は、別の未修飾ペプチドに関するものです。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "このアミデートについて、検証済みの投与計画はありません。構造化データの投与量は、げっ歯類における体重当たりの曝露量に限られ、ヒトの用量ではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-epitalon-amidate-5mg-vial-dosage-protocol/",
+      "title": "N-Acetyl Epitalon Amidate (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-epitalon-amidate-catalog-entry",
+      "sourceID": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の情報源ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤の文脈、および注意事項を保持していますが、臨床的に検証された投与計画を確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "アンチエイジング・皮膚"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "その他"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pielotax",
+      "name": "Pielotax",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pielotax-catalog-entry",
+      "productID": "pielotax",
+      "title": "Pielotax (Nieren-Bioregulator): Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Handhabungsdetails der Produktseite, als Forschungs- und Bildungsreferenz übertragen",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die folgenden Angaben stammen von der Quelle selbst und sind keine unabhängig überprüfte klinische Anleitung. Übliche Anwendung von oralen Kapseln: 1–2 Kapseln ein- oder zweimal täglich zu einer Mahlzeit über etwa 30 Tage, 2–3-mal pro Jahr wiederholt. Herstellerangabe, kein in einer klinischen Studie etabliertes Schema; keine Rekonstitution.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Orale Anwendungskur",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Ein- oder zweimal täglich zu einer Mahlzeit; 2–3-mal pro Jahr wiederholen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Die Quelle gibt an, dass die Kapseln ein- oder zweimal täglich zu einer Mahlzeit über etwa 30 Tage eingenommen und 2–3-mal jährlich wiederholt werden. Die alternative Häufigkeit bleibt in der Zeitplanbeschreibung erhalten."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pielotax-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pielotax-kidney-bioregulator-dosage-protocol/",
+      "title": "Pielotax (Kidney Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pielotax-catalog-entry",
+      "sourceID": "pielotax-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dieses JSON gibt den dort genannten Zeitplan und Formulierungskontext sowie die Einschränkungen wieder; es begründet kein klinisch validiertes Schema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisierte und klinische Anwendungen"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

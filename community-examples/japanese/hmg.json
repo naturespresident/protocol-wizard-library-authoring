@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hmg",
+      "name": "HMG",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hmg-catalog-entry",
+      "productID": "hmg",
+      "title": "HMG（75IU バイアル）用量プロトコル — 出典参照",
+      "purpose": "研究・教育用の参考資料として転記した、個別ページのスケジュールと取り扱いの詳細",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は情報源自身の記述であり、独立して検証された臨床指針ではありません。ページの参照情報：75 IU バイアルに3 mL の静菌水を加え、投与ごとに約75 IU としています。Menotropinsは処方箋が必要なゴナドトロピンです。男性不妊への使用は適応外となる可能性があり、必ず臨床医の指示のもとで行う必要があります。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "用量の参照情報",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "75",
+              "unit": "IU",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "ページには投与ごとに約75 IU と記載されています。取得した要約には投与頻度が含まれていません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "処方箋が必要なゴナドトロピンです。適応ごとの投与スケジュールは臨床医が定める必要があります。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hmg-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hmg-75iu-vial-dosage-protocol/",
+      "title": "HMG (75IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hmg-catalog-entry",
+      "sourceID": "hmg-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤の背景、および注意事項を保持するものであり、臨床的に検証されたレジメンを確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門・臨床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "testagen",
+      "name": "Testagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "testagen-catalog-entry",
+      "productID": "testagen",
+      "title": "Protocolo de dosagem de Testagen (frasco de 20mg) — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa/educacional",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; estas são afirmações da página, não orientações clínicas verificadas de forma independente. Cronograma diário por via subcutânea relatado pela fonte: 100 mcg nas semanas 1–2; 150 mcg nas semanas 3–4; 200 mcg nas semanas 5–8; opcionalmente, 250–300 mcg nas semanas 9–12. 20 mg + 3 mL de água bacteriostática (~6.67 mg/mL). Há incerteza quanto à identidade/evidências; apenas para pesquisa.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semanas 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "150",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 5–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 9–12 (opcional)",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "250",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Cronograma diário por via subcutânea relatado pela fonte: 100 mcg nas semanas 1–2; 150 mcg nas semanas 3–4; 200 mcg nas semanas 5–8; opcionalmente, 250–300 mcg nas semanas 9–12. 20 mg + 3 mL de água bacteriostática (~6.67 mg/mL). Há incerteza quanto à identidade/evidências; apenas para pesquisa."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "testagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/testagen-20mg-vial-dosage-protocol/",
+      "title": "Testagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "testagen-catalog-entry",
+      "sourceID": "testagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A página individual da fonte foi revisada. Estas são afirmações da fonte e não orientações clínicas verificadas de forma independente; nenhum esquema posológico humano está estabelecido, a menos que a fonte diga o contrário.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializados e clínicos"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

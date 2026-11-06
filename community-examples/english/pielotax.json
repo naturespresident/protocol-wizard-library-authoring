@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pielotax",
+      "name": "Pielotax",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pielotax-catalog-entry",
+      "productID": "pielotax",
+      "title": "Pielotax (Kidney Bioregulator) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. Oral capsule convention: 1–2 capsules once or twice daily with food for about 30 days, repeated 2–3 times yearly. Manufacturer convention, not a regimen established in a clinical trial; no reconstitution.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Oral course",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Once or twice daily with food; repeat 2–3 times/year."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Source states once or twice daily with food for about 30 days, repeated 2–3 times yearly. The alternative frequency is preserved in the schedule description."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pielotax-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pielotax-kidney-bioregulator-dosage-protocol/",
+      "title": "Pielotax (Kidney Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pielotax-catalog-entry",
+      "sourceID": "pielotax-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Specialized & Clinical"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

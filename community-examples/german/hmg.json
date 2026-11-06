@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hmg",
+      "name": "HMG",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hmg-catalog-entry",
+      "productID": "hmg",
+      "title": "HMG (75IU-Durchstechflasche) Dosierungsprotokoll – Quellenreferenz",
+      "purpose": "Dosierungsschema und Handhabungsdetails der Einzelseite, als Forschungs- und Bildungsreferenz übertragen",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die folgenden Angaben sind Aussagen der Quelle selbst und keine unabhängig geprüfte klinische Anleitung. Seitenangabe: 75 IU-Durchstechflasche plus 3 mL bakteriostatisches Wasser und etwa 75 IU pro Anwendung. Menotropine sind verschreibungspflichtige Gonadotropine; die Anwendung bei Männern zur Fertilitätsbehandlung kann off-label sein und muss ärztlich angeleitet werden.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Dosierungsreferenz",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "75",
+              "unit": "IU",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Laut Seite etwa 75 IU pro Anwendung; die Häufigkeit ist in der erfassten Zusammenfassung nicht enthalten."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Verschreibungspflichtiges Gonadotropin; ein indikationsspezifischer ärztlicher Dosierungsplan ist erforderlich."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hmg-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hmg-75iu-vial-dosage-protocol/",
+      "title": "HMG (75IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hmg-catalog-entry",
+      "sourceID": "hmg-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON bewahrt den dort angegebenen Kontext zu Dosierung und Formulierung sowie die Einschränkungen; es belegt kein klinisch validiertes Dosierungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert und klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Nicht angegeben"
+    }
+  ]
+}

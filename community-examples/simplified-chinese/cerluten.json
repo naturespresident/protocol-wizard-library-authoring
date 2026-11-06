@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cerluten",
+      "name": "Cerluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cerluten-catalog-entry",
+      "productID": "cerluten",
+      "title": "Cerluten（脑生物调节剂）剂量方案——来源参考",
+      "purpose": "将单页来源中的时间安排和处理细节转录为研究／教育参考资料",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是来源自身的陈述，未经独立核实，也不是临床指导。口服胶囊的常见用法为 20 mg：每日 1–2 粒，持续 10–30 天，通常在餐前服用，每年重复 2–3 次。这是一种专有的动物脑／中枢神经系统提取物，与 Cortexin／Cortagen 不同；其剂量未经验证为治疗剂量。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "口服疗程",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "通常在餐前服用；每年重复 2–3 个疗程。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "页面报告为 20 mg 胶囊；每日 1–2 粒，持续 10–30 天，每年重复 2–3 次。剂量以胶囊数量表示；每粒 20 mg 是制剂规格，不是胶囊数量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cerluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cerluten-brain-bioregulator-dosage-protocol/",
+      "title": "Cerluten (Brain Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cerluten-catalog-entry",
+      "sourceID": "cerluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单页来源。这份 JSON 保留了页面所述的时间安排／制剂背景及其注意事项；它不能确立经临床验证的用药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "口服"
+    }
+  ]
+}

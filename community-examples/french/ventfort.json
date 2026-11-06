@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ventfort",
+      "name": "Ventfort",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ventfort-catalog-entry",
+      "productID": "ventfort",
+      "title": "Ventfort (bioregulateur vasculaire) — protocole posologique — référence de la source",
+      "purpose": "Calendrier figurant sur la page individuelle et détails de manipulation, transcrits à titre de référence de recherche et d’information",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous reprennent les déclarations de la source elle-même et ne constituent pas des recommandations cliniques vérifiées de manière indépendante. Convention pour les gélules orales, généralement à 20 mg : 1–2 gélules par jour pendant 10–30 jours, souvent avant les repas, à répéter 2–3 fois/an. Extrait vasculaire animal exclusif, distinct de Vesugen synthétique ; dose thérapeutique non validée.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Cure orale",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Habituellement avant un repas ; répéter 2–3 cures/an."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La page indique des gélules de 20 mg ; 1–2 gélules par jour pendant 10–30 jours, à répéter 2–3 fois/an. L’extrait est exclusif ; cette convention n’est pas cliniquement validée."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ventfort-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ventfort-vascular-bioregulator-dosage-protocol/",
+      "title": "Ventfort (Vascular Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ventfort-catalog-entry",
+      "sourceID": "ventfort-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page source individuelle a été consultée. Ce JSON conserve le calendrier et le contexte de formulation indiqués par la page, ainsi que ses réserves ; il n’établit pas de protocole cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Voie orale"
+    }
+  ]
+}

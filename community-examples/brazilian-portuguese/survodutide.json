@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "survodutide",
+      "name": "Survodutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "survodutide-catalog-entry",
+      "productID": "survodutide",
+      "title": "Survodutide (frasco de 10mg) — protocolo de dosagem, referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; estas são as declarações da página, não orientações clínicas verificadas de forma independente. A resposta rápida informa 600 mcg por dose como exemplo de reconstituição apenas para uso em pesquisa: frasco de 10 mg + 2 mL de água bacteriostática. Agonista duplo investigacional de GLP-1/glucagon; não aprovado e não é orientação para uso em humanos.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Apenas quantidade de referência",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "A fonte informa 600 mcg como exemplo de reconstituição, mas o resumo capturado não especifica a frequência das doses nem a duração do tratamento."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Uma quantidade por dose é mencionada sem um esquema utilizável na passagem analisada; nenhum esquema para humanos está codificado."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "survodutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/survodutide-10mg-vial-dosage-protocol/",
+      "title": "Survodutide (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "survodutide-catalog-entry",
+      "sourceID": "survodutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página individual da fonte analisada. Estas são declarações da fonte e não orientações clínicas verificadas de forma independente; nenhum regime para humanos é estabelecido, a menos que a fonte o declare.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso e metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

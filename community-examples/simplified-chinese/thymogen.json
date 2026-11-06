@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "thymogen",
+      "name": "Thymogen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "thymogen-catalog-entry",
+      "productID": "thymogen",
+      "title": "Thymogen（10 mg）剂量方案——来源参考",
+      "purpose": "单独页面中的日程安排和操作细节，转录作为研究／教育参考",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "二手来源中单独页面的陈述；未经独立核实，不构成医疗指导。页面报告的已注册产品日程：约 100 mcg，每日肌内注射一次，短疗程为 3–10 天；也描述了鼻内给药。10 mg + 2 mL 抑菌水可配成 5 mg/mL，但来源警告称，该研究用小瓶约可提供 100 次参考剂量。已在俄罗斯注册，未获 FDA 批准；请勿将 alpha-L-Glu-Trp 与 golotimod／SCV-07 混淆。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "短疗程",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 3,
+              "maximum": 10
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "来源还描述了鼻内给药；应将 alpha-L-Glu-Trp 与 golotimod／SCV-07 区分开。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "页面报告的已注册产品日程；该产品未获 FDA 批准，这也不是研究用小瓶的使用建议。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "thymogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/thymogen-10mg-vial-dosage-protocol/",
+      "title": "Thymogen (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "thymogen-catalog-entry",
+      "sourceID": "thymogen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "已审阅单独的方案页面。此条目保留了来源报告的细节及页面所述限制；不构成临床剂量指导。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "肌内注射"
+    }
+  ]
+}

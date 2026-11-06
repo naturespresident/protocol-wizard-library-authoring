@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ghrp-2",
+      "name": "GHRP-2",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ghrp-2-catalog-entry",
+      "productID": "ghrp-2",
+      "title": "GHRP-2 (5mg 바이알) 투여 프로토콜 — 출처 참고용",
+      "purpose": "개별 페이지에 나온 일정 및 취급 세부 정보를 연구/교육용 참고 자료로 옮겼어요.",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "이차 상업 출처예요. 이는 해당 페이지의 설명이며, 독립적으로 검증된 임상 지침이 아니에요. 페이지 참고 내용: 8–16주 과정 동안 공복에 하루 한 번 100–300 mcg 범위로 피하 투여하며 용량을 적정해요. 5 mg + 3 mL 정균수(~1.67 mg/mL). 명시적으로 연구용일 뿐이며, 인체/임상 적용용이 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "매일 투여하는 연구 참고 범위",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "출처는 공복 투여와 8–16주 과정을 설명해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "페이지 참고 내용: 8–16주 과정 동안 공복에 하루 한 번 100–300 mcg 범위로 피하 투여하며 용량을 적정해요. 5 mg + 3 mL 정균수(~1.67 mg/mL). 명시적으로 연구용일 뿐이며, 인체/임상 적용용이 아니에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ghrp-2-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ghrp-2-5mg-vial-dosage-protocol/",
+      "title": "GHRP-2 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ghrp-2-catalog-entry",
+      "sourceID": "ghrp-2-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 설명이며 독립적으로 검증된 임상 지침이 아니에요. 출처가 달리 명시하지 않는 한 인체 투여 요법은 확립되어 있지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

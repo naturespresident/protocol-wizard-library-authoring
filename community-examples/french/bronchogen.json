@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bronchogen",
+      "name": "Bronchogen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "bronchogen-catalog-entry",
+      "productID": "bronchogen",
+      "title": "Protocole de posologie de Bronchogen (flacon de 20mg) — référence de la source",
+      "purpose": "Programme et détails de manipulation de la page individuelle, transcrits à titre de référence de recherche et d’information",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous reprennent les déclarations de la source et ne constituent pas des recommandations cliniques vérifiées de manière indépendante. Aucune dose humaine établie. Les données posologiques publiées portent sur des concentrations en culture cellulaire et des injections chez le rat ; elles ne peuvent pas être transposées en schéma posologique humain en mg ou mcg. La reconstitution d’un flacon de 20 mg avec 3 mL d’eau bactériostatique est présentée uniquement comme un calcul de concentration (6.67 mg/mL).",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Référence de la page individuelle",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Aucune dose humaine établie. Les données posologiques publiées portent sur des concentrations en culture cellulaire et des injections chez le rat ; elles ne peuvent pas être transposées en schéma posologique humain en mg ou mcg. La reconstitution d’un flacon de 20 mg avec 3 mL d’eau bactériostatique est présentée uniquement comme un calcul de concentration (6.67 mg/mL)."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Aucune dose humaine établie. Les données posologiques publiées portent sur des concentrations en culture cellulaire et des injections chez le rat ; elles ne peuvent pas être transposées en schéma posologique humain en mg ou mcg. La reconstitution d’un flacon de 20 mg avec 3 mL d’eau bactériostatique est présentée uniquement comme un calcul de concentration (6.67 mg/mL). À noter : la page source individuelle ne fournit aucune dose administrée chiffrée ; les concentrations de formulation ou les schémas qualitatifs, lorsqu’ils sont indiqués, sont conservés dans les notes et ne sont pas convertis en doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "bronchogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/bronchogen-20mg-vial-dosage-protocol/",
+      "title": "Bronchogen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "bronchogen-catalog-entry",
+      "sourceID": "bronchogen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle examinée. Cette entrée JSON préserve le contexte du schéma posologique et de la formulation indiqué sur la page ainsi que ses mises en garde ; elle n’établit pas de schéma thérapeutique validé cliniquement.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Non précisée"
+    }
+  ]
+}

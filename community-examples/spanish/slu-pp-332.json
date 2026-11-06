@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "slu-pp-332-catalog-entry",
+      "productID": "slu-pp-332",
+      "title": "SLU-PP-332 (vial de 5 mg) — Protocolo de dosificación: referencia de la fuente",
+      "purpose": "Esquema y detalles de manipulación de la página individual, transcritos como referencia de investigación y educación",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son declaraciones de la propia fuente, no orientación clínica verificada de forma independiente. Solo un esquema equivalente para ratones: 625 mcg dos veces al día (1,250 mcg/día) durante las semanas 1–2 y luego 1,250 mcg dos veces al día (2,500 mcg/día) durante las semanas 3–8. Se basa en un ratón de ~25 g; no es una dosis humana. 5 mg + 3 mL es un cálculo de referencia; es una molécula pequeña, no un péptido, y solo se ha estudiado en fase preclínica.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Semanas 1–2, equivalente para ratón",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "625",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "625 mcg por administración dos veces al día (1,250 mcg/día), para un ratón de ~25 g; no es una dosis humana."
+            }
+          },
+          {
+            "name": "Semanas 3–8, equivalente para ratón",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1250",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "1,250 mcg por administración dos veces al día (2,500 mcg/día), para un ratón de ~25 g; no es una dosis humana."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Solo un esquema preclínico equivalente para ratones; SLU-PP-332 es una molécula pequeña, no un péptido."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "slu-pp-332-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/slu-pp-332-5mg-vial-dosage-protocol/",
+      "title": "SLU-PP-332 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "slu-pp-332-catalog-entry",
+      "sourceID": "slu-pp-332-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el esquema y el contexto de formulación indicados en la página, así como sus advertencias; no establece un esquema clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "Otro"
+    }
+  ]
+}

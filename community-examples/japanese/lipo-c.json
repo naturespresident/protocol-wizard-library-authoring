@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "lipo-c",
+      "name": "Lipo-C",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "lipo-c-catalog-entry",
+      "productID": "lipo-c",
+      "title": "Lipo-C（10 mL バイアル）の用量プロトコル — 出典参照用",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育用の参考情報として転記しています",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は情報源自身の記述であり、独立に検証された臨床ガイダンスではありません。調合されたMIC + B12ブレンドで、ペプチドではありません。クリニックや調剤に関する情報源には、週に一度または二度、0.5–1 mL を筋肉内投与すると記載されています。このブレンドの用量や脂肪減少効果を立証する対照試験はありません。あらかじめ混合済みで供給され、再溶解は不要です。保管方法と使用期限（BUD）は調剤者の指示に従ってください。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "調剤・クリニックの参考用量範囲",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "1",
+              "unit": "mL",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "クリニックの情報源には、週に一度または二度の筋肉内注射と記載されています。このブレンドの用量を立証する対照試験はありません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Lipo-Cは調合されたMIC+B12ブレンドで、ペプチドではありません。個別の調剤者または処方者の指示に従ってください。用量を裏付ける対照試験の証拠はありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "lipo-c-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/lipo-c-10ml-vial-dosage-protocol/",
+      "title": "Lipo-C (10 mL Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "lipo-c-catalog-entry",
+      "sourceID": "lipo-c-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤に関する文脈および注意事項を保持していますが、臨床的に検証されたレジメンを確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重・代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "筋肉内"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "argireline",
+      "name": "Argireline",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "argireline-catalog-entry",
+      "productID": "argireline",
+      "title": "Argireline topical application protocol — source reference",
+      "purpose": "Topical cosmetic application schedule and formulation references from the cited sources",
+      "methodID": "topical",
+      "population": "Topical cosmetic or research-formulation references",
+      "evidenceNotes": "Peptides.org describes topical application to intact skin twice daily for at least 30 days; its sample reference uses a 10% emulsion and reports about 2 mg/cm². Dosage Peptide separately describes 5–10% of its supplied aqueous solution in a leave-on product, once or twice daily. The two formulations are source-specific and should not be treated as interchangeable or as a validated medical regimen.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Topical reference schedule",
+            "duration": {
+              "kind": "minimum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "Apply a thin layer to intact target skin twice daily for at least 30 days, as described by Peptides.org. Its sample reference is a 10% emulsion at about 2 mg/cm²; these percentage and mass-per-area units are retained in notes, not represented as a structured dose."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_units_not_supported_by_schema"
+        ],
+        "notes": "Peptides.org sample reference: 10% emulsion, about 2 mg/cm², applied twice daily to intact target skin for 30 days or until desired outcome. The article's quick chart says at least 30 days. Dosage Peptide separately describes 5–10% of its supplied aqueous Argireline solution in a leave-on product once or twice daily; this is a different formulation reference. Dose remains null because the schema cannot encode percent concentration or mg/cm²."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "argireline-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/argireline-10-topical-solution-dosage-protocol/",
+      "title": "Argireline (10% Topical) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "argireline-peptides-org",
+      "url": "https://www.peptides.org/argireline-dosage-calculator/",
+      "title": "Argireline Dosage Calculator and Chart | A-Z Guide",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-peptides-org",
+      "locator": "Argireline Dosage Chart; Sample Argireline Dosage Protocol; Argireline Administration Notes",
+      "evidenceNote": "The page describes a topical research reference: intact skin, twice daily, at least 30 days; sample uses 10% emulsion and reports about 2 mg/cm².",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Skin"
+    }
+  ],
+  "methods": [
+    {
+      "id": "topical",
+      "name": "Topical"
+    }
+  ]
+}

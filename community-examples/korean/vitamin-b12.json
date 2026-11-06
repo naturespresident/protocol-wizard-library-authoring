@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vitamin-b12",
+      "name": "비타민 B12",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vitamin-b12-catalog-entry",
+      "productID": "vitamin-b12",
+      "title": "B12 (10mg 바이알) 용량 프로토콜 — 출처 참고용",
+      "purpose": "개별 페이지의 일정 및 취급 세부 정보를 연구·교육용 참고 자료로 옮겼어요.",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "이차 상업 출처예요. 이는 해당 페이지의 서술이며, 독립적으로 검증된 임상 지침이 아니에요. 페이지 참고 내용: 10 mg 바이알 + 2 mL 정균수(5 mg/mL), 투여당 1,000 mcg (연구 참고용)이라고 설명하며 의학적 조언은 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "연구 용량 참고",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "페이지에는 용량당 약 1,000 mcg 수준이라고 나와 있지만, 확보한 요약에는 일정이 명시되어 있지 않아요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처는 연구용 참고 자료를 설명하며, 이는 개인 맞춤형 B12 치료 계획이 아니에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vitamin-b12-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/b12-10mg-vial-dosage-protocol/",
+      "title": "B12 (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vitamin-b12-catalog-entry",
+      "sourceID": "vitamin-b12-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 서술이며 독립적으로 검증된 임상 지침이 아니에요. 출처에서 달리 명시하지 않는 한 사람 대상 요법은 확립되지 않았어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "항노화 및 피부"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "미지정"
+    }
+  ]
+}

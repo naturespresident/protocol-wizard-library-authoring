@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "teduglutide",
+      "name": "Teduglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "teduglutide-catalog-entry",
+      "productID": "teduglutide",
+      "title": "Teduglutide (5 mg) — protocole posologique, référence source",
+      "purpose": "Calendrier et détails de préparation de la page individuelle, retranscrits à titre de référence de recherche et d'éducation",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Énoncés de la page d'un protocole individuel provenant d'une source secondaire, sans vérification indépendante et ne constituant pas des conseils médicaux. Posologie de l'étiquetage approuvé rapportée par la page : 0.05 mg/kg par voie sous-cutanée une fois par jour, en continu, en cas de syndrome de l'intestin court avec dépendance à une assistance parentérale. En cas d'insuffisance rénale (DFGe <60), la dose est de 0.025 mg/kg. Flacon commercial de 5 mg reconstitué avec exactement 0.5 mL d'eau stérile pour obtenir 10 mg/mL ; seuls 3.8 mg (0.38 mL) peuvent être prélevés. Produit sur ordonnance, sous la supervision d'un spécialiste, et ne constituant pas une recommandation pour un flacon de recherche.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Référence à la posologie de l'étiquetage approuvé",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.05",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Produit sur ordonnance pour le syndrome de l'intestin court avec dépendance à une assistance parentérale. La source indique une demi-dose de 0.025 mg/kg lorsque le DFGe est <60 ; l'étiquetage du produit prévoit le diluant correspondant, et non un mélange avec un flacon de recherche."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La posologie du produit approuvé par la FDA s'applique uniquement aux patients admissibles sous la supervision d'un spécialiste ; le flacon de 5 mg de qualité recherche n'est pas la présentation approuvée."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "teduglutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/teduglutide-5mg-vial-dosage-protocol/",
+      "title": "Teduglutide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "teduglutide-catalog-entry",
+      "sourceID": "teduglutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "La page du protocole individuel a été examinée. L'entrée conserve les détails rapportés par la source et les limites indiquées sur la page ; elle ne constitue pas un conseil posologique clinique.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Sous-cutanée"
+    }
+  ]
+}

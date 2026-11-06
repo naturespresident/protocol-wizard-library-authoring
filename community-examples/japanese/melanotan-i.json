@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "melanotan-i",
+      "name": "Melanotan I",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "melanotan-i-catalog-entry",
+      "productID": "melanotan-i",
+      "title": "Melanotan I（10 mg）の投与プロトコル — 出典参照",
+      "purpose": "個別ページのスケジュールと取り扱いの詳細を、研究・教育目的の参考情報として転記したものです",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は出典自体の記述であり、独立に検証された臨床上の指針ではありません。ページに記載された研究上の慣例：色素沈着が生じるまで0.5–1 mg を皮下に毎日導入投与し、その後、維持として1 mg を週に一度または二度投与します。10 mg + 2 mL で5 mg/mL になります。Afamelanotideの承認対象は、医療従事者が留置する16 mg のEPP用インプラントに限られ、自己注射する研究用ペプチドには適用されません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "研究上の導入投与の慣例",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "色素沈着が進むまで毎日投与します。出典では、臨床上の指針ではなく、一般的な研究上の慣例として説明されています。"
+            }
+          },
+          {
+            "name": "研究上の維持投与の慣例",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "導入投与後は週に一度または二度投与します。出典によると、承認されたAfamelanotideは医療従事者が留置するインプラントであり、この自己注射用製剤ではありません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "出典に記載された慣例に限ります。FDAの承認対象は、EPPに対して医療従事者が留置するAfamelanotideインプラントに限られ、自己注射する研究用ペプチドには適用されません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "melanotan-i-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/melanotan-1-10mg-vial-dosage-protocol/",
+      "title": "Melanotan I (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "melanotan-i-catalog-entry",
+      "sourceID": "melanotan-i-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤の背景、および注意書きを保持したものであり、臨床的に検証された投与計画を示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門・臨床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-selank-amidate",
+      "name": "N-Acetyl Selank Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-selank-amidate-catalog-entry",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "N-Acetyl Selank Amidate — esquema intranasal — referência da fonte",
+      "purpose": "Esquema de pesquisa intranasal relatado pela fonte; a posologia clínica específica do amidato não foi estabelecida",
+      "methodID": "intranasal",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.org afirma que não existem diretrizes oficiais de dosagem para N-Acetyl Selank Amidate e extrapola os dados de Selank. Seu esquema de referência é de 600–900 mcg/dia por via intranasal, usando 300 mcg por jato 2–3 vezes ao dia, por até 14 dias; o quadro mostra um intervalo de uma semana sem uso, seguido da repetição de um ciclo de duas semanas. A página diz para não exceder 9 jatos/dia e recomenda monitorar o EEG e o estado clínico. Este não é um esquema clínico validado.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Ciclo intranasal das semanas 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Um jato de 300 mcg por administração, 2–3 vezes ao dia (600–900 mcg no total/dia), conforme relatado pela fonte. A página também estabelece o limite de 9 jatos/dia; o ciclo de referência recomenda não exceder 14 dias consecutivos."
+            }
+          },
+          {
+            "name": "Intervalo sem uso na semana 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Intervalo de uma semana sem uso entre os ciclos, conforme mostrado no quadro da fonte."
+            }
+          },
+          {
+            "name": "Repetição do ciclo intranasal nas semanas 4–5",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "O quadro repete 1 jato (300 mcg) 2–3 vezes ao dia, totalizando 600–900 mcg/dia."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Peptides.org afirma que faltam diretrizes de dosagem e dados sobre a duração do ciclo específicos para o amidato; as recomendações são extrapoladas de Selank. Seu esquema de referência é de 2 semanas de uso, 1 semana de intervalo sem uso e, em seguida, um possível ciclo repetido de 2 semanas. A página recomenda monitorar o EEG e o estado clínico. Apenas uma referência de pesquisa relatada pela fonte."
+      }
+    },
+    {
+      "id": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "productID": "n-acetyl-selank-amidate",
+      "title": "N-Acetyl Selank Amidate — esquema subcutâneo — referência da fonte",
+      "purpose": "Esquema de pesquisa subcutânea separado, relatado pela fonte; a posologia clínica específica do amidato não foi estabelecida",
+      "methodID": "subcutaneous",
+      "population": "Research reference; dosing is extrapolated from Selank because amidate-specific data are limited",
+      "evidenceNotes": "Peptides.org descreve uma referência subcutânea conservadora de 150–300 mcg por dia, por até duas semanas, seguida de uma semana de intervalo sem uso e de um possível ciclo repetido de duas semanas. A página afirma que faltam dados de dosagem e segurança específicos para o amidato; este não é um esquema clínico validado.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Ciclo subcutâneo das semanas 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "150–300 mcg no total por dia, por até duas semanas, conforme a referência subcutânea conservadora da página."
+            }
+          },
+          {
+            "name": "Intervalo sem uso na semana 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Intervalo de uma semana sem uso entre os ciclos, conforme mostrado no quadro da fonte."
+            }
+          },
+          {
+            "name": "Repetição do ciclo subcutâneo nas semanas 4–5",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "150",
+              "maximum": "300",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "O quadro repete a referência de 150–300 mcg por dia nas semanas 4–5."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "A fonte descreve, de forma conservadora, 150–300 mcg/dia por até duas semanas, com uma semana de intervalo sem uso e a possibilidade de repetir o ciclo de duas semanas. Ela menciona a injeção subcutânea e a escassez de dados específicos para o amidato. Apenas uma referência de pesquisa."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-selank-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-selank-amidate-nasal-spray-dosage-protocol/",
+      "title": "N-Acetyl Selank Amidate (Nasal Spray) Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "n-acetyl-selank-amidate-peptides-org",
+      "url": "https://www.peptides.org/n-acetyl-selank-amidate-dosage-calculator/",
+      "title": "N-Acetyl Selank Amidate Dosage Calculator and Chart",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A página de Dosage Peptide fornece contexto sobre a formulação, mas não informa uma quantidade calibrada; Peptides.org fornece esquemas de referência separados para administração intranasal e subcutânea.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-catalog-entry",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Reference N-Acetyl Selank Amidate Dosing Protocol; Cycle Length; Microdosing",
+      "evidenceNote": "O esquema de amidato proposto pela página é extrapolado de dados de Selank e não é uma diretriz de dosagem clínica estabelecida.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-selank-amidate-subcutaneous-reference",
+      "sourceID": "n-acetyl-selank-amidate-peptides-org",
+      "locator": "Dosage Chart; Microdosing N-Acetyl Selank Amidate; Reference dosing protocol",
+      "evidenceNote": "A página apresenta isto como uma referência de pesquisa conservadora e observa que não há informações estabelecidas sobre dosagem e segurança.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo e neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "Intranasal"
+    },
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

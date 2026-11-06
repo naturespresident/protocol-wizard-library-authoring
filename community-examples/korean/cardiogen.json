@@ -1,0 +1,341 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cardiogen",
+      "name": "Cardiogen",
+      "aliases": [
+        "AEDR",
+        "Ala-Glu-Asp-Arg"
+      ],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "Cardiogen은 심장 조직 연구를 위해 제안된 합성 테트라펩타이드(Ala-Glu-Asp-Arg / AEDR)로 설명돼요. 출처는 배양된 쥐 심근 조직, 생쥐 섬유아세포, 쥐 육종 모델에서의 전임상 결과를 요약해요. 이러한 결과는 사람에서의 이점, 안전성 또는 유효 용량을 입증하지 않아요. 출처에 따르면 사람 대상 임상시험에서 최적 용량이 확립된 적이 없어요."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cardiogen-pep-pedia-reference",
+      "productID": "cardiogen",
+      "title": "Cardiogen — Pep-Pedia 커뮤니티 기반 참고 자료",
+      "purpose": "출처에 기술된 참고용 계획",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; the source identifies these doses as community-derived and says human clinical trials have not established optimal dosing.",
+      "evidenceNotes": "Pep-Pedia는 주사 프로토콜을 커뮤니티에서 도출된 것으로 표시해요. 전임상 연구에서는 주사로 투여하는 사람 용량이 아니라 시험관 내 농도를 사용했다고 설명해요. Dosage Peptide에 실린 10–20 mg 용량은 3–7일마다 투여하는 일정이며, 200–500 mcg 용량을 매일 투여하는 일정과 상당히 달라요. 두 출처의 내용은 별도로 유지하며, 어느 쪽도 사람에게 안전하거나 효과적인 요법이라는 근거가 아니에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "커뮤니티 기반 참고 범위",
+            "duration": {
+              "kind": "range",
+              "minimum": 14,
+              "maximum": 28,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "10",
+              "maximum": "20",
+              "unit": "mg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "3–7일마다 투여해요. 출처에서는 커뮤니티 기반으로 설명하며, 임상적으로 확립되지 않았어요."
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 3,
+          "maximum": 6,
+          "unit": "calendar_month"
+        },
+        "timing_guidance": {
+          "preferred_time_of_day": "morning",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "source_reported"
+        },
+        "cautions": {
+          "source_id": "cardiogen-pep-pedia",
+          "source_statements": [
+            {
+              "section": "연구 프로토콜",
+              "subsection": "면책 고지",
+              "excerpt": "주사 용량 프로토콜은 커뮤니티에서 도출됐어요. 사람 대상 임상시험에서 Cardiogen의 최적 용량이 확립된 적은 없어요. 모든 전임상 연구는 주사로 투여하는 사람 용량이 아니라 시험관 내 농도(ng/ml 범위)를 사용했어요.",
+              "truncated": false
+            },
+            {
+              "section": "부작용 및 안전성",
+              "subsection": "부작용",
+              "excerpt": "섬유아세포 증식 효과 때문에 활동성 암이 있는 경우 권장되지 않아요.",
+              "truncated": false
+            },
+            {
+              "section": "부작용 및 안전성",
+              "subsection": "부작용",
+              "excerpt": "안전성 자료가 없으므로 임신 및 수유 중에는 금기예요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established",
+          "community_protocol_not_supported_by_human_trials"
+        ],
+        "notes": "출처 참고용이에요. 출처는 2–4주 주기와 주기 사이 3–6개월 휴약 기간을 설명해요. 이 일정은 사람 대상 용량으로 검증되지 않았어요."
+      }
+    },
+    {
+      "id": "cardiogen-dosage-peptide-reference",
+      "productID": "cardiogen",
+      "title": "Cardiogen — Dosage Peptide 출처의 일일 용량 적정(미검증)",
+      "purpose": "출처에 기술된 참고용 계획",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; the source identifies this as research-only information and says the schedule is not approved human dosing.",
+      "evidenceNotes": "상업적 이차 출처이며, 독립적인 검증이 진행 중이에요. 이 출처의 200–500 mcg 일일 용량 적정은 Pep-Pedia의 10–20 mg 용량을 3–7일마다 투여하는 커뮤니티 기반 일정과 상당히 충돌해요. 이 페이지의 설명문에서는 격주로 약 100 mcg 정도씩 늘리라고 하지만, 표에서는 5주차 400 mcg 용량에서 6–12주차 500 mcg 용량으로 올라가요. 두 내용의 차이는 조정하지 않고 그대로 유지했으며, 어느 일정도 사람에게 사용하도록 확립되지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "cardiogen"
+            }
+          ],
+          "sequence_as_reported": "Ala-Glu-Asp-Arg (AEDR)"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "6.67",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "cardiogen-dosage-peptide",
+              "source_url": "https://www.dosagepeptide.com/single-peptide-dosages/cardiogen-20-mg-vial-dosage-protocol/",
+              "locator": "투여 및 재용해 안내서; 표준 / 점진적 접근법"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "1–2주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3–4주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "5주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "6–12주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 49,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "unreported_in_captured_fields"
+        },
+        "storage": {
+          "source_id": "cardiogen-dosage-peptide",
+          "notes": "출처에서는 동결건조 바이알을 −20 °C (−4 °F)에 보관하고, 재용해한 용액은 빛을 피해 2–8 °C (35.6–46.4 °F)에 냉장 보관하되 얼리지 말라고 해요. 혼합한 용액은 약 28일 이내에 사용하라고 해요."
+        },
+        "cautions": {
+          "source_id": "cardiogen-dosage-peptide",
+          "source_statements": [
+            {
+              "section": "용량 프로토콜",
+              "subsection": "면책 고지",
+              "excerpt": "DosagePeptide.com의 모든 정보는 연구 및 교육 목적에만 해당해요. 여기에 언급된 연구용 화합물은 실험실 및 연구용으로만 사용해야 하며, 사람이 섭취해서는 안 되고 사람에게 사용하도록 FDA 승인을 받지 않았어요.",
+              "truncated": false
+            },
+            {
+              "section": "작용 방식",
+              "subsection": "근거 관련 주의사항",
+              "excerpt": "Cardiogen에 대한 양질의 독립적인 사람 대상 무작위 시험은 없어요. Khavinson 바이오레귤레이터와 관련된 심장 보호, ‘유전적 복구’, 회춘 주장은 개발자들의 전임상 연구에 근거하므로, 확립된 이점이 아니라 입증되지 않은 가설로 읽어야 해요.",
+              "truncated": false
+            },
+            {
+              "section": "용량 프로토콜",
+              "subsection": "용량 적정 참고",
+              "excerpt": "내약성에 따라 약 100 mcg 정도씩 격주로 늘려요.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established",
+          "conflicting_source_dose_schedules",
+          "source_mentions_extensions_to_16_weeks_without_a_matching_titration_phase",
+          "titration_narrative_and_table_timing_differ"
+        ],
+        "notes": "출처 참고용이에요. 페이지에서는 일반적으로 8–12주 사용하고, 일부 참고 자료에서는 약 16주까지 연장한다고 설명해요. 상세 표는 12주를 다루며, 격주 용량 증량 설명은 5주차에서 6–12주차로 넘어가는 표의 변경과 정확히 일치하지 않아요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cardiogen-pep-pedia",
+      "url": "https://pep-pedia.org/peptides/cardiogen",
+      "title": "Cardiogen - Research, Dosing & Protocols | Pep-Pedia",
+      "publisher": "Pep-Pedia",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "cardiogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cardiogen-20-mg-vial-dosage-protocol/",
+      "title": "Cardiogen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": "2025-11-25"
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cardiogen-pep-pedia-reference",
+      "sourceID": "cardiogen-pep-pedia",
+      "locator": "Research Protocols; Quick start guide; Side Effects & Safety",
+      "evidenceNote": "프로토콜 세부 사항은 커뮤니티에서 도출됐으며, 출처에 따르면 사람 대상 임상시험에서 최적 용량이 확립되지 않았어요.",
+      "supports": [
+        "/phases",
+        "/off_period",
+        "/timing_guidance",
+        "/cautions",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "cardiogen",
+      "sourceID": "cardiogen-pep-pedia",
+      "locator": "Overview; Molecular Information; Research Indications; References",
+      "evidenceNote": "Pep-Pedia는 Cardiogen을 AEDR로 설명하고 전임상 연구를 요약하며, 효능이나 최적 용량을 확립한 사람 대상 임상시험은 없다고 보고해요.",
+      "supports": [
+        "/name",
+        "/aliases",
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "protocolID": "cardiogen-dosage-peptide-reference",
+      "sourceID": "cardiogen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; Dosing Protocol; Storage Instructions; How This Works; Important Disclaimer",
+      "evidenceNote": "상업적 이차 출처예요. 이 사이트는 자료를 연구 전용으로 표시하고 사람의 섭취용이 아니라고 명시해요. 이 사이트의 일일 일정은 Pep-Pedia의 커뮤니티 기반 일정과 상당히 충돌하며, 용량 적정 설명도 5주차에서 6–12주차로 넘어갈 때 표의 내용과 달라요.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/timing_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

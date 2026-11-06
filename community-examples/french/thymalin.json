@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "thymalin",
+      "name": "Thymalin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "thymalin-catalog-entry",
+      "productID": "thymalin",
+      "title": "Protocole posologique de Thymalin (flacon de 10mg) — référence de la source",
+      "purpose": "Calendrier propre à cette page et détails de manipulation, transcrits à titre de référence de recherche et d’éducation",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s’agit des déclarations de la page, et non de recommandations cliniques vérifiées de manière indépendante. Cure de courte durée rapportée par la source : 5–10 mg une fois par jour pendant 5–10 jours, répétée 1–2 fois/an plutôt qu’en continu. Usage russe/d’Europe de l’Est ; aucun essai occidental indépendant ; non approuvé par la FDA.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Cure courte",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 5,
+              "maximum": 10
+            },
+            "dose": {
+              "minimum": "5",
+              "maximum": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "La source rapporte des cures répétées 1–2 fois par an."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Schéma conventionnel de biorégulateur rapporté par la source ; les données probantes sont limitées et le produit n’est pas approuvé par la FDA."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "thymalin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/thymalin-10mg-vial-dosage-protocol/",
+      "title": "Thymalin (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "thymalin-catalog-entry",
+      "sourceID": "thymalin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source individuelle examinée. Il s’agit des déclarations de la source et non de recommandations cliniques vérifiées de manière indépendante ; aucun schéma posologique humain n’est établi, sauf si la source l’indique autrement.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisés et cliniques"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramusculaire"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "amycretin",
+      "name": "Amycretin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "amycretin-catalog-entry",
+      "productID": "amycretin",
+      "title": "Amycretin（5 mg）投与プロトコル — 出典資料",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を、研究・教育用の参考情報として転記したものです。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次資料である商業情報源です。以下の詳細は出典自身の記述であり、独立して検証された臨床指針ではありません。週単位の皮下投与による治験スケジュールで、約0.3 mg からゆっくりと漸増します。ページには、別個の経口錠剤製剤も開発・試験中と記載されています。第1b/2a相および第3相の状況は製剤によって異なります。承認済みの製品も、妥当性が確認された研究用バイアルの用量もありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "初期治験の開始用量",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.3",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "description": "週単位の皮下投与による治験の開始時参考用量です。出典によると緩やかに漸増されますが、このページの要約ではすべての増量段階は明記されていません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "治験段階の参考情報のみです。出典ページでは経口製剤についても別途説明されています。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "amycretin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/amycretin-5mg-vial-dosage-protocol/",
+      "title": "Amycretin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "amycretin-catalog-entry",
+      "sourceID": "amycretin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載された投与スケジュール、製剤の背景、注意事項を保持していますが、臨床的に妥当性が確認された投与計画を示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重・代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tri-heal-tb-500-bpc-157-kpv",
+      "name": "Mélange Tri-Heal (TB-500 + BPC-157 + KPV)",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "tri-heal-tb-500-bpc-157-kpv-catalog-entry",
+      "productID": "tri-heal-tb-500-bpc-157-kpv",
+      "title": "Tri-Heal (TB-500 + BPC-157 + KPV) — protocole posologique, référence de la source",
+      "purpose": "Calendrier et consignes de manipulation de la page individuelle, retranscrits à titre de référence pour la recherche et l’éducation",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous sont les propres déclarations de la source et ne constituent pas des recommandations cliniques vérifiées indépendamment. Mélange fixe de 25:10:10 mg (ratio de 5:2:2), dont les composants ne peuvent pas être dosés indépendamment. Référence de la page : 45 mg au total avec 3 mL d’eau bactériostatique et 1.5 mg de mélange total par dose. Association non validée cliniquement ; réservée à la recherche.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "Dose de référence du mélange total",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Quantité totale du mélange uniquement ; le ratio fixe de 25:10:10 mg signifie que les composants ne peuvent pas être ajustés indépendamment."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La page indique 1.5 mg de mélange total par dose, mais la fréquence du calendrier ne figure pas dans la référence recueillie. L’association n’est pas validée cliniquement."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "tri-heal-tb-500-bpc-157-kpv-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/tri-heal-tb-500-25-mg-bpc-157-10-mg-kpv-10-mg-vial-dosage-protocol/",
+      "title": "Tri-Heal (TB-500 + BPC-157 + KPV) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "tri-heal-tb-500-bpc-157-kpv-catalog-entry",
+      "sourceID": "tri-heal-tb-500-bpc-157-kpv-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "La page source individuelle a été examinée. Ce JSON conserve le calendrier et le contexte de formulation indiqués par la page, ainsi que ses réserves ; il n’établit pas de protocole cliniquement validé.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Cicatrisation et récupération"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Voie sous-cutanée"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "snap-8",
+      "name": "SNAP-8",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "snap-8-catalog-entry",
+      "productID": "snap-8",
+      "title": "SNAP-8（10mg 小瓶）给药方案 — 来源参考",
+      "purpose": "单独页面中的时间安排和处理细节，转录为研究/教育参考资料",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是来源自身的陈述，未经独立核实，不构成临床指导。SNAP-8 是一种外用化妆品成分。该页面报告了 10 mg 加 3 mL 稀释液以及 330 mcg，仅作为参考性研究操作信息；它不是获批的注射药物，也没有人体注射方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "单独页面参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "SNAP-8 是一种外用化妆品成分。该页面报告了 10 mg 加 3 mL 稀释液以及 330 mcg，仅作为参考性研究操作信息；它不是获批的注射药物，也没有人体注射方案。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "SNAP-8 是一种外用化妆品成分。该页面报告了 10 mg 加 3 mL 稀释液以及 330 mcg，仅作为参考性研究操作信息；它不是获批的注射药物，也没有人体注射方案。标记：该单独来源页面未提供数值形式的给药剂量；如有说明，配方浓度或定性时间安排均保留在备注中，且不会换算为剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "snap-8-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/snap-8-10mg-vial-dosage-protocol/",
+      "title": "SNAP-8 (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "snap-8-catalog-entry",
+      "sourceID": "snap-8-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单独来源页面。此 JSON 保留页面所述的时间安排/配方背景及其注意事项；它不能证明存在经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

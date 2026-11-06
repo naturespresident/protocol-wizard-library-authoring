@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "tri-heal-tb-500-bpc-157-kpv",
+      "name": "Tri-Heal（TB-500 + BPC-157 + KPV）",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 1,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "tri-heal-tb-500-bpc-157-kpv-catalog-entry",
+      "productID": "tri-heal-tb-500-bpc-157-kpv",
+      "title": "Tri-Heal（TB-500 + BPC-157 + KPV）用量プロトコル — 出典参照",
+      "purpose": "個別ページに記載されたスケジュールおよび取扱いの詳細を、研究・教育用の参考情報として転記しています。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商用情報源です。以下の詳細は出典独自の記述であり、独立して検証された臨床上の指針ではありません。固定比率25:10:10 mg の配合（5:2:2比）であり、各成分を個別に用量調整できません。ページの記載：合計45 mg、3 mL の静菌水を加え、投与ごとに配合物の合計1.5 mg を投与します。この組み合わせは臨床的に検証されておらず、研究目的のみです。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "配合物合計の参考用量",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "配合物の総量のみです。25:10:10 mg の比率は固定されているため、各成分を個別に調整できません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "ページには投与ごとの配合物の合計1.5 mg と記載されていますが、参照資料にはスケジュールの頻度が含まれていません。この組み合わせは臨床的に検証されていません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "tri-heal-tb-500-bpc-157-kpv-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/tri-heal-tb-500-25-mg-bpc-157-10-mg-kpv-10-mg-vial-dosage-protocol/",
+      "title": "Tri-Heal (TB-500 + BPC-157 + KPV) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "tri-heal-tb-500-bpc-157-kpv-catalog-entry",
+      "sourceID": "tri-heal-tb-500-bpc-157-kpv-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールおよび製剤の文脈と注意事項を保持していますが、臨床的に検証された投与計画を確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "治癒・回復"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

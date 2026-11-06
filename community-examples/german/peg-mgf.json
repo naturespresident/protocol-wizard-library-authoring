@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "peg-mgf",
+      "name": "PEG-MGF",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "peg-mgf-catalog-entry",
+      "productID": "peg-mgf",
+      "title": "PEG-MGF (2mg-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs-/Bildungsreferenz übertragen",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Sekundäre kommerzielle Quelle; dies sind Angaben der Seite und keine unabhängig verifizierte klinische Anleitung. In Forschungskonventionen werden 200–400 mcg subkutan zwei- oder dreimal wöchentlich in kurzen Zyklen von 4–6 Wochen angegeben. Nur präklinisch; keine Studien am Menschen oder zugelassene Anwendung.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Zyklus gemäß Forschungskonvention",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week",
+              "minimum": 4,
+              "maximum": 6
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "Die Quelle beschreibt 2–3 Injektionen pro Woche; es gibt keine Studien am Menschen."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Nur präklinische/Anbieterkonvention; nicht von der FDA zugelassen und keine Studien am Menschen."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "peg-mgf-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/peg-mgf-2mg-vial-dosage-protocol/",
+      "title": "PEG-MGF (2mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "peg-mgf-catalog-entry",
+      "sourceID": "peg-mgf-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dies sind Angaben aus der Quelle und keine unabhängig verifizierte klinische Anleitung; ein Behandlungsschema für Menschen ist nicht etabliert, sofern die Quelle nichts anderes angibt.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Wachstumshormon"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

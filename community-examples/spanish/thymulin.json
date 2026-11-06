@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "thymulin",
+      "name": "Thymulin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "thymulin-catalog-entry",
+      "productID": "thymulin",
+      "title": "Thymulin (5 mg) Protocolo de dosificación — referencia de la fuente",
+      "purpose": "Esquema de una página individual y detalles de manipulación, transcritos como referencia de investigación y educación",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; estas son afirmaciones de la página, no orientación clínica verificada de forma independiente. No hay una dosis establecida; la página lo identifica como un péptido de investigación de laboratorio, distinto de Thymalin, y no aprobado para uso en seres humanos. No existe un esquema terapéutico validado.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "No hay una dosis establecida; la página lo identifica como un péptido de investigación de laboratorio, distinto de Thymalin, y no aprobado para uso en seres humanos. No existe un esquema terapéutico validado."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "No hay una dosis establecida; la página lo identifica como un péptido de investigación de laboratorio, distinto de Thymalin, y no aprobado para uso en seres humanos. No existe un esquema terapéutico validado. ALERTA: la página de la fuente individual no proporciona una dosis administrada expresada numéricamente; las concentraciones de la formulación o los esquemas cualitativos, cuando se indican, se conservan en las notas y no se convierten en dosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "thymulin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/thymulin-5mg-vial-dosage-protocol/",
+      "title": "Thymulin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "thymulin-catalog-entry",
+      "sourceID": "thymulin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Estas son afirmaciones de la fuente y no orientación clínica verificada de forma independiente; no se ha establecido un régimen para seres humanos, salvo que la fuente indique lo contrario.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializados y clínicos"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

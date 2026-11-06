@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "thymalin",
+      "name": "Thymalin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "thymalin-catalog-entry",
+      "productID": "thymalin",
+      "title": "Thymalin（10mg 瓶）剂量方案 — 来源参考",
+      "purpose": "单个页面中的日程安排和处理细节，作为研究/教育参考进行转录",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "来源报告的短疗程：每日一次，每次 5–10 mg，持续 5–10 天，每年重复 1–2 次，而非连续使用。俄罗斯/东欧地区使用；没有独立的西方试验；未获 FDA 批准。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "短疗程",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 5,
+              "maximum": 10
+            },
+            "dose": {
+              "minimum": "5",
+              "maximum": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "来源称每年重复 1–2 个疗程。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源报告的常规生物调节剂方案；证据有限，且未获 FDA 批准。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "thymalin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/thymalin-10mg-vial-dosage-protocol/",
+      "title": "Thymalin (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "thymalin-catalog-entry",
+      "sourceID": "thymalin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。这些是来源所述内容，未经独立核实，不构成临床指导；除非来源另有说明，否则尚无已确立的人体给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "肌内注射"
+    }
+  ]
+}

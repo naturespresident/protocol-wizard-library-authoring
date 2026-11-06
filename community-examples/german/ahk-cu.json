@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ahk-cu",
+      "name": "AHK-Cu",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ahk-cu-catalog-entry",
+      "productID": "ahk-cu",
+      "title": "AHK-Cu (50 mg) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Handhabungsdetails dieser Einzelseite, als Forschungs-/Bildungsreferenz übertragen",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben sind Aussagen der Quelle selbst und keine unabhängig überprüfte klinische Anleitung. Keine validierte Injektionsdosis und keine Studie am Menschen. Anbieter- und Community-Leitfäden bewegen sich im Bereich von 100–200 mcg subkutan; die einzige numerische Angabe aus einer Primärquelle sind 100–500 mcg intradermal pro 0.1 mL bei Tieren aus einem Patent. Die Verdünnung von 50 mg + 2 mL dient als Rechenreferenz.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Anbieter- und Community-Konvention",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Bereich aus der Anbieter- und Community-Praxis; keine Studie am Menschen und keine validierte Injektionsdosis. Ein separates Tierpatent beschreibt 100–500 mcg intradermal pro 0.1 mL."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Der Dosisbereich ist klinisch nicht validiert. Setzen Sie die Anbieter-Konvention nicht mit den Konzentrationen des Tierpatents gleich."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ahk-cu-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ahk-cu-50mg-vial-dosage-protocol/",
+      "title": "AHK-Cu (50 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ahk-cu-catalog-entry",
+      "sourceID": "ahk-cu-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dieses JSON bewahrt den angegebenen Zeitplan und Formulierungskontext der Seite sowie deren Einschränkungen; es belegt kein klinisch validiertes Dosierungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging & Haut"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

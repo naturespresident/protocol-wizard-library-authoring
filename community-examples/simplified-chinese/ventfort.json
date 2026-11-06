@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ventfort",
+      "name": "Ventfort",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ventfort-catalog-entry",
+      "productID": "ventfort",
+      "title": "Ventfort（血管生物调节剂）剂量方案——来源参考",
+      "purpose": "具体页面中的时间安排和处理细节，转录为研究／教育参考资料",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，未经独立核实，不能视为临床指导。常见的口服胶囊用法为 20 mg：每日 1–2 粒，持续 10–30 天，通常在餐前服用，每年重复 2–3 次。该专有血管提取物不同于合成的 Vesugen；这并非经验证的治疗剂量。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "口服疗程",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "通常在餐前服用；每年重复 2–3 个疗程。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "页面称胶囊规格为 20 mg；每日服用 1–2 粒，持续 10–30 天，每年重复 2–3 次。该提取物为专有产品；这种用法尚未经过临床验证。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ventfort-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ventfort-vascular-bioregulator-dosage-protocol/",
+      "title": "Ventfort (Vascular Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ventfort-catalog-entry",
+      "sourceID": "ventfort-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅具体来源页面。此 JSON 保留了页面所述的时间安排、剂型背景及其注意事项；这并不能确立经临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "口服"
+    }
+  ]
+}

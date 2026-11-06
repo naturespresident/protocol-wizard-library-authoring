@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dihexa",
+      "name": "Dihexa",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dihexa-catalog-entry",
+      "productID": "dihexa",
+      "title": "Dihexa（10 mg）给药方案——来源参考",
+      "purpose": "单页所列的时间安排和处理细节，转录作为研究／教育参考",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是来源自身的陈述，未经独立核实，也不是经临床验证的指导。没有人体剂量，也没有人体试验。报告的动物用药剂量范围仅适用于小鼠，约为 1.44–2.88 mg/kg，口服。页面介绍了口服／舌下／经皮的研究处理方式，不涉及注射／复溶；关键机制论文已于 2025 年撤稿。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "小鼠研究中的口服暴露剂量范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1.44",
+              "maximum": "2.88",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "仅限动物研究的小鼠剂量范围；尚未确立人体剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "仅为临床前暴露数据。关键机制论文已于 2025 年撤稿。用户另行提供的 Reddit 社区给药时间表单独记录为一个未经核实的方案。"
+      }
+    },
+    {
+      "id": "dihexa-reddit-community-schedule",
+      "productID": "dihexa",
+      "title": "Dihexa 口服时间表——Reddit 社区报告（未经核实）",
+      "purpose": "转录社区报告的口服时间表，作为未经核实的参考",
+      "methodID": "oral",
+      "population": "Community report; not a clinical study population",
+      "evidenceNotes": "一份用户生成的 Reddit 指南报告了 10 mg 口服剂量、连续使用 2 周／停用 2 周的周期，以及首周隔日使用的安排。该帖子未引用验证这一时间表的临床试验。人体安全性和有效性尚未确立；这不是医疗指导。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "首次使用周",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "every_n_days",
+              "interval_days": 2,
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "首周隔日口服 10 mg；该帖子建议在早晨服用。"
+            }
+          },
+          {
+            "name": "标准使用周期的其余时间",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "每日口服一次，每次 10 mg；该帖子建议在早晨服用，并描述了标准的连续使用两周周期。"
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 2,
+          "maximum": 2,
+          "unit": "week"
+        },
+        "unresolved_fields": [
+          "community_anecdote_only",
+          "human_safety_or_efficacy_not_established"
+        ],
+        "notes": "标记：该时间表来自一篇用户生成的 Reddit 帖子，未经临床验证。页面还提到了一些更长的周期，但此处未将其结构化。本 JSON 记录这项报告，不建议照此使用。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dihexa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dihexa-10mg-dosage-protocol/",
+      "title": "Dihexa (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "dihexa-reddit-community",
+      "url": "https://www.reddit.com/r/LAPeptidesGuide/comments/1t2hi5k/dihexa_capsules_research_guide/",
+      "title": "Dihexa Capsules: Research Guide",
+      "publisher": "Reddit, r/LAPeptidesGuide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dihexa-catalog-entry",
+      "sourceID": "dihexa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单页来源。这份 JSON 保留了页面所述的时间安排／制剂背景及其注意事项；它不能确立经临床验证的给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "dihexa-reddit-community-schedule",
+      "sourceID": "dihexa-reddit-community",
+      "locator": "Dosing; Cycle guidance; First use protocol",
+      "evidenceNote": "用户生成的 Reddit 帖子报告了这一时间表；该帖子未提供安全性或有效性的临床验证。",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/off_period",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "口服"
+    }
+  ]
+}

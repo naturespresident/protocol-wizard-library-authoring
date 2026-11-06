@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dermorphin",
+      "name": "Dermorphin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dermorphin-catalog-entry",
+      "productID": "dermorphin",
+      "title": "Dermorphin（5 mg）剂量方案——来源参考",
+      "purpose": "对单个页面中的安排和处理细节进行转录，作为研究／教育参考",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节为来源自身的陈述，未经独立核实，也不是临床指导。没有人体或兽医剂量；页面明确未提供给药方案。已发表的药理学研究仅涉及动物（极微量脑内纳摩尔量或按体重计算的啮齿动物剂量）。强效 μ-阿片受体激动剂，仅限实验室研究试剂。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "单页参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "没有人体或兽医剂量；页面明确未提供给药方案。已发表的药理学研究仅涉及动物（极微量脑内纳摩尔量或按体重计算的啮齿动物剂量）。强效 μ-阿片受体激动剂，仅限实验室研究试剂。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "没有人体或兽医剂量；页面明确未提供给药方案。已发表的药理学研究仅涉及动物（极微量脑内纳摩尔量或按体重计算的啮齿动物剂量）。强效 μ-阿片受体激动剂，仅限实验室研究试剂。标记：单个来源页面未提供数值形式的给药剂量；来源提及的制剂浓度或定性安排（如有）保留在备注中，且未将其换算为剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dermorphin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dermorphin-5mg-vial-dosage-protocol/",
+      "title": "Dermorphin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dermorphin-catalog-entry",
+      "sourceID": "dermorphin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留了页面所述的安排／配方背景及其注意事项；它并未确立经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经系统"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

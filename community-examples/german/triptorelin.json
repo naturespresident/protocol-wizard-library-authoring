@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "triptorelin",
+      "name": "Triptorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "triptorelin-catalog-entry",
+      "productID": "triptorelin",
+      "title": "Triptorelinacetat (2 mg) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Handhabungsdetails der Einzelseite, als Forschungs- und Bildungsreferenz übertragen",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Sekundärquelle aus dem kommerziellen Bereich; die nachstehenden Angaben sind Aussagen der Quelle und keine unabhängig verifizierten klinischen Empfehlungen. Auf der Seite wird keine Selbstverabreichung empfohlen. Triptorelin ist ein potenter verschreibungspflichtiger GnRH-Agonist mit Depotformulierungen, die unter fachärztlicher Betreuung angewendet werden; zunächst verursacht es einen Hormonschub und unterdrückt anschließend LH/FSH und Sexualhormone. Die Seite zum Forschungsfläschchen ist keine geeignete Dosierungsanleitung.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Depot-Dosisoptionen",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "3.75",
+                "11.25",
+                "22.5"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Verschiedene zugelassene Depotformulierungen mit verzögerter Wirkstofffreisetzung: 3.75 mg monatlich, 11.25 mg alle 3 Monate oder 22.5 mg alle 6 Monate; Verabreichung durch medizinisches Fachpersonal. Ein einfaches 2 mg Forschungsfläschchen ist kein Depot."
+            }
+          },
+          {
+            "name": "Historischer Kontext zur sofortigen Wirkstofffreisetzung",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Historisches, überwachtes Behandlungsschema für die erste Woche, danach eine niedrigere Erhaltungsdosis; die Seite gibt die Erhaltungsdosis nicht an."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Verschreibungspflichtiges Hormon, das unter fachärztlicher Aufsicht angewendet wird; die Quelle weist ausdrücklich darauf hin, dass ihr Forschungsfläschchen die Depot-Pharmakokinetik nicht nachbildet und kein Behandlungsschema zur Selbstverabreichung enthält."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "triptorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/triptorelin-2mg-vial-dosage-protocol/",
+      "title": "Triptorelin Acetate (2 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "triptorelin-catalog-entry",
+      "sourceID": "triptorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Einzelne Quellenseite geprüft. Dieses JSON bewahrt den auf der Seite angegebenen Zeitplan und Formulierungskontext sowie die Einschränkungen; es belegt kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spezialisiert und klinisch"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuskulär"
+    }
+  ]
+}

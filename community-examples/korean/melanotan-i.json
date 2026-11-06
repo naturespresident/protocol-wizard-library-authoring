@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "melanotan-i",
+      "name": "Melanotan I",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "melanotan-i-catalog-entry",
+      "productID": "melanotan-i",
+      "title": "Melanotan I (10 mg) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "이차 상업 출처예요. 아래 세부 사항은 해당 출처의 자체 설명이며, 독립적으로 검증된 임상 지침이 아니에요. 페이지의 연구 관행: 색소 침착이 나타날 때까지 0.5–1 mg 용량을 피하로 매일 초기 투여한 뒤, 유지 단계에서는 1 mg 용량을 매주 한 번 또는 두 번 투여해요. 10 mg + 2 mL 조합은 5 mg/mL예요. Afamelanotide 승인은 의료진이 삽입하는 16 mg EPP 임플란트에만 해당하며, 자가 주사 연구용 펩타이드에는 해당하지 않아요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "연구용 초기 투여 관행",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "색소 침착이 나타날 때까지 매일 투여해요. 출처는 이를 일반적인 연구 관행으로 설명하며, 임상 지침은 아니에요."
+            }
+          },
+          {
+            "name": "연구용 유지 관행",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "초기 투여 후 매주 한 번 또는 두 번 투여해요. 출처에 따르면 승인된 afamelanotide는 의료진이 삽입하는 임플란트이며, 이 자가 주사 물질이 아니에요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처의 관행만을 나타내요. FDA 승인은 EPP 치료를 위한 의료진 삽입 afamelanotide 임플란트에만 적용되며, 자가 주사 연구용 펩타이드에는 적용되지 않아요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "melanotan-i-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/melanotan-1-10mg-vial-dosage-protocol/",
+      "title": "Melanotan I (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "melanotan-i-catalog-entry",
+      "sourceID": "melanotan-i-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 해당 페이지에 기재된 일정 및 제형 맥락과 주의 사항을 보존하며, 임상적으로 검증된 요법을 확립하지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "피하"
+    }
+  ]
+}

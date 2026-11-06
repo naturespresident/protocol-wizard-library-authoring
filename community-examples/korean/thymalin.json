@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "thymalin",
+      "name": "Thymalin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "thymalin-catalog-entry",
+      "productID": "thymalin",
+      "title": "Thymalin (10mg 바이알) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정과 취급 세부 사항을 연구 및 교육 참고용으로 옮긴 내용이에요.",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "보조 상업 출처예요. 이는 해당 페이지의 진술이며, 독립적으로 검증된 임상 지침이 아니에요. 출처에서 보고한 단기 코스는 5–10 mg 투여를 하루 한 번, 5–10일간 시행하고, 지속적으로 사용하기보다 연간 1–2회 반복하는 방식이에요. 러시아/동유럽에서 사용되며, 독립적인 서구권 임상시험은 없고 FDA 승인을 받지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "단기 코스",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 5,
+              "maximum": 10
+            },
+            "dose": {
+              "minimum": "5",
+              "maximum": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "출처에 따르면 코스를 연간 1–2회 반복해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처에서 보고한 일반적인 생물조절제 일정이에요. 근거 자료가 제한적이며 FDA 승인을 받지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "thymalin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/thymalin-10mg-vial-dosage-protocol/",
+      "title": "Thymalin (10mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "thymalin-catalog-entry",
+      "sourceID": "thymalin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 진술이며 독립적으로 검증된 임상 지침이 아니에요. 출처가 달리 명시하지 않는 한, 인간 대상 용법은 확립되지 않았어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "특수 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "근육 내"
+    }
+  ]
+}

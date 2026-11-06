@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "teduglutide",
+      "name": "Teduglutide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "teduglutide-catalog-entry",
+      "productID": "teduglutide",
+      "title": "Protocolo de dosagem de Teduglutide (5 mg) — referência da fonte",
+      "purpose": "Esquema de administração e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Declarações de uma página de protocolo individual, provenientes de uma fonte secundária; não são orientações médicas verificadas de forma independente. Esquema conforme a bula aprovada, informado pela página: 0.05 mg/kg por via subcutânea uma vez ao dia, de forma contínua, para síndrome do intestino curto com dependência de suporte parenteral; em caso de comprometimento renal (eGFR <60), usa-se 0.025 mg/kg. Frasco comercial de 5 mg reconstituído com exatamente 0.5 mL de água estéril para obter 10 mg/mL; apenas 3.8 mg (0.38 mL) podem ser retirados. Produto sob prescrição e supervisão de especialista; não é uma recomendação para frasco de pesquisa.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência da bula aprovada",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.05",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Produto sob prescrição para síndrome do intestino curto com dependência de suporte parenteral. A fonte informa meia dose de 0.025 mg/kg para eGFR <60; a bula do produto indica o diluente correspondente, não a mistura em frasco de pesquisa."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "O esquema do produto aprovado pela FDA se aplica somente a pacientes elegíveis sob supervisão de especialista; o frasco de 5 mg de grau de pesquisa não é a apresentação aprovada."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "teduglutide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/teduglutide-5mg-vial-dosage-protocol/",
+      "title": "Teduglutide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "teduglutide-catalog-entry",
+      "sourceID": "teduglutide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "A página do protocolo individual foi analisada. O registro preserva os detalhes informados pela fonte e os limites indicados na página; não constitui orientação clínica de dosagem.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializados e clínicos"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "aod-9604-cjc-1295-ipamorelin",
+      "name": "AOD-9604 + CJC-1295 + Ipamorelin（ブレンド）",
+      "aliases": [],
+      "kind": "blend",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "aod-9604-cjc-1295-ipamorelin-catalog-entry",
+      "productID": "aod-9604-cjc-1295-ipamorelin",
+      "title": "AOD-9604 + CJC-1295 + Ipamorelin（12mg ブレンド）用量プロトコル — 出典参照",
+      "purpose": "調査・教育目的の参考資料として書き起こした、個別ページのスケジュールと取り扱い情報です。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商用情報源です。以下はページに記載された内容であり、臨床的指針として独立に検証されたものではありません。固定比率のブレンド：AOD-9604 6 mg + CJC-1295 3 mg + ipamorelin 3 mg です。すべての採取量でこの比率が保たれるため、各成分を個別に投与することはできません。出典の参照情報：総量12 mg に静菌水3 mL を加え、投与あたりブレンド総量約400 mcg としています。研究目的でのみ使用してください。このブレンドは臨床的に検証されていません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "premixed_blend",
+        "phases": [
+          {
+            "name": "ブレンド総量の参考用量",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "ブレンド総量のみです。固定された成分比6:3:3 mg のため、各成分を個別に投与することはできません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "出典では、12 mg のブレンドに静菌水3 mL を加えて溶解し、投与あたりブレンド総量約400 mcg と説明しています。この組み合わせは臨床的に検証されていません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "aod-9604-cjc-1295-ipamorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/aod-9604-cjc-1295-ipamorelin-12mg-blend-vial-dosage-protocol/",
+      "title": "AOD-9604 + CJC-1295 + Ipamorelin (12mg Blend) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "aod-9604-cjc-1295-ipamorelin-catalog-entry",
+      "sourceID": "aod-9604-cjc-1295-ipamorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。以下は出典に記載された内容であり、臨床的指針として独立に検証されたものではありません。出典に明記されている場合を除き、確立されたヒト用レジメンはありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "成長ホルモン"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

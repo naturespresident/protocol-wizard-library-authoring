@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "endoluten",
+      "name": "Endoluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "endoluten-catalog-entry",
+      "productID": "endoluten",
+      "title": "Endoluten(송과체 생체조절제) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부사항을 연구/교육 참고자료로 옮겼어요.",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "상업적인 이차 자료예요. 이는 해당 페이지의 진술이며 독립적으로 검증된 임상 지침이 아니에요. 경구 캡슐의 통상 용법: 매일 1–2캡슐을 10–30일간 복용하며, 보통 식사 15–20분 전에 복용해요. 연간 2–3회 과정을 반복해요. Epitalon/Epithalamin이 아닌 동물 유래 송과체 추출물이에요. 재구성은 필요하지 않고 검증된 치료 용량도 없어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "경구 투여 과정",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "보통 식사 15–20분 전에 복용해요. 연간 2–3회 과정을 반복해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처는 경구 캡슐과 일반적인 복용 과정을 보고하지만, 여기에는 캡슐 질량을 제시하지 않아요. 용량은 캡슐 개수로 표시해요. 주사나 재구성은 없어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "endoluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/endoluten-pineal-bioregulator-dosage-protocol/",
+      "title": "Endoluten (Pineal Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "endoluten-catalog-entry",
+      "sourceID": "endoluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 진술이며 독립적으로 검증된 임상 지침은 아니에요. 출처에서 달리 언급하지 않는 한, 인간 대상 복용 요법은 확립되지 않았어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

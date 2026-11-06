@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cortagen",
+      "name": "Cortagen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cortagen-catalog-entry",
+      "productID": "cortagen",
+      "title": "Cortagen — 모델 유래 시나리오 A (미검증)",
+      "purpose": "출처에 보고된 모델 유래 동물 용량 환산이며, 참고용으로만 기록했어요",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "출처에는 알로메트릭 스케일링 없이 모델만을 기반으로 설치류 용량을 원시 환산한 두 가지가 제시되어 있어요: 약 10일 동안 0.01 mg/kg/day (70 kg 기준 산술 예시 0.70 mg/day), 또는 5일 동안 0.03 mg/kg/day (70 kg 기준 산술 예시 2.10 mg/day). 설치류 투여 경로는 서로 달라요. 연구용으로만 사용해야 해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "출처 시나리오 A",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.01",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "출처에 제시된 설치류 용량의 원시 환산이에요. 약 10일이에요. 인간 용량으로 검증되지 않았고 인간에게 투여하도록 의도된 것이 아니에요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "출처 시나리오 A: 0.01 mg/kg/day를 약 10일 동안 투여해요. 출처에는 별도의 0.03 mg/kg/day, 5일 시나리오도 설명되어 있어요. 이러한 설치류 용량의 원시 환산에는 알로메트릭 스케일링이 적용되지 않았으며 인간용으로 검증된 프로토콜이 아니에요."
+      }
+    },
+    {
+      "id": "cortagen-alternative-rodent-transposition",
+      "productID": "cortagen",
+      "title": "Cortagen — 모델 유래 시나리오 B (미검증)",
+      "purpose": "출처에 보고된 별도의 모델 유래 동물 용량 환산이며, 참고용으로만 기록했어요",
+      "methodID": "unspecified",
+      "population": "Raw rodent-dose transposition; not a validated human regimen",
+      "evidenceNotes": "출처에는 알로메트릭 스케일링 없이 설치류 용량을 원시 환산한 대안으로 0.03 mg/kg/day를 5일 동안 투여하는 방법이 제시되어 있어요. 이는 인간용으로 검증된 프로토콜이 아니며, 설치류 투여 경로는 서로 달라요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "출처 시나리오 B",
+            "duration": {
+              "kind": "fixed",
+              "value": 5,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.03",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "출처에 제시된 설치류 용량의 원시 환산이에요. 인간 용량으로 검증되지 않았고 인간에게 투여하도록 의도된 것이 아니에요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "시나리오 A와 별개인 대안이에요: 0.03 mg/kg/day를 5일 동안 투여해요. 출처의 설치류 용량 원시 환산에는 알로메트릭 스케일링이 적용되지 않았으며 인간용으로 검증된 프로토콜이 아니에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortagen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cortagen-20mg-vial-dosage-protocol/",
+      "title": "Cortagen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cortagen-catalog-entry",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이는 출처의 진술이며 독립적으로 검증된 임상 지침이 아니에요. 출처에서 달리 밝히지 않는 한 인간 투여 요법은 확립되지 않았어요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "cortagen-alternative-rodent-transposition",
+      "sourceID": "cortagen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; alternative model-based schedule",
+      "evidenceNote": "출처에서 보고한 두 번째 모델만을 기반으로 한 설치류 용량의 원시 환산이며, 인간용으로 검증된 프로토콜이 아니에요.",
+      "supports": [
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "미지정"
+    }
+  ]
+}

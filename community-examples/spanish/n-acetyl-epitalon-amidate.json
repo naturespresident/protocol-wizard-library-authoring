@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-epitalon-amidate",
+      "name": "N-Acetyl Epitalon Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-epitalon-amidate-catalog-entry",
+      "productID": "n-acetyl-epitalon-amidate",
+      "title": "Protocolo de dosificación de N-Acetyl Epitalon Amidate (vial de 5mg) — referencia de la fuente",
+      "purpose": "Programa y detalles de manipulación de la página individual, transcritos como referencia de investigación y educación",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son declaraciones de la propia fuente, no orientación clínica verificada de forma independiente. No hay un régimen validado para este análogo modificado ni para el compuesto original. La página distingue los estudios en roedores (~30–40 mcg/kg durante cinco días consecutivos al mes) de las convenciones de mercado para Epitalon sin modificar (5–10 mg diarios durante 10–20 días); ninguno valida este amidato. 5 mg + 2 mL da 2.5 mg/mL. Solo para investigación.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de estudio en roedores",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "30",
+              "maximum": "40",
+              "unit": "mcg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Los estudios en roedores informaron de cinco días consecutivos al mes; no es un régimen para seres humanos. La convención de 5–10 mg de Epitalon corresponde a un péptido distinto y sin modificar."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "No hay un régimen validado para este amidato. La cantidad estructurada corresponde únicamente a una exposición basada en el peso en roedores, no a una dosis para seres humanos."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-epitalon-amidate-5mg-vial-dosage-protocol/",
+      "title": "N-Acetyl Epitalon Amidate (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-epitalon-amidate-catalog-entry",
+      "sourceID": "n-acetyl-epitalon-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el contexto del programa y la formulación indicados por la página y sus advertencias; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Antienvejecimiento y piel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "Otro"
+    }
+  ]
+}

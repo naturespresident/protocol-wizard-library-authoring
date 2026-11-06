@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hgh-191aa",
+      "name": "HGH 191AA",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hgh-191aa-catalog-entry",
+      "productID": "hgh-191aa",
+      "title": "HGH 191AA (10IU Flacon) Protocole posologique — référence de la source",
+      "purpose": "Détails du calendrier et de la manipulation de la page individuelle, transcrits comme référence de recherche et d'information",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; il s'agit des énoncés de la page, qui ne sont pas vérifiés de manière indépendante et ne constituent pas des recommandations cliniques. La page rapporte une référence prudente de remplacement de 150–500 mcg/jour, en commençant près de 200 mcg et en augmentant d'environ 100 mcg/semaine ; des quantités de recherche avancées allant jusqu'à 1,000–2,000 mcg/jour sont également mentionnées. 10 IU + 3 mL dans un flacon correspond à un calcul de concentration. La somatropine est un médicament délivré sur ordonnance ; l'utiliser uniquement sous la supervision d'un professionnel de santé.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Référence prudente de remplacement",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "range_options": [
+                {
+                  "minimum": "150",
+                  "maximum": "500"
+                },
+                {
+                  "minimum": "1000",
+                  "maximum": "2000"
+                }
+              ],
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "La source distingue les références prudentes de remplacement (150–500 mcg/jour) des quantités de recherche avancées (1,000–2,000 mcg/jour) ; la dose initiale est proche de 200 mcg, puis la source décrit des augmentations d'environ 100 mcg par semaine."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La source décrit le contexte de l'étiquette de la somatropine délivrée sur ordonnance et les fourchettes de recherche. Un flacon de recherche n'est pas un produit approuvé ; la dose ne doit pas être considérée comme des consignes d'auto-administration."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hgh-191aa-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hgh-191aa-10iu-vial-dosage-protocol/",
+      "title": "HGH 191AA (10IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hgh-191aa-catalog-entry",
+      "sourceID": "hgh-191aa-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page source particulière consultée. Il s'agit d'énoncés de la source, qui ne sont pas vérifiés de manière indépendante et ne constituent pas des recommandations cliniques ; aucun protocole posologique humain n'est établi, sauf indication contraire de la source.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormone de croissance"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Non spécifié"
+    }
+  ]
+}

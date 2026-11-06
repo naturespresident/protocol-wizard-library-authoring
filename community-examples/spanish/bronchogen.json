@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bronchogen",
+      "name": "Bronchogen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "bronchogen-catalog-entry",
+      "productID": "bronchogen",
+      "title": "Bronchogen (Vial de 20mg): protocolo de dosificación — referencia de la fuente",
+      "purpose": "Calendario y detalles de manejo de la página del producto, transcritos como referencia de investigación y educación",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles que siguen son declaraciones de la propia fuente y no constituyen orientación clínica verificada de forma independiente. No existe una dosis humana establecida. La evidencia publicada sobre dosificación consiste en concentraciones en cultivos celulares e inyecciones en ratas; no se puede extrapolar a un régimen humano en mg o mcg. La reconstitución de un vial de 20 mg con 3 mL de agua bacteriostática se muestra únicamente como cálculo de concentración (6.67 mg/mL).",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "No existe una dosis humana establecida. La evidencia publicada sobre dosificación consiste en concentraciones en cultivos celulares e inyecciones en ratas; no se puede extrapolar a un régimen humano en mg o mcg. La reconstitución de un vial de 20 mg con 3 mL de agua bacteriostática se muestra únicamente como cálculo de concentración (6.67 mg/mL)."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "No existe una dosis humana establecida. La evidencia publicada sobre dosificación consiste en concentraciones en cultivos celulares e inyecciones en ratas; no se puede extrapolar a un régimen humano en mg o mcg. La reconstitución de un vial de 20 mg con 3 mL de agua bacteriostática se muestra únicamente como cálculo de concentración (6.67 mg/mL). AVISO: la página de la fuente individual no proporciona una dosis administrada numérica; las concentraciones de la formulación o los calendarios cualitativos, cuando se indican, se conservan en las notas y no se convierten en dosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "bronchogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/bronchogen-20mg-vial-dosage-protocol/",
+      "title": "Bronchogen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "bronchogen-catalog-entry",
+      "sourceID": "bronchogen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el contexto declarado sobre el calendario y la formulación, así como sus advertencias; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializados y clínicos"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Sin especificar"
+    }
+  ]
+}

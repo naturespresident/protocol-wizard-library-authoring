@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bronchogen",
+      "name": "Bronchogen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "bronchogen-catalog-entry",
+      "productID": "bronchogen",
+      "title": "Bronchogen (frasco de 20mg) — protocolo de dosagem — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Não há dose humana estabelecida. As evidências de dosagem publicadas consistem em concentrações em cultura celular e injeções em ratos; elas não podem ser convertidas em um regime humano em mg ou mcg. A reconstituição de um frasco de 20 mg com 3 mL de água bacteriostática é apresentada apenas como cálculo de concentração (6.67 mg/mL).",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência da página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Não há dose humana estabelecida. As evidências de dosagem publicadas consistem em concentrações em cultura celular e injeções em ratos; elas não podem ser convertidas em um regime humano em mg ou mcg. A reconstituição de um frasco de 20 mg com 3 mL de água bacteriostática é apresentada apenas como cálculo de concentração (6.67 mg/mL)."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "Não há dose humana estabelecida. As evidências de dosagem publicadas consistem em concentrações em cultura celular e injeções em ratos; elas não podem ser convertidas em um regime humano em mg ou mcg. A reconstituição de um frasco de 20 mg com 3 mL de água bacteriostática é apresentada apenas como cálculo de concentração (6.67 mg/mL). SINALIZAÇÃO: a página da fonte individual não informa uma dose numérica administrada; as concentrações da formulação ou os cronogramas qualitativos, quando declarados, são mantidos nas notas e não são convertidos em doses."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "bronchogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/bronchogen-20mg-vial-dosage-protocol/",
+      "title": "Bronchogen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "bronchogen-catalog-entry",
+      "sourceID": "bronchogen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A página da fonte individual foi revisada. Este JSON preserva o contexto de cronograma/formulação declarado na página e suas ressalvas; não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado e clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "ahk-cu",
+      "name": "AHK-Cu",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "ahk-cu-catalog-entry",
+      "productID": "ahk-cu",
+      "title": "AHK-Cu (50 mg) 投与プロトコル — 出典の参考情報",
+      "purpose": "個別ページに記載されたスケジュールと取扱いの詳細を、研究・教育目的の参考情報として転記しています。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は情報源自身の記載であり、臨床指針として独立に検証されたものではありません。妥当性が確認された注射用量も、ヒト試験もありません。ベンダー/コミュニティのガイドでは100–200 mcg 皮下に集中しています。一次資料にある数値は、特許に記載された動物への皮内投与の100–500 mcg per 0.1 mL のみです。50 mg + 2 mL の希釈は参考計算です。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "ベンダー/コミュニティでの慣例",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "100",
+              "maximum": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "コミュニティ/ベンダーでの範囲です。ヒト試験も、妥当性が確認された注射用量もありません。動物を対象とした別の特許には、皮内投与で100–500 mcg per 0.1 mL と記載されています。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "用量範囲は臨床的に妥当性が確認されていません。ベンダーの慣例と動物特許に記載された濃度を混同しないでください。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "ahk-cu-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/ahk-cu-50mg-vial-dosage-protocol/",
+      "title": "AHK-Cu (50 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "ahk-cu-catalog-entry",
+      "sourceID": "ahk-cu-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、同ページに記載されたスケジュール/製剤の文脈と注意書きを保持しています。臨床的に妥当性が確認されたレジメンを示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "抗老化・肌"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

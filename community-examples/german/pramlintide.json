@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pramlintide",
+      "name": "Pramlintide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pramlintide-catalog-entry",
+      "productID": "pramlintide",
+      "title": "Pramlintide (5 mg) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Handhabungsdetails der Einzelseite, als Forschungs- und Bildungsreferenz übertragen",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Sekundäre kommerzielle Quelle; die nachstehenden Angaben stammen von der Quelle selbst und sind keine unabhängig überprüfte klinische Anleitung. Die Seite berichtet über die gekennzeichnete Anwendung in Mikrogramm, z. B. 60–120 mcg vor den Mahlzeiten; Pramlintide wird zusätzlich zu mahlzeitenbezogenem Insulin angewendet und erfordert eine ärztliche Dosisanpassung. Eine Durchstechflasche mit 5 mg + 2.5 mL ergibt 2,000 mcg/mL (60 mcg = 0.03 mL). Es gibt ein von der FDA zugelassenes Arzneimittel; die Forschungs-Durchstechflasche ist nicht dieses Produkt.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Gekennzeichneter Dosisbereich zu den Mahlzeiten",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "60",
+              "maximum": "120",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Wird vor den Mahlzeiten zusätzlich zu mahlzeitenbezogenem Insulin verabreicht; die genaue Dosis hängt von der Indikation und der Mahlzeit ab."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Die Quellseite nennt 60–120 mcg vor den Mahlzeiten. Bei Pramlintide muss die Dosis des mahlzeitenbezogenen Insulins reduziert werden, und die Anwendung muss ärztlich überwacht werden; dieser Bereich ist kein individueller Zeitplan."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pramlintide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pramlintide-5mg-vial-dosage-protocol/",
+      "title": "Pramlintide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pramlintide-catalog-entry",
+      "sourceID": "pramlintide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellseite wurde geprüft. Dieses JSON bewahrt den dort angegebenen Kontext zu Zeitplan und Formulierung sowie die Einschränkungen; es belegt kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Gewicht und Stoffwechsel"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

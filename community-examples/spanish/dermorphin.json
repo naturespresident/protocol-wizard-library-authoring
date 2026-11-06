@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dermorphin",
+      "name": "Dermorphin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dermorphin-catalog-entry",
+      "productID": "dermorphin",
+      "title": "Dermorphin (5 mg) — protocolo de dosificación: referencia de la fuente",
+      "purpose": "Calendario de una página individual y detalles de manejo, transcritos como referencia de investigación/educativa",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles a continuación son afirmaciones de la propia fuente, no orientación clínica verificada de forma independiente. No hay dosis para humanos ni para uso veterinario; la página indica explícitamente que no proporciona un protocolo de dosificación. La farmacología publicada es exclusivamente animal (cantidades nanomolares diminutas administradas por vía intracerebral o cantidades basadas en el peso corporal de roedores). Agonista opioide mu potente, solo como reactivo de investigación de laboratorio.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referencia de la página individual",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "No hay dosis para humanos ni para uso veterinario; la página indica explícitamente que no proporciona un protocolo de dosificación. La farmacología publicada es exclusivamente animal (cantidades nanomolares diminutas administradas por vía intracerebral o cantidades basadas en el peso corporal de roedores). Agonista opioide mu potente, solo como reactivo de investigación de laboratorio."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "No hay dosis para humanos ni para uso veterinario; la página indica explícitamente que no proporciona un protocolo de dosificación. La farmacología publicada es exclusivamente animal (cantidades nanomolares diminutas administradas por vía intracerebral o cantidades basadas en el peso corporal de roedores). Agonista opioide mu potente, solo como reactivo de investigación de laboratorio. FLAG: la página individual de la fuente no proporciona una dosis administrada numérica; las concentraciones de la formulación o los calendarios cualitativos, cuando se indican, se conservan en las notas y no se convierten en dosis."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dermorphin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dermorphin-5mg-vial-dosage-protocol/",
+      "title": "Dermorphin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dermorphin-catalog-entry",
+      "sourceID": "dermorphin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el contexto de calendario/formulación y las salvedades indicados en la página; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo y neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

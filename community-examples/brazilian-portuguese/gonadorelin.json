@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "gonadorelin",
+      "name": "Gonadorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "gonadorelin-catalog-entry",
+      "productID": "gonadorelin",
+      "title": "Protocolo de dosagem de Gonadorelin (frasco de 2mg) — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Referência de pesquisa da página: frasco de 2 mg mais 2 mL de água bacteriostática e cerca de 100 mcg por dose. A fonte apresenta o conteúdo como destinado apenas à pesquisa; não há orientação para autoadministração em humanos.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência de dose",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "A página informa cerca de 100 mcg por dose, mas não fornece uma frequência nem a duração do tratamento no resumo capturado."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Hormônio sujeito a prescrição; não foi inferido nenhum esquema de autoadministração."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "gonadorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/gonadorelin-2-mg-vial-dosage-protocol/",
+      "title": "Gonadorelin (2mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "gonadorelin-catalog-entry",
+      "sourceID": "gonadorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A página individual da fonte foi analisada. Este JSON preserva o cronograma/formulação informados na página e suas ressalvas; não estabelece um esquema clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado e clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "Não especificado"
+    }
+  ]
+}

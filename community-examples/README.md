@@ -1,23 +1,23 @@
 # Example product files
 
-Each JSON contains one product and all its supported approved protocols. Choose protocols during import; existing content is retained unless you confirm replacements.
+Each JSON contains one product and its reference protocols. Choose protocols during import; existing content is retained unless you confirm replacements. The 90 Dosage Peptide additions link to and summarize their individual protocol pages. Source-described doses remain reference information, not clinically validated guidance.
 
-Choose the folder for the desired language. Every folder contains all 52 products.
+Choose the folder for the desired language. English contains 144 products; every translated folder contains the same set.
 
 | Language | Folder | Products available |
 | --- | --- | ---: |
-| English | [english](english/) | 52 |
-| Japanese | [japanese](japanese/) | 52 |
-| Simplified Chinese | [simplified-chinese](simplified-chinese/) | 52 |
-| German | [german](german/) | 52 |
-| French | [french](french/) | 52 |
-| Korean | [korean](korean/) | 52 |
-| Spanish | [spanish](spanish/) | 52 |
-| Brazilian Portuguese | [brazilian-portuguese](brazilian-portuguese/) | 52 |
+| English | [english](english/) | 144 |
+| Japanese | [japanese](japanese/) | 144 |
+| Simplified Chinese | [simplified-chinese](simplified-chinese/) | 144 |
+| German | [german](german/) | 144 |
+| French | [french](french/) | 144 |
+| Korean | [korean](korean/) | 144 |
+| Spanish | [spanish](spanish/) | 144 |
+| Brazilian Portuguese | [brazilian-portuguese](brazilian-portuguese/) | 144 |
 
 The translations were produced with an AI agent and checked automatically for structure, numbers, dose units, and untranslated text (see the repository README). That check does not establish accuracy. Translations require review by qualified native speakers before distribution. Source titles, publishers and citation locators are retained in their original language to identify the referenced materials.
 
-The index below links to the English files. Import any listed component products first. The app disables protocols with missing components and shows their IDs. All versions are 1.
+The index below lists the original 52 products; all 144 files exist in every language folder. Each catalog addition includes an individual-page source and its reported schedule or explicitly states when no dose is established. Import any listed component products first. The app disables protocols with missing components and shows their IDs. All versions are 1.
 
 | Product file | Protocols | Component files |
 | --- | ---: | --- |

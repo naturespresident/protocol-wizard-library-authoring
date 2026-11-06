@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "hcg",
+      "name": "HCG",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "hcg-catalog-entry",
+      "productID": "hcg",
+      "title": "HCG（5000 IU バイアル）投与量プロトコル — 出典参照",
+      "purpose": "個別ページに記載されたスケジュールと取り扱い情報を、研究・教育用の参考情報として転記しています",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は情報源自体の記述であり、独立して検証された臨床指針ではありません。ページの記載：5,000 IU のバイアルに2 mL の静菌水を加え、各投与で約500 IU です。hCGは処方薬です。投与量は適応症によって異なり、医療従事者の指導が必要です。研究用バイアルの数値は処方ではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "投与量の参考情報",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "IU",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "ページには投与ごとに500 IU と記載されていますが、投与量は適応症によって異なり、ここでは投与スケジュールは記録されていません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "適応症に応じた医療従事者による投与量設定を要する処方薬です。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "hcg-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/hcg-5000iu-vial-dosage-protocol/",
+      "title": "HCG (5000IU Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "hcg-catalog-entry",
+      "sourceID": "hcg-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONには、ページに記載されたスケジュールと製剤に関する文脈および注意事項が保持されています。臨床的に検証された投与計画を示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門・臨床領域"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "指定なし"
+    }
+  ]
+}

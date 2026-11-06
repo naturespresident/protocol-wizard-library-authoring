@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "setmelanotide",
+      "name": "Setmelanotide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "setmelanotide-catalog-entry",
+      "productID": "setmelanotide",
+      "title": "Setmelanotide (10 mg): protocolo de dosificación — referencia de la fuente",
+      "purpose": "Calendario y detalles de manipulación de una página individual, transcritos como referencia de investigación y educación",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones de la propia fuente y no se han verificado de forma independiente como orientación clínica. La página indica el calendario de la etiqueta del producto aprobado: iniciar con 2 mg por vía subcutánea al día para la obesidad genética a partir de los 12 años o con 0.5 mg al día para la obesidad hipotalámica adquirida durante 2 semanas; luego, 3 mg cada mañana (máximo). El producto aprobado viene listo para usar a 10 mg/mL y no se reconstituye. Las indicaciones son limitadas; el vial de investigación no es un medicamento aprobado.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Período inicial según la etiqueta",
+            "duration": {
+              "kind": "fixed",
+              "value": 14,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "2",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Referencia de la etiqueta del producto aprobado para la obesidad genética a partir de los 12 años; para la obesidad hipotalámica adquirida se inicia con 0.5 mg/día."
+            }
+          },
+          {
+            "name": "Dosis de mantenimiento según la etiqueta",
+            "duration": {
+              "kind": "ongoing",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "3",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Dosis máxima/de mantenimiento del producto aprobado; solo para indicaciones específicas de enfermedades raras."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Estas son dosis de la etiqueta del producto aprobado, no un respaldo al uso de viales de calidad de investigación. La fuente distingue entre obesidad genética y obesidad hipotalámica adquirida."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "setmelanotide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/setmelanotide-10mg-vial-dosage-protocol/",
+      "title": "Setmelanotide (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "setmelanotide-catalog-entry",
+      "sourceID": "setmelanotide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el calendario y el contexto de formulación indicados en la página, así como sus salvedades; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutánea"
+    }
+  ]
+}

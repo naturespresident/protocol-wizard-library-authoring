@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vk2735",
+      "name": "VK2735",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vk2735-catalog-entry",
+      "productID": "vk2735",
+      "title": "VK2735（10 mg）剂量方案——来源参考",
+      "purpose": "单页给药安排与处理细节，转录为研究和教育参考资料",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，并未经过独立验证，不能视为临床指导。VENTURE 试验采用每周一次皮下注射，剂量组为 2.5–15 mg，并每周进行滴定。这是一种研究中的双重 GIP/GLP-1 激动剂；页面标注，该研究级药瓶并非试验用产品，也不构成处方。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "VENTURE 试验剂量组",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "2.5",
+              "maximum": "15",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": 1,
+              "doses_per_day": 1,
+              "description": "每周一次，并每周滴定；各剂量代表不同的试验组。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "试验组方案不等同于研究级药瓶的使用方案；该药仍处于研究阶段且尚未获批。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vk2735-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vk2735-10mg-vial-dosage-protocol/",
+      "title": "VK2735 (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vk2735-catalog-entry",
+      "sourceID": "vk2735-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单个来源页面。此 JSON 保留了该页面所述的给药安排、制剂背景及其注意事项；它并不能确立经临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下注射"
+    }
+  ]
+}

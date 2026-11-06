@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "slu-pp-332-catalog-entry",
+      "productID": "slu-pp-332",
+      "title": "SLU-PP-332 (5mg 바이알) 용량 프로토콜 — 출처 참고",
+      "purpose": "연구/교육 참고 자료로 옮긴 개별 페이지의 일정 및 취급 세부 정보예요.",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "상업 출처에 기반한 간접 자료예요. 아래 세부 내용은 해당 출처 자체의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 생쥐 환산 일정만 해당해요: 1–2주차에는 625 mcg 하루 두 차례(1,250 mcg/day), 이어서 3–8주차에는 1,250 mcg 하루 두 차례(2,500 mcg/day)예요. 약 25 g 생쥐를 기준으로 한 것이며, 사람 용량이 아니에요. 참고 계산은 (5 mg + 3 mL)이에요. 이 물질은 펩타이드가 아닌 소분자이며, 전임상 단계에만 해당해요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "1–2주차, 생쥐 환산",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "625",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "투여당 625 mcg, 하루 두 차례(1,250 mcg/day), 약 25 g 생쥐 기준이에요. 사람 용량이 아니에요."
+            }
+          },
+          {
+            "name": "3–8주차, 생쥐 환산",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1250",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "투여당 1,250 mcg, 하루 두 차례(2,500 mcg/day), 약 25 g 생쥐 기준이에요. 사람 용량이 아니에요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "전임상 생쥐 환산 일정만 해당해요. SLU-PP-332는 펩타이드가 아닌 소분자예요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "slu-pp-332-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/slu-pp-332-5mg-vial-dosage-protocol/",
+      "title": "SLU-PP-332 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "slu-pp-332-catalog-entry",
+      "sourceID": "slu-pp-332-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정 및 제형 맥락과 주의 문구를 보존하며, 임상적으로 검증된 요법을 확립하지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "기타"
+    }
+  ]
+}

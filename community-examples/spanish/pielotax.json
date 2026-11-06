@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pielotax",
+      "name": "Pielotax",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pielotax-catalog-entry",
+      "productID": "pielotax",
+      "title": "Pielotax (biorregulador renal): protocolo de dosificación — referencia de la fuente",
+      "purpose": "Calendario y detalles de manipulación de la página individual, transcritos como referencia de investigación y educación",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles a continuación son declaraciones propias de la fuente, no orientación clínica verificada de forma independiente. Convención para cápsulas orales: 1–2 cápsulas una o dos veces al día con alimentos durante aproximadamente 30 días, repetido 2–3 veces al año. Convención del fabricante, no un régimen establecido en un ensayo clínico; no requiere reconstitución.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Ciclo oral",
+            "duration": {
+              "kind": "fixed",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Una o dos veces al día con alimentos; repetir 2–3 veces al año."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La fuente indica una o dos veces al día con alimentos durante aproximadamente 30 días, repetido 2–3 veces al año. La frecuencia alternativa se conserva en la descripción del calendario."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pielotax-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pielotax-kidney-bioregulator-dosage-protocol/",
+      "title": "Pielotax (Kidney Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pielotax-catalog-entry",
+      "sourceID": "pielotax-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página individual de la fuente. Este JSON conserva el calendario y el contexto de formulación indicados en la página, así como sus salvedades; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializado y clínico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

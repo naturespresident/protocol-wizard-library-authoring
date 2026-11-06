@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "chonluten",
+      "name": "Chonluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "chonluten-catalog-entry",
+      "productID": "chonluten",
+      "title": "Chonluten（20mg バイアル）投与プロトコル — 出典参照",
+      "purpose": "個別ページのスケジュールと取扱いの詳細を、研究・教育目的の参考資料として転記しています。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下はページに記載された内容であり、独立して検証された臨床指針ではありません。出典が報告する毎日の皮下投与による用量漸増：第1–2週は250 mcg、第3–4週は500 mcg、第5–8週は1,000 mcg、第9–16週は1,500 mcg。20 mg + 3 mL の静菌水（約6.67 mg/mL）。研究目的のみです。エビデンスは弱く、主に前臨床研究であり、承認されたヒト用量はありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第1–2週",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "250",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第3–4週",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第5–8週",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第9–16週",
+            "duration": {
+              "kind": "fixed",
+              "value": 8,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "出典が報告する毎日の皮下投与による用量漸増：第1–2週は250 mcg、第3–4週は500 mcg、第5–8週は1,000 mcg、第9–16週は1,500 mcg。20 mg + 3 mL の静菌水（約6.67 mg/mL）。研究目的のみです。エビデンスは弱く、主に前臨床研究であり、承認されたヒト用量はありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "chonluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/chonluten-20mg-vial-dosage-protocol/",
+      "title": "Chonluten (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "chonluten-catalog-entry",
+      "sourceID": "chonluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。以下は出典に記載された内容であり、独立して検証された臨床指針ではありません。出典に別段の記載がない限り、ヒトでのレジメンは確立されていません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "専門・臨床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下投与"
+    }
+  ]
+}

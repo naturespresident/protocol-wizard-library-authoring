@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "aicar",
+      "name": "AICAR",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "aicar-catalog-entry",
+      "productID": "aicar",
+      "title": "Protocolo de dosificación de AICAR (vial de 50mg) — referencia de la fuente",
+      "purpose": "Programa y detalles de manipulación de una página individual, transcritos como referencia de investigación y educación",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles siguientes son afirmaciones de la propia fuente, no orientación clínica verificada de forma independiente. La página indica la reconstitución con 3 mL de agua bacteriostática como referencia de manipulación y describe ~1 mg por administración como referencia de investigación, expresamente no como orientación de dosificación para seres humanos o animales. Compuesto no aprobado; beneficio en seres humanos no demostrado y prohibido por la WADA.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Cantidad para uso en investigación",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Aproximadamente 1 mg por administración es una cantidad de referencia para la manipulación; no se indica la frecuencia."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La fuente informa aproximadamente 1 mg por administración, no como recomendación de dosificación para seres humanos o animales; se desconoce el esquema."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "aicar-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/aicar-50-mg-vial-dosage-protocol/",
+      "title": "AICAR (50mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "aicar-catalog-entry",
+      "sourceID": "aicar-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página individual de la fuente. Este JSON conserva el contexto del esquema y la formulación, así como las salvedades indicadas en la página; no establece un régimen validado clínicamente.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "Peso y metabolismo"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "No especificado"
+    }
+  ]
+}

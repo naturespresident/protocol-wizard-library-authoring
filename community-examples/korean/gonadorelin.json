@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "gonadorelin",
+      "name": "Gonadorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "gonadorelin-catalog-entry",
+      "productID": "gonadorelin",
+      "title": "Gonadorelin (2mg 바이알) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "상업적 보조 출처예요. 아래 세부 사항은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 페이지에는 2 mg 바이알, 정균수 2 mL 분량 및 회당 약 100 mcg 분량이 연구 참고 정보로 제시되어 있어요. 출처는 연구용으로만 사용하도록 명시하며, 사람의 자가 투여 지침은 없어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "용량 참고 정보",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "페이지에는 회당 약 100 mcg 분량을 제시하지만, 수집된 요약에는 투여 빈도나 치료 과정이 나와 있지 않아요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "처방 호르몬이며, 자가 투여 일정을 추론하지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "gonadorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/gonadorelin-2-mg-vial-dosage-protocol/",
+      "title": "Gonadorelin (2mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "gonadorelin-catalog-entry",
+      "sourceID": "gonadorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 해당 페이지에 명시된 일정/제형의 맥락과 주의 사항을 보존하며, 임상적으로 검증된 요법을 확립하지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "명시되지 않았어요"
+    }
+  ]
+}

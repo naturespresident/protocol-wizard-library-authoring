@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "mk-677",
+      "name": "MK-677",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "mk-677-catalog-entry",
+      "productID": "mk-677",
+      "title": "MK-677 (Ibutamoren, 25 mg) 투여 프로토콜 — 출처 참고용",
+      "purpose": "개별 페이지의 일정 및 취급 세부사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "간접 상업 출처예요. 아래 세부사항은 출처 자체의 설명이며 독립적으로 검증된 임상 지침이 아니에요. 인체 시험에서는 5–25 mg 용량을 매일 한 번 경구 투여했어요. 대부분의 체성분 자료에서는 25 mg/day를 사용해요. 경구 활성이 있으며 재구성이 필요하지 않아요. 승인된 적이 없으며 연구용 화학물질이에요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "인체 시험 용량 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "5",
+              "maximum": "25",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "인체 시험에서는 5–25 mg 용량을 매일 한 번 경구 투여했어요. 대부분의 체성분 자료에서는 25 mg/day를 사용해요. 경구 활성이 있으며 재구성이 필요하지 않아요. 승인된 적이 없으며 연구용 화학물질이에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "mk-677-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/mk-677-25mg-dosage-protocol/",
+      "title": "MK-677 (Ibutamoren, 25 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "mk-677-catalog-entry",
+      "sourceID": "mk-677-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정/제형 관련 맥락과 주의사항을 보존하며, 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "성장 호르몬"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "경구"
+    }
+  ]
+}

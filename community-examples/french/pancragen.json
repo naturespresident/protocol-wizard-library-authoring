@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pancragen",
+      "name": "Pancragen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pancragen-catalog-entry",
+      "productID": "pancragen",
+      "title": "Protocole de dosage de Pancragen (flacon de 20mg) — référence de la source",
+      "purpose": "Schéma propre à cette page et détails de manipulation, retranscrits à titre de référence de recherche et d’information",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Source commerciale secondaire ; les détails ci-dessous reprennent les propres déclarations de la source et ne constituent pas des recommandations cliniques vérifiées indépendamment. Aucune dose humaine établie. La page ne rapporte qu’une ancienne quantité utilisée chez le macaque rhésus : 50 mcg par animal, chaque jour, par injection IM pendant 10 jours. L’article humain accessible ne précise ni dose, ni voie, ni durée de traitement. 20 mg avec 3 mL d’eau bactériostatique constituent uniquement une référence de reconstitution.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Schéma de traitement de l’étude chez le macaque rhésus",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "50",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Quantité rapportée par animal chez des macaques rhésus ; il ne s’agit pas d’une dose humaine."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La seule quantité quotidienne publiée in vivo rapportée par cette page est de 50 mcg par macaque rhésus, une fois par jour par voie IM pendant 10 jours. L’article humain ne précise ni dose, ni voie, ni durée de traitement."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pancragen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pancragen-20mg-vial-dosage-protocol/",
+      "title": "Pancragen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pancragen-catalog-entry",
+      "sourceID": "pancragen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Page de la source examinée. Ce fichier JSON conserve le schéma et le contexte de formulation indiqués par la page ainsi que ses réserves ; il n’établit pas de schéma thérapeutique validé cliniquement.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Spécialisé et clinique"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramusculaire"
+    }
+  ]
+}

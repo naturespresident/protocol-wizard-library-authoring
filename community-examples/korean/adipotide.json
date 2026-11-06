@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "adipotide",
+      "name": "Adipotide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "adipotide-catalog-entry",
+      "productID": "adipotide",
+      "title": "Adipotide (5 mg) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "이차 상업 출처이며, 아래 세부 사항은 출처 자체의 진술이지 독립적으로 검증된 임상 지침은 아니에요. 인체 용량은 없어요. 동물에서만 보고된 양은 생쥐 약 0.4–3 mg/kg/day이며, 원숭이 투여 요법은 종별 단기 일일 주기였어요. 5 mg + 2 mL 희석은 참고용 계산일 뿐이에요. 원숭이 연구에서 가역적인 신세뇨관 기능 장애가 관찰되었어요. FDA 승인을 받지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "생쥐 연구 용량 범위",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.4",
+              "maximum": "3",
+              "unit": "mg",
+              "basis": "body_weight"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "동물에서만 보고된 생쥐 용량 범위예요. 인체 용량은 없어요. 원숭이 투여 과정은 종별로 달랐어요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "동물 연구에서의 노출만 보고되었어요. 이 페이지는 원숭이 연구에서 신세뇨관 기능 장애가 보고되었다고 설명해요. 인체 용량이나 안전성 자료는 없어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "adipotide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/adipotide-5mg-vial-dosage-protocol/",
+      "title": "Adipotide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "adipotide-catalog-entry",
+      "sourceID": "adipotide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 기재된 일정 및 제형의 맥락과 주의 사항을 보존하지만, 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "체중 및 대사"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "기타"
+    }
+  ]
+}

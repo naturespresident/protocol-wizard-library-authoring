@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "matrixyl-3000",
+      "name": "Matrixyl 3000",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "matrixyl-3000-catalog-entry",
+      "productID": "matrixyl-3000",
+      "title": "Matrixyl 3000 剂量方案——来源参考",
+      "purpose": "单页日程和操作细节，转录为研究／教育参考资料",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是来源本身的表述，并非经过独立验证的临床指导。外用化妆品复配物（palmitoyl tripeptide-1 + palmitoyl tetrapeptide-7），在成品精华液中的配方浓度约为 3–10%，并涂抹于清洁后的皮肤。没有注射或口服剂量；证据有限，且主要由制造商主导。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "单页参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "外用化妆品复配物（palmitoyl tripeptide-1 + palmitoyl tetrapeptide-7），在成品精华液中的配方浓度约为 3–10%，并涂抹于清洁后的皮肤。没有注射或口服剂量；证据有限，且主要由制造商主导。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "外用化妆品复配物（palmitoyl tripeptide-1 + palmitoyl tetrapeptide-7），在成品精华液中的配方浓度约为 3–10%，并涂抹于清洁后的皮肤。没有注射或口服剂量；证据有限，且主要由制造商主导。注意：该单页来源未提供数值形式的给药剂量；注释中保留了其所述的配方浓度或定性日程，且未将其换算为剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "matrixyl-3000-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/matrixyl-3000-topical-serum-dosage-protocol/",
+      "title": "Matrixyl 3000 Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "matrixyl-3000-catalog-entry",
+      "sourceID": "matrixyl-3000-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单页来源。此 JSON 保留了该页面所述的日程／配方背景及其注意事项；这并不能确立经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "抗衰老与皮肤"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

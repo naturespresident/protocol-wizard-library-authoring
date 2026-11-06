@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cortexin",
+      "name": "Cortexin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cortexin-catalog-entry",
+      "productID": "cortexin",
+      "title": "Cortexin (10 mg) 투여 프로토콜 — 출처 참고용",
+      "purpose": "연구 및 교육 참고용으로 옮긴 개별 페이지의 일정 및 취급 세부 정보예요.",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "상업적 간접 출처이며, 아래 세부 내용은 해당 출처 자체의 진술로 독립적으로 검증된 임상 지침이 아니에요. 페이지에 보고된 러시아 등록 관례: 전체 10 mg 바이알을 10일 연속 하루 한 번 근육 내 투여하고, 1–2 mL 희석액에 재용해하며, 3–6개월 후에만 반복해요. 러시아의 처방의약품이며 FDA 승인을 받지 않았어요. 사람 대상 근거는 대부분 러시아어로 작성되었고 대조군이 없는 경우가 많아요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "러시아 등록 투여 과정",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "하루에 전체 10 mg 바이알을 투여해요. 출처에 따르면 1–2 mL 희석액에 녹여요. 처방된 경우 3–6개월 후에 반복해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "러시아에 등록된 제품의 투여 일정이에요. FDA 승인을 받지 않았으며 연구용 바이알의 사람 대상 사용을 권고하지 않아요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortexin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cortexin-10mg-vial-dosage-protocol/",
+      "title": "Cortexin (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cortexin-catalog-entry",
+      "sourceID": "cortexin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 해당 페이지에 기재된 일정과 제형 관련 맥락 및 주의사항을 보존하며, 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경학"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "근육 내"
+    }
+  ]
+}

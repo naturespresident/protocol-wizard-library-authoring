@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "testoluten",
+      "name": "Testoluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "testoluten-catalog-entry",
+      "productID": "testoluten",
+      "title": "Testoluten（睾丸生物调节剂）给药方案——来源参考",
+      "purpose": "逐页转录的给药安排与处理细节，作为研究/教育参考",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节为该来源自身的表述，并非经过独立核实的临床指导。口服胶囊用法，常见剂量为 20 mg：每日 1–2 粒，持续 10–30 天，通常在餐前服用，每年重复 2–3 次。相关制剂 testilin 的研究仅见于动物；Testoluten 没有用于睾酮或生育方面的对照人体证据。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "口服疗程",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "通常在餐前服用；每年重复 2–3 个疗程。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "页面称胶囊规格为 20 mg；每日 1–2 粒，持续 10–30 天，每年重复 2–3 次。该提取物为专有配方；相关 testilin 证据仅来自动物研究。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "testoluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/testoluten-testes-bioregulator-dosage-protocol/",
+      "title": "Testoluten (Testes Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "testoluten-catalog-entry",
+      "sourceID": "testoluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。本 JSON 保留该页面所述的给药安排/制剂背景及其注意事项；这并不代表该方案已获得临床验证。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专科与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "口服"
+    }
+  ]
+}

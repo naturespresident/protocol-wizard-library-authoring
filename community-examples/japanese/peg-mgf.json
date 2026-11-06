@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "peg-mgf",
+      "name": "PEG-MGF",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "peg-mgf-catalog-entry",
+      "productID": "peg-mgf",
+      "title": "PEG-MGF（2mg バイアル）の用量プロトコル — 出典資料",
+      "purpose": "個別ページに記載されたスケジュールと取り扱いの詳細を転記した、研究・教育用の参考情報です。",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下はページに記載された内容であり、独立して検証された臨床指針ではありません。研究上の慣行では、短期間の4–6週間のサイクルで、週に二回または三回の皮下投与として200–400 mcg が挙げられています。前臨床研究のみで、ヒト試験も承認された使用もありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "研究上の慣行に基づくサイクル",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week",
+              "minimum": 4,
+              "maximum": 6
+            },
+            "dose": {
+              "minimum": "200",
+              "maximum": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "出典では週2–3回の注射と記載されています。ヒト試験はありません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "前臨床研究および販売業者の慣行に限られ、FDA承認はなく、ヒト試験もありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "peg-mgf-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/peg-mgf-2mg-vial-dosage-protocol/",
+      "title": "PEG-MGF (2mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "peg-mgf-catalog-entry",
+      "sourceID": "peg-mgf-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。これらは出典に記載された内容であり、独立して検証された臨床指針ではありません。出典に別途記載がない限り、ヒトで確立された投与レジメンはありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "成長ホルモン"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "皮下"
+    }
+  ]
+}

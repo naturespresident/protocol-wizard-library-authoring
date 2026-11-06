@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "bronchogen",
+      "name": "Bronchogen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "bronchogen-catalog-entry",
+      "productID": "bronchogen",
+      "title": "Bronchogen（20mg 小瓶）剂量方案——来源参考",
+      "purpose": "单页剂量安排与处理细节，转录为研究／教育参考资料",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源本身的陈述，并非经过独立验证的临床指导。尚无已确立的人体剂量。已发表的剂量证据来自细胞培养浓度和大鼠注射；这些数据无法转换为人体 mg 或 mcg 给药方案。这里只将 20 mg 小瓶用 3 mL 抑菌水复溶列作浓度计算（6.67 mg/mL）。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "单页参考",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "尚无已确立的人体剂量。已发表的剂量证据来自细胞培养浓度和大鼠注射；这些数据无法转换为人体 mg 或 mcg 给药方案。这里只将 20 mg 小瓶用 3 mL 抑菌水复溶列作浓度计算（6.67 mg/mL）。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "尚无已确立的人体剂量。已发表的剂量证据来自细胞培养浓度和大鼠注射；这些数据无法转换为人体 mg 或 mcg 给药方案。这里只将 20 mg 小瓶用 3 mL 抑菌水复溶列作浓度计算（6.67 mg/mL）。标记：单独来源页面未提供数字形式的给药剂量；说明中提及的制剂浓度或定性剂量安排均保留在备注中，且未转换为剂量。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "bronchogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/bronchogen-20mg-vial-dosage-protocol/",
+      "title": "Bronchogen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "bronchogen-catalog-entry",
+      "sourceID": "bronchogen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已查阅单独的来源页面。此 JSON 保留了该页面所述的剂量安排／制剂背景及其注意事项；这并不能确立经临床验证的给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

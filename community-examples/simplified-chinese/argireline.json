@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "argireline",
+      "name": "Argireline",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "argireline-catalog-entry",
+      "productID": "argireline",
+      "title": "Argireline 外用方案——来源参考",
+      "purpose": "所引来源中的外用化妆品使用安排和配方参考",
+      "methodID": "topical",
+      "population": "Topical cosmetic or research-formulation references",
+      "evidenceNotes": "Peptides.org 描述了在完整皮肤上每日外用两次、至少持续 30 天；其示例参考配方为 10% 乳剂，报告用量约为 2 mg/cm²。Dosage Peptide 则单独描述将其提供的水溶液以 5–10% 的比例加入免洗产品中，每日使用一次或两次。这两种配方仅对应各自来源，不应视为可互换，也不应视为经过验证的医疗方案。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "外用参考安排",
+            "duration": {
+              "kind": "minimum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "按照 Peptides.org 的描述，在完整的目标皮肤上每日涂抹两次薄层，至少持续 30 天。其示例参考配方为 10% 乳剂，用量约为 2 mg/cm²；这些百分比和单位面积质量单位保留在备注中，不表示为结构化剂量。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_units_not_supported_by_schema"
+        ],
+        "notes": "Peptides.org 示例参考：10% 乳剂，约 2 mg/cm²，每日两次涂抹于完整的目标皮肤，持续 30 天或直至达到期望效果。该文章的速查表写明至少 30 天。Dosage Peptide 则单独描述将其提供的 Argireline 水溶液以 5–10% 的比例加入免洗产品中，每日使用一次或两次；这是另一种配方参考。剂量仍为 null，因为该架构无法编码百分比浓度或 mg/cm²。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "argireline-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/argireline-10-topical-solution-dosage-protocol/",
+      "title": "Argireline (10% Topical) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "argireline-peptides-org",
+      "url": "https://www.peptides.org/argireline-dosage-calculator/",
+      "title": "Argireline Dosage Calculator and Chart | A-Z Guide",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留了页面所述的使用安排、配方背景及其注意事项；它并未确立经过临床验证的方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-peptides-org",
+      "locator": "Argireline Dosage Chart; Sample Argireline Dosage Protocol; Argireline Administration Notes",
+      "evidenceNote": "该页面描述了一项外用研究参考：完整皮肤、每日两次、至少 30 天；示例使用 10% 乳剂，并报告约 2 mg/cm²。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "抗衰老与皮肤"
+    }
+  ],
+  "methods": [
+    {
+      "id": "topical",
+      "name": "外用"
+    }
+  ]
+}

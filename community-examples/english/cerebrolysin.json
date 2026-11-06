@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cerebrolysin",
+      "name": "Cerebrolysin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cerebrolysin-catalog-entry",
+      "productID": "cerebrolysin",
+      "title": "Cerebrolysin (60mg Vial) Dosage Protocol — source reference",
+      "purpose": "Individual-page schedule and handling details, transcribed as a research/educational reference",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Secondary commercial source; the details below are the source's own statements, not independently verified clinical guidance. Page's reference schedule: reconstituted 60 mg vial with 3 mL, then 20 mg/day in week 1; 24 mg/day split AM/PM week 2; 28 mg/day split AM/PM week 3; 32 mg/day split AM/PM week 4 onward. This is a commercial research reference, not human-use guidance; product is porcine brain-derived mixture, not FDA-approved in the US.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Week 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Week 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "24",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Week 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "28",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Week 4 onward",
+            "duration": {
+              "kind": "ongoing",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "32",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Page's reference schedule: reconstituted 60 mg vial with 3 mL, then 20 mg/day in week 1; 24 mg/day split AM/PM week 2; 28 mg/day split AM/PM week 3; 32 mg/day split AM/PM week 4 onward. This is a commercial research reference, not human-use guidance; product is porcine brain-derived mixture, not FDA-approved in the US."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cerebrolysin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cerebrolysin-60mg-vial-dosage-protocol/",
+      "title": "Cerebrolysin (60mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cerebrolysin-catalog-entry",
+      "sourceID": "cerebrolysin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Individual source page reviewed. This JSON preserves the page's stated schedule/formulation context and its caveats; it does not establish a clinically validated regimen.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitive & Neurological"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuscular"
+    }
+  ]
+}

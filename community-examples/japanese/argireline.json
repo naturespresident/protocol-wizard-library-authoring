@@ -1,0 +1,108 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "argireline",
+      "name": "Argireline",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "argireline-catalog-entry",
+      "productID": "argireline",
+      "title": "Argireline 外用プロトコル — 出典に基づく参考情報",
+      "purpose": "引用された出典に記載された、化粧品としての外用スケジュールと製剤に関する参考情報です",
+      "methodID": "topical",
+      "population": "Topical cosmetic or research-formulation references",
+      "evidenceNotes": "Peptides.orgでは、損傷のない皮膚に毎日二回、少なくとも30日間塗布すると説明しています。掲載例では10%エマルションを用い、約2 mg/cm²としています。Dosage Peptideは別途、同社が提供する水溶液を5–10%配合した洗い流さない製品を毎日一回または二回使用すると説明しています。両製剤は各出典に固有のものであり、相互に置き換え可能なものや、妥当性が確認された医療レジメンとして扱うべきではありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "外用の参考スケジュール",
+            "duration": {
+              "kind": "minimum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "Peptides.orgの説明に従い、対象となる損傷のない皮膚に薄く毎日二回、少なくとも30日間塗布します。掲載例は10%エマルションで約2 mg/cm²です。これらの濃度と面積あたりの質量の単位は、構造化された用量としてではなく、注記に記載しています。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_units_not_supported_by_schema"
+        ],
+        "notes": "Peptides.orgの掲載例：10%エマルションを約2 mg/cm²、対象となる損傷のない皮膚に毎日二回、30日間または望ましい結果が得られるまで塗布します。同記事の簡易表では、少なくとも30日間とされています。Dosage Peptideは別途、同社が提供するArgireline水溶液を5–10%配合した洗い流さない製品を毎日一回または二回使用すると説明しています。これは異なる製剤に関する参考情報です。スキーマでは濃度やmg/cm²を表現できないため、用量はnullのままです。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "argireline-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/argireline-10-topical-solution-dosage-protocol/",
+      "title": "Argireline (10% Topical) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "argireline-peptides-org",
+      "url": "https://www.peptides.org/argireline-dosage-calculator/",
+      "title": "Argireline Dosage Calculator and Chart | A-Z Guide",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールや製剤の背景と注意事項を保持していますが、臨床的に妥当性が確認されたレジメンを示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "argireline-catalog-entry",
+      "sourceID": "argireline-peptides-org",
+      "locator": "Argireline Dosage Chart; Sample Argireline Dosage Protocol; Argireline Administration Notes",
+      "evidenceNote": "このページには、損傷のない皮膚に毎日二回、少なくとも30日間使用する外用の研究参考例が記載されています。掲載例では10%エマルションを使用し、約2 mg/cm²としています。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "エイジングケア・肌"
+    }
+  ],
+  "methods": [
+    {
+      "id": "topical",
+      "name": "外用"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "dermorphin",
+      "name": "Dermorphin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "dermorphin-catalog-entry",
+      "productID": "dermorphin",
+      "title": "Dermorphin（5 mg）用量プロトコル — 出典参照用",
+      "purpose": "個別ページのスケジュールと取り扱いの詳細を、研究・教育用の参考情報として転記しています。",
+      "methodID": "unspecified",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は情報源自身の記述であり、臨床ガイダンスとして独立に検証されたものではありません。ヒトまたは獣医療での用量はなく、ページには投与プロトコルが記載されていません。公表されている薬理学的知見は動物のみを対象としています（微量の脳内ナノモル量、またはげっ歯類の体重あたりの量）。強力なμオピオイド受容体作動薬であり、実験室研究用試薬に限られます。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "個別ページの参考情報",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "ヒトまたは獣医療での用量はなく、ページには投与プロトコルが記載されていません。公表されている薬理学的知見は動物のみを対象としています（微量の脳内ナノモル量、またはげっ歯類の体重あたりの量）。強力なμオピオイド受容体作動薬であり、実験室研究用試薬に限られます。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_dose_amount_not_reported"
+        ],
+        "notes": "ヒトまたは獣医療での用量はなく、ページには投与プロトコルが記載されていません。公表されている薬理学的知見は動物のみを対象としています（微量の脳内ナノモル量、またはげっ歯類の体重あたりの量）。強力なμオピオイド受容体作動薬であり、実験室研究用試薬に限られます。注意：個別の情報源ページには数値で示された投与量が記載されていません。記載がある場合、製剤濃度または定性的なスケジュールは注記にそのまま保持し、投与量に換算していません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "dermorphin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/dermorphin-5mg-vial-dosage-protocol/",
+      "title": "Dermorphin (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "dermorphin-catalog-entry",
+      "sourceID": "dermorphin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の情報源ページを確認しました。このJSONには、そのページに記載されたスケジュール／製剤の文脈と注意事項が保持されていますが、臨床的に検証されたレジメンを示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知・神経系"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "未指定"
+    }
+  ]
+}

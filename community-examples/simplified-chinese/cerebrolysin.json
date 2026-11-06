@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cerebrolysin",
+      "name": "Cerebrolysin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cerebrolysin-catalog-entry",
+      "productID": "cerebrolysin",
+      "title": "Cerebrolysin（60mg 药瓶）剂量方案——来源参考",
+      "purpose": "单页日程与操作细节，转录为研究／教育参考",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自己的陈述，未经独立验证，不能视为临床指导。该页面的参考日程：将 60 mg 药瓶用 3 mL 复溶，然后第 1 周每日 20 mg；第 2 周每日 24 mg，分上午／下午服用；第 3 周每日 28 mg，分上午／下午服用；第 4 周及之后每日 32 mg，分上午／下午服用。这是商业研究参考，不是人体使用指导；该产品是猪脑来源的混合物，在美国未经 FDA 批准。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第 1 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 2 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "24",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 3 周",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "28",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "第 4 周及之后",
+            "duration": {
+              "kind": "ongoing",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "32",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "该页面的参考日程：将 60 mg 药瓶用 3 mL 复溶，然后第 1 周每日 20 mg；第 2 周每日 24 mg，分上午／下午服用；第 3 周每日 28 mg，分上午／下午服用；第 4 周及之后每日 32 mg，分上午／下午服用。这是商业研究参考，不是人体使用指导；该产品是猪脑来源的混合物，在美国未经 FDA 批准。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cerebrolysin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cerebrolysin-60mg-vial-dosage-protocol/",
+      "title": "Cerebrolysin (60mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cerebrolysin-catalog-entry",
+      "sourceID": "cerebrolysin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单个来源页面。此 JSON 保留该页面所述的日程／配方背景及其注意事项；这并不能确立经过临床验证的用药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "认知与神经系统"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "肌内注射"
+    }
+  ]
+}

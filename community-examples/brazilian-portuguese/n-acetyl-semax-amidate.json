@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-semax-amidate",
+      "name": "N-Acetyl Semax Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-semax-amidate-catalog-entry",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate — cronograma intranasal de referência",
+      "purpose": "Cronograma de pesquisa intranasal relatado pela fonte; não validado de forma independente como orientação clínica",
+      "methodID": "intranasal",
+      "population": "Research reference; the source notes limited amidate-specific clinical research",
+      "evidenceNotes": "O gráfico e a seção de dosagem do Peptides.org descrevem uma referência de pesquisa intranasal começando em 600 mcg/dia, com ajuste conforme necessário e máximo de 900 mcg/dia por até 30 dias. O gráfico indica 2–3 jatos/dia. Também lista uma alternativa de 600 mcg/dia por até 60 dias. A página afirma que faltam pesquisas clínicas específicas sobre o amidato e se baseia em referências sobre Semax.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência intranasal padrão",
+            "duration": {
+              "kind": "maximum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "A fonte diz para começar com 600 mcg/dia e ajustar conforme necessário, até 900 mcg/dia; o gráfico expressa isso como 2–3 jatos/dia. As concentrações dos sprays listadas são 10 mg/10 mL (0.1%) e 30 mg/10 mL (0.3%), cada uma com alegação de fornecer 300 mcg por dose."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "A fonte descreve uma pausa com duração igual à do estudo. O cronograma alternativo está registrado separadamente. Esta é uma referência de pesquisa relatada pela fonte, não um protocolo clínico estabelecido para N-Acetyl Semax Amidate."
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-intranasal-extended",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate — referência intranasal estendida",
+      "purpose": "Alternativa separada de cronograma de pesquisa relatado pela fonte",
+      "methodID": "intranasal",
+      "population": "Research reference; amidate-specific clinical validation not established",
+      "evidenceNotes": "Peptides.org lista isso como um cronograma de pesquisa alternativo. Segundo a página, faltam dados clínicos de administração específicos do amidato; as alegações da fonte não foram validadas de forma independente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Alternativa intranasal estendida",
+            "duration": {
+              "kind": "maximum",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "600 mcg por dia por até 60 dias, conforme listado como alternativa pela fonte."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "A fonte lista até 60 dias a 600 mcg por dia, seguidos de um período de pausa igual à duração do estudo. Este não é um protocolo humano validado."
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-injectable-reference",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate — referência injetável",
+      "purpose": "Alternativa separada de cronograma de pesquisa relatado pela fonte",
+      "methodID": "other",
+      "population": "Research reference; source does not specify injection route",
+      "evidenceNotes": "Peptides.org lista isso como um cronograma de pesquisa alternativo. Segundo a página, faltam dados clínicos de administração específicos do amidato; as alegações da fonte não foram validadas de forma independente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Referência injetável padrão",
+            "duration": {
+              "kind": "maximum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "500",
+                "1000"
+              ],
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "A fonte diz para começar com 500 mcg uma vez ao dia e aumentar para 1,000 mcg uma ou duas vezes ao dia. Não informa quando nem como aumentar."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "A via injetável não é especificada. A página lista isso como referência de pesquisa, com duração máxima do estudo de 30 dias e período de pausa igual à duração do estudo. Não inferir uma via nem um esquema de titulação."
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-injectable-extended",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidate — referência injetável estendida",
+      "purpose": "Alternativa separada de cronograma de pesquisa relatado pela fonte",
+      "methodID": "other",
+      "population": "Research reference; source does not specify injection route",
+      "evidenceNotes": "Peptides.org lista isso como um cronograma de pesquisa alternativo. Segundo a página, faltam dados clínicos de administração específicos do amidato; as alegações da fonte não foram validadas de forma independente.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Alternativa injetável estendida",
+            "duration": {
+              "kind": "maximum",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "600 mcg por dia por até 60 dias, conforme listado na linha de esquema alternativo da fonte; a via não é especificada."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "A linha de esquema alternativo da fonte também lista isso para formulações injetáveis. Os detalhes da via e da administração não são fornecidos. O período de pausa tem duração igual à do estudo."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-semax-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-semax-amidate-nasal-spray-dosage-protocol/",
+      "title": "N-Acetyl Semax Amidate (Nasal Spray) Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "n-acetyl-semax-amidate-peptides-org",
+      "url": "https://www.peptides.org/n-acetyl-semax-amidate-dosage-calculator/",
+      "title": "N-Acetyl Semax Amidate Dosage Calculator and Chart",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-semax-amidate-catalog-entry",
+      "sourceID": "n-acetyl-semax-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "A fonte original fornece contexto sobre a formulação. A fonte Peptides.org relata separadamente cronogramas de pesquisa intranasal e injetável.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-intranasal-extended",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "Cronograma alternativo relatado pela página; ela observa que há poucas pesquisas clínicas específicas sobre o amidato.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-injectable-reference",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "Cronograma alternativo relatado pela página; ela observa que há poucas pesquisas clínicas específicas sobre o amidato.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-injectable-extended",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "Cronograma alternativo relatado pela página; ela observa que há poucas pesquisas clínicas específicas sobre o amidato.",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo e neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "Intranasal"
+    },
+    {
+      "id": "other",
+      "name": "Injeção (via não especificada)"
+    }
+  ]
+}

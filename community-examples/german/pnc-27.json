@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "pnc-27",
+      "name": "PNC-27",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "pnc-27-catalog-entry",
+      "productID": "pnc-27",
+      "title": "PNC-27 (30mg-Durchstechflasche) Dosierungsprotokoll — Quellenreferenz",
+      "purpose": "Zeitplan und Angaben zur Handhabung auf der Einzelseite, als Forschungs-/Bildungsreferenz übernommen",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Kommerzielle Sekundärquelle; die folgenden Angaben stammen von der Quelle selbst und sind keine unabhängig verifizierte klinische Empfehlung. Tabelle der Seite zu Forschungs-/Bildungszwecken: 100 mcg täglich in den Wochen 1–2; 200 mcg in den Wochen 3–4; 300 mcg in den Wochen 5–8; 400 mcg in den Wochen 9–12; 500 mcg in den Wochen 13–16. 30 mg + 3 mL bakteriostatisches Wasser (10 mg/mL). Keine Studien am Menschen; FDA-Warnung vor vermarkteten Krebsbehandlungsprodukten.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Wochen 1–2",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Wochen 3–4",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Wochen 5–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "300",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Wochen 9–12",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "400",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Wochen 13–16",
+            "duration": {
+              "kind": "fixed",
+              "value": 4,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Tabelle der Seite zu Forschungs-/Bildungszwecken: 100 mcg täglich in den Wochen 1–2; 200 mcg in den Wochen 3–4; 300 mcg in den Wochen 5–8; 400 mcg in den Wochen 9–12; 500 mcg in den Wochen 13–16. 30 mg + 3 mL bakteriostatisches Wasser (10 mg/mL). Keine Studien am Menschen; FDA-Warnung vor vermarkteten Krebsbehandlungsprodukten."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "pnc-27-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/pnc-27-30-mg-vial-dosage-protocol/",
+      "title": "PNC-27 (30mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "pnc-27-catalog-entry",
+      "sourceID": "pnc-27-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Die einzelne Quellenseite wurde geprüft. Dieses JSON übernimmt den dort angegebenen Zeitplan, den Formulierungskontext und die Vorbehalte; es belegt kein klinisch validiertes Behandlungsschema.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "Anti-Aging und Haut"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subkutan"
+    }
+  ]
+}

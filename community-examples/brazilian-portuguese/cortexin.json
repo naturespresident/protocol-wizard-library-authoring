@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cortexin",
+      "name": "Cortexin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cortexin-catalog-entry",
+      "productID": "cortexin",
+      "title": "Protocolo de dosagem de Cortexin (10 mg) — referência da fonte",
+      "purpose": "Detalhes do esquema e do manuseio da página individual, transcritos como referência para pesquisa e educação",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; os detalhes abaixo são declarações da própria fonte, não orientações clínicas verificadas de forma independente. Convenção russa registrada relatada pela página: frasco inteiro de 10 mg por via IM uma vez ao dia durante 10 dias consecutivos; reconstituído em 1–2 mL de diluente; repetir somente após 3–6 meses. Produto sob prescrição na Rússia, não aprovado pela FDA; as evidências em humanos são majoritariamente em russo e frequentemente sem grupo de controle.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Curso russo registrado",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "10",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Frasco inteiro de 10 mg por dia; a fonte diz para dissolver em 1–2 mL de diluente. Repetir após 3–6 meses, se prescrito."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Esquema do produto registrado na Rússia; não aprovado pela FDA e não é uma recomendação de uso em humanos para frascos de pesquisa."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cortexin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cortexin-10mg-vial-dosage-protocol/",
+      "title": "Cortexin (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cortexin-catalog-entry",
+      "sourceID": "cortexin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página da fonte individual revisada. Este JSON preserva o esquema declarado na página, o contexto da formulação e suas ressalvas; não estabelece um regime clinicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "Cognitivo e neurológico"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuscular"
+    }
+  ]
+}

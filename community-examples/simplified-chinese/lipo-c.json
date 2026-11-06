@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "lipo-c",
+      "name": "Lipo-C",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "lipo-c-catalog-entry",
+      "productID": "lipo-c",
+      "title": "Lipo-C（10 mL 药瓶）剂量方案——来源参考",
+      "purpose": "从单页转录的时间安排和处理细节，作为研究／教育参考",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下细节是该来源自身的陈述，并非经过独立核实的临床指导。复配的 MIC + B12 混合物，并非肽类。诊所和调配机构的参考资料描述每周一次或两次肌内注射，每次 0.5–1 mL；没有对照试验证实该混合物的剂量或减脂效果。供货时已预混；无需复溶；储存要求和使用期限（BUD）遵循调配机构的规定。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "调配机构／诊所参考范围",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "0.5",
+              "maximum": "1",
+              "unit": "mL",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "times_per_week",
+              "times_per_week": null,
+              "doses_per_day": 1,
+              "description": "诊所参考资料提及每周一次或两次肌内注射；没有对照试验证实该混合物的给药方案。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Lipo-C 是复配的 MIC + B12 混合物，并非肽类。请遵循具体调配机构或处方医师的指示；没有对照研究提供剂量证据。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "lipo-c-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/peptide-blends/lipo-c-10ml-vial-dosage-protocol/",
+      "title": "Lipo-C (10 mL Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "lipo-c-catalog-entry",
+      "sourceID": "lipo-c-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅该单页来源。此 JSON 保留该页面所述的时间安排／配方背景及其注意事项；这并不能确立经过临床验证的给药方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重与代谢"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "肌内注射"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "davunetide",
+      "name": "Davunetide",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "davunetide-catalog-entry",
+      "productID": "davunetide",
+      "title": "Davunetide (5 mg) 용량 투여 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부사항을 연구/교육 참고용으로 옮겨 적었어요.",
+      "methodID": "intranasal",
+      "population": "",
+      "evidenceNotes": "상업적 보조 출처예요. 아래 세부사항은 출처 자체의 진술이며, 독립적으로 검증된 임상 지침은 아니에요. 확립된 주사 용량은 없어요. 모든 인체 시험은 비강 내 투여였고, 부정적인 2/3상 PSP 시험에는 30 mg 용량을 하루 두 번 투여했어요. 5 mg 바이알 + 2 mL 정균수는 참고용 재구성 정보일 뿐, 주사 일정이 아니에요. 연구용으로만 사용하며, FDA 승인을 받지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "중추적 PSP 시험",
+            "duration": {
+              "kind": "fixed",
+              "value": 52,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "30",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": [],
+              "description": "주사가 아닌 비강 내 투여예요. 중추적 PSP 시험에서 위약 대비 이점이 나타나지 않았어요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "모든 인체 시험은 비강 내 투여였어요. 30 mg 용량을 하루 두 번, 52주간 투여한 요법은 부정적인 PSP 시험에 해당하며, 검증된 주사 용량은 없어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "davunetide-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/davunetide-5mg-vial-dosage-protocol/",
+      "title": "Davunetide (5 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "davunetide-catalog-entry",
+      "sourceID": "davunetide-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 해당 페이지에 기재된 일정/제형 맥락과 주의사항을 보존하며, 임상적으로 검증된 요법을 확립하지는 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경계"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "비강 내"
+    }
+  ]
+}

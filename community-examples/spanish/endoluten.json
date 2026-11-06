@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "endoluten",
+      "name": "Endoluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "endoluten-catalog-entry",
+      "productID": "endoluten",
+      "title": "Endoluten (biorregulador pineal) — protocolo de dosificación como referencia de la fuente",
+      "purpose": "Cronograma de una página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; estas son afirmaciones de la página, no una guía clínica verificada de forma independiente. Convención para cápsulas orales: 1–2 cápsulas al día durante 10–30 días, por lo general 15–20 minutos antes de una comida; repetir 2–3 ciclos/año. Extracto de pineal animal, no Epitalon/Epithalamin; no requiere reconstitución y no tiene una dosis terapéutica validada.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Ciclo oral",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "Por lo general, 15–20 minutos antes de una comida; repetir 2–3 ciclos/año."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "La fuente informa sobre cápsulas orales y un ciclo convencional, pero aquí no indica la masa de cada cápsula. La dosis se expresa en número de cápsulas; no hay inyección ni reconstitución."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "endoluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/endoluten-pineal-bioregulator-dosage-protocol/",
+      "title": "Endoluten (Pineal Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "endoluten-catalog-entry",
+      "sourceID": "endoluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de una fuente individual. Estas son afirmaciones de la fuente y no una guía clínica verificada de forma independiente; no se ha establecido un régimen humano, salvo que la fuente indique lo contrario.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializados y clínicos"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "Oral"
+    }
+  ]
+}

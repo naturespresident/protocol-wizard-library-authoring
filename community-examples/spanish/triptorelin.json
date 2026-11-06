@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "triptorelin",
+      "name": "Triptorelin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "triptorelin-catalog-entry",
+      "productID": "triptorelin",
+      "title": "Protocolo de dosificación de acetato de Triptorelin (2 mg) — referencia de la fuente",
+      "purpose": "Cronograma de la página individual y detalles de manejo, transcritos como referencia de investigación y educación",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "Fuente comercial secundaria; los detalles a continuación son afirmaciones de la propia fuente y no se verificaron de manera independiente como orientación clínica. La página no recomienda la autoadministración. Triptorelin es un agonista potente de GnRH de prescripción, con formulaciones de depósito que se usan bajo atención de especialistas; inicialmente provoca un aumento transitorio de hormonas y luego suprime LH/FSH y las hormonas sexuales. La página del vial de investigación no es una guía de dosificación adecuada.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Opciones de dosis de depósito",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "3.75",
+                "11.25",
+                "22.5"
+              ],
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "description": "Diferentes formulaciones de depósito de liberación prolongada aprobadas: 3.75 mg mensuales, 11.25 mg cada 3 meses o 22.5 mg cada 6 meses, administradas por un profesional clínico. Un vial de investigación simple de 2 mg no es una formulación de depósito."
+            }
+          },
+          {
+            "name": "Contexto histórico de liberación inmediata",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "0.5",
+              "unit": "mg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "description": "Régimen histórico bajo supervisión durante la primera semana y luego una dosis de mantenimiento menor; la página no especifica la cantidad de mantenimiento."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Hormona de prescripción utilizada bajo supervisión de un especialista; la fuente indica explícitamente que su vial de investigación no reproduce la farmacocinética de depósito y no proporciona un régimen de autoadministración."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "triptorelin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/triptorelin-2mg-vial-dosage-protocol/",
+      "title": "Triptorelin Acetate (2 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "triptorelin-catalog-entry",
+      "sourceID": "triptorelin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Se revisó la página de la fuente individual. Este JSON conserva el cronograma y el contexto de formulación indicados por la página, así como sus advertencias; no establece un régimen clínicamente validado.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializados y clínicos"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "Intramuscular"
+    }
+  ]
+}

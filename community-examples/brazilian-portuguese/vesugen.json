@@ -1,0 +1,407 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "vesugen",
+      "name": "Vesugen",
+      "aliases": [
+        "KED",
+        "Lys-Glu-Asp"
+      ],
+      "kind": "product",
+      "identityStatus": "needs_confirmation",
+      "categoryID": 6,
+      "benefits": "As fontes descrevem Vesugen (Lys-Glu-Asp / KED) como um biorregulador vascular e propõem efeitos sobre a expressão gênica endotelial. Também fazem afirmações sobre a pressão arterial e outros efeitos cardiovasculares, mas essas fontes não comprovam eficácia ou segurança em pessoas. A Dosage Peptide caracteriza as evidências subjacentes como compostas principalmente por pesquisas em cultura de células e pequenos relatos não randomizados de uma única linha de pesquisa, com benefícios ainda não comprovados."
+    }
+  ],
+  "protocols": [
+    {
+      "id": "vesugen-mypeptidematch-reference",
+      "productID": "vesugen",
+      "title": "Vesugen — curso de 10 dias da fonte MyPeptideMatch",
+      "purpose": "Planejamento de referência descrito pela fonte",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; the source describes this as educational information and recommends provider review.",
+      "evidenceNotes": "Fonte editorial secundária. A página apresenta um protocolo de 10 dias e um esquema de manutenção, mas não fornece evidências em nível de estudo de que essas doses sejam seguras ou eficazes em pessoas. Os detalhes de reconstituição entram em conflito: o guia rápido especifica 10 mL de água bacteriostática para um frasco de 20 mg, enquanto a lista de materiais indica 2 mL. O volume de 10 mL corresponde à concentração declarada de 2 mg/mL; a discrepância permanece sem solução.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vesugen"
+            }
+          ],
+          "sequence_as_reported": "Lys-Glu-Asp (KED)"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "10",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "2",
+              "unit": "mg/mL",
+              "approximate": false
+            },
+            "provenance": {
+              "source_id": "vesugen-mypeptidematch",
+              "source_url": "https://www.mypeptidematch.com/protocols/vesugen-dosing-20mg",
+              "locator": "Destaques do guia rápido; Etapas de reconstituição"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Curso de 10 dias",
+            "duration": {
+              "kind": "fixed",
+              "value": 10,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "maintenance_alternatives": [
+          {
+            "dose": {
+              "value": "200",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Em dias alternados; a fonte não informa a duração da manutenção."
+            }
+          }
+        ],
+        "off_period": {
+          "minimum": 4,
+          "maximum": 6,
+          "unit": "calendar_month"
+        },
+        "timing_guidance": {
+          "preferred_time_of_day": "morning",
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "secondary_editorial_preference"
+        },
+        "storage": {
+          "source_id": "vesugen-mypeptidematch",
+          "notes": "A fonte informa que o material liofilizado deve ser armazenado abaixo de 25 °C. Diz para refrigerar a solução reconstituída a 2–8 °C e usá-la em até 28 dias."
+        },
+        "cautions": {
+          "source_id": "vesugen-mypeptidematch",
+          "source_statements": [
+            {
+              "section": "Tabela de dosagem",
+              "subsection": "Referência educacional",
+              "excerpt": "Apenas para referência educacional. Seu profissional prescritor pode ajustar as doses com base no seu perfil clínico e na sua resposta.",
+              "truncated": false
+            },
+            {
+              "section": "Perguntas frequentes",
+              "subsection": "Vesugen pode reduzir a pressão arterial?",
+              "excerpt": "Esses produtos não substituem os medicamentos anti-hipertensivos, mas podem oferecer suporte complementar.",
+              "truncated": false
+            },
+            {
+              "section": "Aviso legal",
+              "subsection": "",
+              "excerpt": "Este conteúdo é apenas informativo e não constitui orientação médica. Consulte um profissional de saúde habilitado antes de iniciar qualquer terapia com peptídeos. A dosagem e os protocolos podem variar conforme a formulação e o prescritor.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established_by_this_source",
+          "conflicting_reconstitution_volume_in_source",
+          "maintenance_duration_not_specified",
+          "primary_study_details_not_provided"
+        ],
+        "notes": "Apenas referência da fonte. A página descreve um curso de 10 dias e uma alternativa de manutenção em dias alternados; não informa a duração da manutenção."
+      }
+    },
+    {
+      "id": "vesugen-dosage-peptide-reference",
+      "productID": "vesugen",
+      "title": "Vesugen — titulação diária da fonte Dosage Peptide (não verificada)",
+      "purpose": "Planejamento de referência descrito pela fonte",
+      "methodID": "subcutaneous",
+      "population": "Unspecified; source describes this as research and educational information, not human dosing guidance.",
+      "evidenceNotes": "Fonte comercial secundária. Seu esquema de doses diárias (500–2,000 mcg) difere substancialmente do curso de 10 dias com 200 mcg e da alternativa de manutenção de 200 mcg em dias alternados da MyPeptideMatch. Os esquemas das fontes são mantidos separados; nenhum deles estabelece um regime humano seguro ou eficaz.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "formulation": {
+          "format": "single_compound",
+          "components": [
+            {
+              "library_item_id": "vesugen"
+            }
+          ],
+          "sequence_as_reported": "Lys-Glu-Asp (KED)"
+        },
+        "preparation_options": [
+          {
+            "form": "dry",
+            "dry_amount": {
+              "value": "20",
+              "unit": "mg"
+            },
+            "diluent": "bacteriostatic_water",
+            "diluent_volume": {
+              "value": "3.0",
+              "unit": "mL"
+            },
+            "source_reported_concentration": {
+              "value": "6.67",
+              "unit": "mg/mL",
+              "approximate": true
+            },
+            "provenance": {
+              "source_id": "vesugen-dosage-peptide",
+              "source_url": "https://www.dosagepeptide.com/single-peptide-dosages/vesugen-20mg-vial-dosage-protocol/",
+              "locator": "Guia de dosagem e reconstituição; Abordagem padrão / gradual"
+            }
+          }
+        ],
+        "phases": [
+          {
+            "name": "Semana 1",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semana 2",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1000",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semana 3",
+            "duration": {
+              "kind": "fixed",
+              "value": 7,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "1500",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "Semanas 4–8",
+            "duration": {
+              "kind": "fixed",
+              "value": 35,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "1500",
+              "maximum": "2000",
+              "unit": "mcg",
+              "basis": "total_product"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          }
+        ],
+        "optional_extension": {
+          "dose": {
+            "minimum": "1500",
+            "maximum": "2000",
+            "unit": "mcg",
+            "basis": "total_product"
+          },
+          "notes": "A fonte diz que algumas referências estendem o curso para cerca de 16 semanas; não fornece um esquema de titulação separado para essa extensão."
+        },
+        "timing_guidance": {
+          "preferred_time_of_day": null,
+          "suggested_clock_times": [],
+          "relative_events": [],
+          "food_guidance": null,
+          "spacing_between_components": null,
+          "basis": "source_reported"
+        },
+        "storage": {
+          "source_id": "vesugen-dosage-peptide",
+          "notes": "A fonte informa que os frascos liofilizados devem ser armazenados a −20 °C (−4 °F). Diz para refrigerar a solução reconstituída a 2–8 °C, protegê-la da luz e não congelá-la."
+        },
+        "cautions": {
+          "source_id": "vesugen-dosage-peptide",
+          "source_statements": [
+            {
+              "section": "Destaques do guia rápido",
+              "subsection": "Limitação de uso em pesquisa",
+              "excerpt": "Esses valores descrevem apenas o manuseio experimental relatado e são fornecidos para uso em pesquisa, não para uso em pessoas.",
+              "truncated": false
+            },
+            {
+              "section": "Como funciona",
+              "subsection": "Ressalva sobre as evidências",
+              "excerpt": "Os estudos em humanos existentes são pequenos, não randomizados e não controlados por placebo.",
+              "truncated": false
+            },
+            {
+              "section": "Aviso importante",
+              "subsection": "",
+              "excerpt": "Os compostos de pesquisa mencionados aqui destinam-se apenas a uso laboratorial e em pesquisas — não ao consumo humano — e não são aprovados pela FDA para uso em pessoas.",
+              "truncated": false
+            }
+          ],
+          "independent_verification": false
+        },
+        "evidence_context": {
+          "regimen_basis": "secondary_editorial_or_community_reference",
+          "independent_primary_source_verification": false
+        },
+        "unresolved_fields": [
+          "human_dose_and_safety_not_established",
+          "conflicting_source_dose_schedules",
+          "source_course_length_varies_from_8_to_12_weeks_with_some_references_to_16",
+          "optional_extension_schedule_not_fully_specified"
+        ],
+        "notes": "Apenas referência da fonte. A página descreve 8–12 semanas como período típico, com algumas referências estendendo o curso para cerca de 16 semanas. A tabela detalhada abrange as Semanas 1–8 e apresenta uma faixa de doses para as Semanas 4–8+."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "vesugen-mypeptidematch",
+      "url": "https://www.mypeptidematch.com/protocols/vesugen-dosing-20mg",
+      "title": "Vesugen Dosing Protocol: 20 mg Vial — Vascular Bioregulator & Cardiovascular Guide",
+      "publisher": "MyPeptideMatch",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "vesugen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/vesugen-20mg-vial-dosage-protocol/",
+      "title": "Vesugen (20mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": "2025-11-27"
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "vesugen-mypeptidematch-reference",
+      "sourceID": "vesugen-mypeptidematch",
+      "locator": "Quickstart highlights; Dosing table; Reconstitution steps; Protocol overview & cycle notes; Storage & handling",
+      "evidenceNote": "Esquema de referência descrito pela fonte. O volume de reconstituição informado na página é inconsistente, e a verificação independente em fontes primárias está pendente.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/maintenance_alternatives",
+        "/off_period",
+        "/timing_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    },
+    {
+      "productID": "vesugen",
+      "sourceID": "vesugen-mypeptidematch",
+      "locator": "Quickstart highlights; How this works & references",
+      "evidenceNote": "A página identifica Vesugen como Lys-Glu-Asp (KED) e descreve efeitos vasculares propostos; a referência citada e as afirmações não foram verificadas de forma independente aqui.",
+      "supports": [
+        "/name",
+        "/aliases",
+        "/benefits",
+        "/category_id"
+      ]
+    },
+    {
+      "protocolID": "vesugen-dosage-peptide-reference",
+      "sourceID": "vesugen-dosage-peptide",
+      "locator": "Dosing & Reconstitution Guide; Quickstart Highlights; Protocol Overview; Storage Instructions; Important Disclaimer",
+      "evidenceNote": "Fonte comercial secundária. Ela classifica o esquema como destinado apenas à pesquisa e afirma que ele não é uma dosagem humana validada. Seu esquema de doses difere substancialmente do esquema da MyPeptideMatch também registrado neste arquivo.",
+      "supports": [
+        "/formulation",
+        "/preparation_options",
+        "/phases",
+        "/optional_extension",
+        "/timing_guidance",
+        "/storage",
+        "/cautions",
+        "/evidence_context"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "Especializados e clínicos"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutâneo"
+    }
+  ]
+}

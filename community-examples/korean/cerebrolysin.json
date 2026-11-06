@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "cerebrolysin",
+      "name": "Cerebrolysin",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "cerebrolysin-catalog-entry",
+      "productID": "cerebrolysin",
+      "title": "Cerebrolysin (60mg 바이알) 용량 프로토콜 — 출처 참고",
+      "purpose": "연구 및 교육 참고용으로 옮긴 개별 페이지의 일정과 취급 세부 정보예요.",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "상업적 이차 출처이며, 아래 세부 사항은 독립적으로 검증된 임상 지침이 아니라 출처 자체의 진술이에요. 페이지의 참고 일정은 60 mg 바이알을 3 mL 용량으로 재구성한 뒤 1주차에는 20 mg/day, 2주차에는 24 mg/day를 오전과 오후로 나누어 투여하고, 3주차에는 28 mg/day를 오전과 오후로 나누어 투여하며, 4주차부터는 32 mg/day를 투여하는 방식이에요. 이는 상업적 연구 참고 자료이며 인체 사용 지침이 아니에요. 제품은 돼지 뇌 유래 혼합물이며 미국에서 FDA 승인을 받지 않았어요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "1주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "20",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "2주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "24",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "3주차",
+            "duration": {
+              "kind": "fixed",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "28",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          },
+          {
+            "name": "4주차 이후",
+            "duration": {
+              "kind": "ongoing",
+              "value": 1,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "32",
+              "unit": "mg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "suggested_times": []
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "페이지의 참고 일정은 60 mg 바이알을 3 mL 용량으로 재구성한 뒤 1주차에는 20 mg/day, 2주차에는 24 mg/day를 오전과 오후로 나누어 투여하고, 3주차에는 28 mg/day를 오전과 오후로 나누어 투여하며, 4주차부터는 32 mg/day를 투여하는 방식이에요. 이는 상업적 연구 참고 자료이며 인체 사용 지침이 아니에요. 제품은 돼지 뇌 유래 혼합물이며 미국에서 FDA 승인을 받지 않았어요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "cerebrolysin-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/cerebrolysin-60mg-vial-dosage-protocol/",
+      "title": "Cerebrolysin (60mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "cerebrolysin-catalog-entry",
+      "sourceID": "cerebrolysin-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "개별 출처 페이지를 검토했어요. 이 JSON은 페이지에 명시된 일정과 제형 맥락, 주의 사항을 보존하며 임상적으로 검증된 요법을 확립하지 않아요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "인지 및 신경학"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "근육내"
+    }
+  ]
+}

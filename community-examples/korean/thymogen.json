@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "thymogen",
+      "name": "Thymogen",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "thymogen-catalog-entry",
+      "productID": "thymogen",
+      "title": "Thymogen (10 mg) 용량 프로토콜 — 출처 참고",
+      "purpose": "개별 페이지의 일정 및 취급 세부 사항을 연구/교육 참고 자료로 옮겼어요.",
+      "methodID": "intramuscular",
+      "population": "",
+      "evidenceNotes": "보조 출처의 개별 페이지에 있는 설명이며, 독립적으로 검증된 의료 지침은 아니에요. 페이지에 보고된 등록 제품의 일정은 짧은 3–10일 과정으로, 약 100 mcg(근육 내 매일 투여)예요. 비강 내 사용도 설명되어 있어요. 10 mg + 2 mL (정균수)를 더하면 5 mg/mL가 되지만, 출처는 이 연구용 바이알이 약 100회분의 기준 용량이라고 경고해요. 러시아에 등록된 제품이며 FDA 승인을 받지 않았어요. alpha-L-Glu-Trp를 golotimod/SCV-07과 혼동하지 마세요.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "단기 투여 과정",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 3,
+              "maximum": 10
+            },
+            "dose": {
+              "value": "100",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "출처에서는 비강 내 투여도 설명하며, alpha-L-Glu-Trp와 golotimod/SCV-07을 구분해요."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "페이지에 보고된 등록 제품의 일정이에요. FDA 승인을 받지 않았으며, 연구용 바이알 사용을 권장하는 내용이 아니에요."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "thymogen-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/thymogen-10mg-vial-dosage-protocol/",
+      "title": "Thymogen (10 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "thymogen-catalog-entry",
+      "sourceID": "thymogen-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; evidence and safety notes",
+      "evidenceNote": "개별 프로토콜 페이지를 검토했어요. 이 항목은 출처에 보고된 세부 정보와 해당 페이지의 한계를 보존하며, 임상 용량 지침이 아니에요.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "전문 및 임상"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intramuscular",
+      "name": "근육 내"
+    }
+  ]
+}

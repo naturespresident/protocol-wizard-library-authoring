@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "slu-pp-332",
+      "name": "SLU-PP-332",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 2,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "slu-pp-332-catalog-entry",
+      "productID": "slu-pp-332",
+      "title": "SLU-PP-332（5mg バイアル）投与プロトコル — 出典参照",
+      "purpose": "研究・教育目的の参考情報として転記した、個別ページのスケジュールと取扱いの詳細です。",
+      "methodID": "other",
+      "population": "",
+      "evidenceNotes": "二次的な商業情報源です。以下の詳細は出典自体の記述であり、独立して検証された臨床指針ではありません。マウス換算のスケジュールのみです：第1～2週は625 mcg を朝夕に投与（1,250 mcg/日）、続く第3～8週は1,250 mcg を朝夕に投与（2,500 mcg/日）します。約25 gのマウスに基づくものであり、ヒト用量ではありません。5 mg + 3 mL は参考計算です。これはペプチドではなく低分子化合物であり、前臨床段階のみです。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "第1～2週、マウス換算",
+            "duration": {
+              "kind": "fixed",
+              "value": 2,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "625",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "約25 gのマウスの場合、625 mcg を朝夕それぞれ投与します（1,250 mcg/日）。ヒト用量ではありません。"
+            }
+          },
+          {
+            "name": "第3～8週、マウス換算",
+            "duration": {
+              "kind": "fixed",
+              "value": 6,
+              "unit": "week"
+            },
+            "dose": {
+              "value": "1250",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "suggested_times": [],
+              "pattern": "daily",
+              "doses_per_day": 2,
+              "description": "約25 gのマウスの場合、1,250 mcg を朝夕それぞれ投与します（2,500 mcg/日）。ヒト用量ではありません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "前臨床のマウス換算スケジュールのみです。SLU-PP-332はペプチドではなく低分子化合物です。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "slu-pp-332-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/slu-pp-332-5mg-vial-dosage-protocol/",
+      "title": "SLU-PP-332 (5mg Vial) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "slu-pp-332-catalog-entry",
+      "sourceID": "slu-pp-332-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONは、ページに記載されたスケジュールと製剤の文脈および注意事項を保持するものであり、臨床的に検証された投与計画を確立するものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "体重と代謝"
+    }
+  ],
+  "methods": [
+    {
+      "id": "other",
+      "name": "その他"
+    }
+  ]
+}

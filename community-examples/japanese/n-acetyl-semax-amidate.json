@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "n-acetyl-semax-amidate",
+      "name": "N-Acetyl Semax Amidate",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 5,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "n-acetyl-semax-amidate-catalog-entry",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidateの経鼻投与に関する参考スケジュール",
+      "purpose": "出典に記載された経鼻投与の研究スケジュールです。独立した臨床ガイダンスとして検証されていません。",
+      "methodID": "intranasal",
+      "population": "Research reference; the source notes limited amidate-specific clinical research",
+      "evidenceNotes": "Peptides.orgの表と用量に関する説明には、600 mcg/日から開始し、必要に応じて調整して、最長30日間、最大900 mcg/日とする経鼻投与の研究上の参考スケジュールが記載されています。表には2–3プッシュ/日とあります。また、最長60日間、600 mcg/日とする代替案も記載されています。同ページはアミド化体に特化した臨床研究が不足しており、Semaxの参考情報を用いていると説明しています。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "経鼻投与の標準的な参考スケジュール",
+            "duration": {
+              "kind": "maximum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "minimum": "600",
+              "maximum": "900",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "出典では、600 mcg/日から開始し、必要に応じて最大900 mcg/日まで調整するとされています。表ではこれを2–3プッシュ/日と表記しています。記載されているスプレー濃度は10 mg/10 mL (0.1%)および30 mg/10 mL (0.3%)で、いずれも各用量300 mcg/回を投与するとされています。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "出典では、研究期間と同じ期間の休薬が記載されています。代替スケジュールは別に記録されています。これは出典に記載された研究上の参考情報であり、N-Acetyl Semax Amidateの確立された臨床プロトコルではありません。"
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-intranasal-extended",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidateの経鼻投与に関する延長参考スケジュール",
+      "purpose": "出典に別案として記載された研究スケジュールです。",
+      "methodID": "intranasal",
+      "population": "Research reference; amidate-specific clinical validation not established",
+      "evidenceNotes": "Peptides.orgはこれを代替の研究スケジュールとして記載しています。同ページによると、アミド化体に特化した臨床投与データは不足しており、出典の主張は独立して検証されていません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "経鼻投与の延長代替案",
+            "duration": {
+              "kind": "maximum",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "出典では、代替案として最長60日間、600 mcg/日と記載されています。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "出典では、600 mcg/日を最長60日間使用し、その後、研究期間と同じ期間の休薬を設けるとしています。これは検証済みのヒト用プロトコルではありません。"
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-injectable-reference",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidateの注射剤に関する参考スケジュール",
+      "purpose": "出典に別案として記載された研究スケジュールです。",
+      "methodID": "other",
+      "population": "Research reference; source does not specify injection route",
+      "evidenceNotes": "Peptides.orgはこれを代替の研究スケジュールとして記載しています。同ページによると、アミド化体に特化した臨床投与データは不足しており、出典の主張は独立して検証されていません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "注射剤の標準的な参考スケジュール",
+            "duration": {
+              "kind": "maximum",
+              "value": 30,
+              "unit": "day"
+            },
+            "dose": {
+              "options": [
+                "500",
+                "1000"
+              ],
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "出典では、500 mcg/日の投与から開始し、1,000 mcg/回を毎日一回または二回投与するよう増量すると記載されています。増量の時期や方法は記載されていません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "注射剤の投与経路は特定されていません。同ページはこれを研究上の参考情報として掲載し、研究期間の上限を30日、休薬期間を研究期間と同じ長さとしています。投与経路や漸増スケジュールを推測しないでください。"
+      }
+    },
+    {
+      "id": "n-acetyl-semax-amidate-injectable-extended",
+      "productID": "n-acetyl-semax-amidate",
+      "title": "N-Acetyl Semax Amidateの注射剤に関する延長参考スケジュール",
+      "purpose": "出典に別案として記載された研究スケジュールです。",
+      "methodID": "other",
+      "population": "Research reference; source does not specify injection route",
+      "evidenceNotes": "Peptides.orgはこれを代替の研究スケジュールとして記載しています。同ページによると、アミド化体に特化した臨床投与データは不足しており、出典の主張は独立して検証されていません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "注射剤の延長代替案",
+            "duration": {
+              "kind": "maximum",
+              "value": 60,
+              "unit": "day"
+            },
+            "dose": {
+              "value": "600",
+              "unit": "mcg",
+              "basis": "daily_total"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "出典の代替レジメンの行には、最長60日間、600 mcg/日と記載されています。この行では投与経路は特定されていません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "washout_period_equals_study_duration"
+        ],
+        "notes": "出典の代替レジメンの行には、注射剤についてもこのスケジュールが記載されています。投与経路と投与の詳細は示されていません。休薬期間は研究期間と同じ長さです。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "n-acetyl-semax-amidate-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/n-acetyl-semax-amidate-nasal-spray-dosage-protocol/",
+      "title": "N-Acetyl Semax Amidate (Nasal Spray) Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "n-acetyl-semax-amidate-peptides-org",
+      "url": "https://www.peptides.org/n-acetyl-semax-amidate-dosage-calculator/",
+      "title": "N-Acetyl Semax Amidate Dosage Calculator and Chart",
+      "publisher": "Peptides.org",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "n-acetyl-semax-amidate-catalog-entry",
+      "sourceID": "n-acetyl-semax-amidate-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "元の出典には製剤に関する情報が記載されています。Peptides.orgの出典には、経鼻投与および注射による研究スケジュールが別途記載されています。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-intranasal-extended",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "同ページに記載された代替スケジュールです。同ページはアミド化体に特化した臨床研究が限られていると述べています。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-injectable-reference",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "同ページに記載された代替スケジュールです。同ページはアミド化体に特化した臨床研究が限られていると述べています。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "n-acetyl-semax-amidate-injectable-extended",
+      "sourceID": "n-acetyl-semax-amidate-peptides-org",
+      "locator": "N-Acetyl Semax Amidate Dosage Chart; N-Acetyl Semax Amidate Dosage Calculator",
+      "evidenceNote": "同ページに記載された代替スケジュールです。同ページはアミド化体に特化した臨床研究が限られていると述べています。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 5,
+      "name": "認知・神経系"
+    }
+  ],
+  "methods": [
+    {
+      "id": "intranasal",
+      "name": "経鼻投与"
+    },
+    {
+      "id": "other",
+      "name": "注射（投与経路不明）"
+    }
+  ]
+}

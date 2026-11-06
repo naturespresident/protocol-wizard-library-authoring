@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "acetyl-tetrapeptide-3",
+      "name": "Acetyl Tetrapeptide-3",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 3,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "acetyl-tetrapeptide-3-catalog-entry",
+      "productID": "acetyl-tetrapeptide-3",
+      "title": "Acetyl Tetrapeptide-3（外用）用量プロトコル — 出典参照",
+      "purpose": "出典に記載された外用化粧品の配合指針を、研究・教育用の参考情報として記録したものです。",
+      "methodID": "topical",
+      "population": "Topical cosmetic formulations",
+      "evidenceNotes": "Typologyの成分情報には、予防ケア用として0.5–2.5%、集中的なトリートメント用として2.5–5%の化粧品配合濃度が記載されています。顔用ケア製品（まつ毛・眉毛用美容液やアイクリームを含む）、ヘアケア製品（補強シャンプーやヘア美容液を含む）、マスカラへの外用を説明しています。これらは配合濃度であり、質量単位の用量でも使用時の用量でもありません。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "外用化粧品の配合濃度範囲",
+            "duration": {
+              "kind": "unreported",
+              "value": null,
+              "unit": "day"
+            },
+            "dose": null,
+            "schedule": {
+              "pattern": "source_described",
+              "doses_per_day": null,
+              "suggested_times": [],
+              "description": "Typologyは、予防用化粧品の配合濃度として0.5–2.5%、集中的なトリートメント用の配合濃度として2.5–5%を記載しています。外用製品の例には、顔用ケア製品、まつ毛・眉毛用美容液、アイクリーム、補強シャンプー、ヘア美容液、マスカラが含まれます。これらは配合濃度であり、使用時に投与する質量ではありません。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable",
+          "source_percent_formulation_levels_not_supported_by_dose_unit"
+        ],
+        "notes": "Typologyは、予防用化粧品の配合濃度として0.5–2.5%、集中的なトリートメント用の配合濃度として2.5–5%を記載しています。これらの外用配合濃度はスキーマの用量単位では表せないため、用量は未設定のままです。使用時の質量用量ではありません。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "acetyl-tetrapeptide-3-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/acetyl-tetrapeptide-3-topical-dosage-protocol/",
+      "title": "Acetyl Tetrapeptide-3 (Topical) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    },
+    {
+      "id": "acetyl-tetrapeptide-3-typology",
+      "url": "https://us.typology.com/library/fiche-didentite-acetyl-tetrapeptide-3",
+      "title": "Acetyl Tetrapeptide-3 identity profile",
+      "publisher": "Typology",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "acetyl-tetrapeptide-3-catalog-entry",
+      "sourceID": "acetyl-tetrapeptide-3-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "個別の出典ページを確認しました。このJSONでは、ページに記載されたスケジュール・配合の文脈と注意事項を保持しています。臨床的に妥当性が確認されたレジメンを示すものではありません。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    },
+    {
+      "protocolID": "acetyl-tetrapeptide-3-catalog-entry",
+      "sourceID": "acetyl-tetrapeptide-3-typology",
+      "locator": "Identity profile: Required dosage in cosmetic products; Usage",
+      "evidenceNote": "このページには、予防用化粧品で0.5–2.5%、集中的なトリートメント用で2.5–5%と記載されており、顔用ケア製品、ヘアケア製品、マスカラへの外用例が挙げられています。",
+      "supports": [
+        "/methodID",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 3,
+      "name": "エイジングケア・肌"
+    }
+  ],
+  "methods": [
+    {
+      "id": "unspecified",
+      "name": "指定なし"
+    },
+    {
+      "id": "topical",
+      "name": "外用"
+    }
+  ]
+}

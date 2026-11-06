@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "igf-1-des",
+      "name": "IGF-1 DES",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 4,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "igf-1-des-catalog-entry",
+      "productID": "igf-1-des",
+      "title": "IGF-1 DES (1 mg) Protocolo de dosagem — referência da fonte",
+      "purpose": "Cronograma e detalhes de manuseio da página individual, transcritos como referência de pesquisa e educação",
+      "methodID": "subcutaneous",
+      "population": "",
+      "evidenceNotes": "Fonte comercial secundária; estas são as declarações da página, não orientação clínica verificada de forma independente. Convenções de pesquisa citam 20–50 mcg por via SC uma vez ao dia, frequentemente próximo ao músculo treinado, em ciclos curtos de 4–6 semanas. Apenas pré-clínico; não há ensaios em humanos sobre crescimento muscular e não é aprovado pela FDA.",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "Convenção de pesquisa",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "week"
+            },
+            "dose": {
+              "minimum": "20",
+              "maximum": "50",
+              "unit": "mcg",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "A fonte descreve ciclos curtos de 4–6 semanas."
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "Convenções de pesquisa citam 20–50 mcg por via SC uma vez ao dia, frequentemente próximo ao músculo treinado, em ciclos curtos de 4–6 semanas. Apenas pré-clínico; não há ensaios em humanos sobre crescimento muscular e não é aprovado pela FDA."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "igf-1-des-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/igf-1-des-1mg-vial-dosage-protocol/",
+      "title": "IGF-1 DES (1 mg) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "igf-1-des-catalog-entry",
+      "sourceID": "igf-1-des-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "Página da fonte específica consultada. Estas são declarações da fonte e não orientação clínica verificada de forma independente; nenhum regime para humanos está estabelecido, a menos que a fonte diga o contrário.",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 4,
+      "name": "Hormônio do crescimento"
+    }
+  ],
+  "methods": [
+    {
+      "id": "subcutaneous",
+      "name": "Subcutânea"
+    }
+  ]
+}

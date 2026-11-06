@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": 1,
+  "items": [
+    {
+      "id": "endoluten",
+      "name": "Endoluten",
+      "aliases": [],
+      "kind": "product",
+      "identityStatus": "resolved",
+      "categoryID": 6,
+      "benefits": null
+    }
+  ],
+  "protocols": [
+    {
+      "id": "endoluten-catalog-entry",
+      "productID": "endoluten",
+      "title": "Endoluten（松果体生物调节剂）剂量方案——来源参考",
+      "purpose": "将单页来源中的时间安排和处理细节转录为研究／教育参考资料",
+      "methodID": "oral",
+      "population": "",
+      "evidenceNotes": "二手商业来源；以下是该页面的陈述，未经独立核实，也不是临床指导。口服胶囊的常见用法为：每日 1–2 粒，持续 10–30 天，通常在餐前 15–20 分钟服用；每年重复 2–3 个疗程。动物松果体提取物，不同于 Epitalon／Epithalamin；无需复溶，也没有经过验证的治疗剂量。",
+      "regimen": {
+        "version": 1,
+        "regimen_type": "single_compound",
+        "phases": [
+          {
+            "name": "口服疗程",
+            "duration": {
+              "kind": "range",
+              "value": null,
+              "unit": "day",
+              "minimum": 10,
+              "maximum": 30
+            },
+            "dose": {
+              "minimum": "1",
+              "maximum": "2",
+              "unit": "capsule",
+              "basis": "per_administration"
+            },
+            "schedule": {
+              "pattern": "daily",
+              "doses_per_day": 1,
+              "suggested_times": [],
+              "description": "通常在餐前 15–20 分钟服用；每年重复 2–3 个疗程。"
+            }
+          }
+        ],
+        "unresolved_fields": [
+          "source_reported_schedule_not_independently_verified",
+          "human_safety_or_efficacy_not_established_where_applicable"
+        ],
+        "notes": "来源报告了口服胶囊和常规疗程，但此处未提供胶囊质量。剂量以胶囊数量表示；无需注射或复溶。"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "endoluten-dosage-peptide",
+      "url": "https://www.dosagepeptide.com/single-peptide-dosages/endoluten-pineal-bioregulator-dosage-protocol/",
+      "title": "Endoluten (Pineal Bioregulator) Dosage Protocol",
+      "publisher": "Dosage Peptide",
+      "type": "other",
+      "publishedAt": null
+    }
+  ],
+  "citations": [
+    {
+      "protocolID": "endoluten-catalog-entry",
+      "sourceID": "endoluten-dosage-peptide",
+      "locator": "Quick answer; Dosing & Reconstitution Guide; product-specific evidence and safety notes",
+      "evidenceNote": "已审阅单页来源。以下内容是来源陈述，未经独立核实，也不是临床指导；除非来源另有说明，否则尚未确立人用方案。",
+      "supports": [
+        "/title",
+        "/evidenceNotes",
+        "/regimen/phases",
+        "/regimen/notes"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 6,
+      "name": "专业与临床"
+    }
+  ],
+  "methods": [
+    {
+      "id": "oral",
+      "name": "口服"
+    }
+  ]
+}
